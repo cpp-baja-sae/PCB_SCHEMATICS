@@ -72,7 +72,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXljcHAzNjI" projecturn="a.YnVzaW5lc3M6bXljcHAzNjIjMjAyMDExMzAzNTc5NzQ4MDE" f3durn="urn:adsk.wipprod:dm.lineage:iG86j3T2TSKEEkqXq_fUxg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="09296fb0-acf7-48b5-91fb-b631e7375965" lastsyncedrevisionid="09296fb0-acf7-48b5-91fb-b631e7375965" lastboardhashguid="490b5124-5c2d-7b8b-d8e5-1a857c302582" lastpushedtime="2021-05-30T06:25:44Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXljcHAzNjI" projecturn="a.YnVzaW5lc3M6bXljcHAzNjIjMjAyMDExMzAzNTc5NzQ4MDE" f3durn="urn:adsk.wipprod:dm.lineage:iG86j3T2TSKEEkqXq_fUxg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="09296fb0-acf7-48b5-91fb-b631e7375965" lastsyncedrevisionid="09296fb0-acf7-48b5-91fb-b631e7375965" lastboardhashguid="490b5124-5c2d-7b8b-d8e5-1a857c302582" lastpushedtime="2021-05-30T06:25:44Z" linktopcb3d="false"/>
 <plain>
 <wire x1="0" y1="0" x2="52.08175" y2="0" width="0" layer="20"/>
 <wire x1="52.08175" y1="0" x2="52.08175" y2="35.5475" width="0" layer="20"/>
@@ -946,9 +946,12 @@ design rules under a new name.</description>
 <wire x1="30.48" y1="21.6535" x2="30.48" y2="20.148" width="0.254" layer="1"/>
 <wire x1="23.457" y1="21.717" x2="30.4165" y2="21.717" width="0.254" layer="1"/>
 <contactref element="C4_8200PF" pad="1"/>
-<wire x1="23.005" y1="21.265" x2="23.457" y2="21.717" width="0.254" layer="1"/>
-<wire x1="16.69" y1="21.265" x2="23.005" y2="21.265" width="0.254" layer="1"/>
-<wire x1="16.69" y1="21.265" x2="20.32" y2="18.58" width="0" layer="19" extent="1-1"/>
+<wire x1="21.735" y1="19.995" x2="23.457" y2="21.717" width="0.254" layer="1"/>
+<wire x1="20.32" y1="19.995" x2="19.23" y2="19.995" width="0.254" layer="1"/>
+<wire x1="16.69" y1="21.265" x2="17.96" y2="21.265" width="0.254" layer="1"/>
+<wire x1="19.23" y1="19.995" x2="17.96" y2="21.265" width="0.254" layer="1"/>
+<wire x1="20.32" y1="19.995" x2="21.735" y2="19.995" width="0.254" layer="1"/>
+<wire x1="20.32" y1="19.995" x2="20.32" y2="18.58" width="0.254" layer="1"/>
 </signal>
 <signal name="X_OUT">
 <contactref element="IC2" pad="1"/>
