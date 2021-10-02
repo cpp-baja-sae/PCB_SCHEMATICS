@@ -338,6 +338,23 @@
 <wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
 </package>
+<package name="RESC3216X70N">
+<description>&lt;b&gt;ERA8A&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.5" y="0" dx="1.7" dy="1.15" layer="1" rot="R90"/>
+<smd name="2" x="1.5" y="0" dx="1.7" dy="1.15" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.325" y1="1.1" x2="2.325" y2="1.1" width="0.05" layer="51"/>
+<wire x1="2.325" y1="1.1" x2="2.325" y2="-1.1" width="0.05" layer="51"/>
+<wire x1="2.325" y1="-1.1" x2="-2.325" y2="-1.1" width="0.05" layer="51"/>
+<wire x1="-2.325" y1="-1.1" x2="-2.325" y2="1.1" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="0.775" x2="1.6" y2="0.775" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.775" x2="1.6" y2="-0.775" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.775" x2="-1.6" y2="-0.775" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.775" x2="-1.6" y2="0.775" width="0.1" layer="51"/>
+<wire x1="0" y1="0.675" x2="0" y2="-0.675" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FXLN8371QR1">
@@ -505,7 +522,7 @@
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
-<symbol name="CPF0402B26R1E1">
+<symbol name="ERA-8ARW2612V">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
@@ -877,26 +894,26 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPF0402B26R1E1" prefix="R">
-<description>&lt;b&gt;TE Connectivity CPF Series Precision Thin Film Surface Mount Fixed Resistor 0402 Case 26.1 +/-0.1% 0.063W +/-25ppm/C&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="ERA-8ARW2612V" prefix="R">
+<description>&lt;b&gt;Thin Film Resistors - SMD 1206 26.1Kohms 0.05% 0.25W 10ppm AEC-Q200&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-8ARW2612V.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="CPF0402B26R1E1" x="0" y="0"/>
+<gate name="G$1" symbol="ERA-8ARW2612V" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="RESC1005X35N">
+<device name="" package="RESC3216X70N">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="TE Connectivity CPF Series Precision Thin Film Surface Mount Fixed Resistor 0402 Case 26.1 +/-0.1% 0.063W +/-25ppm/C" constant="no"/>
-<attribute name="HEIGHT" value="0.35mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CPF0402B26R1E1" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 1206 26.1Kohms 0.05% 0.25W 10ppm AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.7mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-8ARW2612V" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERA-8ARW2612V" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-8ARW2612V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1511,12 +1528,12 @@ W = angled&lt;p&gt;
 <part name="R2_10K_X" library="SamacSys_Parts" deviceset="CPF-A-0402B10KE" device=""/>
 <part name="R3_10K_Y" library="SamacSys_Parts" deviceset="CPF-A-0402B10KE" device=""/>
 <part name="R4_10K_Z" library="SamacSys_Parts" deviceset="CPF-A-0402B10KE" device=""/>
-<part name="R2_26.1K_X" library="SamacSys_Parts" deviceset="CPF0402B26R1E1" device=""/>
-<part name="R3_26.1K_Y" library="SamacSys_Parts" deviceset="CPF0402B26R1E1" device=""/>
-<part name="R4_26.1K_Z" library="SamacSys_Parts" deviceset="CPF0402B26R1E1" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R2_26.1K_X" library="SamacSys_Parts" deviceset="ERA-8ARW2612V" device=""/>
+<part name="R3_26.1K_Y" library="SamacSys_Parts" deviceset="ERA-8ARW2612V" device=""/>
+<part name="R4_26.1K_Z" library="SamacSys_Parts" deviceset="ERA-8ARW2612V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1679,6 +1696,15 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="92.71" y="82.55" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="90.17" y="82.55" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
+<instance part="GND21" gate="1" x="0" y="73.66" smashed="yes">
+<attribute name="VALUE" x="-2.54" y="71.12" size="1.778" layer="96"/>
+</instance>
+<instance part="GND22" gate="1" x="43.18" y="73.66" smashed="yes">
+<attribute name="VALUE" x="40.64" y="71.12" size="1.778" layer="96"/>
+</instance>
+<instance part="GND23" gate="1" x="86.36" y="73.66" smashed="yes">
+<attribute name="VALUE" x="83.82" y="71.12" size="1.778" layer="96"/>
+</instance>
 <instance part="R2_26.1K_X" gate="G$1" x="20.32" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.67" y="90.17" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="24.13" y="90.17" size="1.778" layer="96" rot="R270" align="center-left"/>
@@ -1690,15 +1716,6 @@ W = angled&lt;p&gt;
 <instance part="R4_26.1K_Z" gate="G$1" x="106.68" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.03" y="90.17" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="110.49" y="90.17" size="1.778" layer="96" rot="R270" align="center-left"/>
-</instance>
-<instance part="GND21" gate="1" x="0" y="73.66" smashed="yes">
-<attribute name="VALUE" x="-2.54" y="71.12" size="1.778" layer="96"/>
-</instance>
-<instance part="GND22" gate="1" x="43.18" y="73.66" smashed="yes">
-<attribute name="VALUE" x="40.64" y="71.12" size="1.778" layer="96"/>
-</instance>
-<instance part="GND23" gate="1" x="86.36" y="73.66" smashed="yes">
-<attribute name="VALUE" x="83.82" y="71.12" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1908,9 +1925,9 @@ W = angled&lt;p&gt;
 <label x="113.03" y="47.752" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R2_26.1K_X" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="86.36" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
 <label x="20.32" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R2_26.1K_X" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
@@ -1930,9 +1947,9 @@ W = angled&lt;p&gt;
 <pinref part="SV1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R3_26.1K_Y" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="86.36" x2="63.5" y2="83.82" width="0.1524" layer="91"/>
 <label x="63.5" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R3_26.1K_Y" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="Z_OUT" class="0">
@@ -1942,9 +1959,9 @@ W = angled&lt;p&gt;
 <wire x1="140.97" y1="18.542" x2="140.97" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R4_26.1K_Z" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="86.36" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
 <label x="106.68" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R4_26.1K_Z" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="3"/>
@@ -2073,9 +2090,9 @@ W = angled&lt;p&gt;
 <label x="0" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R2_26.1K_X" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="104.14" x2="20.32" y2="106.68" width="0.1524" layer="91"/>
 <label x="20.32" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R2_26.1K_X" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="Y_FEEDBACK" class="0">
@@ -2090,9 +2107,9 @@ W = angled&lt;p&gt;
 <label x="43.18" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R3_26.1K_Y" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="104.14" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
 <label x="63.5" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R3_26.1K_Y" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="Z_FEEDBACK" class="0">
@@ -2107,9 +2124,9 @@ W = angled&lt;p&gt;
 <label x="86.36" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R4_26.1K_Z" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="104.14" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
 <label x="106.68" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R4_26.1K_Z" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

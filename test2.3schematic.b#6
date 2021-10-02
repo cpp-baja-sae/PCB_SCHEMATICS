@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="2.5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="2.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -731,13 +731,13 @@ design rules under a new name.</description>
 <element name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,2-PAD" package3d_urn="urn:adsk.eagle:package:14282/1" value="MOUNT-PAD-ROUND3.2" x="5.08" y="7.62" smashed="yes">
 <attribute name="POPULARITY" value="4" x="5.08" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC4" library="SamacSys_Parts" package="SON65P300X300X80-9N" value="MAX25210ATAB9_V+" x="3.81" y="21.59" smashed="yes">
-<attribute name="DESCRIPTION" value="Linear Voltage Regulators ATO707, High Voltage LDO in P90D" x="3.81" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.8mm" x="3.81" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Maxim Integrated" x="3.81" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MAX25210ATAB9/V+" x="3.81" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="700-MAX25210ATAB9/V+" x="3.81" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX25210ATAB9-V%2b?qs=W%2FMpXkg%252BdQ6hnxbux6MIyA%3D%3D" x="3.81" y="21.59" size="1.778" layer="27" display="off"/>
+<element name="IC4" library="SamacSys_Parts" package="SON65P300X300X80-9N" value="MAX25210ATAB9_V+" x="4.826" y="21.59" smashed="yes">
+<attribute name="DESCRIPTION" value="Linear Voltage Regulators ATO707, High Voltage LDO in P90D" x="4.826" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.8mm" x="4.826" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Maxim Integrated" x="4.826" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MAX25210ATAB9/V+" x="4.826" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="700-MAX25210ATAB9/V+" x="4.826" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX25210ATAB9-V%2b?qs=W%2FMpXkg%252BdQ6hnxbux6MIyA%3D%3D" x="4.826" y="21.59" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C10_1UF" library="SamacSys_Parts" package="CAPC0603X33N" value="02016D105KAT4A" x="2.54" y="16.51" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 1uF X5R 0201 10%" x="2.54" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
@@ -747,13 +747,13 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PART_NUMBER" value="581-02016D105KAT4A" x="2.54" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/AVX/02016D105KAT4A?qs=T3oQrply3y8%2FZ%2Fz47d2kJg%3D%3D" x="2.54" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C11_2.2UF" library="SamacSys_Parts" package="INDC1005X55N" value="C0402C225Z8VACTU" x="7.62" y="22.86" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 2.2uF Y5V 0402 -20/80%" x="7.62" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="7.62" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kemet" x="7.62" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C0402C225Z8VACTU" x="7.62" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-C0402C225Z8VACTU" x="7.62" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C0402C225Z8VACTU?qs=hzBznG4dWXVeQFTH2ftYGg%3D%3D" x="7.62" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C11_2.2UF" library="SamacSys_Parts" package="INDC1005X55N" value="C0402C225Z8VACTU" x="8.382" y="22.86" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 2.2uF Y5V 0402 -20/80%" x="8.382" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="8.382" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="8.382" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0402C225Z8VACTU" x="8.382" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C0402C225Z8VACTU" x="8.382" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C0402C225Z8VACTU?qs=hzBznG4dWXVeQFTH2ftYGg%3D%3D" x="8.382" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2_10K_X" library="SamacSys_Parts" package="RESC1005X35N" value="CPF-A-0402B10KE" x="35.179" y="31.496" smashed="yes">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD CPF A 0402 10K 0.1% 25PPM 5K RL" x="35.179" y="31.496" size="1.778" layer="27" display="off"/>
@@ -900,7 +900,7 @@ design rules under a new name.</description>
 <via x="11.3665" y="15.24" extent="1-16" drill="0.254" shape="octagon"/>
 <via x="4.7625" y="18.415" extent="1-16" drill="0.254" shape="octagon"/>
 <via x="41.2115" y="32.9565" extent="1-16" drill="0.254" shape="octagon"/>
-<wire x1="2.032" y1="24.13" x2="2.31" y2="21.265" width="0" layer="19" extent="1-1"/>
+<wire x1="2.032" y1="24.13" x2="3.326" y2="21.265" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BYP">
 <contactref element="IC1" pad="1"/>
@@ -936,7 +936,7 @@ design rules under a new name.</description>
 <wire x1="30.48" y1="23.241" x2="30.48" y2="25.572" width="0.254" layer="1"/>
 <wire x1="29.464" y1="22.225" x2="30.48" y2="23.241" width="0.254" layer="1"/>
 <contactref element="C5_3300PF" pad="1"/>
-<wire x1="20.32" y1="22.2235" x2="23.245075" y2="22.2235" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="22.2235" x2="23.245075" y2="22.2235" width="0.254" layer="1"/>
 <wire x1="20.0115" y1="21.915" x2="20.32" y2="22.2235" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Z_AXIS">
@@ -1030,8 +1030,8 @@ design rules under a new name.</description>
 <wire x1="5.126" y1="16.845" x2="5.08" y2="16.845" width="0.254" layer="1"/>
 <wire x1="5.08" y1="16.845" x2="2.54" y2="16.845" width="0.254" layer="1"/>
 <wire x1="2.54" y1="16.845" x2="1.2065" y2="18.1785" width="0.254" layer="1"/>
-<wire x1="2.3025" y1="21.9075" x2="2.31" y2="21.915" width="0.254" layer="1"/>
-<wire x1="2.31" y1="21.915" x2="2.31" y2="22.565" width="0.254" layer="1"/>
+<wire x1="3.3185" y1="21.9075" x2="3.326" y2="21.915" width="0.254" layer="1"/>
+<wire x1="3.326" y1="21.915" x2="3.326" y2="22.565" width="0.254" layer="1"/>
 <via x="22.86" y="16.51" extent="1-16" drill="0.254"/>
 <wire x1="22.86" y1="16.51" x2="22.86" y2="19.4945" width="0.254" layer="16"/>
 <wire x1="22.86" y1="19.4945" x2="21.3995" y2="20.955" width="0.254" layer="16"/>
@@ -1043,7 +1043,7 @@ design rules under a new name.</description>
 <wire x1="21.3995" y1="26.416" x2="25.4" y2="30.4165" width="0.254" layer="16"/>
 <wire x1="1.2065" y1="18.1785" x2="1.2065" y2="21.336" width="0.254" layer="1"/>
 <wire x1="1.2065" y1="21.336" x2="1.778" y2="21.9075" width="0.254" layer="1"/>
-<wire x1="1.778" y1="21.9075" x2="2.3025" y2="21.9075" width="0.254" layer="1"/>
+<wire x1="1.778" y1="21.9075" x2="3.3185" y2="21.9075" width="0.254" layer="1"/>
 <contactref element="J1" pad="5"/>
 <wire x1="10.185" y1="11.74" x2="5.08" y2="16.845" width="0.254" layer="1"/>
 <wire x1="20.67" y1="11.74" x2="10.185" y2="11.74" width="0.254" layer="1"/>
@@ -1072,10 +1072,10 @@ design rules under a new name.</description>
 <wire x1="42.2925" y1="27.494" x2="36.1315" y2="33.655" width="0.254" layer="1"/>
 <wire x1="13.79" y1="20.615" x2="12.7225" y2="20.615" width="0.254" layer="1"/>
 <wire x1="12.7225" y1="20.615" x2="12.2555" y2="21.082" width="0.254" layer="1"/>
-<wire x1="5.31" y1="22.565" x2="6.105" y2="23.36" width="0.254" layer="1"/>
-<wire x1="6.105" y1="23.36" x2="7.62" y2="23.36" width="0.254" layer="1"/>
+<wire x1="6.326" y1="22.565" x2="7.121" y2="23.36" width="0.254" layer="1"/>
+<wire x1="7.121" y1="23.36" x2="8.382" y2="23.36" width="0.254" layer="1"/>
 <contactref element="R1_10K" pad="1"/>
-<wire x1="7.62" y1="23.36" x2="8.802" y2="23.36" width="0.254" layer="1"/>
+<wire x1="8.382" y1="23.36" x2="8.802" y2="23.36" width="0.254" layer="1"/>
 <wire x1="8.802" y1="23.36" x2="10.129" y2="23.368" width="0.254" layer="1"/>
 <wire x1="10.129" y1="23.368" x2="10.16" y2="26.67" width="0.254" layer="1"/>
 <wire x1="10.16" y1="26.67" x2="17.145" y2="33.655" width="0.254" layer="1"/>
@@ -1086,9 +1086,17 @@ design rules under a new name.</description>
 </signal>
 <signal name="V_RESET">
 <contactref element="IC4" pad="4"/>
-<wire x1="2.286" y1="20.591" x2="2.31" y2="20.615" width="0.254" layer="1"/>
 <contactref element="R1_10K" pad="2"/>
-<wire x1="2.31" y1="20.615" x2="10.953" y2="23.368" width="0" layer="19" extent="1-1"/>
+<wire x1="3.326" y1="20.615" x2="3.048" y2="20.337" width="0.254" layer="1"/>
+<wire x1="3.048" y1="20.337" x2="3.048" y2="18.796" width="0.254" layer="1"/>
+<via x="3.048" y="18.796" extent="1-16" drill="0.35"/>
+<via x="11.176" y="21.844" extent="1-16" drill="0.35"/>
+<wire x1="3.048" y1="18.796" x2="4.13770625" y2="18.796" width="0.254" layer="16"/>
+<wire x1="4.13770625" y1="18.796" x2="4.46790625" y2="19.1262" width="0.254" layer="16"/>
+<wire x1="8.4582" y1="19.1262" x2="11.176" y2="21.844" width="0.254" layer="16"/>
+<wire x1="4.46790625" y1="19.1262" x2="8.4582" y2="19.1262" width="0.254" layer="16"/>
+<wire x1="11.176" y1="21.844" x2="10.953" y2="22.067" width="0.254" layer="1"/>
+<wire x1="10.953" y1="22.067" x2="10.953" y2="23.368" width="0.254" layer="1"/>
 </signal>
 <signal name="X_FEEDBACK">
 <contactref element="IC2" pad="2"/>

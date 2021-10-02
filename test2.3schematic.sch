@@ -370,6 +370,28 @@
 <wire x1="0.3" y1="-0.15" x2="-0.3" y2="-0.15" width="0.1" layer="51"/>
 <wire x1="-0.3" y1="-0.15" x2="-0.3" y2="0.15" width="0.1" layer="51"/>
 </package>
+<package name="AS_FEMALE_5_PIN">
+<wire x1="0" y1="0" x2="22.5" y2="0" width="0.127" layer="21" locked="yes"/>
+<wire x1="22.5" y1="0" x2="22.5" y2="14.5" width="0.127" layer="21" locked="yes"/>
+<wire x1="22.5" y1="14.5" x2="0" y2="14.5" width="0.127" layer="21" locked="yes"/>
+<wire x1="0" y1="14.5" x2="0" y2="0" width="0.127" layer="21" locked="yes"/>
+<circle x="11.25" y="7.25" locked="yes" radius="3.85" width="0.127" layer="21"/>
+<circle x="11.25" y="7.25" locked="yes" radius="2.1" width="0.127" layer="21"/>
+<pad name="P$1" x="9.17" y="7.57" locked="yes" drill="0.35" diameter="0.6096"/>
+<pad name="P$2" x="10.92" y="9.32" locked="yes" drill="0.35" diameter="0.6096"/>
+<pad name="P$3" x="13.12" y="8.2" locked="yes" drill="0.35" diameter="0.6096"/>
+<pad name="P$4" x="12.73" y="5.77" locked="yes" drill="0.35" diameter="0.6096"/>
+<pad name="P$5" x="10.3" y="5.38" locked="yes" drill="0.35" diameter="0.6096"/>
+<circle x="2.26" y="7.25" locked="yes" radius="1.35" width="0.0762" layer="21"/>
+<circle x="20.24" y="7.25" locked="yes" radius="1.35" width="0.0762" layer="21"/>
+<text x="7.4" y="2.05" locked="yes" size="1.27" layer="25">&gt;NAME</text>
+<text x="6.85" y="11.2" locked="yes" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="10.922" y="9.3218" radius="0.6117125" width="0.127" layer="21"/>
+<circle x="11.25" y="7.25" radius="13.335" width="0.127" layer="21"/>
+<text x="7.62" y="7.366" size="0.4064" layer="21">GND</text>
+<hole x="2.25" y="7.25" drill="5"/>
+<hole x="20.25" y="7.25" drill="5"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FXLN8371QR1">
@@ -561,6 +583,21 @@
 <text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="AS_FEMALE_5_PIN">
+<wire x1="0" y1="7.62" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="0" y2="7.62" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="12.7" length="middle" rot="R270"/>
+<pin name="1" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="2" x="5.08" y="-10.16" length="middle" rot="R90"/>
+<pin name="3" x="-5.08" y="-10.16" length="middle" rot="R90"/>
+<pin name="4" x="-12.7" y="2.54" length="middle"/>
+<text x="2.54" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="95"></text>
+<text x="2.54" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -975,6 +1012,25 @@ Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet 
 <attribute name="MOUSER_PART_NUMBER" value="71-CRCW0201-10K" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW020110K0FNED?qs=IQLUlsvFoXuh7T4rhkKYcQ%3D%3D" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AS_FEMALE_5_PIN" prefix="Z">
+<gates>
+<gate name="Z$1" symbol="AS_FEMALE_5_PIN" x="0" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="AS_FEMALE_5_PIN">
+<connects>
+<connect gate="Z$1" pin="1" pad="P$2"/>
+<connect gate="Z$1" pin="2" pad="P$3"/>
+<connect gate="Z$1" pin="3" pad="P$4"/>
+<connect gate="Z$1" pin="4" pad="P$5"/>
+<connect gate="Z$1" pin="GND" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1417,6 +1473,7 @@ Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet 
 <part name="R4_82.5K_Z" library="SamacSys_Parts" deviceset="CPF0402B82K5E1" device=""/>
 <part name="J1" library="SamacSys_Parts" deviceset="2-1445057-5" device=""/>
 <part name="R1_10K" library="SamacSys_Parts" deviceset="CRCW020110K0FNED" device=""/>
+<part name="Z1" library="SamacSys_Parts" deviceset="AS_FEMALE_5_PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1599,6 +1656,10 @@ Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet 
 <instance part="R1_10K" gate="G$1" x="45.72" y="-25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="52.07" y="-39.37" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="49.53" y="-39.37" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="Z1" gate="Z$1" x="182.88" y="91.44" smashed="yes">
+<attribute name="VALUE" x="185.42" y="104.14" size="1.778" layer="96"/>
+<attribute name="NAME" x="185.42" y="101.6" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -2035,6 +2096,10 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>

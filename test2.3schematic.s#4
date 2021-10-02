@@ -1764,25 +1764,27 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/2-1445057-5.p
 <pinref part="IC2" gate="G$1" pin="IN1+"/>
 <pinref part="IC1" gate="G$1" pin="XOUT"/>
 <label x="76.2" y="35.56" size="1.778" layer="95" rot="R90" xref="yes"/>
-<wire x1="113.03" y1="35.56" x2="95.504" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C6_3300PF" gate="G$1" pin="1"/>
-<wire x1="95.25" y1="35.56" x2="57.15" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="30.48" x2="95.25" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="35.56" x2="95.504" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="35.56" x2="57.15" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="35.56" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="30.48" x2="95.25" y2="30.48" width="0.1524" layer="91"/>
+<junction x="96.52" y="35.56"/>
 </segment>
 </net>
 <net name="Y_AXIS" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="YOUT"/>
-<wire x1="57.15" y1="33.02" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="57.15" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
 <label x="68.58" y="33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="IC2" gate="G$1" pin="IN2+"/>
-<wire x1="85.09" y1="33.02" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="33.02" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="113.03" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="30.48" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C5_3300PF" gate="G$1" pin="1"/>
-<wire x1="85.09" y1="30.48" x2="85.09" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="85.09" y1="33.02" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="33.02" x2="86.36" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="30.48" x2="85.09" y2="30.48" width="0.1524" layer="91"/>
+<junction x="86.36" y="33.02"/>
 </segment>
 </net>
 <net name="Z_AXIS" class="0">
