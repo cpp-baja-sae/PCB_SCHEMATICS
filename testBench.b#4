@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -206,6 +206,11 @@ fc@50Hz</text>
 <wire x1="1.025" y1="-0.625" x2="-1.025" y2="-0.625" width="0.1" layer="51"/>
 <wire x1="-1.025" y1="-0.625" x2="-1.025" y2="0.625" width="0.1" layer="51"/>
 <wire x1="0" y1="0.525" x2="0" y2="-0.525" width="0.2" layer="21"/>
+</package>
+<package name="1.85X3.45_MM">
+<smd name="TP$1" x="0.9398" y="1.7272" dx="1.85" dy="3.45" layer="1" locked="yes" roundness="10"/>
+<text x="0" y="-1.27" size="0.8128" layer="25">&gt;NAME</text>
+<text x="0" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -814,6 +819,14 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="4" x="2.54" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-0.635" y="45.72" size="1.27" layer="27" rot="R270"/>
 </element>
+<element name="TP1" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="6.35" y="46.99" smashed="yes">
+<attribute name="NAME" x="6.35" y="45.72" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="6.35" y="44.45" size="0.8128" layer="27"/>
+</element>
+<element name="TP2" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="-11.43" y="3.81" smashed="yes">
+<attribute name="NAME" x="-11.43" y="2.54" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="-11.43" y="1.27" size="0.8128" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="OUTPUT1">
@@ -824,10 +837,11 @@ design rules under a new name.</description>
 <wire x1="19.416" y1="46.67" x2="21.316" y2="44.77" width="0.254" layer="1"/>
 <contactref element="JP3" pad="1"/>
 <wire x1="19.726" y1="43.18" x2="21.316" y2="44.77" width="0.254" layer="1"/>
-<wire x1="14.986" y1="43.18" x2="15.24" y2="43.18" width="0.254" layer="1"/>
-<wire x1="15.24" y1="43.18" x2="19.726" y2="43.18" width="0.254" layer="1"/>
 <wire x1="2.54" y1="44.45" x2="3.81" y2="43.18" width="0.254" layer="1"/>
-<wire x1="3.81" y1="43.18" x2="14.986" y2="43.18" width="0.254" layer="1"/>
+<wire x1="3.81" y1="43.18" x2="19.726" y2="43.18" width="0.254" layer="1"/>
+<contactref element="TP1" pad="TP$1"/>
+<wire x1="2.54" y1="44.45" x2="6.8072" y2="48.7172" width="0.1524" layer="1"/>
+<wire x1="6.8072" y1="48.7172" x2="7.2898" y2="48.7172" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="IC2" pad="2"/>

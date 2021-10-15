@@ -924,9 +924,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="124.46" y="-40.64" size="5.08" layer="97">First Order Low-pass Filter</text>
 <text x="124.46" y="-104.14" size="5.08" layer="97">Second-order Low-pass Filter</text>
 <text x="124.46" y="-238.76" size="5.08" layer="97">Differential Amplifier</text>
-<text x="-129.54" y="-20.32" size="1.778" layer="97">Move all signals above OUTPUT4 up one position</text>
-<text x="-81.28" y="66.04" size="1.778" layer="97">Don't place parts directly on top of one another.
+<text x="-127" y="30.48" size="1.778" layer="97">Move all signals above OUTPUT4 up one position</text>
+<text x="-127" y="66.04" size="1.778" layer="97">Don't place parts directly on top of one another.
 Need to show some green net wiring, otherwise is makes moving parts hard sometimes and makes it a bit harder to read.</text>
+<text x="-127" y="48.26" size="1.778" layer="97">On the PCB schematic
+Don't place text ontop of vias
+Make all vias "tented vias"</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="-30.48" y="38.1" smashed="yes">
