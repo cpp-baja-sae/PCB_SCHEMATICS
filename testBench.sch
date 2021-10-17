@@ -172,6 +172,42 @@
 <wire x1="2.032" y1="-0.1778" x2="-0.1524" y2="-0.1778" width="0.127" layer="21"/>
 <wire x1="-0.1524" y1="-0.1778" x2="-0.1524" y2="3.634" width="0.127" layer="21"/>
 </package>
+<package name="LEDM2012X80N">
+<description>&lt;b&gt;WL-SMCW&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.95" y="0" dx="1.2" dy="1.05" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.2" dy="1.05" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.8" y1="0.925" x2="1.8" y2="0.925" width="0.05" layer="51"/>
+<wire x1="1.8" y1="0.925" x2="1.8" y2="-0.925" width="0.05" layer="51"/>
+<wire x1="1.8" y1="-0.925" x2="-1.8" y2="-0.925" width="0.05" layer="51"/>
+<wire x1="-1.8" y1="-0.925" x2="-1.8" y2="0.925" width="0.05" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.1" x2="-0.475" y2="0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="0.625" x2="-1.475" y2="0.625" width="0.2" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.2" layer="21"/>
+</package>
+<package name="ERJP06_(0805)">
+<description>&lt;b&gt;ERJP06_(0805)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.175" y="0" dx="1.15" dy="1.15" layer="1"/>
+<smd name="2" x="1.175" y="0" dx="1.15" dy="1.15" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.2" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.2" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.2" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.2" layer="51"/>
+<circle x="-2.275" y="0" radius="0.05" width="0.2" layer="25"/>
+<wire x1="-3.175" y1="1.625" x2="2.55" y2="1.625" width="0.05" layer="51"/>
+<wire x1="2.55" y1="1.625" x2="2.55" y2="-1.625" width="0.05" layer="51"/>
+<wire x1="2.55" y1="-1.625" x2="-3.175" y2="-1.625" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="-1.625" x2="-3.175" y2="1.625" width="0.05" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NCS21911SN2T1G">
@@ -252,6 +288,42 @@
 <rectangle x1="-5.08" y1="-2.54" x2="5.08" y2="2.54" layer="94"/>
 <text x="-5.08" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
 <text x="-5.08" y="-7.62" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="150080GS75000">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="2.54" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="2.54" x2="6.35" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<text x="12.7" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="12.7" y="6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="K" x="0" y="0" visible="pad" length="short"/>
+<pin name="A" x="15.24" y="0" visible="pad" length="short" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="5.08" y="0"/>
+<vertex x="10.16" y="2.54"/>
+<vertex x="10.16" y="-2.54"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="5.334" y="4.318"/>
+<vertex x="4.572" y="3.556"/>
+<vertex x="3.81" y="5.08"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="7.874" y="4.318"/>
+<vertex x="7.112" y="3.556"/>
+<vertex x="6.35" y="5.08"/>
+</polygon>
+</symbol>
+<symbol name="ERJ-P06J431V">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -452,6 +524,56 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/181/S1751R-1220585.pdf"&g
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="150080GS75000" prefix="LED">
+<description>&lt;b&gt;150080GS75000, Wurth Elektronik WL-SMCW 520 nm Green LED, 2012 (0805) Clear SMD package&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://katalog.we-online.com/led/datasheet/150080GS75000.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="150080GS75000" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LEDM2012X80N">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="150080GS75000, Wurth Elektronik WL-SMCW 520 nm Green LED, 2012 (0805) Clear SMD package" constant="no"/>
+<attribute name="HEIGHT" value="0.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="150080GS75000" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-150080GS75000" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080GS75000?qs=2kOmHSv6VfQRoTEZVk1mGA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERJ-P06J431V" prefix="R">
+<description>&lt;b&gt;Thick Film Resistors - SMD 0805 430ohms 0.5W 5% AEC-Q200&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERJ-P06J431V.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ERJ-P06J431V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ERJP06_(0805)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 0805 430ohms 0.5W 5% AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.7mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-P06J431V" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-P06J431V" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-P06J431V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -910,6 +1032,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="TP6" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
 <part name="TP7" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
 <part name="TP8" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
+<part name="LED1" library="SamacSys_Parts" deviceset="150080GS75000" device=""/>
+<part name="R13" library="SamacSys_Parts" deviceset="ERJ-P06J431V" device=""/>
+<part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="LED2" library="SamacSys_Parts" deviceset="150080GS75000" device=""/>
+<part name="R14" library="SamacSys_Parts" deviceset="ERJ-P06J431V" device=""/>
+<part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="LED3" library="SamacSys_Parts" deviceset="150080GS75000" device=""/>
+<part name="R15" library="SamacSys_Parts" deviceset="ERJ-P06J431V" device=""/>
+<part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="LED4" library="SamacSys_Parts" deviceset="150080GS75000" device=""/>
+<part name="R16" library="SamacSys_Parts" deviceset="ERJ-P06J431V" device=""/>
+<part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1094,6 +1228,50 @@ Make sure stiching vias have GND nodes</text>
 <attribute name="VALUE" x="55.88" y="-256.54" size="1.27" layer="96" rot="R270"/>
 <attribute name="NAME" x="53.34" y="-256.54" size="1.27" layer="95" rot="R270"/>
 </instance>
+<instance part="LED1" gate="G$1" x="-172.72" y="22.86" smashed="yes" rot="R180">
+<attribute name="NAME" x="-167.64" y="31.75" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-167.64" y="29.21" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R13" gate="G$1" x="-220.98" y="22.86" smashed="yes">
+<attribute name="NAME" x="-207.01" y="29.21" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-207.01" y="26.67" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY15" gate="GND" x="-157.48" y="22.86" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-150.495" y="23.495" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED2" gate="G$1" x="-172.72" y="10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="-167.64" y="19.05" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-167.64" y="16.51" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R14" gate="G$1" x="-220.98" y="10.16" smashed="yes">
+<attribute name="NAME" x="-207.01" y="16.51" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-207.01" y="13.97" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY16" gate="GND" x="-157.48" y="10.16" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-150.495" y="10.795" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED3" gate="G$1" x="-172.72" y="-2.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="-167.64" y="6.35" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-167.64" y="3.81" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R15" gate="G$1" x="-220.98" y="-2.54" smashed="yes">
+<attribute name="NAME" x="-207.01" y="3.81" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-207.01" y="1.27" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY17" gate="GND" x="-157.48" y="-2.54" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-150.495" y="-1.905" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED4" gate="G$1" x="-172.72" y="-15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="-167.64" y="-6.35" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-167.64" y="-8.89" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R16" gate="G$1" x="-220.98" y="-15.24" smashed="yes">
+<attribute name="NAME" x="-207.01" y="-8.89" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-207.01" y="-11.43" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY18" gate="GND" x="-157.48" y="-15.24" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-150.495" y="-14.605" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1222,6 +1400,26 @@ Make sure stiching vias have GND nodes</text>
 <pinref part="TP7" gate="G$1" pin="TP"/>
 <wire x1="68.58" y1="-243.84" x2="76.2" y2="-243.84" width="0.1524" layer="91"/>
 <label x="78.74" y="-243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="K"/>
+<wire x1="-172.72" y1="22.86" x2="-160.02" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="SUPPLY15" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="K"/>
+<wire x1="-172.72" y1="10.16" x2="-160.02" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="SUPPLY16" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="K"/>
+<wire x1="-172.72" y1="-2.54" x2="-160.02" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="SUPPLY17" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED4" gate="G$1" pin="K"/>
+<wire x1="-172.72" y1="-15.24" x2="-160.02" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="SUPPLY18" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="INPUT1" class="0">
@@ -1454,6 +1652,11 @@ Make sure stiching vias have GND nodes</text>
 <junction x="10.16" y="-233.68"/>
 <label x="25.4" y="-233.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="-220.98" y1="-15.24" x2="-233.68" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-241.3" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VCC3" class="0">
 <segment>
@@ -1479,6 +1682,11 @@ Make sure stiching vias have GND nodes</text>
 <junction x="5.08" y="-124.46"/>
 <label x="10.16" y="-124.46" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="-220.98" y1="-2.54" x2="-233.68" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-241.3" y="-2.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VCC2" class="0">
 <segment>
@@ -1494,6 +1702,11 @@ Make sure stiching vias have GND nodes</text>
 <wire x1="5.08" y1="-27.94" x2="20.32" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="5.08" y="-27.94"/>
 <label x="22.86" y="-30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="-220.98" y1="10.16" x2="-233.68" y2="10.16" width="0.1524" layer="91"/>
+<label x="-241.3" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC1" class="0">
@@ -1511,12 +1724,45 @@ Make sure stiching vias have GND nodes</text>
 <junction x="0" y="35.56"/>
 <label x="15.24" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="-220.98" y1="22.86" x2="-233.68" y2="22.86" width="0.1524" layer="91"/>
+<label x="-241.3" y="22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="EMPTY" class="0">
 <segment>
 <pinref part="JP3" gate="A" pin="5"/>
 <wire x1="-106.68" y1="-2.54" x2="-96.52" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-93.98" y="-2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="-203.2" y1="22.86" x2="-187.96" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="-203.2" y1="10.16" x2="-187.96" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="-203.2" y1="-2.54" x2="-187.96" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<wire x1="-203.2" y1="-15.24" x2="-187.96" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

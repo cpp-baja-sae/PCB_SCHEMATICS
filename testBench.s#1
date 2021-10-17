@@ -163,23 +163,6 @@
 <wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
 <wire x1="0" y1="0.525" x2="0" y2="-0.525" width="0.2" layer="21"/>
 </package>
-<package name="RESC2012X50N">
-<description>&lt;b&gt;CRCW0805&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1" y="0" dx="1.45" dy="0.95" layer="1" rot="R90"/>
-<smd name="2" x="1" y="0" dx="1.45" dy="0.95" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.725" y1="1" x2="1.725" y2="1" width="0.05" layer="51"/>
-<wire x1="1.725" y1="1" x2="1.725" y2="-1" width="0.05" layer="51"/>
-<wire x1="1.725" y1="-1" x2="-1.725" y2="-1" width="0.05" layer="51"/>
-<wire x1="-1.725" y1="-1" x2="-1.725" y2="1" width="0.05" layer="51"/>
-<wire x1="-1.025" y1="0.625" x2="1.025" y2="0.625" width="0.1" layer="51"/>
-<wire x1="1.025" y1="0.625" x2="1.025" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="1.025" y1="-0.625" x2="-1.025" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="-1.025" y1="-0.625" x2="-1.025" y2="0.625" width="0.1" layer="51"/>
-<wire x1="0" y1="0.525" x2="0" y2="-0.525" width="0.2" layer="21"/>
-</package>
 <package name="1.85X3.45_MM">
 <smd name="TP" x="0.9398" y="1.7272" dx="1.85" dy="3.45" layer="1" locked="yes" roundness="10"/>
 <text x="0" y="-1.27" size="0.8128" layer="25">&gt;NAME</text>
@@ -263,16 +246,6 @@
 <text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CRCW080510M0FKEB">
-<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
 <symbol name="S1751-46R">
 <pin name="TP" x="0" y="7.62" length="middle" rot="R270"/>
@@ -455,31 +428,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J2X7R1H224K125AA" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA4J2X7R1H224K" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA4J2X7R1H224K125AA?qs=NRhsANhppD9di1dONpUYtQ%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CRCW080510M0FKEB" prefix="R">
-<description>&lt;b&gt;Thick Film Resistors - SMD 1/8watt 10Mohms 1% 100ppm&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CRCW080510M0FKEB" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RESC2012X50N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/8watt 10Mohms 1% 100ppm" constant="no"/>
-<attribute name="HEIGHT" value="0.5mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW080510M0FKEB" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-CRCW080510M0FKEB" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW080510M0FKEB?qs=LOX6nxTstiZgWRbGVrXCVQ%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -944,7 +892,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="IC5" library="SamacSys_Parts" deviceset="NCS21911SN2T1G" device=""/>
 <part name="C11" library="SamacSys_Parts" deviceset="CGA3E2X7R1H104K080AE" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R6" library="SamacSys_Parts" deviceset="CRCW080510M0FKEB" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R8" library="SamacSys_Parts" deviceset="TNPW080510K0BEEN" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -1081,10 +1028,6 @@ Make sure stiching vias have GND nodes</text>
 </instance>
 <instance part="SUPPLY10" gate="GND" x="38.1" y="-137.16" smashed="yes">
 <attribute name="VALUE" x="36.195" y="-140.335" size="1.778" layer="96"/>
-</instance>
-<instance part="R6" gate="G$1" x="43.18" y="-93.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.83" y="-82.55" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="39.37" y="-87.63" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="SUPPLY13" gate="GND" x="-5.08" y="-139.7" smashed="yes" rot="R90">
 <attribute name="VALUE" x="1.905" y="-139.065" size="1.778" layer="96" rot="R180"/>
@@ -1464,22 +1407,15 @@ Make sure stiching vias have GND nodes</text>
 <label x="-93.98" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUT"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="-121.92" x2="43.18" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="-104.14" x2="43.18" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-104.14" x2="45.72" y2="-104.14" width="0.1524" layer="91"/>
-<junction x="43.18" y="-104.14"/>
-</segment>
-</net>
 <net name="OUTPUT3" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="-76.2" x2="43.18" y2="-71.12" width="0.1524" layer="91"/>
 <label x="48.26" y="-66.04" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC5" gate="G$1" pin="OUT"/>
+<wire x1="43.18" y1="-121.92" x2="43.18" y2="-104.14" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="-104.14" x2="45.72" y2="-104.14" width="0.1524" layer="91"/>
+<junction x="43.18" y="-104.14"/>
+<wire x1="43.18" y1="-71.12" x2="43.18" y2="-104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="3"/>

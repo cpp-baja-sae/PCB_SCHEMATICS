@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -101,6 +101,8 @@ fc@50Hz</text>
 <text x="29.464" y="33.782" size="1.27" layer="25" rot="R90">OUT2</text>
 <text x="29.718" y="3.048" size="1.27" layer="25" rot="R90">OUT4</text>
 <text x="29.718" y="23.368" size="1.27" layer="25" rot="R90">OUT3</text>
+<text x="31.75" y="8.89" size="1.778" layer="22" rot="MR0">John Tran
+BAJA SAE 2021-2022</text>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
