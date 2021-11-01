@@ -257,55 +257,6 @@
 <text x="0" y="1.4886" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.4886" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SOT65P212X110-5M" urn="urn:adsk.eagle:footprint:31853422/1">
-<description>5-SOT23, 0.65 mm pitch, 2.13 mm span, 2.05 X 1.25 X 1.10 mm body
-&lt;p&gt;5-pin SOT23 package with 0.65 mm pitch, 2.13 mm span with body size 2.05 X 1.25 X 1.10 mm&lt;/p&gt;</description>
-<circle x="-1.181" y="1.3725" radius="0.25" width="0" layer="21"/>
-<wire x1="-0.675" y1="1.1825" x2="0.675" y2="1.1825" width="0.12" layer="21"/>
-<wire x1="-0.675" y1="-1.1825" x2="0.675" y2="-1.1825" width="0.12" layer="21"/>
-<wire x1="0.675" y1="-1.125" x2="-0.675" y2="-1.125" width="0.12" layer="51"/>
-<wire x1="-0.675" y1="-1.125" x2="-0.675" y2="1.125" width="0.12" layer="51"/>
-<wire x1="-0.675" y1="1.125" x2="0.675" y2="1.125" width="0.12" layer="51"/>
-<wire x1="0.675" y1="1.125" x2="0.675" y2="-1.125" width="0.12" layer="51"/>
-<smd name="1" x="-1.0245" y="0.65" dx="1.3248" dy="0.4371" layer="1"/>
-<smd name="2" x="-1.0245" y="0" dx="1.3248" dy="0.4371" layer="1"/>
-<smd name="3" x="-1.0245" y="-0.65" dx="1.3248" dy="0.4371" layer="1"/>
-<smd name="4" x="1.0245" y="-0.65" dx="1.3248" dy="0.4371" layer="1"/>
-<smd name="5" x="1.0245" y="0.65" dx="1.3248" dy="0.4371" layer="1"/>
-<text x="0" y="2.2575" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.8175" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOP65P640X120-14M" urn="urn:adsk.eagle:footprint:31853373/1">
-<description>14-SOP, 0.65 mm pitch, 6.40 mm span, 5.00 X 4.40 X 1.20 mm body
-&lt;p&gt;14-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 5.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
-<circle x="-3.0538" y="2.6774" radius="0.25" width="0" layer="21"/>
-<wire x1="-2.25" y1="2.4274" x2="-2.25" y2="2.55" width="0.12" layer="21"/>
-<wire x1="-2.25" y1="2.55" x2="2.25" y2="2.55" width="0.12" layer="21"/>
-<wire x1="2.25" y1="2.55" x2="2.25" y2="2.4274" width="0.12" layer="21"/>
-<wire x1="-2.25" y1="-2.4274" x2="-2.25" y2="-2.55" width="0.12" layer="21"/>
-<wire x1="-2.25" y1="-2.55" x2="2.25" y2="-2.55" width="0.12" layer="21"/>
-<wire x1="2.25" y1="-2.55" x2="2.25" y2="-2.4274" width="0.12" layer="21"/>
-<wire x1="2.25" y1="-2.55" x2="-2.25" y2="-2.55" width="0.12" layer="51"/>
-<wire x1="-2.25" y1="-2.55" x2="-2.25" y2="2.55" width="0.12" layer="51"/>
-<wire x1="-2.25" y1="2.55" x2="2.25" y2="2.55" width="0.12" layer="51"/>
-<wire x1="2.25" y1="2.55" x2="2.25" y2="-2.55" width="0.12" layer="51"/>
-<smd name="1" x="-2.9217" y="1.95" dx="1.8719" dy="0.4468" layer="1"/>
-<smd name="2" x="-2.9217" y="1.3" dx="1.8719" dy="0.4468" layer="1"/>
-<smd name="3" x="-2.9217" y="0.65" dx="1.8719" dy="0.4468" layer="1"/>
-<smd name="4" x="-2.9217" y="0" dx="1.8719" dy="0.4468" layer="1"/>
-<smd name="5" x="-2.9217" y="-0.65" dx="1.8719" dy="0.4468" layer="1"/>
-<smd name="6" x="-2.9217" y="-1.3" dx="1.8719" dy="0.4468" layer="1"/>
-<smd name="7" x="-2.9217" y="-1.95" dx="1.8719" dy="0.4468" layer="1"/>
-<smd name="8" x="2.9217" y="-1.95" dx="1.8719" dy="0.4468" layer="1"/>
-<smd name="9" x="2.9217" y="-1.3" dx="1.8719" dy="0.4468" layer="1"/>
-<smd name="10" x="2.9217" y="-0.65" dx="1.8719" dy="0.4468" layer="1"/>
-<smd name="11" x="2.9217" y="0" dx="1.8719" dy="0.4468" layer="1"/>
-<smd name="12" x="2.9217" y="0.65" dx="1.8719" dy="0.4468" layer="1"/>
-<smd name="13" x="2.9217" y="1.3" dx="1.8719" dy="0.4468" layer="1"/>
-<smd name="14" x="2.9217" y="1.95" dx="1.8719" dy="0.4468" layer="1"/>
-<text x="0" y="3.5624" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.185" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="RESC1508X45M" urn="urn:adsk.eagle:package:31668595/1" type="model">
@@ -369,20 +320,6 @@
 &lt;p&gt;Chip package with body size 1.55 X 0.85 X 0.47 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESC1508X47M"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT65P212X110-5M" urn="urn:adsk.eagle:package:31853395/1" type="model">
-<description>5-SOT23, 0.65 mm pitch, 2.13 mm span, 2.05 X 1.25 X 1.10 mm body
-&lt;p&gt;5-pin SOT23 package with 0.65 mm pitch, 2.13 mm span with body size 2.05 X 1.25 X 1.10 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOT65P212X110-5M"/>
-</packageinstances>
-</package3d>
-<package3d name="SOP65P640X120-14M" urn="urn:adsk.eagle:package:31853367/1" type="model">
-<description>14-SOP, 0.65 mm pitch, 6.40 mm span, 5.00 X 4.40 X 1.20 mm body
-&lt;p&gt;14-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 5.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOP65P640X120-14M"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -581,12 +518,6 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW060310K0BEEN" x="-43.18" y="30.48" smashed="yes">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 10Kohms .1% 25ppm" x="-43.18" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.45 mm" x="-43.18" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-43.18" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0BEEN" x="-43.18" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-TNPW060310K0BEEN" x="-43.18" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW060310K0BEEN?qs=ys0FHdAnsy4pY5DJwuessg%3D%3D" x="-43.18" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-43.18" y="31.9686" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-43.18" y="28.9914" size="1.27" layer="27" align="top-center"/>
 </element>
@@ -611,22 +542,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-46.99" y="67.1164" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="U$14" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW0603392RBEEA" x="-43.18" y="38.1" smashed="yes">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 392ohms .1% 25ppm" x="-43.18" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.45 mm" x="-43.18" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-43.18" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW0603392RBEEA" x="-43.18" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-TNPW0603392RBEEA" x="-43.18" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0603392RBEEA?qs=kHCK1FE53PkNbYaq0EU6Lw%3D%3D" x="-43.18" y="38.1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-43.18" y="39.5886" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-43.18" y="36.6114" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="U$15" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW0603953RBEEA" x="-22.86" y="45.72" smashed="yes">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 953ohms .1% 25ppm" x="-22.86" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.45 mm" x="-22.86" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-22.86" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW0603953RBEEA" x="-22.86" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-TNPW0603953RBEEA" x="-22.86" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0603953RBEEA?qs=CqEPuS5aiX8a1bzjUmak3Q%3D%3D" x="-22.86" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-22.86" y="47.2086" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-22.86" y="44.2314" size="1.27" layer="27" align="top-center"/>
 </element>
@@ -661,22 +580,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-44.45" y="59.4741" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="U$19" library="Baja_Parts_Lib" package="RESC1507X40M" package3d_urn="urn:adsk.eagle:package:31668640/1" value="WSL0603R0180FEA" x="-21.59" y="15.24" smashed="yes">
-<attribute name="DESCRIPTION" value=" Current Sense Resistors - SMD 1/10watt .018ohms 1%" x="-21.59" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.33 mm" x="-21.59" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-21.59" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="WSL0603R0180FEA" x="-21.59" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-WSL0603R0180FEA" x="-21.59" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/WSL0603R0180FEA?qs=WgxguIJepIVxM5lrrv8PKQ%3D%3D" x="-21.59" y="15.24" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-21.59" y="16.7521" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-21.59" y="13.7279" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="U$2" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW060310K0BEEN" x="-22.86" y="38.1" smashed="yes">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 10Kohms .1% 25ppm" x="-22.86" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.45 mm" x="-22.86" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-22.86" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0BEEN" x="-22.86" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-TNPW060310K0BEEN" x="-22.86" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW060310K0BEEN?qs=ys0FHdAnsy4pY5DJwuessg%3D%3D" x="-22.86" y="38.1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-22.86" y="39.5886" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-22.86" y="36.6114" size="1.27" layer="27" align="top-center"/>
 </element>
@@ -691,12 +598,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-43.18" y="2.866" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="U$21" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW060310R0BEEN" x="-44.45" y="22.86" smashed="yes">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 10ohms .1% 25ppm" x="-44.45" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.45 mm" x="-44.45" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-44.45" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310R0BEEN" x="-44.45" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-TNPW060310R0BEEN" x="-44.45" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW060310R0BEEN?qs=sGAEpiMZZMtlubZbdhIBINBUesVvBWI8Ir7KK%252BezhzA%3D" x="-44.45" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-44.45" y="24.3486" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-44.45" y="21.3714" size="1.27" layer="27" align="top-center"/>
 </element>
@@ -741,12 +642,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-43.18" y="44.2314" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="U$27" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW060334K0BEEA" x="-22.86" y="53.34" smashed="yes">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 34Kohms .1% 25ppm" x="-22.86" y="53.34" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.45 mm" x="-22.86" y="53.34" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-22.86" y="53.34" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=" TNPW060334K0BEEA" x="-22.86" y="53.34" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-TNPW060334K0BEEA" x="-22.86" y="53.34" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW060334K0BEEA?qs=kHCK1FE53PlE3u8PggA5Ww%3D%3D" x="-22.86" y="53.34" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-22.86" y="54.8286" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-22.86" y="51.8514" size="1.27" layer="27" align="top-center"/>
 </element>
@@ -771,12 +666,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-21.59" y="74.7364" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="U$30" library="Baja_Parts_Lib" package="RESC1507X40M" package3d_urn="urn:adsk.eagle:package:31668640/1" value="WSL0603R0180FEA" x="-39.37" y="15.24" smashed="yes">
-<attribute name="DESCRIPTION" value=" Current Sense Resistors - SMD 1/10watt .018ohms 1%" x="-39.37" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.33 mm" x="-39.37" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-39.37" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="WSL0603R0180FEA" x="-39.37" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-WSL0603R0180FEA" x="-39.37" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/WSL0603R0180FEA?qs=WgxguIJepIVxM5lrrv8PKQ%3D%3D" x="-39.37" y="15.24" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-39.37" y="16.7521" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-39.37" y="13.7279" size="1.27" layer="27" align="top-center"/>
 </element>
@@ -791,12 +680,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-57.15" y="2.866" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="U$32" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW060310R0BEEN" x="-22.86" y="30.48" smashed="yes">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 10ohms .1% 25ppm" x="-22.86" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.45 mm" x="-22.86" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-22.86" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310R0BEEN" x="-22.86" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-TNPW060310R0BEEN" x="-22.86" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW060310R0BEEN?qs=sGAEpiMZZMtlubZbdhIBINBUesVvBWI8Ir7KK%252BezhzA%3D" x="-22.86" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-22.86" y="31.9686" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-22.86" y="28.9914" size="1.27" layer="27" align="top-center"/>
 </element>
@@ -819,36 +702,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW06033K57BEEA?qs=kHCK1FE53Pku%252BV6IyV8rEg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-22.86" y="62.4486" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-22.86" y="59.4714" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="U$3" library="Baja_Parts_Lib" package="SOT65P212X110-5M" package3d_urn="urn:adsk.eagle:package:31853395/1" value="74HC1G86GW-Q100H" x="-66.04" y="-5.08" smashed="yes">
-<attribute name="DESCRIPTION" value="Logic Gates LOGIC GATES" x="-66.04" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1 mm" x="-66.04" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-66.04" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="74HC1G86GW-Q100H" x="-66.04" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-74HC1G86GW-Q100H" x="-66.04" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Nexperia/74HC1G86GW-Q100H?qs=5XOdhvmYM0PgVyXumaLcbw%3D%3D" x="-66.04" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-66.04" y="-2.8225" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="-66.04" y="-6.8975" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="U$4" library="Baja_Parts_Lib" package="SOT65P212X110-5M" package3d_urn="urn:adsk.eagle:package:31853395/1" value="74HC1G86GW-Q100H" x="-71.12" y="-12.7" smashed="yes">
-<attribute name="DESCRIPTION" value="Logic Gates LOGIC GATES" x="-71.12" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1 mm" x="-71.12" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-71.12" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="74HC1G86GW-Q100H" x="-71.12" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-74HC1G86GW-Q100H" x="-71.12" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Nexperia/74HC1G86GW-Q100H?qs=5XOdhvmYM0PgVyXumaLcbw%3D%3D" x="-71.12" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-71.12" y="-10.4425" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="-71.12" y="-14.5175" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="U$5" library="Baja_Parts_Lib" package="SOP65P640X120-14M" package3d_urn="urn:adsk.eagle:package:31853367/1" value="SN74HC74QPWRQ1" x="-85.09" y="-10.16" smashed="yes">
-<attribute name="DESCRIPTION" value="Flip Flops Dual Pos Edge Trig D Type Flip Flop" x="-85.09" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.15 mm" x="-85.09" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-85.09" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HC74QPWRQ1" x="-85.09" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-SN74HC74QPWRQ1" x="-85.09" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Texas-Instruments/SN74HC74QPWRQ1?qs=AgY10sKTvDL2%252BQP50mtMpQ%3D%3D" x="-85.09" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-85.09" y="-6.5976" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="-85.09" y="-13.345" size="1.27" layer="27" align="top-center"/>
 </element>
 </elements>
 <signals>
@@ -885,19 +738,13 @@ design rules under a new name.</description>
 <contactref element="U$25" pad="2"/>
 <contactref element="U$29" pad="2"/>
 <contactref element="U$34" pad="2"/>
-<contactref element="U$3" pad="3"/>
-<contactref element="U$4" pad="3"/>
-<contactref element="U$5" pad="7"/>
-<wire x1="-72.1445" y1="-13.35" x2="-88.0117" y2="-12.11" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.0645" y1="-5.73" x2="-72.1445" y2="-13.35" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.2646" y1="6.6" x2="-67.0645" y2="-5.73" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.1345" y1="45.72" x2="-20.2646" y2="6.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.1345" y1="60.96" x2="-22.1345" y2="45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.2601" y1="68.58" x2="-22.1345" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.6696" y1="76.2" x2="-26.2601" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.2601" y1="68.58" x2="-20.6696" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.1345" y1="60.96" x2="-26.2601" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.1345" y1="45.72" x2="-22.1345" y2="60.96" width="0" layer="19" extent="1-1"/>
 <wire x1="-43.7202" y1="74.93" x2="-26.2601" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-45.3101" y1="60.96" x2="-43.7202" y2="74.93" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.4545" y1="45.72" x2="-45.3101" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.2646" y1="6.6" x2="-22.1345" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$29">
 <contactref element="U$12" pad="2"/>
@@ -1020,30 +867,6 @@ design rules under a new name.</description>
 <contactref element="U$12" pad="25"/>
 <contactref element="U$1" pad="2"/>
 <wire x1="-16.03" y1="8.8346" x2="-42.4545" y2="30.48" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$1">
-<contactref element="U$3" pad="2"/>
-<contactref element="U$5" pad="2"/>
-<contactref element="U$3" pad="4"/>
-<wire x1="-67.0645" y1="-5.08" x2="-88.0117" y2="-8.86" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.0155" y1="-5.73" x2="-67.0645" y2="-5.08" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
-<contactref element="U$4" pad="4"/>
-<contactref element="U$4" pad="2"/>
-<contactref element="U$5" pad="12"/>
-<wire x1="-72.1445" y1="-12.7" x2="-82.1683" y2="-9.51" width="0" layer="19" extent="1-1"/>
-<wire x1="-70.0955" y1="-13.35" x2="-72.1445" y2="-12.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$3">
-<contactref element="U$5" pad="9"/>
-<contactref element="U$12" pad="17"/>
-<wire x1="-15.2954" y1="4.6" x2="-82.1683" y2="-11.46" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$4">
-<contactref element="U$12" pad="24"/>
-<contactref element="U$5" pad="5"/>
-<wire x1="-15.2954" y1="8.1" x2="-88.0117" y2="-10.81" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

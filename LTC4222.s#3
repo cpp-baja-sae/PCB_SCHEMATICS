@@ -411,6 +411,9 @@
 </symbols>
 <devicesets>
 <deviceset name="LTC4222">
+<description>Hot Swap Voltage Controllers Dual Hot Swap Controller w/ADC and I2C
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/609/4222fb-1270163.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="LTC4222" x="0" y="0"/>
 </gates>
@@ -455,12 +458,22 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31665535/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Hot Swap Voltage Controllers Dual Hot Swap Controller w/ADC and I2C" constant="no"/>
+<attribute name="HEIGHT" value="0.75 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Analog Devices" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LTC4222CUH#PBF" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="584-LTC4222CUH#PBF" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Analog-Devices/LTC4222CUHPBF?qs=sGAEpiMZZMsKEdP9slC0YZc6cH0Tuf0NcujsStLpH6A%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="AT0603DRD071K82L">
+<description>Thin Film Resistors - SMD 1.82 Kohms 0.5% Tol. AEC-Q200
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/447/PYu_AT_51_RoHS_L_5-1714247.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -474,7 +487,14 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668629/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 1.82 Kohms 0.5% Tol. AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.45 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AT0603DRD071K82L" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-AT0603DRD071K82L" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Yageo/AT0603DRD071K82L?qs=tggtontpCXPbCWwxdLaIvQ%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -518,6 +538,9 @@
 </devices>
 </deviceset>
 <deviceset name="CGA3E1X7R1V105K080AE">
+<description>Multilayer Ceramic Capacitors MLCC - SMD/SMT SOFT 0603 35V 1uF X7R 10% AEC-Q200
+&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
@@ -531,12 +554,22 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668620/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT SOFT 0603 35V 1uF X7R 10% AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.8 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E1X7R1V105K080AE" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E1X7R1V105KA" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/TDK/CGA3E1X7R1V105K080AE?qs=nQSIdc08i%252BfiPojSMYifNA%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="CGA2B3X7R1E683K050BB">
+<description>Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0402 25V 0.068uF X7R 10% AEC-Q200
+&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
@@ -550,12 +583,22 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668680/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0402 25V 0.068uF X7R 10% AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.5 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B3X7R1E683K050BB" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA2B3X7R1E683KB" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/TDK/CGA2B3X7R1E683K050BB?qs=xLDY6iXSiQadJRj3xSTsHw%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="CGA3E2X7R1H104K080AE">
+<description>Multilayer Ceramic Capacitors MLCC - SMD/SMT SOFT 0603 50V 0.1uF X7R 10% AEC-Q200
+&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
@@ -569,7 +612,14 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668620/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT SOFT 0603 50V 0.1uF X7R 10% AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.8 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E2X7R1H104K080AE" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E2X7R1H104KE" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/TDK/CGA3E2X7R1H104K080AE?qs=n%2FVzw7c4a0kvajqFvEbDzQ%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -594,6 +644,9 @@
 </devices>
 </deviceset>
 <deviceset name="PMV15ENEAR">
+<description>MOSFET 30V N-CHANNEL
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/916/PMV15ENEA-1604828.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="NCHANNEL_ENHANCEMENT_FET" x="0" y="0"/>
 </gates>
@@ -608,7 +661,14 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668685/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="MOSFET 30V N-CHANNEL" constant="no"/>
+<attribute name="HEIGHT" value="1 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PMV15ENEAR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PMV15ENEAR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Nexperia/PMV15ENEAR?qs=T3oQrply3y80fkWq77yzJw%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -633,6 +693,10 @@
 </devices>
 </deviceset>
 <deviceset name="67997-100HLF">
+<description>Headers &amp; Wire Housings .100CC STR HEADER
+&lt;p&gt;
+Source: 
+&lt;a href="https://www.mouser.com/datasheet/2/18/1/bwb_bergstik-2578275.pdfhttps://www.mouser.com/datasheet/2/18/1/bwb_bergstik-2578275.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="SHUNT_CONNECTOR" x="0" y="0"/>
 </gates>
@@ -646,12 +710,22 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668692/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings .100CC STR HEADER" constant="no"/>
+<attribute name="HEIGHT" value="31.04 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol FCi" constant="no"/>
+<attribute name="MANUFACTURE_PART_NUMBER" value="67997-100HLF" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="649-67997-100HLF" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Amphenol-FCI/67997-100HLF?qs=cpLrBgdhsoH33Mp6xh%2FbyQ%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="CGA2B3X7R1V223K050BB">
+<description>Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0402 35V 0.022uF X7R 10% AEC-Q200
+&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
@@ -665,12 +739,22 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668680/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0402 35V 0.022uF X7R 10% AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.5 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B3X7R1V223K050BB" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA2B3X7R1V223KB" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/TDK/CGA2B3X7R1V223K050BB?qs=xLDY6iXSiQZvE13Mgd36Mg%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MCT0603PD4991DP500">
+<description>Thin Film Resistors - SMD .250W 4.99Kohms .5% 0603 25ppm Hi Power
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/427/VISH_S_A0003695214_1-2569092.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -684,12 +768,22 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668671/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .250W 4.99Kohms .5% 0603 25ppm Hi Power" constant="no"/>
+<attribute name="HEIGHT" value="0.45 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Beyschlag" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=" MCT0603PD4991DP500" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCT0603PD4991DP5" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603PD4991DP500?qs=5aG0NVq1C4xQ68f1sPHBvQ%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="TNPW06033K57BEEA">
+<description>Thin Film Resistors - SMD 3.57kohms .1% 25ppm
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/427/tnpw_e3-1761965.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -703,26 +797,14 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TNPW060310K0BEEA">
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="AT0603">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31668595/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 3.57kohms .1% 25ppm" constant="no"/>
+<attribute name="HEIGHT" value="0.45 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW06033K57BEEA" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW06033K57BEEA" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW06033K57BEEA?qs=kHCK1FE53Pku%252BV6IyV8rEg%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -747,6 +829,9 @@
 </devices>
 </deviceset>
 <deviceset name="TNPW06031K02BEEA">
+<description>Thin Film Resistors - SMD 1.02Kohms .1% 25ppm
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/427/tnpw_e3-1761965.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -760,12 +845,22 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 1.02Kohms .1% 25ppm" constant="no"/>
+<attribute name="HEIGHT" value="0.45 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW06031K02BEEA" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW06031K02BEEA" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW06031K02BEEA?qs=U8jWr0D8IJjr1FstIpZwmw%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="AT0603DRD073K4L">
+<description>Thin Film Resistors - SMD 3.4 Kohms 0.5% Tol. AEC-Q200
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/447/PYu_AT_51_RoHS_L_5-1714247.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -777,6 +872,32 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668629/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 3.4 Kohms 0.5% Tol. AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.45 mm" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AT0603DRD073K4L" constant="no"/>
+<attribute name="MANUFACTURE_NAME" value="YAGEO" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-AT0603DRD073K4L" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/AT0603DRD073K4L?qs=tggtontpCXPtTFYMCVhXyg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TNPW060310K0BEEN">
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AT0603">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -847,7 +968,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$23" library="Baja_Parts_Lib" deviceset="CGA2B3X7R1V223K050BB" device="" package3d_urn="urn:adsk.eagle:package:31668680/1"/>
 <part name="U$24" library="Baja_Parts_Lib" deviceset="MCT0603PD4991DP500" device="" package3d_urn="urn:adsk.eagle:package:31668671/1"/>
 <part name="U$25" library="Baja_Parts_Lib" deviceset="TNPW06033K57BEEA" device="" package3d_urn="urn:adsk.eagle:package:31668595/1"/>
-<part name="U$26" library="Baja_Parts_Lib" deviceset="TNPW060310K0BEEA" device="" package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U$27" library="Baja_Parts_Lib" deviceset="TNPW060334K0BEEA" device="" package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 <part name="U$28" library="Baja_Parts_Lib" deviceset="TNPW06031K02BEEA" device="" package3d_urn="urn:adsk.eagle:package:31668595/1"/>
@@ -858,8 +978,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$32" library="Baja_Parts_Lib" deviceset="TNPW060310R0BEEN" device="" package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 <part name="U$33" library="Baja_Parts_Lib" deviceset="MCT0603PD4991DP500" device="" package3d_urn="urn:adsk.eagle:package:31668671/1"/>
 <part name="U$34" library="Baja_Parts_Lib" deviceset="TNPW06033K57BEEA" device="" package3d_urn="urn:adsk.eagle:package:31668595/1"/>
-<part name="U$35" library="Baja_Parts_Lib" deviceset="TNPW060310K0BEEA" device="" package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="U$1" library="Baja_Parts_Lib" deviceset="TNPW060310K0BEEN" device="" package3d_urn="urn:adsk.eagle:package:31668595/1"/>
+<part name="U$2" library="Baja_Parts_Lib" deviceset="TNPW060310K0BEEN" device="" package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -867,8 +988,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </plain>
 <instances>
 <instance part="U$12" gate="G$1" x="-147.32" y="38.1" smashed="yes">
-<attribute name="NAME" x="-132.08" y="58.42" size="1.27" layer="95"/>
-<attribute name="VALUE" x="-132.08" y="53.34" size="1.27" layer="96"/>
+<attribute name="NAME" x="-124.46" y="68.58" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-124.46" y="58.42" size="1.27" layer="96"/>
 </instance>
 <instance part="U$13" gate="G$1" x="-261.62" y="5.08" smashed="yes">
 <attribute name="NAME" x="-256.54" y="7.62" size="1.778" layer="95"/>
@@ -925,10 +1046,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="-218.44" y="-91.44" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-223.52" y="-99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="U$26" gate="G$1" x="-259.08" y="-109.22" smashed="yes">
-<attribute name="NAME" x="-254" y="-106.68" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-254" y="-114.3" size="1.778" layer="96"/>
-</instance>
 <instance part="SUPPLY3" gate="GND" x="-195.58" y="-99.06" smashed="yes">
 <attribute name="VALUE" x="-197.485" y="-102.235" size="1.778" layer="96"/>
 </instance>
@@ -967,12 +1084,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="-182.88" y="198.12" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-187.96" y="190.5" size="1.778" layer="96"/>
 </instance>
-<instance part="U$35" gate="G$1" x="-223.52" y="210.82" smashed="yes">
+<instance part="SUPPLY5" gate="GND" x="-160.02" y="190.5" smashed="yes">
+<attribute name="VALUE" x="-161.925" y="187.325" size="1.778" layer="96"/>
+</instance>
+<instance part="U$1" gate="G$1" x="-223.52" y="210.82" smashed="yes">
 <attribute name="NAME" x="-218.44" y="213.36" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-218.44" y="205.74" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY5" gate="GND" x="-160.02" y="190.5" smashed="yes">
-<attribute name="VALUE" x="-161.925" y="187.325" size="1.778" layer="96"/>
+<instance part="U$2" gate="G$1" x="-259.08" y="-109.22" smashed="yes">
+<attribute name="NAME" x="-254" y="-106.68" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-254" y="-114.3" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1131,9 +1252,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="U$24" gate="G$1" pin="P$1"/>
 <wire x1="-259.08" y1="-93.98" x2="-264.16" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="-264.16" y1="-93.98" x2="-264.16" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="U$26" gate="G$1" pin="P$1"/>
 <wire x1="-259.08" y1="-109.22" x2="-264.16" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="-264.16" y1="-109.22" x2="-264.16" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -1150,10 +1271,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="U$26" gate="G$1" pin="P$2"/>
 <pinref part="U$12" gate="G$1" pin="GPIO2"/>
 <wire x1="-236.22" y1="-109.22" x2="-104.14" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="-109.22" x2="-104.14" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -1224,10 +1345,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-114.3" y1="180.34" x2="-114.3" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U$33" gate="G$1" pin="P$1"/>
 <wire x1="-223.52" y1="195.58" x2="-228.6" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="U$35" gate="G$1" pin="P$1"/>
 <wire x1="-223.52" y1="210.82" x2="-228.6" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-228.6" y1="180.34" x2="-228.6" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="-228.6" y1="210.82" x2="-228.6" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -1244,10 +1365,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="U$35" gate="G$1" pin="P$2"/>
 <pinref part="U$12" gate="G$1" pin="GPIO1"/>
 <wire x1="-200.66" y1="210.82" x2="-104.14" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="210.82" x2="-104.14" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 </nets>
