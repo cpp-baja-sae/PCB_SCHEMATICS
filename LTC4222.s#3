@@ -251,6 +251,55 @@
 <text x="0" y="1.4886" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.4886" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="SOT65P212X110-5M" urn="urn:adsk.eagle:footprint:31853422/1">
+<description>5-SOT23, 0.65 mm pitch, 2.13 mm span, 2.05 X 1.25 X 1.10 mm body
+&lt;p&gt;5-pin SOT23 package with 0.65 mm pitch, 2.13 mm span with body size 2.05 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-1.181" y="1.3725" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.675" y1="1.1825" x2="0.675" y2="1.1825" width="0.12" layer="21"/>
+<wire x1="-0.675" y1="-1.1825" x2="0.675" y2="-1.1825" width="0.12" layer="21"/>
+<wire x1="0.675" y1="-1.125" x2="-0.675" y2="-1.125" width="0.12" layer="51"/>
+<wire x1="-0.675" y1="-1.125" x2="-0.675" y2="1.125" width="0.12" layer="51"/>
+<wire x1="-0.675" y1="1.125" x2="0.675" y2="1.125" width="0.12" layer="51"/>
+<wire x1="0.675" y1="1.125" x2="0.675" y2="-1.125" width="0.12" layer="51"/>
+<smd name="1" x="-1.0245" y="0.65" dx="1.3248" dy="0.4371" layer="1"/>
+<smd name="2" x="-1.0245" y="0" dx="1.3248" dy="0.4371" layer="1"/>
+<smd name="3" x="-1.0245" y="-0.65" dx="1.3248" dy="0.4371" layer="1"/>
+<smd name="4" x="1.0245" y="-0.65" dx="1.3248" dy="0.4371" layer="1"/>
+<smd name="5" x="1.0245" y="0.65" dx="1.3248" dy="0.4371" layer="1"/>
+<text x="0" y="2.2575" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.8175" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOP65P640X120-14M" urn="urn:adsk.eagle:footprint:31853373/1">
+<description>14-SOP, 0.65 mm pitch, 6.40 mm span, 5.00 X 4.40 X 1.20 mm body
+&lt;p&gt;14-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 5.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
+<circle x="-3.0538" y="2.6774" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.25" y1="2.4274" x2="-2.25" y2="2.55" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="2.55" x2="2.25" y2="2.55" width="0.12" layer="21"/>
+<wire x1="2.25" y1="2.55" x2="2.25" y2="2.4274" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-2.4274" x2="-2.25" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-2.55" x2="2.25" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="2.25" y1="-2.55" x2="2.25" y2="-2.4274" width="0.12" layer="21"/>
+<wire x1="2.25" y1="-2.55" x2="-2.25" y2="-2.55" width="0.12" layer="51"/>
+<wire x1="-2.25" y1="-2.55" x2="-2.25" y2="2.55" width="0.12" layer="51"/>
+<wire x1="-2.25" y1="2.55" x2="2.25" y2="2.55" width="0.12" layer="51"/>
+<wire x1="2.25" y1="2.55" x2="2.25" y2="-2.55" width="0.12" layer="51"/>
+<smd name="1" x="-2.9217" y="1.95" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="2" x="-2.9217" y="1.3" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="3" x="-2.9217" y="0.65" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="4" x="-2.9217" y="0" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="5" x="-2.9217" y="-0.65" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="6" x="-2.9217" y="-1.3" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="7" x="-2.9217" y="-1.95" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="8" x="2.9217" y="-1.95" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="9" x="2.9217" y="-1.3" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="10" x="2.9217" y="-0.65" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="11" x="2.9217" y="0" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="12" x="2.9217" y="0.65" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="13" x="2.9217" y="1.3" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="14" x="2.9217" y="1.95" dx="1.8719" dy="0.4468" layer="1"/>
+<text x="0" y="3.5624" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.185" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="QFN50P500X500X75-33T345M" urn="urn:adsk.eagle:package:31665535/1" type="model">
@@ -314,6 +363,20 @@
 &lt;p&gt;Chip package with body size 1.55 X 0.85 X 0.47 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="RESC1508X47M"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT65P212X110-5M" urn="urn:adsk.eagle:package:31853395/1" type="model">
+<description>5-SOT23, 0.65 mm pitch, 2.13 mm span, 2.05 X 1.25 X 1.10 mm body
+&lt;p&gt;5-pin SOT23 package with 0.65 mm pitch, 2.13 mm span with body size 2.05 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT65P212X110-5M"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP65P640X120-14M" urn="urn:adsk.eagle:package:31853367/1" type="model">
+<description>14-SOP, 0.65 mm pitch, 6.40 mm span, 5.00 X 4.40 X 1.20 mm body
+&lt;p&gt;14-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 5.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP65P640X120-14M"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -408,6 +471,31 @@
 <pin name="2" x="0" y="-5.08" length="middle"/>
 <rectangle x1="5.08" y1="-6.35" x2="12.7" y2="1.27" layer="94"/>
 </symbol>
+<symbol name="74HC1G86GW-Q100H">
+<pin name="B" x="-5.08" y="-2.54" length="middle"/>
+<pin name="A" x="-5.08" y="-7.62" length="middle"/>
+<pin name="GND" x="-5.08" y="-12.7" length="middle"/>
+<pin name="Y" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="VCC" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<rectangle x1="0" y1="-15.24" x2="12.7" y2="0" layer="94"/>
+</symbol>
+<symbol name="SN74HC74QPWRQ1">
+<pin name="1!CLR" x="-5.08" y="-2.54" length="middle"/>
+<pin name="1D" x="-5.08" y="-5.08" length="middle"/>
+<pin name="1CLK" x="-5.08" y="-7.62" length="middle"/>
+<pin name="1!PRE" x="-5.08" y="-10.16" length="middle"/>
+<pin name="1Q" x="-5.08" y="-12.7" length="middle"/>
+<pin name="1!Q" x="-5.08" y="-15.24" length="middle"/>
+<pin name="GND" x="-5.08" y="-17.78" length="middle"/>
+<pin name="2!Q" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="2Q" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="2!PRE" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="2CLK" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="2D" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="2!CLR" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="VCC" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<rectangle x1="0" y1="-20.32" x2="17.78" y2="0" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LTC4222">
@@ -500,6 +588,9 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/447/PYu_AT_51_RoHS_L_5-17
 </devices>
 </deviceset>
 <deviceset name="TNPW0603392RBEEA">
+<description>Thin Film Resistors - SMD 392ohms .1% 25ppm
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/427/tnpw_e3-1761965.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -513,12 +604,22 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/447/PYu_AT_51_RoHS_L_5-17
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 392ohms .1% 25ppm" constant="no"/>
+<attribute name="HEIGHT" value="0.45 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW0603392RBEEA" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW0603392RBEEA" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0603392RBEEA?qs=kHCK1FE53PkNbYaq0EU6Lw%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="TNPW0603953RBEEA">
+<description>Thin Film Resistors - SMD 953ohms .1% 25ppm
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/427/tnpw_e3-1761965.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -532,7 +633,14 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/447/PYu_AT_51_RoHS_L_5-17
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 953ohms .1% 25ppm" constant="no"/>
+<attribute name="HEIGHT" value="0.45 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW0603953RBEEA" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW0603953RBEEA" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0603953RBEEA?qs=CqEPuS5aiX8a1bzjUmak3Q%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -625,6 +733,9 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 </devices>
 </deviceset>
 <deviceset name="WSL0603R0180FEA">
+<description>Current Sense Resistors - SMD 1/10watt .018ohms 1%
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/427/VISH_S_A0011931981_1-2572395.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -638,7 +749,14 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668640/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Current Sense Resistors - SMD 1/10watt .018ohms 1%" constant="no"/>
+<attribute name="HEIGHT" value="0.33 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="WSL0603R0180FEA" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-WSL0603R0180FEA" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/WSL0603R0180FEA?qs=WgxguIJepIVxM5lrrv8PKQ%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -674,6 +792,9 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/916/PMV15ENEA-1604828.pdf
 </devices>
 </deviceset>
 <deviceset name="TNPW060310R0BEEN">
+<description>Thin Film Resistors - SMD 10ohms .1% 25ppm
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/427/tnpw_e3-1761965.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -687,7 +808,14 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/916/PMV15ENEA-1604828.pdf
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 10ohms .1% 25ppm" constant="no"/>
+<attribute name="HEIGHT" value="0.45 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310R0BEEN" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW060310R0BEEN" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW060310R0BEEN?qs=sGAEpiMZZMtlubZbdhIBINBUesVvBWI8Ir7KK%252BezhzA%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -810,6 +938,9 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/427/tnpw_e3-1761965.pdf"&
 </devices>
 </deviceset>
 <deviceset name="TNPW060334K0BEEA">
+<description>Thin Film Resistors - SMD 34Kohms .1% 25ppm
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/427/tnpw_e3-1761965.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -823,7 +954,14 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/427/tnpw_e3-1761965.pdf"&
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 34Kohms .1% 25ppm" constant="no"/>
+<attribute name="HEIGHT" value="0.45 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=" TNPW060334K0BEEA" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW060334K0BEEA" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW060334K0BEEA?qs=kHCK1FE53PlE3u8PggA5Ww%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -887,6 +1025,9 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/447/PYu_AT_51_RoHS_L_5-17
 </devices>
 </deviceset>
 <deviceset name="TNPW060310K0BEEN">
+<description>Thin Film Resistors - SMD 10Kohms .1% 25ppm
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/427/tnpw_e3-1761965.pdf"&gt;Data Sheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -900,7 +1041,87 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/447/PYu_AT_51_RoHS_L_5-17
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 10Kohms .1% 25ppm" constant="no"/>
+<attribute name="HEIGHT" value="0.45 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0BEEN" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW060310K0BEEN" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW060310K0BEEN?qs=ys0FHdAnsy4pY5DJwuessg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74HC1G86GW-Q100H">
+<description>Logic Gates LOGIC GATES
+&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/916/74HC_HCT1G86_Q100-1598214.pdf"&gt;Data Sheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="74HC1G86GW-Q100H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT65P212X110-5M">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="Y" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31853395/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Logic Gates LOGIC GATES" constant="no"/>
+<attribute name="HEIGHT" value="1.1 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="74HC1G86GW-Q100H" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-74HC1G86GW-Q100H" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Nexperia/74HC1G86GW-Q100H?qs=5XOdhvmYM0PgVyXumaLcbw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN74HC74QPWRQ1">
+<description>Flip Flops Dual Pos Edge Trig D Type Flip Flop
+&lt;p&gt;
+Source: &lt;a href="https://www.ti.com/lit/ds/symlink/sn74hc74-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1635547316445&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F"&gt;Data Sheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SN74HC74QPWRQ1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP65P640X120-14M">
+<connects>
+<connect gate="G$1" pin="1!CLR" pad="1"/>
+<connect gate="G$1" pin="1!PRE" pad="4"/>
+<connect gate="G$1" pin="1!Q" pad="6"/>
+<connect gate="G$1" pin="1CLK" pad="3"/>
+<connect gate="G$1" pin="1D" pad="2"/>
+<connect gate="G$1" pin="1Q" pad="5"/>
+<connect gate="G$1" pin="2!CLR" pad="13"/>
+<connect gate="G$1" pin="2!PRE" pad="10"/>
+<connect gate="G$1" pin="2!Q" pad="8"/>
+<connect gate="G$1" pin="2CLK" pad="11"/>
+<connect gate="G$1" pin="2D" pad="12"/>
+<connect gate="G$1" pin="2Q" pad="9"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="14"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31853367/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Flip Flops Dual Pos Edge Trig D Type Flip Flop" constant="no"/>
+<attribute name="HEIGHT" value="1.15 mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HC74QPWRQ1" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HC74QPWRQ1" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Texas-Instruments/SN74HC74QPWRQ1?qs=AgY10sKTvDL2%252BQP50mtMpQ%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -981,6 +1202,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U$1" library="Baja_Parts_Lib" deviceset="TNPW060310K0BEEN" device="" package3d_urn="urn:adsk.eagle:package:31668595/1"/>
 <part name="U$2" library="Baja_Parts_Lib" deviceset="TNPW060310K0BEEN" device="" package3d_urn="urn:adsk.eagle:package:31668595/1"/>
+<part name="U$3" library="Baja_Parts_Lib" deviceset="74HC1G86GW-Q100H" device="" package3d_urn="urn:adsk.eagle:package:31853395/1"/>
+<part name="U$4" library="Baja_Parts_Lib" deviceset="74HC1G86GW-Q100H" device="" package3d_urn="urn:adsk.eagle:package:31853395/1"/>
+<part name="U$5" library="Baja_Parts_Lib" deviceset="SN74HC74QPWRQ1" device="" package3d_urn="urn:adsk.eagle:package:31853367/1"/>
+<part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1095,6 +1322,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="-254" y="-106.68" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-254" y="-114.3" size="1.778" layer="96"/>
 </instance>
+<instance part="U$3" gate="G$1" x="-58.42" y="114.3" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="-60.96" y="35.56" smashed="yes"/>
+<instance part="U$5" gate="G$1" x="-30.48" y="71.12" smashed="yes" rot="R270"/>
+<instance part="SUPPLY6" gate="GND" x="-68.58" y="17.78" smashed="yes">
+<attribute name="VALUE" x="-70.485" y="14.605" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY7" gate="GND" x="-66.04" y="96.52" smashed="yes">
+<attribute name="VALUE" x="-67.945" y="93.345" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY8" gate="GND" x="-53.34" y="73.66" smashed="yes">
+<attribute name="VALUE" x="-55.245" y="70.485" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1174,6 +1413,23 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <wire x1="-165.1" y1="195.58" x2="-160.02" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="-160.02" y1="195.58" x2="-160.02" y2="193.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY7" gate="GND" pin="GND"/>
+<wire x1="-63.5" y1="101.6" x2="-66.04" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="101.6" x2="-66.04" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="GND"/>
+<wire x1="-66.04" y1="22.86" x2="-68.58" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+<wire x1="-68.58" y1="22.86" x2="-68.58" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY8" gate="GND" pin="GND"/>
+<wire x1="-48.26" y1="76.2" x2="-53.34" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -1369,6 +1625,48 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-200.66" y1="210.82" x2="-104.14" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="210.82" x2="-104.14" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<wire x1="-71.12" y1="91.44" x2="-71.12" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="A"/>
+<wire x1="-71.12" y1="106.68" x2="-63.5" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="91.44" x2="-35.56" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="91.44" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="1D"/>
+<pinref part="U$3" gate="G$1" pin="Y"/>
+<wire x1="-40.64" y1="101.6" x2="-35.56" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="101.6" x2="-35.56" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="Y"/>
+<wire x1="-38.1" y1="22.86" x2="-43.18" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="22.86" x2="-38.1" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="12.7" x2="-73.66" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="12.7" x2="-73.66" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="A"/>
+<wire x1="-73.66" y1="27.94" x2="-66.04" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="2D"/>
+<wire x1="-38.1" y1="48.26" x2="-38.1" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="2Q"/>
+<wire x1="-45.72" y1="48.26" x2="-45.72" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="U$12" gate="G$1" pin="EN2"/>
+<wire x1="-45.72" y1="45.72" x2="-91.44" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U$12" gate="G$1" pin="EN1"/>
+<wire x1="-91.44" y1="81.28" x2="-43.18" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="1Q"/>
+<wire x1="-43.18" y1="81.28" x2="-43.18" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
