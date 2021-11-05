@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -73,690 +73,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="SamacSys_Parts">
-<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="QFN65P300X300X100-12N">
-<description>&lt;b&gt;QFN-COL-3x3x1&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.65" y="0.975" dx="0.6" dy="0.35" layer="1"/>
-<smd name="2" x="-1.65" y="0.325" dx="0.6" dy="0.35" layer="1"/>
-<smd name="3" x="-1.65" y="-0.325" dx="0.6" dy="0.35" layer="1"/>
-<smd name="4" x="-1.65" y="-0.975" dx="0.6" dy="0.35" layer="1"/>
-<smd name="5" x="-0.325" y="-1.45" dx="0.6" dy="0.35" layer="1" rot="R90"/>
-<smd name="6" x="0.325" y="-1.45" dx="0.6" dy="0.35" layer="1" rot="R90"/>
-<smd name="7" x="1.65" y="-0.975" dx="0.6" dy="0.35" layer="1"/>
-<smd name="8" x="1.65" y="-0.325" dx="0.6" dy="0.35" layer="1"/>
-<smd name="9" x="1.65" y="0.325" dx="0.6" dy="0.35" layer="1"/>
-<smd name="10" x="1.65" y="0.975" dx="0.6" dy="0.35" layer="1"/>
-<smd name="11" x="0.325" y="1.45" dx="0.6" dy="0.35" layer="1" rot="R90"/>
-<smd name="12" x="-0.325" y="1.45" dx="0.6" dy="0.35" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.125" y1="2.125" x2="2.125" y2="2.125" width="0.05" layer="51"/>
-<wire x1="2.125" y1="2.125" x2="2.125" y2="-2.125" width="0.05" layer="51"/>
-<wire x1="2.125" y1="-2.125" x2="-2.125" y2="-2.125" width="0.05" layer="51"/>
-<wire x1="-2.125" y1="-2.125" x2="-2.125" y2="2.125" width="0.05" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="0.85" x2="-0.85" y2="1.5" width="0.1" layer="51"/>
-<circle x="-1.9505" y="1.95" radius="0.1625" width="0.325" layer="25"/>
-</package>
-<package name="SON65P300X300X80-9N">
-<description>&lt;b&gt;T833+2C&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.5" y="0.975" dx="0.75" dy="0.35" layer="1"/>
-<smd name="2" x="-1.5" y="0.325" dx="0.75" dy="0.35" layer="1"/>
-<smd name="3" x="-1.5" y="-0.325" dx="0.75" dy="0.35" layer="1"/>
-<smd name="4" x="-1.5" y="-0.975" dx="0.75" dy="0.35" layer="1"/>
-<smd name="5" x="1.5" y="-0.975" dx="0.75" dy="0.35" layer="1"/>
-<smd name="6" x="1.5" y="-0.325" dx="0.75" dy="0.35" layer="1"/>
-<smd name="7" x="1.5" y="0.325" dx="0.75" dy="0.35" layer="1"/>
-<smd name="8" x="1.5" y="0.975" dx="0.75" dy="0.35" layer="1"/>
-<smd name="9" x="0" y="0" dx="2.4" dy="1.6" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.125" y1="1.8" x2="2.125" y2="1.8" width="0.05" layer="51"/>
-<wire x1="2.125" y1="1.8" x2="2.125" y2="-1.8" width="0.05" layer="51"/>
-<wire x1="2.125" y1="-1.8" x2="-2.125" y2="-1.8" width="0.05" layer="51"/>
-<wire x1="-2.125" y1="-1.8" x2="-2.125" y2="1.8" width="0.05" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="0.75" x2="-0.75" y2="1.5" width="0.1" layer="51"/>
-<circle x="-1.875" y="1.65" radius="0.125" width="0.25" layer="25"/>
-</package>
-<package name="SOT95P275X110-5N">
-<description>&lt;b&gt;TSOP5 CASE 483 ISSUE N&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.25" y="0.95" dx="1.25" dy="0.6" layer="1"/>
-<smd name="2" x="-1.25" y="0" dx="1.25" dy="0.6" layer="1"/>
-<smd name="3" x="-1.25" y="-0.95" dx="1.25" dy="0.6" layer="1"/>
-<smd name="4" x="1.25" y="-0.95" dx="1.25" dy="0.6" layer="1"/>
-<smd name="5" x="1.25" y="0.95" dx="1.25" dy="0.6" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.125" y1="1.825" x2="2.125" y2="1.825" width="0.05" layer="51"/>
-<wire x1="2.125" y1="1.825" x2="2.125" y2="-1.825" width="0.05" layer="51"/>
-<wire x1="2.125" y1="-1.825" x2="-2.125" y2="-1.825" width="0.05" layer="51"/>
-<wire x1="-2.125" y1="-1.825" x2="-2.125" y2="1.825" width="0.05" layer="51"/>
-<wire x1="-0.75" y1="1.5" x2="0.75" y2="1.5" width="0.1" layer="51"/>
-<wire x1="0.75" y1="1.5" x2="0.75" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="0.75" y1="-1.5" x2="-0.75" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="-0.75" y1="-1.5" x2="-0.75" y2="1.5" width="0.1" layer="51"/>
-<wire x1="-0.75" y1="0.55" x2="0.2" y2="1.5" width="0.1" layer="51"/>
-<wire x1="-0.275" y1="1.5" x2="0.275" y2="1.5" width="0.2" layer="21"/>
-<wire x1="0.275" y1="1.5" x2="0.275" y2="-1.5" width="0.2" layer="21"/>
-<wire x1="0.275" y1="-1.5" x2="-0.275" y2="-1.5" width="0.2" layer="21"/>
-<wire x1="-0.275" y1="-1.5" x2="-0.275" y2="1.5" width="0.2" layer="21"/>
-<wire x1="-1.875" y1="1.5" x2="-0.625" y2="1.5" width="0.2" layer="21"/>
-</package>
-<package name="CAPC3216X190N">
-<description>&lt;b&gt;CGA5 (L THICKNESS)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.5" y="0" dx="1.82" dy="0.82" layer="1" rot="R90"/>
-<smd name="2" x="1.5" y="0" dx="1.82" dy="0.82" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.06" y1="1.06" x2="2.06" y2="1.06" width="0.05" layer="51"/>
-<wire x1="2.06" y1="1.06" x2="2.06" y2="-1.06" width="0.05" layer="51"/>
-<wire x1="2.06" y1="-1.06" x2="-2.06" y2="-1.06" width="0.05" layer="51"/>
-<wire x1="-2.06" y1="-1.06" x2="-2.06" y2="1.06" width="0.05" layer="51"/>
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
-<wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.2" layer="21"/>
-</package>
-<package name="ERA3A_(0603)">
-<description>&lt;b&gt;ERA3A_(0603)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.725" y="0" dx="0.9" dy="0.65" layer="1" rot="R90"/>
-<smd name="2" x="0.725" y="0" dx="0.9" dy="0.65" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.2" layer="51"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.2" layer="51"/>
-<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.2" layer="51"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.2" layer="51"/>
-<circle x="-1.575" y="0" radius="0.05" width="0.2" layer="25"/>
-<wire x1="-2.175" y1="1.1" x2="1.55" y2="1.1" width="0.05" layer="51"/>
-<wire x1="1.55" y1="1.1" x2="1.55" y2="-1.1" width="0.05" layer="51"/>
-<wire x1="1.55" y1="-1.1" x2="-2.175" y2="-1.1" width="0.05" layer="51"/>
-<wire x1="-2.175" y1="-1.1" x2="-2.175" y2="1.1" width="0.05" layer="51"/>
-</package>
-<package name="CAPC1608X90N">
-<description>&lt;b&gt;CGA3 [EIA CC0603] Thickness 0.8&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.8" y="0" dx="0.94" dy="0.54" layer="1" rot="R90"/>
-<smd name="2" x="0.8" y="0" dx="0.94" dy="0.54" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.22" y1="0.62" x2="1.22" y2="0.62" width="0.05" layer="51"/>
-<wire x1="1.22" y1="0.62" x2="1.22" y2="-0.62" width="0.05" layer="51"/>
-<wire x1="1.22" y1="-0.62" x2="-1.22" y2="-0.62" width="0.05" layer="51"/>
-<wire x1="-1.22" y1="-0.62" x2="-1.22" y2="0.62" width="0.05" layer="51"/>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
-<wire x1="0" y1="0.3" x2="0" y2="-0.3" width="0.2" layer="21"/>
-</package>
-<package name="CAPC2012X75N">
-<description>&lt;b&gt;CGA4 (C THICKNESS)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1" y="0" dx="1.47" dy="0.62" layer="1" rot="R90"/>
-<smd name="2" x="1" y="0" dx="1.47" dy="0.62" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.46" y1="0.89" x2="1.46" y2="0.89" width="0.05" layer="51"/>
-<wire x1="1.46" y1="0.89" x2="1.46" y2="-0.89" width="0.05" layer="51"/>
-<wire x1="1.46" y1="-0.89" x2="-1.46" y2="-0.89" width="0.05" layer="51"/>
-<wire x1="-1.46" y1="-0.89" x2="-1.46" y2="0.89" width="0.05" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
-<wire x1="0" y1="0.525" x2="0" y2="-0.525" width="0.2" layer="21"/>
-</package>
-<package name="RESC1608X55N">
-<description>&lt;b&gt;ERJPB3(0603)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.85" y="0" dx="1" dy="0.8" layer="1" rot="R90"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="0.8" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.05" layer="51"/>
-<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.05" layer="51"/>
-<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.05" layer="51"/>
-<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.05" layer="51"/>
-<wire x1="-0.8" y1="0.425" x2="0.8" y2="0.425" width="0.1" layer="51"/>
-<wire x1="0.8" y1="0.425" x2="0.8" y2="-0.425" width="0.1" layer="51"/>
-<wire x1="0.8" y1="-0.425" x2="-0.8" y2="-0.425" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="-0.425" x2="-0.8" y2="0.425" width="0.1" layer="51"/>
-<wire x1="0" y1="0.325" x2="0" y2="-0.325" width="0.2" layer="21"/>
-</package>
-<package name="CAPC3225X220N">
-<description>&lt;b&gt;CGA6_2H&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.6" y="0" dx="2.82" dy="0.81" layer="1" rot="R90"/>
-<smd name="2" x="1.6" y="0" dx="2.82" dy="0.81" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.155" y1="1.56" x2="2.155" y2="1.56" width="0.05" layer="51"/>
-<wire x1="2.155" y1="1.56" x2="2.155" y2="-1.56" width="0.05" layer="51"/>
-<wire x1="2.155" y1="-1.56" x2="-2.155" y2="-1.56" width="0.05" layer="51"/>
-<wire x1="-2.155" y1="-1.56" x2="-2.155" y2="1.56" width="0.05" layer="51"/>
-<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
-<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.1" layer="51"/>
-<wire x1="0" y1="1.15" x2="0" y2="-1.15" width="0.2" layer="21"/>
-</package>
-<package name="CGA6P3X7R1H475K250AD">
-<description>&lt;b&gt;CGA6P3X7R1H475K250AD&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.65" y="0" dx="2.2" dy="1.1" layer="1" rot="R90"/>
-<smd name="2" x="1.65" y="0" dx="2.2" dy="1.1" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.2" layer="51"/>
-<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.2" layer="51"/>
-<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.2" layer="51"/>
-<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.2" layer="51"/>
-<circle x="-3" y="0" radius="0.05" width="0.2" layer="25"/>
-<wire x1="-4.1" y1="2.45" x2="3.2" y2="2.45" width="0.05" layer="51"/>
-<wire x1="3.2" y1="2.45" x2="3.2" y2="-2.45" width="0.05" layer="51"/>
-<wire x1="3.2" y1="-2.45" x2="-4.1" y2="-2.45" width="0.05" layer="51"/>
-<wire x1="-4.1" y1="-2.45" x2="-4.1" y2="2.45" width="0.05" layer="51"/>
-</package>
-<package name="ERA2A_(0402)">
-<description>&lt;b&gt;ERA2A_(0402)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.5125" y="0" dx="0.5" dy="0.475" layer="1" rot="R90"/>
-<smd name="2" x="0.5125" y="0" dx="0.5" dy="0.475" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.2" layer="51"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.2" layer="51"/>
-<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.2" layer="51"/>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.2" layer="51"/>
-<circle x="-1.1125" y="0" radius="0.05" width="0.2" layer="25"/>
-<wire x1="-1.7125" y1="0.95" x2="1.25" y2="0.95" width="0.05" layer="51"/>
-<wire x1="1.25" y1="0.95" x2="1.25" y2="-0.95" width="0.05" layer="51"/>
-<wire x1="1.25" y1="-0.95" x2="-1.7125" y2="-0.95" width="0.05" layer="51"/>
-<wire x1="-1.7125" y1="-0.95" x2="-1.7125" y2="0.95" width="0.05" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="FXLN8371QR1">
-<wire x1="5.08" y1="10.16" x2="22.86" y2="10.16" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-22.86" x2="22.86" y2="10.16" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
-<text x="24.13" y="15.24" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="24.13" y="12.7" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="BYP" x="0" y="0" length="middle"/>
-<pin name="VDD" x="0" y="-2.54" length="middle"/>
-<pin name="ST" x="0" y="-5.08" length="middle"/>
-<pin name="EN" x="0" y="-7.62" length="middle"/>
-<pin name="G-SELECT" x="12.7" y="-27.94" length="middle" rot="R90"/>
-<pin name="GND_1" x="15.24" y="-27.94" length="middle" rot="R90"/>
-<pin name="XOUT" x="27.94" y="0" length="middle" rot="R180"/>
-<pin name="YOUT" x="27.94" y="-2.54" length="middle" rot="R180"/>
-<pin name="ZOUT" x="27.94" y="-5.08" length="middle" rot="R180"/>
-<pin name="GND_2" x="27.94" y="-7.62" length="middle" rot="R180"/>
-<pin name="NC_2" x="12.7" y="15.24" length="middle" rot="R270"/>
-<pin name="NC_1" x="15.24" y="15.24" length="middle" rot="R270"/>
-</symbol>
-<symbol name="MAX25210ATAB9_V+">
-<wire x1="5.08" y1="2.54" x2="30.48" y2="2.54" width="0.254" layer="94"/>
-<wire x1="30.48" y1="-15.24" x2="30.48" y2="2.54" width="0.254" layer="94"/>
-<wire x1="30.48" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
-<text x="31.75" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="31.75" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="IN" x="0" y="0" length="middle"/>
-<pin name="ENABLE" x="0" y="-2.54" length="middle"/>
-<pin name="SET" x="0" y="-5.08" length="middle"/>
-<pin name="!RESET" x="0" y="-7.62" length="middle"/>
-<pin name="EP" x="17.78" y="-20.32" length="middle" rot="R90"/>
-<pin name="OUT" x="35.56" y="0" length="middle" rot="R180"/>
-<pin name="GND" x="35.56" y="-2.54" length="middle" rot="R180"/>
-<pin name="SETOV" x="35.56" y="-5.08" length="middle" rot="R180"/>
-<pin name="TIMEOUT" x="35.56" y="-7.62" length="middle" rot="R180"/>
-</symbol>
-<symbol name="NCS21911SN2T1G">
-<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="OUT" x="0" y="0" length="middle"/>
-<pin name="VSS" x="0" y="-2.54" length="middle"/>
-<pin name="IN+" x="0" y="-5.08" length="middle"/>
-<pin name="IN-" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="VDD" x="25.4" y="-2.54" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CGA5L3X7R1H225K160AB">
-<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
-<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="ERA-3ARB182V">
-<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CGA4C2C0G1H822J060AA">
-<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
-<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CGA3E2C0G1H332J080AA">
-<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
-<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="ERJ-PB3B1002V">
-<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CGA6M2X7R1H155K200AA">
-<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
-<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CGA6P3X7R1H475K250AD">
-<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
-<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CGA5L2C0G1H104J160AA">
-<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
-<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="ERA-2ARB2100X">
-<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FXLN8371QR1" prefix="IC">
-<description>&lt;b&gt;3-Axis LowPower Analog-Output Accelerometer&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/FXLN83xxQ.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="FXLN8371QR1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="QFN65P300X300X100-12N">
-<connects>
-<connect gate="G$1" pin="BYP" pad="1"/>
-<connect gate="G$1" pin="EN" pad="4"/>
-<connect gate="G$1" pin="G-SELECT" pad="5"/>
-<connect gate="G$1" pin="GND_1" pad="6"/>
-<connect gate="G$1" pin="GND_2" pad="7"/>
-<connect gate="G$1" pin="NC_1" pad="11"/>
-<connect gate="G$1" pin="NC_2" pad="12"/>
-<connect gate="G$1" pin="ST" pad="3"/>
-<connect gate="G$1" pin="VDD" pad="2"/>
-<connect gate="G$1" pin="XOUT" pad="10"/>
-<connect gate="G$1" pin="YOUT" pad="9"/>
-<connect gate="G$1" pin="ZOUT" pad="8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="3-Axis LowPower Analog-Output Accelerometer" constant="no"/>
-<attribute name="HEIGHT" value="1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="NXP" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="FXLN8371QR1" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="841-FXLN8371QR1" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/FXLN8371QR1?qs=y0HsvvugQ4753eIkpIfw3w%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MAX25210ATAB9_V+" prefix="IC">
-<description>&lt;b&gt;Linear Voltage Regulators ATO707, High Voltage LDO in P90D&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://pdfserv.maximintegrated.com/en/ds/MAX25210.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="MAX25210ATAB9_V+" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SON65P300X300X80-9N">
-<connects>
-<connect gate="G$1" pin="!RESET" pad="4"/>
-<connect gate="G$1" pin="ENABLE" pad="2"/>
-<connect gate="G$1" pin="EP" pad="9"/>
-<connect gate="G$1" pin="GND" pad="7"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="8"/>
-<connect gate="G$1" pin="SET" pad="3"/>
-<connect gate="G$1" pin="SETOV" pad="6"/>
-<connect gate="G$1" pin="TIMEOUT" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Linear Voltage Regulators ATO707, High Voltage LDO in P90D" constant="no"/>
-<attribute name="HEIGHT" value="0.8mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Maxim Integrated" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MAX25210ATAB9/V+" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="700-MAX25210ATAB9/V+" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX25210ATAB9-V%2b?qs=W%2FMpXkg%252BdQ6hnxbux6MIyA%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="NCS21911SN2T1G" prefix="IC">
-<description>&lt;b&gt;Operational Amplifiers - Op Amps 2 MHz&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semiconductor"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="NCS21911SN2T1G" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT95P275X110-5N">
-<connects>
-<connect gate="G$1" pin="IN+" pad="3"/>
-<connect gate="G$1" pin="IN-" pad="4"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-<connect gate="G$1" pin="VDD" pad="5"/>
-<connect gate="G$1" pin="VSS" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 2 MHz" constant="no"/>
-<attribute name="HEIGHT" value="1.1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NCS21911SN2T1G" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-NCS21911SN2T1G" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCS21911SN2T1G/?qs=%252B6g0mu59x7Ix%2FTFBhvJ5Cw%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CGA5L3X7R1H225K160AB" prefix="C">
-<description>&lt;b&gt;MLCC CGA 1206 X7R 2.2uF 50V Automotive TDK 3216 CGA 2.2uF Ceramic Multilayer Capacitor, 50 V dc, +125C, X7R Dielectric, +/-10%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA5L3X7R1H225K160AB.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CGA5L3X7R1H225K160AB" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPC3216X190N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="MLCC CGA 1206 X7R 2.2uF 50V Automotive TDK 3216 CGA 2.2uF Ceramic Multilayer Capacitor, 50 V dc, +125C, X7R Dielectric, +/-10%" constant="no"/>
-<attribute name="HEIGHT" value="1.9mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA5L3X7R1H225K160AB" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA5L3X7R1H225K" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA5L3X7R1H225K" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ERA-3ARB182V" prefix="R">
-<description>&lt;b&gt;Thin Film Resistors - SMD 0603 1.8Kohm 0.1% 10ppm AEC-Q200&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ERA-3ARB182V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ERA3A_(0603)">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 1.8Kohm 0.1% 10ppm AEC-Q200" constant="no"/>
-<attribute name="HEIGHT" value="0.5mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3ARB182V" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3ARB182V" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3ARB182V/?qs=ob%252BdNz2%252BYEjGzGWnPP7P7w%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CGA4C2C0G1H822J060AA" prefix="C">
-<description>&lt;b&gt;TDK - CGA4C2C0G1H822J060AA - CAP, MLCC, C0G/NP0, 8200PF, 50V, 0805&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA4C2C0G1H822J060AA.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CGA4C2C0G1H822J060AA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPC2012X75N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="TDK - CGA4C2C0G1H822J060AA - CAP, MLCC, C0G/NP0, 8200PF, 50V, 0805" constant="no"/>
-<attribute name="HEIGHT" value="0.75mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4C2C0G1H822J060AA" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4C2C0G1H822J" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA4C2C0G1H822J" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CGA3E2C0G1H332J080AA" prefix="C">
-<description>&lt;b&gt;Capacitor Auto CGA 0603 50V 3.3nF C0G&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA3E2C0G1H332J080AA.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CGA3E2C0G1H332J080AA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPC1608X90N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Capacitor Auto CGA 0603 50V 3.3nF C0G" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E2C0G1H332J080AA" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E2C0G1H332J" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA3E2C0G1H332J" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ERJ-PB3B1002V" prefix="R">
-<description>&lt;b&gt;Thick Film Resistors - SMD 0603 Anti-Surge Res. 0.1%, 10Kohm&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERJ-PB3B1002V.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ERJ-PB3B1002V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RESC1608X55N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 0603 Anti-Surge Res. 0.1%, 10Kohm" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-PB3B1002V" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-PB3B1002V" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-PB3B1002V?qs=RYIBGgAklzLBKZE0dH9NHQ%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CGA6M2X7R1H155K200AA" prefix="C">
-<description>&lt;b&gt;TDK 1.5uF Multilayer Ceramic Capacitor MLCC 50 V dc +/-10% X7R Dielectric 3225 Solder Max. Op. Temp. +125C&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA6M2X7R1H155K200AA"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CGA6M2X7R1H155K200AA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPC3225X220N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="TDK 1.5uF Multilayer Ceramic Capacitor MLCC 50 V dc +/-10% X7R Dielectric 3225 Solder Max. Op. Temp. +125C" constant="no"/>
-<attribute name="HEIGHT" value="2.2mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA6M2X7R1H155K200AA" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CGA6P3X7R1H475K250AD" prefix="C">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT EPXY 1210, AEC-Q200, X7R, 50V&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_epoxy_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CGA6P3X7R1H475K250AD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CGA6P3X7R1H475K250AD">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT EPXY 1210, AEC-Q200, X7R, 50V" constant="no"/>
-<attribute name="HEIGHT" value="2.2mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA6P3X7R1H475K250AD" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA6P3X7R1H475KD" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA6P3X7R1H475K250AD?qs=xLDY6iXSiQazkWW4rj01%2Fw%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CGA5L2C0G1H104J160AA" prefix="C">
-<description>&lt;b&gt;TDK - CGA5L2C0G1H104J160AA - CAP, MLCC, C0G/NP0, 100NF, 50V, 1206&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CGA5L2C0G1H104J160AA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPC3216X190N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="TDK - CGA5L2C0G1H104J160AA - CAP, MLCC, C0G/NP0, 100NF, 50V, 1206" constant="no"/>
-<attribute name="HEIGHT" value="1.9mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA5L2C0G1H104J160AA" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA5L2C0G1H104J" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA5L2C0G1H104J160AA?qs=FxQuwy19cyB%252BudXVGaf5CA%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ERA-2ARB2100X" prefix="R">
-<description>&lt;b&gt;Metal Thin Film Chip Resistor, 0402, 0.063W&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ERA-2ARB2100X" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ERA2A_(0402)">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" constant="no"/>
-<attribute name="HEIGHT" value="0.4mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-2ARB2100X" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-2ARB2100X" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-2ARB2100X" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -1035,6 +351,801 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 </deviceset>
 </devicesets>
 </library>
+<library name="SamacSys_Parts" urn="urn:adsk.eagle:library:32027058">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="CAPC3225X220N" urn="urn:adsk.eagle:footprint:31985726/1" library_version="3">
+<description>Chip, 3.20 X 2.50 X 2.20 mm body
+&lt;p&gt;Chip package with body size 3.20 X 2.50 X 2.20 mm&lt;/p&gt;</description>
+<wire x1="1.8" y1="1.7192" x2="-1.8" y2="1.7192" width="0.12" layer="21"/>
+<wire x1="1.8" y1="-1.7192" x2="-1.8" y2="-1.7192" width="0.12" layer="21"/>
+<wire x1="1.8" y1="-1.4" x2="-1.8" y2="-1.4" width="0.12" layer="51"/>
+<wire x1="-1.8" y1="-1.4" x2="-1.8" y2="1.4" width="0.12" layer="51"/>
+<wire x1="-1.8" y1="1.4" x2="1.8" y2="1.4" width="0.12" layer="51"/>
+<wire x1="1.8" y1="1.4" x2="1.8" y2="-1.4" width="0.12" layer="51"/>
+<smd name="1" x="-1.6621" y="0" dx="0.9835" dy="2.8103" layer="1"/>
+<smd name="2" x="1.6621" y="0" dx="0.9835" dy="2.8103" layer="1"/>
+<text x="0" y="2.3542" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.3542" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SON65P300X300X80-9N" urn="urn:adsk.eagle:footprint:32027066/1" library_version="3">
+<description>&lt;b&gt;T833+2C&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.5" y="0.975" dx="0.75" dy="0.35" layer="1"/>
+<smd name="2" x="-1.5" y="0.325" dx="0.75" dy="0.35" layer="1"/>
+<smd name="3" x="-1.5" y="-0.325" dx="0.75" dy="0.35" layer="1"/>
+<smd name="4" x="-1.5" y="-0.975" dx="0.75" dy="0.35" layer="1"/>
+<smd name="5" x="1.5" y="-0.975" dx="0.75" dy="0.35" layer="1"/>
+<smd name="6" x="1.5" y="-0.325" dx="0.75" dy="0.35" layer="1"/>
+<smd name="7" x="1.5" y="0.325" dx="0.75" dy="0.35" layer="1"/>
+<smd name="8" x="1.5" y="0.975" dx="0.75" dy="0.35" layer="1"/>
+<smd name="9" x="0" y="0" dx="2.4" dy="1.6" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.125" y1="1.8" x2="2.125" y2="1.8" width="0.05" layer="51"/>
+<wire x1="2.125" y1="1.8" x2="2.125" y2="-1.8" width="0.05" layer="51"/>
+<wire x1="2.125" y1="-1.8" x2="-2.125" y2="-1.8" width="0.05" layer="51"/>
+<wire x1="-2.125" y1="-1.8" x2="-2.125" y2="1.8" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="0.75" x2="-0.75" y2="1.5" width="0.1" layer="51"/>
+<circle x="-1.875" y="1.65" radius="0.125" width="0.25" layer="25"/>
+</package>
+<package name="CAPC3317X190N" urn="urn:adsk.eagle:footprint:31984315/1" library_version="3">
+<description>Chip, 3.30 X 1.70 X 1.90 mm body
+&lt;p&gt;Chip package with body size 3.30 X 1.70 X 1.90 mm&lt;/p&gt;</description>
+<wire x1="1.75" y1="1.2717" x2="-1.75" y2="1.2717" width="0.12" layer="21"/>
+<wire x1="1.75" y1="-1.2717" x2="-1.75" y2="-1.2717" width="0.12" layer="21"/>
+<wire x1="1.75" y1="-0.95" x2="-1.75" y2="-0.95" width="0.12" layer="51"/>
+<wire x1="-1.75" y1="-0.95" x2="-1.75" y2="0.95" width="0.12" layer="51"/>
+<wire x1="-1.75" y1="0.95" x2="1.75" y2="0.95" width="0.12" layer="51"/>
+<wire x1="1.75" y1="0.95" x2="1.75" y2="-0.95" width="0.12" layer="51"/>
+<smd name="1" x="-1.7118" y="0" dx="0.7918" dy="1.9153" layer="1"/>
+<smd name="2" x="1.7118" y="0" dx="0.7918" dy="1.9153" layer="1"/>
+<text x="0" y="1.9067" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.9067" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC1608X55N" urn="urn:adsk.eagle:footprint:31985802/1" library_version="3">
+<description>Chip, 1.60 X 0.85 X 0.55 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.85 X 0.55 mm&lt;/p&gt;</description>
+<wire x1="0.875" y1="0.8036" x2="-0.875" y2="0.8036" width="0.12" layer="21"/>
+<wire x1="0.875" y1="-0.8036" x2="-0.875" y2="-0.8036" width="0.12" layer="21"/>
+<wire x1="0.875" y1="-0.475" x2="-0.875" y2="-0.475" width="0.12" layer="51"/>
+<wire x1="-0.875" y1="-0.475" x2="-0.875" y2="0.475" width="0.12" layer="51"/>
+<wire x1="-0.875" y1="0.475" x2="0.875" y2="0.475" width="0.12" layer="51"/>
+<wire x1="0.875" y1="0.475" x2="0.875" y2="-0.475" width="0.12" layer="51"/>
+<smd name="1" x="-0.8688" y="0" dx="0.7326" dy="0.9791" layer="1"/>
+<smd name="2" x="0.8688" y="0" dx="0.7326" dy="0.9791" layer="1"/>
+<text x="0" y="1.4386" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4386" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CAPC3225X280N" urn="urn:adsk.eagle:footprint:32027594/1" library_version="4">
+<description>&lt;b&gt;CNA6_2021&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.45" y="0" dx="2.82" dy="1.02" layer="1" rot="R90"/>
+<smd name="2" x="1.45" y="0" dx="2.82" dy="1.02" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.11" y1="1.56" x2="2.11" y2="1.56" width="0.05" layer="51"/>
+<wire x1="2.11" y1="1.56" x2="2.11" y2="-1.56" width="0.05" layer="51"/>
+<wire x1="2.11" y1="-1.56" x2="-2.11" y2="-1.56" width="0.05" layer="51"/>
+<wire x1="-2.11" y1="-1.56" x2="-2.11" y2="1.56" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.1" layer="51"/>
+<wire x1="0" y1="1.15" x2="0" y2="-1.15" width="0.2" layer="21"/>
+</package>
+<package name="CAPC3216X180N" urn="urn:adsk.eagle:footprint:31985043/1" library_version="3">
+<description>Chip, 3.20 X 1.60 X 1.80 mm body
+&lt;p&gt;Chip package with body size 3.20 X 1.60 X 1.80 mm&lt;/p&gt;</description>
+<wire x1="1.7" y1="1.2217" x2="-1.7" y2="1.2217" width="0.12" layer="21"/>
+<wire x1="1.7" y1="-1.2217" x2="-1.7" y2="-1.2217" width="0.12" layer="21"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.12" layer="51"/>
+<smd name="1" x="-1.6618" y="0" dx="0.7918" dy="1.8153" layer="1"/>
+<smd name="2" x="1.6618" y="0" dx="0.7918" dy="1.8153" layer="1"/>
+<text x="0" y="1.8567" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.8567" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="QFN65P300X300X100-12N" urn="urn:adsk.eagle:footprint:31985923/1" library_version="3">
+<description>12-QFN, 0.65 mm pitch, 3.00 X 3.00 X 1.00 mm body
+&lt;p&gt;12-pin QFN package with 0.65 mm pitch with body size 3.00 X 3.00 X 1.00 mm&lt;/p&gt;</description>
+<circle x="-2.004" y="1.639" radius="0.25" width="0" layer="21"/>
+<wire x1="-1.5" y1="1.389" x2="-1.5" y2="1.5" width="0.12" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-0.739" y2="1.5" width="0.12" layer="21"/>
+<wire x1="1.5" y1="1.389" x2="1.5" y2="1.5" width="0.12" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="0.739" y2="1.5" width="0.12" layer="21"/>
+<wire x1="1.5" y1="-1.389" x2="1.5" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="0.739" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="-1.5" y1="-1.389" x2="-1.5" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-0.739" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.12" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.12" layer="51"/>
+<smd name="1" x="-1.4373" y="0.975" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
+<smd name="2" x="-1.4373" y="0.325" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
+<smd name="3" x="-1.4373" y="-0.325" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
+<smd name="4" x="-1.4373" y="-0.975" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
+<smd name="5" x="-0.325" y="-1.4373" dx="0.8373" dy="0.32" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="0.325" y="-1.4373" dx="0.8373" dy="0.32" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="1.4373" y="-0.975" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
+<smd name="8" x="1.4373" y="-0.325" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
+<smd name="9" x="1.4373" y="0.325" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
+<smd name="10" x="1.4373" y="0.975" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
+<smd name="11" x="0.325" y="1.4373" dx="0.8373" dy="0.32" layer="1" roundness="100" rot="R90"/>
+<smd name="12" x="-0.325" y="1.4373" dx="0.8373" dy="0.32" layer="1" roundness="100" rot="R90"/>
+<text x="0" y="2.524" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.4909" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CAPC2012X145N" urn="urn:adsk.eagle:footprint:31984208/1" library_version="3">
+<description>Chip, 2.00 X 1.25 X 1.45 mm body
+&lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
+<wire x1="1.1" y1="1.0467" x2="-1.1" y2="1.0467" width="0.12" layer="21"/>
+<wire x1="1.1" y1="-1.0467" x2="-1.1" y2="-1.0467" width="0.12" layer="21"/>
+<wire x1="1.1" y1="-0.725" x2="-1.1" y2="-0.725" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="-0.725" x2="-1.1" y2="0.725" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="0.725" x2="1.1" y2="0.725" width="0.12" layer="51"/>
+<wire x1="1.1" y1="0.725" x2="1.1" y2="-0.725" width="0.12" layer="51"/>
+<smd name="1" x="-1.0618" y="0" dx="0.7918" dy="1.4653" layer="1"/>
+<smd name="2" x="1.0618" y="0" dx="0.7918" dy="1.4653" layer="1"/>
+<text x="0" y="1.6817" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.6817" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CAPC1608X90N" urn="urn:adsk.eagle:footprint:31984193/1" library_version="3">
+<description>Chip, 1.60 X 0.80 X 0.90 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.80 X 0.90 mm&lt;/p&gt;</description>
+<wire x1="0.85" y1="0.7786" x2="-0.85" y2="0.7786" width="0.12" layer="21"/>
+<wire x1="0.85" y1="-0.7786" x2="-0.85" y2="-0.7786" width="0.12" layer="21"/>
+<wire x1="0.85" y1="-0.45" x2="-0.85" y2="-0.45" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="-0.45" x2="-0.85" y2="0.45" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="0.45" x2="0.85" y2="0.45" width="0.12" layer="51"/>
+<wire x1="0.85" y1="0.45" x2="0.85" y2="-0.45" width="0.12" layer="51"/>
+<smd name="1" x="-0.8614" y="0" dx="0.7064" dy="0.9291" layer="1"/>
+<smd name="2" x="0.8614" y="0" dx="0.7064" dy="0.9291" layer="1"/>
+<text x="0" y="1.4136" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4136" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="ERA3A_(0603)" urn="urn:adsk.eagle:footprint:32027063/1" library_version="3">
+<description>&lt;b&gt;ERA3A_(0603)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.725" y="0" dx="0.9" dy="0.65" layer="1" rot="R90"/>
+<smd name="2" x="0.725" y="0" dx="0.9" dy="0.65" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.2" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.2" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.2" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.2" layer="51"/>
+<wire x1="-2.175" y1="1.1" x2="1.55" y2="1.1" width="0.05" layer="51"/>
+<wire x1="1.55" y1="1.1" x2="1.55" y2="-1.1" width="0.05" layer="51"/>
+<wire x1="1.55" y1="-1.1" x2="-2.175" y2="-1.1" width="0.05" layer="51"/>
+<wire x1="-2.175" y1="-1.1" x2="-2.175" y2="1.1" width="0.05" layer="51"/>
+<circle x="-1.575" y="0" radius="0.05" width="0.2" layer="25"/>
+</package>
+<package name="RESC1005X40N" urn="urn:adsk.eagle:footprint:31985763/1" library_version="3">
+<description>Chip, 1.00 X 0.53 X 0.40 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.53 X 0.40 mm&lt;/p&gt;</description>
+<wire x1="0.55" y1="0.6325" x2="-0.55" y2="0.6325" width="0.12" layer="21"/>
+<wire x1="0.55" y1="-0.6325" x2="-0.55" y2="-0.6325" width="0.12" layer="21"/>
+<wire x1="0.55" y1="-0.3" x2="-0.55" y2="-0.3" width="0.12" layer="51"/>
+<wire x1="-0.55" y1="-0.3" x2="-0.55" y2="0.3" width="0.12" layer="51"/>
+<wire x1="-0.55" y1="0.3" x2="0.55" y2="0.3" width="0.12" layer="51"/>
+<wire x1="0.55" y1="0.3" x2="0.55" y2="-0.3" width="0.12" layer="51"/>
+<smd name="1" x="-0.5096" y="0" dx="0.51" dy="0.6371" layer="1"/>
+<smd name="2" x="0.5096" y="0" dx="0.51" dy="0.6371" layer="1"/>
+<text x="0" y="1.2675" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.2675" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOT95P275X110-5N" urn="urn:adsk.eagle:footprint:32026990/1" library_version="3">
+<description>5-SOT23, 0.95 mm pitch, 2.75 mm span, 3.00 X 1.50 X 1.10 mm body
+&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.75 mm span with body size 3.00 X 1.50 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-1.3406" y="1.7459" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.825" y1="1.4959" x2="-0.825" y2="1.575" width="0.12" layer="21"/>
+<wire x1="-0.825" y1="1.575" x2="0.825" y2="1.575" width="0.12" layer="21"/>
+<wire x1="0.825" y1="1.575" x2="0.825" y2="1.4959" width="0.12" layer="21"/>
+<wire x1="-0.825" y1="-1.4959" x2="-0.825" y2="-1.575" width="0.12" layer="21"/>
+<wire x1="-0.825" y1="-1.575" x2="0.825" y2="-1.575" width="0.12" layer="21"/>
+<wire x1="0.825" y1="-1.575" x2="0.825" y2="-1.4959" width="0.12" layer="21"/>
+<wire x1="0.825" y1="-1.575" x2="-0.825" y2="-1.575" width="0.12" layer="51"/>
+<wire x1="-0.825" y1="-1.575" x2="-0.825" y2="1.575" width="0.12" layer="51"/>
+<wire x1="-0.825" y1="1.575" x2="0.825" y2="1.575" width="0.12" layer="51"/>
+<wire x1="0.825" y1="1.575" x2="0.825" y2="-1.575" width="0.12" layer="51"/>
+<smd name="1" x="-1.2442" y="0.95" dx="1.224" dy="0.5839" layer="1"/>
+<smd name="2" x="-1.2442" y="0" dx="1.224" dy="0.5839" layer="1"/>
+<smd name="3" x="-1.2442" y="-0.95" dx="1.224" dy="0.5839" layer="1"/>
+<smd name="4" x="1.2442" y="-0.95" dx="1.224" dy="0.5839" layer="1"/>
+<smd name="5" x="1.2442" y="0.95" dx="1.224" dy="0.5839" layer="1"/>
+<text x="0" y="2.6309" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.21" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="CAPC3225X220N" urn="urn:adsk.eagle:package:31985709/1" type="model" library_version="3">
+<description>Chip, 3.20 X 2.50 X 2.20 mm body
+&lt;p&gt;Chip package with body size 3.20 X 2.50 X 2.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC3225X220N"/>
+</packageinstances>
+</package3d>
+<package3d name="SON65P300X300X80-9N" urn="urn:adsk.eagle:package:32027091/2" type="model" library_version="3">
+<description>&lt;b&gt;T833+2C&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SON65P300X300X80-9N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC3317X190N" urn="urn:adsk.eagle:package:31984238/1" type="model" library_version="3">
+<description>Chip, 3.30 X 1.70 X 1.90 mm body
+&lt;p&gt;Chip package with body size 3.30 X 1.70 X 1.90 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC3317X190N"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1608X55N" urn="urn:adsk.eagle:package:31985797/1" type="model" library_version="3">
+<description>Chip, 1.60 X 0.85 X 0.55 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.85 X 0.55 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1608X55N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC3225X280N" urn="urn:adsk.eagle:package:31985600/2" type="model" library_version="4">
+<description>&lt;b&gt;CNA6_2021&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC3225X280N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC3216X180N" urn="urn:adsk.eagle:package:31984343/1" type="model" library_version="3">
+<description>Chip, 3.20 X 1.60 X 1.80 mm body
+&lt;p&gt;Chip package with body size 3.20 X 1.60 X 1.80 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC3216X180N"/>
+</packageinstances>
+</package3d>
+<package3d name="QFN65P300X300X100-12N" urn="urn:adsk.eagle:package:31985917/1" type="model" library_version="3">
+<description>12-QFN, 0.65 mm pitch, 3.00 X 3.00 X 1.00 mm body
+&lt;p&gt;12-pin QFN package with 0.65 mm pitch with body size 3.00 X 3.00 X 1.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="QFN65P300X300X100-12N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC2012X145N" urn="urn:adsk.eagle:package:31984201/1" type="model" library_version="3">
+<description>Chip, 2.00 X 1.25 X 1.45 mm body
+&lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC2012X145N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC1608X90N" urn="urn:adsk.eagle:package:31984186/1" type="model" library_version="3">
+<description>Chip, 1.60 X 0.80 X 0.90 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.80 X 0.90 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC1608X90N"/>
+</packageinstances>
+</package3d>
+<package3d name="ERA3A_(0603)" urn="urn:adsk.eagle:package:32027088/2" type="model" library_version="3">
+<description>&lt;b&gt;ERA3A_(0603)&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="ERA3A_(0603)"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1005X40N" urn="urn:adsk.eagle:package:31985748/1" type="model" library_version="3">
+<description>Chip, 1.00 X 0.53 X 0.40 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.53 X 0.40 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1005X40N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P275X110-5N" urn="urn:adsk.eagle:package:32026974/1" type="model" library_version="3">
+<description>5-SOT23, 0.95 mm pitch, 2.75 mm span, 3.00 X 1.50 X 1.10 mm body
+&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.75 mm span with body size 3.00 X 1.50 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P275X110-5N"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CGA6M2X7R1H155K200AA" urn="urn:adsk.eagle:symbol:32027076/1" library_version="3">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="MAX25210ATAB9_V+" urn="urn:adsk.eagle:symbol:32027078/1" library_version="3">
+<wire x1="5.08" y1="2.54" x2="30.48" y2="2.54" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-15.24" x2="30.48" y2="2.54" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<text x="31.75" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="31.75" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="IN" x="0" y="0" length="middle"/>
+<pin name="ENABLE" x="0" y="-2.54" length="middle"/>
+<pin name="SET" x="0" y="-5.08" length="middle"/>
+<pin name="!RESET" x="0" y="-7.62" length="middle"/>
+<pin name="EP" x="17.78" y="-20.32" length="middle" rot="R90"/>
+<pin name="OUT" x="35.56" y="0" length="middle" rot="R180"/>
+<pin name="GND" x="35.56" y="-2.54" length="middle" rot="R180"/>
+<pin name="SETOV" x="35.56" y="-5.08" length="middle" rot="R180"/>
+<pin name="TIMEOUT" x="35.56" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+<symbol name="CGA5L3X7R1H225K160AB" urn="urn:adsk.eagle:symbol:32027073/1" library_version="3">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="ERJ-PB3B1002V" urn="urn:adsk.eagle:symbol:32027080/1" library_version="3">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="CGA6P3X7R1H475K250AD" urn="urn:adsk.eagle:symbol:32027077/1" library_version="3">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="CGA5L2C0G1H104J160AA" urn="urn:adsk.eagle:symbol:32027079/1" library_version="3">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="FXLN8371QR1" urn="urn:adsk.eagle:symbol:32027070/1" library_version="3">
+<wire x1="5.08" y1="10.16" x2="22.86" y2="10.16" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-22.86" x2="22.86" y2="10.16" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<text x="24.13" y="15.24" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="24.13" y="12.7" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="BYP" x="0" y="0" length="middle"/>
+<pin name="VDD" x="0" y="-2.54" length="middle"/>
+<pin name="ST" x="0" y="-5.08" length="middle"/>
+<pin name="EN" x="0" y="-7.62" length="middle"/>
+<pin name="G-SELECT" x="12.7" y="-27.94" length="middle" rot="R90"/>
+<pin name="GND_1" x="15.24" y="-27.94" length="middle" rot="R90"/>
+<pin name="XOUT" x="27.94" y="0" length="middle" rot="R180"/>
+<pin name="YOUT" x="27.94" y="-2.54" length="middle" rot="R180"/>
+<pin name="ZOUT" x="27.94" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND_2" x="27.94" y="-7.62" length="middle" rot="R180"/>
+<pin name="NC_2" x="12.7" y="15.24" length="middle" rot="R270"/>
+<pin name="NC_1" x="15.24" y="15.24" length="middle" rot="R270"/>
+</symbol>
+<symbol name="CGA4C2C0G1H822J060AA" urn="urn:adsk.eagle:symbol:32027081/1" library_version="3">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="CGA3E2C0G1H332J080AA" urn="urn:adsk.eagle:symbol:32027082/1" library_version="3">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="ERA-3ARB182V" urn="urn:adsk.eagle:symbol:32027075/1" library_version="3">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="ERA-2ARB2100X" urn="urn:adsk.eagle:symbol:32027074/1" library_version="3">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="NCS21911SN2T1G" urn="urn:adsk.eagle:symbol:32027072/1" library_version="3">
+<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="OUT" x="0" y="0" length="middle"/>
+<pin name="VSS" x="0" y="-2.54" length="middle"/>
+<pin name="IN+" x="0" y="-5.08" length="middle"/>
+<pin name="IN-" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="VDD" x="25.4" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="CNA6P1X7R1H475K250AE" urn="urn:adsk.eagle:symbol:32027595/1" library_version="4">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CGA6M2X7R1H155K200AA" urn="urn:adsk.eagle:component:32027100/1" prefix="C" library_version="3">
+<description>&lt;b&gt;TDK 1.5uF Multilayer Ceramic Capacitor MLCC 50 V dc +/-10% X7R Dielectric 3225 Solder Max. Op. Temp. +125C&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA6M2X7R1H155K200AA"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CGA6M2X7R1H155K200AA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC3225X220N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31985709/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="TDK 1.5uF Multilayer Ceramic Capacitor MLCC 50 V dc +/-10% X7R Dielectric 3225 Solder Max. Op. Temp. +125C" constant="no"/>
+<attribute name="HEIGHT" value="2.2mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA6M2X7R1H155K200AA" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX25210ATAB9_V+" urn="urn:adsk.eagle:component:32027102/2" prefix="IC" library_version="3">
+<description>&lt;b&gt;Linear Voltage Regulators ATO707, High Voltage LDO in P90D&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://pdfserv.maximintegrated.com/en/ds/MAX25210.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX25210ATAB9_V+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON65P300X300X80-9N">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="4"/>
+<connect gate="G$1" pin="ENABLE" pad="2"/>
+<connect gate="G$1" pin="EP" pad="9"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="8"/>
+<connect gate="G$1" pin="SET" pad="3"/>
+<connect gate="G$1" pin="SETOV" pad="6"/>
+<connect gate="G$1" pin="TIMEOUT" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32027091/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Linear Voltage Regulators ATO707, High Voltage LDO in P90D" constant="no"/>
+<attribute name="HEIGHT" value="0.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Maxim Integrated" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MAX25210ATAB9/V+" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="700-MAX25210ATAB9/V+" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX25210ATAB9-V%2b?qs=W%2FMpXkg%252BdQ6hnxbux6MIyA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CGA5L3X7R1H225K160AB" urn="urn:adsk.eagle:component:32027097/1" prefix="C" library_version="3">
+<description>&lt;b&gt;MLCC CGA 1206 X7R 2.2uF 50V Automotive TDK 3216 CGA 2.2uF Ceramic Multilayer Capacitor, 50 V dc, +125C, X7R Dielectric, +/-10%&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA5L3X7R1H225K160AB.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CGA5L3X7R1H225K160AB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC3317X190N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31984238/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERJ-PB3B1002V" urn="urn:adsk.eagle:component:32027104/1" prefix="R" library_version="3">
+<description>&lt;b&gt;Thick Film Resistors - SMD 0603 Anti-Surge Res. 0.1%, 10Kohm&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERJ-PB3B1002V.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ERJ-PB3B1002V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X55N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31985797/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 0603 Anti-Surge Res. 0.1%, 10Kohm" constant="no"/>
+<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-PB3B1002V" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-PB3B1002V" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-PB3B1002V?qs=RYIBGgAklzLBKZE0dH9NHQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CGA6P3X7R1H475K250AD" urn="urn:adsk.eagle:component:32027101/2" prefix="C" library_version="4">
+<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT EPXY 1210, AEC-Q200, X7R, 50V&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_epoxy_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CGA6P3X7R1H475K250AD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC3225X280N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31985600/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CGA5L2C0G1H104J160AA" urn="urn:adsk.eagle:component:32027103/1" prefix="C" library_version="3">
+<description>&lt;b&gt;TDK - CGA5L2C0G1H104J160AA - CAP, MLCC, C0G/NP0, 100NF, 50V, 1206&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA20/25667.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CGA5L2C0G1H104J160AA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC3216X180N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31984343/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FXLN8371QR1" urn="urn:adsk.eagle:component:32027095/1" prefix="IC" library_version="3">
+<description>&lt;b&gt;3-Axis LowPower Analog-Output Accelerometer&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/FXLN83xxQ.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="FXLN8371QR1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN65P300X300X100-12N">
+<connects>
+<connect gate="G$1" pin="BYP" pad="1"/>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="G-SELECT" pad="5"/>
+<connect gate="G$1" pin="GND_1" pad="6"/>
+<connect gate="G$1" pin="GND_2" pad="7"/>
+<connect gate="G$1" pin="NC_1" pad="11"/>
+<connect gate="G$1" pin="NC_2" pad="12"/>
+<connect gate="G$1" pin="ST" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
+<connect gate="G$1" pin="XOUT" pad="10"/>
+<connect gate="G$1" pin="YOUT" pad="9"/>
+<connect gate="G$1" pin="ZOUT" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31985917/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="3-Axis LowPower Analog-Output Accelerometer" constant="no"/>
+<attribute name="HEIGHT" value="1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="NXP" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FXLN8371QR1" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="841-FXLN8371QR1" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/FXLN8371QR1?qs=y0HsvvugQ4753eIkpIfw3w%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CGA4C2C0G1H822J060AA" urn="urn:adsk.eagle:component:32027105/1" prefix="C" library_version="3">
+<description>&lt;b&gt;TDK - CGA4C2C0G1H822J060AA - CAP, MLCC, C0G/NP0, 8200PF, 50V, 0805&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA4C2C0G1H822J060AA.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CGA4C2C0G1H822J060AA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC2012X145N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31984201/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CGA3E2C0G1H332J080AA" urn="urn:adsk.eagle:component:32027106/1" prefix="C" library_version="3">
+<description>&lt;b&gt;Capacitor Auto CGA 0603 50V 3.3nF C0G&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA3E2C0G1H332J080AA.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CGA3E2C0G1H332J080AA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC1608X90N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31984186/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERA-3ARB182V" urn="urn:adsk.eagle:component:32027099/2" prefix="R" library_version="3">
+<description>&lt;b&gt;Thin Film Resistors - SMD 0603 1.8Kohm 0.1% 10ppm AEC-Q200&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ERA-3ARB182V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ERA3A_(0603)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32027088/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 1.8Kohm 0.1% 10ppm AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.5mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3ARB182V" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3ARB182V" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3ARB182V/?qs=ob%252BdNz2%252BYEjGzGWnPP7P7w%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERA-2ARB2100X" urn="urn:adsk.eagle:component:32027098/1" prefix="R" library_version="3">
+<description>&lt;b&gt;Metal Thin Film Chip Resistor, 0402, 0.063W&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ERA-2ARB2100X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31985748/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NCS21911SN2T1G" urn="urn:adsk.eagle:component:32027096/1" prefix="IC" library_version="3">
+<description>&lt;b&gt;Operational Amplifiers - Op Amps 2 MHz&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semiconductor"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="NCS21911SN2T1G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P275X110-5N">
+<connects>
+<connect gate="G$1" pin="IN+" pad="3"/>
+<connect gate="G$1" pin="IN-" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32026974/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 2 MHz" constant="no"/>
+<attribute name="HEIGHT" value="1.1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NCS21911SN2T1G" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-NCS21911SN2T1G" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCS21911SN2T1G/?qs=%252B6g0mu59x7Ix%2FTFBhvJ5Cw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CNA6P1X7R1H475K250AE" urn="urn:adsk.eagle:component:32027596/1" prefix="C" library_version="4">
+<description>&lt;b&gt;Multilayer Ceramic Chip Capacitors, Capacitance=4.7uF, LxWxT:3.2x2.5x2.5mm&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CNA6P1X7R1H475K250AE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC3225X280N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31985600/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=4.7uF, LxWxT:3.2x2.5x2.5mm" constant="no"/>
+<attribute name="HEIGHT" value="2.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CNA6P1X7R1H475K250AE" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CNA6P1X7R1H475K2" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CNA6P1X7R1H475K250AE?qs=w%2Fv1CP2dgqp5TAwoFLGJ7g%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1066,28 +1177,34 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
-<part name="C4" library="SamacSys_Parts" deviceset="CGA5L3X7R1H225K160AB" device=""/>
-<part name="R1" library="SamacSys_Parts" deviceset="ERA-3ARB182V" device=""/>
-<part name="R5" library="SamacSys_Parts" deviceset="ERA-3ARB182V" device=""/>
-<part name="R6" library="SamacSys_Parts" deviceset="ERA-3ARB182V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC6" library="SamacSys_Parts" deviceset="MAX25210ATAB9_V+" device=""/>
-<part name="C1" library="SamacSys_Parts" deviceset="CGA4C2C0G1H822J060AA" device=""/>
-<part name="IC4" library="SamacSys_Parts" deviceset="FXLN8371QR1" device=""/>
-<part name="IC1" library="SamacSys_Parts" deviceset="NCS21911SN2T1G" device=""/>
-<part name="IC7" library="SamacSys_Parts" deviceset="NCS21911SN2T1G" device=""/>
-<part name="IC8" library="SamacSys_Parts" deviceset="NCS21911SN2T1G" device=""/>
-<part name="C7" library="SamacSys_Parts" deviceset="CGA3E2C0G1H332J080AA" device=""/>
-<part name="R8" library="SamacSys_Parts" deviceset="ERJ-PB3B1002V" device=""/>
-<part name="C5" library="SamacSys_Parts" deviceset="CGA6M2X7R1H155K200AA" device=""/>
-<part name="C2" library="SamacSys_Parts" deviceset="CGA6P3X7R1H475K250AD" device=""/>
-<part name="C3" library="SamacSys_Parts" deviceset="CGA5L2C0G1H104J160AA" device=""/>
-<part name="C6" library="SamacSys_Parts" deviceset="CGA5L2C0G1H104J160AA" device=""/>
-<part name="C8" library="SamacSys_Parts" deviceset="CGA3E2C0G1H332J080AA" device=""/>
-<part name="R2" library="SamacSys_Parts" deviceset="ERA-2ARB2100X" device=""/>
-<part name="R3" library="SamacSys_Parts" deviceset="ERA-2ARB2100X" device=""/>
-<part name="R4" library="SamacSys_Parts" deviceset="ERA-2ARB2100X" device=""/>
+<part name="C5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA6M2X7R1H155K200AA" device="" package3d_urn="urn:adsk.eagle:package:31985709/1"/>
+<part name="IC3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="MAX25210ATAB9_V+" device="" package3d_urn="urn:adsk.eagle:package:32027091/2"/>
+<part name="C4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA5L3X7R1H225K160AB" device="" package3d_urn="urn:adsk.eagle:package:31984238/1"/>
+<part name="R7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERJ-PB3B1002V" device="" package3d_urn="urn:adsk.eagle:package:31985797/1"/>
+<part name="C2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA6P3X7R1H475K250AD" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
+<part name="C3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA5L2C0G1H104J160AA" device="" package3d_urn="urn:adsk.eagle:package:31984343/1"/>
+<part name="C6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA5L2C0G1H104J160AA" device="" package3d_urn="urn:adsk.eagle:package:31984343/1"/>
+<part name="IC2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="FXLN8371QR1" device="" package3d_urn="urn:adsk.eagle:package:31985917/1"/>
+<part name="C1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA4C2C0G1H822J060AA" device="" package3d_urn="urn:adsk.eagle:package:31984201/1"/>
+<part name="C7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA3E2C0G1H332J080AA" device="" package3d_urn="urn:adsk.eagle:package:31984186/1"/>
+<part name="C8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA3E2C0G1H332J080AA" device="" package3d_urn="urn:adsk.eagle:package:31984186/1"/>
+<part name="R1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERA-3ARB182V" device="" package3d_urn="urn:adsk.eagle:package:32027088/2"/>
+<part name="R5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERA-3ARB182V" device="" package3d_urn="urn:adsk.eagle:package:32027088/2"/>
+<part name="R6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERA-3ARB182V" device="" package3d_urn="urn:adsk.eagle:package:32027088/2"/>
+<part name="R2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERA-2ARB2100X" device="" package3d_urn="urn:adsk.eagle:package:31985748/1"/>
+<part name="R3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERA-2ARB2100X" device="" package3d_urn="urn:adsk.eagle:package:31985748/1"/>
+<part name="R4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERA-2ARB2100X" device="" package3d_urn="urn:adsk.eagle:package:31985748/1"/>
+<part name="IC1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/1"/>
+<part name="IC4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/1"/>
+<part name="IC5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/1"/>
+<part name="C9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CNA6P1X7R1H475K250AE" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
+<part name="C10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CNA6P1X7R1H475K250AE" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
+<part name="C11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CNA6P1X7R1H475K250AE" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1136,40 +1253,24 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <instance part="GND9" gate="1" x="137.16" y="20.32" smashed="yes">
 <attribute name="VALUE" x="134.62" y="17.78" size="1.778" layer="96"/>
 </instance>
-<instance part="GND15" gate="1" x="180.34" y="5.08" smashed="yes">
-<attribute name="VALUE" x="177.8" y="2.54" size="1.778" layer="96"/>
+<instance part="GND15" gate="1" x="193.04" y="5.08" smashed="yes">
+<attribute name="VALUE" x="190.5" y="2.54" size="1.778" layer="96"/>
 </instance>
 <instance part="GND16" gate="1" x="137.16" y="-31.75" smashed="yes">
 <attribute name="VALUE" x="134.62" y="-34.29" size="1.778" layer="96"/>
 </instance>
-<instance part="GND17" gate="1" x="180.34" y="-46.99" smashed="yes">
-<attribute name="VALUE" x="177.8" y="-49.53" size="1.778" layer="96"/>
+<instance part="GND17" gate="1" x="193.04" y="-46.99" smashed="yes">
+<attribute name="VALUE" x="190.5" y="-49.53" size="1.778" layer="96"/>
 </instance>
 <instance part="GND18" gate="1" x="137.16" y="-83.82" smashed="yes">
 <attribute name="VALUE" x="134.62" y="-86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="GND21" gate="1" x="179.07" y="-100.33" smashed="yes">
-<attribute name="VALUE" x="176.53" y="-102.87" size="1.778" layer="96"/>
+<instance part="GND21" gate="1" x="193.04" y="-100.33" smashed="yes">
+<attribute name="VALUE" x="190.5" y="-102.87" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="A" x="-111.76" y="-5.08" smashed="yes">
 <attribute name="NAME" x="-118.11" y="3.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-118.11" y="-15.24" size="1.778" layer="96"/>
-</instance>
-<instance part="C4" gate="G$1" x="-27.94" y="-1.27" smashed="yes" rot="R270">
-<attribute name="NAME" x="-21.59" y="-6.35" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="-24.13" y="3.81" size="1.778" layer="96" rot="R270" align="center-left"/>
-</instance>
-<instance part="R1" gate="G$1" x="176.53" y="-54.61" smashed="yes" rot="R270">
-<attribute name="NAME" x="181.61" y="-60.96" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="179.07" y="-54.61" size="1.778" layer="96" rot="R270" align="center-left"/>
-</instance>
-<instance part="R5" gate="G$1" x="176.53" y="-2.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="181.61" y="-8.89" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="179.07" y="-2.54" size="1.778" layer="96" rot="R270" align="center-left"/>
-</instance>
-<instance part="R6" gate="G$1" x="176.53" y="49.53" smashed="yes" rot="R270">
-<attribute name="NAME" x="181.61" y="41.91" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="179.07" y="48.26" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 <instance part="GND1" gate="1" x="1.27" y="-19.05" smashed="yes">
 <attribute name="VALUE" x="-1.27" y="-21.59" size="1.778" layer="96"/>
@@ -1177,69 +1278,106 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <instance part="GND2" gate="1" x="15.24" y="-19.05" smashed="yes">
 <attribute name="VALUE" x="12.7" y="-21.59" size="1.778" layer="96"/>
 </instance>
-<instance part="IC6" gate="G$1" x="-73.66" y="0" smashed="yes">
-<attribute name="NAME" x="-58.42" y="6.35" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-67.31" y="3.81" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="C1" gate="G$1" x="91.44" y="-6.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="85.09" y="-15.24" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="87.63" y="-3.81" size="1.778" layer="96" rot="R270" align="center-left"/>
-</instance>
-<instance part="IC4" gate="G$1" x="45.72" y="2.54" smashed="yes">
-<attribute name="NAME" x="69.85" y="17.78" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="69.85" y="15.24" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC1" gate="G$1" x="148.59" y="29.21" smashed="yes">
-<attribute name="NAME" x="160.02" y="35.56" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="151.13" y="33.02" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC7" gate="G$1" x="148.59" y="-22.86" smashed="yes">
-<attribute name="NAME" x="160.02" y="-16.51" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="151.13" y="-19.05" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="IC8" gate="G$1" x="148.59" y="-73.66" smashed="yes">
-<attribute name="NAME" x="160.02" y="-67.31" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="151.13" y="-69.85" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="C7" gate="G$1" x="104.14" y="-2.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="102.87" y="-26.67" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="100.33" y="-1.27" size="1.778" layer="96" rot="R270" align="center-left"/>
-</instance>
-<instance part="R8" gate="G$1" x="-12.7" y="-20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="-19.05" y="-13.97" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="-16.51" y="-21.59" size="1.778" layer="96" rot="R90" align="center-left"/>
-</instance>
 <instance part="C5" gate="G$1" x="-93.98" y="-1.27" smashed="yes" rot="R270">
-<attribute name="NAME" x="-87.63" y="-10.16" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="-90.17" y="-1.27" size="1.778" layer="96" rot="R270" align="center-left"/>
+<attribute name="NAME" x="-87.63" y="-7.62" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="-90.17" y="-2.54" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="IC3" gate="G$1" x="-73.66" y="0" smashed="yes">
+<attribute name="NAME" x="-57.15" y="7.62" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-66.04" y="5.08" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C4" gate="G$1" x="-27.94" y="-1.27" smashed="yes" rot="R270">
+<attribute name="NAME" x="-21.59" y="-10.16" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="-24.13" y="-1.27" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="R7" gate="G$1" x="-12.7" y="-2.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="-7.62" y="-10.16" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="-10.16" y="-3.81" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 <instance part="C2" gate="G$1" x="1.27" y="-2.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.62" y="-8.89" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="NAME" x="7.62" y="-11.43" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="5.08" y="-1.27" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 <instance part="C3" gate="G$1" x="15.24" y="-2.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.59" y="-11.43" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="19.05" y="-2.54" size="1.778" layer="96" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="19.05" y="-1.27" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 <instance part="C6" gate="G$1" x="31.75" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.86" y="20.32" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="26.67" y="30.48" size="1.778" layer="96" rot="R270" align="center-left"/>
+<attribute name="NAME" x="25.4" y="20.32" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="27.94" y="34.29" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="IC2" gate="G$1" x="45.72" y="2.54" smashed="yes">
+<attribute name="NAME" x="63.5" y="16.51" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="62.23" y="13.97" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C1" gate="G$1" x="91.44" y="-6.35" smashed="yes" rot="R270">
+<attribute name="NAME" x="85.09" y="-15.24" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="87.63" y="-6.35" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="C7" gate="G$1" x="104.14" y="-2.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="97.79" y="-13.97" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="100.33" y="-3.81" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 <instance part="C8" gate="G$1" x="111.76" y="1.27" smashed="yes" rot="R270">
-<attribute name="NAME" x="118.11" y="-5.08" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="115.57" y="-1.27" size="1.778" layer="96" rot="R270" align="center-left"/>
+<attribute name="NAME" x="118.11" y="-7.62" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="115.57" y="-2.54" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="R2" gate="G$1" x="180.34" y="-25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="186.69" y="-35.56" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="184.15" y="-30.48" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="R1" gate="G$1" x="176.53" y="-54.61" smashed="yes" rot="R270">
+<attribute name="NAME" x="182.88" y="-63.5" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="180.34" y="-55.88" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="R3" gate="G$1" x="180.34" y="26.67" smashed="yes" rot="R270">
-<attribute name="NAME" x="186.69" y="20.32" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="184.15" y="26.67" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="R5" gate="G$1" x="176.53" y="-2.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="182.88" y="-11.43" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="179.07" y="-3.81" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="R4" gate="G$1" x="179.07" y="-78.74" smashed="yes" rot="R270">
-<attribute name="NAME" x="185.42" y="-88.9" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="182.88" y="-83.82" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="R6" gate="G$1" x="176.53" y="49.53" smashed="yes" rot="R270">
+<attribute name="NAME" x="181.61" y="40.64" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="179.07" y="48.26" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="R2" gate="G$1" x="193.04" y="26.67" smashed="yes" rot="R270">
+<attribute name="NAME" x="198.12" y="17.78" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="195.58" y="25.4" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="R3" gate="G$1" x="193.04" y="-25.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="198.12" y="-34.29" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="195.58" y="-27.94" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="R4" gate="G$1" x="193.04" y="-78.74" smashed="yes" rot="R270">
+<attribute name="NAME" x="198.12" y="-86.36" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="195.58" y="-80.01" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="IC1" gate="G$1" x="148.59" y="29.21" smashed="yes">
+<attribute name="NAME" x="161.29" y="35.56" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="152.4" y="33.02" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC4" gate="G$1" x="148.59" y="-22.86" smashed="yes">
+<attribute name="NAME" x="160.02" y="-16.51" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="151.13" y="-19.05" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC5" gate="G$1" x="148.59" y="-73.66" smashed="yes">
+<attribute name="NAME" x="160.02" y="-67.31" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="151.13" y="-69.85" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C9" gate="G$1" x="177.8" y="-76.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="184.15" y="-85.09" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="181.61" y="-80.01" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="C10" gate="G$1" x="177.8" y="-25.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="185.42" y="-31.75" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="182.88" y="-25.4" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="C11" gate="G$1" x="179.07" y="26.67" smashed="yes" rot="R270">
+<attribute name="NAME" x="185.42" y="17.78" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="182.88" y="25.4" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="GND22" gate="1" x="177.8" y="-92.71" smashed="yes">
+<attribute name="VALUE" x="175.26" y="-95.25" size="1.778" layer="96"/>
+</instance>
+<instance part="GND23" gate="1" x="177.8" y="-41.91" smashed="yes">
+<attribute name="VALUE" x="175.26" y="-44.45" size="1.778" layer="96"/>
+</instance>
+<instance part="GND24" gate="1" x="179.07" y="10.16" smashed="yes">
+<attribute name="VALUE" x="176.53" y="7.62" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1255,15 +1393,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="78.74" y1="-7.62" x2="78.74" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-5.08" x2="73.66" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="GND_2"/>
+<pinref part="IC2" gate="G$1" pin="GND_2"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="17.78" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="IC4" gate="G$1" pin="NC_2"/>
-<pinref part="IC4" gate="G$1" pin="NC_1"/>
 <wire x1="58.42" y1="17.78" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="NC_2"/>
+<pinref part="IC2" gate="G$1" pin="NC_1"/>
 <junction x="60.96" y="17.78"/>
 </segment>
 <segment>
@@ -1290,7 +1428,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="-81.28" y1="-7.62" x2="-81.28" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="-5.08" x2="-73.66" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="SET"/>
+<pinref part="IC3" gate="G$1" pin="SET"/>
 </segment>
 <segment>
 <wire x1="-38.1" y1="-5.08" x2="-35.56" y2="-5.08" width="0.1524" layer="91"/>
@@ -1299,8 +1437,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <wire x1="-38.1" y1="-2.54" x2="-35.56" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="-2.54" x2="-35.56" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="-35.56" y="-5.08"/>
-<pinref part="IC6" gate="G$1" pin="GND"/>
-<pinref part="IC6" gate="G$1" pin="SETOV"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
+<pinref part="IC3" gate="G$1" pin="SETOV"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -1309,8 +1447,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <wire x1="60.96" y1="-28.448" x2="58.42" y2="-28.448" width="0.1524" layer="91"/>
 <junction x="60.96" y="-28.448"/>
 <wire x1="58.42" y1="-28.448" x2="58.42" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="G-SELECT"/>
-<pinref part="IC4" gate="G$1" pin="GND_1"/>
+<pinref part="IC2" gate="G$1" pin="G-SELECT"/>
+<pinref part="IC2" gate="G$1" pin="GND_1"/>
 </segment>
 <segment>
 <wire x1="148.59" y1="26.67" x2="137.16" y2="26.67" width="0.1524" layer="91"/>
@@ -1320,35 +1458,35 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="180.34" y1="7.62" x2="180.34" y2="8.89" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="7.62" x2="193.04" y2="8.89" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="148.59" y1="-25.4" x2="137.16" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="137.16" y1="-25.4" x2="137.16" y2="-29.21" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="G$1" pin="VSS"/>
+<pinref part="IC4" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="-43.18" x2="180.34" y2="-44.45" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-43.18" x2="193.04" y2="-44.45" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="148.59" y1="-76.2" x2="137.16" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="-76.2" x2="137.16" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="IC8" gate="G$1" pin="VSS"/>
+<pinref part="IC5" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="179.07" y1="-97.79" x2="179.07" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-97.79" x2="193.04" y2="-96.52" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="-27.94" y1="-13.97" x2="-27.94" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
@@ -1366,12 +1504,27 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 <segment>
+<pinref part="GND22" gate="1" pin="GND"/>
+<wire x1="177.8" y1="-90.17" x2="177.8" y2="-88.9" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="177.8" y1="-39.37" x2="177.8" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="179.07" y1="12.7" x2="179.07" y2="13.97" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+</segment>
+<segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="40.64" y1="-9.398" x2="40.64" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="-2.54" x2="40.64" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="ST"/>
-<wire x1="40.64" y1="-2.54" x2="40.64" y2="-9.398" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-9.398" x2="40.64" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="40.64" y="-9.398"/>
+<pinref part="IC2" gate="G$1" pin="ST"/>
+<wire x1="40.64" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BYP" class="0">
@@ -1380,8 +1533,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <wire x1="45.72" y1="27.94" x2="31.75" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="31.75" y1="27.94" x2="31.75" y2="25.4" width="0.1524" layer="91"/>
 <label x="35.56" y="27.94" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="IC4" gate="G$1" pin="BYP"/>
 <pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="G$1" pin="BYP"/>
 </segment>
 </net>
 <net name="X_AXIS" class="0">
@@ -1392,11 +1545,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <wire x1="140.97" y1="24.13" x2="148.59" y2="24.13" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="24.13" x2="140.97" y2="2.54" width="0.1524" layer="91"/>
 <label x="116.84" y="3.81" size="1.778" layer="95"/>
-<pinref part="IC4" gate="G$1" pin="XOUT"/>
-<pinref part="IC1" gate="G$1" pin="IN+"/>
-<pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="2.54" x2="111.76" y2="1.27" width="0.1524" layer="91"/>
 <junction x="111.76" y="2.54"/>
+<pinref part="IC2" gate="G$1" pin="XOUT"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="IN+"/>
 </segment>
 </net>
 <net name="Y_AXIS" class="0">
@@ -1411,9 +1564,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <wire x1="140.97" y1="-27.94" x2="140.97" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="-43.18" x2="119.38" y2="-43.18" width="0.1524" layer="91"/>
 <label x="120.65" y="-24.13" size="1.778" layer="95"/>
-<pinref part="IC4" gate="G$1" pin="YOUT"/>
-<pinref part="IC7" gate="G$1" pin="IN+"/>
+<pinref part="IC2" gate="G$1" pin="YOUT"/>
 <pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="IC4" gate="G$1" pin="IN+"/>
 </segment>
 </net>
 <net name="Z_AXIS" class="0">
@@ -1427,9 +1580,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <wire x1="140.97" y1="-78.74" x2="140.97" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="-93.98" x2="96.52" y2="-93.98" width="0.1524" layer="91"/>
 <label x="97.79" y="-80.01" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="ZOUT"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="G$1" pin="ZOUT"/>
-<pinref part="IC8" gate="G$1" pin="IN+"/>
+<pinref part="IC5" gate="G$1" pin="IN+"/>
 </segment>
 </net>
 <net name="V_12V" class="0">
@@ -1444,24 +1597,33 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <wire x1="-93.98" y1="0" x2="-114.3" y2="0" width="0.1524" layer="91"/>
 <wire x1="-93.98" y1="-1.27" x2="-93.98" y2="0" width="0.1524" layer="91"/>
 <junction x="-93.98" y="0"/>
-<pinref part="IC6" gate="G$1" pin="IN"/>
-<pinref part="IC6" gate="G$1" pin="ENABLE"/>
 <pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="IC3" gate="G$1" pin="IN"/>
+<pinref part="IC3" gate="G$1" pin="ENABLE"/>
 </segment>
 <segment>
-<wire x1="173.99" y1="26.67" x2="176.53" y2="26.67" width="0.1524" layer="91"/>
-<label x="170.18" y="24.13" size="1.778" layer="95"/>
+<label x="182.88" y="26.67" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="VDD"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="173.99" y1="26.67" x2="179.07" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="179.07" y1="26.67" x2="182.88" y2="26.67" width="0.1524" layer="91"/>
+<junction x="179.07" y="26.67"/>
 </segment>
 <segment>
-<wire x1="173.99" y1="-25.4" x2="175.26" y2="-25.4" width="0.1524" layer="91"/>
-<label x="170.18" y="-27.94" size="1.778" layer="95"/>
-<pinref part="IC7" gate="G$1" pin="VDD"/>
+<label x="184.15" y="-25.4" size="1.778" layer="95"/>
+<pinref part="IC4" gate="G$1" pin="VDD"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="173.99" y1="-25.4" x2="177.8" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-25.4" x2="181.61" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="177.8" y="-25.4"/>
 </segment>
 <segment>
-<wire x1="173.99" y1="-76.2" x2="175.26" y2="-76.2" width="0.1524" layer="91"/>
-<label x="170.18" y="-78.74" size="1.778" layer="95"/>
-<pinref part="IC8" gate="G$1" pin="VDD"/>
+<label x="182.88" y="-76.2" size="1.778" layer="95"/>
+<pinref part="IC5" gate="G$1" pin="VDD"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="-76.2" x2="173.99" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-76.2" x2="181.61" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="177.8" y="-76.2"/>
 </segment>
 </net>
 <net name="V_3.3V" class="0">
@@ -1476,51 +1638,51 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <wire x1="25.4" y1="-5.08" x2="25.4" y2="0" width="0.1524" layer="91"/>
 <junction x="25.4" y="0"/>
 <label x="-8.89" y="1.27" size="1.778" layer="95"/>
-<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="0" x2="-27.94" y2="-1.27" width="0.1524" layer="91"/>
 <junction x="-27.94" y="0"/>
 <wire x1="1.27" y1="0" x2="1.27" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="1.27" y="0"/>
 <wire x1="15.24" y1="0" x2="15.24" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="15.24" y="0"/>
-<pinref part="IC6" gate="G$1" pin="OUT"/>
-<pinref part="IC4" gate="G$1" pin="VDD"/>
-<pinref part="IC4" gate="G$1" pin="EN"/>
-<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="-12.7" y1="-2.54" x2="-12.7" y2="0" width="0.1524" layer="91"/>
 <junction x="-12.7" y="0"/>
+<pinref part="IC3" gate="G$1" pin="OUT"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="G$1" pin="VDD"/>
+<pinref part="IC2" gate="G$1" pin="EN"/>
 </segment>
 </net>
 <net name="V_RESET" class="0">
 <segment>
 <wire x1="-73.66" y1="-7.62" x2="-73.66" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-25.4" x2="-12.7" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="!RESET"/>
-<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="-12.7" y1="-20.32" x2="-12.7" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="!RESET"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="X_OUT" class="0">
 <segment>
 <wire x1="173.99" y1="29.21" x2="176.53" y2="29.21" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="29.21" x2="180.34" y2="29.21" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="29.21" x2="180.34" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="29.21" x2="193.04" y2="29.21" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="29.21" x2="193.04" y2="26.67" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="29.21" x2="176.53" y2="31.75" width="0.1524" layer="91"/>
 <junction x="176.53" y="29.21"/>
 <pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="IN-"/>
-<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="148.59" y1="29.21" x2="140.97" y2="29.21" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="49.53" x2="176.53" y2="52.07" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="52.07" x2="140.97" y2="52.07" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="52.07" x2="140.97" y2="29.21" width="0.1524" layer="91"/>
+<label x="157.48" y="48.26" size="1.778" layer="95"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
-<label x="157.48" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="X-OUT" class="0">
@@ -1542,19 +1704,20 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 <wire x1="173.99" y1="-22.86" x2="176.53" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="-20.32" x2="176.53" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="176.53" y="-22.86"/>
-<wire x1="176.53" y1="-22.86" x2="180.34" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="-22.86" x2="180.34" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="-22.86" x2="193.04" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-22.86" x2="193.04" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="IC7" gate="G$1" pin="IN-"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="IC4" gate="G$1" pin="IN-"/>
 </segment>
 <segment>
 <wire x1="148.59" y1="-22.86" x2="140.97" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="-22.86" x2="140.97" y2="0" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="0" x2="176.53" y2="0" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="0" x2="176.53" y2="-2.54" width="0.1524" layer="91"/>
+<label x="157.48" y="-2.54" size="1.778" layer="95"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="IC7" gate="G$1" pin="OUT"/>
+<pinref part="IC4" gate="G$1" pin="OUT"/>
 <label x="157.48" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -1567,22 +1730,22 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 </segment>
 <segment>
 <wire x1="173.99" y1="-73.66" x2="176.53" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="-73.66" x2="179.07" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="179.07" y1="-73.66" x2="179.07" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="-73.66" x2="193.04" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-73.66" x2="193.04" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="-72.39" x2="176.53" y2="-73.66" width="0.1524" layer="91"/>
 <junction x="176.53" y="-73.66"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="IC8" gate="G$1" pin="IN-"/>
 <pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="IC5" gate="G$1" pin="IN-"/>
 </segment>
 <segment>
 <wire x1="148.59" y1="-73.66" x2="140.97" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="-73.66" x2="140.97" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="-50.8" x2="176.53" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="-50.8" x2="176.53" y2="-54.61" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="IC8" gate="G$1" pin="OUT"/>
 <label x="157.48" y="-53.34" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="IC5" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 </nets>
