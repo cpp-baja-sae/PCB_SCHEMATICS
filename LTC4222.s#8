@@ -841,6 +841,168 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E68
 </deviceset>
 </devicesets>
 </library>
+<library name="Baja_Parts_Lib">
+<packages>
+<package name="QFN50P500X500X75-33T345M" urn="urn:adsk.eagle:footprint:31665555/1">
+<description>32-QFN, 0.50 mm pitch, 5.00 X 5.00 X 0.75 mm body, 3.45 X 3.45 mm thermal pad
+&lt;p&gt;32-pin QFN package with 0.50 mm pitch with body size 5.00 X 5.00 X 0.75 mm and thermal pad size 3.45 X 3.45 mm&lt;/p&gt;</description>
+<circle x="-3.054" y="2.389" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.55" y1="2.139" x2="-2.55" y2="2.55" width="0.12" layer="21"/>
+<wire x1="-2.55" y1="2.55" x2="-2.139" y2="2.55" width="0.12" layer="21"/>
+<wire x1="2.55" y1="2.139" x2="2.55" y2="2.55" width="0.12" layer="21"/>
+<wire x1="2.55" y1="2.55" x2="2.139" y2="2.55" width="0.12" layer="21"/>
+<wire x1="2.55" y1="-2.139" x2="2.55" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="2.55" y1="-2.55" x2="2.139" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="-2.55" y1="-2.139" x2="-2.55" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="-2.55" y1="-2.55" x2="-2.139" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="2.55" y1="-2.55" x2="-2.55" y2="-2.55" width="0.12" layer="51"/>
+<wire x1="-2.55" y1="-2.55" x2="-2.55" y2="2.55" width="0.12" layer="51"/>
+<wire x1="-2.55" y1="2.55" x2="2.55" y2="2.55" width="0.12" layer="51"/>
+<wire x1="2.55" y1="2.55" x2="2.55" y2="-2.55" width="0.12" layer="51"/>
+<smd name="1" x="-2.4846" y="1.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="2" x="-2.4846" y="1.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="3" x="-2.4846" y="0.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="4" x="-2.4846" y="0.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="5" x="-2.4846" y="-0.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="6" x="-2.4846" y="-0.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="7" x="-2.4846" y="-1.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="8" x="-2.4846" y="-1.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="9" x="-1.75" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="10" x="-1.25" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="11" x="-0.75" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="12" x="-0.25" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="13" x="0.25" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="14" x="0.75" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="15" x="1.25" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="16" x="1.75" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="17" x="2.4846" y="-1.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="18" x="2.4846" y="-1.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="19" x="2.4846" y="-0.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="20" x="2.4846" y="-0.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="21" x="2.4846" y="0.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="22" x="2.4846" y="0.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="23" x="2.4846" y="1.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="24" x="2.4846" y="1.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="25" x="1.75" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="26" x="1.25" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="27" x="0.75" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="28" x="0.25" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="29" x="-0.25" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="30" x="-0.75" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="31" x="-1.25" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="32" x="-1.75" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="33" x="0" y="0" dx="3.45" dy="3.45" layer="1" thermals="no" cream="no"/>
+<rectangle x1="-1.3023" y1="-1.3023" x2="-0.2113" y2="-0.2113" layer="31"/>
+<rectangle x1="0.2113" y1="-1.3023" x2="1.3023" y2="-0.2113" layer="31"/>
+<rectangle x1="-1.3023" y1="0.2113" x2="-0.2113" y2="1.3023" layer="31"/>
+<rectangle x1="0.2113" y1="0.2113" x2="1.3023" y2="1.3023" layer="31"/>
+<text x="0" y="3.5996" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5996" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="QFN50P500X500X75-33T345M" urn="urn:adsk.eagle:package:31665535/1" type="model">
+<description>32-QFN, 0.50 mm pitch, 5.00 X 5.00 X 0.75 mm body, 3.45 X 3.45 mm thermal pad
+&lt;p&gt;32-pin QFN package with 0.50 mm pitch with body size 5.00 X 5.00 X 0.75 mm and thermal pad size 3.45 X 3.45 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="QFN50P500X500X75-33T345M"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="LTC4222">
+<pin name="SS" x="-5.08" y="43.18" length="middle"/>
+<pin name="RAND" x="-5.08" y="38.1" length="middle"/>
+<pin name="P$3" x="-5.08" y="33.02" length="middle"/>
+<pin name="P$4" x="-5.08" y="27.94" length="middle"/>
+<pin name="P$5" x="-5.08" y="22.86" length="middle"/>
+<pin name="P$6" x="-5.08" y="17.78" length="middle"/>
+<pin name="P$7" x="-5.08" y="12.7" length="middle"/>
+<pin name="TIMER" x="-5.08" y="7.62" length="middle"/>
+<pin name="P$9" x="7.62" y="-5.08" length="middle" rot="R90"/>
+<pin name="P$10" x="12.7" y="-5.08" length="middle" rot="R90"/>
+<pin name="P$11" x="17.78" y="-5.08" length="middle" rot="R90"/>
+<pin name="P$12" x="22.86" y="-5.08" length="middle" rot="R90"/>
+<pin name="P$13" x="27.94" y="-5.08" length="middle" rot="R90"/>
+<pin name="P$14" x="33.02" y="-5.08" length="middle" rot="R90"/>
+<pin name="P$15" x="38.1" y="-5.08" length="middle" rot="R90"/>
+<pin name="P$16" x="43.18" y="-5.08" length="middle" rot="R90"/>
+<pin name="P$17" x="55.88" y="7.62" length="middle" rot="R180"/>
+<pin name="P$18" x="55.88" y="12.7" length="middle" rot="R180"/>
+<pin name="P$19" x="55.88" y="17.78" length="middle" rot="R180"/>
+<pin name="P$20" x="55.88" y="22.86" length="middle" rot="R180"/>
+<pin name="P$21" x="55.88" y="27.94" length="middle" rot="R180"/>
+<pin name="P$22" x="55.88" y="33.02" length="middle" rot="R180"/>
+<pin name="P$23" x="55.88" y="38.1" length="middle" rot="R180"/>
+<pin name="P$24" x="55.88" y="43.18" length="middle" rot="R180"/>
+<pin name="P$25" x="43.18" y="55.88" length="middle" rot="R270"/>
+<pin name="P$26" x="38.1" y="55.88" length="middle" rot="R270"/>
+<pin name="P$27" x="33.02" y="55.88" length="middle" rot="R270"/>
+<pin name="P$28" x="27.94" y="55.88" length="middle" rot="R270"/>
+<pin name="P$29" x="22.86" y="55.88" length="middle" rot="R270"/>
+<pin name="P$30" x="17.78" y="55.88" length="middle" rot="R270"/>
+<pin name="P$31" x="12.7" y="55.88" length="middle" rot="R270"/>
+<pin name="P$32" x="7.62" y="55.88" length="middle" rot="R270"/>
+<wire x1="0" y1="0" x2="0" y2="50.8" width="0.254" layer="94"/>
+<wire x1="0" y1="50.8" x2="50.8" y2="50.8" width="0.254" layer="94"/>
+<wire x1="50.8" y1="50.8" x2="50.8" y2="0" width="0.254" layer="94"/>
+<wire x1="50.8" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="25.4" y="25.4" length="point"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LTC4222">
+<gates>
+<gate name="G$1" symbol="LTC4222" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN50P500X500X75-33T345M">
+<connects>
+<connect gate="G$1" pin="GND" pad="33"/>
+<connect gate="G$1" pin="P$10" pad="8"/>
+<connect gate="G$1" pin="P$11" pad="9"/>
+<connect gate="G$1" pin="P$12" pad="10"/>
+<connect gate="G$1" pin="P$13" pad="11"/>
+<connect gate="G$1" pin="P$14" pad="12"/>
+<connect gate="G$1" pin="P$15" pad="13"/>
+<connect gate="G$1" pin="P$16" pad="14"/>
+<connect gate="G$1" pin="P$17" pad="15"/>
+<connect gate="G$1" pin="P$18" pad="16"/>
+<connect gate="G$1" pin="P$19" pad="17"/>
+<connect gate="G$1" pin="P$20" pad="18"/>
+<connect gate="G$1" pin="P$21" pad="19"/>
+<connect gate="G$1" pin="P$22" pad="20"/>
+<connect gate="G$1" pin="P$23" pad="21"/>
+<connect gate="G$1" pin="P$24" pad="22"/>
+<connect gate="G$1" pin="P$25" pad="23"/>
+<connect gate="G$1" pin="P$26" pad="24"/>
+<connect gate="G$1" pin="P$27" pad="25"/>
+<connect gate="G$1" pin="P$28" pad="26"/>
+<connect gate="G$1" pin="P$29" pad="27"/>
+<connect gate="G$1" pin="P$3" pad="2"/>
+<connect gate="G$1" pin="P$30" pad="28"/>
+<connect gate="G$1" pin="P$31" pad="29"/>
+<connect gate="G$1" pin="P$32" pad="30"/>
+<connect gate="G$1" pin="P$4" pad="3"/>
+<connect gate="G$1" pin="P$5" pad="4"/>
+<connect gate="G$1" pin="P$6" pad="5"/>
+<connect gate="G$1" pin="P$7" pad="6"/>
+<connect gate="G$1" pin="P$9" pad="7"/>
+<connect gate="G$1" pin="RAND" pad="1"/>
+<connect gate="G$1" pin="SS" pad="31"/>
+<connect gate="G$1" pin="TIMER" pad="32"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31665535/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -882,6 +1044,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E68
 <part name="C4" library="SamacSys_Parts" deviceset="CGA3E1X7R1V105K080AE" device=""/>
 <part name="C5" library="SamacSys_Parts" deviceset="CGA2B3X7R1E683K050BB" device=""/>
 <part name="X_6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="U$12" library="Baja_Parts_Lib" deviceset="LTC4222" device="" package3d_urn="urn:adsk.eagle:package:31665535/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -991,6 +1154,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E68
 <attribute name="VALUE" x="6.35" y="87.63" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="X_6" gate="G$1" x="5.08" y="45.72" smashed="yes"/>
+<instance part="U$12" gate="G$1" x="99.39589375" y="97.2754875" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -1294,6 +1458,11 @@ with this version.
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
