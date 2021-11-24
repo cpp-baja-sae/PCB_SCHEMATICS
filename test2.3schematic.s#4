@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1518,6 +1518,14 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <wire x1="179.07" y1="12.7" x2="179.07" y2="13.97" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="40.64" y1="-9.398" x2="40.64" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-9.398" x2="40.64" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="40.64" y="-9.398"/>
+<pinref part="IC2" gate="G$1" pin="ST"/>
+<wire x1="40.64" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="BYP" class="0">
 <segment>
@@ -1667,6 +1675,15 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="IN-"/>
 </segment>
+<segment>
+<wire x1="148.59" y1="29.21" x2="140.97" y2="29.21" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="49.53" x2="176.53" y2="52.07" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="52.07" x2="140.97" y2="52.07" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="52.07" x2="140.97" y2="29.21" width="0.1524" layer="91"/>
+<label x="157.48" y="48.26" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
+</segment>
 </net>
 <net name="X-OUT" class="0">
 <segment>
@@ -1693,6 +1710,16 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="IC4" gate="G$1" pin="IN-"/>
 </segment>
+<segment>
+<wire x1="148.59" y1="-22.86" x2="140.97" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="-22.86" x2="140.97" y2="0" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="0" x2="176.53" y2="0" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="0" x2="176.53" y2="-2.54" width="0.1524" layer="91"/>
+<label x="157.48" y="-2.54" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="IC4" gate="G$1" pin="OUT"/>
+<label x="157.48" y="-2.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="Z_OUT" class="0">
 <segment>
@@ -1711,18 +1738,6 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="IC5" gate="G$1" pin="IN-"/>
 </segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="40.64" y1="-9.398" x2="40.64" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="-2.54" x2="40.64" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-2.54" x2="40.64" y2="-9.398" width="0.1524" layer="91"/>
-<junction x="40.64" y="-9.398"/>
-<pinref part="IC2" gate="G$1" pin="ST"/>
-</segment>
-</net>
-<net name="N$2" class="0">
 <segment>
 <wire x1="148.59" y1="-73.66" x2="140.97" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="-73.66" x2="140.97" y2="-50.8" width="0.1524" layer="91"/>
@@ -1731,28 +1746,6 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <label x="157.48" y="-53.34" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="IC5" gate="G$1" pin="OUT"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<wire x1="148.59" y1="-22.86" x2="140.97" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="-22.86" x2="140.97" y2="0" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="0" x2="176.53" y2="0" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="0" x2="176.53" y2="-2.54" width="0.1524" layer="91"/>
-<label x="157.48" y="-2.54" size="1.778" layer="95"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="G$1" pin="OUT"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="148.59" y1="29.21" x2="140.97" y2="29.21" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="49.53" x2="176.53" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="52.07" x2="140.97" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="52.07" x2="140.97" y2="29.21" width="0.1524" layer="91"/>
-<label x="157.48" y="48.26" size="1.778" layer="95"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 </nets>
