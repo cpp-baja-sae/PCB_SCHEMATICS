@@ -2849,6 +2849,8 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/S1751R.pdf"&gt; Datasheet &lt;/a
 <part name="R55" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW06032K00FKEAC" device="" package3d_urn="urn:adsk.eagle:package:31941653/3"/>
 <part name="R49" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW06032K00FKEAC" device="" package3d_urn="urn:adsk.eagle:package:31941653/3"/>
 <part name="R50" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW06032K00FKEAC" device="" package3d_urn="urn:adsk.eagle:package:31941653/3"/>
+<part name="C17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AA" device="" package3d_urn="urn:adsk.eagle:package:31696082/1"/>
+<part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3931,11 +3933,6 @@ With no error, pin stays high</text>
 <wire x1="332.74" y1="167.64" x2="332.74" y2="172.72" width="0.1524" layer="91"/>
 <label x="332.74" y="170.18" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="TP25" gate="G$1" pin="1"/>
-<wire x1="650.24" y1="170.18" x2="650.24" y2="175.26" width="0.1524" layer="91"/>
-<label x="650.24" y="172.72" size="1.778" layer="95" rot="R90"/>
-</segment>
 </net>
 <net name="SS" class="0">
 <segment>
@@ -4616,6 +4613,11 @@ With no error, pin stays high</text>
 <pinref part="IC2" gate="G$1" pin="VDD1"/>
 <wire x1="586.74" y1="152.4" x2="586.74" y2="157.48" width="0.1524" layer="91"/>
 <label x="586.74" y="154.94" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="TP25" gate="G$1" pin="1"/>
+<wire x1="650.24" y1="170.18" x2="650.24" y2="175.26" width="0.1524" layer="91"/>
+<label x="650.24" y="172.72" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="I_SENSE1_OUT_1" class="0">
@@ -5697,8 +5699,8 @@ Set addressing</text>
 </plain>
 <instances>
 <instance part="IC6" gate="G$1" x="43.18" y="30.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.02" y="13.97" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="35.56" y="13.97" size="1.778" layer="96" rot="R90" align="center-left"/>
+<attribute name="NAME" x="19.05" y="33.02" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="19.05" y="30.48" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GND47" gate="1" x="45.72" y="68.58" smashed="yes" rot="R180">
 <attribute name="VALUE" x="48.26" y="71.12" size="1.778" layer="96" rot="R180"/>
@@ -5814,8 +5816,15 @@ Set addressing</text>
 <attribute name="VALUE" x="39.37" y="85.09" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="R50" gate="G$1" x="45.72" y="2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.37" y="16.51" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="41.91" y="16.51" size="1.778" layer="96" rot="R90" align="center-left"/>
+<attribute name="NAME" x="46.99" y="-6.35" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="49.53" y="-6.35" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="C17" gate="CGA5L2C0G1H104J160AA" x="40.64" y="10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="38.1" y="12.7" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="35.56" y="12.7" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="GND50" gate="1" x="40.64" y="5.08" smashed="yes">
+<attribute name="VALUE" x="38.1" y="2.54" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5825,7 +5834,10 @@ Set addressing</text>
 <segment>
 <pinref part="IC6" gate="G$1" pin="VCC"/>
 <wire x1="43.18" y1="30.48" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
-<label x="43.18" y="15.24" size="1.778" layer="95" rot="R90"/>
+<label x="40.64" y="27.94" size="1.778" layer="95" rot="R180"/>
+<pinref part="C17" gate="CGA5L2C0G1H104J160AA" pin="2"/>
+<wire x1="40.64" y1="22.86" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-20.32" y1="60.96" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
@@ -5923,6 +5935,11 @@ Set addressing</text>
 <pinref part="IC6" gate="G$1" pin="NC"/>
 <pinref part="GND49" gate="1" pin="GND"/>
 <wire x1="27.94" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C17" gate="CGA5L2C0G1H104J160AA" pin="1"/>
+<wire x1="40.64" y1="10.16" x2="40.64" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="GND50" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="S0" class="0">
