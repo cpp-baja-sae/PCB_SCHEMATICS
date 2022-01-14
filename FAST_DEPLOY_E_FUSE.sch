@@ -2427,6 +2427,14 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/S1751R.pdf"&gt; Datasheet &lt;/a
 <part name="R64" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0603820RFKEA" device="" package3d_urn="urn:adsk.eagle:package:31941764/2"/>
 <part name="JP21" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="JP22" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
+<part name="TP55" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:31969460/2"/>
+<part name="TP56" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:31969460/2"/>
+<part name="TP57" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:31969460/2"/>
+<part name="TP58" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:31969460/2"/>
+<part name="TP59" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:31969460/2"/>
+<part name="TP60" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:31969460/2"/>
+<part name="TP61" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:31969460/2"/>
+<part name="TP62" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:31969460/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -5689,6 +5697,38 @@ Set addressing</text>
 <attribute name="NAME" x="41.91" y="-0.635" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="41.91" y="17.78" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="TP55" gate="G$1" x="73.66" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="81.28" y="49.53" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="78.74" y="49.53" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="TP56" gate="G$1" x="88.9" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="96.52" y="49.53" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="93.98" y="49.53" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="TP57" gate="G$1" x="104.14" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="111.76" y="49.53" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="109.22" y="49.53" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="TP58" gate="G$1" x="119.38" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="127" y="49.53" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="124.46" y="49.53" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="TP59" gate="G$1" x="73.66" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="81.28" y="13.97" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="78.74" y="13.97" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="TP60" gate="G$1" x="88.9" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="96.52" y="13.97" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="93.98" y="13.97" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="TP61" gate="G$1" x="104.14" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="111.76" y="13.97" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="109.22" y="13.97" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="TP62" gate="G$1" x="119.38" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="127" y="13.97" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="124.46" y="13.97" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5857,6 +5897,48 @@ Set addressing</text>
 <wire x1="38.1" y1="7.62" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
 <label x="43.18" y="7.62" size="1.778" layer="95"/>
 <pinref part="JP22" gate="A" pin="3"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="TP55" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="66.04" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
+<label x="73.66" y="68.58" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="TP56" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="66.04" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
+<label x="88.9" y="68.58" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="TP57" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="66.04" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
+<label x="104.14" y="68.58" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="TP58" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="66.04" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
+<label x="119.38" y="68.58" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="TP59" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="30.48" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
+<label x="73.66" y="33.02" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="TP60" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="30.48" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
+<label x="88.9" y="33.02" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="TP61" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="30.48" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
+<label x="104.14" y="33.02" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="TP62" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="30.48" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
+<label x="119.38" y="33.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>

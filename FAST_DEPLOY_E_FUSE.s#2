@@ -5724,18 +5724,6 @@ Set addressing</text>
 <wire x1="134.62" y1="43.18" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
 <label x="132.08" y="38.1" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="LED14" gate="G$1" pin="K"/>
-<pinref part="R63" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="-15.24" x2="134.62" y2="-20.32" width="0.1524" layer="91"/>
-<label x="132.08" y="-20.32" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="LED15" gate="G$1" pin="K"/>
-<pinref part="R64" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="-15.24" x2="154.94" y2="-20.32" width="0.1524" layer="91"/>
-<label x="152.4" y="-20.32" size="1.778" layer="95" rot="R90"/>
-</segment>
 </net>
 <net name="LED_10" class="0">
 <segment>
@@ -5751,6 +5739,22 @@ Set addressing</text>
 <pinref part="R62" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="43.18" x2="172.72" y2="38.1" width="0.1524" layer="91"/>
 <label x="170.18" y="38.1" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="LED_14" class="0">
+<segment>
+<pinref part="LED14" gate="G$1" pin="K"/>
+<pinref part="R63" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="-15.24" x2="134.62" y2="-20.32" width="0.1524" layer="91"/>
+<label x="132.08" y="-20.32" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="LED_15" class="0">
+<segment>
+<pinref part="LED15" gate="G$1" pin="K"/>
+<pinref part="R64" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="-15.24" x2="154.94" y2="-20.32" width="0.1524" layer="91"/>
+<label x="152.4" y="-20.32" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>

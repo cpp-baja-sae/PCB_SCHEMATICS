@@ -2785,9 +2785,9 @@ With no error, pin stays high</text>
 <attribute name="NAME" x="615.95" y="92.71" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="618.49" y="95.25" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="R20" gate="G$1" x="429.26" y="132.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="435.61" y="135.89" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="433.07" y="135.89" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="R20" gate="G$1" x="439.42" y="132.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="445.77" y="135.89" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="443.23" y="135.89" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 <instance part="R21" gate="G$1" x="497.84" y="134.62" smashed="yes" rot="R270">
 <attribute name="NAME" x="504.19" y="120.65" size="1.778" layer="95" rot="R270" align="center-left"/>
@@ -3090,9 +3090,9 @@ With no error, pin stays high</text>
 <attribute name="NAME" x="129.54" y="129.54" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="142.24" y="129.54" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="M3" gate="NTLUS4C12NTAG" x="452.12" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="444.5" y="127" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="457.2" y="127" size="1.27" layer="96" rot="R90"/>
+<instance part="M3" gate="NTLUS4C12NTAG" x="462.28" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="454.66" y="127" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="467.36" y="127" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="M4" gate="NTLUS4C12NTAG" x="482.6" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="474.98" y="127" size="1.27" layer="95" rot="R90"/>
@@ -3928,8 +3928,8 @@ With no error, pin stays high</text>
 <net name="GATE1_1" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="429.26" y1="114.3" x2="429.26" y2="109.22" width="0.1524" layer="91"/>
-<label x="429.26" y="101.6" size="1.778" layer="95" rot="R90"/>
+<wire x1="439.42" y1="114.3" x2="439.42" y2="109.22" width="0.1524" layer="91"/>
+<label x="439.42" y="101.6" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GATE1"/>
@@ -3945,8 +3945,8 @@ With no error, pin stays high</text>
 <net name="GATE_1_INPUT_1" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="429.26" y1="139.7" x2="429.26" y2="132.08" width="0.1524" layer="91"/>
-<label x="424.18" y="127" size="1.778" layer="95" rot="R90"/>
+<wire x1="439.42" y1="139.7" x2="439.42" y2="132.08" width="0.1524" layer="91"/>
+<label x="434.34" y="127" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="TP52" gate="G$1" pin="1"/>
@@ -3955,8 +3955,8 @@ With no error, pin stays high</text>
 </segment>
 <segment>
 <pinref part="M3" gate="NTLUS4C12NTAG" pin="G"/>
-<wire x1="449.58" y1="124.46" x2="449.58" y2="109.22" width="0.1524" layer="91"/>
-<label x="449.58" y="101.6" size="1.778" layer="95" rot="R90"/>
+<wire x1="459.74" y1="124.46" x2="459.74" y2="109.22" width="0.1524" layer="91"/>
+<label x="459.74" y="101.6" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="PIN_FET1_1" class="0">
@@ -3967,8 +3967,8 @@ With no error, pin stays high</text>
 </segment>
 <segment>
 <pinref part="M3" gate="NTLUS4C12NTAG" pin="D"/>
-<wire x1="447.04" y1="124.46" x2="447.04" y2="109.22" width="0.1524" layer="91"/>
-<label x="447.04" y="109.22" size="1.778" layer="95" rot="R90"/>
+<wire x1="457.2" y1="124.46" x2="457.2" y2="109.22" width="0.1524" layer="91"/>
+<label x="457.2" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VOUT_2_1" class="0">
@@ -4021,8 +4021,8 @@ With no error, pin stays high</text>
 </segment>
 <segment>
 <pinref part="M3" gate="NTLUS4C12NTAG" pin="S"/>
-<wire x1="452.12" y1="124.46" x2="452.12" y2="109.22" width="0.1524" layer="91"/>
-<label x="452.12" y="109.22" size="1.778" layer="95" rot="R90"/>
+<wire x1="462.28" y1="124.46" x2="462.28" y2="109.22" width="0.1524" layer="91"/>
+<label x="462.28" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GATE_2_INPUT_1" class="0">
