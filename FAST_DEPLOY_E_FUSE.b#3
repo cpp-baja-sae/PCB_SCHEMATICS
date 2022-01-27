@@ -2185,7 +2185,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" x="199.3138" y="-65.5828" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="199.3138" y="-65.5828" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="199.3138" y="-65.5828" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="68.8408" y="57.6072" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="68.8408" y="59.7662" size="1.27" layer="25" align="center"/>
 </element>
 <element name="TP37" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S175146R" package3d_urn="urn:adsk.eagle:package:31969460/2" value="S1751-46R" x="55.7022" y="76.8604" smashed="yes">
 <attribute name="DESCRIPTION" value="EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" x="196.6722" y="-46.3296" size="1.778" layer="27" display="off"/>
@@ -2961,11 +2961,29 @@ design rules under a new name.</description>
 <via x="15.24" y="55.88" extent="1-16" drill="0.5"/>
 <via x="15.24" y="50.8" extent="1-16" drill="0.5"/>
 <via x="15.24" y="60.96" extent="1-16" drill="0.5"/>
-<wire x1="67.3354" y1="73.3248" x2="66.3479" y2="71.8138" width="0" layer="19" extent="1-16"/>
-<wire x1="32.0548" y1="36.3608" x2="31.7609" y2="36.7284" width="0" layer="19" extent="1-16"/>
-<wire x1="33.909" y1="73.0384" x2="33.6151" y2="74.0156" width="0" layer="19" extent="1-16"/>
-<wire x1="69.346" y1="23.6254" x2="68.296" y2="24.1754" width="0" layer="19" extent="1-1"/>
-<wire x1="66.3733" y1="50.6556" x2="67.31" y2="52.1412" width="0" layer="19" extent="1-16"/>
+<wire x1="33.909" y1="73.0384" x2="33.909" y2="74.422" width="0.6096" layer="1"/>
+<wire x1="33.909" y1="74.422" x2="34.671" y2="74.422" width="0.6096" layer="1"/>
+<via x="34.671" y="74.422" extent="1-16" drill="0.25"/>
+<wire x1="69.346" y1="23.6254" x2="68.296" y2="23.6254" width="0.2032" layer="1"/>
+<wire x1="68.296" y1="23.6254" x2="68.296" y2="24.1754" width="0.2032" layer="1"/>
+<wire x1="67.3354" y1="73.3248" x2="66.2382" y2="74.422" width="0.2032" layer="16" curve="90"/>
+<wire x1="66.2382" y1="74.422" x2="65.913" y2="74.422" width="0.2032" layer="16"/>
+<via x="65.913" y="74.422" extent="1-16" drill="0.25"/>
+<wire x1="66.3479" y1="71.8138" x2="64.4478" y2="71.8138" width="0.2032" layer="1"/>
+<wire x1="64.4478" y1="71.8138" x2="64.262" y2="71.628" width="0.2032" layer="1" curve="90"/>
+<via x="64.262" y="71.628" extent="1-16" drill="0.25"/>
+<wire x1="67.31" y1="52.1412" x2="66.8578" y2="52.1412" width="0.2032" layer="16"/>
+<wire x1="66.8578" y1="52.1412" x2="65.913" y2="53.086" width="0.2032" layer="16" curve="-90"/>
+<via x="65.913" y="53.086" extent="1-16" drill="0.25"/>
+<wire x1="66.3733" y1="50.6556" x2="65.2606" y2="50.6556" width="0.2032" layer="1"/>
+<wire x1="65.2606" y1="50.6556" x2="64.897" y2="50.292" width="0.2032" layer="1" curve="90"/>
+<wire x1="64.897" y1="50.292" x2="64.897" y2="49.276" width="0.2032" layer="1"/>
+<via x="64.897" y="49.276" extent="1-16" drill="0.25"/>
+<wire x1="31.7609" y1="36.7284" x2="32.2435" y2="37.211" width="0.2032" layer="16" curve="-90"/>
+<wire x1="32.2435" y1="37.211" x2="32.893" y2="37.211" width="0.2032" layer="16"/>
+<via x="32.893" y="37.211" extent="1-16" drill="0.25"/>
+<wire x1="32.893" y1="37.211" x2="32.893" y2="37.199" width="0.2032" layer="1"/>
+<wire x1="32.893" y1="37.199" x2="32.0548" y2="36.3608" width="0.2032" layer="1" curve="-90"/>
 </signal>
 <signal name="I_SENSE2_OUT">
 <contactref element="IC1" pad="12"/>

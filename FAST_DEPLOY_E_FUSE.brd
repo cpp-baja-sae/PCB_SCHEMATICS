@@ -882,11 +882,11 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="0mil"/>
+<param name="mlMaxStopFrame" value="0mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="40mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -1366,7 +1366,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06032K00FKEAC" x="66.5226" y="-107.0102" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="71-CRCW06032K00FKEAC" x="66.5226" y="-107.0102" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06032K00FKEAC?qs=E3Y5ESvWgWOwN4nEBlBdhQ%3D%3D" x="66.5226" y="-107.0102" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.1864" y="28.8798" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="18.0594" y="29.1338" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1608X55N" package3d_urn="urn:adsk.eagle:package:31941653/3" value="CRCW060310K0JNEAC" x="26.416" y="31.5722" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/10Watt 10Kohms 5% Commercial Use" x="-119.634" y="163.6522" size="1.778" layer="28" rot="MR90" display="off"/>
