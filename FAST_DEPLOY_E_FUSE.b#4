@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -77,6 +77,28 @@
 <wire x1="101.9864" y1="0" x2="101.834" y2="92.7864" width="0" layer="20"/>
 <wire x1="101.834" y1="92.7864" x2="-0.1524" y2="92.7864" width="0" layer="20"/>
 <wire x1="-0.1524" y1="92.7864" x2="0" y2="0" width="0" layer="20"/>
+<text x="19.558" y="6.604" size="0.8128" layer="25" rot="R90">!ALERT_0</text>
+<text x="22.098" y="6.604" size="0.8128" layer="25" rot="R90">!ALERT_1</text>
+<text x="24.511" y="6.604" size="0.8128" layer="25" rot="R90">ADCIN_2_1</text>
+<text x="26.797" y="6.604" size="0.8128" layer="25" rot="R90">ADCIN_1_1</text>
+<text x="29.464" y="7.62" size="0.8128" layer="25" rot="R90">ADCIN_2_0</text>
+<text x="32.004" y="6.35" size="0.8128" layer="25" rot="R90">ADCIN_1_0</text>
+<text x="34.29" y="6.604" size="0.8128" layer="25" rot="R90">VOUT_2_1</text>
+<text x="37.211" y="6.604" size="0.8128" layer="25" rot="R90">VOUT_1_1</text>
+<text x="39.751" y="6.604" size="0.8128" layer="25" rot="R90">VOUT_2</text>
+<text x="42.291" y="6.604" size="0.8128" layer="25" rot="R90">VOUT_1</text>
+<text x="44.831" y="6.477" size="0.8128" layer="25" rot="R90">VOUT_4</text>
+<text x="47.371" y="6.477" size="0.8128" layer="25" rot="R90">VOUT_3</text>
+<text x="49.784" y="6.477" size="0.8128" layer="25" rot="R90">VIN_12V</text>
+<text x="52.451" y="6.477" size="0.8128" layer="25" rot="R90">VIN_3.3V_5V</text>
+<text x="54.991" y="6.477" size="0.8128" layer="25" rot="R90">VIN_1</text>
+<text x="57.531" y="6.477" size="0.8128" layer="25" rot="R90">VIN_0</text>
+<text x="60.1218" y="5.6388" size="0.8128" layer="25" rot="R90">VIN&gt;5V</text>
+<text x="62.611" y="6.477" size="0.8128" layer="25" rot="R90">S0</text>
+<text x="65.151" y="6.477" size="0.8128" layer="25" rot="R90">S1</text>
+<text x="67.818" y="6.477" size="0.8128" layer="25" rot="R90">SDA_IN</text>
+<text x="70.231" y="6.477" size="0.8128" layer="25" rot="R90">SCL_IN</text>
+<text x="73.025" y="6.477" size="0.8128" layer="25" rot="R90">!ENABLE_MUX</text>
 </plain>
 <libraries>
 <library name="SamacSys_Parts" urn="urn:adsk.eagle:library:31941355">
@@ -882,11 +904,11 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="0mil"/>
+<param name="mlMaxStopFrame" value="0mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="40mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -1056,23 +1078,23 @@ design rules under a new name.</description>
 <attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-20.2946" y="145.923" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="64.8769" y="72.2376" size="1.27" layer="26" rot="MR90" align="bottom-center"/>
 </element>
-<element name="C15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC3216X190N" package3d_urn="urn:adsk.eagle:package:31968987/2" value="CGA5L3X7R1H225K160AB" x="60.9346" y="9.7282" smashed="yes">
-<attribute name="DESCRIPTION" value="MLCC CGA 1206 X7R 2.2uF 50V Automotive TDK 3216 CGA 2.2uF Ceramic Multilayer Capacitor, 50 V dc, +125C, X7R Dielectric, +/-10%" x="167.6146" y="-121.0818" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.9mm" x="167.6146" y="-121.0818" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="167.6146" y="-121.0818" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA5L3X7R1H225K160AB" x="167.6146" y="-121.0818" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA5L3X7R1H225K" x="167.6146" y="-121.0818" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA5L3X7R1H225K" x="167.6146" y="-121.0818" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="63.9064" y="9.652" size="1.27" layer="25" rot="R90" align="center"/>
+<element name="C15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC3216X190N" package3d_urn="urn:adsk.eagle:package:31968987/2" value="CGA5L3X7R1H225K160AB" x="60.8584" y="11.049" smashed="yes">
+<attribute name="DESCRIPTION" value="MLCC CGA 1206 X7R 2.2uF 50V Automotive TDK 3216 CGA 2.2uF Ceramic Multilayer Capacitor, 50 V dc, +125C, X7R Dielectric, +/-10%" x="167.5384" y="-119.761" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.9mm" x="167.5384" y="-119.761" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="167.5384" y="-119.761" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA5L3X7R1H225K160AB" x="167.5384" y="-119.761" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA5L3X7R1H225K" x="167.5384" y="-119.761" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA5L3X7R1H225K" x="167.5384" y="-119.761" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="63.627" y="10.7696" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
-<element name="C16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC3216X190N" package3d_urn="urn:adsk.eagle:package:31968987/2" value="CGA5L3X7R1H225K160AB" x="60.9092" y="15.6718" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="MLCC CGA 1206 X7R 2.2uF 50V Automotive TDK 3216 CGA 2.2uF Ceramic Multilayer Capacitor, 50 V dc, +125C, X7R Dielectric, +/-10%" x="-69.9008" y="146.4818" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.9mm" x="-69.9008" y="146.4818" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="-69.9008" y="146.4818" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA5L3X7R1H225K160AB" x="-69.9008" y="146.4818" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA5L3X7R1H225K" x="-69.9008" y="146.4818" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA5L3X7R1H225K" x="-69.9008" y="146.4818" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="63.8048" y="15.6718" size="1.27" layer="25" rot="R90" align="center"/>
+<element name="C16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC3216X190N" package3d_urn="urn:adsk.eagle:package:31968987/2" value="CGA5L3X7R1H225K160AB" x="60.833" y="16.9926" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="MLCC CGA 1206 X7R 2.2uF 50V Automotive TDK 3216 CGA 2.2uF Ceramic Multilayer Capacitor, 50 V dc, +125C, X7R Dielectric, +/-10%" x="-69.977" y="147.8026" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.9mm" x="-69.977" y="147.8026" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-69.977" y="147.8026" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA5L3X7R1H225K160AB" x="-69.977" y="147.8026" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA5L3X7R1H225K" x="-69.977" y="147.8026" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA5L3X7R1H225K" x="-69.977" y="147.8026" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="58.0136" y="17.1958" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="C17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC3216X180N" package3d_urn="urn:adsk.eagle:package:31696082/1" value="CGA5L2C0G1H104J160AA" x="69.8754" y="31.2166" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="CGA5L2C0G1H104J160AA" x="-10.1346" y="-66.5734" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1191,14 +1213,14 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Analog-Devices/ADM1177-2ARMZ-R7?qs=sGAEpiMZZMsjJi7B1kCaqUwb7%252BssKgH%2FhAltG8zytI8%3D" x="185.3438" y="11.3538" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="68.5038" y="74.8424" size="1.27" layer="25" align="bottom-center"/>
 </element>
-<element name="IC5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P255X145-3N" package3d_urn="urn:adsk.eagle:package:31968974/2" value="MCP1792T-3302H_CB" x="60.9092" y="12.7" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="LDO Voltage Regulators High input voltage regulator 3.3V 3Ld SOT-23A TR" x="38.0492" y="128.27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.45mm" x="38.0492" y="128.27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Microchip" x="38.0492" y="128.27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCP1792T-3302H/CB" x="38.0492" y="128.27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="579-MCP1792T-3302HCB" x="38.0492" y="128.27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1792T-3302H-CB?qs=mAH9sUMRCtsJR7ybQ6HmQA%3D%3D" x="38.0492" y="128.27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="58.1406" y="12.6746" size="1.27" layer="25" rot="R270" align="center"/>
+<element name="IC5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P255X145-3N" package3d_urn="urn:adsk.eagle:package:31968974/2" value="MCP1792T-3302H_CB" x="60.833" y="14.0208" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="LDO Voltage Regulators High input voltage regulator 3.3V 3Ld SOT-23A TR" x="37.973" y="129.5908" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.45mm" x="37.973" y="129.5908" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Microchip" x="37.973" y="129.5908" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCP1792T-3302H/CB" x="37.973" y="129.5908" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="579-MCP1792T-3302HCB" x="37.973" y="129.5908" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1792T-3302H-CB?qs=mAH9sUMRCtsJR7ybQ6HmQA%3D%3D" x="37.973" y="129.5908" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="58.0644" y="13.9954" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="IC6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="74HCT595BQ115" package3d_urn="urn:adsk.eagle:package:31969317/2" value="74HC4852BQ,115" x="69.596" y="25.4254" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="74HC(T)4852 - Dual 4-channel analog multiplexer/demultiplexer with injection-current effect control@en-us" x="-24.384" y="-24.1046" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1210,136 +1232,133 @@ design rules under a new name.</description>
 <attribute name="NAME" x="69.7484" y="21.4122" size="1.27" layer="25" align="center"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X06" package3d_urn="urn:adsk.eagle:package:22472/2" value="" x="40.6654" y="3.7846" smashed="yes">
-<attribute name="NAME" x="31.5214" y="0.9652" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="79" x="119.4054" y="-95.2754" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="33.0454" y="0.6096" size="1.27" layer="27"/>
 </element>
 <element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="27.9654" y="3.7338" smashed="yes">
-<attribute name="NAME" x="21.3614" y="0.9144" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="91" x="134.6454" y="-95.3262" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="22.8854" y="0.5588" size="1.27" layer="27"/>
 </element>
 <element name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="54.6354" y="3.7592" smashed="yes">
-<attribute name="NAME" x="46.7614" y="0.9398" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="69" x="148.6154" y="-95.3008" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="48.2854" y="0.5842" size="1.27" layer="27"/>
 </element>
-<element name="LED1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="37.0332" y="19.6342" smashed="yes" rot="R270">
+<element name="!ALERT0" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="37.0332" y="19.6342" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-62.0268" y="-102.2858" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-62.0268" y="-102.2858" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-62.0268" y="-102.2858" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="-62.0268" y="-102.2858" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="-62.0268" y="-102.2858" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="-62.0268" y="-102.2858" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="39.8272" y="19.427" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="40.0812" y="19.808" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="LED10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="84.8106" y="29.21" smashed="yes" rot="R270">
+<element name="SDA_IN" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="84.8106" y="29.21" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-25.6794" y="-34.29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-25.6794" y="-34.29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-25.6794" y="-34.29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="-25.6794" y="-34.29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="-25.6794" y="-34.29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="-25.6794" y="-34.29" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="85.0646" y="35.4798" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="84.9376" y="36.1148" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="LED11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="46.863" y="21.7424" smashed="yes" rot="R270">
+<element name="3_SCL" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="46.863" y="21.7424" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-63.627" y="-62.0776" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-63.627" y="-62.0776" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-63.627" y="-62.0776" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="-63.627" y="-62.0776" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="-63.627" y="-62.0776" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="-63.627" y="-62.0776" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="46.6598" y="15.998" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="46.6598" y="15.871" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="LED12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="93.1418" y="22.352" smashed="yes" rot="R270">
+<element name="3_SDA" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="93.1418" y="22.352" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-17.3482" y="-81.788" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-17.3482" y="-81.788" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-17.3482" y="-81.788" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="-17.3482" y="-81.788" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="-17.3482" y="-81.788" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="-17.3482" y="-81.788" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="93.1672" y="16.5314" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="93.0402" y="16.1504" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="LED13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="55.1942" y="21.7424" smashed="yes" rot="R270">
+<element name="!EN_MUX" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="55.1942" y="21.7424" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-55.2958" y="-102.7176" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-55.2958" y="-102.7176" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-55.2958" y="-102.7176" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="-55.2958" y="-102.7176" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="-55.2958" y="-102.7176" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="-55.2958" y="-102.7176" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="55.245" y="15.617" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="55.245" y="14.728" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="LED2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="46.863" y="28.6512" smashed="yes" rot="R270">
+<element name="0_SCL" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="46.863" y="28.6512" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-58.547" y="5.7912" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-58.547" y="5.7912" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-58.547" y="5.7912" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="-58.547" y="5.7912" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="-58.547" y="5.7912" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="-58.547" y="5.7912" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="46.99" y="34.667" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="46.99" y="35.048" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="LED3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="97.3328" y="22.352" smashed="yes" rot="R270">
+<element name="0_SDA" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="97.3328" y="22.352" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-8.0772" y="-20.828" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-8.0772" y="-20.828" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-8.0772" y="-20.828" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="-8.0772" y="-20.828" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="-8.0772" y="-20.828" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="-8.0772" y="-20.828" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="97.4598" y="15.871" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="97.8408" y="16.252" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="LED4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="39.2176" y="54.9402" smashed="yes" rot="R270">
+<element name="!ALERT1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="39.2176" y="54.9402" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-66.1924" y="-8.5598" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-66.1924" y="-8.5598" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-66.1924" y="-8.5598" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="-66.1924" y="-8.5598" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="-66.1924" y="-8.5598" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="-66.1924" y="-8.5598" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="42.0116" y="54.9108" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="42.2656" y="55.1648" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="LED5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="51.0286" y="21.7424" smashed="yes" rot="R270">
+<element name="1_SCL" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="51.0286" y="21.7424" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-54.3814" y="-62.0776" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-54.3814" y="-62.0776" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-54.3814" y="-62.0776" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="-54.3814" y="-62.0776" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="-54.3814" y="-62.0776" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="-54.3814" y="-62.0776" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="51.054" y="15.4138" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="51.054" y="15.7948" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="LED6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="88.9762" y="29.1846" smashed="yes" rot="R270">
+<element name="1_SDA" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="88.9762" y="29.1846" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-16.4338" y="-74.9554" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-16.4338" y="-74.9554" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-16.4338" y="-74.9554" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="-16.4338" y="-74.9554" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="-16.4338" y="-74.9554" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="-16.4338" y="-74.9554" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="88.9762" y="34.8448" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="88.8492" y="35.6068" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="LED7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="55.1942" y="28.6512" smashed="yes" rot="R270">
+<element name="SCL_IN" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="55.1942" y="28.6512" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-50.2158" y="-95.8088" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-50.2158" y="-95.8088" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-50.2158" y="-95.8088" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="-50.2158" y="-95.8088" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="-50.2158" y="-95.8088" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="-50.2158" y="-95.8088" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="54.991" y="34.5146" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="55.245" y="35.4036" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="LED8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="51.0286" y="28.6512" smashed="yes" rot="R270">
+<element name="2_SCL" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="51.0286" y="28.6512" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-59.4614" y="5.7912" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-59.4614" y="5.7912" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-59.4614" y="5.7912" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="-59.4614" y="5.7912" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="-59.4614" y="5.7912" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="-59.4614" y="5.7912" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="51.1556" y="34.6416" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="51.1556" y="35.0226" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="LED9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="93.1418" y="29.1846" smashed="yes" rot="R270">
+<element name="SDA_2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="93.1418" y="29.1846" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-17.3482" y="-13.9954" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-17.3482" y="-13.9954" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-17.3482" y="-13.9954" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="-17.3482" y="-13.9954" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="-17.3482" y="-13.9954" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="-17.3482" y="-13.9954" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="93.2688" y="34.9464" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="93.0148" y="35.5814" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
 <element name="M1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="TRANS_NTLUS3A18PZTAG" package3d_urn="urn:adsk.eagle:package:32963956/1" value="NTLUS4C12NTAG" x="41.0718" y="32.8168" smashed="yes">
 <attribute name="NAME" x="43.506390625" y="31.9631" size="1.01686875" layer="25" rot="R90"/>
@@ -1366,7 +1385,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06032K00FKEAC" x="66.5226" y="-107.0102" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="71-CRCW06032K00FKEAC" x="66.5226" y="-107.0102" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06032K00FKEAC?qs=E3Y5ESvWgWOwN4nEBlBdhQ%3D%3D" x="66.5226" y="-107.0102" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.1864" y="28.8798" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="18.0594" y="29.1338" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1608X55N" package3d_urn="urn:adsk.eagle:package:31941653/3" value="CRCW060310K0JNEAC" x="26.416" y="31.5722" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/10Watt 10Kohms 5% Commercial Use" x="-119.634" y="163.6522" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1402,7 +1421,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="WSK2512R0250FEA" x="124.3584" y="-57.2262" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="71-WSK2512R0250FEA" x="124.3584" y="-57.2262" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSK2512R0250FEA?qs=l%252BoLuM8chxrVGAQkLso4sw%3D%3D" x="124.3584" y="-57.2262" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38.1" y="33.5026" size="0.8128" layer="25" align="center"/>
+<attribute name="NAME" x="37.592" y="34.5186" size="0.8128" layer="25" align="center"/>
 </element>
 <element name="R14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC3216X60N" package3d_urn="urn:adsk.eagle:package:31941794/2" value="CRCW12067K00JNTA" x="30.099" y="36.4998" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/4watt 7Kohms 5% Non-Standard number" x="-100.711" y="-28.2702" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2005,7 +2024,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" x="160.8836" y="-83.0326" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="160.8836" y="-83.0326" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="160.8836" y="-83.0326" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="81.2106" y="36.2712" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="81.0836" y="34.1122" size="1.27" layer="25" align="center"/>
 </element>
 <element name="TP19" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S175146R" package3d_urn="urn:adsk.eagle:package:31969460/2" value="S1751-46R" x="64.9478" y="33.8328" smashed="yes">
 <attribute name="DESCRIPTION" value="EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" x="155.1178" y="-85.5472" size="1.778" layer="27" display="off"/>
@@ -2113,7 +2132,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" x="92.4052" y="-90.5764" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="92.4052" y="-90.5764" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="92.4052" y="-90.5764" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="36.1442" y="32.5188" size="0.8128" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="32.6322" y="31.0642" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
 <element name="TP3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S175146R" package3d_urn="urn:adsk.eagle:package:31969460/2" value="S1751-46R" x="31.5722" y="24.5364" smashed="yes">
 <attribute name="DESCRIPTION" value="EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" x="89.9922" y="-89.7636" size="1.778" layer="27" display="off"/>
@@ -2185,7 +2204,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" x="199.3138" y="-65.5828" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="199.3138" y="-65.5828" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="199.3138" y="-65.5828" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="68.8408" y="57.6072" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="68.8408" y="59.7662" size="1.27" layer="25" align="center"/>
 </element>
 <element name="TP37" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S175146R" package3d_urn="urn:adsk.eagle:package:31969460/2" value="S1751-46R" x="55.7022" y="76.8604" smashed="yes">
 <attribute name="DESCRIPTION" value="EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" x="196.6722" y="-46.3296" size="1.778" layer="27" display="off"/>
@@ -2194,7 +2213,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" x="196.6722" y="-46.3296" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="196.6722" y="-46.3296" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="196.6722" y="-46.3296" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="56.0392" y="76.8604" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="55.7852" y="74.3204" size="1.27" layer="25" align="center"/>
 </element>
 <element name="TP38" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S175146R" package3d_urn="urn:adsk.eagle:package:31969460/2" value="S1751-46R" x="65.7098" y="66.8782" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" x="192.7098" y="85.9282" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2203,7 +2222,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" x="192.7098" y="85.9282" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="192.7098" y="85.9282" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="192.7098" y="85.9282" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="65.7098" y="67.2152" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="68.1228" y="67.0882" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="TP39" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S175146R" package3d_urn="urn:adsk.eagle:package:31969460/2" value="S1751-46R" x="54.4068" y="67.4116" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" x="181.4068" y="96.6216" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2221,7 +2240,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" x="149.4536" y="-74.2696" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="149.4536" y="-74.2696" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="149.4536" y="-74.2696" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="80.8296" y="42.3672" size="0.8128" layer="25" align="center"/>
+<attribute name="NAME" x="81.4646" y="41.9862" size="0.8128" layer="25" align="center"/>
 </element>
 <element name="TP40" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S175146R" package3d_urn="urn:adsk.eagle:package:31969460/2" value="S1751-46R" x="68.2498" y="78.6638" smashed="yes">
 <attribute name="DESCRIPTION" value="EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" x="107.6198" y="-48.3362" size="1.778" layer="27" display="off"/>
@@ -2230,7 +2249,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" x="107.6198" y="-48.3362" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="107.6198" y="-48.3362" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="107.6198" y="-48.3362" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="68.5868" y="78.6638" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="72.0852" y="77.8578" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="TP41" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S175146R" package3d_urn="urn:adsk.eagle:package:31969460/2" value="S1751-46R" x="74.2696" y="40.005" smashed="yes">
 <attribute name="DESCRIPTION" value="EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" x="123.7996" y="-86.995" size="1.778" layer="27" display="off"/>
@@ -2239,7 +2258,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" x="123.7996" y="-86.995" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="123.7996" y="-86.995" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="123.7996" y="-86.995" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="74.632" y="42.3672" size="0.8128" layer="25" align="center"/>
+<attribute name="NAME" x="74.378" y="41.9862" size="0.8128" layer="25" align="center"/>
 </element>
 <element name="TP42" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S175146R" package3d_urn="urn:adsk.eagle:package:31969460/2" value="S1751-46R" x="59.1058" y="38.227" smashed="yes">
 <attribute name="DESCRIPTION" value="EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" x="118.7958" y="-88.773" size="1.778" layer="27" display="off"/>
@@ -2248,7 +2267,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" x="118.7958" y="-88.773" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="118.7958" y="-88.773" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="118.7958" y="-88.773" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="56.261" y="38.2592" size="0.8128" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="56.388" y="38.1322" size="0.8128" layer="25" rot="R90" align="center"/>
 </element>
 <element name="TP43" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S175146R" package3d_urn="urn:adsk.eagle:package:31969460/2" value="S1751-46R" x="74.2696" y="36.2966" smashed="yes">
 <attribute name="DESCRIPTION" value="EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" x="144.1196" y="-90.7034" size="1.778" layer="27" display="off"/>
@@ -2257,7 +2276,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" x="144.1196" y="-90.7034" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="144.1196" y="-90.7034" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="144.1196" y="-90.7034" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="74.6066" y="36.2966" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="74.6066" y="33.3756" size="1.27" layer="25" align="center"/>
 </element>
 <element name="TP44" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S175146R" package3d_urn="urn:adsk.eagle:package:31969460/2" value="S1751-46R" x="59.0296" y="33.8582" smashed="yes">
 <attribute name="DESCRIPTION" value="EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" x="139.0396" y="-93.1418" size="1.778" layer="27" display="off"/>
@@ -2329,7 +2348,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" x="-103.505" y="159.5882" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="-103.505" y="159.5882" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-103.505" y="159.5882" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="37.128" y="32.5882" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="37.763" y="30.4292" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="TP51" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S175146R" package3d_urn="urn:adsk.eagle:package:31969460/2" value="S1751-46R" x="10.541" y="68.7578" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" x="-8.509" y="199.5678" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2483,14 +2502,14 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="92" x="78.4606" y="72.5932" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="74.6506" y="69.4182" size="1.27" layer="27"/>
 </element>
-<element name="LED14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="88.9762" y="22.352" smashed="yes" rot="R270">
+<element name="S0" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="88.9762" y="22.352" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="88.9762" y="28.2448" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="88.9762" y="28.2448" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="88.9762" y="28.2448" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="88.9762" y="28.2448" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="88.9762" y="28.2448" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="88.9762" y="28.2448" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="88.9254" y="16.506" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="88.777" y="18.3134" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R63" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1608X50N" package3d_urn="urn:adsk.eagle:package:31941764/2" value="CRCW0603820RFKEA" x="76.0222" y="22.6822" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 820 +/-1% 0.1W +/-100ppm/C" x="87.5284" y="22.6822" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2501,14 +2520,14 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603820RFKEA?qs=HyTSJ3hXp3J4RIWfWuiOyA%3D%3D" x="87.5284" y="22.6822" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="79.248" y="22.6822" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="LED15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="84.8106" y="22.352" smashed="yes" rot="R270">
+<element name="S1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="84.8106" y="22.352" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="84.8106" y="28.2448" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="84.8106" y="28.2448" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="84.8106" y="28.2448" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="84.8106" y="28.2448" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="84.8106" y="28.2448" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="84.8106" y="28.2448" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="84.836" y="16.4806" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="84.7384" y="18.288" size="1.27" layer="25" align="center"/>
 </element>
 <element name="R64" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1608X50N" package3d_urn="urn:adsk.eagle:package:31941764/2" value="CRCW0603820RFKEA" x="76.0222" y="21.082" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 820 +/-1% 0.1W +/-100ppm/C" x="87.5284" y="21.082" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2520,12 +2539,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="79.2226" y="21.0566" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="JP21" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="20.3454" y="3.7338" smashed="yes">
-<attribute name="NAME" x="13.9192" y="0.8382" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="98" x="20.3454" y="3.7338" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="17.8054" y="0.5588" size="1.27" layer="27"/>
 </element>
 <element name="JP22" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="67.3354" y="3.7084" smashed="yes">
-<attribute name="NAME" x="60.9092" y="5.5372" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="69" x="67.3354" y="3.7084" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="60.9854" y="0.5334" size="1.27" layer="27"/>
 </element>
@@ -2563,7 +2580,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1751-46R" x="85.09" y="37.0586" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="85.09" y="37.0586" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="85.09" y="37.0586" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="82.55" y="44.3806" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="82.804" y="44.7616" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 <element name="TP59" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S175146R" package3d_urn="urn:adsk.eagle:package:31969460/2" value="S1751-46R" x="73.7108" y="65.405" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" x="73.7108" y="67.2084" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2600,6 +2617,132 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PART_NUMBER" value="855-S1751-46R" x="33.3502" y="37.084" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="33.3502" y="37.084" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="30.9118" y="44.5076" size="1.27" layer="25" rot="R90" align="center"/>
+</element>
+<element name="VIN_3.3V_5V" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="2.8448" y="35.2298" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="2.8448" y="29.3116" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="2.8448" y="29.3116" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="2.8448" y="29.3116" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="2.8448" y="29.3116" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="2.8448" y="29.3116" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="2.8448" y="29.3116" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="6.0452" y="32.7192" size="1.27" layer="25" rot="R90" align="center"/>
+</element>
+<element name="R65" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1608X50N" package3d_urn="urn:adsk.eagle:package:31941764/2" value="CRCW0603820RFKEA" x="2.8448" y="30.0736" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 820 +/-1% 0.1W +/-100ppm/C" x="2.8448" y="41.5798" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="0.5mm" x="2.8448" y="41.5798" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="2.8448" y="41.5798" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603820RFKEA" x="2.8448" y="41.5798" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW0603-820-E3" x="2.8448" y="41.5798" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603820RFKEA?qs=HyTSJ3hXp3J4RIWfWuiOyA%3D%3D" x="2.8448" y="41.5798" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="2.794" y="27.813" size="1.27" layer="25" align="center"/>
+</element>
+<element name="VIN_1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="56.3626" y="84.0232" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="62.2554" y="84.0232" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="62.2554" y="84.0232" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="62.2554" y="84.0232" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="62.2554" y="84.0232" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="62.2554" y="84.0232" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="62.2554" y="84.0232" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="52.324" y="83.9176" size="1.27" layer="25" rot="R270" align="center"/>
+</element>
+<element name="R66" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1608X50N" package3d_urn="urn:adsk.eagle:package:31941764/2" value="CRCW0603820RFKEA" x="58.547" y="86.995" smashed="yes">
+<attribute name="DESCRIPTION" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 820 +/-1% 0.1W +/-100ppm/C" x="47.0662" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.5mm" x="47.0662" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="47.0662" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603820RFKEA" x="47.0662" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW0603-820-E3" x="47.0662" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603820RFKEA?qs=HyTSJ3hXp3J4RIWfWuiOyA%3D%3D" x="47.0662" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="58.6994" y="88.519" size="1.27" layer="25" align="center"/>
+</element>
+<element name="VIN_0" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="49.5554" y="53.9496" smashed="yes">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="43.6626" y="53.9496" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="43.6626" y="53.9496" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="43.6626" y="53.9496" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="43.6626" y="53.9496" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="43.6626" y="53.9496" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="43.6626" y="53.9496" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="44.9834" y="53.9282" size="1.27" layer="25" rot="R90" align="center"/>
+</element>
+<element name="R67" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1608X50N" package3d_urn="urn:adsk.eagle:package:31941764/2" value="CRCW0603820RFKEA" x="46.6852" y="57.5818" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 820 +/-1% 0.1W +/-100ppm/C" x="46.6852" y="46.101" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.5mm" x="46.6852" y="46.101" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="46.6852" y="46.101" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603820RFKEA" x="46.6852" y="46.101" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW0603-820-E3" x="46.6852" y="46.101" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603820RFKEA?qs=HyTSJ3hXp3J4RIWfWuiOyA%3D%3D" x="46.6852" y="46.101" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="46.6344" y="59.7662" size="1.27" layer="25" align="center"/>
+</element>
+<element name="VIN&gt;5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="66.1162" y="13.97" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="72.009" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="72.009" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="72.009" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="72.009" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="72.009" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="72.009" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="67.1616" y="11.176" size="1.27" layer="25" align="center"/>
+</element>
+<element name="R68" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1608X50N" package3d_urn="urn:adsk.eagle:package:31941764/2" value="CRCW0603820RFKEA" x="70.6374" y="13.9954" smashed="yes">
+<attribute name="DESCRIPTION" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 820 +/-1% 0.1W +/-100ppm/C" x="59.1566" y="13.9954" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.5mm" x="59.1566" y="13.9954" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="59.1566" y="13.9954" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603820RFKEA" x="59.1566" y="13.9954" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW0603-820-E3" x="59.1566" y="13.9954" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603820RFKEA?qs=HyTSJ3hXp3J4RIWfWuiOyA%3D%3D" x="59.1566" y="13.9954" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="73.8124" y="14.0716" size="1.27" layer="25" rot="R180" align="center"/>
+</element>
+<element name="3.3V_LOGIC" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="66.0908" y="18.034" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="71.9836" y="18.034" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="71.9836" y="18.034" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="71.9836" y="18.034" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="71.9836" y="18.034" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="71.9836" y="18.034" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="71.9836" y="18.034" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="69.211" y="15.9512" size="1.27" layer="25" rot="R180" align="center"/>
+</element>
+<element name="R69" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1608X50N" package3d_urn="urn:adsk.eagle:package:31941764/2" value="CRCW0603820RFKEA" x="70.612" y="18.034" smashed="yes">
+<attribute name="DESCRIPTION" value="Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 820 +/-1% 0.1W +/-100ppm/C" x="59.1312" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.5mm" x="59.1312" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="59.1312" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603820RFKEA" x="59.1312" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW0603-820-E3" x="59.1312" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603820RFKEA?qs=HyTSJ3hXp3J4RIWfWuiOyA%3D%3D" x="59.1312" y="18.034" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="73.7616" y="18.034" size="1.27" layer="25" rot="R180" align="center"/>
+</element>
+<element name="VIN_12V" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="32.9692" y="-6.1722" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="32.9692" y="-12.065" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="32.9692" y="-12.065" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="32.9692" y="-12.065" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="32.9692" y="-12.065" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="32.9692" y="-12.065" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="32.9692" y="-12.065" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="32.9692" y="-6.4222" size="1.27" layer="25" rot="R90" align="center"/>
+</element>
+<element name="R70" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1608X55N" package3d_urn="urn:adsk.eagle:package:31941653/3" value="CRCW06032K00FKEAC" x="36.5252" y="-6.4262" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="D11/CRCW0603-C 100 2K0 1% ET1" x="36.5252" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="36.5252" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="36.5252" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06032K00FKEAC" x="36.5252" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW06032K00FKEAC" x="36.5252" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06032K00FKEAC?qs=E3Y5ESvWgWOwN4nEBlBdhQ%3D%3D" x="36.5252" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="36.5252" y="-6.4262" size="1.27" layer="25" rot="R90" align="center"/>
+</element>
+<element name="R71" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1608X55N" package3d_urn="urn:adsk.eagle:package:31941653/3" value="CRCW06032K00FKEAC" x="38.7858" y="-6.4262" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="D11/CRCW0603-C 100 2K0 1% ET1" x="38.7858" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="38.7858" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="38.7858" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06032K00FKEAC" x="38.7858" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW06032K00FKEAC" x="38.7858" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06032K00FKEAC?qs=E3Y5ESvWgWOwN4nEBlBdhQ%3D%3D" x="38.7858" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="38.7858" y="-6.4262" size="1.27" layer="25" rot="R90" align="center"/>
+</element>
+<element name="R72" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1608X55N" package3d_urn="urn:adsk.eagle:package:31941653/3" value="CRCW06032K00FKEAC" x="41.0464" y="-6.4262" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="D11/CRCW0603-C 100 2K0 1% ET1" x="41.0464" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="41.0464" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="41.0464" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06032K00FKEAC" x="41.0464" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW06032K00FKEAC" x="41.0464" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06032K00FKEAC?qs=E3Y5ESvWgWOwN4nEBlBdhQ%3D%3D" x="41.0464" y="-12.4714" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="41.0464" y="-6.4262" size="1.27" layer="25" rot="R90" align="center"/>
 </element>
 </elements>
 <signals>
@@ -2727,6 +2870,13 @@ design rules under a new name.</description>
 <wire x1="16.8402" y1="38.227" x2="16.8402" y2="71.9328" width="0.8128" layer="2"/>
 <wire x1="19.0124" y1="72.9996" x2="21.679" y2="72.9996" width="0.8128" layer="1"/>
 <wire x1="21.679" y1="72.9996" x2="22.0218" y2="73.3424" width="0.8128" layer="1" curve="90"/>
+<contactref element="VIN_3.3V_5V" pad="2"/>
+<wire x1="14.9098" y1="36.2966" x2="6.5532" y2="36.2966" width="0.6096" layer="15"/>
+<wire x1="6.5532" y1="36.2966" x2="5.8674" y2="36.9824" width="0.6096" layer="15" curve="-90"/>
+<wire x1="5.8674" y1="36.9824" x2="4.572" y2="38.2778" width="0.6096" layer="15" curve="90"/>
+<wire x1="4.572" y1="38.2778" x2="2.8448" y2="38.2778" width="0.6096" layer="15"/>
+<via x="2.8448" y="38.2778" extent="1-16" drill="0.35"/>
+<wire x1="2.8448" y1="38.2778" x2="2.8448" y2="36.6298" width="0.6096" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="R8" pad="2"/>
@@ -2984,6 +3134,20 @@ design rules under a new name.</description>
 <via x="32.893" y="37.211" extent="1-16" drill="0.25"/>
 <wire x1="32.893" y1="37.211" x2="32.893" y2="37.199" width="0.2032" layer="1"/>
 <wire x1="32.893" y1="37.199" x2="32.0548" y2="36.3608" width="0.2032" layer="1" curve="-90"/>
+<via x="70.866" y="12.6746" extent="1-16" drill="0.5"/>
+<via x="66.04" y="12.7" extent="1-16" drill="0.5"/>
+<contactref element="R65" pad="2"/>
+<contactref element="R66" pad="2"/>
+<contactref element="R67" pad="2"/>
+<contactref element="R68" pad="2"/>
+<contactref element="R69" pad="2"/>
+<contactref element="R72" pad="1"/>
+<wire x1="71.362" y1="18.034" x2="41.0464" y2="-7.2262" width="0" layer="19" extent="1-1"/>
+<wire x1="71.3874" y1="13.9954" x2="71.362" y2="18.034" width="0" layer="19" extent="1-1"/>
+<wire x1="46.6852" y1="58.3318" x2="71.3874" y2="13.9954" width="0" layer="19" extent="1-1"/>
+<wire x1="59.297" y1="86.995" x2="46.6852" y2="58.3318" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="5.08" x2="59.297" y2="86.995" width="0" layer="19" extent="1-1"/>
+<wire x1="2.8448" y1="29.3236" x2="5.08" y2="35.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I_SENSE2_OUT">
 <contactref element="IC1" pad="12"/>
@@ -3250,6 +3414,8 @@ design rules under a new name.</description>
 <via x="39.624" y="40.259" extent="1-16" drill="0.8"/>
 <wire x1="39.624" y1="40.259" x2="39.624" y2="62.9412" width="0.8128" layer="2"/>
 <wire x1="39.624" y1="62.9412" x2="37.6682" y2="64.897" width="0.8128" layer="2" curve="90"/>
+<contactref element="VIN_12V" pad="2"/>
+<wire x1="32.9692" y1="-4.7722" x2="34.8996" y2="7.112" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UV1">
 <contactref element="R14" pad="2"/>
@@ -4038,16 +4204,16 @@ design rules under a new name.</description>
 <wire x1="21.1836" y1="49.8856" x2="21.1836" y2="38.734409375" width="0.1524" layer="2"/>
 </signal>
 <signal name="3.3V_LOGIC">
-<contactref element="LED1" pad="2"/>
-<contactref element="LED2" pad="2"/>
-<contactref element="LED3" pad="2"/>
-<contactref element="LED4" pad="2"/>
-<contactref element="LED5" pad="2"/>
-<contactref element="LED6" pad="2"/>
-<contactref element="LED8" pad="2"/>
-<contactref element="LED9" pad="2"/>
-<contactref element="LED11" pad="2"/>
-<contactref element="LED12" pad="2"/>
+<contactref element="!ALERT0" pad="2"/>
+<contactref element="0_SCL" pad="2"/>
+<contactref element="0_SDA" pad="2"/>
+<contactref element="!ALERT1" pad="2"/>
+<contactref element="1_SCL" pad="2"/>
+<contactref element="1_SDA" pad="2"/>
+<contactref element="2_SCL" pad="2"/>
+<contactref element="SDA_2" pad="2"/>
+<contactref element="3_SCL" pad="2"/>
+<contactref element="3_SDA" pad="2"/>
 <contactref element="IC5" pad="2"/>
 <contactref element="C16" pad="1"/>
 <contactref element="IC6" pad="16"/>
@@ -4065,9 +4231,9 @@ design rules under a new name.</description>
 <contactref element="R53" pad="2"/>
 <contactref element="R54" pad="2"/>
 <contactref element="R55" pad="2"/>
-<contactref element="LED7" pad="2"/>
-<contactref element="LED10" pad="2"/>
-<contactref element="LED13" pad="2"/>
+<contactref element="SCL_IN" pad="2"/>
+<contactref element="SDA_IN" pad="2"/>
+<contactref element="!EN_MUX" pad="2"/>
 <contactref element="JP5" pad="1"/>
 <contactref element="JP6" pad="1"/>
 <contactref element="JP7" pad="1"/>
@@ -4084,13 +4250,13 @@ design rules under a new name.</description>
 <contactref element="JP18" pad="1"/>
 <contactref element="JP19" pad="1"/>
 <contactref element="JP20" pad="1"/>
-<contactref element="LED14" pad="2"/>
-<contactref element="LED15" pad="2"/>
-<wire x1="62.4092" y1="15.6718" x2="62.4092" y2="14" width="0.8128" layer="1"/>
-<wire x1="62.4092" y1="14" x2="62.0592" y2="13.65" width="0.8128" layer="1" curve="-90"/>
-<wire x1="62.4092" y1="15.6718" x2="62.4092" y2="17.8024" width="0.8128" layer="1"/>
-<wire x1="62.4092" y1="17.8024" x2="59.8692" y2="20.3424" width="0.8128" layer="1" curve="90"/>
-<wire x1="59.8692" y1="20.3424" x2="51.054" y2="20.3424" width="0.8128" layer="1"/>
+<contactref element="S0" pad="2"/>
+<contactref element="S1" pad="2"/>
+<wire x1="62.333" y1="16.9926" x2="62.333" y2="15.3208" width="0.8128" layer="1"/>
+<wire x1="62.333" y1="15.3208" x2="61.983" y2="14.9708" width="0.8128" layer="1" curve="-90"/>
+<wire x1="62.333" y1="18.8946" x2="62.333" y2="16.9926" width="0.8128" layer="1"/>
+<wire x1="62.333" y1="18.8946" x2="60.8852" y2="20.3424" width="0.8128" layer="1" curve="90"/>
+<wire x1="60.8852" y1="20.3424" x2="51.054" y2="20.3424" width="0.8128" layer="1"/>
 <wire x1="51.054" y1="20.3424" x2="46.863" y2="20.3424" width="0.8128" layer="1"/>
 <wire x1="46.863" y1="20.3424" x2="46.7868" y2="20.3424" width="0.8128" layer="1"/>
 <wire x1="46.7868" y1="20.3424" x2="44.2468" y2="22.8824" width="0.8128" layer="1" curve="-90"/>
@@ -4102,9 +4268,9 @@ design rules under a new name.</description>
 <wire x1="61.8872" y1="29.591" x2="61.8872" y2="25.4" width="0.8128" layer="16"/>
 <wire x1="61.8872" y1="25.4" x2="61.8872" y2="22.86" width="0.8128" layer="16"/>
 <wire x1="61.8872" y1="22.86" x2="61.8872" y2="21.59" width="0.8128" layer="16"/>
-<wire x1="61.8872" y1="21.59" x2="61.8872" y2="18.3244" width="0.8128" layer="16"/>
-<wire x1="61.8872" y1="18.3244" x2="62.4092" y2="17.8024" width="0.8128" layer="16" curve="90"/>
-<via x="62.4092" y="17.8024" extent="1-16" drill="0.75"/>
+<wire x1="61.8872" y1="21.59" x2="61.8872" y2="19.3404" width="0.8128" layer="16"/>
+<wire x1="61.8872" y1="19.3404" x2="62.333" y2="18.8946" width="0.8128" layer="16" curve="90"/>
+<via x="62.333" y="18.8946" extent="1-16" drill="0.75"/>
 <wire x1="76.8984" y1="30.6832" x2="76.8984" y2="27.6352" width="0.8128" layer="16"/>
 <wire x1="76.8984" y1="27.6352" x2="76.8984" y2="25.908" width="0.8128" layer="16"/>
 <wire x1="76.8984" y1="25.908" x2="76.8984" y2="24.384" width="0.8128" layer="16"/>
@@ -4113,8 +4279,9 @@ design rules under a new name.</description>
 <wire x1="76.8984" y1="21.082" x2="76.8984" y2="17.9196" width="0.8128" layer="16"/>
 <wire x1="76.8984" y1="17.9196" x2="76.835" y2="17.8562" width="0.8128" layer="16" curve="-90"/>
 <via x="76.835" y="17.8562" extent="1-16" drill="0.75"/>
-<wire x1="76.835" y1="17.8562" x2="62.463" y2="17.8562" width="0.8128" layer="15"/>
-<wire x1="62.463" y1="17.8562" x2="62.4092" y2="17.8024" width="0.8128" layer="15" curve="90"/>
+<wire x1="76.835" y1="17.8562" x2="76.8096" y2="17.8308" width="0.8128" layer="15"/>
+<wire x1="76.8096" y1="17.8308" x2="63.3968" y2="17.8308" width="0.8128" layer="15"/>
+<wire x1="62.333" y1="18.8946" x2="63.3968" y2="17.8308" width="0.8128" layer="15"/>
 <wire x1="84.8106" y1="27.81" x2="84.836" y2="27.7846" width="0.8128" layer="1" curve="90"/>
 <wire x1="84.836" y1="27.7846" x2="93.1418" y2="27.7846" width="0.8128" layer="1"/>
 <wire x1="93.1418" y1="27.7846" x2="97.6122" y2="27.7846" width="0.8128" layer="1"/>
@@ -4144,11 +4311,13 @@ design rules under a new name.</description>
 <wire x1="75.8952" y1="72.6186" x2="75.9206" y2="72.5932" width="0.6096" layer="2" curve="90"/>
 <wire x1="76.8604" y1="57.4294" x2="76.8604" y2="51.2064" width="0.6096" layer="2"/>
 <wire x1="76.8604" y1="51.2064" x2="76.7842" y2="51.1302" width="0.6096" layer="2" curve="-90"/>
-<wire x1="62.0592" y1="13.65" x2="60.5688" y2="13.65" width="0.6096" layer="1"/>
-<wire x1="60.5688" y1="13.65" x2="60.452" y2="13.7668" width="0.6096" layer="1" curve="-90"/>
-<via x="60.452" y="13.7668" extent="1-16" drill="0.25"/>
-<wire x1="60.452" y1="13.7668" x2="9.9568" y2="13.7668" width="0.6096" layer="15"/>
-<wire x1="9.9568" y1="13.7668" x2="7.4168" y2="16.3068" width="0.6096" layer="15" curve="-90"/>
+<wire x1="61.983" y1="14.9708" x2="60.4926" y2="14.9708" width="0.6096" layer="1"/>
+<wire x1="60.4926" y1="14.9708" x2="60.3758" y2="15.0876" width="0.6096" layer="1" curve="-90"/>
+<via x="60.3758" y="15.0876" extent="1-16" drill="0.25"/>
+<wire x1="60.3758" y1="15.0876" x2="58.6994" y2="15.0876" width="0.6096" layer="15"/>
+<wire x1="58.6994" y1="15.0876" x2="57.8866" y2="14.2748" width="0.6096" layer="15"/>
+<wire x1="57.8866" y1="14.2748" x2="9.4488" y2="14.2748" width="0.6096" layer="15"/>
+<wire x1="9.4488" y1="14.2748" x2="7.4168" y2="16.3068" width="0.6096" layer="15" curve="-90"/>
 <wire x1="7.4168" y1="16.3068" x2="7.4168" y2="16.637" width="0.6096" layer="15"/>
 <wire x1="19.7358" y1="47.5742" x2="8.3566" y2="47.5742" width="0.6096" layer="15"/>
 <wire x1="8.3566" y1="47.5742" x2="7.7216" y2="46.9392" width="0.6096" layer="15" curve="90"/>
@@ -4208,6 +4377,9 @@ design rules under a new name.</description>
 <wire x1="19.685" y1="54.3052" x2="19.685" y2="50.927" width="0.6096" layer="1"/>
 <wire x1="19.685" y1="50.927" x2="19.685" y2="47.625" width="0.6096" layer="1"/>
 <wire x1="19.685" y1="47.625" x2="19.7358" y2="47.5742" width="0.6096" layer="1" curve="90"/>
+<contactref element="3.3V_LOGIC" pad="2"/>
+<wire x1="62.333" y1="18.8946" x2="63.1936" y2="18.034" width="0.6096" layer="1" curve="90"/>
+<wire x1="63.1936" y1="18.034" x2="64.6908" y2="18.034" width="0.6096" layer="1"/>
 </signal>
 <signal name="ADR0_0">
 <contactref element="IC1" pad="5"/>
@@ -4221,20 +4393,20 @@ design rules under a new name.</description>
 <wire x1="25.1754" y1="36.526475" x2="25.1754" y2="34.2086" width="0.1524" layer="1"/>
 <wire x1="21.6408" y1="46.9392" x2="21.6408" y2="39.2176" width="0.1524" layer="2"/>
 </signal>
-<signal name="LED_1">
-<contactref element="LED1" pad="1"/>
+<signal name="!ALERT0">
+<contactref element="!ALERT0" pad="1"/>
 <contactref element="R37" pad="1"/>
 <wire x1="36.207" y1="24.3586" x2="36.207" y2="21.8604" width="0.254" layer="1"/>
 <wire x1="36.207" y1="21.8604" x2="37.0332" y2="21.0342" width="0.254" layer="1" curve="90"/>
 </signal>
-<signal name="LED_4">
-<contactref element="LED4" pad="1"/>
+<signal name="!ALERT1">
+<contactref element="!ALERT1" pad="1"/>
 <contactref element="R40" pad="1"/>
 <wire x1="40.0438" y1="59.436" x2="40.0438" y2="57.1664" width="0.254" layer="1"/>
 <wire x1="40.0438" y1="57.1664" x2="39.2176" y2="56.3402" width="0.254" layer="1" curve="-90"/>
 </signal>
-<signal name="LED_5">
-<contactref element="LED5" pad="1"/>
+<signal name="1_SCL">
+<contactref element="1_SCL" pad="1"/>
 <contactref element="R41" pad="1"/>
 <wire x1="51.0286" y1="23.1424" x2="52.2448" y2="24.3586" width="0.1524" layer="1" curve="-90"/>
 <wire x1="59.309" y1="24.3586" x2="60.071" y2="23.5966" width="0.1524" layer="1" curve="-90"/>
@@ -4242,8 +4414,8 @@ design rules under a new name.</description>
 <wire x1="60.4774" y1="23.1902" x2="62.0134" y2="23.1902" width="0.1524" layer="1"/>
 <wire x1="52.2448" y1="24.3586" x2="59.309" y2="24.3586" width="0.1524" layer="1"/>
 </signal>
-<signal name="LED_6">
-<contactref element="LED6" pad="1"/>
+<signal name="1_SDA">
+<contactref element="1_SDA" pad="1"/>
 <contactref element="R42" pad="1"/>
 <wire x1="88.9762" y1="30.5846" x2="87.3028" y2="32.258" width="0.1524" layer="1" curve="90"/>
 <wire x1="80.8228" y1="32.258" x2="78.9686" y2="30.4038" width="0.1524" layer="1" curve="90"/>
@@ -4251,14 +4423,14 @@ design rules under a new name.</description>
 <wire x1="77.6478" y1="29.083" x2="76.7722" y2="29.083" width="0.1524" layer="1"/>
 <wire x1="87.3028" y1="32.258" x2="80.8228" y2="32.258" width="0.1524" layer="1"/>
 </signal>
-<signal name="LED_3">
-<contactref element="LED3" pad="1"/>
+<signal name="0_SDA">
+<contactref element="0_SDA" pad="1"/>
 <contactref element="R39" pad="1"/>
 <wire x1="97.3328" y1="23.752" x2="95.2022" y2="25.8826" width="0.1524" layer="1" curve="90"/>
 <wire x1="95.2022" y1="25.8826" x2="76.7722" y2="25.8826" width="0.1524" layer="1"/>
 </signal>
-<signal name="LED_2">
-<contactref element="LED2" pad="1"/>
+<signal name="0_SCL">
+<contactref element="0_SCL" pad="1"/>
 <contactref element="R38" pad="1"/>
 <wire x1="46.863" y1="30.0512" x2="48.6634" y2="31.8516" width="0.1524" layer="1" curve="-90"/>
 <wire x1="48.6634" y1="31.8516" x2="59.817" y2="31.8516" width="0.1524" layer="1"/>
@@ -4367,6 +4539,11 @@ design rules under a new name.</description>
 <wire x1="58.0644" y1="57.1246" x2="60.198" y2="57.1246" width="0.8128" layer="1"/>
 <wire x1="60.198" y1="57.1246" x2="62.738" y2="54.5846" width="0.8128" layer="1" curve="-90"/>
 <wire x1="62.738" y1="54.5846" x2="62.738" y2="54.2676" width="0.8128" layer="1"/>
+<contactref element="VIN_0" pad="2"/>
+<wire x1="58.0644" y1="57.1246" x2="54.4322" y2="57.1246" width="0.6096" layer="1"/>
+<wire x1="54.4322" y1="57.1246" x2="53.6194" y2="56.3118" width="0.6096" layer="1" curve="90"/>
+<wire x1="53.6194" y1="56.3118" x2="51.2572" y2="53.9496" width="0.6096" layer="1" curve="-90"/>
+<wire x1="51.2572" y1="53.9496" x2="50.9554" y2="53.9496" width="0.6096" layer="1"/>
 </signal>
 <signal name="VIN_1">
 <contactref element="R34" pad="1"/>
@@ -4377,6 +4554,9 @@ design rules under a new name.</description>
 <wire x1="55.245" y1="79.9338" x2="59.3852" y2="79.9338" width="0.8128" layer="1"/>
 <wire x1="59.3852" y1="79.9338" x2="61.9252" y2="77.3938" width="0.8128" layer="1" curve="-90"/>
 <wire x1="61.9252" y1="77.3938" x2="61.9252" y2="76.1116" width="0.8128" layer="1"/>
+<contactref element="VIN_1" pad="2"/>
+<wire x1="55.245" y1="79.9338" x2="54.9626" y2="80.2162" width="0.6096" layer="1" curve="-90"/>
+<wire x1="54.9626" y1="80.2162" x2="54.9626" y2="84.0232" width="0.6096" layer="1"/>
 </signal>
 <signal name="I_SENSE0">
 <contactref element="R33" pad="4"/>
@@ -4667,8 +4847,8 @@ design rules under a new name.</description>
 <wire x1="78.4352" y1="77.978" x2="75.8952" y2="75.438" width="0.1524" layer="1" curve="-90"/>
 <wire x1="75.8952" y1="75.438" x2="68.2498" y2="75.438" width="0.1524" layer="1"/>
 </signal>
-<signal name="LED_8">
-<contactref element="LED8" pad="1"/>
+<signal name="S_SDA">
+<contactref element="2_SCL" pad="1"/>
 <contactref element="R57" pad="1"/>
 <wire x1="51.0286" y1="30.0512" x2="52.2194" y2="31.242" width="0.1524" layer="1" curve="-90"/>
 <wire x1="58.0136" y1="31.242" x2="59.7408" y2="29.5148" width="0.1524" layer="1" curve="-90"/>
@@ -4676,21 +4856,21 @@ design rules under a new name.</description>
 <wire x1="61.2648" y1="27.9908" x2="62.0134" y2="27.9908" width="0.1524" layer="1"/>
 <wire x1="52.2194" y1="31.242" x2="58.0136" y2="31.242" width="0.1524" layer="1"/>
 </signal>
-<signal name="LED_9">
-<contactref element="LED9" pad="1"/>
+<signal name="2_SDA">
+<contactref element="SDA_2" pad="1"/>
 <contactref element="R58" pad="1"/>
 <wire x1="93.1418" y1="30.5846" x2="90.9858" y2="32.7406" width="0.1524" layer="1" curve="90"/>
 <wire x1="78.8296" y1="32.7406" x2="76.7722" y2="30.6832" width="0.1524" layer="1" curve="90"/>
 <wire x1="90.9858" y1="32.7406" x2="78.8296" y2="32.7406" width="0.1524" layer="1"/>
 </signal>
-<signal name="LED_11">
-<contactref element="LED11" pad="1"/>
+<signal name="3_SCL">
+<contactref element="3_SCL" pad="1"/>
 <contactref element="R60" pad="1"/>
 <wire x1="46.863" y1="23.1424" x2="48.511" y2="24.7904" width="0.1524" layer="1" curve="-90"/>
 <wire x1="48.511" y1="24.7904" x2="62.0134" y2="24.7904" width="0.1524" layer="1"/>
 </signal>
-<signal name="LED_12">
-<contactref element="LED12" pad="1"/>
+<signal name="3_SDA">
+<contactref element="3_SDA" pad="1"/>
 <contactref element="R61" pad="1"/>
 <wire x1="93.1418" y1="23.752" x2="91.6462" y2="25.2476" width="0.1524" layer="1" curve="90"/>
 <wire x1="91.6462" y1="25.2476" x2="80.0608" y2="25.2476" width="0.1524" layer="1"/>
@@ -4702,10 +4882,13 @@ design rules under a new name.</description>
 <contactref element="IC5" pad="3"/>
 <contactref element="C15" pad="1"/>
 <contactref element="JP4" pad="5"/>
-<wire x1="59.7154" y1="3.7592" x2="59.4346" y2="4.04" width="0.8128" layer="1" curve="-90"/>
-<wire x1="59.4346" y1="4.04" x2="59.4346" y2="9.7282" width="0.8128" layer="1"/>
-<wire x1="59.4346" y1="9.7282" x2="59.4346" y2="12.3754" width="0.8128" layer="1"/>
-<wire x1="59.4346" y1="12.3754" x2="59.7592" y2="12.7" width="0.8128" layer="1" curve="-90"/>
+<wire x1="59.7154" y1="3.7592" x2="59.3584" y2="4.1162" width="0.8128" layer="1" curve="-90"/>
+<wire x1="59.3584" y1="4.1162" x2="59.3584" y2="11.049" width="0.8128" layer="1"/>
+<wire x1="59.3584" y1="11.049" x2="59.3584" y2="13.6962" width="0.8128" layer="1"/>
+<wire x1="59.3584" y1="13.6962" x2="59.683" y2="14.0208" width="0.8128" layer="1" curve="-90"/>
+<contactref element="VIN&gt;5" pad="2"/>
+<wire x1="59.683" y1="14.0208" x2="64.6654" y2="14.0208" width="0.6096" layer="1"/>
+<wire x1="64.6654" y1="14.0208" x2="64.7162" y2="13.97" width="0.6096" layer="1" curve="-90"/>
 </signal>
 <signal name="S0">
 <contactref element="IC6" pad="10"/>
@@ -4808,8 +4991,8 @@ design rules under a new name.</description>
 <wire x1="73.5584" y1="6.858" x2="73.5584" y2="25.0046" width="0.254" layer="2"/>
 <wire x1="73.5584" y1="25.0046" x2="72.231421875" y2="26.331578125" width="0.254" layer="2" curve="90"/>
 </signal>
-<signal name="LED_7">
-<contactref element="LED7" pad="1"/>
+<signal name="SCL_INPUT">
+<contactref element="SCL_IN" pad="1"/>
 <contactref element="R56" pad="1"/>
 <wire x1="55.1942" y1="30.0512" x2="56.2864" y2="30.0512" width="0.1524" layer="1"/>
 <wire x1="56.2864" y1="30.0512" x2="58.8264" y2="27.5112" width="0.1524" layer="1" curve="-90"/>
@@ -4817,24 +5000,24 @@ design rules under a new name.</description>
 <wire x1="58.8264" y1="27.4066" x2="59.8424" y2="26.3906" width="0.1524" layer="1" curve="90"/>
 <wire x1="59.8424" y1="26.3906" x2="62.0134" y2="26.3906" width="0.1524" layer="1"/>
 </signal>
-<signal name="LED_10">
-<contactref element="LED10" pad="1"/>
+<signal name="SDA_INPUT">
+<contactref element="SDA_IN" pad="1"/>
 <contactref element="R59" pad="1"/>
 <wire x1="84.8106" y1="30.61" x2="82.3244" y2="30.61" width="0.1524" layer="1"/>
 <wire x1="82.3244" y1="30.61" x2="80.5688" y2="28.8544" width="0.1524" layer="1" curve="90"/>
 <wire x1="80.5688" y1="28.8544" x2="79.1972" y2="27.4828" width="0.1524" layer="1" curve="-90"/>
 <wire x1="79.1972" y1="27.4828" x2="76.7722" y2="27.4828" width="0.1524" layer="1"/>
 </signal>
-<signal name="LED_13">
-<contactref element="LED13" pad="1"/>
+<signal name="!EN_MUX">
+<contactref element="!EN_MUX" pad="1"/>
 <contactref element="R62" pad="1"/>
 <wire x1="55.1942" y1="23.1424" x2="58.5694" y2="23.1424" width="0.1524" layer="1"/>
 <wire x1="58.5694" y1="23.1424" x2="59.0804" y2="22.6314" width="0.1524" layer="1" curve="-90"/>
 <wire x1="59.0804" y1="22.6314" x2="60.1218" y2="21.59" width="0.1524" layer="1" curve="90"/>
 <wire x1="60.1218" y1="21.59" x2="62.0134" y2="21.59" width="0.1524" layer="1"/>
 </signal>
-<signal name="LED_14">
-<contactref element="LED14" pad="1"/>
+<signal name="S0_IN">
+<contactref element="S0" pad="1"/>
 <contactref element="R63" pad="1"/>
 <wire x1="88.9762" y1="23.752" x2="87.887" y2="24.8412" width="0.1524" layer="1" curve="90"/>
 <wire x1="81.788" y1="24.8412" x2="80.3656" y2="23.4188" width="0.1524" layer="1" curve="90"/>
@@ -4842,13 +5025,55 @@ design rules under a new name.</description>
 <wire x1="79.629" y1="22.6822" x2="76.7722" y2="22.6822" width="0.1524" layer="1"/>
 <wire x1="87.887" y1="24.8412" x2="81.788" y2="24.8412" width="0.1524" layer="1"/>
 </signal>
-<signal name="LED_15">
-<contactref element="LED15" pad="1"/>
+<signal name="S1_IN">
+<contactref element="S1" pad="1"/>
 <contactref element="R64" pad="1"/>
 <wire x1="84.8106" y1="23.752" x2="82.299" y2="23.752" width="0.1524" layer="1"/>
 <wire x1="82.299" y1="23.752" x2="81.4578" y2="22.9108" width="0.1524" layer="1" curve="90"/>
 <wire x1="81.4578" y1="22.9108" x2="79.629" y2="21.082" width="0.1524" layer="1" curve="-90"/>
 <wire x1="79.629" y1="21.082" x2="76.7722" y2="21.082" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$1">
+<contactref element="R70" pad="1"/>
+<contactref element="R71" pad="2"/>
+<wire x1="38.7858" y1="-5.6262" x2="36.5252" y2="-7.2262" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="R71" pad="1"/>
+<contactref element="R72" pad="2"/>
+<wire x1="41.0464" y1="-5.6262" x2="38.7858" y2="-7.2262" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R70" pad="2"/>
+<contactref element="VIN_12V" pad="1"/>
+<wire x1="32.9692" y1="-7.5722" x2="36.5252" y2="-5.6262" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="R65" pad="1"/>
+<contactref element="VIN_3.3V_5V" pad="1"/>
+<wire x1="2.8448" y1="33.8298" x2="2.8448" y2="30.8236" width="0.6096" layer="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="R66" pad="1"/>
+<contactref element="VIN_1" pad="1"/>
+<wire x1="57.7626" y1="84.0232" x2="57.7626" y2="86.9606" width="0.6096" layer="1"/>
+<wire x1="57.7626" y1="86.9606" x2="57.797" y2="86.995" width="0.6096" layer="1" curve="-90"/>
+</signal>
+<signal name="N$6">
+<contactref element="R67" pad="1"/>
+<contactref element="VIN_0" pad="1"/>
+<wire x1="48.1554" y1="53.9496" x2="46.6852" y2="55.4198" width="0.6096" layer="1" curve="-90"/>
+<wire x1="46.6852" y1="55.4198" x2="46.6852" y2="56.8318" width="0.6096" layer="1"/>
+</signal>
+<signal name="N$7">
+<contactref element="R68" pad="1"/>
+<contactref element="VIN&gt;5" pad="1"/>
+<wire x1="67.5162" y1="13.97" x2="69.8874" y2="13.9954" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="R69" pad="1"/>
+<contactref element="3.3V_LOGIC" pad="1"/>
+<wire x1="67.4908" y1="18.034" x2="69.862" y2="18.034" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
