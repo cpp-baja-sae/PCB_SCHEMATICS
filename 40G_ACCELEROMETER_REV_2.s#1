@@ -72,7 +72,6 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
-<fusionteam huburn="a.YnVzaW5lc3M6bXljcHA1NTk" projecturn="a.YnVzaW5lc3M6bXljcHA1NTkjRDIwMjEwOTE1NDQ0OTgwODU2" folderUrn="urn:adsk.wipprod:fs.folder:co.mLVRyeqcSiKEGtggR7YKfg" urn="urn:adsk.wipprod:dm.lineage:e_gX9sxLQNKDUebS8AmuTg"  versionUrn="urn:adsk.wipprod:fs.file:vf.e_gX9sxLQNKDUebS8AmuTg?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="6b1ba321-2876-5c34-c333-42a18108a7e1"/>
 <libraries>
 <library name="SamacSys_Parts">
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
@@ -964,7 +963,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 </class>
 </classes>
 <parts>
-<part name="AC1" library="SamacSys_Parts" deviceset="KX220-1072" device="" value="ACCELEROMETER"/>
+<part name="AC1" library="SamacSys_Parts" deviceset="KX220-1072" device=""/>
 <part name="IC1" library="SamacSys_Parts" deviceset="AP7384-33SA-7" device="" value="3.3V_LDO"/>
 <part name="IC2" library="SamacSys_Parts" deviceset="NCS21911SN2T1G" device="" value="X_BUFFER"/>
 <part name="IC3" library="SamacSys_Parts" deviceset="NCS21911SN2T1G" device="" value="Y_BUFFER"/>
