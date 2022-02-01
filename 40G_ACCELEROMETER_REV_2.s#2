@@ -964,7 +964,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 </classes>
 <parts>
 <part name="AC1" library="SamacSys_Parts" deviceset="KX220-1072" device=""/>
-<part name="IC1" library="SamacSys_Parts" deviceset="AP7384-33SA-7" device=""/>
+<part name="IC1" library="SamacSys_Parts" deviceset="AP7384-33SA-7" device="" value="3.3V_LDO"/>
 <part name="IC2" library="SamacSys_Parts" deviceset="NCS21911SN2T1G" device="" value="X_BUFFER"/>
 <part name="IC3" library="SamacSys_Parts" deviceset="NCS21911SN2T1G" device="" value="Y_BUFFER"/>
 <part name="IC4" library="SamacSys_Parts" deviceset="NCS21911SN2T1G" device="" value="Z_BUFFER"/>
