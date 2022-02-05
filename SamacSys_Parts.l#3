@@ -171,6 +171,8 @@
 <text x="3.556" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.02in/0.5mm</text>
 <text x="-2.9718" y="3.302" size="0.635" layer="47" ratio="4" rot="SR0">0.039in/1mm</text>
 <text x="-3.0734" y="-3.937" size="0.635" layer="47" ratio="4" rot="SR0">0.008in/0.2mm</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 <wire x1="3.048" y1="0.254" x2="3.429" y2="0.254" width="0.1524" layer="47"/>
 <wire x1="3.048" y1="-0.254" x2="3.429" y2="-0.254" width="0.1524" layer="47"/>
 <wire x1="3.048" y1="0.254" x2="3.048" y2="1.524" width="0.1524" layer="47"/>
@@ -207,7 +209,7 @@
 <text x="3.556" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.02in/0.5mm</text>
 <text x="-2.9718" y="3.302" size="0.635" layer="47" ratio="4" rot="SR0">0.039in/1mm</text>
 <text x="-3.0734" y="-3.937" size="0.635" layer="47" ratio="4" rot="SR0">0.008in/0.2mm</text>
-<text x="-6.8072" y="0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-0.3048" y1="-0.254" x2="-0.3048" y2="0.254" width="0.1524" layer="51"/>
 <wire x1="-0.3048" y1="0.254" x2="-0.508" y2="0.254" width="0.1524" layer="51"/>
 <wire x1="-0.508" y1="-0.254" x2="-0.3048" y2="-0.254" width="0.1524" layer="51"/>
@@ -218,7 +220,7 @@
 <wire x1="0.508" y1="-0.254" x2="0.508" y2="0.254" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="0.254" x2="-0.3048" y2="0.254" width="0.1524" layer="51"/>
 <wire x1="-0.508" y1="0.254" x2="-0.508" y2="-0.254" width="0.1524" layer="51"/>
-<text x="-3.2766" y="4.445" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="RES_TNPW0402_VIS-M">
 <smd name="1" x="-0.6794" y="0" dx="0.7588" dy="0.5508" layer="1"/>
