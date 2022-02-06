@@ -465,7 +465,7 @@
 <symbol name="NCHANNEL_ENHANCEMENT_FET">
 <pin name="S" x="0" y="0" length="middle" rot="R90"/>
 <pin name="D" x="0" y="22.86" length="middle" rot="R270"/>
-<pin name="G" x="10.29" y="10.16" length="middle" rot="R180"/>
+<pin name="G" x="10.163" y="10.16" length="middle" rot="R180"/>
 <text x="10.16" y="0" size="1.778" layer="95">&gt;NAME</text>
 <text x="10.16" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="0" y1="5.08" x2="0" y2="7.62" width="0.254" layer="94"/>
@@ -1797,9 +1797,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="-101.6" y="177.8" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="-119.38" y="187.96" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R5" gate="G$1" x="-119.38" y="147.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="-119.38" y="147.32" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-114.3" y="144.78" size="1.778" layer="96" rot="R90"/>
+<instance part="R5" gate="G$1" x="-109.22" y="144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="-106.68" y="144.78" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-104.14" y="142.24" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R6" gate="G$1" x="-91.44" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="-91.44" y="132.08" size="1.778" layer="95" rot="R90"/>
@@ -1885,8 +1885,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="-90.805" y="17.145" size="1.778" layer="96"/>
 </instance>
 <instance part="IC2" gate="G$1" x="-147.32" y="38.1" smashed="yes">
-<attribute name="NAME" x="-132.08" y="58.42" size="1.27" layer="95"/>
-<attribute name="VALUE" x="-132.08" y="53.34" size="1.27" layer="96"/>
+<attribute name="NAME" x="-134.62" y="55.88" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-134.62" y="50.8" size="1.27" layer="96"/>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="-124.46" y="58.42" smashed="yes">
 <attribute name="VALUE" x="-126.365" y="55.245" size="1.778" layer="96"/>
@@ -2154,16 +2154,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="-124.46" y="170.18"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<wire x1="-109.22" y1="170.18" x2="-119.38" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="P$2"/>
-</segment>
-</net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="P$1"/>
-<wire x1="-119.38" y1="147.32" x2="-119.38" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="144.78" x2="-119.38" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="GATE1"/>
 <pinref part="P5" gate="G$1" pin="1"/>
 <wire x1="-119.38" y1="139.7" x2="-119.38" y2="93.98" width="0.1524" layer="91"/>
@@ -2302,10 +2296,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="IC1" gate="G$1" pin="1"/>
 <wire x1="-129.54" y1="-30.48" x2="-124.46" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="-30.48" x2="-119.38" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="-35.56" x2="-124.46" y2="-35.43" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="-35.56" x2="-124.46" y2="-35.557" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="G"/>
-<wire x1="-124.46" y1="-35.43" x2="-124.46" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="-124.46" y="-35.43"/>
+<wire x1="-124.46" y1="-35.557" x2="-124.46" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="-124.46" y="-35.557"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -2520,6 +2514,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="IC2" gate="G$1" pin="ADIN1"/>
 <wire x1="-91.44" y1="76.2" x2="-83.82" y2="76.2" width="0.1524" layer="91"/>
 <label x="-81.28" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="P$2"/>
+<wire x1="-109.22" y1="167.64" x2="-109.22" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

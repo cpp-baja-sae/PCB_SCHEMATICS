@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
+<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
+<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+</plain>
+<libraries>
+<library name="Baja_Parts_Lib">
+<packages>
+<package name="AT0603" urn="urn:adsk.eagle:footprint:31668597/1" locally_modified="yes">
+<description>Chip, 1.55 X 0.85 X 0.45 mm body
+&lt;p&gt;Chip package with body size 1.55 X 0.85 X 0.45 mm&lt;/p&gt;</description>
+<wire x1="0.8" y1="0.8536" x2="-0.8" y2="0.8536" width="0.12" layer="21"/>
+<wire x1="0.8" y1="-0.8536" x2="-0.8" y2="-0.8536" width="0.12" layer="21"/>
+<wire x1="0.8" y1="-0.475" x2="-0.8" y2="-0.475" width="0.12" layer="51"/>
+<wire x1="-0.8" y1="-0.475" x2="-0.8" y2="0.475" width="0.12" layer="51"/>
+<wire x1="-0.8" y1="0.475" x2="0.8" y2="0.475" width="0.12" layer="51"/>
+<wire x1="0.8" y1="0.475" x2="0.8" y2="-0.475" width="0.12" layer="51"/>
+<smd name="1" x="-0.7255" y="0" dx="0.799" dy="1.0791" layer="1"/>
+<smd name="2" x="0.7255" y="0" dx="0.799" dy="1.0791" layer="1"/>
+<text x="0" y="1.4886" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4886" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="QFN50P500X500X75-33T345M" urn="urn:adsk.eagle:footprint:31665555/1">
+<description>32-QFN, 0.50 mm pitch, 5.00 X 5.00 X 0.75 mm body, 3.45 X 3.45 mm thermal pad
+&lt;p&gt;32-pin QFN package with 0.50 mm pitch with body size 5.00 X 5.00 X 0.75 mm and thermal pad size 3.45 X 3.45 mm&lt;/p&gt;</description>
+<circle x="-3.054" y="2.389" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.55" y1="2.139" x2="-2.55" y2="2.55" width="0.12" layer="21"/>
+<wire x1="-2.55" y1="2.55" x2="-2.139" y2="2.55" width="0.12" layer="21"/>
+<wire x1="2.55" y1="2.139" x2="2.55" y2="2.55" width="0.12" layer="21"/>
+<wire x1="2.55" y1="2.55" x2="2.139" y2="2.55" width="0.12" layer="21"/>
+<wire x1="2.55" y1="-2.139" x2="2.55" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="2.55" y1="-2.55" x2="2.139" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="-2.55" y1="-2.139" x2="-2.55" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="-2.55" y1="-2.55" x2="-2.139" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="2.55" y1="-2.55" x2="-2.55" y2="-2.55" width="0.12" layer="51"/>
+<wire x1="-2.55" y1="-2.55" x2="-2.55" y2="2.55" width="0.12" layer="51"/>
+<wire x1="-2.55" y1="2.55" x2="2.55" y2="2.55" width="0.12" layer="51"/>
+<wire x1="2.55" y1="2.55" x2="2.55" y2="-2.55" width="0.12" layer="51"/>
+<smd name="1" x="-2.4846" y="1.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="2" x="-2.4846" y="1.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="3" x="-2.4846" y="0.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="4" x="-2.4846" y="0.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="5" x="-2.4846" y="-0.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="6" x="-2.4846" y="-0.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="7" x="-2.4846" y="-1.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="8" x="-2.4846" y="-1.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="9" x="-1.75" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="10" x="-1.25" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="11" x="-0.75" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="12" x="-0.25" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="13" x="0.25" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="14" x="0.75" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="15" x="1.25" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="16" x="1.75" y="-2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="17" x="2.4846" y="-1.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="18" x="2.4846" y="-1.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="19" x="2.4846" y="-0.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="20" x="2.4846" y="-0.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="21" x="2.4846" y="0.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="22" x="2.4846" y="0.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="23" x="2.4846" y="1.25" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="24" x="2.4846" y="1.75" dx="0.96" dy="0.27" layer="1" roundness="100"/>
+<smd name="25" x="1.75" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="26" x="1.25" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="27" x="0.75" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="28" x="0.25" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="29" x="-0.25" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="30" x="-0.75" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="31" x="-1.25" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="32" x="-1.75" y="2.4846" dx="0.96" dy="0.27" layer="1" roundness="100" rot="R90"/>
+<smd name="33" x="0" y="0" dx="3.45" dy="3.45" layer="1" thermals="no" cream="no"/>
+<rectangle x1="-1.3023" y1="-1.3023" x2="-0.2113" y2="-0.2113" layer="31"/>
+<rectangle x1="0.2113" y1="-1.3023" x2="1.3023" y2="-0.2113" layer="31"/>
+<rectangle x1="-1.3023" y1="0.2113" x2="-0.2113" y2="1.3023" layer="31"/>
+<rectangle x1="0.2113" y1="0.2113" x2="1.3023" y2="1.3023" layer="31"/>
+<text x="0" y="3.5996" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5996" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC1608X45M" urn="urn:adsk.eagle:footprint:31668635/1">
+<description>Chip, 1.60 X 0.80 X 0.45 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.80 X 0.45 mm&lt;/p&gt;</description>
+<wire x1="0.85" y1="0.8286" x2="-0.85" y2="0.8286" width="0.12" layer="21"/>
+<wire x1="0.85" y1="-0.8286" x2="-0.85" y2="-0.8286" width="0.12" layer="21"/>
+<wire x1="0.85" y1="-0.45" x2="-0.85" y2="-0.45" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="-0.45" x2="-0.85" y2="0.45" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="0.45" x2="0.85" y2="0.45" width="0.12" layer="51"/>
+<wire x1="0.85" y1="0.45" x2="0.85" y2="-0.45" width="0.12" layer="51"/>
+<smd name="1" x="-0.9204" y="0" dx="0.9884" dy="1.0291" layer="1"/>
+<smd name="2" x="0.9204" y="0" dx="0.9884" dy="1.0291" layer="1"/>
+<text x="0" y="1.4636" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4636" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CAPC1608X80M" urn="urn:adsk.eagle:footprint:31668627/1">
+<description>Chip, 1.65 X 0.82 X 0.80 mm body
+&lt;p&gt;Chip package with body size 1.65 X 0.82 X 0.80 mm&lt;/p&gt;</description>
+<wire x1="0.9" y1="0.8509" x2="-0.9" y2="0.8509" width="0.12" layer="21"/>
+<wire x1="0.9" y1="-0.8509" x2="-0.9" y2="-0.8509" width="0.12" layer="21"/>
+<wire x1="0.9" y1="-0.475" x2="-0.9" y2="-0.475" width="0.12" layer="51"/>
+<wire x1="-0.9" y1="-0.475" x2="-0.9" y2="0.475" width="0.12" layer="51"/>
+<wire x1="-0.9" y1="0.475" x2="0.9" y2="0.475" width="0.12" layer="51"/>
+<wire x1="0.9" y1="0.475" x2="0.9" y2="-0.475" width="0.12" layer="51"/>
+<smd name="1" x="-0.8601" y="0" dx="1.2" dy="1.0739" layer="1"/>
+<smd name="2" x="0.8601" y="0" dx="1.2" dy="1.0739" layer="1"/>
+<text x="0" y="1.4859" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4859" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CAPC1005X50M" urn="urn:adsk.eagle:footprint:31668682/1">
+<description>Chip, 1.05 X 0.53 X 0.50 mm body
+&lt;p&gt;Chip package with body size 1.05 X 0.53 X 0.50 mm&lt;/p&gt;</description>
+<wire x1="0.575" y1="0.6825" x2="-0.575" y2="0.6825" width="0.12" layer="21"/>
+<wire x1="0.575" y1="-0.6825" x2="-0.575" y2="-0.6825" width="0.12" layer="21"/>
+<wire x1="0.575" y1="-0.3" x2="-0.575" y2="-0.3" width="0.12" layer="51"/>
+<wire x1="-0.575" y1="-0.3" x2="-0.575" y2="0.3" width="0.12" layer="51"/>
+<wire x1="-0.575" y1="0.3" x2="0.575" y2="0.3" width="0.12" layer="51"/>
+<wire x1="0.575" y1="0.3" x2="0.575" y2="-0.3" width="0.12" layer="51"/>
+<smd name="1" x="-0.5402" y="0" dx="0.6987" dy="0.7371" layer="1"/>
+<smd name="2" x="0.5402" y="0" dx="0.6987" dy="0.7371" layer="1"/>
+<text x="0" y="1.3175" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.3175" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC1507X40M" urn="urn:adsk.eagle:footprint:31668644/1">
+<description>Chip, 1.52 X 0.76 X 0.41 mm body
+&lt;p&gt;Chip package with body size 1.52 X 0.76 X 0.41 mm&lt;/p&gt;</description>
+<wire x1="0.885" y1="0.8771" x2="-0.885" y2="0.8771" width="0.12" layer="21"/>
+<wire x1="0.885" y1="-0.8771" x2="-0.885" y2="-0.8771" width="0.12" layer="21"/>
+<wire x1="0.885" y1="-0.507" x2="-0.885" y2="-0.507" width="0.12" layer="51"/>
+<wire x1="-0.885" y1="-0.507" x2="-0.885" y2="0.507" width="0.12" layer="51"/>
+<wire x1="-0.885" y1="0.507" x2="0.885" y2="0.507" width="0.12" layer="51"/>
+<wire x1="0.885" y1="0.507" x2="0.885" y2="-0.507" width="0.12" layer="51"/>
+<smd name="1" x="-0.7981" y="0" dx="1.2861" dy="1.1262" layer="1"/>
+<smd name="2" x="0.7981" y="0" dx="1.2861" dy="1.1262" layer="1"/>
+<text x="0" y="1.5121" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.5121" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOT95P230X110-3M" urn="urn:adsk.eagle:footprint:31668688/1">
+<description>3-SOT23, 0.95 mm pitch, 2.30 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.30 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-1.2538" y="1.769" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.7" y1="1.579" x2="0.7" y2="1.579" width="0.12" layer="21"/>
+<wire x1="0.7" y1="1.579" x2="0.7" y2="0.569" width="0.12" layer="21"/>
+<wire x1="-0.7" y1="-1.579" x2="0.7" y2="-1.579" width="0.12" layer="21"/>
+<wire x1="0.7" y1="-1.579" x2="0.7" y2="-0.569" width="0.12" layer="21"/>
+<wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="-1.5" x2="-0.7" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.12" layer="51"/>
+<wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.12" layer="51"/>
+<smd name="1" x="-1.1283" y="0.95" dx="1.3588" dy="0.63" layer="1"/>
+<smd name="2" x="-1.1283" y="-0.95" dx="1.3588" dy="0.63" layer="1"/>
+<smd name="3" x="1.1283" y="0" dx="1.3588" dy="0.63" layer="1"/>
+<text x="0" y="2.654" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.214" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="HDRV2W64P254_2X1_241X508X838B" urn="urn:adsk.eagle:footprint:31668694/1">
+<description>Double-row, 2-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 5.84 mm mating length, 2.41 X 5.08 X 8.38 mm body
+&lt;p&gt;Double-row (2X1), 2-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 0.64 mm lead width, 3.00 mm tail length and 5.84 mm mating length with overall size 2.41 X 5.08 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="0" y="1.774" radius="0.25" width="0" layer="21"/>
+<wire x1="1.2525" y1="-3.81" x2="-1.2525" y2="-3.81" width="0.12" layer="21"/>
+<wire x1="-1.2525" y1="-3.81" x2="-1.2525" y2="1.27" width="0.12" layer="21"/>
+<wire x1="-1.2525" y1="1.27" x2="1.2525" y2="1.27" width="0.12" layer="21"/>
+<wire x1="1.2525" y1="1.27" x2="1.2525" y2="-3.81" width="0.12" layer="21"/>
+<wire x1="1.2525" y1="-3.81" x2="-1.2525" y2="-3.81" width="0.12" layer="51"/>
+<wire x1="-1.2525" y1="-3.81" x2="-1.2525" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.2525" y1="1.27" x2="1.2525" y2="1.27" width="0.12" layer="51"/>
+<wire x1="1.2525" y1="1.27" x2="1.2525" y2="-3.81" width="0.12" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="2" x="0" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.445" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC1508X47M" urn="urn:adsk.eagle:footprint:31668672/1">
+<description>Chip, 1.55 X 0.85 X 0.47 mm body
+&lt;p&gt;Chip package with body size 1.55 X 0.85 X 0.47 mm&lt;/p&gt;</description>
+<wire x1="0.8" y1="0.8536" x2="-0.8" y2="0.8536" width="0.12" layer="21"/>
+<wire x1="0.8" y1="-0.8536" x2="-0.8" y2="-0.8536" width="0.12" layer="21"/>
+<wire x1="0.8" y1="-0.475" x2="-0.8" y2="-0.475" width="0.12" layer="51"/>
+<wire x1="-0.8" y1="-0.475" x2="-0.8" y2="0.475" width="0.12" layer="51"/>
+<wire x1="-0.8" y1="0.475" x2="0.8" y2="0.475" width="0.12" layer="51"/>
+<wire x1="0.8" y1="0.475" x2="0.8" y2="-0.475" width="0.12" layer="51"/>
+<smd name="1" x="-0.7463" y="0" dx="0.7574" dy="1.0791" layer="1"/>
+<smd name="2" x="0.7463" y="0" dx="0.7574" dy="1.0791" layer="1"/>
+<text x="0" y="1.4886" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4886" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOT65P212X110-5M" urn="urn:adsk.eagle:footprint:31853422/1">
+<description>5-SOT23, 0.65 mm pitch, 2.13 mm span, 2.05 X 1.25 X 1.10 mm body
+&lt;p&gt;5-pin SOT23 package with 0.65 mm pitch, 2.13 mm span with body size 2.05 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-1.181" y="1.3725" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.675" y1="1.1825" x2="0.675" y2="1.1825" width="0.12" layer="21"/>
+<wire x1="-0.675" y1="-1.1825" x2="0.675" y2="-1.1825" width="0.12" layer="21"/>
+<wire x1="0.675" y1="-1.125" x2="-0.675" y2="-1.125" width="0.12" layer="51"/>
+<wire x1="-0.675" y1="-1.125" x2="-0.675" y2="1.125" width="0.12" layer="51"/>
+<wire x1="-0.675" y1="1.125" x2="0.675" y2="1.125" width="0.12" layer="51"/>
+<wire x1="0.675" y1="1.125" x2="0.675" y2="-1.125" width="0.12" layer="51"/>
+<smd name="1" x="-1.0245" y="0.65" dx="1.3248" dy="0.4371" layer="1"/>
+<smd name="2" x="-1.0245" y="0" dx="1.3248" dy="0.4371" layer="1"/>
+<smd name="3" x="-1.0245" y="-0.65" dx="1.3248" dy="0.4371" layer="1"/>
+<smd name="4" x="1.0245" y="-0.65" dx="1.3248" dy="0.4371" layer="1"/>
+<smd name="5" x="1.0245" y="0.65" dx="1.3248" dy="0.4371" layer="1"/>
+<text x="0" y="2.2575" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.8175" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOP65P640X120-14M" urn="urn:adsk.eagle:footprint:31853373/1">
+<description>14-SOP, 0.65 mm pitch, 6.40 mm span, 5.00 X 4.40 X 1.20 mm body
+&lt;p&gt;14-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 5.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
+<circle x="-3.0538" y="2.6774" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.25" y1="2.4274" x2="-2.25" y2="2.55" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="2.55" x2="2.25" y2="2.55" width="0.12" layer="21"/>
+<wire x1="2.25" y1="2.55" x2="2.25" y2="2.4274" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-2.4274" x2="-2.25" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-2.55" x2="2.25" y2="-2.55" width="0.12" layer="21"/>
+<wire x1="2.25" y1="-2.55" x2="2.25" y2="-2.4274" width="0.12" layer="21"/>
+<wire x1="2.25" y1="-2.55" x2="-2.25" y2="-2.55" width="0.12" layer="51"/>
+<wire x1="-2.25" y1="-2.55" x2="-2.25" y2="2.55" width="0.12" layer="51"/>
+<wire x1="-2.25" y1="2.55" x2="2.25" y2="2.55" width="0.12" layer="51"/>
+<wire x1="2.25" y1="2.55" x2="2.25" y2="-2.55" width="0.12" layer="51"/>
+<smd name="1" x="-2.9217" y="1.95" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="2" x="-2.9217" y="1.3" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="3" x="-2.9217" y="0.65" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="4" x="-2.9217" y="0" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="5" x="-2.9217" y="-0.65" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="6" x="-2.9217" y="-1.3" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="7" x="-2.9217" y="-1.95" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="8" x="2.9217" y="-1.95" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="9" x="2.9217" y="-1.3" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="10" x="2.9217" y="-0.65" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="11" x="2.9217" y="0" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="12" x="2.9217" y="0.65" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="13" x="2.9217" y="1.3" dx="1.8719" dy="0.4468" layer="1"/>
+<smd name="14" x="2.9217" y="1.95" dx="1.8719" dy="0.4468" layer="1"/>
+<text x="0" y="3.5624" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.185" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="RESC1508X45M" urn="urn:adsk.eagle:package:31668595/1" type="model">
+<description>Chip, 1.55 X 0.85 X 0.45 mm body
+&lt;p&gt;Chip package with body size 1.55 X 0.85 X 0.45 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="AT0603"/>
+</packageinstances>
+</package3d>
+<package3d name="QFN50P500X500X75-33T345M" urn="urn:adsk.eagle:package:31665535/1" type="model">
+<description>32-QFN, 0.50 mm pitch, 5.00 X 5.00 X 0.75 mm body, 3.45 X 3.45 mm thermal pad
+&lt;p&gt;32-pin QFN package with 0.50 mm pitch with body size 5.00 X 5.00 X 0.75 mm and thermal pad size 3.45 X 3.45 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="QFN50P500X500X75-33T345M"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1608X45M" urn="urn:adsk.eagle:package:31668629/1" type="model">
+<description>Chip, 1.60 X 0.80 X 0.45 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.80 X 0.45 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1608X45M"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC1608X80M" urn="urn:adsk.eagle:package:31668620/1" type="model">
+<description>Chip, 1.65 X 0.82 X 0.80 mm body
+&lt;p&gt;Chip package with body size 1.65 X 0.82 X 0.80 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC1608X80M"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC1005X50M" urn="urn:adsk.eagle:package:31668680/1" type="model">
+<description>Chip, 1.05 X 0.53 X 0.50 mm body
+&lt;p&gt;Chip package with body size 1.05 X 0.53 X 0.50 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC1005X50M"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1507X40M" urn="urn:adsk.eagle:package:31668640/1" type="model">
+<description>Chip, 1.52 X 0.76 X 0.41 mm body
+&lt;p&gt;Chip package with body size 1.52 X 0.76 X 0.41 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1507X40M"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P230X110-3M" urn="urn:adsk.eagle:package:31668685/1" type="model">
+<description>3-SOT23, 0.95 mm pitch, 2.30 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.30 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P230X110-3M"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRV2W64P254_2X1_241X508X838B" urn="urn:adsk.eagle:package:31668692/1" type="model">
+<description>Double-row, 2-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 5.84 mm mating length, 2.41 X 5.08 X 8.38 mm body
+&lt;p&gt;Double-row (2X1), 2-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 0.64 mm lead width, 3.00 mm tail length and 5.84 mm mating length with overall size 2.41 X 5.08 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRV2W64P254_2X1_241X508X838B"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1508X47M" urn="urn:adsk.eagle:package:31668671/1" type="model">
+<description>Chip, 1.55 X 0.85 X 0.47 mm body
+&lt;p&gt;Chip package with body size 1.55 X 0.85 X 0.47 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1508X47M"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT65P212X110-5M" urn="urn:adsk.eagle:package:31853395/1" type="model">
+<description>5-SOT23, 0.65 mm pitch, 2.13 mm span, 2.05 X 1.25 X 1.10 mm body
+&lt;p&gt;5-pin SOT23 package with 0.65 mm pitch, 2.13 mm span with body size 2.05 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT65P212X110-5M"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP65P640X120-14M" urn="urn:adsk.eagle:package:31853367/1" type="model">
+<description>14-SOP, 0.65 mm pitch, 6.40 mm span, 5.00 X 4.40 X 1.20 mm body
+&lt;p&gt;14-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 5.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP65P640X120-14M"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="U$1" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW060310K0BEEN" x="-43.18" y="30.48" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 10Kohms .1% 25ppm" x="-43.18" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="-43.18" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-43.18" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0BEEN" x="-43.18" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW060310K0BEEN" x="-43.18" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW060310K0BEEN?qs=ys0FHdAnsy4pY5DJwuessg%3D%3D" x="-43.18" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-43.18" y="31.9686" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-43.18" y="28.9914" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$12" library="Baja_Parts_Lib" package="QFN50P500X500X75-33T345M" package3d_urn="urn:adsk.eagle:package:31665535/1" value="LTC4222" x="-17.78" y="6.35" smashed="yes">
+<attribute name="DESCRIPTION" value="Hot Swap Voltage Controllers Dual Hot Swap Controller w/ADC and I2C" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.75 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Analog Devices" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LTC4222CUH#PBF" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="584-LTC4222CUH#PBF" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Analog-Devices/LTC4222CUHPBF?qs=sGAEpiMZZMsKEdP9slC0YZc6cH0Tuf0NcujsStLpH6A%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-17.78" y="9.9496" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-17.78" y="2.7504" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$13" library="Baja_Parts_Lib" package="RESC1608X45M" package3d_urn="urn:adsk.eagle:package:31668629/1" value="AT0603DRD071K82L" x="-46.99" y="68.58" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 1.82 Kohms 0.5% Tol. AEC-Q200" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AT0603DRD071K82L" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-AT0603DRD071K82L" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Yageo/AT0603DRD071K82L?qs=tggtontpCXPbCWwxdLaIvQ%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-46.99" y="70.0436" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-46.99" y="67.1164" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$14" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW0603392RBEEA" x="-43.18" y="38.1" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 392ohms .1% 25ppm" x="-43.18" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="-43.18" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-43.18" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW0603392RBEEA" x="-43.18" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW0603392RBEEA" x="-43.18" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0603392RBEEA?qs=kHCK1FE53PkNbYaq0EU6Lw%3D%3D" x="-43.18" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-43.18" y="39.5886" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-43.18" y="36.6114" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$15" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW0603953RBEEA" x="-22.86" y="45.72" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 953ohms .1% 25ppm" x="-22.86" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="-22.86" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-22.86" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW0603953RBEEA" x="-22.86" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW0603953RBEEA" x="-22.86" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW0603953RBEEA?qs=CqEPuS5aiX8a1bzjUmak3Q%3D%3D" x="-22.86" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-22.86" y="47.2086" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-22.86" y="44.2314" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$16" library="Baja_Parts_Lib" package="CAPC1608X80M" package3d_urn="urn:adsk.eagle:package:31668620/1" value="CGA3E1X7R1V105K080AE" x="-25.4" y="68.58" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT SOFT 0603 35V 1uF X7R 10% AEC-Q200" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.8 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E1X7R1V105K080AE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E1X7R1V105KA" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/TDK/CGA3E1X7R1V105K080AE?qs=nQSIdc08i%252BfiPojSMYifNA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-25.4" y="70.0659" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-25.4" y="67.0941" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$17" library="Baja_Parts_Lib" package="CAPC1005X50M" package3d_urn="urn:adsk.eagle:package:31668680/1" value="CGA2B3X7R1E683K050BB" x="-43.18" y="74.93" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0402 25V 0.068uF X7R 10% AEC-Q200" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.5 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B3X7R1E683K050BB" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA2B3X7R1E683KB" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/TDK/CGA2B3X7R1E683K050BB?qs=xLDY6iXSiQadJRj3xSTsHw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-43.18" y="76.2475" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-43.18" y="73.6125" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$18" library="Baja_Parts_Lib" package="CAPC1608X80M" package3d_urn="urn:adsk.eagle:package:31668620/1" value="CGA3E2X7R1H104K080AE" x="-44.45" y="60.96" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT SOFT 0603 50V 0.1uF X7R 10% AEC-Q200" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.8 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E2X7R1H104K080AE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E2X7R1H104KE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/TDK/CGA3E2X7R1H104K080AE?qs=n%2FVzw7c4a0kvajqFvEbDzQ%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-44.45" y="62.4459" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-44.45" y="59.4741" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$19" library="Baja_Parts_Lib" package="RESC1507X40M" package3d_urn="urn:adsk.eagle:package:31668640/1" value="WSL0603R0180FEA" x="-21.59" y="15.24" smashed="yes">
+<attribute name="DESCRIPTION" value=" Current Sense Resistors - SMD 1/10watt .018ohms 1%" x="-21.59" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.33 mm" x="-21.59" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-21.59" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="WSL0603R0180FEA" x="-21.59" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-WSL0603R0180FEA" x="-21.59" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/WSL0603R0180FEA?qs=WgxguIJepIVxM5lrrv8PKQ%3D%3D" x="-21.59" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-21.59" y="16.7521" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-21.59" y="13.7279" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$2" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW060310K0BEEN" x="-22.86" y="38.1" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 10Kohms .1% 25ppm" x="-22.86" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="-22.86" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-22.86" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0BEEN" x="-22.86" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW060310K0BEEN" x="-22.86" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW060310K0BEEN?qs=ys0FHdAnsy4pY5DJwuessg%3D%3D" x="-22.86" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-22.86" y="39.5886" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-22.86" y="36.6114" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$20" library="Baja_Parts_Lib" package="SOT95P230X110-3M" package3d_urn="urn:adsk.eagle:package:31668685/1" value="PMV15ENEAR" x="-43.18" y="5.08" smashed="yes">
+<attribute name="DESCRIPTION" value="MOSFET 30V N-CHANNEL" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PMV15ENEAR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PMV15ENEAR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Nexperia/PMV15ENEAR?qs=T3oQrply3y80fkWq77yzJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-43.18" y="7.734" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-43.18" y="2.866" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$21" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW060310R0BEEN" x="-44.45" y="22.86" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 10ohms .1% 25ppm" x="-44.45" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="-44.45" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-44.45" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310R0BEEN" x="-44.45" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW060310R0BEEN" x="-44.45" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW060310R0BEEN?qs=sGAEpiMZZMtlubZbdhIBINBUesVvBWI8Ir7KK%252BezhzA%3D" x="-44.45" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-44.45" y="24.3486" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-44.45" y="21.3714" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$22" library="Baja_Parts_Lib" package="HDRV2W64P254_2X1_241X508X838B" package3d_urn="urn:adsk.eagle:package:31668692/1" value="67997-100HLF" x="-29.21" y="6.35" smashed="yes">
+<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings .100CC STR HEADER" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="31.04 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol FCi" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURE_PART_NUMBER" value="67997-100HLF" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="649-67997-100HLF" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Amphenol-FCI/67997-100HLF?qs=cpLrBgdhsoH33Mp6xh%2FbyQ%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-29.21" y="9.009" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-29.21" y="1.905" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$23" library="Baja_Parts_Lib" package="CAPC1005X50M" package3d_urn="urn:adsk.eagle:package:31668680/1" value="CGA2B3X7R1V223K050BB" x="-25.4" y="82.55" smashed="yes">
+<attribute name="DESCRIPTION" value=" Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0402 35V 0.022uF X7R 10% AEC-Q200" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.5 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B3X7R1V223K050BB" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA2B3X7R1V223KB" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/TDK/CGA2B3X7R1V223K050BB?qs=xLDY6iXSiQZvE13Mgd36Mg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-25.4" y="83.8675" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-25.4" y="81.2325" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$24" library="Baja_Parts_Lib" package="RESC1508X47M" package3d_urn="urn:adsk.eagle:package:31668671/1" value="MCT0603PD4991DP500" x="-59.69" y="15.24" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .250W 4.99Kohms .5% 0603 25ppm Hi Power" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Beyschlag" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=" MCT0603PD4991DP500" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCT0603PD4991DP5" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603PD4991DP500?qs=5aG0NVq1C4xQ68f1sPHBvQ%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-59.69" y="16.7286" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-59.69" y="13.7514" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$25" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW06033K57BEEA" x="-43.18" y="45.72" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 3.57kohms .1% 25ppm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW06033K57BEEA" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW06033K57BEEA" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW06033K57BEEA?qs=kHCK1FE53Pku%252BV6IyV8rEg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-43.18" y="47.2086" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-43.18" y="44.2314" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$27" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW060334K0BEEA" x="-22.86" y="53.34" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 34Kohms .1% 25ppm" x="-22.86" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="-22.86" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-22.86" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=" TNPW060334K0BEEA" x="-22.86" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW060334K0BEEA" x="-22.86" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW060334K0BEEA?qs=kHCK1FE53PlE3u8PggA5Ww%3D%3D" x="-22.86" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-22.86" y="54.8286" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-22.86" y="51.8514" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$28" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW06031K02BEEA" x="-43.18" y="53.34" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 1.02Kohms .1% 25ppm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW06031K02BEEA" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW06031K02BEEA" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW06031K02BEEA?qs=U8jWr0D8IJjr1FstIpZwmw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-43.18" y="54.8286" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-43.18" y="51.8514" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$29" library="Baja_Parts_Lib" package="RESC1608X45M" package3d_urn="urn:adsk.eagle:package:31668629/1" value="AT0603DRD073K4L" x="-21.59" y="76.2" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 3.4 Kohms 0.5% Tol. AEC-Q200" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AT0603DRD073K4L" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURE_NAME" value="YAGEO" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-AT0603DRD073K4L" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/AT0603DRD073K4L?qs=tggtontpCXPtTFYMCVhXyg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-21.59" y="77.6636" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-21.59" y="74.7364" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$30" library="Baja_Parts_Lib" package="RESC1507X40M" package3d_urn="urn:adsk.eagle:package:31668640/1" value="WSL0603R0180FEA" x="-39.37" y="15.24" smashed="yes">
+<attribute name="DESCRIPTION" value=" Current Sense Resistors - SMD 1/10watt .018ohms 1%" x="-39.37" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.33 mm" x="-39.37" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-39.37" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="WSL0603R0180FEA" x="-39.37" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-WSL0603R0180FEA" x="-39.37" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/WSL0603R0180FEA?qs=WgxguIJepIVxM5lrrv8PKQ%3D%3D" x="-39.37" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-39.37" y="16.7521" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-39.37" y="13.7279" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$31" library="Baja_Parts_Lib" package="SOT95P230X110-3M" package3d_urn="urn:adsk.eagle:package:31668685/1" value="PMV15ENEAR" x="-57.15" y="5.08" smashed="yes">
+<attribute name="DESCRIPTION" value="MOSFET 30V N-CHANNEL" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PMV15ENEAR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PMV15ENEAR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Nexperia/PMV15ENEAR?qs=T3oQrply3y80fkWq77yzJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-57.15" y="7.734" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-57.15" y="2.866" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$32" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW060310R0BEEN" x="-22.86" y="30.48" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 10ohms .1% 25ppm" x="-22.86" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="-22.86" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="-22.86" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310R0BEEN" x="-22.86" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW060310R0BEEN" x="-22.86" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW060310R0BEEN?qs=sGAEpiMZZMtlubZbdhIBINBUesVvBWI8Ir7KK%252BezhzA%3D" x="-22.86" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-22.86" y="31.9686" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-22.86" y="28.9914" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$33" library="Baja_Parts_Lib" package="RESC1508X47M" package3d_urn="urn:adsk.eagle:package:31668671/1" value="MCT0603PD4991DP500" x="-24.13" y="22.86" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .250W 4.99Kohms .5% 0603 25ppm Hi Power" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Beyschlag" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=" MCT0603PD4991DP500" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCT0603PD4991DP5" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603PD4991DP500?qs=5aG0NVq1C4xQ68f1sPHBvQ%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-24.13" y="24.3486" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-24.13" y="21.3714" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$34" library="Baja_Parts_Lib" package="AT0603" package3d_urn="urn:adsk.eagle:package:31668595/1" value="TNPW06033K57BEEA" x="-22.86" y="60.96" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 3.57kohms .1% 25ppm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay/Dale" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW06033K57BEEA" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-TNPW06033K57BEEA" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Vishay-Dale/TNPW06033K57BEEA?qs=kHCK1FE53Pku%252BV6IyV8rEg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-22.86" y="62.4486" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-22.86" y="59.4714" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$3" library="Baja_Parts_Lib" package="SOT65P212X110-5M" package3d_urn="urn:adsk.eagle:package:31853395/1" value="74HC1G86GW-Q100H" x="-66.04" y="-5.08" smashed="yes">
+<attribute name="DESCRIPTION" value="Logic Gates LOGIC GATES" x="-66.04" y="-5.08" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1 mm" x="-66.04" y="-5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-66.04" y="-5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="74HC1G86GW-Q100H" x="-66.04" y="-5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-74HC1G86GW-Q100H" x="-66.04" y="-5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Nexperia/74HC1G86GW-Q100H?qs=5XOdhvmYM0PgVyXumaLcbw%3D%3D" x="-66.04" y="-5.08" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-66.04" y="-2.8225" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-66.04" y="-6.8975" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$4" library="Baja_Parts_Lib" package="SOT65P212X110-5M" package3d_urn="urn:adsk.eagle:package:31853395/1" value="74HC1G86GW-Q100H" x="-71.12" y="-12.7" smashed="yes">
+<attribute name="DESCRIPTION" value="Logic Gates LOGIC GATES" x="-71.12" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1 mm" x="-71.12" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-71.12" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="74HC1G86GW-Q100H" x="-71.12" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-74HC1G86GW-Q100H" x="-71.12" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Nexperia/74HC1G86GW-Q100H?qs=5XOdhvmYM0PgVyXumaLcbw%3D%3D" x="-71.12" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-71.12" y="-10.4425" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-71.12" y="-14.5175" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$5" library="Baja_Parts_Lib" package="SOP65P640X120-14M" package3d_urn="urn:adsk.eagle:package:31853367/1" value="SN74HC74QPWRQ1" x="-85.09" y="-10.16" smashed="yes">
+<attribute name="DESCRIPTION" value="Flip Flops Dual Pos Edge Trig D Type Flip Flop" x="-85.09" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.15 mm" x="-85.09" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-85.09" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HC74QPWRQ1" x="-85.09" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HC74QPWRQ1" x="-85.09" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Texas-Instruments/SN74HC74QPWRQ1?qs=AgY10sKTvDL2%252BQP50mtMpQ%3D%3D" x="-85.09" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-85.09" y="-6.5976" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-85.09" y="-13.345" size="1.27" layer="27" align="top-center"/>
+</element>
+</elements>
+<signals>
+<signal name="N$24">
+<contactref element="U$13" pad="2"/>
+<contactref element="U$14" pad="1"/>
+<contactref element="U$12" pad="10"/>
+<wire x1="-43.9055" y1="38.1" x2="-46.0696" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.03" y1="3.8654" x2="-43.9055" y2="38.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$25">
+<contactref element="U$14" pad="2"/>
+<contactref element="U$15" pad="1"/>
+<contactref element="U$12" pad="9"/>
+<wire x1="-42.4545" y1="38.1" x2="-23.5855" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.53" y1="3.8654" x2="-42.4545" y2="38.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$26">
+<contactref element="U$12" pad="8"/>
+<contactref element="U$16" pad="2"/>
+<wire x1="-20.2646" y1="4.6" x2="-24.5399" y2="68.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$27">
+<contactref element="U$17" pad="2"/>
+<contactref element="U$12" pad="1"/>
+<wire x1="-20.2646" y1="8.1" x2="-42.6398" y2="74.93" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND">
+<contactref element="U$16" pad="1"/>
+<contactref element="U$17" pad="1"/>
+<contactref element="U$15" pad="2"/>
+<contactref element="U$18" pad="1"/>
+<contactref element="U$12" pad="4"/>
+<contactref element="U$25" pad="2"/>
+<contactref element="U$29" pad="2"/>
+<contactref element="U$34" pad="2"/>
+<contactref element="U$3" pad="3"/>
+<contactref element="U$4" pad="3"/>
+<contactref element="U$5" pad="7"/>
+<wire x1="-72.1445" y1="-13.35" x2="-88.0117" y2="-12.11" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.0645" y1="-5.73" x2="-72.1445" y2="-13.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.2646" y1="6.6" x2="-67.0645" y2="-5.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.1345" y1="45.72" x2="-20.2646" y2="6.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.1345" y1="60.96" x2="-22.1345" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.2601" y1="68.58" x2="-22.1345" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.6696" y1="76.2" x2="-26.2601" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.7202" y1="74.93" x2="-26.2601" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.3101" y1="60.96" x2="-43.7202" y2="74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.4545" y1="45.72" x2="-45.3101" y2="60.96" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$29">
+<contactref element="U$12" pad="2"/>
+<contactref element="U$18" pad="2"/>
+<contactref element="U$12" pad="3"/>
+<contactref element="U$12" pad="7"/>
+<wire x1="-20.2646" y1="7.6" x2="-43.5899" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.2646" y1="7.1" x2="-20.2646" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.2646" y1="5.1" x2="-20.2646" y2="7.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$30">
+<contactref element="U$19" pad="2"/>
+<contactref element="U$12" pad="11"/>
+<contactref element="U$13" pad="1"/>
+<wire x1="-20.7919" y1="15.24" x2="-47.9104" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.53" y1="3.8654" x2="-20.7919" y2="15.24" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$28">
+<contactref element="U$12" pad="12"/>
+<contactref element="U$19" pad="1"/>
+<contactref element="U$20" pad="3"/>
+<wire x1="-22.3881" y1="15.24" x2="-42.0517" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.03" y1="3.8654" x2="-22.3881" y2="15.24" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$31">
+<contactref element="U$20" pad="1"/>
+<contactref element="U$21" pad="1"/>
+<contactref element="U$22" pad="1"/>
+<wire x1="-29.21" y1="6.35" x2="-44.3083" y2="6.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.1755" y1="22.86" x2="-44.3083" y2="6.03" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$32">
+<contactref element="U$21" pad="2"/>
+<contactref element="U$12" pad="13"/>
+<wire x1="-17.53" y1="3.8654" x2="-43.7245" y2="22.86" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$33">
+<contactref element="U$23" pad="2"/>
+<contactref element="U$22" pad="2"/>
+<wire x1="-29.21" y1="3.81" x2="-24.8598" y2="82.55" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$34">
+<contactref element="U$23" pad="1"/>
+<contactref element="U$20" pad="2"/>
+<contactref element="U$12" pad="14"/>
+<contactref element="U$24" pad="1"/>
+<contactref element="U$2" pad="1"/>
+<wire x1="-23.5855" y1="38.1" x2="-25.9402" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.03" y1="3.8654" x2="-23.5855" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.3083" y1="4.13" x2="-17.03" y2="3.8654" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.4363" y1="15.24" x2="-44.3083" y2="4.13" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$35">
+<contactref element="U$24" pad="2"/>
+<contactref element="U$25" pad="1"/>
+<contactref element="U$12" pad="15"/>
+<wire x1="-43.9055" y1="45.72" x2="-58.9437" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.53" y1="3.8654" x2="-58.9437" y2="15.24" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$37">
+<contactref element="U$12" pad="16"/>
+<contactref element="U$2" pad="2"/>
+<wire x1="-16.03" y1="3.8654" x2="-22.1345" y2="38.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$36">
+<contactref element="U$28" pad="2"/>
+<contactref element="U$29" pad="1"/>
+<contactref element="U$12" pad="32"/>
+<wire x1="-42.4545" y1="53.34" x2="-22.5104" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.53" y1="8.8346" x2="-42.4545" y2="53.34" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$38">
+<contactref element="U$28" pad="1"/>
+<contactref element="U$27" pad="2"/>
+<contactref element="U$12" pad="31"/>
+<wire x1="-43.9055" y1="53.34" x2="-22.1345" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.03" y1="8.8346" x2="-22.1345" y2="53.34" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$39">
+<contactref element="U$27" pad="1"/>
+<contactref element="U$30" pad="1"/>
+<contactref element="U$12" pad="30"/>
+<wire x1="-40.1681" y1="15.24" x2="-23.5855" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.53" y1="8.8346" x2="-40.1681" y2="15.24" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$40">
+<contactref element="U$12" pad="29"/>
+<contactref element="U$30" pad="2"/>
+<contactref element="U$31" pad="2"/>
+<wire x1="-38.5719" y1="15.24" x2="-58.2783" y2="4.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.03" y1="8.8346" x2="-38.5719" y2="15.24" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$41">
+<contactref element="U$32" pad="1"/>
+<contactref element="U$31" pad="1"/>
+<wire x1="-23.5855" y1="30.48" x2="-58.2783" y2="6.03" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$42">
+<contactref element="U$32" pad="2"/>
+<contactref element="U$12" pad="28"/>
+<wire x1="-17.53" y1="8.8346" x2="-22.1345" y2="30.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$43">
+<contactref element="U$31" pad="3"/>
+<contactref element="U$12" pad="27"/>
+<contactref element="U$33" pad="1"/>
+<contactref element="U$1" pad="1"/>
+<wire x1="-43.9055" y1="30.48" x2="-56.0217" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.8763" y1="22.86" x2="-43.9055" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.03" y1="8.8346" x2="-24.8763" y2="22.86" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$45">
+<contactref element="U$33" pad="2"/>
+<contactref element="U$34" pad="1"/>
+<contactref element="U$12" pad="26"/>
+<wire x1="-23.3837" y1="22.86" x2="-23.5855" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.53" y1="8.8346" x2="-23.3837" y2="22.86" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$44">
+<contactref element="U$12" pad="25"/>
+<contactref element="U$1" pad="2"/>
+<wire x1="-16.03" y1="8.8346" x2="-42.4545" y2="30.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="U$3" pad="2"/>
+<contactref element="U$5" pad="2"/>
+<contactref element="U$3" pad="4"/>
+<wire x1="-67.0645" y1="-5.08" x2="-88.0117" y2="-8.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.0155" y1="-5.73" x2="-67.0645" y2="-5.08" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="U$4" pad="4"/>
+<contactref element="U$4" pad="2"/>
+<contactref element="U$5" pad="12"/>
+<wire x1="-72.1445" y1="-12.7" x2="-82.1683" y2="-9.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.0955" y1="-13.35" x2="-72.1445" y2="-12.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="U$5" pad="9"/>
+<contactref element="U$12" pad="17"/>
+<wire x1="-15.2954" y1="4.6" x2="-82.1683" y2="-11.46" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="U$12" pad="24"/>
+<contactref element="U$5" pad="5"/>
+<wire x1="-15.2954" y1="8.1" x2="-88.0117" y2="-10.81" width="0" layer="19" extent="1-1"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
