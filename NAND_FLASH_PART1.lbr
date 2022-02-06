@@ -1018,15 +1018,15 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/427/ptsserie-1762313.pdf"
 <smd name="P$14" x="5.875" y="2.35" dx="0.9" dy="0.9" layer="1" roundness="10"/>
 <smd name="P$15" x="5.875" y="3.65" dx="0.9" dy="0.9" layer="1" roundness="10"/>
 <smd name="P$16" x="5.875" y="4.95" dx="0.9" dy="0.9" layer="1" roundness="10"/>
-<smd name="1" x="0.25" y="0.8" dx="0.5" dy="0.4" layer="1" roundness="100"/>
-<smd name="2" x="0.25" y="2.365" dx="0.5" dy="0.4" layer="1" roundness="100"/>
-<smd name="3" x="0.25" y="3.635" dx="0.5" dy="0.4" layer="1" roundness="100"/>
-<smd name="4" x="0.25" y="5.2" dx="0.5" dy="0.4" layer="1" roundness="100"/>
-<smd name="8" x="7.75" y="0.8" dx="0.5" dy="0.4" layer="1" roundness="100"/>
-<smd name="7" x="7.75" y="2.365" dx="0.5" dy="0.4" layer="1" roundness="100"/>
-<smd name="6" x="7.75" y="3.635" dx="0.5" dy="0.4" layer="1" roundness="100"/>
-<smd name="5" x="7.75" y="5.2" dx="0.5" dy="0.4" layer="1" roundness="100"/>
-<text x="1.5" y="-0.6" size="2.54" layer="21" distance="52">.</text>
+<smd name="4" x="0.25" y="0.8" dx="0.5" dy="0.4" layer="1" roundness="100"/>
+<smd name="3" x="0.25" y="2.365" dx="0.5" dy="0.4" layer="1" roundness="100"/>
+<smd name="2" x="0.25" y="3.635" dx="0.5" dy="0.4" layer="1" roundness="100"/>
+<smd name="1" x="0.25" y="5.2" dx="0.5" dy="0.4" layer="1" roundness="100"/>
+<smd name="5" x="7.75" y="0.8" dx="0.5" dy="0.4" layer="1" roundness="100"/>
+<smd name="6" x="7.75" y="2.365" dx="0.5" dy="0.4" layer="1" roundness="100"/>
+<smd name="7" x="7.75" y="3.635" dx="0.5" dy="0.4" layer="1" roundness="100"/>
+<smd name="8" x="7.75" y="5.2" dx="0.5" dy="0.4" layer="1" roundness="100"/>
+<text x="1.5" y="6.2" size="2.54" layer="21" distance="52">.</text>
 <text x="-1.27" y="0" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="10.16" y="0" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -1725,20 +1725,20 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/427/ptsserie-1762313.pdf"
 <text x="-5.08" y="-7.62" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="S35ML04G300WHI000">
-<wire x1="-7.62" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
-<wire x1="12.7" y1="2.54" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-17.78" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
 <pin name="CS#" x="-12.7" y="0" length="middle"/>
 <pin name="SO/IO1" x="-12.7" y="-5.08" length="middle"/>
 <pin name="WP#/IO2" x="-12.7" y="-10.16" length="middle"/>
 <pin name="VSS" x="-12.7" y="-15.24" length="middle"/>
-<pin name="VDD" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="HOLD#/IO3" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="SCK" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="SI/IO0" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="VDD" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="HOLD#/IO3" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="SCK" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="SI/IO0" x="25.4" y="-15.24" length="middle" rot="R180"/>
 <text x="-2.54" y="7.62" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="5.08" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="20.32" y1="2.54" x2="20.32" y2="-17.78" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3231,7 +3231,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/427/ptsserie-1762313.pdf"
 </device>
 </devices>
 </deviceset>
-<deviceset name="S35ML04G300WHI000">
+<deviceset name="S35ML04G300WHI000" prefix="IC">
 <gates>
 <gate name="G$1" symbol="S35ML04G300WHI000" x="0" y="0"/>
 </gates>
