@@ -1049,19 +1049,19 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <attribute name="NAME" x="146.05" y="11.43" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="146.05" y="8.89" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C8" gate="G$1" x="139.7" y="55.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="143.51" y="54.61" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="143.51" y="52.07" size="1.778" layer="96" align="center-left"/>
+<instance part="C8" gate="G$1" x="182.88" y="63.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="186.69" y="62.23" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="186.69" y="59.69" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C9" gate="G$1" x="147.32" y="101.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="148.59" y="100.33" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="148.59" y="97.79" size="1.778" layer="96" align="center-left"/>
+<instance part="C9" gate="G$1" x="182.88" y="106.68" smashed="yes" rot="R270">
+<attribute name="NAME" x="184.15" y="105.41" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="184.15" y="102.87" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="GND15" gate="1" x="147.32" y="83.82" smashed="yes">
-<attribute name="VALUE" x="144.78" y="81.28" size="1.778" layer="96"/>
+<instance part="GND15" gate="1" x="182.88" y="88.9" smashed="yes">
+<attribute name="VALUE" x="180.34" y="86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="GND16" gate="1" x="139.7" y="38.1" smashed="yes">
-<attribute name="VALUE" x="137.16" y="35.56" size="1.778" layer="96"/>
+<instance part="GND16" gate="1" x="182.88" y="45.72" smashed="yes">
+<attribute name="VALUE" x="180.34" y="43.18" size="1.778" layer="96"/>
 </instance>
 <instance part="GND17" gate="1" x="144.78" y="-5.08" smashed="yes">
 <attribute name="VALUE" x="142.24" y="-7.62" size="1.778" layer="96"/>
@@ -1231,12 +1231,12 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="40.64" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="48.26" x2="182.88" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="86.36" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="91.44" x2="182.88" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -1316,9 +1316,22 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <wire x1="177.8" y1="88.9" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
 <junction x="177.8" y="88.9"/>
 <pinref part="IC2" gate="G$1" pin="VDD"/>
-<wire x1="177.8" y1="63.5" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="63.5" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="60.96" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="22.86" x2="175.26" y2="22.86" width="0.1524" layer="91"/>
 <junction x="177.8" y="63.5"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="106.68" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
+<junction x="177.8" y="106.68"/>
+<wire x1="139.7" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
+<junction x="177.8" y="60.96"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="63.5" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="12.7" x2="144.78" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="15.24" x2="177.8" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="15.24" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
+<junction x="177.8" y="22.86"/>
 </segment>
 </net>
 <net name="X_OUT" class="0">
@@ -1343,7 +1356,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <wire x1="185.42" y1="25.4" x2="175.26" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="43.18" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
 <junction x="185.42" y="43.18"/>
-<label x="182.88" y="45.72" size="1.778" layer="95"/>
+<label x="170.18" y="43.18" size="1.778" layer="95"/>
 <pinref part="R1" gate="A" pin="1"/>
 <pinref part="R2" gate="A" pin="2"/>
 </segment>
@@ -1356,7 +1369,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <wire x1="185.42" y1="81.28" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
 <junction x="185.42" y="81.28"/>
-<label x="182.88" y="88.9" size="1.778" layer="95"/>
+<label x="180.34" y="81.28" size="1.778" layer="95"/>
 <pinref part="R3" gate="A" pin="1"/>
 <pinref part="R4" gate="A" pin="2"/>
 </segment>
@@ -1401,33 +1414,6 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <wire x1="17.78" y1="96.52" x2="0" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="Z_OUT" gate="1" pin="P"/>
 <pinref part="R6" gate="A" pin="1"/>
-</segment>
-</net>
-<net name="D/C_Z" class="0">
-<segment>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="101.6" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="VSS"/>
-<wire x1="147.32" y1="106.68" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
-<label x="139.7" y="106.68" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D/C_Y" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="VSS"/>
-<wire x1="149.86" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="63.5" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
-<label x="132.08" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D/C_X" class="0">
-<segment>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="12.7" x2="144.78" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VSS"/>
-<wire x1="144.78" y1="22.86" x2="149.86" y2="22.86" width="0.1524" layer="91"/>
-<label x="137.16" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
