@@ -470,6 +470,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <part name="TP7" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
 <part name="TP8" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
+<part name="TP9" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
+<part name="TP10" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
+<part name="TP11" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
+<part name="TP12" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
+<part name="TP13" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
+<part name="TP14" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -520,6 +526,28 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <attribute name="NAME" x="-74.93" y="3.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-74.93" y="-22.86" size="1.778" layer="96"/>
 </instance>
+<instance part="TP9" gate="G$1" x="17.78" y="-40.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="-45.72" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="-48.26" size="1.27" layer="95"/>
+</instance>
+<instance part="TP10" gate="G$1" x="35.56" y="-40.64" smashed="yes">
+<attribute name="VALUE" x="30.48" y="-45.72" size="1.27" layer="96"/>
+<attribute name="NAME" x="30.48" y="-48.26" size="1.27" layer="95"/>
+</instance>
+<instance part="TP11" gate="G$1" x="17.78" y="-60.96" smashed="yes">
+<attribute name="VALUE" x="12.7" y="-66.04" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="-68.58" size="1.27" layer="95"/>
+</instance>
+<instance part="TP12" gate="G$1" x="35.56" y="-60.96" smashed="yes">
+<attribute name="VALUE" x="30.48" y="-66.04" size="1.27" layer="96"/>
+<attribute name="NAME" x="30.48" y="-68.58" size="1.27" layer="95"/>
+</instance>
+<instance part="TP13" gate="G$1" x="17.78" y="-81.28" smashed="yes">
+<attribute name="VALUE" x="12.7" y="-86.36" size="1.27" layer="96"/>
+</instance>
+<instance part="TP14" gate="G$1" x="35.56" y="-81.28" smashed="yes">
+<attribute name="VALUE" x="30.48" y="-86.36" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -536,11 +564,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <label x="48.26" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TP8" gate="G$1" pin="TP"/>
-<wire x1="-5.08" y1="-93.98" x2="-5.08" y2="-91.44" width="0.1524" layer="91"/>
-<label x="-5.08" y="-91.44" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="VSS"/>
 <wire x1="-12.7" y1="-15.24" x2="-17.78" y2="-15.24" width="0.1524" layer="91"/>
 <label x="-25.4" y="-15.24" size="1.778" layer="95"/>
@@ -549,6 +572,36 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <pinref part="JP1" gate="A" pin="4"/>
 <wire x1="-71.12" y1="-7.62" x2="-63.5" y2="-7.62" width="0.1524" layer="91"/>
 <label x="-60.96" y="-7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP9" gate="G$1" pin="TP"/>
+<wire x1="17.78" y1="-33.02" x2="17.78" y2="-30.48" width="0.1524" layer="91"/>
+<label x="17.78" y="-30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP10" gate="G$1" pin="TP"/>
+<wire x1="35.56" y1="-33.02" x2="35.56" y2="-30.48" width="0.1524" layer="91"/>
+<label x="35.56" y="-30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP11" gate="G$1" pin="TP"/>
+<wire x1="17.78" y1="-53.34" x2="17.78" y2="-50.8" width="0.1524" layer="91"/>
+<label x="17.78" y="-50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP12" gate="G$1" pin="TP"/>
+<wire x1="35.56" y1="-53.34" x2="35.56" y2="-50.8" width="0.1524" layer="91"/>
+<label x="35.56" y="-50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP13" gate="G$1" pin="TP"/>
+<wire x1="17.78" y1="-73.66" x2="17.78" y2="-71.12" width="0.1524" layer="91"/>
+<label x="17.78" y="-71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP14" gate="G$1" pin="TP"/>
+<wire x1="35.56" y1="-73.66" x2="35.56" y2="-71.12" width="0.1524" layer="91"/>
+<label x="35.56" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS#" class="0">
@@ -664,6 +717,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <pinref part="JP1" gate="A" pin="8"/>
 <wire x1="-71.12" y1="-17.78" x2="-63.5" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-60.96" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP8" gate="G$1" pin="TP"/>
+<wire x1="-5.08" y1="-93.98" x2="-5.08" y2="-91.44" width="0.1524" layer="91"/>
+<label x="-5.08" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
