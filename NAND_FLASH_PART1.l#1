@@ -1725,20 +1725,20 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/427/ptsserie-1762313.pdf"
 <text x="-5.08" y="-7.62" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="S35ML04G300WHI000">
-<wire x1="-7.62" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-17.78" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<pin name="CS#" x="-12.7" y="0" length="middle"/>
-<pin name="SO/IO1" x="-12.7" y="-5.08" length="middle"/>
-<pin name="WP#/IO2" x="-12.7" y="-10.16" length="middle"/>
-<pin name="VSS" x="-12.7" y="-15.24" length="middle"/>
-<pin name="VDD" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="HOLD#/IO3" x="25.4" y="-5.08" length="middle" rot="R180"/>
-<pin name="SCK" x="25.4" y="-10.16" length="middle" rot="R180"/>
-<pin name="SI/IO0" x="25.4" y="-15.24" length="middle" rot="R180"/>
-<text x="-2.54" y="7.62" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="5.08" size="1.27" layer="96">&gt;VALUE</text>
-<wire x1="20.32" y1="2.54" x2="20.32" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-17.78" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="CS#" x="0" y="0" length="middle"/>
+<pin name="SO/IO1" x="0" y="-5.08" length="middle"/>
+<pin name="WP#/IO2" x="0" y="-10.16" length="middle"/>
+<pin name="VSS" x="0" y="-15.24" length="middle"/>
+<pin name="VDD" x="38.1" y="0" length="middle" rot="R180"/>
+<pin name="HOLD#/IO3" x="38.1" y="-5.08" length="middle" rot="R180"/>
+<pin name="SCK" x="38.1" y="-10.16" length="middle" rot="R180"/>
+<pin name="SI/IO0" x="38.1" y="-15.24" length="middle" rot="R180"/>
+<text x="10.16" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="10.16" y="5.08" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="33.02" y1="2.54" x2="33.02" y2="-17.78" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3244,7 +3244,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/427/ptsserie-1762313.pdf"
 <connect gate="G$1" pin="SI/IO0" pad="5"/>
 <connect gate="G$1" pin="SO/IO1" pad="2"/>
 <connect gate="G$1" pin="VDD" pad="8"/>
-<connect gate="G$1" pin="VSS" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="4 P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16"/>
 <connect gate="G$1" pin="WP#/IO2" pad="3"/>
 </connects>
 <technologies>
