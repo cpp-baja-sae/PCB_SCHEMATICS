@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -422,19 +422,22 @@
 <text x="0" y="1.4386" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.4386" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="CAPC3225X280N" urn="urn:adsk.eagle:footprint:31985630/1" library_version="3">
-<description>Chip, 3.20 X 2.50 X 2.80 mm body
-&lt;p&gt;Chip package with body size 3.20 X 2.50 X 2.80 mm&lt;/p&gt;</description>
-<wire x1="1.825" y1="1.7192" x2="-1.825" y2="1.7192" width="0.12" layer="21"/>
-<wire x1="1.825" y1="-1.7192" x2="-1.825" y2="-1.7192" width="0.12" layer="21"/>
-<wire x1="1.825" y1="-1.4" x2="-1.825" y2="-1.4" width="0.12" layer="51"/>
-<wire x1="-1.825" y1="-1.4" x2="-1.825" y2="1.4" width="0.12" layer="51"/>
-<wire x1="-1.825" y1="1.4" x2="1.825" y2="1.4" width="0.12" layer="51"/>
-<wire x1="1.825" y1="1.4" x2="1.825" y2="-1.4" width="0.12" layer="51"/>
-<smd name="1" x="-1.6622" y="0" dx="1.0326" dy="2.8103" layer="1"/>
-<smd name="2" x="1.6622" y="0" dx="1.0326" dy="2.8103" layer="1"/>
-<text x="0" y="2.3542" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.3542" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<package name="CAPC3225X280N" urn="urn:adsk.eagle:footprint:32027594/1" library_version="4">
+<description>&lt;b&gt;CNA6_2021&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.45" y="0" dx="2.82" dy="1.02" layer="1" rot="R90"/>
+<smd name="2" x="1.45" y="0" dx="2.82" dy="1.02" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.11" y1="1.56" x2="2.11" y2="1.56" width="0.05" layer="51"/>
+<wire x1="2.11" y1="1.56" x2="2.11" y2="-1.56" width="0.05" layer="51"/>
+<wire x1="2.11" y1="-1.56" x2="-2.11" y2="-1.56" width="0.05" layer="51"/>
+<wire x1="-2.11" y1="-1.56" x2="-2.11" y2="1.56" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.1" layer="51"/>
+<wire x1="0" y1="1.15" x2="0" y2="-1.15" width="0.2" layer="21"/>
 </package>
 <package name="CAPC3216X180N" urn="urn:adsk.eagle:footprint:31985043/1" library_version="3">
 <description>Chip, 3.20 X 1.60 X 1.80 mm body
@@ -450,7 +453,7 @@
 <text x="0" y="1.8567" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.8567" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="QFN65P300X300X100-12N" urn="urn:adsk.eagle:footprint:31985923/1" library_version="3">
+<package name="QFN65P300X300X100-12N" urn="urn:adsk.eagle:footprint:31985923/2" library_version="6">
 <description>12-QFN, 0.65 mm pitch, 3.00 X 3.00 X 1.00 mm body
 &lt;p&gt;12-pin QFN package with 0.65 mm pitch with body size 3.00 X 3.00 X 1.00 mm&lt;/p&gt;</description>
 <circle x="-2.004" y="1.639" radius="0.25" width="0" layer="21"/>
@@ -466,6 +469,10 @@
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.12" layer="51"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.12" layer="51"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
 <smd name="1" x="-1.4373" y="0.975" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
 <smd name="2" x="-1.4373" y="0.325" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
 <smd name="3" x="-1.4373" y="-0.325" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
@@ -540,7 +547,7 @@
 <text x="0" y="1.2675" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.2675" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SOT95P275X110-5N" urn="urn:adsk.eagle:footprint:32026990/1" library_version="3">
+<package name="SOT95P275X110-5N" urn="urn:adsk.eagle:footprint:32026990/2" library_version="6">
 <description>5-SOT23, 0.95 mm pitch, 2.75 mm span, 3.00 X 1.50 X 1.10 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.75 mm span with body size 3.00 X 1.50 X 1.10 mm&lt;/p&gt;</description>
 <circle x="-1.3406" y="1.7459" radius="0.25" width="0" layer="21"/>
@@ -554,6 +561,10 @@
 <wire x1="-0.825" y1="-1.575" x2="-0.825" y2="1.575" width="0.12" layer="51"/>
 <wire x1="-0.825" y1="1.575" x2="0.825" y2="1.575" width="0.12" layer="51"/>
 <wire x1="0.825" y1="1.575" x2="0.825" y2="-1.575" width="0.12" layer="51"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
 <smd name="1" x="-1.2442" y="0.95" dx="1.224" dy="0.5839" layer="1"/>
 <smd name="2" x="-1.2442" y="0" dx="1.224" dy="0.5839" layer="1"/>
 <smd name="3" x="-1.2442" y="-0.95" dx="1.224" dy="0.5839" layer="1"/>
@@ -591,9 +602,8 @@
 <packageinstance name="RESC1608X55N"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPC3225X280N" urn="urn:adsk.eagle:package:31985600/1" type="model" library_version="3">
-<description>Chip, 3.20 X 2.50 X 2.80 mm body
-&lt;p&gt;Chip package with body size 3.20 X 2.50 X 2.80 mm&lt;/p&gt;</description>
+<package3d name="CAPC3225X280N" urn="urn:adsk.eagle:package:31985600/2" type="model" library_version="4">
+<description>&lt;b&gt;CNA6_2021&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="CAPC3225X280N"/>
 </packageinstances>
@@ -605,7 +615,7 @@
 <packageinstance name="CAPC3216X180N"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN65P300X300X100-12N" urn="urn:adsk.eagle:package:31985917/1" type="model" library_version="3">
+<package3d name="QFN65P300X300X100-12N" urn="urn:adsk.eagle:package:31985917/2" type="model" library_version="6">
 <description>12-QFN, 0.65 mm pitch, 3.00 X 3.00 X 1.00 mm body
 &lt;p&gt;12-pin QFN package with 0.65 mm pitch with body size 3.00 X 3.00 X 1.00 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -639,7 +649,7 @@
 <packageinstance name="RESC1005X40N"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT95P275X110-5N" urn="urn:adsk.eagle:package:32026974/1" type="model" library_version="3">
+<package3d name="SOT95P275X110-5N" urn="urn:adsk.eagle:package:32026974/2" type="model" library_version="6">
 <description>5-SOT23, 0.95 mm pitch, 2.75 mm span, 3.00 X 1.50 X 1.10 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.75 mm span with body size 3.00 X 1.50 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -788,6 +798,16 @@
 <pin name="IN-" x="25.4" y="0" length="middle" rot="R180"/>
 <pin name="VDD" x="25.4" y="-2.54" length="middle" rot="R180"/>
 </symbol>
+<symbol name="CNA6P1X7R1H475K250AE" urn="urn:adsk.eagle:symbol:32027595/1" library_version="4">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CGA6M2X7R1H155K200AA" urn="urn:adsk.eagle:component:32027100/1" prefix="C" library_version="3">
@@ -902,7 +922,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERJ-PB3B1002V
 </device>
 </devices>
 </deviceset>
-<deviceset name="CGA6P3X7R1H475K250AD" urn="urn:adsk.eagle:component:32027101/1" prefix="C" library_version="3">
+<deviceset name="CGA6P3X7R1H475K250AD" urn="urn:adsk.eagle:component:32027101/2" prefix="C" library_version="4">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT EPXY 1210, AEC-Q200, X7R, 50V&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_epoxy_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -915,7 +935,7 @@ Source: &lt;a href="https://product.tdk.com/en/system/files?file=dam/doc/product
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31985600/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31985600/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -944,7 +964,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="FXLN8371QR1" urn="urn:adsk.eagle:component:32027095/1" prefix="IC" library_version="3">
+<deviceset name="FXLN8371QR1" urn="urn:adsk.eagle:component:32027095/2" prefix="IC" library_version="6">
 <description>&lt;b&gt;3-Axis LowPower Analog-Output Accelerometer&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/FXLN83xxQ.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -967,7 +987,7 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/FXLN83xxQ.pdf"&gt; Dat
 <connect gate="G$1" pin="ZOUT" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31985917/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31985917/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1073,7 +1093,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 </device>
 </devices>
 </deviceset>
-<deviceset name="NCS21911SN2T1G" urn="urn:adsk.eagle:component:32027096/1" prefix="IC" library_version="3">
+<deviceset name="NCS21911SN2T1G" urn="urn:adsk.eagle:component:32027096/2" prefix="IC" library_version="6">
 <description>&lt;b&gt;Operational Amplifiers - Op Amps 2 MHz&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semiconductor"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1089,7 +1109,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <connect gate="G$1" pin="VSS" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32026974/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32026974/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1099,6 +1119,34 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <attribute name="MANUFACTURER_PART_NUMBER" value="NCS21911SN2T1G" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="863-NCS21911SN2T1G" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCS21911SN2T1G/?qs=%252B6g0mu59x7Ix%2FTFBhvJ5Cw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CNA6P1X7R1H475K250AE" urn="urn:adsk.eagle:component:32027596/1" prefix="C" library_version="4">
+<description>&lt;b&gt;Multilayer Ceramic Chip Capacitors, Capacitance=4.7uF, LxWxT:3.2x2.5x2.5mm&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CNA6P1X7R1H475K250AE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC3225X280N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31985600/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=4.7uF, LxWxT:3.2x2.5x2.5mm" constant="no"/>
+<attribute name="HEIGHT" value="2.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CNA6P1X7R1H475K250AE" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CNA6P1X7R1H475K2" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CNA6P1X7R1H475K250AE?qs=w%2Fv1CP2dgqp5TAwoFLGJ7g%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1143,10 +1191,10 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <part name="IC3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="MAX25210ATAB9_V+" device="" package3d_urn="urn:adsk.eagle:package:32027091/2"/>
 <part name="C4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA5L3X7R1H225K160AB" device="" package3d_urn="urn:adsk.eagle:package:31984238/1"/>
 <part name="R7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERJ-PB3B1002V" device="" package3d_urn="urn:adsk.eagle:package:31985797/1"/>
-<part name="C2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA6P3X7R1H475K250AD" device="" package3d_urn="urn:adsk.eagle:package:31985600/1"/>
+<part name="C2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA6P3X7R1H475K250AD" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
 <part name="C3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA5L2C0G1H104J160AA" device="" package3d_urn="urn:adsk.eagle:package:31984343/1"/>
 <part name="C6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA5L2C0G1H104J160AA" device="" package3d_urn="urn:adsk.eagle:package:31984343/1"/>
-<part name="IC2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="FXLN8371QR1" device="" package3d_urn="urn:adsk.eagle:package:31985917/1"/>
+<part name="IC2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="FXLN8371QR1" device="" package3d_urn="urn:adsk.eagle:package:31985917/2"/>
 <part name="C1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA4C2C0G1H822J060AA" device="" package3d_urn="urn:adsk.eagle:package:31984201/1"/>
 <part name="C7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA3E2C0G1H332J080AA" device="" package3d_urn="urn:adsk.eagle:package:31984186/1"/>
 <part name="C8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA3E2C0G1H332J080AA" device="" package3d_urn="urn:adsk.eagle:package:31984186/1"/>
@@ -1156,9 +1204,15 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <part name="R2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERA-2ARB2100X" device="" package3d_urn="urn:adsk.eagle:package:31985748/1"/>
 <part name="R3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERA-2ARB2100X" device="" package3d_urn="urn:adsk.eagle:package:31985748/1"/>
 <part name="R4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERA-2ARB2100X" device="" package3d_urn="urn:adsk.eagle:package:31985748/1"/>
-<part name="IC1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/1"/>
-<part name="IC4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/1"/>
-<part name="IC5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/1"/>
+<part name="IC1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/2"/>
+<part name="IC4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/2"/>
+<part name="IC5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/2"/>
+<part name="C9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CNA6P1X7R1H475K250AE" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
+<part name="C10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CNA6P1X7R1H475K250AE" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
+<part name="C11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CNA6P1X7R1H475K250AE" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1207,20 +1261,20 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <instance part="GND9" gate="1" x="137.16" y="20.32" smashed="yes">
 <attribute name="VALUE" x="134.62" y="17.78" size="1.778" layer="96"/>
 </instance>
-<instance part="GND15" gate="1" x="180.34" y="5.08" smashed="yes">
-<attribute name="VALUE" x="177.8" y="2.54" size="1.778" layer="96"/>
+<instance part="GND15" gate="1" x="193.04" y="5.08" smashed="yes">
+<attribute name="VALUE" x="190.5" y="2.54" size="1.778" layer="96"/>
 </instance>
 <instance part="GND16" gate="1" x="137.16" y="-31.75" smashed="yes">
 <attribute name="VALUE" x="134.62" y="-34.29" size="1.778" layer="96"/>
 </instance>
-<instance part="GND17" gate="1" x="180.34" y="-46.99" smashed="yes">
-<attribute name="VALUE" x="177.8" y="-49.53" size="1.778" layer="96"/>
+<instance part="GND17" gate="1" x="193.04" y="-46.99" smashed="yes">
+<attribute name="VALUE" x="190.5" y="-49.53" size="1.778" layer="96"/>
 </instance>
 <instance part="GND18" gate="1" x="137.16" y="-83.82" smashed="yes">
 <attribute name="VALUE" x="134.62" y="-86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="GND21" gate="1" x="179.07" y="-100.33" smashed="yes">
-<attribute name="VALUE" x="176.53" y="-102.87" size="1.778" layer="96"/>
+<instance part="GND21" gate="1" x="193.04" y="-100.33" smashed="yes">
+<attribute name="VALUE" x="190.5" y="-102.87" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="A" x="-111.76" y="-5.08" smashed="yes">
 <attribute name="NAME" x="-118.11" y="3.175" size="1.778" layer="95"/>
@@ -1288,17 +1342,17 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <attribute name="NAME" x="181.61" y="40.64" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="179.07" y="48.26" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="R2" gate="G$1" x="180.34" y="26.67" smashed="yes" rot="R270">
-<attribute name="NAME" x="185.42" y="17.78" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="182.88" y="25.4" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="R2" gate="G$1" x="193.04" y="26.67" smashed="yes" rot="R270">
+<attribute name="NAME" x="198.12" y="17.78" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="195.58" y="25.4" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="R3" gate="G$1" x="180.34" y="-25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="185.42" y="-34.29" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="182.88" y="-27.94" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="R3" gate="G$1" x="193.04" y="-25.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="198.12" y="-34.29" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="195.58" y="-27.94" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="R4" gate="G$1" x="179.07" y="-78.74" smashed="yes" rot="R270">
-<attribute name="NAME" x="184.15" y="-86.36" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="181.61" y="-80.01" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="R4" gate="G$1" x="193.04" y="-78.74" smashed="yes" rot="R270">
+<attribute name="NAME" x="198.12" y="-86.36" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="195.58" y="-80.01" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 <instance part="IC1" gate="G$1" x="148.59" y="29.21" smashed="yes">
 <attribute name="NAME" x="161.29" y="35.56" size="1.778" layer="95" align="center-left"/>
@@ -1311,6 +1365,27 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <instance part="IC5" gate="G$1" x="148.59" y="-73.66" smashed="yes">
 <attribute name="NAME" x="160.02" y="-67.31" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="151.13" y="-69.85" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C9" gate="G$1" x="177.8" y="-76.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="184.15" y="-85.09" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="181.61" y="-80.01" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="C10" gate="G$1" x="177.8" y="-25.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="185.42" y="-31.75" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="182.88" y="-25.4" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="C11" gate="G$1" x="179.07" y="26.67" smashed="yes" rot="R270">
+<attribute name="NAME" x="185.42" y="17.78" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="182.88" y="25.4" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="GND22" gate="1" x="177.8" y="-92.71" smashed="yes">
+<attribute name="VALUE" x="175.26" y="-95.25" size="1.778" layer="96"/>
+</instance>
+<instance part="GND23" gate="1" x="177.8" y="-41.91" smashed="yes">
+<attribute name="VALUE" x="175.26" y="-44.45" size="1.778" layer="96"/>
+</instance>
+<instance part="GND24" gate="1" x="179.07" y="10.16" smashed="yes">
+<attribute name="VALUE" x="176.53" y="7.62" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1391,7 +1466,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="180.34" y1="7.62" x2="180.34" y2="8.89" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="7.62" x2="193.04" y2="8.89" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -1401,7 +1476,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <pinref part="IC4" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="-43.18" x2="180.34" y2="-44.45" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-43.18" x2="193.04" y2="-44.45" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
@@ -1413,7 +1488,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 </segment>
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="179.07" y1="-97.79" x2="179.07" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-97.79" x2="193.04" y2="-96.52" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -1435,6 +1510,29 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="15.24" y1="-15.24" x2="15.24" y2="-16.51" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="GND22" gate="1" pin="GND"/>
+<wire x1="177.8" y1="-90.17" x2="177.8" y2="-88.9" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="177.8" y1="-39.37" x2="177.8" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="179.07" y1="12.7" x2="179.07" y2="13.97" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="40.64" y1="-9.398" x2="40.64" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-9.398" x2="40.64" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="40.64" y="-9.398"/>
+<pinref part="IC2" gate="G$1" pin="ST"/>
+<wire x1="40.64" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BYP" class="0">
@@ -1512,19 +1610,28 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <pinref part="IC3" gate="G$1" pin="ENABLE"/>
 </segment>
 <segment>
-<wire x1="173.99" y1="26.67" x2="176.53" y2="26.67" width="0.1524" layer="91"/>
-<label x="170.18" y="24.13" size="1.778" layer="95"/>
+<label x="182.88" y="26.67" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="VDD"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="173.99" y1="26.67" x2="179.07" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="179.07" y1="26.67" x2="182.88" y2="26.67" width="0.1524" layer="91"/>
+<junction x="179.07" y="26.67"/>
 </segment>
 <segment>
-<wire x1="173.99" y1="-25.4" x2="175.26" y2="-25.4" width="0.1524" layer="91"/>
-<label x="170.18" y="-27.94" size="1.778" layer="95"/>
+<label x="184.15" y="-25.4" size="1.778" layer="95"/>
 <pinref part="IC4" gate="G$1" pin="VDD"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="173.99" y1="-25.4" x2="177.8" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-25.4" x2="181.61" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="177.8" y="-25.4"/>
 </segment>
 <segment>
-<wire x1="173.99" y1="-76.2" x2="175.26" y2="-76.2" width="0.1524" layer="91"/>
-<label x="170.18" y="-78.74" size="1.778" layer="95"/>
+<label x="182.88" y="-76.2" size="1.778" layer="95"/>
 <pinref part="IC5" gate="G$1" pin="VDD"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="-76.2" x2="173.99" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-76.2" x2="181.61" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="177.8" y="-76.2"/>
 </segment>
 </net>
 <net name="V_3.3V" class="0">
@@ -1568,13 +1675,22 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <net name="X_OUT" class="0">
 <segment>
 <wire x1="173.99" y1="29.21" x2="176.53" y2="29.21" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="29.21" x2="180.34" y2="29.21" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="29.21" x2="180.34" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="29.21" x2="193.04" y2="29.21" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="29.21" x2="193.04" y2="26.67" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="29.21" x2="176.53" y2="31.75" width="0.1524" layer="91"/>
 <junction x="176.53" y="29.21"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="IN-"/>
+</segment>
+<segment>
+<wire x1="148.59" y1="29.21" x2="140.97" y2="29.21" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="49.53" x2="176.53" y2="52.07" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="52.07" x2="140.97" y2="52.07" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="52.07" x2="140.97" y2="29.21" width="0.1524" layer="91"/>
+<label x="157.48" y="48.26" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="X-OUT" class="0">
@@ -1596,11 +1712,21 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <wire x1="173.99" y1="-22.86" x2="176.53" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="-20.32" x2="176.53" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="176.53" y="-22.86"/>
-<wire x1="176.53" y1="-22.86" x2="180.34" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="-22.86" x2="180.34" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="-22.86" x2="193.04" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-22.86" x2="193.04" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="IC4" gate="G$1" pin="IN-"/>
+</segment>
+<segment>
+<wire x1="148.59" y1="-22.86" x2="140.97" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="-22.86" x2="140.97" y2="0" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="0" x2="176.53" y2="0" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="0" x2="176.53" y2="-2.54" width="0.1524" layer="91"/>
+<label x="157.48" y="-2.54" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="IC4" gate="G$1" pin="OUT"/>
+<label x="157.48" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="Z_OUT" class="0">
@@ -1612,26 +1738,14 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 </segment>
 <segment>
 <wire x1="173.99" y1="-73.66" x2="176.53" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="-73.66" x2="179.07" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="179.07" y1="-73.66" x2="179.07" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="-73.66" x2="193.04" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-73.66" x2="193.04" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="-72.39" x2="176.53" y2="-73.66" width="0.1524" layer="91"/>
 <junction x="176.53" y="-73.66"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="IC5" gate="G$1" pin="IN-"/>
 </segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="40.64" y1="-9.398" x2="40.64" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="-2.54" x2="40.64" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-2.54" x2="40.64" y2="-9.398" width="0.1524" layer="91"/>
-<junction x="40.64" y="-9.398"/>
-<pinref part="IC2" gate="G$1" pin="ST"/>
-</segment>
-</net>
-<net name="N$2" class="0">
 <segment>
 <wire x1="148.59" y1="-73.66" x2="140.97" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="-73.66" x2="140.97" y2="-50.8" width="0.1524" layer="91"/>
@@ -1640,28 +1754,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <label x="157.48" y="-53.34" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="IC5" gate="G$1" pin="OUT"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<wire x1="148.59" y1="-22.86" x2="140.97" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="-22.86" x2="140.97" y2="0" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="0" x2="176.53" y2="0" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="0" x2="176.53" y2="-2.54" width="0.1524" layer="91"/>
-<label x="157.48" y="-2.54" size="1.778" layer="95"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="G$1" pin="OUT"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="148.59" y1="29.21" x2="140.97" y2="29.21" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="49.53" x2="176.53" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="52.07" x2="140.97" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="52.07" x2="140.97" y2="29.21" width="0.1524" layer="91"/>
-<label x="157.48" y="48.26" size="1.778" layer="95"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 </nets>
