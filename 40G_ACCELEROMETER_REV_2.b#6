@@ -92,12 +92,15 @@ Designed By Anthony Bandak</text>
 <wire x1="1.953540625" y1="14.484834375" x2="1.953540625" y2="14.48483125" width="0.1524" layer="21"/>
 <wire x1="2.37683125" y1="14.908125" x2="2.800121875" y2="14.484834375" width="0.1524" layer="21"/>
 <wire x1="2.800121875" y1="14.484834375" x2="2.800121875" y2="14.48483125" width="0.1524" layer="21"/>
-<text x="2.2074625" y="12.241328125" size="0.6096" layer="21" font="vector">Z</text>
+<text x="2.8424625" y="12.368328125" size="0.6096" layer="21" font="vector">Z</text>
 <text x="2.159" y="15.113" size="0.6096" layer="21" font="vector">X</text>
-<text x="1.05615625" y="13.358875" size="0.6096" layer="21" font="vector">Y</text>
+<text x="1.28475625" y="12.342875" size="0.6096" layer="21" font="vector">Y</text>
 <text x="14.228975" y="22.019409375" size="0.6096" layer="22" font="vector" rot="MR180" align="center">X-AXIS</text>
 <text x="9.1494875" y="16.685946875" size="0.6096" layer="22" font="vector" rot="MR0" align="center">Y-AXIS</text>
 <text x="4.06999375" y="16.6012875" size="0.6096" layer="22" font="vector" rot="MR180" align="center">Z-AXIS</text>
+<circle x="2.3876" y="13.208" radius="0.0254" width="0.1524" layer="21"/>
+<circle x="2.3876" y="13.208" radius="0.26518125" width="0.1524" layer="21"/>
+<circle x="2.3876" y="13.208" radius="0.410346875" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
@@ -821,7 +824,7 @@ design rules under a new name.</description>
 <via x="9.379" y="22.157078125" extent="1-16" drill="0.35"/>
 <via x="14.2304" y="20.074278125" extent="1-16" drill="0.35"/>
 <via x="17.272" y="1.397" extent="1-16" drill="0.35"/>
-<via x="7.8804" y="14.486278125" extent="1-16" drill="0.35"/>
+<via x="7.1692" y="14.918078125" extent="1-16" drill="0.35"/>
 <via x="14.2304" y="14.486278125" extent="1-16" drill="0.35"/>
 <via x="5.7658" y="22.0218" extent="1-16" drill="0.35"/>
 <via x="1.6256" y="22.5298" extent="1-16" drill="0.35"/>
@@ -872,6 +875,10 @@ design rules under a new name.</description>
 <via x="11.6332" y="22.733" extent="1-16" drill="0.35"/>
 <via x="1.7018" y="14.9352" extent="1-16" drill="0.35"/>
 <via x="1.7018" y="13.3858" extent="1-16" drill="0.35"/>
+<wire x1="3.5624" y1="5.212278125" x2="3.556" y2="5.218678125" width="1.016" layer="1" curve="-90"/>
+<wire x1="3.556" y1="5.218678125" x2="3.556" y2="6.604" width="1.016" layer="1"/>
+<wire x1="3.5624" y1="5.212278125" x2="1.747321875" y2="5.212278125" width="1.016" layer="1"/>
+<wire x1="1.747321875" y1="5.212278125" x2="1.7018" y2="5.2578" width="1.016" layer="1" curve="-90"/>
 </signal>
 <signal name="X_SIG">
 <contactref element="AC1" pad="6"/>
