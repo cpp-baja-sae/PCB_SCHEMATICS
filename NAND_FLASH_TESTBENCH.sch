@@ -116,6 +116,21 @@
 <smd name="P$1" x="-0.9398" y="1.7018" dx="1.85" dy="3.45" layer="1" locked="yes" roundness="10" rot="R180"/>
 <rectangle x1="-1.9558" y1="-0.1524" x2="0.127" y2="3.556" layer="39"/>
 </package>
+<package name="SOD123W">
+<description>&lt;b&gt;SOD123W&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.4" y="0" dx="1.2" dy="1.2" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.2" dy="1.2" layer="1"/>
+<text x="-0.254" y="-0.01" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.254" y="-0.01" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.3" y1="0.85" x2="1.3" y2="0.85" width="0.2" layer="51"/>
+<wire x1="1.3" y1="0.85" x2="1.3" y2="-0.85" width="0.2" layer="51"/>
+<wire x1="1.3" y1="-0.85" x2="-1.3" y2="-0.85" width="0.2" layer="51"/>
+<wire x1="-1.3" y1="-0.85" x2="-1.3" y2="0.85" width="0.2" layer="51"/>
+<wire x1="-1.3" y1="0.85" x2="1.3" y2="0.85" width="0.2" layer="21"/>
+<wire x1="1.3" y1="-0.85" x2="-1.3" y2="-0.85" width="0.2" layer="21"/>
+<circle x="-2.205" y="0.041" radius="0.048" width="0.2" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="S35ML04G300WHI000">
@@ -149,6 +164,19 @@
 <pin name="TP" x="0" y="7.62" length="middle" rot="R270"/>
 <text x="-5.08" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
 <text x="-5.08" y="-7.62" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="PTVS12VS1UR,115">
+<wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="6.604" y2="-2.54" width="0.254" layer="94"/>
+<text x="10.16" y="8.89" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="10.16" y="6.35" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="K" x="0" y="0" visible="pad" length="short"/>
+<pin name="A" x="15.24" y="0" visible="pad" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -215,6 +243,31 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PTVS12VS1UR,115" prefix="D">
+<description>&lt;b&gt;PTVSxS1UR series - 400 W Transient Voltage Suppressor&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/PTVSXS1UR_SER.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PTVS12VS1UR,115" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD123W">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -476,6 +529,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <part name="TP12" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
 <part name="TP13" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
 <part name="TP14" library="SamacSys_Parts" deviceset="S1751-46R" device=""/>
+<part name="D1" library="SamacSys_Parts" deviceset="PTVS12VS1UR,115" device=""/>
+<part name="D2" library="SamacSys_Parts" deviceset="PTVS12VS1UR,115" device=""/>
+<part name="D3" library="SamacSys_Parts" deviceset="PTVS12VS1UR,115" device=""/>
+<part name="D4" library="SamacSys_Parts" deviceset="PTVS12VS1UR,115" device=""/>
+<part name="D5" library="SamacSys_Parts" deviceset="PTVS12VS1UR,115" device=""/>
+<part name="D6" library="SamacSys_Parts" deviceset="PTVS12VS1UR,115" device=""/>
+<part name="D7" library="SamacSys_Parts" deviceset="PTVS12VS1UR,115" device=""/>
+<part name="D8" library="SamacSys_Parts" deviceset="PTVS12VS1UR,115" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -548,6 +609,38 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <instance part="TP14" gate="G$1" x="35.56" y="-81.28" smashed="yes">
 <attribute name="VALUE" x="30.48" y="-86.36" size="1.27" layer="96"/>
 </instance>
+<instance part="D1" gate="G$1" x="66.04" y="-45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="57.15" y="-35.56" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="59.69" y="-35.56" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="D2" gate="G$1" x="86.36" y="-45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.47" y="-35.56" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="80.01" y="-35.56" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="D3" gate="G$1" x="66.04" y="-76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="57.15" y="-66.04" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="59.69" y="-66.04" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="D4" gate="G$1" x="86.36" y="-76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.47" y="-66.04" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="80.01" y="-66.04" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="D5" gate="G$1" x="66.04" y="-109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="57.15" y="-99.06" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="59.69" y="-99.06" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="D6" gate="G$1" x="86.36" y="-109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.47" y="-99.06" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="80.01" y="-99.06" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="D7" gate="G$1" x="66.04" y="-142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="57.15" y="-132.08" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="59.69" y="-132.08" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="D8" gate="G$1" x="86.36" y="-142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.47" y="-132.08" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="80.01" y="-132.08" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -603,6 +696,51 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <wire x1="35.56" y1="-73.66" x2="35.56" y2="-71.12" width="0.1524" layer="91"/>
 <label x="35.56" y="-71.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="66.04" y1="-30.48" x2="66.04" y2="-25.4" width="0.1524" layer="91"/>
+<label x="68.58" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="86.36" y1="-30.48" x2="86.36" y2="-25.4" width="0.1524" layer="91"/>
+<label x="88.9" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="66.04" y1="-60.96" x2="66.04" y2="-55.88" width="0.1524" layer="91"/>
+<label x="68.58" y="-55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="86.36" y1="-60.96" x2="86.36" y2="-55.88" width="0.1524" layer="91"/>
+<label x="88.9" y="-55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="66.04" y1="-93.98" x2="66.04" y2="-88.9" width="0.1524" layer="91"/>
+<label x="68.58" y="-88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D6" gate="G$1" pin="A"/>
+<wire x1="86.36" y1="-93.98" x2="86.36" y2="-88.9" width="0.1524" layer="91"/>
+<label x="88.9" y="-88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D7" gate="G$1" pin="A"/>
+<wire x1="66.04" y1="-127" x2="66.04" y2="-121.92" width="0.1524" layer="91"/>
+<label x="68.58" y="-121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D8" gate="G$1" pin="A"/>
+<wire x1="86.36" y1="-127" x2="86.36" y2="-121.92" width="0.1524" layer="91"/>
+<label x="88.9" y="-121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D4" gate="G$1" pin="K"/>
+<wire x1="86.36" y1="-76.2" x2="86.36" y2="-81.28" width="0.1524" layer="91"/>
+<label x="88.9" y="-81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CS#" class="0">
 <segment>
@@ -619,6 +757,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="-71.12" y1="0" x2="-63.5" y2="0" width="0.1524" layer="91"/>
 <label x="-60.96" y="0" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="K"/>
+<wire x1="66.04" y1="-45.72" x2="66.04" y2="-50.8" width="0.1524" layer="91"/>
+<label x="68.58" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SO/IO1" class="0">
@@ -637,6 +780,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <wire x1="-71.12" y1="-2.54" x2="-63.5" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-60.96" y="-2.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="K"/>
+<wire x1="86.36" y1="-45.72" x2="86.36" y2="-50.8" width="0.1524" layer="91"/>
+<label x="88.9" y="-50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="WP#/IO2" class="0">
 <segment>
@@ -653,6 +801,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="-71.12" y1="-5.08" x2="-63.5" y2="-5.08" width="0.1524" layer="91"/>
 <label x="-60.96" y="-5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="K"/>
+<wire x1="66.04" y1="-76.2" x2="66.04" y2="-81.28" width="0.1524" layer="91"/>
+<label x="68.58" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HOLD#/IO3" class="0">
@@ -671,6 +824,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <wire x1="-71.12" y1="-15.24" x2="-63.5" y2="-15.24" width="0.1524" layer="91"/>
 <label x="-60.96" y="-15.24" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="D7" gate="G$1" pin="K"/>
+<wire x1="66.04" y1="-142.24" x2="66.04" y2="-147.32" width="0.1524" layer="91"/>
+<label x="68.58" y="-147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCK" class="0">
 <segment>
@@ -687,6 +845,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <pinref part="JP1" gate="A" pin="6"/>
 <wire x1="-71.12" y1="-12.7" x2="-63.5" y2="-12.7" width="0.1524" layer="91"/>
 <label x="-60.96" y="-12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D6" gate="G$1" pin="K"/>
+<wire x1="86.36" y1="-109.22" x2="86.36" y2="-114.3" width="0.1524" layer="91"/>
+<label x="88.9" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SI/IO0" class="0">
@@ -705,6 +868,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <wire x1="-71.12" y1="-10.16" x2="-63.5" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-60.96" y="-10.16" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="D5" gate="G$1" pin="K"/>
+<wire x1="66.04" y1="-109.22" x2="66.04" y2="-114.3" width="0.1524" layer="91"/>
+<label x="68.58" y="-114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -722,6 +890,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1E10
 <pinref part="TP8" gate="G$1" pin="TP"/>
 <wire x1="-5.08" y1="-93.98" x2="-5.08" y2="-91.44" width="0.1524" layer="91"/>
 <label x="-5.08" y="-91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D8" gate="G$1" pin="K"/>
+<wire x1="86.36" y1="-142.24" x2="86.36" y2="-147.32" width="0.1524" layer="91"/>
+<label x="88.9" y="-147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
