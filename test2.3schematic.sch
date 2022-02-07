@@ -1213,6 +1213,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <part name="C9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CNA6P1X7R1H475K250AE" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
 <part name="C10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CNA6P1X7R1H475K250AE" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
 <part name="C11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CNA6P1X7R1H475K250AE" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
+<part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1387,6 +1388,9 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <attribute name="NAME" x="185.42" y="-88.9" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="182.88" y="-78.74" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
+<instance part="GND25" gate="1" x="-55.88" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="-58.42" y="-33.02" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1533,6 +1537,11 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <junction x="40.64" y="-9.398"/>
 <pinref part="IC2" gate="G$1" pin="ST"/>
 <wire x1="40.64" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="EP"/>
+<pinref part="GND25" gate="1" pin="GND"/>
+<wire x1="-55.88" y1="-20.32" x2="-55.88" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BYP" class="0">

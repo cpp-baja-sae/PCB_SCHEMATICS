@@ -453,7 +453,7 @@
 <text x="0" y="1.8567" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.8567" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="QFN65P300X300X100-12N" urn="urn:adsk.eagle:footprint:31985923/1" library_version="3">
+<package name="QFN65P300X300X100-12N" urn="urn:adsk.eagle:footprint:31985923/2" library_version="6">
 <description>12-QFN, 0.65 mm pitch, 3.00 X 3.00 X 1.00 mm body
 &lt;p&gt;12-pin QFN package with 0.65 mm pitch with body size 3.00 X 3.00 X 1.00 mm&lt;/p&gt;</description>
 <circle x="-2.004" y="1.639" radius="0.25" width="0" layer="21"/>
@@ -469,6 +469,10 @@
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.12" layer="51"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.12" layer="51"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
 <smd name="1" x="-1.4373" y="0.975" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
 <smd name="2" x="-1.4373" y="0.325" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
 <smd name="3" x="-1.4373" y="-0.325" dx="0.8373" dy="0.32" layer="1" roundness="100"/>
@@ -543,7 +547,7 @@
 <text x="0" y="1.2675" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.2675" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SOT95P275X110-5N" urn="urn:adsk.eagle:footprint:32026990/1" library_version="3">
+<package name="SOT95P275X110-5N" urn="urn:adsk.eagle:footprint:32026990/2" library_version="6">
 <description>5-SOT23, 0.95 mm pitch, 2.75 mm span, 3.00 X 1.50 X 1.10 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.75 mm span with body size 3.00 X 1.50 X 1.10 mm&lt;/p&gt;</description>
 <circle x="-1.3406" y="1.7459" radius="0.25" width="0" layer="21"/>
@@ -557,6 +561,10 @@
 <wire x1="-0.825" y1="-1.575" x2="-0.825" y2="1.575" width="0.12" layer="51"/>
 <wire x1="-0.825" y1="1.575" x2="0.825" y2="1.575" width="0.12" layer="51"/>
 <wire x1="0.825" y1="1.575" x2="0.825" y2="-1.575" width="0.12" layer="51"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
 <smd name="1" x="-1.2442" y="0.95" dx="1.224" dy="0.5839" layer="1"/>
 <smd name="2" x="-1.2442" y="0" dx="1.224" dy="0.5839" layer="1"/>
 <smd name="3" x="-1.2442" y="-0.95" dx="1.224" dy="0.5839" layer="1"/>
@@ -607,7 +615,7 @@
 <packageinstance name="CAPC3216X180N"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN65P300X300X100-12N" urn="urn:adsk.eagle:package:31985917/1" type="model" library_version="3">
+<package3d name="QFN65P300X300X100-12N" urn="urn:adsk.eagle:package:31985917/2" type="model" library_version="6">
 <description>12-QFN, 0.65 mm pitch, 3.00 X 3.00 X 1.00 mm body
 &lt;p&gt;12-pin QFN package with 0.65 mm pitch with body size 3.00 X 3.00 X 1.00 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -641,7 +649,7 @@
 <packageinstance name="RESC1005X40N"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT95P275X110-5N" urn="urn:adsk.eagle:package:32026974/1" type="model" library_version="3">
+<package3d name="SOT95P275X110-5N" urn="urn:adsk.eagle:package:32026974/2" type="model" library_version="6">
 <description>5-SOT23, 0.95 mm pitch, 2.75 mm span, 3.00 X 1.50 X 1.10 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.75 mm span with body size 3.00 X 1.50 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -956,7 +964,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="FXLN8371QR1" urn="urn:adsk.eagle:component:32027095/1" prefix="IC" library_version="3">
+<deviceset name="FXLN8371QR1" urn="urn:adsk.eagle:component:32027095/2" prefix="IC" library_version="6">
 <description>&lt;b&gt;3-Axis LowPower Analog-Output Accelerometer&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/FXLN83xxQ.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -979,7 +987,7 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/FXLN83xxQ.pdf"&gt; Dat
 <connect gate="G$1" pin="ZOUT" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31985917/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31985917/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1085,7 +1093,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB2100X
 </device>
 </devices>
 </deviceset>
-<deviceset name="NCS21911SN2T1G" urn="urn:adsk.eagle:component:32027096/1" prefix="IC" library_version="3">
+<deviceset name="NCS21911SN2T1G" urn="urn:adsk.eagle:component:32027096/2" prefix="IC" library_version="6">
 <description>&lt;b&gt;Operational Amplifiers - Op Amps 2 MHz&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semiconductor"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1101,7 +1109,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/ncs21911sn2t1g/on-semicond
 <connect gate="G$1" pin="VSS" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32026974/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32026974/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1186,7 +1194,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <part name="C2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA6P3X7R1H475K250AD" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
 <part name="C3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA5L2C0G1H104J160AA" device="" package3d_urn="urn:adsk.eagle:package:31984343/1"/>
 <part name="C6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA5L2C0G1H104J160AA" device="" package3d_urn="urn:adsk.eagle:package:31984343/1"/>
-<part name="IC2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="FXLN8371QR1" device="" package3d_urn="urn:adsk.eagle:package:31985917/1"/>
+<part name="IC2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="FXLN8371QR1" device="" package3d_urn="urn:adsk.eagle:package:31985917/2"/>
 <part name="C1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA4C2C0G1H822J060AA" device="" package3d_urn="urn:adsk.eagle:package:31984201/1"/>
 <part name="C7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA3E2C0G1H332J080AA" device="" package3d_urn="urn:adsk.eagle:package:31984186/1"/>
 <part name="C8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CGA3E2C0G1H332J080AA" device="" package3d_urn="urn:adsk.eagle:package:31984186/1"/>
@@ -1196,9 +1204,9 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <part name="R2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERA-2ARB2100X" device="" package3d_urn="urn:adsk.eagle:package:31985748/1"/>
 <part name="R3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERA-2ARB2100X" device="" package3d_urn="urn:adsk.eagle:package:31985748/1"/>
 <part name="R4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="ERA-2ARB2100X" device="" package3d_urn="urn:adsk.eagle:package:31985748/1"/>
-<part name="IC1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/1"/>
-<part name="IC4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/1"/>
-<part name="IC5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/1"/>
+<part name="IC1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/2"/>
+<part name="IC4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/2"/>
+<part name="IC5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:32026974/2"/>
 <part name="C9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CNA6P1X7R1H475K250AE" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
 <part name="C10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CNA6P1X7R1H475K250AE" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
 <part name="C11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:32027058" deviceset="CNA6P1X7R1H475K250AE" device="" package3d_urn="urn:adsk.eagle:package:31985600/2"/>
