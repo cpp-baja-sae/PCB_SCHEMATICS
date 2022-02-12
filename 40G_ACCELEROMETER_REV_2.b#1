@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,9 +47,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -661,25 +661,25 @@ design rules under a new name.</description>
 <attribute name="MFR_NAME" value="Vishay" x="12.8842" y="18.804278125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="12.89268125" y="18.042278125" size="0.6096" layer="25" ratio="6" rot="SR0" align="center"/>
 </element>
-<element name="R3" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="TNPW04021K24BEED" x="7.8804" y="21.852278125" smashed="yes">
+<element name="R3" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="1.24k" x="7.8804" y="21.852278125" smashed="yes">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="7.8804" y="21.852278125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW04021K24BEED" x="7.8804" y="21.852278125" size="1.778" layer="27" display="off"/>
 <attribute name="MFR_NAME" value="Vishay" x="7.8804" y="21.852278125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="7.8804" y="22.538078125" size="0.6096" layer="25" ratio="6" rot="SR0" align="center"/>
 </element>
-<element name="R4" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="TNPW04023K48BEED" x="7.855" y="20.125078125" smashed="yes" rot="R180">
+<element name="R4" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="3.48k" x="7.855" y="20.125078125" smashed="yes" rot="R180">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="7.855" y="20.125078125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW04023K48BEED" x="7.855" y="20.125078125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR_NAME" value="Vishay" x="7.855" y="20.125078125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="7.3216" y="19.083678125" size="0.6096" layer="25" ratio="6" rot="SR0"/>
 </element>
-<element name="R5" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="TNPW04021K24BEED" x="1.5558" y="18.296278125" smashed="yes" rot="R90">
+<element name="R5" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="1.24k" x="1.5558" y="18.296278125" smashed="yes" rot="R90">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="1.5558" y="18.296278125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW04021K24BEED" x="1.5558" y="18.296278125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR_NAME" value="Vishay" x="1.5558" y="18.296278125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="2.47015" y="18.28779375" size="0.6096" layer="25" ratio="6" rot="SR0" align="center"/>
 </element>
-<element name="R6" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="TNPW04023K48BEED" x="4.0704" y="18.296278125" smashed="yes" rot="R270">
+<element name="R6" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="3.48k" x="4.0704" y="18.296278125" smashed="yes" rot="R270">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="4.0704" y="18.296278125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW04023K48BEED" x="4.0704" y="18.296278125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR_NAME" value="Vishay" x="4.0704" y="18.296278125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -774,7 +774,8 @@ design rules under a new name.</description>
 <contactref element="C2" pad="1"/>
 <wire x1="10.1664" y1="12.162278125" x2="11.894721875" y2="12.162278125" width="0.4064" layer="16"/>
 <wire x1="11.894721875" y1="12.162278125" x2="11.931" y2="12.126" width="0.4064" layer="16" curve="-90"/>
-<wire x1="10.1254" y1="11.254278125" x2="10.1664" y2="12.162278125" width="0" layer="19" extent="1-16"/>
+<wire x1="10.1664" y1="12.162278125" x2="8.7822" y2="12.162278125" width="0.4064" layer="16"/>
+<wire x1="8.7822" y1="12.162278125" x2="8.6424" y2="12.022478125" width="0.4064" layer="16" curve="90"/>
 </signal>
 <signal name="GND">
 <contactref element="AC1" pad="2"/>

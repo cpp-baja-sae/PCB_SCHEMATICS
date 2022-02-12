@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -649,37 +649,37 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="6" x="3.5624" y="2.294278125" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="3.5624" y="3.294278125" size="0.0254" layer="27"/>
 </element>
-<element name="R1" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="TNPW04021K24BEED" x="12.8588" y="21.293478125" smashed="yes">
+<element name="R1" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="1.24k" x="12.8588" y="21.293478125" smashed="yes">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="12.8588" y="21.293478125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW04021K24BEED" x="12.8588" y="21.293478125" size="1.778" layer="27" display="off"/>
 <attribute name="MFR_NAME" value="Vishay" x="12.8588" y="21.293478125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="12.3508" y="21.649078125" size="0.6096" layer="25" ratio="6" rot="SR0"/>
 </element>
-<element name="R2" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="TNPW04023K48BEED" x="12.8842" y="18.804278125" smashed="yes" rot="R180">
+<element name="R2" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="3.48k" x="12.8842" y="18.804278125" smashed="yes" rot="R180">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="12.8842" y="18.804278125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW04023K48BEED" x="12.8842" y="18.804278125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR_NAME" value="Vishay" x="12.8842" y="18.804278125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="12.89268125" y="18.042278125" size="0.6096" layer="25" ratio="6" rot="SR0" align="center"/>
 </element>
-<element name="R3" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="TNPW04021K24BEED" x="7.8804" y="21.852278125" smashed="yes">
+<element name="R3" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="1.24k" x="7.8804" y="21.852278125" smashed="yes">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="7.8804" y="21.852278125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW04021K24BEED" x="7.8804" y="21.852278125" size="1.778" layer="27" display="off"/>
 <attribute name="MFR_NAME" value="Vishay" x="7.8804" y="21.852278125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="7.8804" y="22.538078125" size="0.6096" layer="25" ratio="6" rot="SR0" align="center"/>
 </element>
-<element name="R4" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="TNPW04023K48BEED" x="7.855" y="20.125078125" smashed="yes" rot="R180">
+<element name="R4" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="3.48k" x="7.855" y="20.125078125" smashed="yes" rot="R180">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="7.855" y="20.125078125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW04023K48BEED" x="7.855" y="20.125078125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR_NAME" value="Vishay" x="7.855" y="20.125078125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="7.3216" y="19.083678125" size="0.6096" layer="25" ratio="6" rot="SR0"/>
 </element>
-<element name="R5" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="TNPW04021K24BEED" x="1.5558" y="18.296278125" smashed="yes" rot="R90">
+<element name="R5" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="1.24k" x="1.5558" y="18.296278125" smashed="yes" rot="R90">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="1.5558" y="18.296278125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW04021K24BEED" x="1.5558" y="18.296278125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR_NAME" value="Vishay" x="1.5558" y="18.296278125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="2.47015" y="18.28779375" size="0.6096" layer="25" ratio="6" rot="SR0" align="center"/>
 </element>
-<element name="R6" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="TNPW04023K48BEED" x="4.0704" y="18.296278125" smashed="yes" rot="R270">
+<element name="R6" library="SamacSys_Parts" package="RES_TNPW0402_VIS" value="3.48k" x="4.0704" y="18.296278125" smashed="yes" rot="R270">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="4.0704" y="18.296278125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW04023K48BEED" x="4.0704" y="18.296278125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR_NAME" value="Vishay" x="4.0704" y="18.296278125" size="1.778" layer="27" rot="R270" display="off"/>

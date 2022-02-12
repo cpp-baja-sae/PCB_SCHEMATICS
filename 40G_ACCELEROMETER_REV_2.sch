@@ -976,12 +976,12 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="X_OUT" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device="" package3d_urn="urn:adsk.eagle:package:30836/1"/>
 <part name="12V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device="" package3d_urn="urn:adsk.eagle:package:30836/1"/>
 <part name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device="" package3d_urn="urn:adsk.eagle:package:30836/1"/>
-<part name="R1" library="SamacSys_Parts" deviceset="TNPW04021K24BEED" device=""/>
-<part name="R2" library="SamacSys_Parts" deviceset="TNPW04023K48BEED" device=""/>
-<part name="R3" library="SamacSys_Parts" deviceset="TNPW04021K24BEED" device=""/>
-<part name="R4" library="SamacSys_Parts" deviceset="TNPW04023K48BEED" device=""/>
-<part name="R5" library="SamacSys_Parts" deviceset="TNPW04021K24BEED" device=""/>
-<part name="R6" library="SamacSys_Parts" deviceset="TNPW04023K48BEED" device=""/>
+<part name="R1" library="SamacSys_Parts" deviceset="TNPW04021K24BEED" device="" value="1.24k"/>
+<part name="R2" library="SamacSys_Parts" deviceset="TNPW04023K48BEED" device="" value="3.48k"/>
+<part name="R3" library="SamacSys_Parts" deviceset="TNPW04021K24BEED" device="" value="1.24k"/>
+<part name="R4" library="SamacSys_Parts" deviceset="TNPW04023K48BEED" device="" value="3.48k"/>
+<part name="R5" library="SamacSys_Parts" deviceset="TNPW04021K24BEED" device="" value="1.24k"/>
+<part name="R6" library="SamacSys_Parts" deviceset="TNPW04023K48BEED" device="" value="3.48k"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -1001,6 +1001,19 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <sheets>
 <sheet>
 <plain>
+<text x="236.22" y="119.38" size="1.778" layer="91">Gain for OPAMPs designed to be 3.806 to limit output voltage
+under worst case scenario to under 12V.</text>
+<text x="40.64" y="-2.54" size="1.778" layer="91">Values for decoupling capacitors chosen to match data sheet
+values (C1, C2, C3, C7, C8, C9). Values for LPF capacitors chosen to
+provide a cutoff frequency of approximately 500Hz. 
+(C=4.97x10^-6/freq)</text>
+<text x="157.48" y="142.24" size="1.778" layer="91">OPAMP Section Below</text>
+<text x="236.22" y="114.3" size="1.778" layer="91">Gain=1+ Rf/Rin where Rf is R2, R4, R6 and Rin is R1, R3, R5.</text>
+<text x="236.22" y="104.14" size="1.778" layer="91">Worst case accelerometer output caluclated to be 3.13V from
+the data sheet. Gain of 3.806 sets maximum output signal
+voltage of 11.91V.</text>
+<text x="-68.58" y="129.54" size="1.778" layer="91">Diodes in this section are for something. That is for sure.</text>
+<text x="-68.58" y="134.62" size="1.778" layer="91">Connections to off-board components are made via through-holes.</text>
 </plain>
 <instances>
 <instance part="AC1" gate="G$1" x="66.04" y="50.8" smashed="yes">
@@ -1562,6 +1575,10 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
