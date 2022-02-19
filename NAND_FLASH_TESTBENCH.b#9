@@ -63,7 +63,7 @@
 <wire x1="63.678" y1="20.066" x2="63.678" y2="47.488" width="0" layer="20"/>
 <wire x1="63.678" y1="47.488" x2="26.162" y2="47.488" width="0" layer="20"/>
 <wire x1="26.162" y1="47.488" x2="26.162" y2="20.066" width="0" layer="20"/>
-<text x="62.738" y="34.29" size="1.778" layer="26" rot="MR0">BAJA SAE ELECTRICAL
+<text x="62.484" y="42.164" size="0.6096" layer="26" rot="MR0">BAJA SAE ELECTRICAL
 NAND FLASH TESTBENCH
 DESIGNED BY RYAN THAI
 2021-2022
@@ -77,12 +77,19 @@ Part S35ML04G300WHI000</text>
 <text x="26.67" y="27.178" size="0.6096" layer="21">HOLD#/I03</text>
 <text x="29.21" y="24.384" size="0.6096" layer="21">3.3V</text>
 <text x="58.674" y="40.386" size="0.6096" layer="21">CS#</text>
-<text x="51.308" y="41.148" size="0.6096" layer="21" rot="R90">SO/IO1</text>
-<text x="48.006" y="40.386" size="0.6096" layer="21" rot="R90">WP#/IO2</text>
+<text x="50.8" y="44.196" size="0.6096" layer="21">SO/IO1</text>
+<text x="43.942" y="35.814" size="0.6096" layer="21" rot="R90">WP#/IO2</text>
 <text x="58.674" y="33.528" size="0.6096" layer="21">3.3V</text>
 <text x="47.244" y="27.94" size="0.6096" layer="21" rot="R90">SCK</text>
-<text x="51.054" y="25.908" size="0.6096" layer="21" rot="R90">HOLD#I03</text>
+<text x="54.102" y="25.654" size="0.6096" layer="21" rot="R90">HOLD#I03</text>
 <text x="43.942" y="31.496" size="0.6096" layer="21" rot="R90">SI/IO0</text>
+<text x="57.15" y="43.942" size="0.4064" layer="21">GND</text>
+<text x="56.388" y="36.576" size="0.4064" layer="21" rot="R90">GND</text>
+<text x="58.42" y="28.956" size="0.4064" layer="21" rot="R90">GND</text>
+<text x="50.8" y="23.114" size="0.4064" layer="21" rot="R90">GND</text>
+<text x="45.212" y="24.384" size="0.4064" layer="21" rot="R270">GND</text>
+<text x="40.64" y="33.02" size="0.4064" layer="21" rot="R90">GND</text>
+<text x="46.736" y="43.942" size="0.4064" layer="21">GND</text>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
@@ -451,7 +458,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B3X7R1E104M050BB" x="80.01" y="-7.874" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA2B3X7R1E104MB" x="80.01" y="-7.874" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA2B3X7R1E104MB" x="80.01" y="-7.874" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="54.61" y="28.956" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="56.134" y="31.496" size="0.8128" layer="25" align="center"/>
 </element>
 <element name="IC1" library="SamacSys_Parts" package="S35ML04G300WHI000" value="S35ML04G300WHI000" x="48.768" y="39.116" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="NAND Flash SLC,4Gb,16nm,3.3V,4GB,LGA8" x="47.498" y="14.986" size="1.778" layer="27" rot="R270" display="off"/>
@@ -466,14 +473,14 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="29.845" y="43.942" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="TP1" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="56.642" y="38.354" smashed="yes" rot="R270"/>
-<element name="TP10" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="45.974" y="38.1" smashed="yes" rot="R180"/>
+<element name="TP10" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="46.736" y="41.91" smashed="yes" rot="R270"/>
 <element name="TP11" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="58.674" y="29.972" smashed="yes" rot="R180"/>
 <element name="TP12" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="54.61" y="25.146" smashed="yes" rot="R90"/>
-<element name="TP13" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="49.276" y="24.892" smashed="yes" rot="R90"/>
-<element name="TP14" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="43.18" y="38.1" smashed="yes" rot="R180"/>
+<element name="TP13" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="49.276" y="25.146" smashed="yes" rot="R90"/>
+<element name="TP14" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="40.894" y="36.576" smashed="yes" rot="R180"/>
 <element name="TP2" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="53.34" y="40.386" smashed="yes"/>
-<element name="TP3" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="50.038" y="40.386" smashed="yes"/>
-<element name="TP4" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="54.864" y="41.656" smashed="yes" rot="R270"/>
+<element name="TP3" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="47.752" y="37.846" smashed="yes" rot="R90"/>
+<element name="TP4" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="54.864" y="41.91" smashed="yes" rot="R270"/>
 <element name="TP5" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="47.752" y="34.036" smashed="yes" rot="R90"/>
 <element name="TP6" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="47.498" y="29.718" smashed="yes" rot="R180"/>
 <element name="TP7" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="51.308" y="29.718" smashed="yes" rot="R180"/>
@@ -486,7 +493,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="37.084" y="42.672" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="37.084" y="42.672" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="37.084" y="42.672" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.386" y="42.662" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="39.878" y="42.662" size="0.6096" layer="25" align="center"/>
 </element>
 <element name="D2" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="37.084" y="40.132" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="32.512" y="40.132" size="1.778" layer="27" display="off"/>
@@ -495,7 +502,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="32.512" y="40.132" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="32.512" y="40.132" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="32.512" y="40.132" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.386" y="40.122" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="39.878" y="40.122" size="0.6096" layer="25" align="center"/>
 </element>
 <element name="D3" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="37.084" y="37.592" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="32.512" y="37.592" size="1.778" layer="27" display="off"/>
@@ -504,7 +511,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="32.512" y="37.592" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="32.512" y="37.592" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="32.512" y="37.592" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.386" y="37.582" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="39.878" y="37.582" size="0.6096" layer="25" align="center"/>
 </element>
 <element name="D4" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="37.084" y="35.052" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="32.258" y="35.052" size="1.778" layer="27" display="off"/>
@@ -513,7 +520,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="32.258" y="35.052" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="32.258" y="35.052" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="32.258" y="35.052" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.386" y="35.042" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="39.878" y="35.042" size="0.6096" layer="25" align="center"/>
 </element>
 <element name="D5" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="37.084" y="32.512" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="32.512" y="32.512" size="1.778" layer="27" display="off"/>
@@ -522,7 +529,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="32.512" y="32.512" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="32.512" y="32.512" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="32.512" y="32.512" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.386" y="32.502" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="39.878" y="32.502" size="0.6096" layer="25" align="center"/>
 </element>
 <element name="D6" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="37.084" y="29.972" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="32.512" y="29.972" size="1.778" layer="27" display="off"/>
@@ -531,7 +538,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="32.512" y="29.972" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="32.512" y="29.972" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="32.512" y="29.972" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.386" y="29.962" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="39.878" y="29.962" size="0.6096" layer="25" align="center"/>
 </element>
 <element name="D7" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="37.084" y="27.432" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="32.512" y="27.432" size="1.778" layer="27" display="off"/>
@@ -540,7 +547,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="32.512" y="27.432" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="32.512" y="27.432" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="32.512" y="27.432" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.386" y="27.422" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="39.878" y="27.422" size="0.6096" layer="25" align="center"/>
 </element>
 <element name="D8" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="37.084" y="24.892" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="32.512" y="24.892" size="1.778" layer="27" display="off"/>
@@ -549,7 +556,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="32.512" y="24.892" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="32.512" y="24.892" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="32.512" y="24.892" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.386" y="24.882" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="39.878" y="24.882" size="0.6096" layer="25" align="center"/>
 </element>
 </elements>
 <signals>
@@ -636,7 +643,6 @@ design rules under a new name.</description>
 <via x="42.672" y="43.688" extent="1-16" drill="0.35"/>
 <via x="44.196" y="43.688" extent="1-16" drill="0.35"/>
 <via x="45.72" y="43.688" extent="1-16" drill="0.35"/>
-<via x="47.244" y="43.688" extent="1-16" drill="0.35"/>
 <via x="39.878" y="42.164" extent="1-16" drill="0.35"/>
 <via x="41.402" y="42.164" extent="1-16" drill="0.35"/>
 <via x="42.926" y="42.164" extent="1-16" drill="0.35"/>
@@ -649,7 +655,7 @@ design rules under a new name.</description>
 <via x="45.974" y="40.132" extent="1-16" drill="0.35"/>
 <via x="54.864" y="40.64" extent="1-16" drill="0.35"/>
 <via x="55.88" y="39.878" extent="1-16" drill="0.35"/>
-<via x="55.626" y="37.592" extent="1-16" drill="0.35"/>
+<via x="55.372" y="37.592" extent="1-16" drill="0.35"/>
 <via x="42.164" y="37.846" extent="1-16" drill="0.35"/>
 <via x="40.894" y="37.846" extent="1-16" drill="0.35"/>
 <via x="39.624" y="37.846" extent="1-16" drill="0.35"/>
@@ -699,10 +705,17 @@ design rules under a new name.</description>
 <via x="43.942" y="23.622" extent="1-16" drill="0.35"/>
 <via x="44.958" y="24.638" extent="1-16" drill="0.35"/>
 <via x="43.434" y="24.638" extent="1-16" drill="0.35"/>
-<via x="50.292" y="24.638" extent="1-16" drill="0.35"/>
+<via x="50.038" y="24.638" extent="1-16" drill="0.35"/>
 <via x="41.656" y="24.892" extent="1-16" drill="0.35"/>
 <via x="40.132" y="25.4" extent="1-16" drill="0.35"/>
 <via x="55.88" y="32.512" extent="1-16" drill="0.35"/>
+<via x="47.498" y="40.132" extent="1-16" drill="0.35"/>
+<via x="49.022" y="40.132" extent="1-16" drill="0.35"/>
+<wire x1="35.684" y1="35.052" x2="36.322" y2="35.69" width="1.016" layer="1" curve="90"/>
+<wire x1="36.322" y1="35.69" x2="36.322" y2="36.322" width="1.016" layer="1"/>
+<wire x1="35.684" y1="35.052" x2="36.322" y2="34.414" width="1.016" layer="1" curve="-90"/>
+<wire x1="36.322" y1="34.414" x2="36.322" y2="33.782" width="1.016" layer="1"/>
+<via x="37.338" y="43.688" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="CS#">
 <contactref element="IC1" pad="1"/>
@@ -727,16 +740,15 @@ design rules under a new name.</description>
 <wire x1="52.4002" y1="42.0878" x2="52.403" y2="42.085" width="0.508" layer="1" curve="-90"/>
 <wire x1="52.4002" y1="42.0878" x2="52.4002" y2="38.8688" width="0.508" layer="1"/>
 <wire x1="52.4002" y1="38.8688" x2="52.403" y2="38.866" width="0.508" layer="1" curve="90"/>
-<via x="47.498" y="41.148" extent="1-16" drill="0.35"/>
-<wire x1="47.498" y1="41.148" x2="47.7746" y2="41.4246" width="0.508" layer="16" curve="-90"/>
-<wire x1="47.7746" y1="41.4246" x2="50.8" y2="41.4246" width="0.508" layer="16"/>
-<via x="50.8" y="41.4246" extent="1-16" drill="0.35"/>
-<wire x1="50.8" y1="41.4246" x2="51.737" y2="41.4246" width="0.508" layer="1"/>
 <wire x1="51.737" y1="41.4246" x2="52.4002" y2="42.0878" width="0.508" layer="1" curve="90"/>
 <wire x1="35.684" y1="40.132" x2="35.684" y2="40.256" width="0.508" layer="1"/>
 <wire x1="35.684" y1="40.256" x2="36.576" y2="41.148" width="0.508" layer="1" curve="-90"/>
-<wire x1="36.576" y1="41.148" x2="47.498" y2="41.148" width="0.508" layer="1"/>
-<wire x1="52.4002" y1="42.0878" x2="51.9938" y2="41.8338" width="0" layer="19" extent="1-1"/>
+<wire x1="36.576" y1="41.148" x2="49.784" y2="41.148" width="0.508" layer="1"/>
+<wire x1="49.784" y1="41.148" x2="50.546" y2="40.386" width="0.508" layer="1" curve="-90"/>
+<wire x1="50.546" y1="40.386" x2="51.308" y2="39.624" width="0.508" layer="1" curve="90"/>
+<wire x1="51.308" y1="39.624" x2="51.645" y2="39.624" width="0.508" layer="1"/>
+<wire x1="51.645" y1="39.624" x2="52.403" y2="38.866" width="0.508" layer="1" curve="-90"/>
+<wire x1="51.737" y1="41.4246" x2="51.816" y2="41.656" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WP#/IO2">
 <contactref element="IC1" pad="3"/>
@@ -744,19 +756,17 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="3"/>
 <contactref element="D3" pad="1"/>
 <wire x1="33.02" y1="37.592" x2="35.684" y2="37.592" width="0.508" layer="1"/>
-<wire x1="49.0982" y1="42.0878" x2="49.0982" y2="41.8338" width="0.508" layer="1"/>
-<wire x1="49.0982" y1="41.8338" x2="50.292" y2="40.64" width="0.508" layer="1" curve="90"/>
-<wire x1="50.292" y1="40.64" x2="51.133" y2="39.799" width="0.508" layer="1" curve="-90"/>
-<wire x1="51.133" y1="39.799" x2="51.133" y2="38.866" width="0.508" layer="1"/>
 <wire x1="37.338" y1="38.354" x2="37.846" y2="38.862" width="0.508" layer="1" curve="-90"/>
 <wire x1="37.846" y1="38.862" x2="48.26" y2="38.862" width="0.508" layer="1"/>
 <wire x1="48.26" y1="38.862" x2="48.768" y2="38.354" width="0.508" layer="1" curve="-90"/>
 <wire x1="48.768" y1="38.354" x2="49.022" y2="38.1" width="0.508" layer="1" curve="90"/>
 <wire x1="49.022" y1="38.1" x2="50.546" y2="38.1" width="0.508" layer="1"/>
-<wire x1="50.546" y1="38.1" x2="51.133" y2="38.687" width="0.508" layer="1" curve="90"/>
 <wire x1="51.133" y1="38.687" x2="51.133" y2="38.866" width="0.508" layer="1"/>
 <wire x1="35.684" y1="37.592" x2="36.576" y2="37.592" width="0.508" layer="1"/>
 <wire x1="36.576" y1="37.592" x2="37.338" y2="38.354" width="0.508" layer="1" curve="90"/>
+<wire x1="50.546" y1="38.1" x2="51.133" y2="38.687" width="0.508" layer="1" curve="90"/>
+<wire x1="46.0502" y1="36.9062" x2="47.244" y2="38.1" width="0.508" layer="1" curve="-90"/>
+<wire x1="47.244" y1="38.1" x2="49.022" y2="38.1" width="0.508" layer="1"/>
 </signal>
 <signal name="HOLD#/IO3">
 <contactref element="IC1" pad="7"/>
@@ -826,9 +836,6 @@ design rules under a new name.</description>
 <wire x1="57.274" y1="31.366" x2="53.968" y2="31.366" width="0.508" layer="1"/>
 <wire x1="54.06" y1="30.226" x2="54.06" y2="31.274" width="0.508" layer="1"/>
 <wire x1="54.06" y1="31.274" x2="53.968" y2="31.366" width="0.508" layer="1" curve="90"/>
-</signal>
-<signal name="N$14">
-<via x="37.338" y="43.688" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
