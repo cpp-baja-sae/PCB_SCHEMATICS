@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -59,15 +59,26 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="76.708" y2="0" width="0" layer="20"/>
+<wire x1="-5.461" y1="0" x2="76.708" y2="0" width="0" layer="20"/>
 <wire x1="76.708" y1="0" x2="76.454" y2="34.544" width="0" layer="20"/>
-<wire x1="76.454" y1="34.544" x2="0" y2="34.544" width="0" layer="20"/>
-<wire x1="0" y1="34.544" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="76.454" y1="34.544" x2="-5.461" y2="34.544" width="0" layer="20"/>
+<wire x1="-5.461" y1="34.544" x2="-5.461" y2="0" width="0" layer="20"/>
 <text x="48.768" y="31.242" size="1.778" layer="21" rot="SR180">2nd Stage</text>
 <text x="33.782" y="31.242" size="1.778" layer="21" rot="SR180">1st Stage</text>
 <text x="61.849" y="31.369" size="1.778" layer="21" rot="SR180">3rd Stage</text>
 <text x="74.549" y="31.242" size="1.778" layer="21" rot="SR180">4th Stage</text>
 <text x="20.955" y="31.242" size="1.778" layer="21" rot="SR180">Raw Signal</text>
+<text x="-3.048" y="22.733" size="0.6096" layer="25">V_12V</text>
+<text x="-3.175" y="20.193" size="0.6096" layer="25">INPUT1</text>
+<text x="-3.302" y="17.526" size="0.6096" layer="25">OUTPUT1</text>
+<text x="-3.429" y="14.986" size="0.6096" layer="25">OUTPUT2</text>
+<text x="-3.302" y="12.446" size="0.6096" layer="25">OUTPUT3</text>
+<text x="-3.429" y="9.906" size="0.6096" layer="25">OUTPUT4</text>
+<text x="-3.302" y="7.366" size="0.6096" layer="25">GND</text>
+<text x="75.311" y="29.464" size="0.6096" layer="26" rot="MR0">BAJA SAE ELECTRICALS
+DESIGNED BY RYAN THAI
+PCB TEMPERATURE SENSOR
+YEAR OF 2021-2022</text>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
@@ -833,7 +844,7 @@ design rules under a new name.</description>
 <element name="TP9" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="68.834" y="25.527" smashed="yes" rot="R270"/>
 <element name="TP10" library="SamacSys_Parts" package="1.85X3.45_MM" value="" x="64.262" y="28.194" smashed="yes" rot="R180"/>
 <element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X07" package3d_urn="urn:adsk.eagle:package:22477/2" value="" x="2.54" y="15.367" smashed="yes" rot="MR270">
-<attribute name="NAME" x="0.8128" y="24.6888" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.9398" y="24.6888" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="0" x="2.54" y="15.367" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="5.715" y="24.257" size="1.27" layer="28" rot="MR270"/>
 </element>
@@ -905,15 +916,15 @@ design rules under a new name.</description>
 <contactref element="TP10" pad="P$1"/>
 <contactref element="JP2" pad="7"/>
 <polygon width="0.3048" layer="1">
-<vertex x="0" y="34.671"/>
-<vertex x="0" y="0"/>
+<vertex x="-5.461" y="34.671"/>
+<vertex x="-5.461" y="0"/>
 <vertex x="76.581" y="0"/>
 <vertex x="76.581" y="34.544"/>
 <vertex x="2.54" y="34.671"/>
 </polygon>
 <polygon width="0.3048" layer="16">
-<vertex x="0" y="34.544"/>
-<vertex x="0" y="-1.143"/>
+<vertex x="-5.461" y="34.544"/>
+<vertex x="-5.461" y="-1.143"/>
 <vertex x="76.454" y="-1.143"/>
 <vertex x="76.454" y="34.544"/>
 </polygon>
@@ -1358,6 +1369,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
