@@ -3311,6 +3311,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <part name="GND92" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND93" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND94" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND95" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4305,6 +4306,9 @@ Communication occurs thorugh a serial line.</text>
 <instance part="GND94" gate="1" x="297.18" y="86.36" smashed="yes">
 <attribute name="VALUE" x="294.64" y="83.82" size="1.778" layer="96"/>
 </instance>
+<instance part="GND95" gate="1" x="246.38" y="129.54" smashed="yes">
+<attribute name="VALUE" x="243.84" y="127" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4524,6 +4528,9 @@ Communication occurs thorugh a serial line.</text>
 <label x="251.46" y="139.7" size="1.778" layer="95"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="137.16" x2="246.38" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="GND95" gate="1" pin="GND"/>
+<wire x1="246.38" y1="134.62" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
+<junction x="246.38" y="134.62"/>
 </segment>
 <segment>
 <wire x1="281.94" y1="99.06" x2="281.94" y2="88.9" width="0.1524" layer="91"/>

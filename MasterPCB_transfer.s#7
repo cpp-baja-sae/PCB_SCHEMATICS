@@ -4311,18 +4311,18 @@ Communication occurs thorugh a serial line.</text>
 <segment>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="AVDD_4"/>
 <wire x1="256.54" y1="241.3" x2="256.54" y2="220.98" width="0.1524" layer="91"/>
-<label x="248.92" y="236.22" size="1.778" layer="95"/>
+<label x="256.54" y="220.98" size="1.778" layer="95" rot="R90"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="AVDD_3"/>
 <wire x1="281.94" y1="220.98" x2="281.94" y2="228.6" width="0.1524" layer="91"/>
-<label x="279.4" y="231.14" size="1.778" layer="95"/>
+<label x="281.94" y="220.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="AVDD_2"/>
 <wire x1="284.48" y1="220.98" x2="284.48" y2="228.6" width="0.1524" layer="91"/>
-<label x="284.48" y="233.68" size="1.778" layer="95"/>
+<label x="284.48" y="220.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="AVDD_1"/>
@@ -4454,22 +4454,22 @@ Communication occurs thorugh a serial line.</text>
 <segment>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="AGND_6"/>
 <wire x1="259.08" y1="220.98" x2="259.08" y2="228.6" width="0.1524" layer="91"/>
-<label x="256.54" y="228.6" size="1.778" layer="95"/>
+<label x="259.08" y="220.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="AGND_5"/>
 <wire x1="274.32" y1="220.98" x2="274.32" y2="228.6" width="0.1524" layer="91"/>
-<label x="271.78" y="228.6" size="1.778" layer="95"/>
+<label x="274.32" y="220.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="AGND_4"/>
 <wire x1="276.86" y1="220.98" x2="276.86" y2="228.6" width="0.1524" layer="91"/>
-<label x="274.32" y="231.14" size="1.778" layer="95"/>
+<label x="276.86" y="220.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="AGND_3"/>
 <wire x1="289.56" y1="220.98" x2="289.56" y2="228.6" width="0.1524" layer="91"/>
-<label x="287.02" y="228.6" size="1.778" layer="95"/>
+<label x="289.56" y="220.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="AGND_2"/>
@@ -5102,7 +5102,7 @@ Communication occurs thorugh a serial line.</text>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="REFGND_2"/>
 <wire x1="264.16" y1="261.62" x2="264.16" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="261.62" x2="261.62" y2="220.98" width="0.1524" layer="91"/>
-<label x="259.08" y="261.62" size="1.778" layer="95"/>
+<label x="261.62" y="220.98" size="1.778" layer="95" rot="R90"/>
 <wire x1="261.62" y1="261.62" x2="264.16" y2="261.62" width="0.1524" layer="91"/>
 <junction x="264.16" y="261.62"/>
 </segment>
@@ -5705,7 +5705,7 @@ Communication occurs thorugh a serial line.</text>
 <segment>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="REFCAPB"/>
 <wire x1="264.16" y1="246.38" x2="264.16" y2="223.52" width="0.1524" layer="91"/>
-<label x="264.16" y="228.6" size="1.778" layer="95" rot="R90"/>
+<label x="264.16" y="220.98" size="1.778" layer="95" rot="R90"/>
 <pinref part="C16" gate="CNA6P1X7R1H106K250AE" pin="1"/>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="REFCAPA"/>
 <wire x1="264.16" y1="223.52" x2="264.16" y2="220.98" width="0.1524" layer="91"/>
@@ -5718,7 +5718,7 @@ Communication occurs thorugh a serial line.</text>
 <segment>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="REFIN/REFOUT"/>
 <wire x1="271.78" y1="220.98" x2="271.78" y2="246.38" width="0.1524" layer="91"/>
-<label x="271.78" y="226.06" size="1.778" layer="95" rot="R90"/>
+<label x="271.78" y="220.98" size="1.778" layer="95" rot="R90"/>
 <pinref part="C17" gate="CNA6P1X7R1H106K250AE" pin="1"/>
 </segment>
 </net>
@@ -5726,7 +5726,7 @@ Communication occurs thorugh a serial line.</text>
 <segment>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="REGCAP2"/>
 <wire x1="279.4" y1="220.98" x2="279.4" y2="241.3" width="0.1524" layer="91"/>
-<label x="274.32" y="238.76" size="1.778" layer="95"/>
+<label x="279.4" y="220.98" size="1.778" layer="95" rot="R90"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -5734,7 +5734,7 @@ Communication occurs thorugh a serial line.</text>
 <segment>
 <pinref part="STRAINGGAUGE_2" gate="G$1" pin="REGCAP1"/>
 <wire x1="287.02" y1="220.98" x2="287.02" y2="241.3" width="0.1524" layer="91"/>
-<label x="287.02" y="238.76" size="1.778" layer="95"/>
+<label x="287.02" y="220.98" size="1.778" layer="95" rot="R90"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 </net>
