@@ -7752,8 +7752,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="VIN6_P">
 <contactref element="R35" pad="2"/>
-<contactref element="C52" pad="1"/>
 <contactref element="STRAINGAUGE_1" pad="59"/>
+<contactref element="C52" pad="1"/>
 <wire x1="155.321" y1="8.551" x2="155.321" y2="11.476" width="0" layer="19" extent="16-16"/>
 <wire x1="-17.884" y1="82.443" x2="155.321" y2="11.476" width="0" layer="19" extent="16-16"/>
 </signal>
@@ -11189,6 +11189,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$166">
 <contactref element="C50" pad="2"/>
+</signal>
+<signal name="N$167">
+<contactref element="C52" pad="2"/>
+</signal>
+<signal name="N$168">
+<contactref element="C51" pad="2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
