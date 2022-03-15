@@ -1184,6 +1184,21 @@
 <wire x1="-1.6" y1="0.825" x2="-1.6" y2="-0.825" width="0.2" layer="21"/>
 <wire x1="-1.6" y1="-0.825" x2="0.85" y2="-0.825" width="0.2" layer="21"/>
 </package>
+<package name="SOD123W" urn="urn:adsk.eagle:footprint:34598067/1" library_version="88">
+<description>&lt;b&gt;SOD123W&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.4" y="0" dx="1.2" dy="1.2" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.2" dy="1.2" layer="1"/>
+<text x="-0.254" y="-0.01" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.254" y="-0.01" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.3" y1="0.85" x2="1.3" y2="0.85" width="0.2" layer="51"/>
+<wire x1="1.3" y1="0.85" x2="1.3" y2="-0.85" width="0.2" layer="51"/>
+<wire x1="1.3" y1="-0.85" x2="-1.3" y2="-0.85" width="0.2" layer="51"/>
+<wire x1="-1.3" y1="-0.85" x2="-1.3" y2="0.85" width="0.2" layer="51"/>
+<wire x1="-1.3" y1="0.85" x2="1.3" y2="0.85" width="0.2" layer="21"/>
+<wire x1="1.3" y1="-0.85" x2="-1.3" y2="-0.85" width="0.2" layer="21"/>
+<circle x="-2.205" y="0.041" radius="0.048" width="0.2" layer="25"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="CAPC1005X55N" urn="urn:adsk.eagle:package:34425013/2" type="model" library_version="48">
@@ -1321,6 +1336,12 @@
 <description>&lt;b&gt;1.6 x 0.8 mm SMD Chip LED Lamp&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="APT1608CGCK"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD123W" urn="urn:adsk.eagle:package:34598068/2" type="model" library_version="88">
+<description>&lt;b&gt;SOD123W&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SOD123W"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4514,6 +4535,66 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-153.67" y="-572.77" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-153.67" y="-572.77" size="1.27" layer="27" align="center"/>
 </element>
+<element name="D1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34598068/2" value="PTVS12VS1UR,115" x="-157.48" y="-593.09" smashed="yes">
+<attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-157.48" y="-593.09" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-157.48" y="-593.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-157.48" y="-593.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="-157.48" y="-593.09" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="-157.48" y="-593.09" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="-157.48" y="-593.09" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-157.734" y="-593.1" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-157.734" y="-593.1" size="1.27" layer="27" align="center"/>
+</element>
+<element name="D2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34598068/2" value="PTVS12VS1UR,115" x="-161.29" y="-595.63" smashed="yes">
+<attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-161.29" y="-595.63" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-161.29" y="-595.63" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-161.29" y="-595.63" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="-161.29" y="-595.63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="-161.29" y="-595.63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="-161.29" y="-595.63" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-161.544" y="-595.64" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-161.544" y="-595.64" size="1.27" layer="27" align="center"/>
+</element>
+<element name="D3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34598068/2" value="PTVS12VS1UR,115" x="-165.1" y="-598.17" smashed="yes">
+<attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-165.1" y="-598.17" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-165.1" y="-598.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-165.1" y="-598.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="-165.1" y="-598.17" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="-165.1" y="-598.17" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="-165.1" y="-598.17" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-165.354" y="-598.18" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-165.354" y="-598.18" size="1.27" layer="27" align="center"/>
+</element>
+<element name="D4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34598068/2" value="PTVS12VS1UR,115" x="-165.1" y="-600.71" smashed="yes">
+<attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-168.91" y="-600.71" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-168.91" y="-600.71" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-168.91" y="-600.71" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="-168.91" y="-600.71" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="-168.91" y="-600.71" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="-168.91" y="-600.71" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-165.354" y="-600.72" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-165.354" y="-600.72" size="1.27" layer="27" align="center"/>
+</element>
+<element name="D5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34598068/2" value="PTVS12VS1UR,115" x="-165.1" y="-603.25" smashed="yes">
+<attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-172.72" y="-603.25" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-172.72" y="-603.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-172.72" y="-603.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="-172.72" y="-603.25" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="-172.72" y="-603.25" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="-172.72" y="-603.25" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-165.354" y="-603.26" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-165.354" y="-603.26" size="1.27" layer="27" align="center"/>
+</element>
+<element name="D6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34598068/2" value="PTVS12VS1UR,115" x="-165.1" y="-605.79" smashed="yes">
+<attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-168.91" y="-605.79" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-168.91" y="-605.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-168.91" y="-605.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="-168.91" y="-605.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="-168.91" y="-605.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="-168.91" y="-605.79" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-165.354" y="-605.8" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-165.354" y="-605.8" size="1.27" layer="27" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="AVDD">
@@ -4744,6 +4825,12 @@ design rules under a new name.</description>
 <contactref element="C43" pad="2"/>
 <contactref element="R133" pad="1"/>
 <contactref element="LED5" pad="2"/>
+<contactref element="D3" pad="2"/>
+<contactref element="D1" pad="2"/>
+<contactref element="D2" pad="2"/>
+<contactref element="D4" pad="2"/>
+<contactref element="D5" pad="2"/>
+<contactref element="D6" pad="2"/>
 <wire x1="-60.78" y1="-433.07" x2="-59.081" y2="-448.36" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.78" y1="-430.53" x2="-60.78" y2="-433.07" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.78" y1="-420.37" x2="-60.78" y2="-430.53" width="0" layer="19" extent="1-1"/>
@@ -4781,6 +4868,12 @@ design rules under a new name.</description>
 <wire x1="-149.31" y1="-575.31" x2="-150.58" y2="-556.26" width="0" layer="19" extent="1-1"/>
 <wire x1="-152.95" y1="-585.47" x2="-149.31" y2="-575.31" width="0" layer="19" extent="1-1"/>
 <wire x1="-152.845" y1="-588.01" x2="-152.95" y2="-585.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-156.08" y1="-593.09" x2="-152.845" y2="-588.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-159.89" y1="-595.63" x2="-156.08" y2="-593.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-163.7" y1="-598.17" x2="-159.89" y2="-595.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-163.7" y1="-600.71" x2="-163.7" y2="-598.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-163.7" y1="-603.25" x2="-163.7" y2="-600.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-163.7" y1="-605.79" x2="-163.7" y2="-603.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.11" y1="-109.22" x2="-41.91" y2="-364.49" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.11" y1="-106.68" x2="-34.11" y2="-109.22" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.11" y1="-104.14" x2="-34.11" y2="-106.68" width="0" layer="19" extent="1-1"/>
@@ -5912,6 +6005,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="DIFF1_N">
 <contactref element="R74" pad="1"/>
+<contactref element="D1" pad="1"/>
+<wire x1="-36.11" y1="-121.92" x2="-158.88" y2="-593.09" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF1_P">
 <contactref element="R73" pad="1"/>
@@ -5919,16 +6014,22 @@ design rules under a new name.</description>
 <contactref element="Z1" pad="4"/>
 <contactref element="Z2" pad="5"/>
 <contactref element="Z2" pad="4"/>
-<wire x1="-62.641" y1="-450.16" x2="-36.11" y2="-119.38" width="0" layer="19" extent="1-1"/>
+<contactref element="D2" pad="1"/>
+<wire x1="-74.071" y1="-478.1" x2="-162.69" y2="-595.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.641" y1="-478.49" x2="-74.071" y2="-478.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.641" y1="-450.16" x2="-71.641" y2="-478.49" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.211" y1="-450.55" x2="-62.641" y2="-450.16" width="0" layer="19" extent="1-1"/>
-<wire x1="-71.641" y1="-478.49" x2="-62.641" y2="-450.16" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.071" y1="-478.1" x2="-71.641" y2="-478.49" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.11" y1="-119.38" x2="-62.641" y2="-450.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF2_N">
 <contactref element="R76" pad="1"/>
+<contactref element="D4" pad="1"/>
+<wire x1="-166.5" y1="-600.71" x2="-36.11" y2="-134.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF2_P">
 <contactref element="R75" pad="1"/>
+<contactref element="D5" pad="1"/>
+<wire x1="-166.5" y1="-603.25" x2="-36.11" y2="-132.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF3_N">
 <contactref element="R78" pad="1"/>
@@ -6504,7 +6605,7 @@ design rules under a new name.</description>
 <contactref element="R97" pad="1"/>
 <wire x1="-142.7525" y1="-530.86" x2="-143.98" y2="-533.4" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$40">
+<signal name="MASS_ON">
 <contactref element="IC4" pad="22"/>
 </signal>
 <signal name="N$41">
@@ -6515,7 +6616,9 @@ design rules under a new name.</description>
 <signal name="ADIN2_">
 <contactref element="IC4" pad="18"/>
 <contactref element="Z2" pad="3"/>
+<contactref element="D6" pad="1"/>
 <wire x1="-76.3068" y1="-457.18" x2="-74.461" y2="-475.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-166.5" y1="-605.79" x2="-74.461" y2="-475.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="LED2" pad="2"/>
@@ -6593,10 +6696,10 @@ design rules under a new name.</description>
 <contactref element="LED4" pad="1"/>
 <wire x1="-76.99" y1="-458.3632" x2="-153.2" y2="-580.39" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$59">
+<signal name="SDA1">
 <contactref element="IC4" pad="19"/>
 </signal>
-<signal name="N$61">
+<signal name="SCL1">
 <contactref element="IC4" pad="20"/>
 </signal>
 <signal name="N$47">
@@ -6622,7 +6725,9 @@ design rules under a new name.</description>
 <signal name="ADIN1_">
 <contactref element="IC4" pad="23"/>
 <contactref element="Z1" pad="3"/>
+<contactref element="D3" pad="1"/>
 <wire x1="-63.031" y1="-447.73" x2="-76.3068" y2="-454.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-166.5" y1="-598.17" x2="-76.3068" y2="-454.68" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -5912,8 +5912,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="DIFF1_N">
 <contactref element="R74" pad="1"/>
-<contactref element="Z1" pad="3"/>
-<wire x1="-63.031" y1="-447.73" x2="-36.11" y2="-121.92" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF1_P">
 <contactref element="R73" pad="1"/>
@@ -6413,9 +6411,6 @@ design rules under a new name.</description>
 <wire x1="-150.58" y1="-558.8" x2="-154.1825" y2="-549.91" width="0" layer="19" extent="1-1"/>
 <wire x1="-153.1575" y1="-568.96" x2="-150.58" y2="-558.8" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="DIFF1_N1">
-<contactref element="Z2" pad="3"/>
-</signal>
 <signal name="N$33">
 <contactref element="C37" pad="1"/>
 <contactref element="IC4" pad="1"/>
@@ -6509,7 +6504,7 @@ design rules under a new name.</description>
 <contactref element="R97" pad="1"/>
 <wire x1="-142.7525" y1="-530.86" x2="-143.98" y2="-533.4" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$40">
+<signal name="MASS_ON">
 <contactref element="IC4" pad="22"/>
 </signal>
 <signal name="N$41">
@@ -6517,8 +6512,10 @@ design rules under a new name.</description>
 <contactref element="LED2" pad="1"/>
 <wire x1="-76.3068" y1="-455.68" x2="-149.99" y2="-537.21" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$42">
+<signal name="ADIN2_">
 <contactref element="IC4" pad="18"/>
+<contactref element="Z2" pad="3"/>
+<wire x1="-76.3068" y1="-457.18" x2="-74.461" y2="-475.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="LED2" pad="2"/>
@@ -6596,10 +6593,10 @@ design rules under a new name.</description>
 <contactref element="LED4" pad="1"/>
 <wire x1="-76.99" y1="-458.3632" x2="-153.2" y2="-580.39" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$59">
+<signal name="SDA1">
 <contactref element="IC4" pad="19"/>
 </signal>
-<signal name="N$61">
+<signal name="SCL1">
 <contactref element="IC4" pad="20"/>
 </signal>
 <signal name="N$47">
@@ -6621,6 +6618,11 @@ design rules under a new name.</description>
 <contactref element="LED5" pad="1"/>
 <contactref element="R135" pad="1"/>
 <wire x1="-154.1825" y1="-572.77" x2="-154.495" y2="-588.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ADIN1_">
+<contactref element="IC4" pad="23"/>
+<contactref element="Z1" pad="3"/>
+<wire x1="-63.031" y1="-447.73" x2="-76.3068" y2="-454.68" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
