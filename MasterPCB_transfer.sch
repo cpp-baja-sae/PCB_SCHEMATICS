@@ -839,8 +839,8 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <wire x1="-5" y1="-2.9" x2="-5" y2="2.9" width="0.05" layer="51"/>
 <circle x="-3" y="0" radius="0.05" width="0.2" layer="25"/>
 </package>
-<package name="RESC1005X40N" urn="urn:adsk.eagle:footprint:34596992/1" library_version="82">
-<description>&lt;b&gt;RC0402&lt;/b&gt;&lt;br&gt;
+<package name="RESC1005X40N" urn="urn:adsk.eagle:footprint:34732737/1" library_version="110">
+<description>&lt;b&gt;CRCW0402&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
 <smd name="2" x="0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
@@ -1356,17 +1356,17 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
 </package>
-<package name="RESC1005X35N" urn="urn:adsk.eagle:footprint:34596960/1" library_version="78">
-<description>&lt;b&gt;0402(1005)_1&lt;/b&gt;&lt;br&gt;
+<package name="RESC1005X35N" urn="urn:adsk.eagle:footprint:34729542/1" library_version="109">
+<description>&lt;b&gt;CPF0402&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
-<smd name="2" x="0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
+<smd name="1" x="-0.55" y="0" dx="0.7" dy="0.6" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.7" dy="0.6" layer="1"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.175" y1="0.55" x2="1.175" y2="0.55" width="0.05" layer="51"/>
-<wire x1="1.175" y1="0.55" x2="1.175" y2="-0.55" width="0.05" layer="51"/>
-<wire x1="1.175" y1="-0.55" x2="-1.175" y2="-0.55" width="0.05" layer="51"/>
-<wire x1="-1.175" y1="-0.55" x2="-1.175" y2="0.55" width="0.05" layer="51"/>
+<wire x1="-1.15" y1="0.55" x2="1.15" y2="0.55" width="0.05" layer="51"/>
+<wire x1="1.15" y1="0.55" x2="1.15" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="1.15" y1="-0.55" x2="-1.15" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="-1.15" y1="-0.55" x2="-1.15" y2="0.55" width="0.05" layer="51"/>
 <wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
 <wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
 <wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
@@ -2013,6 +2013,93 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <wire x1="-1.5" y1="1" x2="-1" y2="1.5" width="0.1" layer="51"/>
 <circle x="-1.9" y="1.5" radius="0.125" width="0.25" layer="25"/>
 </package>
+<package name="ERA2AED122X" urn="urn:adsk.eagle:footprint:34729514/1" library_version="109">
+<description>&lt;b&gt;ERA2A_(0402)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.512" y="0" dx="0.5" dy="0.475" layer="1" rot="R90"/>
+<smd name="2" x="0.512" y="0" dx="0.5" dy="0.475" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.2" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.2" layer="51"/>
+<wire x1="-1.25" y1="0.75" x2="1.25" y2="0.75" width="0.1" layer="51"/>
+<wire x1="1.25" y1="0.75" x2="1.25" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-0.75" x2="-1.25" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-0.75" x2="-1.25" y2="0.75" width="0.1" layer="51"/>
+</package>
+<package name="DIP1016W60P254L914H635Q6N" urn="urn:adsk.eagle:footprint:34729550/1" library_version="109">
+<description>&lt;b&gt;782482/33VC-1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-5.08" y="2.54" drill="0.8" diameter="1.2" shape="square"/>
+<pad name="2" x="-5.08" y="0" drill="0.8" diameter="1.2"/>
+<pad name="3" x="-5.08" y="-2.54" drill="0.8" diameter="1.2"/>
+<pad name="4" x="5.08" y="-2.54" drill="0.8" diameter="1.2"/>
+<pad name="5" x="5.08" y="0" drill="0.8" diameter="1.2"/>
+<pad name="6" x="5.08" y="2.54" drill="0.8" diameter="1.2"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-6.13" y1="4.82" x2="6.13" y2="4.82" width="0.05" layer="51"/>
+<wire x1="6.13" y1="4.82" x2="6.13" y2="-4.82" width="0.05" layer="51"/>
+<wire x1="6.13" y1="-4.82" x2="-6.13" y2="-4.82" width="0.05" layer="51"/>
+<wire x1="-6.13" y1="-4.82" x2="-6.13" y2="4.82" width="0.05" layer="51"/>
+<wire x1="-4.885" y1="4.57" x2="4.885" y2="4.57" width="0.1" layer="51"/>
+<wire x1="4.885" y1="4.57" x2="4.885" y2="-4.57" width="0.1" layer="51"/>
+<wire x1="4.885" y1="-4.57" x2="-4.885" y2="-4.57" width="0.1" layer="51"/>
+<wire x1="-4.885" y1="-4.57" x2="-4.885" y2="4.57" width="0.1" layer="51"/>
+<wire x1="-4.885" y1="3.3" x2="-3.615" y2="4.57" width="0.1" layer="51"/>
+<wire x1="-5.68" y1="4.57" x2="4.885" y2="4.57" width="0.2" layer="21"/>
+<wire x1="-4.885" y1="-4.57" x2="4.885" y2="-4.57" width="0.2" layer="21"/>
+</package>
+<package name="CAPC1608X90N" urn="urn:adsk.eagle:footprint:34729614/1" library_version="109">
+<description>&lt;b&gt;0603-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.7" y="0" dx="0.99" dy="0.78" layer="1" rot="R90"/>
+<smd name="2" x="0.7" y="0" dx="0.99" dy="0.78" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.24" y1="0.65" x2="1.24" y2="0.65" width="0.05" layer="51"/>
+<wire x1="1.24" y1="0.65" x2="1.24" y2="-0.65" width="0.05" layer="51"/>
+<wire x1="1.24" y1="-0.65" x2="-1.24" y2="-0.65" width="0.05" layer="51"/>
+<wire x1="-1.24" y1="-0.65" x2="-1.24" y2="0.65" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.405" x2="0.8" y2="0.405" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.405" x2="0.8" y2="-0.405" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.405" x2="-0.8" y2="-0.405" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.405" x2="-0.8" y2="0.405" width="0.1" layer="51"/>
+</package>
+<package name="QFN50P200X155X50-10N" urn="urn:adsk.eagle:footprint:34732833/1" library_version="112">
+<text x="-1.84" y="-2.605" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.84" y="2.605" size="1.27" layer="25">&gt;NAME</text>
+<circle x="-1.75" y="0.75" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.75" y="0.75" radius="0.1" width="0.2" layer="51"/>
+<wire x1="0.775" y1="-1" x2="-0.775" y2="-1" width="0.127" layer="51"/>
+<wire x1="0.775" y1="1" x2="-0.775" y2="1" width="0.127" layer="51"/>
+<wire x1="0.775" y1="-1" x2="0.775" y2="1" width="0.127" layer="51"/>
+<wire x1="-0.775" y1="-1" x2="-0.775" y2="1" width="0.127" layer="51"/>
+<wire x1="0.775" y1="-1.18" x2="0.43" y2="-1.18" width="0.127" layer="21"/>
+<wire x1="0.775" y1="1.18" x2="0.43" y2="1.18" width="0.127" layer="21"/>
+<wire x1="-0.775" y1="-1.18" x2="-0.43" y2="-1.18" width="0.127" layer="21"/>
+<wire x1="-0.775" y1="1.18" x2="-0.43" y2="1.18" width="0.127" layer="21"/>
+<wire x1="0.775" y1="-1.18" x2="0.775" y2="-1.18" width="0.127" layer="21"/>
+<wire x1="0.775" y1="1.18" x2="0.775" y2="1.18" width="0.127" layer="21"/>
+<wire x1="-0.775" y1="-1.18" x2="-0.775" y2="-1.18" width="0.127" layer="21"/>
+<wire x1="-0.775" y1="1.18" x2="-0.775" y2="1.18" width="0.127" layer="21"/>
+<wire x1="-1.38" y1="-1.605" x2="1.38" y2="-1.605" width="0.05" layer="39"/>
+<wire x1="-1.38" y1="1.605" x2="1.38" y2="1.605" width="0.05" layer="39"/>
+<wire x1="-1.38" y1="-1.605" x2="-1.38" y2="1.605" width="0.05" layer="39"/>
+<wire x1="1.38" y1="-1.605" x2="1.38" y2="1.605" width="0.05" layer="39"/>
+<smd name="5" x="0" y="-0.935" dx="0.84" dy="0.22" layer="1" roundness="25" rot="R90"/>
+<smd name="10" x="0" y="0.935" dx="0.84" dy="0.22" layer="1" roundness="25" rot="R90"/>
+<smd name="1" x="-0.71" y="0.79" dx="0.84" dy="0.3" layer="1" roundness="25"/>
+<smd name="2" x="-0.71" y="0.25" dx="0.84" dy="0.22" layer="1" roundness="25"/>
+<smd name="3" x="-0.71" y="-0.25" dx="0.84" dy="0.22" layer="1" roundness="25"/>
+<smd name="4" x="-0.71" y="-0.75" dx="0.84" dy="0.22" layer="1" roundness="25"/>
+<smd name="6" x="0.71" y="-0.75" dx="0.84" dy="0.22" layer="1" roundness="25"/>
+<smd name="7" x="0.71" y="-0.25" dx="0.84" dy="0.22" layer="1" roundness="25"/>
+<smd name="8" x="0.71" y="0.25" dx="0.84" dy="0.22" layer="1" roundness="25"/>
+<smd name="9" x="0.71" y="0.75" dx="0.84" dy="0.22" layer="1" roundness="25"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="NUCLEO_H723ZG" urn="urn:adsk.eagle:package:34377632/8" type="model" library_version="60">
@@ -2026,8 +2113,8 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <packageinstance name="CGA5L2C0G1H104J160AD"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC1005X40N" urn="urn:adsk.eagle:package:31696460/7" type="model" library_version="82">
-<description>&lt;b&gt;RC0402&lt;/b&gt;&lt;br&gt;</description>
+<package3d name="RESC1005X40N" urn="urn:adsk.eagle:package:31696460/9" type="model" library_version="110">
+<description>&lt;b&gt;CRCW0402&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="RESC1005X40N"/>
 </packageinstances>
@@ -2111,8 +2198,8 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <packageinstance name="CAPC1005X65N"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC1005X35N" urn="urn:adsk.eagle:package:34596961/2" type="model" library_version="78">
-<description>&lt;b&gt;0402(1005)_1&lt;/b&gt;&lt;br&gt;</description>
+<package3d name="RESC1005X35N" urn="urn:adsk.eagle:package:34596961/3" type="model" library_version="109">
+<description>&lt;b&gt;CPF0402&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="RESC1005X35N"/>
 </packageinstances>
@@ -2198,6 +2285,29 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <description>&lt;b&gt;LTC6820IUD#PBF&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="QFN50P300X300X80-17N"/>
+</packageinstances>
+</package3d>
+<package3d name="ERA2AED122X" urn="urn:adsk.eagle:package:34729515/2" type="model" library_version="109">
+<description>&lt;b&gt;ERA2A_(0402)&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="ERA2AED122X"/>
+</packageinstances>
+</package3d>
+<package3d name="DIP1016W60P254L914H635Q6N" urn="urn:adsk.eagle:package:34729551/2" type="model" library_version="109">
+<description>&lt;b&gt;782482/33VC-1&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="DIP1016W60P254L914H635Q6N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC1608X90N" urn="urn:adsk.eagle:package:31941793/3" type="model" library_version="109">
+<description>&lt;b&gt;0603-1&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC1608X90N"/>
+</packageinstances>
+</package3d>
+<package3d name="QFN50P200X155X50-10N" urn="urn:adsk.eagle:package:34732834/2" type="model" library_version="112">
+<packageinstances>
+<packageinstance name="QFN50P200X155X50-10N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3000,6 +3110,93 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <pin name="ICMP" x="17.78" y="17.78" length="middle" rot="R270"/>
 <pin name="GND" x="20.32" y="17.78" length="middle" rot="R270"/>
 </symbol>
+<symbol name="CPF0402B1K21E1" urn="urn:adsk.eagle:symbol:34729541/1" library_version="109">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="ERA-2AEB7870X" urn="urn:adsk.eagle:symbol:34729513/1" library_version="109">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="TNPW0402100RBYEP" urn="urn:adsk.eagle:symbol:34729522/1" library_version="109">
+<wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-0.635" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-1.905" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
+<text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="782482_33VC" urn="urn:adsk.eagle:symbol:34729549/1" library_version="109">
+<wire x1="5.08" y1="2.54" x2="38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-7.62" x2="38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="39.37" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="39.37" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="PRIMARY_1" x="0" y="0" length="middle"/>
+<pin name="PRIMARY_2" x="0" y="-2.54" length="middle"/>
+<pin name="PRIMARY_3" x="0" y="-5.08" length="middle"/>
+<pin name="SECONDARY_3" x="43.18" y="0" length="middle" rot="R180"/>
+<pin name="SECONDARY_2" x="43.18" y="-2.54" length="middle" rot="R180"/>
+<pin name="SECONDARY_1" x="43.18" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="06035C270JAT2A" urn="urn:adsk.eagle:symbol:34729613/1" library_version="109">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="CBTL01023GM,115" urn="urn:adsk.eagle:symbol:34732832/1" library_version="112">
+<pin name="SEL" x="-2.54" y="5.08" visible="pin" length="short"/>
+<pin name="A_N" x="-2.54" y="10.16" visible="pin" length="short"/>
+<pin name="A_P" x="-2.54" y="15.24" visible="pin" length="short"/>
+<pin name="XSD" x="-2.54" y="20.32" visible="pin" length="short"/>
+<pin name="GND" x="7.62" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="B_P" x="17.78" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="B_N" x="17.78" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="C_P" x="17.78" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="C_N" x="17.78" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="VDD" x="7.62" y="-2.54" visible="pin" length="short" rot="R90"/>
+<wire x1="0" y1="25.4" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="25.4" x2="0" y2="25.4" width="0.254" layer="94"/>
+<text x="0" y="-7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CRG0402ZR" urn="urn:adsk.eagle:symbol:34732736/1" library_version="112">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="NUCLEO_H723ZG" urn="urn:adsk.eagle:component:34377634/8" prefix="UC" library_version="60">
@@ -3177,7 +3374,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW04021K30FKTD" urn="urn:adsk.eagle:component:34399789/6" prefix="R" library_version="82">
+<deviceset name="CRCW04021K30FKTD" urn="urn:adsk.eagle:component:34399789/8" prefix="R" library_version="110">
 <description>&lt;b&gt;Thick Film Resistors - SMD 1/16watt 1.3Kohms 1%&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CRCW04021K30FKTD.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3190,7 +3387,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CRCW04021K30F
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3421,7 +3618,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CR0402-FX-9310GLF" urn="urn:adsk.eagle:component:34446424/5" prefix="R" library_version="82">
+<deviceset name="CR0402-FX-9310GLF" urn="urn:adsk.eagle:component:34446424/7" prefix="R" library_version="110">
 <description>&lt;b&gt;Thick Film Resistors - SMD CHIP RESISTOR&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CR0402-FX-9310GLF.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3434,7 +3631,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CR0402-FX-931
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3670,7 +3867,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW040212K0FKTD" urn="urn:adsk.eagle:component:34596962/3" prefix="R" library_version="82">
+<deviceset name="CRCW040212K0FKTD" urn="urn:adsk.eagle:component:34596962/5" prefix="R" library_version="110">
 <description>&lt;b&gt;Thick Film Resistors - SMD 1/16watt 12Kohms 1%&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3683,7 +3880,7 @@ Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet 
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3698,7 +3895,7 @@ Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet 
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW0402510RFKEDC" urn="urn:adsk.eagle:component:34596964/2" prefix="R" library_version="78">
+<deviceset name="CRCW0402510RFKEDC" urn="urn:adsk.eagle:component:34596964/3" prefix="R" library_version="109">
 <description>&lt;b&gt;D10/CRCW0402-C 100 510R 1% ET7&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CRCW0402510RFKEDC.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3711,7 +3908,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CRCW0402510RF
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34596961/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3726,7 +3923,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CRCW0402510RF
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW04021K05FKED" urn="urn:adsk.eagle:component:34596963/3" prefix="R" library_version="82">
+<deviceset name="CRCW04021K05FKED" urn="urn:adsk.eagle:component:34596963/5" prefix="R" library_version="110">
 <description>&lt;b&gt;RESISTOR, 0402 1.05K Ohms +/-1% 0.063 W&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3739,7 +3936,7 @@ Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet 
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3782,7 +3979,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AO
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESR01MZPJ100" urn="urn:adsk.eagle:component:34596905/4" prefix="R" library_version="82">
+<deviceset name="ESR01MZPJ100" urn="urn:adsk.eagle:component:34596905/6" prefix="R" library_version="110">
 <description>&lt;b&gt;Thick Film Resistors - SMD 0402 10ohm 5% Anti Surge AEC-Q200&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/DKDS-18/356400.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3795,7 +3992,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3810,7 +4007,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="RC0402JR-1015KL" urn="urn:adsk.eagle:component:34596904/4" prefix="R" library_version="82">
+<deviceset name="RC0402JR-1015KL" urn="urn:adsk.eagle:component:34596904/6" prefix="R" library_version="110">
 <description>&lt;b&gt;Thick Film Resistors - SMD 15kOhms 1/16W 0402 5%&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3823,7 +4020,7 @@ Source: &lt;a href="http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3858,7 +4055,7 @@ Source: &lt;a href="http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6
 </device>
 </devices>
 </deviceset>
-<deviceset name="CR0402-FX-1022GLF" urn="urn:adsk.eagle:component:34596990/2" prefix="R" library_version="82">
+<deviceset name="CR0402-FX-1022GLF" urn="urn:adsk.eagle:component:34596990/4" prefix="R" library_version="110">
 <description>&lt;b&gt;Thick Film Resistors - SMD 10.2KOHM 1/16WATT 1%&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.bourns.com/pdfs/CR0402.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3871,7 +4068,7 @@ Source: &lt;a href="https://www.bourns.com/pdfs/CR0402.pdf"&gt; Datasheet &lt;/a
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3886,7 +4083,7 @@ Source: &lt;a href="https://www.bourns.com/pdfs/CR0402.pdf"&gt; Datasheet &lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="RC0402JR-133K3L" urn="urn:adsk.eagle:component:34596993/1" prefix="R" library_version="82">
+<deviceset name="RC0402JR-133K3L" urn="urn:adsk.eagle:component:34596993/3" prefix="R" library_version="110">
 <description>&lt;b&gt;Thick Film Resistors - SMD 3.3K ohm 5% 50V General Purpose&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3899,7 +4096,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4356,6 +4553,205 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 </device>
 </devices>
 </deviceset>
+<deviceset name="CPF0402B1K21E1" urn="urn:adsk.eagle:component:34729543/1" prefix="R" library_version="109">
+<description>&lt;b&gt;TE Connectivity CPF Series Precision Thin Film Surface Mount Resistor 0402 Case 1.21k +/-0.1% 0.063W +/-25ppm/C&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CPF0402B1K21E1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X35N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="TE Connectivity CPF Series Precision Thin Film Surface Mount Resistor 0402 Case 1.21k +/-0.1% 0.063W +/-25ppm/C" constant="no"/>
+<attribute name="HEIGHT" value="0.35mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPF0402B1K21E1" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERA-2AEB7870X" urn="urn:adsk.eagle:component:34729516/2" prefix="R" library_version="109">
+<description>&lt;b&gt;Metal Thin Film Chip Resistor, 0402, 0.063W&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ERA-2AEB7870X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ERA2AED122X">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34729515/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" constant="no"/>
+<attribute name="HEIGHT" value="0.4mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-2AEB7870X" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TNPW0402100RBYEP" urn="urn:adsk.eagle:component:34729524/2" prefix="R" library_version="110">
+<description> &lt;a href="https://pricing.snapeda.com/parts/TNPW0402100RBYEP/Vishay/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TNPW0402100RBYEP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 100 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film "/>
+<attribute name="MF" value="Vishay"/>
+<attribute name="MP" value="TNPW0402100RBYEP"/>
+<attribute name="PACKAGE" value="1005 Stackpole"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TNPW0402100RBYEP/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="782482_33VC" urn="urn:adsk.eagle:component:34729552/2" prefix="T" library_version="109">
+<description>&lt;b&gt;1:1.33 Through Hole Telecom Transformer, 310uH, 600m&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.murata-ps.com/data/magnetics/kmp_782482.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="782482_33VC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIP1016W60P254L914H635Q6N">
+<connects>
+<connect gate="G$1" pin="PRIMARY_1" pad="1"/>
+<connect gate="G$1" pin="PRIMARY_2" pad="2"/>
+<connect gate="G$1" pin="PRIMARY_3" pad="3"/>
+<connect gate="G$1" pin="SECONDARY_1" pad="4"/>
+<connect gate="G$1" pin="SECONDARY_2" pad="5"/>
+<connect gate="G$1" pin="SECONDARY_3" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34729551/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="1:1.33 Through Hole Telecom Transformer, 310uH, 600m" constant="no"/>
+<attribute name="HEIGHT" value="6.35mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="782482/33VC" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="580-782482/33VC" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/782482-33VC?qs=2G8o3QlzqXp4rFQDC5ba8Q%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="06035C270JAT2A" urn="urn:adsk.eagle:component:34729615/1" prefix="C" library_version="109">
+<description>&lt;b&gt;Capacitor, 0603 27PF  +/-5% 50V&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="06035C270JAT2A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC1608X90N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31941793/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Capacitor, 0603 27PF  +/-5% 50V" constant="no"/>
+<attribute name="HEIGHT" value="0.9mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="06035C270JAT2A" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CBTL01023GM,115" urn="urn:adsk.eagle:component:34732835/2" prefix="IC" library_version="112">
+<gates>
+<gate name="G$1" symbol="CBTL01023GM,115" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN50P200X155X50-10N">
+<connects>
+<connect gate="G$1" pin="A_N" pad="3"/>
+<connect gate="G$1" pin="A_P" pad="2"/>
+<connect gate="G$1" pin="B_N" pad="8"/>
+<connect gate="G$1" pin="B_P" pad="9"/>
+<connect gate="G$1" pin="C_N" pad="6"/>
+<connect gate="G$1" pin="C_P" pad="7"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="SEL" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="XSD" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34732834/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRG0402ZR" urn="urn:adsk.eagle:component:34732738/1" prefix="R" library_version="112">
+<description>&lt;b&gt;0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data Sheet1773204JpdfEnglishENG_DS_1773204_J.pdf6-1622826-4"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRG0402ZR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR" constant="no"/>
+<attribute name="HEIGHT" value="0.4mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402ZR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-CRG0402ZR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRG0402ZR?qs=n4i9pByFsMS7bfq5JAG5yw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -4471,53 +4867,53 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND96" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="UC1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NUCLEO_H723ZG" device="" package3d_urn="urn:adsk.eagle:package:34377632/8"/>
 <part name="C47" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C48" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C49" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C50" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C51" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C52" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C53" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C54" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C55" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C56" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R19" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R20" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R19" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R20" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C57" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R21" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R22" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R21" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R22" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C58" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R23" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R24" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R23" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R24" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C59" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R25" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R25" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C60" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R27" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R28" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R27" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R28" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C61" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R29" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R30" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R29" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R30" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C62" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R31" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R32" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R31" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R32" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="F2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RTR025N05HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34424412/1"/>
 <part name="R35" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
 <part name="R36" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS04020C1001FE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
@@ -4584,20 +4980,20 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="R55" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERA-2AKD240X" device="" package3d_urn="urn:adsk.eagle:package:34425198/2"/>
 <part name="J1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SAMTEC-SMM-104-02-X-D" device="J" package3d_urn="urn:adsk.eagle:package:34425251/2"/>
 <part name="C28" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R65" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R66" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R65" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R66" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C29" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R67" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R68" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R67" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R68" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C30" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R69" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R70" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R69" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R70" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C31" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R71" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R72" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R71" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R72" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C32" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R57" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R58" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R57" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R58" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="IC1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:34425675/2"/>
 <part name="IC2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:34425675/2"/>
 <part name="IC3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:34425675/2"/>
@@ -4610,12 +5006,12 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R59" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R60" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R61" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R62" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-9310GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R63" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-9310GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R64" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-9310GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R59" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R60" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R61" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R62" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-9310GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R63" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-9310GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R64" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-9310GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C36" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM31C5C1E474JE01L" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
 <part name="C65" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM31C5C1E474JE01L" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
 <part name="C70" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM31C5C1E474JE01L" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
@@ -4632,68 +5028,68 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C74" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R73" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R74" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R73" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R74" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C75" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R75" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R76" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R75" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R76" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C76" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R77" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R78" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R77" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R78" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C77" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R79" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R80" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R79" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R80" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C78" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R81" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R82" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R81" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R82" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C79" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R83" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R84" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R83" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R84" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C80" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R85" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R86" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R85" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R86" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C81" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R87" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R88" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R87" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R88" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C82" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R98" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R102" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R98" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R102" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C83" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R103" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R104" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R103" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R104" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C84" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R105" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R106" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R105" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R106" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C85" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R107" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R108" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R107" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R108" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C86" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R109" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R110" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R109" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R110" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C87" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R111" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R112" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R111" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R112" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C88" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R113" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R114" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R113" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R114" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C89" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R115" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R116" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R115" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R116" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C90" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R117" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R118" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R117" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R118" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C91" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R119" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R120" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R119" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R120" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C92" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R121" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R122" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R121" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R122" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C93" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R123" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R124" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R123" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R124" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="C94" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
-<part name="R125" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R126" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R125" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R126" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="IC5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LP38692SDX-5.0_NOPB" device="" package3d_urn="urn:adsk.eagle:package:34484030/2"/>
 <part name="C96" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CNA5L1X7R1C106K160AE" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
 <part name="C98" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CNA5L1X7R1C106K160AE" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
@@ -4746,18 +5142,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND62" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND63" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R89" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R90" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R91" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R89" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R90" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R91" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND64" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R92" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R93" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R94" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R93" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R94" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C42" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND97" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R95" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R96" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R95" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R96" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND98" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R97" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -4768,18 +5164,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R100" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND101" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R101" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R127" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R128" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R101" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R127" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R128" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND102" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R129" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R130" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R131" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R130" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R131" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C43" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND103" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R132" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R133" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R132" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R133" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND104" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R134" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -4811,18 +5207,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND116" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND117" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND118" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R136" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R137" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R138" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R136" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R137" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R138" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND119" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R139" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R140" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R141" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R140" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R141" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C95" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND120" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R142" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R143" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R142" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R143" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND121" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R144" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -4833,18 +5229,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R146" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND124" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R164" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R165" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R166" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R164" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R165" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R166" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND125" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R167" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R168" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R169" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R168" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R169" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C97" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND126" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R170" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R171" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R170" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R171" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND127" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R172" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -4876,18 +5272,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND139" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND140" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND141" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R174" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R175" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R176" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R174" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R175" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R176" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND142" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R177" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R178" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R179" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R178" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R179" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C112" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND143" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R180" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R181" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R180" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R181" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND144" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R182" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -4898,18 +5294,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R184" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND147" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R185" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R186" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R187" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R185" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R186" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R187" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND148" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R188" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R189" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R190" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R189" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R190" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C113" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND149" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R191" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R192" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R191" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R192" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND150" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R193" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -4941,18 +5337,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND162" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND163" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND164" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R195" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R196" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R197" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R195" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R196" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R197" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND165" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R198" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R199" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R200" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R199" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R200" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C117" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND166" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R202" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R204" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R202" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R204" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND167" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R206" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -4963,18 +5359,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R210" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND170" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R212" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R213" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R214" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R212" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R213" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R214" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND171" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R215" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R216" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R217" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R216" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R217" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C118" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND172" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R218" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R219" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R218" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R219" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND173" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R220" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED19" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5006,18 +5402,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND185" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND186" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND187" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R223" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R224" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R225" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R223" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R224" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R225" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND188" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R226" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R228" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R240" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R228" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R240" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C122" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND189" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R241" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R242" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R241" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R242" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND190" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R243" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED21" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5028,18 +5424,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED23" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R245" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND193" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R246" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R247" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R248" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R246" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R247" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R248" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND194" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R249" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R250" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R251" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R250" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R251" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C123" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND195" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R252" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R253" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R252" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R253" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND196" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R254" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED24" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5071,18 +5467,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND208" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND209" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND210" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R256" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R257" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R258" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R256" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R257" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R258" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND211" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R259" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R260" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R261" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R260" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R261" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C127" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND212" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R262" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R263" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R262" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R263" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND213" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R264" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5093,18 +5489,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED28" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R266" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND216" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R267" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R268" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R269" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R267" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R268" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R269" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND217" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R270" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R271" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R272" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R271" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R272" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C128" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND218" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R273" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R274" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R273" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R274" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND219" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R275" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED29" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5136,18 +5532,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND231" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND232" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND233" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R277" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R278" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R279" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R277" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R278" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R279" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND234" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R280" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R281" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R282" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R281" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R282" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C132" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND235" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R283" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R284" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R283" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R284" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND236" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R285" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED31" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5158,18 +5554,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED33" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R287" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND239" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R288" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R289" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R290" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R288" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R289" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R290" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND240" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R291" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R292" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R293" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R292" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R293" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C133" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND241" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R294" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R295" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R294" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R295" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND242" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R296" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED34" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5201,18 +5597,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND254" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND255" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND256" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R298" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R299" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R300" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R298" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R299" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R300" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND257" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R301" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R302" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R303" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R302" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R303" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C137" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND258" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R304" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R305" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R304" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R305" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND259" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R306" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED36" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5223,18 +5619,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED38" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R308" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND262" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R309" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R310" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R311" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R309" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R310" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R311" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND263" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R312" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R313" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R314" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R313" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R314" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C138" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND264" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R315" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R316" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R315" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R316" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND265" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R317" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED39" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5254,18 +5650,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND277" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND278" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND279" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R319" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R320" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R321" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R319" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R320" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R321" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND280" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R322" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R323" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R324" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R323" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R324" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C142" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND281" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R325" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R326" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R325" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R326" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND282" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R327" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED41" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5276,18 +5672,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED43" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R329" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND285" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R330" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R331" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R332" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R330" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R331" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R332" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND286" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R333" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R334" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R335" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R334" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R335" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C143" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND287" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R336" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R337" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R336" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R337" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND288" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R338" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED44" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5319,18 +5715,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND300" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND301" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND302" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R340" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R341" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R342" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R340" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R341" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R342" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND303" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R343" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R344" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R345" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R344" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R345" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M19" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C147" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND304" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R346" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R347" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R346" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R347" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND305" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R348" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED46" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5341,18 +5737,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED48" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R350" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND308" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R351" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R352" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R353" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R351" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R352" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R353" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND309" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R354" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R355" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R356" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R355" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R356" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M20" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C148" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND310" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R357" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R358" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R357" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R358" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND311" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R359" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED49" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5384,18 +5780,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND323" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND324" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND325" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R361" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R362" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R363" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R361" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R362" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R363" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND326" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R364" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R365" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R366" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R365" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R366" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M21" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C152" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND327" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R367" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R368" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R367" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R368" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND328" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R369" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED51" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5406,18 +5802,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED53" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R371" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND331" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R372" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R373" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R374" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R372" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R373" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R374" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND332" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R375" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R376" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R377" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R376" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R377" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M22" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C153" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND333" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R378" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R379" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R378" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R379" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND334" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R380" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED54" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5449,18 +5845,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND346" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND347" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND348" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R382" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R383" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R384" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R382" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R383" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R384" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND349" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R385" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R386" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R387" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R386" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R387" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M23" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C157" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND350" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R388" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R389" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R388" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R389" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND351" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R390" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED56" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5471,18 +5867,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED58" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R392" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND354" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R393" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R394" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R395" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R393" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R394" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R395" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND355" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R396" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R397" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R398" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R397" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R398" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M24" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C158" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND356" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R399" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R400" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R399" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R400" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND357" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R401" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED59" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5514,18 +5910,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND369" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND370" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND371" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R403" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R404" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R405" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R403" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R404" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R405" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND372" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R406" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R407" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R408" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R407" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R408" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M25" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C162" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND373" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R409" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R410" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R409" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R410" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND374" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R411" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED61" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5536,18 +5932,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED63" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R413" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND377" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R414" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R415" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R416" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R414" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R415" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R416" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND378" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R417" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R418" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R419" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R418" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R419" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C163" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND379" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R420" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R421" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R420" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R421" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND380" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R422" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED64" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5575,18 +5971,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="GND271" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND272" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND388" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R424" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R425" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R426" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R424" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R425" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R426" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND389" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R427" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R428" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R429" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R428" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R429" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M27" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C167" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND390" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R430" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R431" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R430" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R431" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND391" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R432" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED66" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5597,18 +5993,18 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="LED68" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/1"/>
 <part name="R434" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND394" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R435" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R436" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/2"/>
-<part name="R437" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R435" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R436" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R437" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND395" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R438" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
-<part name="R439" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R440" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R439" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R440" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M28" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
 <part name="C168" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="GND396" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R441" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R442" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R441" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R442" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND397" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R443" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="LED69" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/1"/>
@@ -5705,44 +6101,44 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="R471" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND427" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R472" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GMR100HTCFAR100" device="" package3d_urn="urn:adsk.eagle:package:34687650/2"/>
-<part name="R473" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R474" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R475" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R476" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R473" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R474" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R475" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R476" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND428" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND429" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R477" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS04020C1001FE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
 <part name="R478" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS04020C1001FE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
 <part name="IC24" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:34425675/2"/>
-<part name="R479" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R480" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R479" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R480" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND430" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND431" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R481" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GMR100HTCFAR100" device="" package3d_urn="urn:adsk.eagle:package:34687650/2"/>
-<part name="R482" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R483" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R484" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R485" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R482" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R483" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R484" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R485" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND432" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND433" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R486" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS04020C1001FE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
 <part name="R487" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS04020C1001FE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
-<part name="R488" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R489" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R488" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R489" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND434" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC25" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:34425675/2"/>
 <part name="GND435" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R490" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GMR100HTCFAR100" device="" package3d_urn="urn:adsk.eagle:package:34687650/2"/>
-<part name="R491" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R492" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R493" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R494" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R491" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R492" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R493" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R494" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND436" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND437" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R495" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS04020C1001FE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
 <part name="R496" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS04020C1001FE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
-<part name="R497" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
-<part name="R498" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/7"/>
+<part name="R497" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R498" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND438" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:34425675/2"/>
 <part name="GND439" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5800,6 +6196,30 @@ Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data
 <part name="C169" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM31C5C1E474JE01L" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
 <part name="GND470" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC32" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC6820IUD#PBF" device="" package3d_urn="urn:adsk.eagle:package:34729501/2"/>
+<part name="C170" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM31C5C1E474JE01L" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
+<part name="GND471" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND472" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R510" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CPF0402B1K21E1" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
+<part name="R511" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERA-2AEB7870X" device="" package3d_urn="urn:adsk.eagle:package:34729515/2"/>
+<part name="R512" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="TNPW0402100RBYEP" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="T1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="782482_33VC" device="" package3d_urn="urn:adsk.eagle:package:34729551/2"/>
+<part name="C171" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="06035C270JAT2A" device="" package3d_urn="urn:adsk.eagle:package:31941793/3"/>
+<part name="C172" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="06035C270JAT2A" device="" package3d_urn="urn:adsk.eagle:package:31941793/3"/>
+<part name="GND473" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND474" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND475" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND476" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="IC33" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CBTL01023GM,115" device="" package3d_urn="urn:adsk.eagle:package:34732834/2"/>
+<part name="R513" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRG0402ZR" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R514" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRG0402ZR" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="GND477" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R515" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRG0402ZR" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R516" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRG0402ZR" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R517" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRG0402ZR" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R518" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRG0402ZR" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R519" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRG0402ZR" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R520" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRG0402ZR" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
+<part name="R521" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRG0402ZR" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 </parts>
 <sheets>
 <sheet>
@@ -8276,6 +8696,7 @@ Communication occurs thorugh a serial line.</text>
 </nets>
 </sheet>
 <sheet>
+<description>General and accelerometer ADC</description>
 <plain>
 <text x="30.48" y="233.68" size="1.778" layer="97">2x 16 bit differential single frame capture SAR ADCs that are dedicated for measuring simultaneous outputs from strain gauges.
 
@@ -10692,6 +11113,7 @@ R = 24ohm</text>
 </nets>
 </sheet>
 <sheet>
+<description>Connectors and fusing</description>
 <plain>
 <text x="-106.68" y="3.81" size="1.778" layer="97">34x connectors
 
@@ -10788,14 +11210,14 @@ and inrush current resistor</text>
 <wire x1="688.34" y1="728.98" x2="718.82" y2="728.98" width="0.1524" layer="94"/>
 <wire x1="718.82" y1="728.98" x2="718.82" y2="736.6" width="0.1524" layer="94"/>
 <wire x1="718.82" y1="736.6" x2="688.34" y2="736.6" width="0.1524" layer="94"/>
-<wire x1="802.64" y1="723.9" x2="802.64" y2="662.94" width="0.1524" layer="94"/>
-<wire x1="802.64" y1="662.94" x2="906.78" y2="662.94" width="0.1524" layer="94"/>
-<wire x1="906.78" y1="662.94" x2="906.78" y2="723.9" width="0.1524" layer="94"/>
-<wire x1="906.78" y1="723.9" x2="802.64" y2="723.9" width="0.1524" layer="94"/>
-<wire x1="932.18" y1="723.9" x2="932.18" y2="662.94" width="0.1524" layer="94"/>
-<wire x1="932.18" y1="662.94" x2="1036.32" y2="662.94" width="0.1524" layer="94"/>
+<wire x1="822.96" y1="723.9" x2="822.96" y2="662.94" width="0.1524" layer="94"/>
+<wire x1="822.96" y1="662.94" x2="894.08" y2="662.94" width="0.1524" layer="94"/>
+<wire x1="894.08" y1="662.94" x2="894.08" y2="723.9" width="0.1524" layer="94"/>
+<wire x1="894.08" y1="723.9" x2="822.96" y2="723.9" width="0.1524" layer="94"/>
+<wire x1="911.86" y1="723.9" x2="911.86" y2="662.94" width="0.1524" layer="94"/>
+<wire x1="911.86" y1="662.94" x2="1036.32" y2="662.94" width="0.1524" layer="94"/>
 <wire x1="1036.32" y1="662.94" x2="1036.32" y2="723.9" width="0.1524" layer="94"/>
-<wire x1="1036.32" y1="723.9" x2="932.18" y2="723.9" width="0.1524" layer="94"/>
+<wire x1="1036.32" y1="723.9" x2="911.86" y2="723.9" width="0.1524" layer="94"/>
 <text x="843.28" y="731.52" size="1.778" layer="97">SPI LINK 40G accelerometer</text>
 <wire x1="840.74" y1="736.6" x2="840.74" y2="728.98" width="0.1524" layer="94"/>
 <wire x1="840.74" y1="728.98" x2="876.3" y2="728.98" width="0.1524" layer="94"/>
@@ -14226,6 +14648,26 @@ to the node at this segment of the board</text>
 <instance part="GND414" gate="1" x="281.94" y="797.56" smashed="yes">
 <attribute name="VALUE" x="279.4" y="795.02" size="1.778" layer="96"/>
 </instance>
+<instance part="R517" gate="G$1" x="962.66" y="718.82" smashed="yes" rot="R180">
+<attribute name="NAME" x="928.37" y="717.55" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="928.37" y="720.09" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
+<instance part="R518" gate="G$1" x="962.66" y="711.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="928.37" y="709.93" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="928.37" y="712.47" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
+<instance part="R519" gate="G$1" x="962.66" y="680.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="928.37" y="676.91" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="928.37" y="679.45" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
+<instance part="R520" gate="G$1" x="962.66" y="695.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="928.37" y="692.15" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="928.37" y="694.69" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
+<instance part="R521" gate="G$1" x="962.66" y="688.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="928.37" y="684.53" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="928.37" y="687.07" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15901,24 +16343,6 @@ to the node at this segment of the board</text>
 <wire x1="30.48" y1="205.74" x2="30.48" y2="208.28" width="0.1524" layer="91"/>
 <label x="27.94" y="208.28" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="Z15" gate="Z$1" pin="4"/>
-<wire x1="845.82" y1="701.04" x2="840.74" y2="701.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Z15" gate="Z$1" pin="3"/>
-<wire x1="853.44" y1="688.34" x2="853.44" y2="683.26" width="0.1524" layer="91"/>
-<label x="840.74" y="683.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Z16" gate="Z$1" pin="4"/>
-<wire x1="975.36" y1="701.04" x2="970.28" y2="701.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Z16" gate="Z$1" pin="3"/>
-<wire x1="982.98" y1="688.34" x2="982.98" y2="683.26" width="0.1524" layer="91"/>
-<label x="970.28" y="683.26" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="13.5V_BUS" class="0">
 <segment>
@@ -16641,6 +17065,16 @@ to the node at this segment of the board</text>
 <wire x1="281.94" y1="838.2" x2="281.94" y2="840.74" width="0.1524" layer="91"/>
 <label x="276.86" y="843.28" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="Z15" gate="Z$1" pin="1"/>
+<wire x1="871.22" y1="701.04" x2="876.3" y2="701.04" width="0.1524" layer="91"/>
+<label x="876.3" y="698.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Z16" gate="Z$1" pin="1"/>
+<wire x1="1000.76" y1="701.04" x2="1005.84" y2="701.04" width="0.1524" layer="91"/>
+<label x="1005.84" y="698.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$33" class="0">
 <segment>
@@ -16904,11 +17338,6 @@ to the node at this segment of the board</text>
 <pinref part="D6" gate="G$1" pin="K"/>
 <wire x1="231.14" y1="205.74" x2="231.14" y2="208.28" width="0.1524" layer="91"/>
 <label x="233.68" y="208.28" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="Z16" gate="Z$1" pin="2"/>
-<wire x1="993.14" y1="688.34" x2="993.14" y2="683.26" width="0.1524" layer="91"/>
-<label x="995.68" y="683.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -17259,11 +17688,6 @@ to the node at this segment of the board</text>
 <pinref part="D3" gate="G$1" pin="K"/>
 <wire x1="101.6" y1="205.74" x2="101.6" y2="208.28" width="0.1524" layer="91"/>
 <label x="104.14" y="208.28" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="Z15" gate="Z$1" pin="2"/>
-<wire x1="863.6" y1="688.34" x2="863.6" y2="683.26" width="0.1524" layer="91"/>
-<label x="866.14" y="683.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIFF1_N" class="0">
@@ -22173,11 +22597,6 @@ to the node at this segment of the board</text>
 <wire x1="1003.3" y1="629.92" x2="1003.3" y2="627.38" width="0.1524" layer="91"/>
 <label x="1003.3" y="624.84" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="Z15" gate="Z$1" pin="1"/>
-<wire x1="871.22" y1="701.04" x2="876.3" y2="701.04" width="0.1524" layer="91"/>
-<label x="873.76" y="703.58" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="FB1_10" class="0">
 <segment>
@@ -22267,11 +22686,6 @@ to the node at this segment of the board</text>
 <pinref part="R315" gate="G$1" pin="1"/>
 <wire x1="934.72" y1="502.92" x2="934.72" y2="500.38" width="0.1524" layer="91"/>
 <label x="924.56" y="497.84" size="1.778" layer="95" rot="MR180"/>
-</segment>
-<segment>
-<pinref part="Z16" gate="Z$1" pin="1"/>
-<wire x1="1000.76" y1="701.04" x2="1005.84" y2="701.04" width="0.1524" layer="91"/>
-<label x="1003.3" y="703.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GATE2_10" class="0">
@@ -23020,6 +23434,106 @@ to the node at this segment of the board</text>
 <pinref part="R458" gate="G$1" pin="2"/>
 <pinref part="LED84" gate="G$1" pin="A"/>
 <wire x1="281.94" y1="820.42" x2="281.94" y2="817.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IP_OUT1" class="0">
+<segment>
+<pinref part="Z15" gate="Z$1" pin="4"/>
+<wire x1="845.82" y1="701.04" x2="840.74" y2="701.04" width="0.1524" layer="91"/>
+<label x="840.74" y="703.58" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R517" gate="G$1" pin="2"/>
+<wire x1="944.88" y1="718.82" x2="942.34" y2="718.82" width="0.1524" layer="91"/>
+<label x="942.34" y="721.36" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="40G_GPIO" class="0">
+<segment>
+<pinref part="Z15" gate="Z$1" pin="2"/>
+<wire x1="863.6" y1="688.34" x2="863.6" y2="683.26" width="0.1524" layer="91"/>
+<label x="866.14" y="683.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IM_OUT1" class="0">
+<segment>
+<pinref part="Z15" gate="Z$1" pin="3"/>
+<wire x1="853.44" y1="688.34" x2="853.44" y2="683.26" width="0.1524" layer="91"/>
+<label x="850.9" y="683.26" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="C1" class="0">
+<segment>
+<pinref part="Z16" gate="Z$1" pin="4"/>
+<wire x1="975.36" y1="701.04" x2="970.28" y2="701.04" width="0.1524" layer="91"/>
+<label x="970.28" y="703.58" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R517" gate="G$1" pin="1"/>
+<wire x1="962.66" y1="718.82" x2="965.2" y2="718.82" width="0.1524" layer="91"/>
+<label x="962.66" y="718.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R520" gate="G$1" pin="1"/>
+<wire x1="962.66" y1="695.96" x2="965.2" y2="695.96" width="0.1524" layer="91"/>
+<label x="962.66" y="695.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="C2" class="0">
+<segment>
+<pinref part="Z16" gate="Z$1" pin="3"/>
+<wire x1="982.98" y1="688.34" x2="982.98" y2="683.26" width="0.1524" layer="91"/>
+<label x="980.44" y="683.26" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R518" gate="G$1" pin="1"/>
+<wire x1="962.66" y1="711.2" x2="965.2" y2="711.2" width="0.1524" layer="91"/>
+<label x="962.66" y="711.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R521" gate="G$1" pin="1"/>
+<wire x1="962.66" y1="688.34" x2="965.2" y2="688.34" width="0.1524" layer="91"/>
+<label x="962.66" y="688.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="C3" class="0">
+<segment>
+<pinref part="Z16" gate="Z$1" pin="2"/>
+<wire x1="993.14" y1="688.34" x2="993.14" y2="683.26" width="0.1524" layer="91"/>
+<label x="995.68" y="683.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R519" gate="G$1" pin="1"/>
+<wire x1="962.66" y1="680.72" x2="965.2" y2="680.72" width="0.1524" layer="91"/>
+<label x="962.66" y="680.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IM_OUT2" class="0">
+<segment>
+<pinref part="R518" gate="G$1" pin="2"/>
+<wire x1="942.34" y1="711.2" x2="944.88" y2="711.2" width="0.1524" layer="91"/>
+<label x="942.34" y="713.74" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="!THERMOCOUPLE_CS" class="0">
+<segment>
+<pinref part="R519" gate="G$1" pin="2"/>
+<wire x1="944.88" y1="680.72" x2="942.34" y2="680.72" width="0.1524" layer="91"/>
+<label x="942.34" y="683.26" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="THERMOCOUPLE_SCLK" class="0">
+<segment>
+<pinref part="R520" gate="G$1" pin="2"/>
+<wire x1="944.88" y1="695.96" x2="942.34" y2="695.96" width="0.1524" layer="91"/>
+<label x="942.34" y="698.5" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="THERMOCOUPLE_MISO" class="0">
+<segment>
+<pinref part="R521" gate="G$1" pin="2"/>
+<wire x1="942.34" y1="688.34" x2="944.88" y2="688.34" width="0.1524" layer="91"/>
+<label x="942.34" y="690.88" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
@@ -24106,6 +24620,7 @@ Output on-board voltages
 </nets>
 </sheet>
 <sheet>
+<description>Temperature sensors</description>
 <plain>
 <text x="-12.7" y="63.5" size="1.778" layer="97">Board temperature sensors</text>
 <wire x1="-15.24" y1="68.58" x2="-15.24" y2="60.96" width="0.1524" layer="94"/>
@@ -24932,55 +25447,363 @@ BLUE LED - Power at location is available</text>
 <sheet>
 <description>ISO SPI LINK</description>
 <plain>
+<text x="73.66" y="116.84" size="1.778" layer="97">Manual disconnect between 
+dual and single driver operation
+Priority is 40G accelerometer connection</text>
+<wire x1="71.12" y1="127" x2="71.12" y2="114.3" width="0.1524" layer="94"/>
+<wire x1="71.12" y1="114.3" x2="119.38" y2="114.3" width="0.1524" layer="94"/>
+<wire x1="119.38" y1="114.3" x2="119.38" y2="127" width="0.1524" layer="94"/>
+<wire x1="119.38" y1="127" x2="71.12" y2="127" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="IC32" gate="G$1" x="17.78" y="40.64" smashed="yes">
 <attribute name="NAME" x="44.45" y="58.42" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="44.45" y="55.88" size="1.778" layer="96" align="center-left"/>
 </instance>
+<instance part="C170" gate="G$1" x="35.56" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="41.91" y="3.81" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="39.37" y="3.81" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="GND471" gate="1" x="35.56" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="33.02" y="-7.62" size="1.778" layer="96"/>
+</instance>
+<instance part="GND472" gate="1" x="38.1" y="63.5" smashed="yes" rot="R180">
+<attribute name="VALUE" x="40.64" y="66.04" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R510" gate="G$1" x="101.6" y="55.88" smashed="yes" rot="R270">
+<attribute name="NAME" x="107.95" y="54.61" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="105.41" y="54.61" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="R511" gate="G$1" x="101.6" y="33.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="107.95" y="31.75" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="105.41" y="31.75" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="R512" gate="G$1" x="78.74" y="35.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="81.28148125" y="43.184440625" size="2.54148125" layer="95" rot="R270"/>
+<attribute name="VALUE" x="73.653359375" y="43.18996875" size="2.54331875" layer="96" rot="R270"/>
+</instance>
+<instance part="T1" gate="G$1" x="-20.32" y="91.44" smashed="yes">
+<attribute name="NAME" x="-1.27" y="99.06" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-1.27" y="96.52" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C171" gate="G$1" x="-33.02" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="-46.99" y="82.55" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="-46.99" y="85.09" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
+<instance part="C172" gate="G$1" x="35.56" y="88.9" smashed="yes">
+<attribute name="NAME" x="41.91" y="95.25" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="41.91" y="92.71" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="GND473" gate="1" x="-50.8" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-53.34" y="91.44" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND474" gate="1" x="53.34" y="88.9" smashed="yes" rot="R90">
+<attribute name="VALUE" x="55.88" y="86.36" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND475" gate="1" x="101.6" y="10.16" smashed="yes">
+<attribute name="VALUE" x="99.06" y="7.62" size="1.778" layer="96"/>
+</instance>
+<instance part="GND476" gate="1" x="27.94" y="63.5" smashed="yes" rot="R180">
+<attribute name="VALUE" x="30.48" y="66.04" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IC33" gate="G$1" x="106.68" y="76.2" smashed="yes">
+<attribute name="NAME" x="106.68" y="68.58" size="1.27" layer="95"/>
+<attribute name="VALUE" x="106.68" y="66.04" size="1.27" layer="96"/>
+</instance>
+<instance part="R513" gate="G$1" x="99.06" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.55" y="92.71" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="82.55" y="95.25" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
+<instance part="R514" gate="G$1" x="99.06" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.55" y="82.55" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="82.55" y="85.09" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
+<instance part="GND477" gate="1" x="114.3" y="109.22" smashed="yes" rot="R180">
+<attribute name="VALUE" x="116.84" y="111.76" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R515" gate="G$1" x="53.34" y="119.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="46.99" y="123.19" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="46.99" y="125.73" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
+<instance part="R516" gate="G$1" x="53.34" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="49.53" y="105.41" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="49.53" y="107.95" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$345" class="0">
+<net name="ISO_MOSI" class="0">
 <segment>
 <pinref part="IC32" gate="G$1" pin="MOSI"/>
 <wire x1="17.78" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
+<label x="15.24" y="43.18" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="ISO_MISO" class="0">
+<segment>
+<pinref part="IC32" gate="G$1" pin="MISO"/>
+<wire x1="17.78" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
+<label x="15.24" y="40.64" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="ISO_SPI_SCLK" class="0">
+<segment>
+<pinref part="IC32" gate="G$1" pin="SCK"/>
+<wire x1="17.78" y1="35.56" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
+<label x="15.24" y="38.1" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="!ISO_CS" class="0">
+<segment>
+<pinref part="IC32" gate="G$1" pin="!CS"/>
+<wire x1="17.78" y1="33.02" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
+<label x="15.24" y="35.56" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="C170" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="0" x2="35.56" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="GND471" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC32" gate="G$1" pin="GND"/>
+<wire x1="38.1" y1="58.42" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="GND472" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C171" gate="G$1" pin="2"/>
+<wire x1="-45.72" y1="88.9" x2="-48.26" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="GND473" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C172" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="88.9" x2="50.8" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="GND474" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R511" gate="G$1" pin="2"/>
+<pinref part="GND475" gate="1" pin="GND"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC32" gate="G$1" pin="EP"/>
+<wire x1="27.94" y1="58.42" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="GND476" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC33" gate="G$1" pin="GND"/>
+<wire x1="114.3" y1="104.14" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="GND477" gate="1" pin="GND"/>
+</segment>
+</net>
+<net name="3.3V_SENSORS" class="0">
+<segment>
+<pinref part="C170" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="12.7" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
+<label x="38.1" y="15.24" size="1.778" layer="95"/>
+<pinref part="IC32" gate="G$1" pin="PHA"/>
+<wire x1="35.56" y1="15.24" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="17.78" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
+<junction x="35.56" y="15.24"/>
+<pinref part="IC32" gate="G$1" pin="VDD"/>
+<pinref part="IC32" gate="G$1" pin="POL"/>
+<wire x1="30.48" y1="17.78" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
+<junction x="33.02" y="15.24"/>
+<pinref part="IC32" gate="G$1" pin="VDDS"/>
+<wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
+<junction x="30.48" y="15.24"/>
+</segment>
+<segment>
+<pinref part="IC32" gate="G$1" pin="EN"/>
+<wire x1="30.48" y1="58.42" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
+<label x="20.32" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC32" gate="G$1" pin="MSTR"/>
+<wire x1="48.26" y1="38.1" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
+<label x="50.8" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC33" gate="G$1" pin="VDD"/>
+<wire x1="114.3" y1="73.66" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
+<label x="114.3" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ISO_SPI_SLOW" class="0">
+<segment>
+<pinref part="IC32" gate="G$1" pin="SLOW"/>
+<wire x1="48.26" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<label x="50.8" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IP_INPUT" class="0">
+<segment>
+<pinref part="IC32" gate="G$1" pin="IP"/>
+<wire x1="48.26" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
+<label x="50.8" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="T1" gate="G$1" pin="PRIMARY_1"/>
+<label x="-20.32" y="96.52" size="1.778" layer="95" rot="R180"/>
+<wire x1="-20.32" y1="91.44" x2="-33.02" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R512" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="45.72" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
+<label x="81.28" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IM_INPUT" class="0">
+<segment>
+<pinref part="IC32" gate="G$1" pin="IM"/>
+<wire x1="48.26" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
+<label x="50.8" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="T1" gate="G$1" pin="PRIMARY_3"/>
+<label x="-20.32" y="83.82" size="1.778" layer="95" rot="R180"/>
+<wire x1="-20.32" y1="86.36" x2="-33.02" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R512" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="25.4" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
+<label x="81.28" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$356" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="PRIMARY_2"/>
+<pinref part="C171" gate="G$1" pin="1"/>
+<wire x1="-20.32" y1="88.9" x2="-33.02" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IP_OUTPUT" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="SECONDARY_3"/>
+<label x="22.86" y="93.98" size="1.778" layer="95"/>
+<pinref part="R513" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R515" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="119.38" x2="33.02" y2="119.38" width="0.1524" layer="91"/>
+<label x="33.02" y="121.92" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$360" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="SECONDARY_2"/>
+<pinref part="C172" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="88.9" x2="35.56" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IM_OUTPUT" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="SECONDARY_1"/>
+<label x="22.86" y="81.28" size="1.778" layer="95"/>
+<pinref part="R514" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R516" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
+<label x="33.02" y="114.3" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R516" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="111.76" x2="55.88" y2="111.76" width="0.1524" layer="91"/>
+<label x="55.88" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ICMP" class="0">
+<segment>
+<pinref part="R510" gate="G$1" pin="2"/>
+<pinref part="R511" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="38.1" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
+<label x="93.98" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC32" gate="G$1" pin="ICMP"/>
+<wire x1="35.56" y1="58.42" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
+<label x="35.56" y="60.96" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="IBAIS" class="0">
+<segment>
+<pinref part="R510" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="55.88" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
+<label x="93.98" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC32" gate="G$1" pin="IBIAS"/>
+<wire x1="33.02" y1="58.42" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
+<label x="33.02" y="60.96" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$345" class="0">
+<segment>
+<pinref part="IC33" gate="G$1" pin="A_P"/>
+<pinref part="R513" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="91.44" x2="104.14" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$347" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="MISO"/>
-<wire x1="17.78" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="IC33" gate="G$1" pin="A_N"/>
+<pinref part="R514" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$349" class="0">
+<net name="IP_OUT1" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="SCK"/>
-<wire x1="17.78" y1="35.56" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="IC33" gate="G$1" pin="B_P"/>
+<wire x1="124.46" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
+<label x="127" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R515" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="119.38" x2="55.88" y2="119.38" width="0.1524" layer="91"/>
+<label x="55.88" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$351" class="0">
+<net name="IM_OUT1" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="!CS"/>
-<wire x1="17.78" y1="33.02" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="IC33" gate="G$1" pin="B_N"/>
+<wire x1="124.46" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
+<label x="127" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$352" class="0">
+<net name="IP_OUT2" class="0">
 <segment>
-<pinref part="IC32" gate="G$1" pin="VDDS"/>
-<wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="IC32" gate="G$1" pin="VDD"/>
-<wire x1="30.48" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="15.24" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="IC32" gate="G$1" pin="PHA"/>
-<wire x1="33.02" y1="17.78" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
-<junction x="33.02" y="15.24"/>
-<pinref part="IC32" gate="G$1" pin="POL"/>
-<wire x1="30.48" y1="17.78" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
-<junction x="30.48" y="15.24"/>
+<pinref part="IC33" gate="G$1" pin="C_P"/>
+<wire x1="124.46" y1="86.36" x2="127" y2="86.36" width="0.1524" layer="91"/>
+<label x="127" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IM_OUT2" class="0">
+<segment>
+<pinref part="IC33" gate="G$1" pin="C_N"/>
+<wire x1="124.46" y1="81.28" x2="127" y2="81.28" width="0.1524" layer="91"/>
+<label x="127" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ISO_SPI_CH_SEL" class="0">
+<segment>
+<pinref part="IC33" gate="G$1" pin="SEL"/>
+<wire x1="104.14" y1="81.28" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
+<label x="101.6" y="81.28" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="ISO_SPI_HIGH_Z_SWITCH" class="0">
+<segment>
+<pinref part="IC33" gate="G$1" pin="XSD"/>
+<wire x1="104.14" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
+<label x="101.6" y="99.06" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
