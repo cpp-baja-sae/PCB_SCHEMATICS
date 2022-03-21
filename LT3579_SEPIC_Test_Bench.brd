@@ -293,6 +293,116 @@
 <wire x1="-1.55" y1="-0.8" x2="-1.55" y2="0.8" width="0.1" layer="51"/>
 <wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.2" layer="21"/>
 </package>
+<package name="CAPC2013X150N">
+<description>&lt;b&gt;CEU4J2X7R1H104K125AE&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.03" y="0" dx="1.52" dy="0.67" layer="1" rot="R90"/>
+<smd name="2" x="1.03" y="0" dx="1.52" dy="0.67" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.515" y1="0.91" x2="1.515" y2="0.91" width="0.05" layer="51"/>
+<wire x1="1.515" y1="0.91" x2="1.515" y2="-0.91" width="0.05" layer="51"/>
+<wire x1="1.515" y1="-0.91" x2="-1.515" y2="-0.91" width="0.05" layer="51"/>
+<wire x1="-1.515" y1="-0.91" x2="-1.515" y2="0.91" width="0.05" layer="51"/>
+<wire x1="-1.025" y1="0.638" x2="1.025" y2="0.638" width="0.1" layer="51"/>
+<wire x1="1.025" y1="0.638" x2="1.025" y2="-0.638" width="0.1" layer="51"/>
+<wire x1="1.025" y1="-0.638" x2="-1.025" y2="-0.638" width="0.1" layer="51"/>
+<wire x1="-1.025" y1="-0.638" x2="-1.025" y2="0.638" width="0.1" layer="51"/>
+<wire x1="0" y1="0.538" x2="0" y2="-0.538" width="0.2" layer="21"/>
+</package>
+<package name="RESC1005X37N">
+<description>&lt;b&gt;MCS0402&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.55" y="0" dx="0.7" dy="0.6" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.7" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.15" y1="0.55" x2="1.15" y2="0.55" width="0.05" layer="51"/>
+<wire x1="1.15" y1="0.55" x2="1.15" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="1.15" y1="-0.55" x2="-1.15" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="-1.15" y1="-0.55" x2="-1.15" y2="0.55" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+</package>
+<package name="SOT230P700X180-4N">
+<description>&lt;b&gt;SOT223-3&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.6" y="2.3" dx="2.75" dy="0.95" layer="1"/>
+<smd name="2" x="-2.6" y="0" dx="2.75" dy="0.95" layer="1"/>
+<smd name="3" x="-2.6" y="-2.3" dx="2.75" dy="0.95" layer="1"/>
+<smd name="4" x="2.6" y="0" dx="3.25" dy="2.75" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.225" y1="3.6" x2="4.225" y2="3.6" width="0.05" layer="51"/>
+<wire x1="4.225" y1="3.6" x2="4.225" y2="-3.6" width="0.05" layer="51"/>
+<wire x1="4.225" y1="-3.6" x2="-4.225" y2="-3.6" width="0.05" layer="51"/>
+<wire x1="-4.225" y1="-3.6" x2="-4.225" y2="3.6" width="0.05" layer="51"/>
+<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="0.95" x2="0.55" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-0.875" y1="3.25" x2="0.875" y2="3.25" width="0.2" layer="21"/>
+<wire x1="0.875" y1="3.25" x2="0.875" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="0.875" y1="-3.25" x2="-0.875" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="-0.875" y1="-3.25" x2="-0.875" y2="3.25" width="0.2" layer="21"/>
+<wire x1="-3.975" y1="3.125" x2="-1.225" y2="3.125" width="0.2" layer="21"/>
+</package>
+<package name="CAPC1608X90N">
+<description>&lt;b&gt;CGA3 [EIA CC0603] Thickness 0.8&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.8" y="0" dx="0.94" dy="0.54" layer="1" rot="R90"/>
+<smd name="2" x="0.8" y="0" dx="0.94" dy="0.54" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.22" y1="0.62" x2="1.22" y2="0.62" width="0.05" layer="51"/>
+<wire x1="1.22" y1="0.62" x2="1.22" y2="-0.62" width="0.05" layer="51"/>
+<wire x1="1.22" y1="-0.62" x2="-1.22" y2="-0.62" width="0.05" layer="51"/>
+<wire x1="-1.22" y1="-0.62" x2="-1.22" y2="0.62" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0" y1="0.3" x2="0" y2="-0.3" width="0.2" layer="21"/>
+</package>
+<package name="APT1608CGCK">
+<description>&lt;b&gt;1.6 x 0.8 mm SMD Chip LED Lamp&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.825" y="0" dx="0.8" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="0.825" y="0" dx="0.8" dy="0.8" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.7" y1="0.925" x2="1.7" y2="0.925" width="0.05" layer="51"/>
+<wire x1="1.7" y1="0.925" x2="1.7" y2="-0.925" width="0.05" layer="51"/>
+<wire x1="1.7" y1="-0.925" x2="-1.7" y2="-0.925" width="0.05" layer="51"/>
+<wire x1="-1.7" y1="-0.925" x2="-1.7" y2="0.925" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.133" x2="-0.533" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.85" y1="0.825" x2="-1.6" y2="0.825" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="0.825" x2="-1.6" y2="-0.825" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-0.825" x2="0.85" y2="-0.825" width="0.2" layer="21"/>
+</package>
+<package name="ERA2AED122X">
+<description>&lt;b&gt;ERA2A_(0402)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.512" y="0" dx="0.5" dy="0.475" layer="1" rot="R90"/>
+<smd name="2" x="0.512" y="0" dx="0.5" dy="0.475" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.2" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.2" layer="51"/>
+<wire x1="-1.25" y1="0.75" x2="1.25" y2="0.75" width="0.1" layer="51"/>
+<wire x1="1.25" y1="0.75" x2="1.25" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-0.75" x2="-1.25" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-0.75" x2="-1.25" y2="0.75" width="0.1" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="SAMTEC-CLP-102-02-X-D">
@@ -635,6 +745,62 @@
 <text x="-1.85" y="-2.35" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
+</library>
+<library name="SamacSys_Parts" urn="urn:adsk.eagle:library:31941355">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT95P280X110-3N" urn="urn:adsk.eagle:footprint:34424419/1" library_version="112">
+<description>3-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.65 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.65 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-1.404" y="1.7525" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.9" y1="1.5625" x2="0.9" y2="1.5625" width="0.12" layer="21"/>
+<wire x1="0.9" y1="1.5625" x2="0.9" y2="0.5525" width="0.12" layer="21"/>
+<wire x1="-0.9" y1="-1.5625" x2="0.9" y2="-1.5625" width="0.12" layer="21"/>
+<wire x1="0.9" y1="-1.5625" x2="0.9" y2="-0.5525" width="0.12" layer="21"/>
+<wire x1="0.9" y1="-1.5" x2="-0.9" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-0.9" y1="-1.5" x2="-0.9" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-0.9" y1="1.5" x2="0.9" y2="1.5" width="0.12" layer="51"/>
+<wire x1="0.9" y1="1.5" x2="0.9" y2="-1.5" width="0.12" layer="51"/>
+<smd name="1" x="-1.2533" y="0.95" dx="1.2088" dy="0.5971" layer="1"/>
+<smd name="2" x="-1.2533" y="-0.95" dx="1.2088" dy="0.5971" layer="1"/>
+<smd name="3" x="1.2533" y="0" dx="1.2088" dy="0.5971" layer="1"/>
+<text x="0" y="2.6375" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.1975" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="ERJ2R_(0402)" urn="urn:adsk.eagle:footprint:34597291/1" library_version="112">
+<description>&lt;b&gt;ERJ2R_(0402)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.5125" y="0" dx="0.5" dy="0.475" layer="1" rot="R90"/>
+<smd name="2" x="0.5125" y="0" dx="0.5" dy="0.475" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.2" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.2" layer="51"/>
+<wire x1="-1.9125" y1="1.25" x2="1.55" y2="1.25" width="0.05" layer="51"/>
+<wire x1="1.55" y1="1.25" x2="1.55" y2="-1.25" width="0.05" layer="51"/>
+<wire x1="1.55" y1="-1.25" x2="-1.9125" y2="-1.25" width="0.05" layer="51"/>
+<wire x1="-1.9125" y1="-1.25" x2="-1.9125" y2="1.25" width="0.05" layer="51"/>
+<circle x="-1.0125" y="0" radius="0.05" width="0.2" layer="25"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOT95P280X110-3N" urn="urn:adsk.eagle:package:34424412/1" type="model" library_version="112">
+<description>3-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.65 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.65 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P280X110-3N"/>
+</packageinstances>
+</package3d>
+<package3d name="ERJ2R_(0402)" urn="urn:adsk.eagle:package:34597292/2" type="model" library_version="112">
+<description>&lt;b&gt;ERJ2R_(0402)&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="ERJ2R_(0402)"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -1810,6 +1976,433 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="TEST POINT" x="154.625" y="-121.61" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="154.625" y="-121.61" size="1.778" layer="27" display="off"/>
 </element>
+<element name="R_10K_FILTER_" library="AC0805DR-0710KL" package="RESC2012X60N" value="AC0805DR-0710KL" x="-61.4" y="45" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-61.4" y="51" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Thick Film Resistors - SMD 10kOhms 1/8W 0805 0.5% AEC-Q200 " x="-61.4" y="51" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="YAGEO" x="-61.4" y="51" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="AC0805DR-0710KL" x="-61.4" y="51" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63.06" y="46.02" size="0.5" layer="25"/>
+<attribute name="PACKAGE" value="None" x="-61.4" y="51" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-61.4" y="51" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.06" y="43.98" size="0.5" layer="27" align="top-left"/>
+</element>
+<element name="R_5K_FILTER_\" library="SamacSys_Parts" package="RESC3116X65N" value="RT1206BRD075KL" x="-55.4" y="42.1" smashed="yes">
+<attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" x="-59.7" y="48.1" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.65mm" x="-59.7" y="48.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-59.7" y="48.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="-59.7" y="48.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="-59.7" y="48.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="-59.7" y="48.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-55.4" y="42.1" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-55.4" y="42.1" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C_68N_FILTER_" library="SamacSys_Parts" package="CAPC2013X150N" value="CEU4J2X7R1H683K125AE" x="-52" y="39.7" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=68nF, LxWxT:2x1.25x1.25mm" x="-64" y="45.7" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.5mm" x="-64" y="45.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-64" y="45.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CEU4J2X7R1H683K125AE" x="-64" y="45.7" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-64" y="45.7" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-64" y="45.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-52" y="39.7" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-52" y="39.7" size="1.27" layer="27" align="center"/>
+</element>
+<element name="TP_CLK_FILTER_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="-61.25" y="49.6" smashed="yes">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-73.2" y="41.5" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Harwin " x="-73.2" y="41.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63" y="50.9" size="1.27" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="-73.2" y="41.5" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-73.2" y="41.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.1" y="47.25" size="1.27" layer="27"/>
+</element>
+<element name="R_LS_GATE_" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="-47.45" y="15.2" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-61.4" y="36.9" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200 " x="-61.4" y="36.9" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="-61.4" y="36.9" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="AT0805FRE07150KL" x="-61.4" y="36.9" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-49.11" y="16.22" size="0.5" layer="25"/>
+<attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="-61.4" y="36.9" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-61.4" y="36.9" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D" x="-61.4" y="36.9" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-49.11" y="14.18" size="0.5" layer="27" align="top-left"/>
+</element>
+<element name="C_LS_" library="SamacSys_Parts" package="CAPC1005X55N" value="CGA2B2C0G1H102J050BE" x="-51.85" y="7.4" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 1nF 5% C0G AEC-Q200" x="-59.7" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="-59.7" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-59.7" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B2C0G1H102J050BE" x="-59.7" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA2B2C0G1H102J5" x="-59.7" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA2B2C0G1H102J050BE?qs=P1JMDcb91o7BA6xd7%2FtTJw%3D%3D" x="-59.7" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-51.85" y="7.4" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-51.85" y="7.4" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R_LS_DRAIN_" library="SamacSys_Parts" package="RESC1005X37N" value="MCS0402MD1002DE000" x="-52.9" y="5.1" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="-67.55" y="31.7" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="-67.55" y="31.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-67.55" y="31.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="-67.55" y="31.7" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="-67.55" y="31.7" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="-67.55" y="31.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-52.9" y="5.1" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-52.9" y="5.1" size="1.27" layer="27" align="center"/>
+</element>
+<element name="LDO_" library="SamacSys_Parts" package="SOT230P700X180-4N" value="LDL1117S33R" x="-57.35" y="26.6" smashed="yes">
+<attribute name="DESCRIPTION" value="STMICROELECTRONICS - LDL1117S33R - LDO, FIXED, 3.3V, 1.2A, SOT-223-3" x="-73.95" y="27" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.8mm" x="-73.95" y="27" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="-73.95" y="27" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LDL1117S33R" x="-73.95" y="27" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-LDL1117S33R" x="-73.95" y="27" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LDL1117S33R?qs=AQlKX63v8Rt9Bf6AWSrbFg%3D%3D" x="-73.95" y="27" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-57.35" y="26.6" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-57.35" y="26.6" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C_LDO_OUT_" library="SamacSys_Parts" package="CAPC1608X90N" value="JMK107BB7475KA-T" x="-54.55" y="2.8" smashed="yes">
+<attribute name="DESCRIPTION" value="Taiyo Yuden JMK107BB7475KA-T 4.7F MLCC 6.3V dc +/-10% Tolerance SMD" x="-76.3" y="22.15" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-76.3" y="22.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TAIYO YUDEN" x="-76.3" y="22.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="JMK107BB7475KA-T" x="-76.3" y="22.15" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="963-JMK107BB7475KA-T" x="-76.3" y="22.15" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/JMK107BB7475KA-T/?qs=Va%252BXcMGJzEswq6AuVGoq3Q%3D%3D" x="-76.3" y="22.15" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-54.55" y="2.8" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-54.55" y="2.8" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C_LDO_IN_" library="SamacSys_Parts" package="CAPC1608X90N" value="CGA3E1X7R1V105K080AC" x="-51.8" y="9.7" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 1uF 35volts X7R 10% T=0.8mm" x="-81.45" y="19.85" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-81.45" y="19.85" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-81.45" y="19.85" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E1X7R1V105K080AC" x="-81.45" y="19.85" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E1X7R1V105KC" x="-81.45" y="19.85" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA3E1X7R1V105K080AC?qs=xLDY6iXSiQbKOisZZVHFrA%3D%3D" x="-81.45" y="19.85" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-51.8" y="9.7" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-51.8" y="9.7" size="1.27" layer="27" align="center"/>
+</element>
+<element name="NMOS_LDO_" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P280X110-3N" package3d_urn="urn:adsk.eagle:package:34424412/1" value="RTR025N05HZGTL" x="-55.15" y="34.15" smashed="yes">
+<attribute name="NAME" x="-55.15" y="36.7875" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-55.15" y="31.9525" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="TP_LDO_OUT_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="-61.25" y="13.8" smashed="yes">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-103.2" y="15.65" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Harwin " x="-103.2" y="15.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63" y="15.1" size="1.27" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="-103.2" y="15.65" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-103.2" y="15.65" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.1" y="11.45" size="1.27" layer="27"/>
+</element>
+<element name="TP_FAULT_LS_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="-61.25" y="19.8" smashed="yes">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-103.2" y="9.65" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Harwin " x="-103.2" y="9.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63" y="21.1" size="1.27" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="-103.2" y="9.65" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-103.2" y="9.65" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.1" y="17.45" size="1.27" layer="27"/>
+</element>
+<element name="R_LS_GATE_1" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="-46.45" y="-27.7" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-61.4" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200 " x="-61.4" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="-61.4" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="AT0805FRE07150KL" x="-61.4" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-48.11" y="-26.68" size="0.5" layer="25"/>
+<attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="-61.4" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-61.4" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D" x="-61.4" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-48.11" y="-28.72" size="0.5" layer="27" align="top-left"/>
+</element>
+<element name="C_LS_1" library="SamacSys_Parts" package="CAPC1005X55N" value="CGA2B2C0G1H102J050BE" x="-51.85" y="-38.9" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 1nF 5% C0G AEC-Q200" x="-59.7" y="-2.9" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="-59.7" y="-2.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-59.7" y="-2.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B2C0G1H102J050BE" x="-59.7" y="-2.9" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA2B2C0G1H102J5" x="-59.7" y="-2.9" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA2B2C0G1H102J050BE?qs=P1JMDcb91o7BA6xd7%2FtTJw%3D%3D" x="-59.7" y="-2.9" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-51.85" y="-38.9" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-51.85" y="-38.9" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R_LS_DRAIN_1" library="SamacSys_Parts" package="RESC1005X37N" value="MCS0402MD1002DE000" x="-52.9" y="-43.5" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="-67.55" y="-5.2" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="-67.55" y="-5.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-67.55" y="-5.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="-67.55" y="-5.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="-67.55" y="-5.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="-67.55" y="-5.2" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-52.9" y="-43.5" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-52.9" y="-43.5" size="1.27" layer="27" align="center"/>
+</element>
+<element name="NMOS_LDO_1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P280X110-3N" package3d_urn="urn:adsk.eagle:package:34424412/1" value="RTR025N05HZGTL" x="-55.15" y="-2.75" smashed="yes">
+<attribute name="NAME" x="-55.15" y="-0.1125" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-55.15" y="-4.9475" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="TP_FAULT_LS_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="-61.25" y="-23.1" smashed="yes">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-88.15" y="-9.4" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Harwin " x="-88.15" y="-9.4" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63" y="-21.8" size="1.27" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="-88.15" y="-9.4" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-88.15" y="-9.4" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.1" y="-25.45" size="1.27" layer="27"/>
+</element>
+<element name="LDO_1" library="SamacSys_Parts" package="SOT230P700X180-4N" value="LDL1117S33R" x="-57.35" y="-10.3" smashed="yes">
+<attribute name="DESCRIPTION" value="STMICROELECTRONICS - LDL1117S33R - LDO, FIXED, 3.3V, 1.2A, SOT-223-3" x="-86.25" y="-15.9" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.8mm" x="-86.25" y="-15.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="-86.25" y="-15.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LDL1117S33R" x="-86.25" y="-15.9" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-LDL1117S33R" x="-86.25" y="-15.9" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LDL1117S33R?qs=AQlKX63v8Rt9Bf6AWSrbFg%3D%3D" x="-86.25" y="-15.9" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-57.35" y="-10.3" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-57.35" y="-10.3" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C_LDO_OUT_1" library="SamacSys_Parts" package="CAPC1608X90N" value="JMK107BB7475KA-T" x="-54.55" y="-45.8" smashed="yes">
+<attribute name="DESCRIPTION" value="Taiyo Yuden JMK107BB7475KA-T 4.7F MLCC 6.3V dc +/-10% Tolerance SMD" x="-88.6" y="-20.75" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-88.6" y="-20.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TAIYO YUDEN" x="-88.6" y="-20.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="JMK107BB7475KA-T" x="-88.6" y="-20.75" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="963-JMK107BB7475KA-T" x="-88.6" y="-20.75" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/JMK107BB7475KA-T/?qs=Va%252BXcMGJzEswq6AuVGoq3Q%3D%3D" x="-88.6" y="-20.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-54.55" y="-45.8" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-54.55" y="-45.8" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C_LDO_IN_1" library="SamacSys_Parts" package="CAPC1608X90N" value="CGA3E1X7R1V105K080AC" x="-51.8" y="-36.6" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 1uF 35volts X7R 10% T=0.8mm" x="-93.75" y="-23.05" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-93.75" y="-23.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-93.75" y="-23.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E1X7R1V105K080AC" x="-93.75" y="-23.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E1X7R1V105KC" x="-93.75" y="-23.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA3E1X7R1V105K080AC?qs=xLDY6iXSiQbKOisZZVHFrA%3D%3D" x="-93.75" y="-23.05" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-51.8" y="-36.6" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-51.8" y="-36.6" size="1.27" layer="27" align="center"/>
+</element>
+<element name="TP_LDO_OUT_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="-61.25" y="-29.1" smashed="yes">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-103.15" y="-27.25" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Harwin " x="-103.15" y="-27.25" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63" y="-27.8" size="1.27" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="-103.15" y="-27.25" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-103.15" y="-27.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.1" y="-31.45" size="1.27" layer="27"/>
+</element>
+<element name="R_10K_FILTER_1" library="AC0805DR-0710KL" package="RESC2012X60N" value="AC0805DR-0710KL" x="-61.4" y="-33.7" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-103.35" y="-31.85" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Thick Film Resistors - SMD 10kOhms 1/8W 0805 0.5% AEC-Q200 " x="-103.35" y="-31.85" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="YAGEO" x="-103.35" y="-31.85" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="AC0805DR-0710KL" x="-103.35" y="-31.85" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63.06" y="-32.68" size="0.5" layer="25"/>
+<attribute name="PACKAGE" value="None" x="-103.35" y="-31.85" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-103.35" y="-31.85" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.06" y="-34.72" size="0.5" layer="27" align="top-left"/>
+</element>
+<element name="R_5K_FILTER_\1" library="SamacSys_Parts" package="RESC3116X65N" value="RT1206BRD075KL" x="-48.3" y="-33.2" smashed="yes">
+<attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" x="-101.65" y="-34.75" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.65mm" x="-101.65" y="-34.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-101.65" y="-34.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="-101.65" y="-34.75" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="-101.65" y="-34.75" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="-101.65" y="-34.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-48.3" y="-33.2" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-48.3" y="-33.2" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C_68N_FILTER_1" library="SamacSys_Parts" package="CAPC2013X150N" value="CEU4J2X7R1H683K125AE" x="-52" y="-41.2" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=68nF, LxWxT:2x1.25x1.25mm" x="-105.95" y="-37.15" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.5mm" x="-105.95" y="-37.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-105.95" y="-37.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CEU4J2X7R1H683K125AE" x="-105.95" y="-37.15" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-105.95" y="-37.15" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-105.95" y="-37.15" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-52" y="-41.2" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-52" y="-41.2" size="1.27" layer="27" align="center"/>
+</element>
+<element name="TP_CLK_FILTER_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="-61.25" y="-17.1" smashed="yes">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-115.15" y="-41.35" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Harwin " x="-115.15" y="-41.35" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63" y="-15.8" size="1.27" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="-115.15" y="-41.35" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-115.15" y="-41.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.1" y="-19.45" size="1.27" layer="27"/>
+</element>
+<element name="R_LS_GATE_2" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="-46.45" y="-76.3" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-61.4" y="-48.6" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200 " x="-61.4" y="-48.6" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="-61.4" y="-48.6" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="AT0805FRE07150KL" x="-61.4" y="-48.6" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-48.11" y="-75.28" size="0.5" layer="25"/>
+<attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="-61.4" y="-48.6" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-61.4" y="-48.6" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D" x="-61.4" y="-48.6" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-48.11" y="-77.32" size="0.5" layer="27" align="top-left"/>
+</element>
+<element name="C_LS_2" library="SamacSys_Parts" package="CAPC1005X55N" value="CGA2B2C0G1H102J050BE" x="-51.85" y="-87.5" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 1nF 5% C0G AEC-Q200" x="-59.7" y="-51.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="-59.7" y="-51.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-59.7" y="-51.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B2C0G1H102J050BE" x="-59.7" y="-51.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA2B2C0G1H102J5" x="-59.7" y="-51.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA2B2C0G1H102J050BE?qs=P1JMDcb91o7BA6xd7%2FtTJw%3D%3D" x="-59.7" y="-51.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-51.85" y="-87.5" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-51.85" y="-87.5" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R_LS_DRAIN_2" library="SamacSys_Parts" package="RESC1005X37N" value="MCS0402MD1002DE000" x="-52.9" y="-92.1" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="-67.55" y="-53.8" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="-67.55" y="-53.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-67.55" y="-53.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="-67.55" y="-53.8" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="-67.55" y="-53.8" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="-67.55" y="-53.8" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-52.9" y="-92.1" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-52.9" y="-92.1" size="1.27" layer="27" align="center"/>
+</element>
+<element name="NMOS_LDO_2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P280X110-3N" package3d_urn="urn:adsk.eagle:package:34424412/1" value="RTR025N05HZGTL" x="-55.15" y="-51.35" smashed="yes">
+<attribute name="NAME" x="-55.15" y="-48.7125" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-55.15" y="-53.5475" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="TP_FAULT_LS_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="-61.25" y="-71.7" smashed="yes">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-88.15" y="-58" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Harwin " x="-88.15" y="-58" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63" y="-70.4" size="1.27" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="-88.15" y="-58" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-88.15" y="-58" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.1" y="-74.05" size="1.27" layer="27"/>
+</element>
+<element name="LDO_2" library="SamacSys_Parts" package="SOT230P700X180-4N" value="LDL1117S33R" x="-57.35" y="-58.9" smashed="yes">
+<attribute name="DESCRIPTION" value="STMICROELECTRONICS - LDL1117S33R - LDO, FIXED, 3.3V, 1.2A, SOT-223-3" x="-86.25" y="-64.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.8mm" x="-86.25" y="-64.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="-86.25" y="-64.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LDL1117S33R" x="-86.25" y="-64.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-LDL1117S33R" x="-86.25" y="-64.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LDL1117S33R?qs=AQlKX63v8Rt9Bf6AWSrbFg%3D%3D" x="-86.25" y="-64.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-57.35" y="-58.9" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-57.35" y="-58.9" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C_LDO_OUT_2" library="SamacSys_Parts" package="CAPC1608X90N" value="JMK107BB7475KA-T" x="-54.55" y="-94.4" smashed="yes">
+<attribute name="DESCRIPTION" value="Taiyo Yuden JMK107BB7475KA-T 4.7F MLCC 6.3V dc +/-10% Tolerance SMD" x="-88.6" y="-69.35" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-88.6" y="-69.35" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TAIYO YUDEN" x="-88.6" y="-69.35" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="JMK107BB7475KA-T" x="-88.6" y="-69.35" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="963-JMK107BB7475KA-T" x="-88.6" y="-69.35" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/JMK107BB7475KA-T/?qs=Va%252BXcMGJzEswq6AuVGoq3Q%3D%3D" x="-88.6" y="-69.35" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-54.55" y="-94.4" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-54.55" y="-94.4" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C_LDO_IN_2" library="SamacSys_Parts" package="CAPC1608X90N" value="CGA3E1X7R1V105K080AC" x="-51.8" y="-85.2" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 1uF 35volts X7R 10% T=0.8mm" x="-93.75" y="-71.65" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-93.75" y="-71.65" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-93.75" y="-71.65" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E1X7R1V105K080AC" x="-93.75" y="-71.65" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E1X7R1V105KC" x="-93.75" y="-71.65" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA3E1X7R1V105K080AC?qs=xLDY6iXSiQbKOisZZVHFrA%3D%3D" x="-93.75" y="-71.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-51.8" y="-85.2" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-51.8" y="-85.2" size="1.27" layer="27" align="center"/>
+</element>
+<element name="TP_LDO_OUT_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="-61.25" y="-77.7" smashed="yes">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-103.15" y="-75.85" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Harwin " x="-103.15" y="-75.85" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63" y="-76.4" size="1.27" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="-103.15" y="-75.85" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-103.15" y="-75.85" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.1" y="-80.05" size="1.27" layer="27"/>
+</element>
+<element name="R_10K_FILTER_2" library="AC0805DR-0710KL" package="RESC2012X60N" value="AC0805DR-0710KL" x="-61.4" y="-82.3" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-103.35" y="-80.45" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Thick Film Resistors - SMD 10kOhms 1/8W 0805 0.5% AEC-Q200 " x="-103.35" y="-80.45" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="YAGEO" x="-103.35" y="-80.45" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="AC0805DR-0710KL" x="-103.35" y="-80.45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63.06" y="-81.28" size="0.5" layer="25"/>
+<attribute name="PACKAGE" value="None" x="-103.35" y="-80.45" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-103.35" y="-80.45" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.06" y="-83.32" size="0.5" layer="27" align="top-left"/>
+</element>
+<element name="R_5K_FILTER_\2" library="SamacSys_Parts" package="RESC3116X65N" value="RT1206BRD075KL" x="-48.3" y="-81.8" smashed="yes">
+<attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" x="-101.65" y="-83.35" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.65mm" x="-101.65" y="-83.35" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-101.65" y="-83.35" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="-101.65" y="-83.35" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="-101.65" y="-83.35" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="-101.65" y="-83.35" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-48.3" y="-81.8" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-48.3" y="-81.8" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C_68N_FILTER_2" library="SamacSys_Parts" package="CAPC2013X150N" value="CEU4J2X7R1H683K125AE" x="-52" y="-89.8" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=68nF, LxWxT:2x1.25x1.25mm" x="-105.95" y="-85.75" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.5mm" x="-105.95" y="-85.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-105.95" y="-85.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CEU4J2X7R1H683K125AE" x="-105.95" y="-85.75" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-105.95" y="-85.75" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-105.95" y="-85.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-52" y="-89.8" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-52" y="-89.8" size="1.27" layer="27" align="center"/>
+</element>
+<element name="TP_CLK_FILTER_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="-61.25" y="-65.7" smashed="yes">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-115.15" y="-89.95" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Harwin " x="-115.15" y="-89.95" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63" y="-64.4" size="1.27" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="-115.15" y="-89.95" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-115.15" y="-89.95" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.1" y="-68.05" size="1.27" layer="27"/>
+</element>
+<element name="LED_" library="SamacSys_Parts" package="APT1608CGCK" value="APTD1608LCGCK" x="-55.6" y="-99.25" smashed="yes">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 0603 Dome Lens LED Green- 570nm" x="-59.7" y="-96.7" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-59.7" y="-96.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="-59.7" y="-96.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APTD1608LCGCK" x="-59.7" y="-96.7" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APTD1608LCGCK" x="-59.7" y="-96.7" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APTD1608LCGCK?qs=AQlKX63v8Rv%252Bp7eo1xBjCA%3D%3D" x="-59.7" y="-96.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-55.6" y="-99.25" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-55.6" y="-99.25" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R_20K_LED1_" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERJ2R_(0402)" package3d_urn="urn:adsk.eagle:package:34597292/2" value="ERJ-2RKF2002X" x="-56.2" y="-96.75" smashed="yes">
+<attribute name="DESCRIPTION" value="Precision Thick Film Chip Resistor, 0402, 0.063W" x="-63.8" y="-99.05" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="-63.8" y="-99.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="-63.8" y="-99.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF2002X" x="-63.8" y="-99.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-2RKF2002X" x="-63.8" y="-99.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF2002X?qs=H7k1u0Mp9JTOxRcN%252B6dzQw%3D%3D" x="-63.8" y="-99.05" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-56.2" y="-96.75" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-56.2" y="-96.75" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R_5.6K_LED2_" library="SamacSys_Parts" package="ERA2AED122X" value="ERA-2ARB562X" x="-56.5" y="-101.55" smashed="yes">
+<attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-67.3" y="-101.55" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="-67.3" y="-101.55" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="-67.3" y="-101.55" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-2ARB562X" x="-67.3" y="-101.55" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERA-2ARB562X" x="-67.3" y="-101.55" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-2ARB562X" x="-67.3" y="-101.55" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-56.5" y="-101.55" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-56.5" y="-101.55" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R_LED_10K_1" library="SamacSys_Parts" package="RESC1005X37N" value="MCS0402MD1002DE000" x="-52.9" y="-103.85" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="-59.7" y="-103.85" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="-59.7" y="-103.85" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-59.7" y="-103.85" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="-59.7" y="-103.85" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="-59.7" y="-103.85" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="-59.7" y="-103.85" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-52.9" y="-103.85" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-52.9" y="-103.85" size="1.27" layer="27" align="center"/>
+</element>
+<element name="LED_1" library="SamacSys_Parts" package="APT1608CGCK" value="APTD1608LCGCK" x="-55.6" y="-106.15" smashed="yes">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 0603 Dome Lens LED Green- 570nm" x="-66.5" y="-106.15" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-66.5" y="-106.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="-66.5" y="-106.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APTD1608LCGCK" x="-66.5" y="-106.15" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APTD1608LCGCK" x="-66.5" y="-106.15" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APTD1608LCGCK?qs=AQlKX63v8Rv%252Bp7eo1xBjCA%3D%3D" x="-66.5" y="-106.15" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-55.6" y="-106.15" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-55.6" y="-106.15" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R_LED_10K_2" library="SamacSys_Parts" package="RESC1005X37N" value="MCS0402MD1002DE000" x="-52.9" y="-108.45" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="-59.7" y="-108.45" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="-59.7" y="-108.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-59.7" y="-108.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="-59.7" y="-108.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="-59.7" y="-108.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="-59.7" y="-108.45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-52.9" y="-108.45" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-52.9" y="-108.45" size="1.27" layer="27" align="center"/>
+</element>
+<element name="LED_2" library="SamacSys_Parts" package="APT1608CGCK" value="APTD1608LCGCK" x="-55.6" y="-110.75" smashed="yes">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 0603 Dome Lens LED Green- 570nm" x="-66.5" y="-110.75" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-66.5" y="-110.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="-66.5" y="-110.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APTD1608LCGCK" x="-66.5" y="-110.75" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APTD1608LCGCK" x="-66.5" y="-110.75" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APTD1608LCGCK?qs=AQlKX63v8Rv%252Bp7eo1xBjCA%3D%3D" x="-66.5" y="-110.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-55.6" y="-110.75" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-55.6" y="-110.75" size="1.27" layer="27" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1825,6 +2418,9 @@ design rules under a new name.</description>
 <contactref element="R_SHUNT_GND_2" pad="2"/>
 <contactref element="TP_GND_2" pad="1"/>
 <contactref element="LT3579_IC_2" pad="20"/>
+<contactref element="LDO_" pad="1"/>
+<contactref element="LDO_1" pad="1"/>
+<contactref element="LDO_2" pad="1"/>
 <wire x1="151.985" y1="57.865" x2="151.985" y2="59.135" width="0" layer="19" extent="1-1"/>
 <wire x1="151.985" y1="56.595" x2="151.985" y2="57.865" width="0" layer="19" extent="1-1"/>
 <wire x1="101.415" y1="36.625" x2="151.985" y2="56.595" width="0" layer="19" extent="1-1"/>
@@ -1836,6 +2432,9 @@ design rules under a new name.</description>
 <wire x1="78.66" y1="-15.14" x2="78.656" y2="36.79" width="0" layer="19" extent="1-1"/>
 <wire x1="78.816" y1="-21.96" x2="78.66" y2="-15.14" width="0" layer="19" extent="1-1"/>
 <wire x1="102.055" y1="-21.855" x2="78.816" y2="-21.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.95" y1="28.9" x2="78.816" y2="-21.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.95" y1="-8" x2="-59.95" y2="28.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.95" y1="-56.6" x2="-59.95" y2="-8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
 <contactref element="4P_INPUT_CONNECTOR1" pad="1"/>
@@ -1863,26 +2462,38 @@ design rules under a new name.</description>
 <contactref element="LT3579_IC_2" pad="5"/>
 <contactref element="R_FAULT_2" pad="2"/>
 <contactref element="R_UVLO1_2" pad="2"/>
-<wire x1="117.975" y1="97.67" x2="125.28" y2="96.54" width="0" layer="19" extent="1-1"/>
-<wire x1="98.255" y1="94.475" x2="117.975" y2="97.67" width="0" layer="19" extent="1-1"/>
-<wire x1="93.22" y1="91.515" x2="98.255" y2="94.475" width="0" layer="19" extent="1-1"/>
-<wire x1="101.4" y1="75.91" x2="93.22" y2="91.515" width="0" layer="19" extent="1-1"/>
-<wire x1="90.23" y1="73.57" x2="101.4" y2="75.91" width="0" layer="19" extent="1-1"/>
-<wire x1="86.84" y1="73.5" x2="90.23" y2="73.57" width="0" layer="19" extent="1-1"/>
-<wire x1="95.565" y1="34.025" x2="90.23" y2="73.57" width="0" layer="19" extent="1-1"/>
-<wire x1="91.72" y1="32.785" x2="95.565" y2="34.025" width="0" layer="19" extent="1-1"/>
-<wire x1="110.155" y1="36.37" x2="95.565" y2="34.025" width="0" layer="19" extent="1-1"/>
-<wire x1="118.96" y1="37.39" x2="110.155" y2="36.37" width="0" layer="19" extent="1-1"/>
-<wire x1="88.18" y1="17.89" x2="91.72" y2="32.785" width="0" layer="19" extent="1-1"/>
-<wire x1="84.59" y1="17.92" x2="88.18" y2="17.89" width="0" layer="19" extent="1-1"/>
-<wire x1="97.98" y1="15.11" x2="88.18" y2="17.89" width="0" layer="19" extent="1-1"/>
-<wire x1="96.205" y1="-24.455" x2="97.98" y2="15.11" width="0" layer="19" extent="1-1"/>
-<wire x1="92.77" y1="-25.745" x2="96.205" y2="-24.455" width="0" layer="19" extent="1-1"/>
-<wire x1="90.43" y1="-41.24" x2="92.77" y2="-25.745" width="0" layer="19" extent="1-1"/>
-<wire x1="87.74" y1="-41.26" x2="90.43" y2="-41.24" width="0" layer="19" extent="1-1"/>
+<contactref element="LDO_" pad="3"/>
+<contactref element="C_LDO_IN_" pad="1"/>
+<contactref element="LDO_1" pad="3"/>
+<contactref element="C_LDO_IN_1" pad="1"/>
+<contactref element="LDO_2" pad="3"/>
+<contactref element="C_LDO_IN_2" pad="1"/>
+<wire x1="-59.95" y1="-61.2" x2="-52.6" y2="-85.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.6" y1="-36.6" x2="-59.95" y2="-61.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.95" y1="-12.6" x2="-52.6" y2="-36.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.6" y1="9.7" x2="-59.95" y2="-12.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.95" y1="24.3" x2="-52.6" y2="9.7" width="0" layer="19" extent="1-1"/>
+<wire x1="87.74" y1="-41.26" x2="-59.95" y2="24.3" width="0" layer="19" extent="1-1"/>
+<wire x1="90.43" y1="-41.24" x2="87.74" y2="-41.26" width="0" layer="19" extent="1-1"/>
 <wire x1="98.46" y1="-44.84" x2="90.43" y2="-41.24" width="0" layer="19" extent="1-1"/>
+<wire x1="92.77" y1="-25.745" x2="90.43" y2="-41.24" width="0" layer="19" extent="1-1"/>
+<wire x1="96.205" y1="-24.455" x2="92.77" y2="-25.745" width="0" layer="19" extent="1-1"/>
 <wire x1="114.635" y1="-23.88" x2="96.205" y2="-24.455" width="0" layer="19" extent="1-1"/>
 <wire x1="121.3" y1="-20.46" x2="114.635" y2="-23.88" width="0" layer="19" extent="1-1"/>
+<wire x1="97.98" y1="15.11" x2="96.205" y2="-24.455" width="0" layer="19" extent="1-1"/>
+<wire x1="88.18" y1="17.89" x2="97.98" y2="15.11" width="0" layer="19" extent="1-1"/>
+<wire x1="84.59" y1="17.92" x2="88.18" y2="17.89" width="0" layer="19" extent="1-1"/>
+<wire x1="91.72" y1="32.785" x2="88.18" y2="17.89" width="0" layer="19" extent="1-1"/>
+<wire x1="95.565" y1="34.025" x2="91.72" y2="32.785" width="0" layer="19" extent="1-1"/>
+<wire x1="110.155" y1="36.37" x2="95.565" y2="34.025" width="0" layer="19" extent="1-1"/>
+<wire x1="118.96" y1="37.39" x2="110.155" y2="36.37" width="0" layer="19" extent="1-1"/>
+<wire x1="90.23" y1="73.57" x2="95.565" y2="34.025" width="0" layer="19" extent="1-1"/>
+<wire x1="86.84" y1="73.5" x2="90.23" y2="73.57" width="0" layer="19" extent="1-1"/>
+<wire x1="101.4" y1="75.91" x2="90.23" y2="73.57" width="0" layer="19" extent="1-1"/>
+<wire x1="93.22" y1="91.515" x2="101.4" y2="75.91" width="0" layer="19" extent="1-1"/>
+<wire x1="98.255" y1="94.475" x2="93.22" y2="91.515" width="0" layer="19" extent="1-1"/>
+<wire x1="117.975" y1="97.67" x2="98.255" y2="94.475" width="0" layer="19" extent="1-1"/>
+<wire x1="125.28" y1="96.54" x2="117.975" y2="97.67" width="0" layer="19" extent="1-1"/>
 <wire x1="15.28" y1="55.66" x2="86.84" y2="73.5" width="0" layer="19" extent="1-1"/>
 <wire x1="9.12" y1="55.7" x2="15.28" y2="55.66" width="0" layer="19" extent="1-1"/>
 <wire x1="4.135" y1="55.723" x2="9.12" y2="55.7" width="0" layer="19" extent="1-1"/>
@@ -1910,13 +2521,13 @@ design rules under a new name.</description>
 <wire x1="2.865" y1="52.497" x2="4.135" y2="52.497" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FAULT_">
-<contactref element="12P_OUTPUT_CONNECTOR1" pad="5"/>
 <contactref element="LT3579_IC_" pad="4"/>
 <contactref element="R_FAULT_" pad="1"/>
 <contactref element="TP_FAULT_" pad="1"/>
-<wire x1="98.255" y1="95.125" x2="155.215" y2="60.405" width="0" layer="19" extent="1-1"/>
+<contactref element="R_LS_GATE_" pad="1"/>
+<wire x1="98.255" y1="95.125" x2="91.06" y2="109.68" width="0" layer="19" extent="1-1"/>
 <wire x1="93.22" y1="93.425" x2="98.255" y2="95.125" width="0" layer="19" extent="1-1"/>
-<wire x1="91.06" y1="109.68" x2="98.255" y2="95.125" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.405" y1="15.2" x2="93.22" y2="93.425" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VOUT_">
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="11"/>
@@ -1925,35 +2536,37 @@ design rules under a new name.</description>
 <contactref element="C_OUT_2_" pad="1"/>
 <contactref element="C_OUT_3_" pad="1"/>
 <contactref element="TP_OUT_" pad="1"/>
+<contactref element="R_20K_LED1_" pad="2"/>
+<wire x1="155.215" y1="56.595" x2="-55.6875" y2="-96.75" width="0" layer="19" extent="1-1"/>
+<wire x1="117.44" y1="103.73" x2="155.215" y2="56.595" width="0" layer="19" extent="1-1"/>
 <wire x1="114.75" y1="103.71" x2="117.44" y2="103.73" width="0" layer="19" extent="1-1"/>
 <wire x1="112.06" y1="103.69" x2="114.75" y2="103.71" width="0" layer="19" extent="1-1"/>
 <wire x1="107.94" y1="103.73" x2="112.06" y2="103.69" width="0" layer="19" extent="1-1"/>
 <wire x1="100.71" y1="109.44" x2="107.94" y2="103.73" width="0" layer="19" extent="1-1"/>
-<wire x1="155.215" y1="56.595" x2="117.44" y2="103.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CLK_">
-<contactref element="12P_OUTPUT_CONNECTOR1" pad="6"/>
 <contactref element="LT3579_IC_" pad="16"/>
 <contactref element="TP_CLK_" pad="1"/>
-<wire x1="104.105" y1="94.475" x2="151.985" y2="60.405" width="0" layer="19" extent="1-1"/>
-<wire x1="95.91" y1="109.63" x2="104.105" y2="94.475" width="0" layer="19" extent="1-1"/>
+<contactref element="R_10K_FILTER_" pad="1"/>
+<wire x1="104.105" y1="94.475" x2="95.91" y2="109.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.355" y1="45" x2="104.105" y2="94.475" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FAULT_2">
-<contactref element="12P_OUTPUT_CONNECTOR1" pad="1"/>
 <contactref element="LT3579_IC_2" pad="4"/>
 <contactref element="R_FAULT_2" pad="1"/>
 <contactref element="TP_FAULT_2" pad="1"/>
-<wire x1="92.36" y1="-9.12" x2="155.215" y2="62.945" width="0" layer="19" extent="1-1"/>
-<wire x1="92.77" y1="-23.835" x2="92.36" y2="-9.12" width="0" layer="19" extent="1-1"/>
+<contactref element="R_LS_GATE_2" pad="1"/>
+<wire x1="92.77" y1="-23.835" x2="-47.405" y2="-76.3" width="0" layer="19" extent="1-1"/>
 <wire x1="96.205" y1="-23.805" x2="92.77" y2="-23.835" width="0" layer="19" extent="1-1"/>
+<wire x1="92.36" y1="-9.12" x2="92.77" y2="-23.835" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FAULT_1">
-<contactref element="12P_OUTPUT_CONNECTOR1" pad="3"/>
 <contactref element="LT3579_IC_1" pad="4"/>
 <contactref element="R_FAULT_1" pad="1"/>
 <contactref element="TP_FAULT_1" pad="1"/>
-<wire x1="95.565" y1="34.675" x2="155.215" y2="61.675" width="0" layer="19" extent="1-1"/>
-<wire x1="91.72" y1="34.695" x2="95.565" y2="34.675" width="0" layer="19" extent="1-1"/>
+<contactref element="R_LS_GATE_1" pad="1"/>
+<wire x1="91.72" y1="34.695" x2="-47.405" y2="-27.7" width="0" layer="19" extent="1-1"/>
+<wire x1="95.565" y1="34.675" x2="91.72" y2="34.695" width="0" layer="19" extent="1-1"/>
 <wire x1="90.36" y1="48.82" x2="91.72" y2="34.695" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VOUT_1">
@@ -1963,25 +2576,27 @@ design rules under a new name.</description>
 <contactref element="C_OUT_2_1" pad="1"/>
 <contactref element="C_OUT_3_1" pad="1"/>
 <contactref element="TP_OUT_1" pad="1"/>
+<contactref element="R_LED_10K_1" pad="1"/>
 <wire x1="112.79" y1="42.11" x2="155.215" y2="57.865" width="0" layer="19" extent="1-1"/>
 <wire x1="109.65" y1="42.14" x2="112.79" y2="42.11" width="0" layer="19" extent="1-1"/>
 <wire x1="106.45" y1="42.15" x2="109.65" y2="42.14" width="0" layer="19" extent="1-1"/>
 <wire x1="101.73" y1="42.03" x2="106.45" y2="42.15" width="0" layer="19" extent="1-1"/>
 <wire x1="98.36" y1="48.82" x2="101.73" y2="42.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.45" y1="-103.85" x2="101.73" y2="42.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CLK_1">
-<contactref element="12P_OUTPUT_CONNECTOR1" pad="4"/>
 <contactref element="LT3579_IC_1" pad="16"/>
 <contactref element="TP_CLK_1" pad="1"/>
-<wire x1="101.415" y1="34.025" x2="151.985" y2="61.675" width="0" layer="19" extent="1-1"/>
+<contactref element="R_10K_FILTER_1" pad="1"/>
+<wire x1="101.415" y1="34.025" x2="-62.355" y2="-33.7" width="0" layer="19" extent="1-1"/>
 <wire x1="94.36" y1="48.82" x2="101.415" y2="34.025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CLK_2">
-<contactref element="12P_OUTPUT_CONNECTOR1" pad="2"/>
 <contactref element="LT3579_IC_2" pad="16"/>
 <contactref element="TP_CLK_2" pad="1"/>
-<wire x1="95.96" y1="-9.14" x2="151.985" y2="62.945" width="0" layer="19" extent="1-1"/>
-<wire x1="102.055" y1="-24.455" x2="95.96" y2="-9.14" width="0" layer="19" extent="1-1"/>
+<contactref element="R_10K_FILTER_2" pad="1"/>
+<wire x1="102.055" y1="-24.455" x2="-62.355" y2="-82.3" width="0" layer="19" extent="1-1"/>
+<wire x1="95.96" y1="-9.14" x2="102.055" y2="-24.455" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VOUT_2">
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="7"/>
@@ -1990,11 +2605,13 @@ design rules under a new name.</description>
 <contactref element="C_OUT_2_2" pad="1"/>
 <contactref element="C_OUT_3_2" pad="1"/>
 <contactref element="TP_OUT_2" pad="1"/>
+<contactref element="R_LED_10K_2" pad="1"/>
 <wire x1="115.39" y1="-15.76" x2="155.215" y2="59.135" width="0" layer="19" extent="1-1"/>
 <wire x1="111.99" y1="-15.8" x2="115.39" y2="-15.76" width="0" layer="19" extent="1-1"/>
 <wire x1="108.35" y1="-15.82" x2="111.99" y2="-15.8" width="0" layer="19" extent="1-1"/>
 <wire x1="103.92" y1="-15.92" x2="108.35" y2="-15.82" width="0" layer="19" extent="1-1"/>
 <wire x1="99.36" y1="-9.2" x2="103.92" y2="-15.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.45" y1="-108.45" x2="103.92" y2="-15.92" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="0">
 <contactref element="R_UVLO2_" pad="1"/>
@@ -2045,53 +2662,95 @@ design rules under a new name.</description>
 <contactref element="TP_GND2_2" pad="1"/>
 <contactref element="TP_GND3_2" pad="1"/>
 <contactref element="TP_GND4_2" pad="1"/>
-<wire x1="114.75" y1="101.71" x2="117.44" y2="101.73" width="0" layer="19" extent="1-1"/>
-<wire x1="112.06" y1="101.69" x2="114.75" y2="101.71" width="0" layer="19" extent="1-1"/>
-<wire x1="109.95" y1="97.73" x2="112.06" y2="101.69" width="0" layer="19" extent="1-1"/>
-<wire x1="110.1" y1="93.48" x2="109.95" y2="97.73" width="0" layer="19" extent="1-1"/>
-<wire x1="115.74" y1="93.93" x2="110.1" y2="93.48" width="0" layer="19" extent="1-1"/>
-<wire x1="101.18" y1="94.15" x2="110.1" y2="93.48" width="0" layer="19" extent="1-1"/>
-<wire x1="88.3" y1="95.99" x2="101.18" y2="94.15" width="0" layer="19" extent="1-1"/>
-<wire x1="87.26" y1="98.29" x2="88.3" y2="95.99" width="0" layer="19" extent="1-1"/>
-<wire x1="116.21" y1="76.74" x2="115.74" y2="93.93" width="0" layer="19" extent="1-1"/>
-<wire x1="116.21" y1="72.14" x2="116.21" y2="76.74" width="0" layer="19" extent="1-1"/>
-<wire x1="116.21" y1="67.54" x2="116.21" y2="72.14" width="0" layer="19" extent="1-1"/>
-<wire x1="116.21" y1="62.94" x2="116.21" y2="67.54" width="0" layer="19" extent="1-1"/>
-<wire x1="104.9" y1="75.91" x2="116.21" y2="76.74" width="0" layer="19" extent="1-1"/>
-<wire x1="90.23" y1="75.57" x2="104.9" y2="75.91" width="0" layer="19" extent="1-1"/>
-<wire x1="86.84" y1="75.5" x2="90.23" y2="75.57" width="0" layer="19" extent="1-1"/>
-<wire x1="112.79" y1="40.11" x2="116.21" y2="62.94" width="0" layer="19" extent="1-1"/>
-<wire x1="109.65" y1="40.14" x2="112.79" y2="40.11" width="0" layer="19" extent="1-1"/>
-<wire x1="106.45" y1="40.15" x2="109.65" y2="40.14" width="0" layer="19" extent="1-1"/>
-<wire x1="105.62" y1="36.43" x2="106.45" y2="40.15" width="0" layer="19" extent="1-1"/>
-<wire x1="105.61" y1="32.87" x2="105.62" y2="36.43" width="0" layer="19" extent="1-1"/>
-<wire x1="111.27" y1="32.87" x2="105.61" y2="32.87" width="0" layer="19" extent="1-1"/>
-<wire x1="98.49" y1="33.7" x2="105.61" y2="32.87" width="0" layer="19" extent="1-1"/>
-<wire x1="87.48" y1="37.71" x2="98.49" y2="33.7" width="0" layer="19" extent="1-1"/>
-<wire x1="87.5" y1="39.87" x2="87.48" y2="37.71" width="0" layer="19" extent="1-1"/>
-<wire x1="109.155" y1="20.3" x2="111.27" y2="32.87" width="0" layer="19" extent="1-1"/>
-<wire x1="109.155" y1="16.68" x2="109.155" y2="20.3" width="0" layer="19" extent="1-1"/>
-<wire x1="109.155" y1="13.06" x2="109.155" y2="16.68" width="0" layer="19" extent="1-1"/>
-<wire x1="109.155" y1="9.44" x2="109.155" y2="13.06" width="0" layer="19" extent="1-1"/>
-<wire x1="101.48" y1="15.11" x2="109.155" y2="16.68" width="0" layer="19" extent="1-1"/>
-<wire x1="88.18" y1="19.89" x2="101.48" y2="15.11" width="0" layer="19" extent="1-1"/>
-<wire x1="84.59" y1="19.92" x2="88.18" y2="19.89" width="0" layer="19" extent="1-1"/>
-<wire x1="108.35" y1="-17.82" x2="109.155" y2="9.44" width="0" layer="19" extent="1-1"/>
+<contactref element="C_68N_FILTER_" pad="2"/>
+<contactref element="R_5K_FILTER_\" pad="2"/>
+<contactref element="C_LDO_IN_" pad="2"/>
+<contactref element="C_LDO_OUT_" pad="2"/>
+<contactref element="NMOS_LDO_" pad="2"/>
+<contactref element="C_LS_" pad="2"/>
+<contactref element="NMOS_LDO_1" pad="2"/>
+<contactref element="C_LS_1" pad="2"/>
+<contactref element="C_LDO_IN_1" pad="2"/>
+<contactref element="C_LDO_OUT_1" pad="2"/>
+<contactref element="C_68N_FILTER_1" pad="2"/>
+<contactref element="R_5K_FILTER_\1" pad="2"/>
+<contactref element="NMOS_LDO_2" pad="2"/>
+<contactref element="C_LS_2" pad="2"/>
+<contactref element="C_LDO_IN_2" pad="2"/>
+<contactref element="C_LDO_OUT_2" pad="2"/>
+<contactref element="C_68N_FILTER_2" pad="2"/>
+<contactref element="R_5K_FILTER_\2" pad="2"/>
+<contactref element="LED_" pad="2"/>
+<contactref element="LED_1" pad="2"/>
+<contactref element="LED_2" pad="2"/>
+<wire x1="-53.75" y1="-94.4" x2="-54.775" y2="-99.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.97" y1="-89.8" x2="-53.75" y2="-94.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.3" y1="-87.5" x2="-50.97" y2="-89.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-51" y1="-85.2" x2="-51.3" y2="-87.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.8" y1="-81.8" x2="-51" y2="-85.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.775" y1="-106.15" x2="-54.775" y2="-99.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.775" y1="-110.75" x2="-54.775" y2="-106.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.4033" y1="-52.3" x2="-46.8" y2="-81.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.75" y1="-45.8" x2="-56.4033" y2="-52.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.97" y1="-41.2" x2="-53.75" y2="-45.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.3" y1="-38.9" x2="-50.97" y2="-41.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-51" y1="-36.6" x2="-51.3" y2="-38.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.8" y1="-33.2" x2="-51" y2="-36.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.4033" y1="-3.7" x2="-46.8" y2="-33.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.75" y1="2.8" x2="-56.4033" y2="-3.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.3" y1="7.4" x2="-53.75" y2="2.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-51" y1="9.7" x2="-51.3" y2="7.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.4033" y1="33.2" x2="-51" y2="9.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.97" y1="39.7" x2="-56.4033" y2="33.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.9" y1="42.1" x2="-50.97" y2="39.7" width="0" layer="19" extent="1-1"/>
+<wire x1="87.74" y1="-39.26" x2="-50.97" y2="39.7" width="0" layer="19" extent="1-1"/>
+<wire x1="90.43" y1="-39.24" x2="87.74" y2="-39.26" width="0" layer="19" extent="1-1"/>
+<wire x1="101.96" y1="-44.84" x2="90.43" y2="-39.24" width="0" layer="19" extent="1-1"/>
+<wire x1="112.715" y1="-46.3" x2="101.96" y2="-44.84" width="0" layer="19" extent="1-1"/>
+<wire x1="112.715" y1="-43.04" x2="112.715" y2="-46.3" width="0" layer="19" extent="1-1"/>
+<wire x1="112.715" y1="-39.78" x2="112.715" y2="-43.04" width="0" layer="19" extent="1-1"/>
+<wire x1="112.715" y1="-49.56" x2="112.715" y2="-46.3" width="0" layer="19" extent="1-1"/>
+<wire x1="115.83" y1="-28.03" x2="112.715" y2="-39.78" width="0" layer="19" extent="1-1"/>
+<wire x1="108.83" y1="-27.68" x2="115.83" y2="-28.03" width="0" layer="19" extent="1-1"/>
+<wire x1="108.74" y1="-24.07" x2="108.83" y2="-27.68" width="0" layer="19" extent="1-1"/>
+<wire x1="108.35" y1="-17.82" x2="108.74" y2="-24.07" width="0" layer="19" extent="1-1"/>
 <wire x1="111.99" y1="-17.8" x2="108.35" y2="-17.82" width="0" layer="19" extent="1-1"/>
 <wire x1="115.39" y1="-17.76" x2="111.99" y2="-17.8" width="0" layer="19" extent="1-1"/>
-<wire x1="108.74" y1="-24.07" x2="108.35" y2="-17.82" width="0" layer="19" extent="1-1"/>
-<wire x1="108.83" y1="-27.68" x2="108.74" y2="-24.07" width="0" layer="19" extent="1-1"/>
-<wire x1="115.83" y1="-28.03" x2="108.83" y2="-27.68" width="0" layer="19" extent="1-1"/>
 <wire x1="99.13" y1="-24.78" x2="108.74" y2="-24.07" width="0" layer="19" extent="1-1"/>
 <wire x1="89.69" y1="-20.96" x2="99.13" y2="-24.78" width="0" layer="19" extent="1-1"/>
 <wire x1="87.63" y1="-18.98" x2="89.69" y2="-20.96" width="0" layer="19" extent="1-1"/>
-<wire x1="112.715" y1="-39.78" x2="115.83" y2="-28.03" width="0" layer="19" extent="1-1"/>
-<wire x1="112.715" y1="-43.04" x2="112.715" y2="-39.78" width="0" layer="19" extent="1-1"/>
-<wire x1="112.715" y1="-46.3" x2="112.715" y2="-43.04" width="0" layer="19" extent="1-1"/>
-<wire x1="112.715" y1="-49.56" x2="112.715" y2="-46.3" width="0" layer="19" extent="1-1"/>
-<wire x1="101.96" y1="-44.84" x2="112.715" y2="-46.3" width="0" layer="19" extent="1-1"/>
-<wire x1="90.43" y1="-39.24" x2="101.96" y2="-44.84" width="0" layer="19" extent="1-1"/>
-<wire x1="87.74" y1="-39.26" x2="90.43" y2="-39.24" width="0" layer="19" extent="1-1"/>
+<wire x1="109.155" y1="9.44" x2="108.35" y2="-17.82" width="0" layer="19" extent="1-1"/>
+<wire x1="109.155" y1="13.06" x2="109.155" y2="9.44" width="0" layer="19" extent="1-1"/>
+<wire x1="109.155" y1="16.68" x2="109.155" y2="13.06" width="0" layer="19" extent="1-1"/>
+<wire x1="109.155" y1="20.3" x2="109.155" y2="16.68" width="0" layer="19" extent="1-1"/>
+<wire x1="101.48" y1="15.11" x2="109.155" y2="16.68" width="0" layer="19" extent="1-1"/>
+<wire x1="111.27" y1="32.87" x2="109.155" y2="20.3" width="0" layer="19" extent="1-1"/>
+<wire x1="105.61" y1="32.87" x2="111.27" y2="32.87" width="0" layer="19" extent="1-1"/>
+<wire x1="105.62" y1="36.43" x2="105.61" y2="32.87" width="0" layer="19" extent="1-1"/>
+<wire x1="106.45" y1="40.15" x2="105.62" y2="36.43" width="0" layer="19" extent="1-1"/>
+<wire x1="109.65" y1="40.14" x2="106.45" y2="40.15" width="0" layer="19" extent="1-1"/>
+<wire x1="112.79" y1="40.11" x2="109.65" y2="40.14" width="0" layer="19" extent="1-1"/>
+<wire x1="98.49" y1="33.7" x2="105.61" y2="32.87" width="0" layer="19" extent="1-1"/>
+<wire x1="87.48" y1="37.71" x2="98.49" y2="33.7" width="0" layer="19" extent="1-1"/>
+<wire x1="87.5" y1="39.87" x2="87.48" y2="37.71" width="0" layer="19" extent="1-1"/>
+<wire x1="88.18" y1="19.89" x2="101.48" y2="15.11" width="0" layer="19" extent="1-1"/>
+<wire x1="84.59" y1="19.92" x2="88.18" y2="19.89" width="0" layer="19" extent="1-1"/>
+<wire x1="116.21" y1="62.94" x2="112.79" y2="40.11" width="0" layer="19" extent="1-1"/>
+<wire x1="116.21" y1="67.54" x2="116.21" y2="62.94" width="0" layer="19" extent="1-1"/>
+<wire x1="116.21" y1="72.14" x2="116.21" y2="67.54" width="0" layer="19" extent="1-1"/>
+<wire x1="116.21" y1="76.74" x2="116.21" y2="72.14" width="0" layer="19" extent="1-1"/>
+<wire x1="104.9" y1="75.91" x2="116.21" y2="76.74" width="0" layer="19" extent="1-1"/>
+<wire x1="90.23" y1="75.57" x2="104.9" y2="75.91" width="0" layer="19" extent="1-1"/>
+<wire x1="86.84" y1="75.5" x2="90.23" y2="75.57" width="0" layer="19" extent="1-1"/>
+<wire x1="115.74" y1="93.93" x2="116.21" y2="76.74" width="0" layer="19" extent="1-1"/>
+<wire x1="110.1" y1="93.48" x2="115.74" y2="93.93" width="0" layer="19" extent="1-1"/>
+<wire x1="109.95" y1="97.73" x2="110.1" y2="93.48" width="0" layer="19" extent="1-1"/>
+<wire x1="112.06" y1="101.69" x2="109.95" y2="97.73" width="0" layer="19" extent="1-1"/>
+<wire x1="114.75" y1="101.71" x2="112.06" y2="101.69" width="0" layer="19" extent="1-1"/>
+<wire x1="117.44" y1="101.73" x2="114.75" y2="101.71" width="0" layer="19" extent="1-1"/>
+<wire x1="101.18" y1="94.15" x2="110.1" y2="93.48" width="0" layer="19" extent="1-1"/>
+<wire x1="88.3" y1="95.99" x2="101.18" y2="94.15" width="0" layer="19" extent="1-1"/>
+<wire x1="87.26" y1="98.29" x2="88.3" y2="95.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="C_1_" pad="2"/>
@@ -2387,6 +3046,140 @@ design rules under a new name.</description>
 <wire x1="101.96" y1="-36.34" x2="102.055" y2="-27.705" width="0" layer="19" extent="1-1"/>
 <wire x1="112.715" y1="-36.52" x2="101.96" y2="-36.34" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="CLK_FILTER_OUT_">
+<contactref element="R_10K_FILTER_" pad="2"/>
+<contactref element="R_5K_FILTER_\" pad="1"/>
+<contactref element="C_68N_FILTER_" pad="1"/>
+<contactref element="TP_CLK_FILTER_" pad="1"/>
+<contactref element="12P_OUTPUT_CONNECTOR1" pad="6"/>
+<wire x1="-61.25" y1="49.6" x2="151.985" y2="60.405" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.445" y1="45" x2="-61.25" y2="49.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.9" y1="42.1" x2="-60.445" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.03" y1="39.7" x2="-56.9" y2="42.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LDO_OUT_">
+<contactref element="LDO_" pad="2"/>
+<contactref element="C_LDO_OUT_" pad="1"/>
+<contactref element="TP_LDO_OUT_" pad="1"/>
+<contactref element="LDO_" pad="4"/>
+<contactref element="R_LS_DRAIN_" pad="2"/>
+<wire x1="-52.35" y1="5.1" x2="-55.35" y2="2.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.25" y1="13.8" x2="-52.35" y2="5.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.95" y1="26.6" x2="-61.25" y2="13.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.75" y1="26.6" x2="-59.95" y2="26.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="R_LS_GATE_" pad="2"/>
+<contactref element="NMOS_LDO_" pad="1"/>
+<wire x1="-56.4033" y1="35.1" x2="-46.495" y2="15.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="FAULT_LS_OUT_">
+<contactref element="NMOS_LDO_" pad="3"/>
+<contactref element="R_LS_DRAIN_" pad="1"/>
+<contactref element="C_LS_" pad="1"/>
+<contactref element="TP_FAULT_LS_" pad="1"/>
+<contactref element="12P_OUTPUT_CONNECTOR1" pad="5"/>
+<wire x1="-53.8967" y1="34.15" x2="155.215" y2="60.405" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.25" y1="19.8" x2="-53.8967" y2="34.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.4" y1="7.4" x2="-61.25" y2="19.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.45" y1="5.1" x2="-52.4" y2="7.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$10">
+<contactref element="R_LS_GATE_1" pad="2"/>
+<contactref element="NMOS_LDO_1" pad="1"/>
+<wire x1="-56.4033" y1="-1.8" x2="-45.495" y2="-27.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LDO_OUT_1">
+<contactref element="LDO_1" pad="2"/>
+<contactref element="C_LDO_OUT_1" pad="1"/>
+<contactref element="TP_LDO_OUT_1" pad="1"/>
+<contactref element="LDO_1" pad="4"/>
+<contactref element="R_LS_DRAIN_1" pad="2"/>
+<wire x1="-52.35" y1="-43.5" x2="-55.35" y2="-45.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.25" y1="-29.1" x2="-52.35" y2="-43.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.95" y1="-10.3" x2="-61.25" y2="-29.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.75" y1="-10.3" x2="-59.95" y2="-10.3" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="FAULT_LS_OUT_1">
+<contactref element="NMOS_LDO_1" pad="3"/>
+<contactref element="R_LS_DRAIN_1" pad="1"/>
+<contactref element="C_LS_1" pad="1"/>
+<contactref element="TP_FAULT_LS_1" pad="1"/>
+<contactref element="12P_OUTPUT_CONNECTOR1" pad="3"/>
+<wire x1="-53.8967" y1="-2.75" x2="155.215" y2="61.675" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.25" y1="-23.1" x2="-53.8967" y2="-2.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.4" y1="-38.9" x2="-61.25" y2="-23.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.45" y1="-43.5" x2="-52.4" y2="-38.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CLK_FILTER_OUT_1">
+<contactref element="R_10K_FILTER_1" pad="2"/>
+<contactref element="R_5K_FILTER_\1" pad="1"/>
+<contactref element="C_68N_FILTER_1" pad="1"/>
+<contactref element="TP_CLK_FILTER_1" pad="1"/>
+<contactref element="12P_OUTPUT_CONNECTOR1" pad="4"/>
+<wire x1="-61.25" y1="-17.1" x2="151.985" y2="61.675" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.445" y1="-33.7" x2="-61.25" y2="-17.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.03" y1="-41.2" x2="-60.445" y2="-33.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.8" y1="-33.2" x2="-53.03" y2="-41.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LDO_OUT_2">
+<contactref element="R_LS_DRAIN_2" pad="2"/>
+<contactref element="LDO_2" pad="2"/>
+<contactref element="C_LDO_OUT_2" pad="1"/>
+<contactref element="TP_LDO_OUT_2" pad="1"/>
+<contactref element="LDO_2" pad="4"/>
+<wire x1="-52.35" y1="-92.1" x2="-55.35" y2="-94.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.25" y1="-77.7" x2="-52.35" y2="-92.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.95" y1="-58.9" x2="-61.25" y2="-77.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.75" y1="-58.9" x2="-59.95" y2="-58.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$14">
+<contactref element="R_LS_GATE_2" pad="2"/>
+<contactref element="NMOS_LDO_2" pad="1"/>
+<wire x1="-56.4033" y1="-50.4" x2="-45.495" y2="-76.3" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="FAULT_LS_OUT_2">
+<contactref element="NMOS_LDO_2" pad="3"/>
+<contactref element="R_LS_DRAIN_2" pad="1"/>
+<contactref element="C_LS_2" pad="1"/>
+<contactref element="TP_FAULT_LS_2" pad="1"/>
+<contactref element="12P_OUTPUT_CONNECTOR1" pad="1"/>
+<wire x1="-52.4" y1="-87.5" x2="-53.45" y2="-92.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.25" y1="-71.7" x2="-52.4" y2="-87.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.8967" y1="-51.35" x2="-61.25" y2="-71.7" width="0" layer="19" extent="1-1"/>
+<wire x1="155.215" y1="62.945" x2="-53.8967" y2="-51.35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CLK_FILTER_OUT_2">
+<contactref element="R_10K_FILTER_2" pad="2"/>
+<contactref element="R_5K_FILTER_\2" pad="1"/>
+<contactref element="C_68N_FILTER_2" pad="1"/>
+<contactref element="TP_CLK_FILTER_2" pad="1"/>
+<contactref element="12P_OUTPUT_CONNECTOR1" pad="2"/>
+<wire x1="-49.8" y1="-81.8" x2="-53.03" y2="-89.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.445" y1="-82.3" x2="-53.03" y2="-89.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.25" y1="-65.7" x2="-60.445" y2="-82.3" width="0" layer="19" extent="1-1"/>
+<wire x1="151.985" y1="62.945" x2="-61.25" y2="-65.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="R_20K_LED1_" pad="1"/>
+<contactref element="R_5.6K_LED2_" pad="1"/>
+<wire x1="-57.012" y1="-101.55" x2="-56.7125" y2="-96.75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="R_5.6K_LED2_" pad="2"/>
+<contactref element="LED_" pad="1"/>
+<wire x1="-55.988" y1="-101.55" x2="-56.425" y2="-99.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="R_LED_10K_1" pad="2"/>
+<contactref element="LED_1" pad="1"/>
+<wire x1="-56.425" y1="-106.15" x2="-52.35" y2="-103.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="R_LED_10K_2" pad="2"/>
+<contactref element="LED_2" pad="1"/>
+<wire x1="-52.35" y1="-108.45" x2="-56.425" y2="-110.75" width="0" layer="19" extent="1-1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -2397,4 +3190,21 @@ design rules under a new name.</description>
 </mfgpreviewcolors>
 </board>
 </drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
