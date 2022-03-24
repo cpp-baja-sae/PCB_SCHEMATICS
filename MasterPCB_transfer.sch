@@ -23594,6 +23594,11 @@ Output on-board voltages
 <wire x1="137.16" y1="152.4" x2="172.72" y2="152.4" width="0.1524" layer="94"/>
 <wire x1="172.72" y1="152.4" x2="172.72" y2="175.26" width="0.1524" layer="94"/>
 <wire x1="172.72" y1="175.26" x2="137.16" y2="175.26" width="0.1524" layer="94"/>
+<text x="25.4" y="175.26" size="1.778" layer="97">Temp is a analog voltage</text>
+<wire x1="22.86" y1="180.34" x2="22.86" y2="172.72" width="0.1524" layer="94"/>
+<wire x1="22.86" y1="172.72" x2="55.88" y2="172.72" width="0.1524" layer="94"/>
+<wire x1="55.88" y1="172.72" x2="55.88" y2="180.34" width="0.1524" layer="94"/>
+<wire x1="55.88" y1="180.34" x2="22.86" y2="180.34" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="IC5" gate="G$1" x="5.08" y="106.68" smashed="yes">

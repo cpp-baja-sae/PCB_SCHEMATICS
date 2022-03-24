@@ -16318,24 +16318,6 @@ to the node at this segment of the board</text>
 <wire x1="30.48" y1="205.74" x2="30.48" y2="208.28" width="0.1524" layer="91"/>
 <label x="27.94" y="208.28" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="Z15" gate="Z$1" pin="4"/>
-<wire x1="845.82" y1="701.04" x2="840.74" y2="701.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Z15" gate="Z$1" pin="3"/>
-<wire x1="853.44" y1="688.34" x2="853.44" y2="683.26" width="0.1524" layer="91"/>
-<label x="840.74" y="683.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Z16" gate="Z$1" pin="4"/>
-<wire x1="975.36" y1="701.04" x2="970.28" y2="701.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Z16" gate="Z$1" pin="3"/>
-<wire x1="982.98" y1="688.34" x2="982.98" y2="683.26" width="0.1524" layer="91"/>
-<label x="970.28" y="683.26" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="13.5V_BUS" class="0">
 <segment>
@@ -17058,6 +17040,16 @@ to the node at this segment of the board</text>
 <wire x1="281.94" y1="838.2" x2="281.94" y2="840.74" width="0.1524" layer="91"/>
 <label x="276.86" y="843.28" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="Z15" gate="Z$1" pin="3"/>
+<wire x1="853.44" y1="688.34" x2="853.44" y2="683.26" width="0.1524" layer="91"/>
+<label x="850.9" y="683.26" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="Z16" gate="Z$1" pin="3"/>
+<wire x1="982.98" y1="688.34" x2="982.98" y2="683.26" width="0.1524" layer="91"/>
+<label x="980.44" y="683.26" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="N$33" class="0">
 <segment>
@@ -17676,11 +17668,6 @@ to the node at this segment of the board</text>
 <pinref part="D3" gate="G$1" pin="K"/>
 <wire x1="101.6" y1="205.74" x2="101.6" y2="208.28" width="0.1524" layer="91"/>
 <label x="104.14" y="208.28" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="Z15" gate="Z$1" pin="2"/>
-<wire x1="863.6" y1="688.34" x2="863.6" y2="683.26" width="0.1524" layer="91"/>
-<label x="866.14" y="683.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIFF1_N" class="0">
@@ -22590,11 +22577,6 @@ to the node at this segment of the board</text>
 <wire x1="1003.3" y1="629.92" x2="1003.3" y2="627.38" width="0.1524" layer="91"/>
 <label x="1003.3" y="624.84" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="Z15" gate="Z$1" pin="1"/>
-<wire x1="871.22" y1="701.04" x2="876.3" y2="701.04" width="0.1524" layer="91"/>
-<label x="873.76" y="703.58" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="FB1_10" class="0">
 <segment>
@@ -22684,11 +22666,6 @@ to the node at this segment of the board</text>
 <pinref part="R315" gate="G$1" pin="1"/>
 <wire x1="934.72" y1="502.92" x2="934.72" y2="500.38" width="0.1524" layer="91"/>
 <label x="924.56" y="497.84" size="1.778" layer="95" rot="MR180"/>
-</segment>
-<segment>
-<pinref part="Z16" gate="Z$1" pin="1"/>
-<wire x1="1000.76" y1="701.04" x2="1005.84" y2="701.04" width="0.1524" layer="91"/>
-<label x="1003.3" y="703.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GATE2_10" class="0">
@@ -23437,6 +23414,41 @@ to the node at this segment of the board</text>
 <pinref part="R458" gate="G$1" pin="2"/>
 <pinref part="LED84" gate="G$1" pin="A"/>
 <wire x1="281.94" y1="820.42" x2="281.94" y2="817.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IP_OUT1" class="0">
+<segment>
+<pinref part="Z15" gate="Z$1" pin="4"/>
+<wire x1="845.82" y1="701.04" x2="840.74" y2="701.04" width="0.1524" layer="91"/>
+<label x="840.74" y="703.58" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="IM_OUT1" class="0">
+<segment>
+<pinref part="Z15" gate="Z$1" pin="1"/>
+<wire x1="871.22" y1="701.04" x2="876.3" y2="701.04" width="0.1524" layer="91"/>
+<label x="876.3" y="698.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="40G_GPIO" class="0">
+<segment>
+<pinref part="Z15" gate="Z$1" pin="2"/>
+<wire x1="863.6" y1="688.34" x2="863.6" y2="683.26" width="0.1524" layer="91"/>
+<label x="866.14" y="683.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IP_OUT2" class="0">
+<segment>
+<pinref part="Z16" gate="Z$1" pin="4"/>
+<wire x1="975.36" y1="701.04" x2="970.28" y2="701.04" width="0.1524" layer="91"/>
+<label x="970.28" y="703.58" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="IM_OUT2" class="0">
+<segment>
+<pinref part="Z16" gate="Z$1" pin="1"/>
+<wire x1="1000.76" y1="701.04" x2="1005.84" y2="701.04" width="0.1524" layer="91"/>
+<label x="1005.84" y="698.5" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -25394,8 +25406,8 @@ Priority is 40G accelerometer connection</text>
 <attribute name="VALUE" x="-46.99" y="85.09" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="C172" gate="G$1" x="35.56" y="88.9" smashed="yes">
-<attribute name="NAME" x="49.53" y="95.25" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="49.53" y="92.71" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="41.91" y="95.25" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="41.91" y="92.71" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GND473" gate="1" x="-50.8" y="88.9" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-53.34" y="91.44" size="1.778" layer="96" rot="R270"/>

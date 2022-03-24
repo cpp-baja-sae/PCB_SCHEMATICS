@@ -25368,10 +25368,11 @@ BLUE LED - Power at location is available</text>
 <label x="50.8" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$345" class="0">
+<net name="ISO_SPI_SLOW" class="0">
 <segment>
 <pinref part="IC32" gate="G$1" pin="SLOW"/>
 <wire x1="48.26" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<label x="50.8" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IP_INPUT" class="0">

@@ -25253,19 +25253,19 @@ BLUE LED - Power at location is available</text>
 <attribute name="NAME" x="62.23" y="147.32" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="62.23" y="144.78" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C171" gate="G$1" x="17.78" y="137.16" smashed="yes" rot="R180">
-<attribute name="NAME" x="3.81" y="130.81" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="3.81" y="133.35" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="C171" gate="G$1" x="-17.78" y="137.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="-31.75" y="130.81" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="-31.75" y="133.35" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="C172" gate="G$1" x="71.12" y="137.16" smashed="yes">
-<attribute name="NAME" x="85.09" y="143.51" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="85.09" y="140.97" size="1.778" layer="96" align="center-left"/>
+<instance part="C172" gate="G$1" x="106.68" y="137.16" smashed="yes">
+<attribute name="NAME" x="120.65" y="143.51" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="120.65" y="140.97" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="GND473" gate="1" x="0" y="137.16" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-2.54" y="139.7" size="1.778" layer="96" rot="R270"/>
+<instance part="GND473" gate="1" x="-35.56" y="137.16" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-38.1" y="139.7" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND474" gate="1" x="88.9" y="137.16" smashed="yes" rot="R90">
-<attribute name="VALUE" x="91.44" y="134.62" size="1.778" layer="96" rot="R90"/>
+<instance part="GND474" gate="1" x="124.46" y="137.16" smashed="yes" rot="R90">
+<attribute name="VALUE" x="127" y="134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND475" gate="1" x="76.2" y="60.96" smashed="yes">
 <attribute name="VALUE" x="73.66" y="58.42" size="1.778" layer="96"/>
@@ -25318,12 +25318,12 @@ BLUE LED - Power at location is available</text>
 </segment>
 <segment>
 <pinref part="C171" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="137.16" x2="2.54" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="137.16" x2="-33.02" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="GND473" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C172" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="137.16" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="GND474" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -25413,7 +25413,7 @@ BLUE LED - Power at location is available</text>
 <segment>
 <pinref part="T1" gate="G$1" pin="PRIMARY_2"/>
 <pinref part="C171" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="137.16" x2="17.78" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="137.16" x2="-17.78" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IP_OUTPUT" class="0">
@@ -25427,7 +25427,7 @@ BLUE LED - Power at location is available</text>
 <segment>
 <pinref part="T1" gate="G$1" pin="SECONDARY_2"/>
 <pinref part="C172" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="137.16" x2="106.68" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IM_OUTPUT" class="0">
