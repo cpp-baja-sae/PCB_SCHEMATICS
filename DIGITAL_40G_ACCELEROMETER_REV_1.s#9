@@ -868,6 +868,129 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 </deviceset>
 </devicesets>
 </library>
+<library name="CRG0402ZR">
+<description>&lt;0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RESC1005X40N">
+<description>&lt;b&gt;1SS389,L3F&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.175" y1="0.55" x2="1.175" y2="0.55" width="0.05" layer="51"/>
+<wire x1="1.175" y1="0.55" x2="1.175" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="1.175" y1="-0.55" x2="-1.175" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="-1.175" y1="-0.55" x2="-1.175" y2="0.55" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CRG0402ZR">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CRG0402ZR" prefix="R">
+<description>&lt;b&gt;0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data Sheet1773204JpdfEnglishENG_DS_1773204_J.pdf6-1622826-4"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRG0402ZR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR" constant="no"/>
+<attribute name="HEIGHT" value="0.4mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402ZR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-CRG0402ZR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRG0402ZR?qs=n4i9pByFsMS7bfq5JAG5yw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="TNPW0402100RBYEP">
+<packages>
+<package name="RESC1005X40N">
+<text x="-0.95" y="-0.63" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-0.95" y="0.63" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="0.53" y1="-0.28" x2="-0.53" y2="-0.28" width="0.127" layer="51"/>
+<wire x1="0.53" y1="0.28" x2="-0.53" y2="0.28" width="0.127" layer="51"/>
+<wire x1="0.53" y1="-0.28" x2="0.53" y2="0.28" width="0.127" layer="51"/>
+<wire x1="-0.53" y1="-0.28" x2="-0.53" y2="0.28" width="0.127" layer="51"/>
+<wire x1="-0.95" y1="-0.55" x2="0.95" y2="-0.55" width="0.05" layer="39"/>
+<wire x1="-0.95" y1="0.55" x2="0.95" y2="0.55" width="0.05" layer="39"/>
+<wire x1="-0.95" y1="-0.55" x2="-0.95" y2="0.55" width="0.05" layer="39"/>
+<wire x1="0.95" y1="-0.55" x2="0.95" y2="0.55" width="0.05" layer="39"/>
+<smd name="1" x="-0.457" y="0" dx="0.49" dy="0.6" layer="1"/>
+<smd name="2" x="0.457" y="0" dx="0.49" dy="0.6" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TNPW0402100RBYEP">
+<wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-0.635" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-1.905" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
+<text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TNPW0402100RBYEP" prefix="R">
+<description> &lt;a href="https://pricing.snapeda.com/parts/TNPW0402100RBYEP/Vishay/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TNPW0402100RBYEP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 100 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film "/>
+<attribute name="MF" value="Vishay"/>
+<attribute name="MP" value="TNPW0402100RBYEP"/>
+<attribute name="PACKAGE" value="1005 Stackpole"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TNPW0402100RBYEP/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -905,6 +1028,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="JMK107BB7475KA-T" device="" package3d_urn="urn:adsk.eagle:package:34029965/4"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R1" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
+<part name="R2" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
+<part name="R3" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
+<part name="R4" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
+<part name="R5" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
+<part name="R6" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
+<part name="R7" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
+<part name="R8" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
+<part name="R9" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
+<part name="R10" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
+<part name="R11" library="TNPW0402100RBYEP" deviceset="TNPW0402100RBYEP" device="" value="100"/>
 </parts>
 <sheets>
 <sheet>
@@ -971,9 +1105,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 <attribute name="VALUE" x="297.18" y="139.7" size="1.778" layer="96"/>
 <attribute name="NAME" x="297.18" y="137.16" size="1.778" layer="95"/>
 </instance>
-<instance part="T1" gate="G$1" x="287.02" y="50.8" smashed="yes">
-<attribute name="NAME" x="326.39" y="58.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="326.39" y="55.88" size="1.778" layer="96" align="center-left"/>
+<instance part="T1" gate="G$1" x="292.1" y="50.8" smashed="yes">
+<attribute name="NAME" x="331.47" y="58.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="331.47" y="55.88" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="IC3" gate="G$1" x="292.1" y="5.08" smashed="yes">
 <attribute name="NAME" x="321.31" y="12.7" size="1.778" layer="95" align="center-left"/>
@@ -999,6 +1133,39 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 </instance>
 <instance part="GND19" gate="1" x="271.78" y="-20.32" smashed="yes">
 <attribute name="VALUE" x="269.24" y="-22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="R1" gate="G$1" x="264.16" y="53.34" smashed="yes">
+<attribute name="NAME" x="278.13" y="59.69" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="R2" gate="G$1" x="256.54" y="50.8" smashed="yes">
+<attribute name="NAME" x="270.51" y="57.15" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="R3" gate="G$1" x="264.16" y="48.26" smashed="yes">
+<attribute name="NAME" x="278.13" y="54.61" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="R4" gate="G$1" x="256.54" y="45.72" smashed="yes">
+<attribute name="NAME" x="270.51" y="52.07" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="R5" gate="G$1" x="264.16" y="43.18" smashed="yes">
+<attribute name="NAME" x="278.13" y="49.53" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="R6" gate="G$1" x="360.68" y="53.34" smashed="yes">
+<attribute name="NAME" x="361.442" y="54.864" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="R7" gate="G$1" x="368.3" y="50.8" smashed="yes">
+<attribute name="NAME" x="383.032" y="52.07" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="R8" gate="G$1" x="360.68" y="48.26" smashed="yes">
+<attribute name="NAME" x="361.696" y="47.244" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="R9" gate="G$1" x="368.3" y="45.72" smashed="yes">
+<attribute name="NAME" x="382.524" y="44.704" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="R10" gate="G$1" x="360.68" y="43.18" smashed="yes">
+<attribute name="NAME" x="361.188" y="41.656" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="R11" gate="G$1" x="233.68" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="231.13851875" y="78.735559375" size="2.54148125" layer="95" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -1229,6 +1396,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 <wire x1="271.78" y1="-12.7" x2="271.78" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="48.26" x2="256.54" y2="48.26" width="0.1524" layer="91"/>
+<label x="251.46" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="378.46" y1="48.26" x2="381" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="48.26" x2="381" y2="48.26" width="0.1524" layer="91"/>
+<label x="383.54" y="48.26" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DR" class="0">
 <segment>
@@ -1249,12 +1427,32 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 <wire x1="289.56" y1="116.84" x2="289.56" y2="109.22" width="0.1524" layer="91"/>
 <label x="287.02" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="53.34" x2="254" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="254" y1="53.34" x2="254" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="254" y1="50.8" x2="256.54" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="254" y1="53.34" x2="248.92" y2="53.34" width="0.1524" layer="91"/>
+<junction x="254" y="53.34"/>
+<label x="248.92" y="53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="IM" class="0">
 <segment>
 <pinref part="Z1" gate="Z$1" pin="2"/>
 <wire x1="299.72" y1="116.84" x2="299.72" y2="109.22" width="0.1524" layer="91"/>
 <label x="299.72" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="256.54" y1="45.72" x2="254" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="254" y1="45.72" x2="254" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="254" y1="43.18" x2="264.16" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="254" y1="43.18" x2="248.92" y2="43.18" width="0.1524" layer="91"/>
+<junction x="254" y="43.18"/>
+<label x="248.92" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -1362,6 +1560,113 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 <wire x1="134.62" y1="31.75" x2="139.7" y2="31.75" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="31.75" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
 <label x="142.24" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="PRIMARY_2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="292.1" y1="48.26" x2="284.48" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="284.48" y1="48.26" x2="281.94" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="50.8" x2="284.48" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="50.8" x2="284.48" y2="48.26" width="0.1524" layer="91"/>
+<junction x="284.48" y="48.26"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="45.72" x2="284.48" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="45.72" x2="284.48" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="PRIMARY_3"/>
+<wire x1="292.1" y1="45.72" x2="289.56" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="45.72" x2="289.56" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="289.56" y1="43.18" x2="281.94" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="PRIMARY_1"/>
+<wire x1="292.1" y1="50.8" x2="289.56" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="50.8" x2="289.56" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="289.56" y1="53.34" x2="281.94" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="SECONDARY_3"/>
+<wire x1="335.28" y1="50.8" x2="347.98" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="50.8" x2="347.98" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="347.98" y1="53.34" x2="360.68" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="SECONDARY_1"/>
+<wire x1="335.28" y1="45.72" x2="347.98" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="45.72" x2="347.98" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="347.98" y1="43.18" x2="360.68" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="SECONDARY_2"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="335.28" y1="48.26" x2="355.6" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="355.6" y1="48.26" x2="360.68" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="50.8" x2="355.6" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="50.8" x2="355.6" y2="48.26" width="0.1524" layer="91"/>
+<junction x="355.6" y="48.26"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="355.6" y1="48.26" x2="355.6" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="45.72" x2="368.3" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IPBOARD" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="378.46" y1="53.34" x2="388.62" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="53.34" x2="388.62" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="388.62" y1="50.8" x2="386.08" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="53.34" x2="393.7" y2="53.34" width="0.1524" layer="91"/>
+<junction x="388.62" y="53.34"/>
+<label x="391.16" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="IP"/>
+<label x="208.28" y="99.06" size="1.778" layer="95"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="233.68" y1="96.52" x2="220.98" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="96.52" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="99.06" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IMBOARD" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="386.08" y1="45.72" x2="388.62" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="388.62" y1="45.72" x2="388.62" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="43.18" x2="378.46" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="43.18" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
+<junction x="388.62" y="43.18"/>
+<label x="390.906" y="43.942" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="IM"/>
+<wire x1="205.74" y1="96.52" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
+<label x="208.28" y="93.98" size="1.778" layer="95"/>
+<wire x1="218.44" y1="96.52" x2="218.44" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="73.66" x2="233.68" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="73.66" x2="233.68" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

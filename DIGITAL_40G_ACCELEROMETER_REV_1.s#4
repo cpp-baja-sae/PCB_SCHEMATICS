@@ -1940,7 +1940,7 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <label x="190.5" y="127" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="SLOW" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="SLOW"/>
 <pinref part="R16" gate="G$1" pin="1"/>
@@ -1950,6 +1950,7 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <wire x1="215.9" y1="111.76" x2="210.82" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="111.76" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
 <junction x="210.82" y="104.14"/>
+<label x="210.82" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

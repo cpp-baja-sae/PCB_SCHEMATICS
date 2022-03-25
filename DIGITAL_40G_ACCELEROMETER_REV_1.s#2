@@ -1598,6 +1598,10 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="185.42" y1="121.92" x2="185.42" y2="128.27" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="128.27" x2="177.8" y2="128.27" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="EN"/>
+<wire x1="187.96" y1="121.92" x2="187.96" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="128.27" x2="185.42" y2="128.27" width="0.1524" layer="91"/>
+<junction x="185.42" y="128.27"/>
 </segment>
 <segment>
 <pinref part="Z1" gate="Z$1" pin="GND"/>
@@ -1707,11 +1711,6 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 </segment>
 </net>
 <net name="3.3V" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="EN"/>
-<wire x1="187.96" y1="121.92" x2="187.96" y2="127" width="0.1524" layer="91"/>
-<label x="187.96" y="127" size="1.778" layer="95" rot="R90"/>
-</segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VDDS"/>
 <wire x1="185.42" y1="81.28" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
