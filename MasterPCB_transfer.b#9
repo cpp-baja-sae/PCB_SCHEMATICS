@@ -84,20 +84,6 @@
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="CAPC2012X145N" urn="urn:adsk.eagle:footprint:31721564/1">
-<description>Chip, 2.00 X 1.25 X 1.45 mm body
-&lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
-<wire x1="1.1" y1="1.0467" x2="-1.1" y2="1.0467" width="0.12" layer="21"/>
-<wire x1="1.1" y1="-1.0467" x2="-1.1" y2="-1.0467" width="0.12" layer="21"/>
-<wire x1="1.1" y1="-0.725" x2="-1.1" y2="-0.725" width="0.12" layer="51"/>
-<wire x1="-1.1" y1="-0.725" x2="-1.1" y2="0.725" width="0.12" layer="51"/>
-<wire x1="-1.1" y1="0.725" x2="1.1" y2="0.725" width="0.12" layer="51"/>
-<wire x1="1.1" y1="0.725" x2="1.1" y2="-0.725" width="0.12" layer="51"/>
-<smd name="1" x="-1.0618" y="0" dx="0.7918" dy="1.4653" layer="1" roundness="40"/>
-<smd name="2" x="1.0618" y="0" dx="0.7918" dy="1.4653" layer="1" roundness="40"/>
-<text x="0" y="1.6817" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.6817" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
 <package name="CAPC3225X230N">
 <description>&lt;b&gt;C3225 [EIA CC1210] Thickness 2.5&lt;/b&gt;&lt;br&gt;
 </description>
@@ -114,20 +100,6 @@
 <wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.1" layer="51"/>
 <wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.1" layer="51"/>
 <wire x1="0" y1="1.15" x2="0" y2="-1.15" width="0.2" layer="21"/>
-</package>
-<package name="CAPC3225X270N" urn="urn:adsk.eagle:footprint:31718473/1">
-<description>Chip, 3.20 X 2.50 X 2.70 mm body
-&lt;p&gt;Chip package with body size 3.20 X 2.50 X 2.70 mm&lt;/p&gt;</description>
-<wire x1="1.75" y1="1.6695" x2="-1.75" y2="1.6695" width="0.12" layer="21"/>
-<wire x1="1.75" y1="-1.6695" x2="-1.75" y2="-1.6695" width="0.12" layer="21"/>
-<wire x1="1.75" y1="-1.35" x2="-1.75" y2="-1.35" width="0.12" layer="51"/>
-<wire x1="-1.75" y1="-1.35" x2="-1.75" y2="1.35" width="0.12" layer="51"/>
-<wire x1="-1.75" y1="1.35" x2="1.75" y2="1.35" width="0.12" layer="51"/>
-<wire x1="1.75" y1="1.35" x2="1.75" y2="-1.35" width="0.12" layer="51"/>
-<smd name="1" x="-1.498" y="0" dx="1.2114" dy="2.711" layer="1" roundness="40"/>
-<smd name="2" x="1.498" y="0" dx="1.2114" dy="2.711" layer="1" roundness="40"/>
-<text x="0" y="2.3045" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.3045" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="CAPC1608X90N">
 <description>&lt;b&gt;0603-1&lt;/b&gt;&lt;br&gt;
@@ -146,22 +118,6 @@
 <wire x1="-0.8" y1="-0.405" x2="-0.8" y2="0.405" width="0.1" layer="51"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="CAPC2012X145N" urn="urn:adsk.eagle:package:31721214/1" type="model">
-<description>Chip, 2.00 X 1.25 X 1.45 mm body
-&lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="CAPC2012X145N"/>
-</packageinstances>
-</package3d>
-<package3d name="CAPC3225X270N" urn="urn:adsk.eagle:package:31717837/1" type="model">
-<description>Chip, 3.20 X 2.50 X 2.70 mm body
-&lt;p&gt;Chip package with body size 3.20 X 2.50 X 2.70 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="CAPC3225X270N"/>
-</packageinstances>
-</package3d>
-</packages3d>
 </library>
 <library name="SamacSys_Parts" urn="urn:adsk.eagle:library:31941355">
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
@@ -1861,6 +1817,34 @@
 <text x="0" y="7.087" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-7.087" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="CAPC2012X145N" urn="urn:adsk.eagle:footprint:31721564/1" library_version="121">
+<description>Chip, 2.00 X 1.25 X 1.45 mm body
+&lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
+<wire x1="1.1" y1="1.0467" x2="-1.1" y2="1.0467" width="0.12" layer="21"/>
+<wire x1="1.1" y1="-1.0467" x2="-1.1" y2="-1.0467" width="0.12" layer="21"/>
+<wire x1="1.1" y1="-0.725" x2="-1.1" y2="-0.725" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="-0.725" x2="-1.1" y2="0.725" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="0.725" x2="1.1" y2="0.725" width="0.12" layer="51"/>
+<wire x1="1.1" y1="0.725" x2="1.1" y2="-0.725" width="0.12" layer="51"/>
+<smd name="1" x="-1.0618" y="0" dx="0.7918" dy="1.4653" layer="1" roundness="40"/>
+<smd name="2" x="1.0618" y="0" dx="0.7918" dy="1.4653" layer="1" roundness="40"/>
+<text x="0" y="1.6817" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.6817" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CAPC3225X270N" urn="urn:adsk.eagle:footprint:31718473/1" library_version="121">
+<description>Chip, 3.20 X 2.50 X 2.70 mm body
+&lt;p&gt;Chip package with body size 3.20 X 2.50 X 2.70 mm&lt;/p&gt;</description>
+<wire x1="1.75" y1="1.6695" x2="-1.75" y2="1.6695" width="0.12" layer="21"/>
+<wire x1="1.75" y1="-1.6695" x2="-1.75" y2="-1.6695" width="0.12" layer="21"/>
+<wire x1="1.75" y1="-1.35" x2="-1.75" y2="-1.35" width="0.12" layer="51"/>
+<wire x1="-1.75" y1="-1.35" x2="-1.75" y2="1.35" width="0.12" layer="51"/>
+<wire x1="-1.75" y1="1.35" x2="1.75" y2="1.35" width="0.12" layer="51"/>
+<wire x1="1.75" y1="1.35" x2="1.75" y2="-1.35" width="0.12" layer="51"/>
+<smd name="1" x="-1.498" y="0" dx="1.2114" dy="2.711" layer="1" roundness="40"/>
+<smd name="2" x="1.498" y="0" dx="1.2114" dy="2.711" layer="1" roundness="40"/>
+<text x="0" y="2.3045" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.3045" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="CAPC1005X55N" urn="urn:adsk.eagle:package:34425013/2" type="model" library_version="48">
@@ -2094,6 +2078,20 @@
 <packageinstance name="QFP50P1200X1200X160-64N_NO_3D"/>
 </packageinstances>
 </package3d>
+<package3d name="CAPC2012X145N" urn="urn:adsk.eagle:package:31721214/1" type="model" library_version="121">
+<description>Chip, 2.00 X 1.25 X 1.45 mm body
+&lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC2012X145N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC3225X270N" urn="urn:adsk.eagle:package:31717837/1" type="model" library_version="121">
+<description>Chip, 3.20 X 2.50 X 2.70 mm body
+&lt;p&gt;Chip package with body size 3.20 X 2.50 X 2.70 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC3225X270N"/>
+</packageinstances>
+</package3d>
 </packages3d>
 </library>
 </libraries>
@@ -2289,106 +2287,6 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="44.45" y="240.03" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="44.45" y="241.7117" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="44.45" y="238.3483" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="C10" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="63.5" y="247.65" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="63.5" y="249.3317" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="63.5" y="245.9683" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="C11" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="39.37" y="247.65" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="39.37" y="249.3317" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="39.37" y="245.9683" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="C12" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="256.54" y="255.27" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="256.54" y="256.9517" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="256.54" y="253.5883" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="C13" library="SamacSys_Parts" package="CAPC3225X270N" package3d_urn="urn:adsk.eagle:package:31717837/1" value="CNA6P1X7R1H106K250AE" x="30.48" y="231.14" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 50V 10uF 10% Soft Term AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.5mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CNA6P1X7R1H106K250AE" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOSUER_PART_NUMBER" value="810-CNA6P1X7R1H106K2 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE_STOCK" value="https://www.mouser.com/ProductDetail/TDK/CNA6P1X7R1H106K250AE?qs=w%2Fv1CP2dgqqx%252BlNrF5czZw%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.48" y="233.4445" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="30.48" y="228.8355" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="C14" library="SamacSys_Parts" package="CAPC3225X270N" package3d_urn="urn:adsk.eagle:package:31717837/1" value="CNA6P1X7R1H106K250AE" x="256.54" y="240.03" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 50V 10uF 10% Soft Term AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.5mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CNA6P1X7R1H106K250AE" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOSUER_PART_NUMBER" value="810-CNA6P1X7R1H106K2 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE_STOCK" value="https://www.mouser.com/ProductDetail/TDK/CNA6P1X7R1H106K250AE?qs=w%2Fv1CP2dgqqx%252BlNrF5czZw%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="256.54" y="242.3345" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="256.54" y="237.7255" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="C15" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="232.41" y="255.27" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="232.41" y="256.9517" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="232.41" y="253.5883" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="C16" library="SamacSys_Parts" package="CAPC3225X270N" package3d_urn="urn:adsk.eagle:package:31717837/1" value="CNA6P1X7R1H106K250AE" x="232.41" y="240.03" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 50V 10uF 10% Soft Term AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.5mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CNA6P1X7R1H106K250AE" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOSUER_PART_NUMBER" value="810-CNA6P1X7R1H106K2 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE_STOCK" value="https://www.mouser.com/ProductDetail/TDK/CNA6P1X7R1H106K250AE?qs=w%2Fv1CP2dgqqx%252BlNrF5czZw%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="232.41" y="242.3345" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="232.41" y="237.7255" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="C17" library="SamacSys_Parts" package="CAPC3225X270N" package3d_urn="urn:adsk.eagle:package:31717837/1" value="CNA6P1X7R1H106K250AE" x="208.28" y="240.03" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 50V 10uF 10% Soft Term AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.5mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CNA6P1X7R1H106K250AE" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOSUER_PART_NUMBER" value="810-CNA6P1X7R1H106K2 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE_STOCK" value="https://www.mouser.com/ProductDetail/TDK/CNA6P1X7R1H106K250AE?qs=w%2Fv1CP2dgqqx%252BlNrF5czZw%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="208.28" y="242.3345" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="208.28" y="237.7255" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="C18" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="208.28" y="255.27" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="208.28" y="256.9517" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="208.28" y="253.5883" size="1.27" layer="27" align="top-center"/>
-</element>
 <element name="C19" library="SamacSys_Parts" package="CAPC1608X90N" value="06033C105KAT4A" x="260.35" y="328.93" smashed="yes">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 1uF X7R 0603 10%TOL" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
@@ -2398,16 +2296,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/AVX/06033C105KAT4A?qs=%252BdQmOuGyFcHIpI5MSreUwQ%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="260.35" y="328.93" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="260.35" y="328.93" size="1.27" layer="27" align="center"/>
-</element>
-<element name="C2" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="256.54" y="247.65" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="256.54" y="249.3317" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="256.54" y="245.9683" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="C20" library="SamacSys_Parts" package="CAPC1608X90N" value="06033C105KAT4A" x="243.84" y="328.93" smashed="yes">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 1uF X7R 0603 10%TOL" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
@@ -2428,16 +2316,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/AVX/06033C105KAT4A?qs=%252BdQmOuGyFcHIpI5MSreUwQ%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="227.33" y="328.93" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="227.33" y="328.93" size="1.27" layer="27" align="center"/>
-</element>
-<element name="C22" library="SamacSys_Parts" package="CAPC1608X90N" value="06033C105KAT4A" x="210.82" y="328.93" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 1uF X7R 0603 10%TOL" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="06033C105KAT4A" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-06033C105KAT4A" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/AVX/06033C105KAT4A?qs=%252BdQmOuGyFcHIpI5MSreUwQ%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="210.82" y="328.93" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="210.82" y="328.93" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C23" library="SamacSys_Parts" package="CAPC1608X90N" value="06033C105KAT4A" x="194.31" y="328.93" smashed="yes">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 1uF X7R 0603 10%TOL" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
@@ -2489,16 +2367,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="161.29" y="328.93" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="161.29" y="328.93" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C3" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="232.41" y="247.65" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="232.41" y="249.3317" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="232.41" y="245.9683" size="1.27" layer="27" align="top-center"/>
-</element>
 <element name="C38" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X55N" package3d_urn="urn:adsk.eagle:package:34425013/2" value="CGA2B2C0G1H102J050BE" x="165.1" y="281.94" smashed="yes">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 1nF 5% C0G AEC-Q200" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="0.55mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
@@ -2508,16 +2376,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA2B2C0G1H102J050BE?qs=P1JMDcb91o7BA6xd7%2FtTJw%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="165.1" y="281.94" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="165.1" y="281.94" size="1.27" layer="27" align="center"/>
-</element>
-<element name="C4" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="208.28" y="247.65" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="208.28" y="249.3317" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="208.28" y="245.9683" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="C40" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X55N" package3d_urn="urn:adsk.eagle:package:34425013/2" value="CGA2B2C0G1H102J050BE" x="140.97" y="281.94" smashed="yes">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 1nF 5% C0G AEC-Q200" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
@@ -2558,16 +2416,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA5L2C0G1H104J160AD?qs=xLDY6iXSiQZMo0IuKcBk9A%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="135.89" y="255.27" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="135.89" y="255.27" size="1.27" layer="27" align="center"/>
-</element>
-<element name="C5" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="184.15" y="247.65" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="184.15" y="249.3317" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="184.15" y="245.9683" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="C50" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CGA5L2C0G1H104J160AD" package3d_urn="urn:adsk.eagle:package:34399787/2" value="CGA5L2C0G1H104J160AD" x="111.76" y="255.27" smashed="yes">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT, AEC-Q200, 1206, C0G, 50V, 100nF" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
@@ -2669,16 +2517,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="135.89" y="262.89" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="135.89" y="262.89" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C6" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="160.02" y="247.65" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="160.02" y="249.3317" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="160.02" y="245.9683" size="1.27" layer="27" align="top-center"/>
-</element>
 <element name="C60" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CGA5L2C0G1H104J160AD" package3d_urn="urn:adsk.eagle:package:34399787/2" value="CGA5L2C0G1H104J160AD" x="111.76" y="262.89" smashed="yes">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT, AEC-Q200, 1206, C0G, 50V, 100nF" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="0.95mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
@@ -2768,36 +2606,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA2B2C0G1H102J050BE?qs=P1JMDcb91o7BA6xd7%2FtTJw%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="232.41" y="285.75" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="232.41" y="285.75" size="1.27" layer="27" align="center"/>
-</element>
-<element name="C7" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="135.89" y="247.65" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="135.89" y="249.3317" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="135.89" y="245.9683" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="C8" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="111.76" y="247.65" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="111.76" y="249.3317" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="111.76" y="245.9683" size="1.27" layer="27" align="top-center"/>
-</element>
-<element name="C9" library="SamacSys_Parts" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="87.63" y="247.65" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.25mm" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="281.94" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="87.63" y="249.3317" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="VALUE" x="87.63" y="245.9683" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="F1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P280X110-3N" package3d_urn="urn:adsk.eagle:package:34424412/1" value="RTR025N05HZGTL" x="246.38" y="231.14" smashed="yes">
 <attribute name="NAME" x="246.38" y="233.7775" size="1.27" layer="25" align="bottom-center"/>
@@ -11212,32 +11020,239 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-461.9498" y="-1261.5668" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-461.9498" y="-1275.7408" size="1.27" layer="27" align="top-center"/>
 </element>
+<element name="C190" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="-1287.8816" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1287.8816" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1287.8816" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1287.8816" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1287.8816" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1287.8816" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1287.8816" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="-1286.1999" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="-1289.5633" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC3225X270N" package3d_urn="urn:adsk.eagle:package:31717837/1" value="CNA6P1X7R1H106K250AE" x="-480.187" y="1289.1516" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 50V 10uF 10% Soft Term AEC-Q200 " x="-495.808" y="-1287.2466" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.5mm" x="-495.808" y="-1287.2466" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-495.808" y="-1287.2466" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CNA6P1X7R1H106K250AE" x="-495.808" y="-1287.2466" size="1.778" layer="27" display="off"/>
+<attribute name="MOSUER_PART_NUMBER" value="810-CNA6P1X7R1H106K2 " x="-495.808" y="-1287.2466" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE_STOCK" value="https://www.mouser.com/ProductDetail/TDK/CNA6P1X7R1H106K250AE?qs=w%2Fv1CP2dgqqx%252BlNrF5czZw%3D%3D" x="-495.808" y="-1287.2466" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.187" y="1291.4561" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.187" y="1286.8471" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="-1294.7904" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1294.7904" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1294.7904" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1294.7904" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1294.7904" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1294.7904" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1294.7904" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="-1293.1087" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="-1296.4721" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="1296.67" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1301.6992" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1301.6992" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1301.6992" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1301.6992" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1301.6992" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1301.6992" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="1298.3517" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="1294.9883" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC3225X270N" package3d_urn="urn:adsk.eagle:package:31717837/1" value="CNA6P1X7R1H106K250AE" x="-480.187" y="-1302.3088" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 50V 10uF 10% Soft Term AEC-Q200 " x="-495.808" y="-1294.1554" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.5mm" x="-495.808" y="-1294.1554" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-495.808" y="-1294.1554" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CNA6P1X7R1H106K250AE" x="-495.808" y="-1294.1554" size="1.778" layer="27" display="off"/>
+<attribute name="MOSUER_PART_NUMBER" value="810-CNA6P1X7R1H106K2 " x="-495.808" y="-1294.1554" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE_STOCK" value="https://www.mouser.com/ProductDetail/TDK/CNA6P1X7R1H106K250AE?qs=w%2Fv1CP2dgqqx%252BlNrF5czZw%3D%3D" x="-495.808" y="-1294.1554" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.187" y="-1300.0043" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.187" y="-1304.6133" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="1303.5788" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1309.8272" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1309.8272" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1309.8272" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1309.8272" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1309.8272" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1309.8272" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="1305.2605" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="1301.8971" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="-1309.8272" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1309.8272" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1309.8272" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1309.8272" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1309.8272" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1309.8272" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1309.8272" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="-1308.1455" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="-1311.5089" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="1310.4876" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1316.736" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1316.736" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1316.736" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1316.736" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1316.736" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1316.736" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="1312.1693" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="1308.8059" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC3225X270N" package3d_urn="urn:adsk.eagle:package:31717837/1" value="CNA6P1X7R1H106K250AE" x="-480.187" y="-1317.3456" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 50V 10uF 10% Soft Term AEC-Q200 " x="-503.555" y="-1316.101" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.5mm" x="-503.555" y="-1316.101" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-503.555" y="-1316.101" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CNA6P1X7R1H106K250AE" x="-503.555" y="-1316.101" size="1.778" layer="27" display="off"/>
+<attribute name="MOSUER_PART_NUMBER" value="810-CNA6P1X7R1H106K2 " x="-503.555" y="-1316.101" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE_STOCK" value="https://www.mouser.com/ProductDetail/TDK/CNA6P1X7R1H106K250AE?qs=w%2Fv1CP2dgqqx%252BlNrF5czZw%3D%3D" x="-503.555" y="-1316.101" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.187" y="-1315.0411" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.187" y="-1319.6501" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="1317.3964" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="1319.0781" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="1315.7147" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="1324.3052" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="1325.9869" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="1322.6235" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="1331.214" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="1332.8957" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="1329.5323" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="-1331.7728" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1331.7728" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="-1330.0911" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="-1333.4545" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="1338.1228" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1338.6816" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1338.6816" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1338.6816" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1338.6816" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1338.6816" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1338.6816" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="1339.8045" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="1336.4411" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="-1338.6816" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1338.6816" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1338.6816" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1338.6816" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1338.6816" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1338.6816" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1338.6816" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="-1336.9999" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="-1340.3633" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC3225X270N" package3d_urn="urn:adsk.eagle:package:31717837/1" value="CNA6P1X7R1H106K250AE" x="-480.187" y="1345.6412" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 50V 10uF 10% Soft Term AEC-Q200 " x="-495.808" y="-1338.0466" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.5mm" x="-495.808" y="-1338.0466" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-495.808" y="-1338.0466" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CNA6P1X7R1H106K250AE" x="-495.808" y="-1338.0466" size="1.778" layer="27" display="off"/>
+<attribute name="MOSUER_PART_NUMBER" value="810-CNA6P1X7R1H106K2 " x="-495.808" y="-1338.0466" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE_STOCK" value="https://www.mouser.com/ProductDetail/TDK/CNA6P1X7R1H106K250AE?qs=w%2Fv1CP2dgqqx%252BlNrF5czZw%3D%3D" x="-495.808" y="-1338.0466" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.187" y="1347.9457" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.187" y="1343.3367" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="-1345.5904" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1345.5904" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1345.5904" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1345.5904" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1345.5904" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1345.5904" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1345.5904" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="-1343.9087" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="-1347.2721" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="-1352.4992" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1352.4992" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1352.4992" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1352.4992" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1352.4992" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1352.4992" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1352.4992" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="-1350.8175" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="-1354.1809" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="C14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC2012X145N" package3d_urn="urn:adsk.eagle:package:31721214/1" value="CGA4J3X7R1H105K125AB" x="-480.2632" y="1353.1596" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " x="-488.0356" y="-1359.408" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-488.0356" y="-1359.408" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-488.0356" y="-1359.408" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" x="-488.0356" y="-1359.408" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " x="-488.0356" y="-1359.408" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" x="-488.0356" y="-1359.408" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-480.2632" y="1354.8413" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-480.2632" y="1351.4779" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="R147" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:31696460/9" value="CRCW04021K30FKTD" x="-488.0356" y="-1357.0712" smashed="yes">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/16watt 1.3Kohms 1%" x="-488.0356" y="-1357.0712" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="-488.0356" y="-1357.0712" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-488.0356" y="-1357.0712" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW04021K30FKTD" x="-488.0356" y="-1357.0712" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW0402-1.3K" x="-488.0356" y="-1357.0712" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0402-1.3K" x="-488.0356" y="-1357.0712" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-488.0356" y="-1357.0712" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-488.0356" y="-1357.0712" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R148" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:31696460/9" value="CRCW04021K30FKTD" x="-493.9284" y="-1359.3318" smashed="yes">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/16watt 1.3Kohms 1%" x="-493.9284" y="-1359.3318" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="-493.9284" y="-1359.3318" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-493.9284" y="-1359.3318" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW04021K30FKTD" x="-493.9284" y="-1359.3318" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW0402-1.3K" x="-493.9284" y="-1359.3318" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0402-1.3K" x="-493.9284" y="-1359.3318" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-493.9284" y="-1359.3318" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-493.9284" y="-1359.3318" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R149" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:31696460/9" value="CRCW04021K30FKTD" x="-493.9284" y="1357.7316" smashed="yes">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/16watt 1.3Kohms 1%" x="-499.8212" y="-1361.5924" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="-499.8212" y="-1361.5924" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-499.8212" y="-1361.5924" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW04021K30FKTD" x="-499.8212" y="-1361.5924" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW0402-1.3K" x="-499.8212" y="-1361.5924" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0402-1.3K" x="-499.8212" y="-1361.5924" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-493.9284" y="1357.7316" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-493.9284" y="1357.7316" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R150" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:31696460/9" value="CRCW04021K30FKTD" x="-493.9284" y="1359.9922" smashed="yes">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/16watt 1.3Kohms 1%" x="-505.714" y="-1363.853" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="-505.714" y="-1363.853" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-505.714" y="-1363.853" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW04021K30FKTD" x="-505.714" y="-1363.853" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW0402-1.3K" x="-505.714" y="-1363.853" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0402-1.3K" x="-505.714" y="-1363.853" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-493.9284" y="1359.9922" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-493.9284" y="1359.9922" size="1.27" layer="27" align="center"/>
+</element>
 </elements>
 <signals>
-<signal name="AVDD">
-<contactref element="C22" pad="2"/>
-<contactref element="IC52" pad="1"/>
-<wire x1="211.52" y1="328.93" x2="-467.6272" y2="-1264.9038" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="GND">
-<contactref element="C7" pad="2"/>
-<contactref element="C13" pad="2"/>
-<contactref element="C14" pad="2"/>
-<contactref element="C10" pad="1"/>
-<contactref element="C12" pad="1"/>
-<contactref element="C15" pad="1"/>
-<contactref element="C11" pad="1"/>
-<contactref element="C4" pad="1"/>
-<contactref element="C6" pad="1"/>
-<contactref element="C18" pad="1"/>
-<contactref element="C5" pad="1"/>
-<contactref element="C8" pad="2"/>
-<contactref element="C9" pad="2"/>
-<contactref element="C1" pad="2"/>
-<contactref element="C16" pad="2"/>
-<contactref element="C17" pad="2"/>
-<contactref element="C2" pad="2"/>
-<contactref element="C3" pad="2"/>
 <contactref element="F2" pad="2"/>
 <contactref element="C40" pad="2"/>
 <contactref element="F1" pad="2"/>
@@ -11263,7 +11278,6 @@ design rules under a new name.</description>
 <contactref element="C21" pad="2"/>
 <contactref element="C25" pad="2"/>
 <contactref element="C26" pad="2"/>
-<contactref element="C22" pad="1"/>
 <contactref element="C27" pad="1"/>
 <contactref element="C23" pad="1"/>
 <contactref element="C24" pad="1"/>
@@ -11851,6 +11865,25 @@ design rules under a new name.</description>
 <contactref element="IC19" pad="7"/>
 <contactref element="IC22" pad="5"/>
 <contactref element="IC22" pad="6"/>
+<contactref element="C190" pad="2"/>
+<contactref element="C16" pad="2"/>
+<contactref element="C2" pad="2"/>
+<contactref element="C3" pad="2"/>
+<contactref element="C17" pad="2"/>
+<contactref element="C5" pad="1"/>
+<contactref element="C6" pad="1"/>
+<contactref element="C18" pad="1"/>
+<contactref element="C11" pad="1"/>
+<contactref element="C12" pad="1"/>
+<contactref element="C15" pad="1"/>
+<contactref element="C7" pad="2"/>
+<contactref element="C8" pad="2"/>
+<contactref element="C9" pad="2"/>
+<contactref element="C1" pad="2"/>
+<contactref element="C13" pad="2"/>
+<contactref element="C10" pad="1"/>
+<contactref element="C4" pad="1"/>
+<contactref element="C14" pad="1"/>
 <wire x1="-60.78" y1="-433.07" x2="-59.081" y2="-448.36" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.78" y1="-430.53" x2="-60.78" y2="-433.07" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.78" y1="-420.37" x2="-60.78" y2="-430.53" width="0" layer="19" extent="1-1"/>
@@ -12188,6 +12221,15 @@ design rules under a new name.</description>
 <wire x1="-467.6272" y1="-1272.4038" x2="-465.6998" y2="-1274.3312" width="0" layer="19" extent="1-1"/>
 <wire x1="-467.6272" y1="-1268.4038" x2="-467.6272" y2="-1272.4038" width="0" layer="19" extent="1-1"/>
 <wire x1="-467.6272" y1="-1265.4038" x2="-467.6272" y2="-1268.4038" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="-1287.8816" x2="-465.6998" y2="-1274.3312" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="-1294.7904" x2="-479.2014" y2="-1287.8816" width="0" layer="19" extent="1-1"/>
+<wire x1="-478.689" y1="-1302.3088" x2="-479.2014" y2="-1294.7904" width="0" layer="19" extent="1-1"/>
+<wire x1="-481.325" y1="-1309.8272" x2="-478.689" y2="-1302.3088" width="0" layer="19" extent="1-1"/>
+<wire x1="-478.689" y1="-1317.3456" x2="-481.325" y2="-1309.8272" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="-1331.7728" x2="-478.689" y2="-1317.3456" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="-1338.6816" x2="-479.2014" y2="-1331.7728" width="0" layer="19" extent="1-1"/>
+<wire x1="-481.325" y1="-1345.5904" x2="-479.2014" y2="-1338.6816" width="0" layer="19" extent="1-1"/>
+<wire x1="-481.325" y1="-1352.4992" x2="-481.325" y2="-1345.5904" width="0" layer="19" extent="1-1"/>
 <wire x1="-418.63" y1="-1225.55" x2="-421.005" y2="-1256.855" width="0" layer="19" extent="1-1"/>
 <wire x1="-416.69" y1="-1222.47" x2="-418.63" y2="-1225.55" width="0" layer="19" extent="1-1"/>
 <wire x1="-413.89" y1="-1218.47" x2="-416.69" y2="-1222.47" width="0" layer="19" extent="1-1"/>
@@ -12206,42 +12248,24 @@ design rules under a new name.</description>
 <wire x1="-5.06" y1="-69.85" x2="-6.17" y2="-73.66" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.25" y1="-66.04" x2="-5.06" y2="-69.85" width="0" layer="19" extent="1-1"/>
 <wire x1="2.56" y1="-62.23" x2="-1.25" y2="-66.04" width="0" layer="19" extent="1-1"/>
-<wire x1="31.978" y1="231.14" x2="2.56" y2="-62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="45.5118" y1="240.03" x2="31.978" y2="231.14" width="0" layer="19" extent="1-1"/>
-<wire x1="38.3082" y1="247.65" x2="45.5118" y2="240.03" width="0" layer="19" extent="1-1"/>
-<wire x1="49.5467" y1="230.19" x2="45.5118" y2="240.03" width="0" layer="19" extent="1-1"/>
+<wire x1="49.5467" y1="230.19" x2="2.56" y2="-62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="67.3267" y1="230.19" x2="49.5467" y2="230.19" width="0" layer="19" extent="1-1"/>
 <wire x1="85.1067" y1="230.19" x2="67.3267" y2="230.19" width="0" layer="19" extent="1-1"/>
 <wire x1="102.8867" y1="230.19" x2="85.1067" y2="230.19" width="0" layer="19" extent="1-1"/>
 <wire x1="120.6667" y1="230.19" x2="102.8867" y2="230.19" width="0" layer="19" extent="1-1"/>
 <wire x1="138.4467" y1="230.19" x2="120.6667" y2="230.19" width="0" layer="19" extent="1-1"/>
-<wire x1="136.9518" y1="247.65" x2="138.4467" y2="230.19" width="0" layer="19" extent="1-1"/>
 <wire x1="156.2267" y1="230.19" x2="138.4467" y2="230.19" width="0" layer="19" extent="1-1"/>
-<wire x1="158.9582" y1="247.65" x2="156.2267" y2="230.19" width="0" layer="19" extent="1-1"/>
 <wire x1="174.0067" y1="230.19" x2="156.2267" y2="230.19" width="0" layer="19" extent="1-1"/>
 <wire x1="191.7867" y1="230.19" x2="174.0067" y2="230.19" width="0" layer="19" extent="1-1"/>
 <wire x1="209.5667" y1="230.19" x2="191.7867" y2="230.19" width="0" layer="19" extent="1-1"/>
-<wire x1="209.778" y1="240.03" x2="209.5667" y2="230.19" width="0" layer="19" extent="1-1"/>
-<wire x1="207.2182" y1="247.65" x2="209.778" y2="240.03" width="0" layer="19" extent="1-1"/>
-<wire x1="207.2182" y1="255.27" x2="207.2182" y2="247.65" width="0" layer="19" extent="1-1"/>
 <wire x1="227.3467" y1="230.19" x2="209.5667" y2="230.19" width="0" layer="19" extent="1-1"/>
-<wire x1="233.908" y1="240.03" x2="227.3467" y2="230.19" width="0" layer="19" extent="1-1"/>
-<wire x1="233.4718" y1="247.65" x2="233.908" y2="240.03" width="0" layer="19" extent="1-1"/>
-<wire x1="231.3482" y1="255.27" x2="233.4718" y2="247.65" width="0" layer="19" extent="1-1"/>
-<wire x1="245.1267" y1="230.19" x2="233.908" y2="240.03" width="0" layer="19" extent="1-1"/>
-<wire x1="258.038" y1="240.03" x2="245.1267" y2="230.19" width="0" layer="19" extent="1-1"/>
-<wire x1="257.6018" y1="247.65" x2="258.038" y2="240.03" width="0" layer="19" extent="1-1"/>
-<wire x1="255.4782" y1="255.27" x2="257.6018" y2="247.65" width="0" layer="19" extent="1-1"/>
-<wire x1="88.6918" y1="247.65" x2="85.1067" y2="230.19" width="0" layer="19" extent="1-1"/>
-<wire x1="62.4382" y1="247.65" x2="67.3267" y2="230.19" width="0" layer="19" extent="1-1"/>
-<wire x1="112.8218" y1="247.65" x2="120.6667" y2="230.19" width="0" layer="19" extent="1-1"/>
-<wire x1="183.0882" y1="247.65" x2="191.7867" y2="230.19" width="0" layer="19" extent="1-1"/>
-<wire x1="200.93" y1="278.13" x2="207.2182" y2="255.27" width="0" layer="19" extent="1-1"/>
-<wire x1="223.79" y1="278.13" x2="200.93" y2="278.13" width="0" layer="19" extent="1-1"/>
+<wire x1="245.1267" y1="230.19" x2="227.3467" y2="230.19" width="0" layer="19" extent="1-1"/>
+<wire x1="223.79" y1="278.13" x2="227.3467" y2="230.19" width="0" layer="19" extent="1-1"/>
 <wire x1="232.96" y1="285.75" x2="223.79" y2="278.13" width="0" layer="19" extent="1-1"/>
+<wire x1="200.93" y1="278.13" x2="223.79" y2="278.13" width="0" layer="19" extent="1-1"/>
 <wire x1="257.09" y1="285.75" x2="232.96" y2="285.75" width="0" layer="19" extent="1-1"/>
-<wire x1="141.52" y1="281.94" x2="136.9518" y2="247.65" width="0" layer="19" extent="1-1"/>
-<wire x1="165.65" y1="281.94" x2="141.52" y2="281.94" width="0" layer="19" extent="1-1"/>
+<wire x1="165.65" y1="281.94" x2="200.93" y2="278.13" width="0" layer="19" extent="1-1"/>
+<wire x1="141.52" y1="281.94" x2="165.65" y2="281.94" width="0" layer="19" extent="1-1"/>
 <wire x1="117.39" y1="281.94" x2="141.52" y2="281.94" width="0" layer="19" extent="1-1"/>
 <wire x1="93.26" y1="281.94" x2="117.39" y2="281.94" width="0" layer="19" extent="1-1"/>
 <wire x1="69.13" y1="281.94" x2="93.26" y2="281.94" width="0" layer="19" extent="1-1"/>
@@ -12249,11 +12273,10 @@ design rules under a new name.</description>
 <wire x1="261.05" y1="328.93" x2="257.09" y2="285.75" width="0" layer="19" extent="1-1"/>
 <wire x1="244.54" y1="328.93" x2="261.05" y2="328.93" width="0" layer="19" extent="1-1"/>
 <wire x1="228.03" y1="328.93" x2="244.54" y2="328.93" width="0" layer="19" extent="1-1"/>
-<wire x1="210.12" y1="328.93" x2="228.03" y2="328.93" width="0" layer="19" extent="1-1"/>
-<wire x1="193.61" y1="328.93" x2="210.12" y2="328.93" width="0" layer="19" extent="1-1"/>
+<wire x1="193.61" y1="328.93" x2="228.03" y2="328.93" width="0" layer="19" extent="1-1"/>
 <wire x1="177.1" y1="328.93" x2="193.61" y2="328.93" width="0" layer="19" extent="1-1"/>
 <wire x1="160.59" y1="328.93" x2="177.1" y2="328.93" width="0" layer="19" extent="1-1"/>
-<wire x1="320.929" y1="221.5134" x2="258.038" y2="240.03" width="0" layer="19" extent="1-1"/>
+<wire x1="320.929" y1="221.5134" x2="245.1267" y2="230.19" width="0" layer="19" extent="1-1"/>
 <wire x1="320.929" y1="206.2734" x2="320.929" y2="221.5134" width="0" layer="19" extent="1-1"/>
 <wire x1="320.929" y1="203.7334" x2="320.929" y2="206.2734" width="0" layer="19" extent="1-1"/>
 <wire x1="318.389" y1="206.2734" x2="320.929" y2="206.2734" width="0" layer="19" extent="1-1"/>
@@ -12481,28 +12504,38 @@ design rules under a new name.</description>
 <wire x1="-398.31" y1="1266.19" x2="-398.31" y2="1263.65" width="0" layer="19" extent="1-1"/>
 <wire x1="-398.31" y1="1268.73" x2="-398.31" y2="1266.19" width="0" layer="19" extent="1-1"/>
 <wire x1="-398.31" y1="1271.27" x2="-398.31" y2="1268.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-478.689" y1="1289.1516" x2="-418.63" y2="1271.27" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="1296.67" x2="-478.689" y2="1289.1516" width="0" layer="19" extent="1-1"/>
+<wire x1="-481.325" y1="1303.5788" x2="-479.2014" y2="1296.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-481.325" y1="1310.4876" x2="-481.325" y2="1303.5788" width="0" layer="19" extent="1-1"/>
+<wire x1="-481.325" y1="1317.3964" x2="-481.325" y2="1310.4876" width="0" layer="19" extent="1-1"/>
+<wire x1="-481.325" y1="1324.3052" x2="-481.325" y2="1317.3964" width="0" layer="19" extent="1-1"/>
+<wire x1="-481.325" y1="1331.214" x2="-481.325" y2="1324.3052" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="1338.1228" x2="-481.325" y2="1331.214" width="0" layer="19" extent="1-1"/>
+<wire x1="-478.689" y1="1345.6412" x2="-479.2014" y2="1338.1228" width="0" layer="19" extent="1-1"/>
+<wire x1="-481.325" y1="1353.1596" x2="-478.689" y2="1345.6412" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="REGCAP2">
-<contactref element="C8" pad="1"/>
 <contactref element="IC51" pad="39"/>
-<wire x1="110.6982" y1="247.65" x2="-429.958" y2="-1269.4038" width="0" layer="19" extent="1-1"/>
+<contactref element="C8" pad="1"/>
+<wire x1="-481.325" y1="1338.1228" x2="-429.958" y2="-1269.4038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="REGCAP1">
-<contactref element="C9" pad="1"/>
 <contactref element="IC51" pad="36"/>
-<wire x1="86.5682" y1="247.65" x2="-429.958" y2="-1270.9038" width="0" layer="19" extent="1-1"/>
+<contactref element="C9" pad="1"/>
+<wire x1="-481.325" y1="-1338.6816" x2="-429.958" y2="-1270.9038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="REFCAPAB">
-<contactref element="C13" pad="1"/>
 <contactref element="IC51" pad="45"/>
 <contactref element="IC51" pad="44"/>
+<contactref element="C1" pad="1"/>
 <wire x1="-429.958" y1="-1266.9038" x2="-429.958" y2="-1266.4038" width="0" layer="19" extent="1-1"/>
-<wire x1="28.982" y1="231.14" x2="-429.958" y2="-1266.4038" width="0" layer="19" extent="1-1"/>
+<wire x1="-481.685" y1="-1317.3456" x2="-429.958" y2="-1266.9038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="REFIN/OUT">
-<contactref element="C14" pad="1"/>
 <contactref element="IC51" pad="42"/>
-<wire x1="-429.958" y1="-1267.9038" x2="255.042" y2="240.03" width="0" layer="19" extent="1-1"/>
+<contactref element="C13" pad="1"/>
+<wire x1="-481.685" y1="1345.6412" x2="-429.958" y2="-1267.9038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN1_P">
 <contactref element="R1" pad="2"/>
@@ -12610,26 +12643,26 @@ design rules under a new name.</description>
 <wire x1="254.89" y1="262.89" x2="97.07" y2="298.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="REFCAPAB0">
-<contactref element="C16" pad="1"/>
 <contactref element="IC38" pad="45"/>
 <contactref element="IC38" pad="44"/>
-<wire x1="-443.1152" y1="-1266.4038" x2="230.912" y2="240.03" width="0" layer="19" extent="1-1"/>
+<contactref element="C16" pad="1"/>
 <wire x1="-443.1152" y1="-1266.9038" x2="-443.1152" y2="-1266.4038" width="0" layer="19" extent="1-1"/>
+<wire x1="-481.685" y1="1289.1516" x2="-443.1152" y2="-1266.4038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="REFIN/OUT0">
-<contactref element="C17" pad="1"/>
 <contactref element="IC38" pad="42"/>
-<wire x1="-443.1152" y1="-1267.9038" x2="206.782" y2="240.03" width="0" layer="19" extent="1-1"/>
+<contactref element="C17" pad="1"/>
+<wire x1="-481.685" y1="-1302.3088" x2="-443.1152" y2="-1267.9038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="REGCAP20">
-<contactref element="C2" pad="1"/>
 <contactref element="IC38" pad="39"/>
-<wire x1="-443.1152" y1="-1269.4038" x2="255.4782" y2="247.65" width="0" layer="19" extent="1-1"/>
+<contactref element="C2" pad="1"/>
+<wire x1="-443.1152" y1="-1269.4038" x2="-481.325" y2="-1294.7904" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="REGCAP10">
-<contactref element="C3" pad="1"/>
 <contactref element="IC38" pad="36"/>
-<wire x1="-443.1152" y1="-1270.9038" x2="231.3482" y2="247.65" width="0" layer="19" extent="1-1"/>
+<contactref element="C3" pad="1"/>
+<wire x1="-481.325" y1="1296.67" x2="-443.1152" y2="-1270.9038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN9_N">
 <contactref element="C55" pad="1"/>
@@ -12782,8 +12815,10 @@ design rules under a new name.</description>
 <contactref element="F2" pad="3"/>
 <contactref element="R35" pad="2"/>
 <contactref element="C40" pad="1"/>
+<contactref element="J7" pad="26"/>
 <wire x1="140.42" y1="281.94" x2="188.51" y2="285.75" width="0" layer="19" extent="1-1"/>
 <wire x1="229.8533" y1="231.14" x2="188.51" y2="285.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-409.575" y1="-1269.555" x2="188.51" y2="285.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="R36" pad="1"/>
@@ -12803,8 +12838,10 @@ design rules under a new name.</description>
 <contactref element="F1" pad="3"/>
 <contactref element="R33" pad="2"/>
 <contactref element="C38" pad="1"/>
+<contactref element="J7" pad="28"/>
 <wire x1="164.55" y1="281.94" x2="210.1" y2="285.75" width="0" layer="19" extent="1-1"/>
 <wire x1="247.6333" y1="231.14" x2="210.1" y2="285.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-408.305" y1="-1269.555" x2="210.1" y2="285.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="R34" pad="1"/>
@@ -12824,8 +12861,10 @@ design rules under a new name.</description>
 <contactref element="F3" pad="3"/>
 <contactref element="R37" pad="2"/>
 <contactref element="C63" pad="1"/>
+<contactref element="J7" pad="30"/>
 <wire x1="116.29" y1="281.94" x2="166.92" y2="285.75" width="0" layer="19" extent="1-1"/>
 <wire x1="212.0733" y1="231.14" x2="166.92" y2="285.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-407.035" y1="-1269.555" x2="166.92" y2="285.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$116">
 <contactref element="R38" pad="1"/>
@@ -12845,8 +12884,10 @@ design rules under a new name.</description>
 <contactref element="F4" pad="3"/>
 <contactref element="R39" pad="2"/>
 <contactref element="C64" pad="1"/>
+<contactref element="J7" pad="32"/>
 <wire x1="92.16" y1="281.94" x2="145.33" y2="285.75" width="0" layer="19" extent="1-1"/>
 <wire x1="194.2933" y1="231.14" x2="145.33" y2="285.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-405.765" y1="-1269.555" x2="145.33" y2="285.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$120">
 <contactref element="R40" pad="1"/>
@@ -12866,8 +12907,10 @@ design rules under a new name.</description>
 <contactref element="F6" pad="3"/>
 <contactref element="R43" pad="2"/>
 <contactref element="C66" pad="1"/>
+<contactref element="J7" pad="34"/>
 <wire x1="68.03" y1="281.94" x2="123.74" y2="285.75" width="0" layer="19" extent="1-1"/>
 <wire x1="158.7333" y1="231.14" x2="123.74" y2="285.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-404.495" y1="-1269.555" x2="123.74" y2="285.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$137">
 <contactref element="R44" pad="1"/>
@@ -12887,6 +12930,8 @@ design rules under a new name.</description>
 <contactref element="F7" pad="3"/>
 <contactref element="R45" pad="2"/>
 <contactref element="C67" pad="1"/>
+<contactref element="J7" pad="36"/>
+<wire x1="102.15" y1="285.75" x2="-403.225" y2="-1269.555" width="0" layer="19" extent="1-1"/>
 <wire x1="43.9" y1="281.94" x2="102.15" y2="285.75" width="0" layer="19" extent="1-1"/>
 <wire x1="140.9533" y1="231.14" x2="102.15" y2="285.75" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -12908,6 +12953,8 @@ design rules under a new name.</description>
 <contactref element="F8" pad="3"/>
 <contactref element="R47" pad="2"/>
 <contactref element="C68" pad="1"/>
+<contactref element="J7" pad="38"/>
+<wire x1="80.56" y1="285.75" x2="-401.955" y2="-1269.555" width="0" layer="19" extent="1-1"/>
 <wire x1="123.1733" y1="231.14" x2="80.56" y2="285.75" width="0" layer="19" extent="1-1"/>
 <wire x1="255.99" y1="285.75" x2="123.1733" y2="231.14" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -12929,6 +12976,8 @@ design rules under a new name.</description>
 <contactref element="F9" pad="3"/>
 <contactref element="R49" pad="2"/>
 <contactref element="C69" pad="1"/>
+<contactref element="J7" pad="40"/>
+<wire x1="58.97" y1="285.75" x2="-400.685" y2="-1269.555" width="0" layer="19" extent="1-1"/>
 <wire x1="105.3933" y1="231.14" x2="58.97" y2="285.75" width="0" layer="19" extent="1-1"/>
 <wire x1="231.86" y1="285.75" x2="105.3933" y2="231.14" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -13766,19 +13815,11 @@ design rules under a new name.</description>
 <contactref element="R501" pad="1"/>
 <contactref element="IC51" pad="38"/>
 <contactref element="IC51" pad="37"/>
-<contactref element="C7" pad="1"/>
 <contactref element="IC51" pad="48"/>
-<contactref element="C10" pad="2"/>
 <contactref element="IC51" pad="1"/>
 <contactref element="IC38" pad="37"/>
 <contactref element="IC38" pad="38"/>
-<contactref element="C1" pad="1"/>
 <contactref element="IC38" pad="48"/>
-<contactref element="C12" pad="2"/>
-<contactref element="C15" pad="2"/>
-<contactref element="C6" pad="2"/>
-<contactref element="C18" pad="2"/>
-<contactref element="C4" pad="2"/>
 <contactref element="IC38" pad="1"/>
 <contactref element="IC52" pad="38"/>
 <contactref element="IC52" pad="37"/>
@@ -13786,6 +13827,16 @@ design rules under a new name.</description>
 <contactref element="IC52" pad="48"/>
 <contactref element="C27" pad="2"/>
 <contactref element="C23" pad="2"/>
+<contactref element="C190" pad="1"/>
+<contactref element="C6" pad="2"/>
+<contactref element="C18" pad="2"/>
+<contactref element="C12" pad="2"/>
+<contactref element="C15" pad="2"/>
+<contactref element="C7" pad="1"/>
+<contactref element="C10" pad="2"/>
+<contactref element="C4" pad="2"/>
+<contactref element="IC52" pad="1"/>
+<contactref element="C14" pad="2"/>
 <wire x1="-429.958" y1="-1264.9038" x2="-189.7425" y2="-1078.23" width="0" layer="19" extent="1-1"/>
 <wire x1="-429.958" y1="-1269.9038" x2="-429.958" y2="-1264.9038" width="0" layer="19" extent="1-1"/>
 <wire x1="-429.958" y1="-1270.4038" x2="-429.958" y2="-1269.9038" width="0" layer="19" extent="1-1"/>
@@ -13797,23 +13848,25 @@ design rules under a new name.</description>
 <wire x1="-456.2724" y1="-1264.9038" x2="-454.47" y2="-1264.9038" width="0" layer="19" extent="1-1"/>
 <wire x1="-456.2724" y1="-1269.9038" x2="-456.2724" y2="-1264.9038" width="0" layer="19" extent="1-1"/>
 <wire x1="-456.2724" y1="-1270.4038" x2="-456.2724" y2="-1269.9038" width="0" layer="19" extent="1-1"/>
+<wire x1="-467.6272" y1="-1264.9038" x2="-456.2724" y2="-1264.9038" width="0" layer="19" extent="1-1"/>
+<wire x1="-481.325" y1="-1287.8816" x2="-467.6272" y2="-1264.9038" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="-1309.8272" x2="-481.325" y2="-1287.8816" width="0" layer="19" extent="1-1"/>
+<wire x1="-481.325" y1="-1331.7728" x2="-479.2014" y2="-1309.8272" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="-1345.5904" x2="-481.325" y2="-1331.7728" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="-1352.4992" x2="-479.2014" y2="-1345.5904" width="0" layer="19" extent="1-1"/>
 <wire x1="-63.68" y1="-384.81" x2="-189.7425" y2="-1078.23" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.78" y1="-379.41" x2="-63.68" y2="-384.81" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.78" y1="-378.46" x2="-60.78" y2="-379.41" width="0" layer="19" extent="1-1"/>
-<wire x1="43.3882" y1="240.03" x2="-60.78" y2="-378.46" width="0" layer="19" extent="1-1"/>
-<wire x1="64.5618" y1="247.65" x2="43.3882" y2="240.03" width="0" layer="19" extent="1-1"/>
-<wire x1="134.8282" y1="247.65" x2="64.5618" y2="247.65" width="0" layer="19" extent="1-1"/>
-<wire x1="161.0818" y1="247.65" x2="134.8282" y2="247.65" width="0" layer="19" extent="1-1"/>
-<wire x1="209.3418" y1="247.65" x2="161.0818" y2="247.65" width="0" layer="19" extent="1-1"/>
-<wire x1="209.3418" y1="255.27" x2="209.3418" y2="247.65" width="0" layer="19" extent="1-1"/>
-<wire x1="233.4718" y1="255.27" x2="209.3418" y2="255.27" width="0" layer="19" extent="1-1"/>
-<wire x1="257.6018" y1="255.27" x2="233.4718" y2="255.27" width="0" layer="19" extent="1-1"/>
-<wire x1="259.65" y1="328.93" x2="257.6018" y2="255.27" width="0" layer="19" extent="1-1"/>
-<wire x1="195.01" y1="328.93" x2="259.65" y2="328.93" width="0" layer="19" extent="1-1"/>
-<wire x1="161.99" y1="328.93" x2="195.01" y2="328.93" width="0" layer="19" extent="1-1"/>
+<wire x1="161.99" y1="328.93" x2="-60.78" y2="-378.46" width="0" layer="19" extent="1-1"/>
+<wire x1="195.01" y1="328.93" x2="161.99" y2="328.93" width="0" layer="19" extent="1-1"/>
+<wire x1="259.65" y1="328.93" x2="195.01" y2="328.93" width="0" layer="19" extent="1-1"/>
 <wire x1="-248.1625" y1="929.64" x2="161.99" y2="328.93" width="0" layer="19" extent="1-1"/>
 <wire x1="-248.1625" y1="939.8" x2="-248.1625" y2="929.64" width="0" layer="19" extent="1-1"/>
 <wire x1="-248.1625" y1="949.96" x2="-248.1625" y2="939.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="1310.4876" x2="-248.1625" y2="949.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="1324.3052" x2="-479.2014" y2="1310.4876" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="1331.214" x2="-479.2014" y2="1324.3052" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="1353.1596" x2="-479.2014" y2="1331.214" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V_SWITCHING">
 <contactref element="IC7" pad="2"/>
@@ -14350,11 +14403,13 @@ design rules under a new name.</description>
 <contactref element="IC21" pad="22"/>
 <contactref element="IC22" pad="22"/>
 <contactref element="IC23" pad="22"/>
+<contactref element="J8" pad="25"/>
 <wire x1="-116.9468" y1="379.21" x2="-134.7268" y2="379.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-116.9468" y1="489.7" x2="-116.9468" y2="379.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-134.7268" y1="489.7" x2="-116.9468" y2="489.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-162.6668" y1="600.19" x2="-134.7268" y2="489.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-162.6668" y1="675.12" x2="-162.6668" y2="600.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-409.575" y1="1277.175" x2="-162.6668" y2="675.12" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.3068" y1="-455.18" x2="-116.9468" y2="379.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-162.6668" y1="-640.6" x2="-76.3068" y2="-455.18" width="0" layer="19" extent="1-1"/>
 <wire x1="-162.6668" y1="-716.8" x2="-162.6668" y2="-640.6" width="0" layer="19" extent="1-1"/>
@@ -14465,58 +14520,38 @@ design rules under a new name.</description>
 <contactref element="IC11" pad="19"/>
 <contactref element="IC12" pad="19"/>
 <contactref element="IC13" pad="19"/>
-<contactref element="IC14" pad="19"/>
-<contactref element="IC15" pad="19"/>
-<contactref element="IC16" pad="19"/>
-<contactref element="IC17" pad="19"/>
 <contactref element="IC18" pad="19"/>
-<contactref element="IC19" pad="19"/>
 <contactref element="IC20" pad="19"/>
 <contactref element="IC21" pad="19"/>
-<contactref element="IC22" pad="19"/>
-<contactref element="IC23" pad="19"/>
-<wire x1="-116.9468" y1="-870.7" x2="-134.7268" y2="-870.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.6668" y1="-794.5" x2="-134.7268" y2="-870.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.6668" y1="-718.3" x2="-162.6668" y2="-794.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.6668" y1="-642.1" x2="-162.6668" y2="-718.3" width="0" layer="19" extent="1-1"/>
-<wire x1="-134.7268" y1="-982.46" x2="-134.7268" y2="-870.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-116.9468" y1="-982.46" x2="-134.7268" y2="-982.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.3068" y1="-456.68" x2="-162.6668" y2="-642.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-116.9468" y1="377.71" x2="-76.3068" y2="-456.68" width="0" layer="19" extent="1-1"/>
-<wire x1="-134.7268" y1="377.71" x2="-116.9468" y2="377.71" width="0" layer="19" extent="1-1"/>
-<wire x1="-116.9468" y1="488.2" x2="-116.9468" y2="377.71" width="0" layer="19" extent="1-1"/>
-<wire x1="-134.7268" y1="488.2" x2="-116.9468" y2="488.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.6668" y1="598.69" x2="-134.7268" y2="488.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.6668" y1="673.62" x2="-162.6668" y2="598.69" width="0" layer="19" extent="1-1"/>
+<contactref element="J8" pad="21"/>
+<contactref element="R147" pad="1"/>
+<wire x1="-134.7268" y1="488.2" x2="-134.7268" y2="377.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-116.9468" y1="488.2" x2="-134.7268" y2="488.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-412.115" y1="1277.175" x2="-134.7268" y2="488.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.3068" y1="-456.68" x2="-134.7268" y2="377.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.6668" y1="-642.1" x2="-76.3068" y2="-456.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.6668" y1="-718.3" x2="-162.6668" y2="-642.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.6668" y1="-794.5" x2="-162.6668" y2="-718.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-488.5856" y1="-1357.0712" x2="-162.6668" y2="-794.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL1">
 <contactref element="IC4" pad="20"/>
 <contactref element="IC11" pad="20"/>
 <contactref element="IC12" pad="20"/>
 <contactref element="IC13" pad="20"/>
-<contactref element="IC14" pad="20"/>
-<contactref element="IC15" pad="20"/>
-<contactref element="IC16" pad="20"/>
-<contactref element="IC17" pad="20"/>
 <contactref element="IC18" pad="20"/>
-<contactref element="IC19" pad="20"/>
 <contactref element="IC20" pad="20"/>
 <contactref element="IC21" pad="20"/>
-<contactref element="IC22" pad="20"/>
-<contactref element="IC23" pad="20"/>
-<wire x1="-116.9468" y1="-870.2" x2="-134.7268" y2="-870.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.6668" y1="-794" x2="-134.7268" y2="-870.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.6668" y1="-717.8" x2="-162.6668" y2="-794" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.6668" y1="-641.6" x2="-162.6668" y2="-717.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-134.7268" y1="-981.96" x2="-134.7268" y2="-870.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-116.9468" y1="-981.96" x2="-134.7268" y2="-981.96" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.3068" y1="-456.18" x2="-162.6668" y2="-641.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-116.9468" y1="378.21" x2="-76.3068" y2="-456.18" width="0" layer="19" extent="1-1"/>
-<wire x1="-134.7268" y1="378.21" x2="-116.9468" y2="378.21" width="0" layer="19" extent="1-1"/>
-<wire x1="-116.9468" y1="488.7" x2="-116.9468" y2="378.21" width="0" layer="19" extent="1-1"/>
-<wire x1="-134.7268" y1="488.7" x2="-116.9468" y2="488.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.6668" y1="599.19" x2="-134.7268" y2="488.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.6668" y1="674.12" x2="-162.6668" y2="599.19" width="0" layer="19" extent="1-1"/>
+<contactref element="J8" pad="23"/>
+<contactref element="R148" pad="1"/>
+<wire x1="-134.7268" y1="488.7" x2="-134.7268" y2="378.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-116.9468" y1="488.7" x2="-134.7268" y2="488.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-410.845" y1="1277.175" x2="-134.7268" y2="488.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.3068" y1="-456.18" x2="-134.7268" y2="378.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.6668" y1="-641.6" x2="-76.3068" y2="-456.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.6668" y1="-717.8" x2="-162.6668" y2="-641.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.6668" y1="-794" x2="-162.6668" y2="-717.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-494.4784" y1="-1359.3318" x2="-162.6668" y2="-794" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$47">
 <contactref element="M2" pad="3"/>
@@ -17519,69 +17554,105 @@ design rules under a new name.</description>
 </signal>
 <signal name="POWER_FAULT1">
 <contactref element="J2" pad="7"/>
+<contactref element="J8" pad="15"/>
+<wire x1="-415.925" y1="1277.175" x2="-252.095" y2="-1135.037" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="POWER_FAULT2">
 <contactref element="J2" pad="9"/>
+<contactref element="J8" pad="17"/>
+<wire x1="-414.655" y1="1277.175" x2="-250.825" y2="-1135.037" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="POWER_FAULT3">
 <contactref element="J2" pad="11"/>
+<contactref element="J8" pad="19"/>
+<wire x1="-413.385" y1="1277.175" x2="-249.555" y2="-1135.037" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V_NC">
 <contactref element="J3" pad="01"/>
 </signal>
 <signal name="GPS_EN">
 <contactref element="J3" pad="02"/>
+<contactref element="J8" pad="39"/>
+<wire x1="-400.685" y1="1277.175" x2="-247.65" y2="-1150.9525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT_NC">
 <contactref element="J3" pad="03"/>
 </signal>
 <signal name="GPS_TX">
 <contactref element="J3" pad="05"/>
+<contactref element="J8" pad="35"/>
+<wire x1="-403.225" y1="1277.175" x2="-255.27" y2="-1147.7475" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FIX_NC">
 <contactref element="J3" pad="04"/>
 </signal>
 <signal name="GPS_RX">
 <contactref element="J3" pad="06"/>
+<contactref element="J8" pad="37"/>
+<wire x1="-401.955" y1="1277.175" x2="-257.81" y2="-1150.9525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PPS_NC">
 <contactref element="J3" pad="09"/>
 </signal>
 <signal name="!IMU_RST">
 <contactref element="IC31" pad="F3"/>
+<contactref element="J8" pad="01"/>
+<wire x1="-424.815" y1="1277.175" x2="-260.985" y2="-1165.225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!IMU_CS">
 <contactref element="IC31" pad="G3"/>
+<contactref element="J8" pad="03"/>
+<wire x1="-423.545" y1="1277.175" x2="-260.985" y2="-1166.495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IMU_DIN">
 <contactref element="IC31" pad="G6"/>
+<contactref element="J8" pad="05"/>
+<wire x1="-422.275" y1="1277.175" x2="-257.175" y2="-1166.495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IMU_DOUT">
 <contactref element="IC31" pad="H3"/>
+<contactref element="J8" pad="07"/>
+<wire x1="-421.005" y1="1277.175" x2="-260.985" y2="-1167.765" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IMU_SCLK">
 <contactref element="IC31" pad="H6"/>
+<contactref element="J8" pad="09"/>
+<wire x1="-419.735" y1="1277.175" x2="-257.175" y2="-1167.765" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IMU_SYNC">
 <contactref element="IC31" pad="J3"/>
+<contactref element="J8" pad="11"/>
+<wire x1="-418.465" y1="1277.175" x2="-260.985" y2="-1169.035" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IMU_DR">
 <contactref element="IC31" pad="J6"/>
+<contactref element="J8" pad="13"/>
+<wire x1="-417.195" y1="1277.175" x2="-257.175" y2="-1169.035" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISO_MOSI">
 <contactref element="IC32" pad="1"/>
+<contactref element="J8" pad="24"/>
+<wire x1="-410.845" y1="1280.605" x2="-272.01" y2="-1179.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISO_MISO">
 <contactref element="IC32" pad="2"/>
+<contactref element="J8" pad="26"/>
+<wire x1="-409.575" y1="1280.605" x2="-272.01" y2="-1179.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISO_SPI_SCLK">
 <contactref element="IC32" pad="3"/>
+<contactref element="J8" pad="22"/>
+<wire x1="-412.115" y1="1280.605" x2="-272.01" y2="-1180.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!ISO_CS">
 <contactref element="IC32" pad="4"/>
+<contactref element="J8" pad="28"/>
+<wire x1="-408.305" y1="1280.605" x2="-272.01" y2="-1180.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISO_SPI_SLOW">
 <contactref element="IC32" pad="12"/>
+<contactref element="J8" pad="30"/>
+<wire x1="-407.035" y1="1280.605" x2="-269.01" y2="-1179.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IP_INPUT">
 <contactref element="IC32" pad="10"/>
@@ -17697,12 +17768,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="!THERMOCOUPLE_CS">
 <contactref element="R519" pad="2"/>
+<contactref element="J8" pad="36"/>
+<wire x1="-403.225" y1="1280.605" x2="-300.44" y2="-1216.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="THERMOCOUPLE_SCLK">
 <contactref element="R520" pad="2"/>
+<contactref element="J8" pad="32"/>
+<wire x1="-405.765" y1="1280.605" x2="-300.44" y2="990.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="THERMOCOUPLE_MISO">
 <contactref element="R521" pad="2"/>
+<contactref element="J8" pad="34"/>
+<wire x1="-404.495" y1="1280.605" x2="-300.44" y2="993.14" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V_DIGITAL">
 <contactref element="IC10" pad="2"/>
@@ -17754,8 +17831,6 @@ design rules under a new name.</description>
 <contactref element="IC32" pad="11"/>
 <contactref element="IC51" pad="34"/>
 <contactref element="IC51" pad="23"/>
-<contactref element="C11" pad="2"/>
-<contactref element="C5" pad="2"/>
 <contactref element="IC38" pad="23"/>
 <contactref element="IC38" pad="34"/>
 <contactref element="IC38" pad="6"/>
@@ -17773,9 +17848,13 @@ design rules under a new name.</description>
 <contactref element="IC17" pad="5"/>
 <contactref element="IC23" pad="5"/>
 <contactref element="IC23" pad="6"/>
-<wire x1="185.2118" y1="247.65" x2="178.5" y2="328.93" width="0" layer="19" extent="1-1"/>
-<wire x1="40.4318" y1="247.65" x2="185.2118" y2="247.65" width="0" layer="19" extent="1-1"/>
-<wire x1="-121.8132" y1="378.21" x2="40.4318" y2="247.65" width="0" layer="19" extent="1-1"/>
+<contactref element="C5" pad="2"/>
+<contactref element="C11" pad="2"/>
+<contactref element="R147" pad="2"/>
+<contactref element="R148" pad="2"/>
+<contactref element="R149" pad="2"/>
+<contactref element="R150" pad="2"/>
+<wire x1="-121.8132" y1="378.21" x2="178.5" y2="328.93" width="0" layer="19" extent="1-1"/>
 <wire x1="-121.8132" y1="488.7" x2="-121.8132" y2="378.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-167.5332" y1="673.62" x2="-121.8132" y2="488.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-167.5332" y1="674.12" x2="-167.5332" y2="673.62" width="0" layer="19" extent="1-1"/>
@@ -17810,7 +17889,11 @@ design rules under a new name.</description>
 <wire x1="-405.29" y1="1244.83" x2="-405.29" y2="1260.07" width="0" layer="19" extent="1-1"/>
 <wire x1="-405.29" y1="1229.59" x2="-405.29" y2="1244.83" width="0" layer="19" extent="1-1"/>
 <wire x1="-405.29" y1="1214.35" x2="-405.29" y2="1229.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.98" y1="-425.45" x2="40.4318" y2="247.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="1303.5788" x2="-419.57" y2="1271.27" width="0" layer="19" extent="1-1"/>
+<wire x1="-479.2014" y1="1317.3964" x2="-479.2014" y2="1303.5788" width="0" layer="19" extent="1-1"/>
+<wire x1="-493.3784" y1="1357.7316" x2="-479.2014" y2="1317.3964" width="0" layer="19" extent="1-1"/>
+<wire x1="-493.3784" y1="1359.9922" x2="-493.3784" y2="1357.7316" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.98" y1="-425.45" x2="178.5" y2="328.93" width="0" layer="19" extent="1-1"/>
 <wire x1="-71.18" y1="-425.45" x2="-65.98" y2="-425.45" width="0" layer="19" extent="1-1"/>
 <wire x1="-63.68" y1="-430.53" x2="-65.98" y2="-425.45" width="0" layer="19" extent="1-1"/>
 <wire x1="-167.5332" y1="-642.1" x2="-63.68" y2="-430.53" width="0" layer="19" extent="1-1"/>
@@ -17840,21 +17923,33 @@ design rules under a new name.</description>
 <wire x1="-429.958" y1="-1271.9038" x2="-436.3854" y2="-1274.3312" width="0" layer="19" extent="1-1"/>
 <wire x1="-467.6272" y1="-1267.9038" x2="-462.6998" y2="-1274.3312" width="0" layer="19" extent="1-1"/>
 <wire x1="-467.6272" y1="-1267.4038" x2="-467.6272" y2="-1267.9038" width="0" layer="19" extent="1-1"/>
+<wire x1="-487.4856" y1="-1357.0712" x2="-462.6998" y2="-1274.3312" width="0" layer="19" extent="1-1"/>
+<wire x1="-493.3784" y1="-1359.3318" x2="-487.4856" y2="-1357.0712" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MUX_3">
 <contactref element="IC55" pad="10"/>
+<contactref element="J8" pad="08"/>
+<wire x1="-421.005" y1="1280.605" x2="-416.29" y2="-1222.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MUX_2">
 <contactref element="IC55" pad="11"/>
+<contactref element="J8" pad="06"/>
+<wire x1="-422.275" y1="1280.605" x2="-415.89" y2="-1222.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MUX_1">
 <contactref element="IC55" pad="14"/>
+<contactref element="J8" pad="04"/>
+<wire x1="-423.545" y1="1280.605" x2="-414.69" y2="-1222.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MUX_0">
 <contactref element="IC55" pad="15"/>
+<contactref element="J8" pad="02"/>
+<wire x1="-424.815" y1="1280.605" x2="-414.29" y2="-1222.47" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="!CS_INPUT">
+<signal name="!CS_INPUT_NAND">
 <contactref element="IC55" pad="29"/>
+<contactref element="J8" pad="10"/>
+<wire x1="-419.735" y1="1280.605" x2="-415.49" y2="-1218.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NAND16">
 <contactref element="IC55" pad="1"/>
@@ -17953,6 +18048,7 @@ design rules under a new name.</description>
 <contactref element="IC48" pad="3"/>
 <contactref element="IC49" pad="3"/>
 <contactref element="IC50" pad="3"/>
+<contactref element="J8" pad="16"/>
 <wire x1="-423.085" y1="1181.25" x2="-311.325" y2="-1212.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-423.085" y1="1166.01" x2="-423.085" y2="1181.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-423.085" y1="1150.77" x2="-423.085" y2="1166.01" width="0" layer="19" extent="1-1"/>
@@ -17968,6 +18064,7 @@ design rules under a new name.</description>
 <wire x1="-402.765" y1="1237.13" x2="-402.765" y2="1252.37" width="0" layer="19" extent="1-1"/>
 <wire x1="-402.765" y1="1221.89" x2="-402.765" y2="1237.13" width="0" layer="19" extent="1-1"/>
 <wire x1="-402.765" y1="1206.65" x2="-402.765" y2="1221.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-415.925" y1="1280.605" x2="-423.085" y2="1252.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NAND_SPI_!WP/IO2">
 <contactref element="IC34" pad="2"/>
@@ -17986,6 +18083,7 @@ design rules under a new name.</description>
 <contactref element="IC48" pad="2"/>
 <contactref element="IC49" pad="2"/>
 <contactref element="IC50" pad="2"/>
+<contactref element="J8" pad="18"/>
 <wire x1="-424.355" y1="1166.01" x2="-424.355" y2="1181.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-424.355" y1="1150.77" x2="-424.355" y2="1166.01" width="0" layer="19" extent="1-1"/>
 <wire x1="-424.355" y1="1135.53" x2="-424.355" y2="1150.77" width="0" layer="19" extent="1-1"/>
@@ -18000,6 +18098,7 @@ design rules under a new name.</description>
 <wire x1="-404.035" y1="1237.13" x2="-404.035" y2="1252.37" width="0" layer="19" extent="1-1"/>
 <wire x1="-404.035" y1="1221.89" x2="-404.035" y2="1237.13" width="0" layer="19" extent="1-1"/>
 <wire x1="-404.035" y1="1206.65" x2="-404.035" y2="1221.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-414.655" y1="1280.605" x2="-424.355" y2="1252.37" width="0" layer="19" extent="1-1"/>
 <wire x1="-312.595" y1="-1212.7" x2="-424.355" y2="1181.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NAND_SPI_!HOLD/IO3">
@@ -18052,6 +18151,7 @@ design rules under a new name.</description>
 <contactref element="IC48" pad="6"/>
 <contactref element="IC49" pad="6"/>
 <contactref element="IC50" pad="6"/>
+<contactref element="J8" pad="12"/>
 <wire x1="-423.085" y1="1173.71" x2="-311.325" y2="-1205" width="0" layer="19" extent="1-1"/>
 <wire x1="-423.085" y1="1158.47" x2="-423.085" y2="1173.71" width="0" layer="19" extent="1-1"/>
 <wire x1="-423.085" y1="1143.23" x2="-423.085" y2="1158.47" width="0" layer="19" extent="1-1"/>
@@ -18067,6 +18167,7 @@ design rules under a new name.</description>
 <wire x1="-402.765" y1="1244.83" x2="-402.765" y2="1260.07" width="0" layer="19" extent="1-1"/>
 <wire x1="-402.765" y1="1229.59" x2="-402.765" y2="1244.83" width="0" layer="19" extent="1-1"/>
 <wire x1="-402.765" y1="1214.35" x2="-402.765" y2="1229.59" width="0" layer="19" extent="1-1"/>
+<wire x1="-418.465" y1="1280.605" x2="-423.085" y2="1260.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NAND_SPI_SI/IO0">
 <contactref element="IC34" pad="5"/>
@@ -18085,6 +18186,7 @@ design rules under a new name.</description>
 <contactref element="IC48" pad="5"/>
 <contactref element="IC49" pad="5"/>
 <contactref element="IC50" pad="5"/>
+<contactref element="J8" pad="14"/>
 <wire x1="-421.83" y1="1173.71" x2="-310.07" y2="-1205" width="0" layer="19" extent="1-1"/>
 <wire x1="-421.83" y1="1158.47" x2="-421.83" y2="1173.71" width="0" layer="19" extent="1-1"/>
 <wire x1="-421.83" y1="1143.23" x2="-421.83" y2="1158.47" width="0" layer="19" extent="1-1"/>
@@ -18100,6 +18202,7 @@ design rules under a new name.</description>
 <wire x1="-401.51" y1="1244.83" x2="-401.51" y2="1260.07" width="0" layer="19" extent="1-1"/>
 <wire x1="-401.51" y1="1229.59" x2="-401.51" y2="1244.83" width="0" layer="19" extent="1-1"/>
 <wire x1="-401.51" y1="1214.35" x2="-401.51" y2="1229.59" width="0" layer="19" extent="1-1"/>
+<wire x1="-417.195" y1="1280.605" x2="-421.83" y2="1260.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADIN1_9_5V_RAIL_VO">
 <contactref element="IC16" pad="23"/>
@@ -18121,101 +18224,13 @@ design rules under a new name.</description>
 <signal name="PG7">
 <contactref element="J6" pad="23"/>
 </signal>
-<signal name="N$471">
-<contactref element="J7" pad="01"/>
-</signal>
-<signal name="N$472">
-<contactref element="J7" pad="03"/>
-</signal>
-<signal name="N$473">
-<contactref element="J7" pad="05"/>
-</signal>
-<signal name="N$474">
-<contactref element="J7" pad="07"/>
-</signal>
-<signal name="N$475">
-<contactref element="J7" pad="09"/>
-</signal>
-<signal name="N$476">
-<contactref element="J7" pad="11"/>
-</signal>
-<signal name="N$477">
-<contactref element="J7" pad="13"/>
-</signal>
-<signal name="N$478">
-<contactref element="J7" pad="15"/>
-</signal>
-<signal name="N$479">
-<contactref element="J7" pad="17"/>
-</signal>
-<signal name="N$480">
-<contactref element="J7" pad="19"/>
-</signal>
-<signal name="N$481">
-<contactref element="J7" pad="21"/>
-</signal>
-<signal name="N$482">
-<contactref element="J7" pad="23"/>
-</signal>
-<signal name="N$483">
-<contactref element="J7" pad="25"/>
-</signal>
-<signal name="N$484">
-<contactref element="J7" pad="27"/>
-</signal>
-<signal name="N$485">
-<contactref element="J7" pad="29"/>
-</signal>
-<signal name="N$486">
-<contactref element="J7" pad="31"/>
-</signal>
-<signal name="N$487">
-<contactref element="J7" pad="33"/>
-</signal>
-<signal name="N$488">
-<contactref element="J7" pad="35"/>
-</signal>
 <signal name="N$489">
 <contactref element="J7" pad="39"/>
 </signal>
-<signal name="N$490">
+<signal name="DOUTA_ADC_3">
 <contactref element="J7" pad="37"/>
-</signal>
-<signal name="N$491">
-<contactref element="J7" pad="40"/>
-</signal>
-<signal name="N$492">
-<contactref element="J7" pad="38"/>
-</signal>
-<signal name="N$493">
-<contactref element="J7" pad="36"/>
-</signal>
-<signal name="N$494">
-<contactref element="J7" pad="34"/>
-</signal>
-<signal name="N$495">
-<contactref element="J7" pad="32"/>
-</signal>
-<signal name="N$496">
-<contactref element="J7" pad="30"/>
-</signal>
-<signal name="N$497">
-<contactref element="J7" pad="28"/>
-</signal>
-<signal name="N$498">
-<contactref element="J7" pad="26"/>
-</signal>
-<signal name="N$499">
-<contactref element="J7" pad="24"/>
-</signal>
-<signal name="N$500">
-<contactref element="J7" pad="22"/>
-</signal>
-<signal name="N$501">
-<contactref element="J7" pad="20"/>
-</signal>
-<signal name="N$502">
-<contactref element="J7" pad="18"/>
+<contactref element="IC52" pad="24"/>
+<wire x1="-401.955" y1="-1272.985" x2="-462.1998" y2="-1274.3312" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$503">
 <contactref element="J7" pad="16"/>
@@ -18241,50 +18256,43 @@ design rules under a new name.</description>
 <signal name="N$510">
 <contactref element="J7" pad="02"/>
 </signal>
-<signal name="N$511">
-<contactref element="J8" pad="01"/>
-</signal>
-<signal name="N$512">
-<contactref element="J8" pad="03"/>
-</signal>
-<signal name="N$513">
-<contactref element="J8" pad="05"/>
-</signal>
-<signal name="N$514">
-<contactref element="J8" pad="07"/>
-</signal>
-<signal name="N$515">
-<contactref element="J8" pad="09"/>
-</signal>
-<signal name="N$516">
-<contactref element="J8" pad="11"/>
-</signal>
-<signal name="N$517">
-<contactref element="J8" pad="13"/>
-</signal>
-<signal name="N$518">
-<contactref element="J8" pad="15"/>
-</signal>
-<signal name="N$519">
-<contactref element="J8" pad="17"/>
-</signal>
-<signal name="N$520">
-<contactref element="J8" pad="19"/>
-</signal>
-<signal name="N$521">
-<contactref element="J8" pad="21"/>
-</signal>
-<signal name="N$522">
-<contactref element="J8" pad="23"/>
-</signal>
-<signal name="N$523">
-<contactref element="J8" pad="25"/>
-</signal>
-<signal name="N$524">
+<signal name="SDA2">
 <contactref element="J8" pad="27"/>
+<contactref element="IC19" pad="19"/>
+<contactref element="IC17" pad="19"/>
+<contactref element="IC16" pad="19"/>
+<contactref element="IC15" pad="19"/>
+<contactref element="IC14" pad="19"/>
+<contactref element="IC22" pad="19"/>
+<contactref element="IC23" pad="19"/>
+<contactref element="R149" pad="1"/>
+<wire x1="-116.9468" y1="-870.7" x2="-134.7268" y2="-870.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-134.7268" y1="-982.46" x2="-134.7268" y2="-870.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-116.9468" y1="-982.46" x2="-134.7268" y2="-982.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.6668" y1="598.69" x2="-134.7268" y2="-870.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.6668" y1="673.62" x2="-162.6668" y2="598.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-116.9468" y1="377.71" x2="-162.6668" y2="598.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-408.305" y1="1277.175" x2="-162.6668" y2="673.62" width="0" layer="19" extent="1-1"/>
+<wire x1="-494.4784" y1="1357.7316" x2="-408.305" y2="1277.175" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$525">
+<signal name="SCL2">
 <contactref element="J8" pad="29"/>
+<contactref element="IC19" pad="20"/>
+<contactref element="IC17" pad="20"/>
+<contactref element="IC16" pad="20"/>
+<contactref element="IC15" pad="20"/>
+<contactref element="IC14" pad="20"/>
+<contactref element="IC22" pad="20"/>
+<contactref element="IC23" pad="20"/>
+<contactref element="R150" pad="1"/>
+<wire x1="-116.9468" y1="-870.2" x2="-134.7268" y2="-870.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-134.7268" y1="-981.96" x2="-134.7268" y2="-870.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-116.9468" y1="-981.96" x2="-134.7268" y2="-981.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.6668" y1="599.19" x2="-134.7268" y2="-870.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.6668" y1="674.12" x2="-162.6668" y2="599.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-116.9468" y1="378.21" x2="-162.6668" y2="599.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-407.035" y1="1277.175" x2="-162.6668" y2="674.12" width="0" layer="19" extent="1-1"/>
+<wire x1="-494.4784" y1="1359.9922" x2="-407.035" y2="1277.175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$526">
 <contactref element="J8" pad="31"/>
@@ -18292,74 +18300,8 @@ design rules under a new name.</description>
 <signal name="N$527">
 <contactref element="J8" pad="33"/>
 </signal>
-<signal name="N$528">
-<contactref element="J8" pad="35"/>
-</signal>
-<signal name="N$529">
-<contactref element="J8" pad="39"/>
-</signal>
-<signal name="N$530">
-<contactref element="J8" pad="37"/>
-</signal>
-<signal name="N$531">
-<contactref element="J8" pad="40"/>
-</signal>
-<signal name="N$532">
-<contactref element="J8" pad="38"/>
-</signal>
-<signal name="N$533">
-<contactref element="J8" pad="36"/>
-</signal>
-<signal name="N$534">
-<contactref element="J8" pad="34"/>
-</signal>
-<signal name="N$535">
-<contactref element="J8" pad="32"/>
-</signal>
-<signal name="N$536">
-<contactref element="J8" pad="30"/>
-</signal>
-<signal name="N$537">
-<contactref element="J8" pad="28"/>
-</signal>
-<signal name="N$538">
-<contactref element="J8" pad="26"/>
-</signal>
-<signal name="N$539">
-<contactref element="J8" pad="24"/>
-</signal>
-<signal name="N$540">
-<contactref element="J8" pad="22"/>
-</signal>
-<signal name="N$541">
+<signal name="NAND_SPI_!HOLD/IO03">
 <contactref element="J8" pad="20"/>
-</signal>
-<signal name="N$542">
-<contactref element="J8" pad="18"/>
-</signal>
-<signal name="N$543">
-<contactref element="J8" pad="16"/>
-</signal>
-<signal name="N$544">
-<contactref element="J8" pad="14"/>
-</signal>
-<signal name="N$545">
-<contactref element="J8" pad="12"/>
-</signal>
-<signal name="N$546">
-<contactref element="J8" pad="10"/>
-</signal>
-<signal name="N$547">
-<contactref element="J8" pad="08"/>
-</signal>
-<signal name="N$548">
-<contactref element="J8" pad="06"/>
-</signal>
-<signal name="N$549">
-<contactref element="J8" pad="04"/>
-</signal>
-<signal name="N$550">
-<contactref element="J8" pad="02"/>
 </signal>
 <signal name="PC10">
 <contactref element="UC1" pad="PC10"/>
@@ -18952,31 +18894,33 @@ design rules under a new name.</description>
 </signal>
 <signal name="FIRSTDATA_ADC_1">
 <contactref element="IC51" pad="15"/>
-</signal>
-<signal name="DOUTB_1_ADC">
-<contactref element="IC51" pad="25"/>
-</signal>
-<signal name="DOUTA_1_ADC">
-<contactref element="IC51" pad="24"/>
+<contactref element="J7" pad="17"/>
+<wire x1="-414.655" y1="-1272.985" x2="-441.3128" y2="-1271.9038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUSY_ADC_1">
 <contactref element="IC51" pad="14"/>
+<contactref element="J7" pad="15"/>
+<wire x1="-415.925" y1="-1272.985" x2="-441.3128" y2="-1271.4038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OS0_ADC">
 <contactref element="IC51" pad="3"/>
 <contactref element="IC38" pad="3"/>
 <contactref element="IC52" pad="3"/>
+<contactref element="J7" pad="01"/>
 <wire x1="-454.47" y1="-1265.9038" x2="-467.6272" y2="-1265.9038" width="0" layer="19" extent="1-1"/>
 <wire x1="-441.3128" y1="-1265.9038" x2="-454.47" y2="-1265.9038" width="0" layer="19" extent="1-1"/>
+<wire x1="-424.815" y1="-1272.985" x2="-441.3128" y2="-1265.9038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OS2_ADC">
 <contactref element="IC51" pad="4"/>
 <contactref element="IC51" pad="5"/>
 <contactref element="IC38" pad="5"/>
 <contactref element="IC52" pad="5"/>
+<contactref element="J7" pad="05"/>
 <wire x1="-454.47" y1="-1266.9038" x2="-467.6272" y2="-1266.9038" width="0" layer="19" extent="1-1"/>
 <wire x1="-441.3128" y1="-1266.9038" x2="-454.47" y2="-1266.9038" width="0" layer="19" extent="1-1"/>
 <wire x1="-441.3128" y1="-1266.4038" x2="-441.3128" y2="-1266.9038" width="0" layer="19" extent="1-1"/>
+<wire x1="-422.275" y1="-1272.985" x2="-441.3128" y2="-1266.9038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CONVSTAB_ADC">
 <contactref element="IC51" pad="10"/>
@@ -18985,49 +18929,67 @@ design rules under a new name.</description>
 <contactref element="IC38" pad="10"/>
 <contactref element="IC52" pad="9"/>
 <contactref element="IC52" pad="10"/>
+<contactref element="J7" pad="07"/>
 <wire x1="-467.6272" y1="-1269.4038" x2="-467.6272" y2="-1268.9038" width="0" layer="19" extent="1-1"/>
 <wire x1="-454.47" y1="-1268.9038" x2="-467.6272" y2="-1268.9038" width="0" layer="19" extent="1-1"/>
 <wire x1="-454.47" y1="-1269.4038" x2="-454.47" y2="-1268.9038" width="0" layer="19" extent="1-1"/>
 <wire x1="-441.3128" y1="-1269.4038" x2="-454.47" y2="-1269.4038" width="0" layer="19" extent="1-1"/>
 <wire x1="-441.3128" y1="-1268.9038" x2="-441.3128" y2="-1269.4038" width="0" layer="19" extent="1-1"/>
+<wire x1="-421.005" y1="-1272.985" x2="-441.3128" y2="-1269.4038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET_ADC">
 <contactref element="IC51" pad="11"/>
 <contactref element="IC38" pad="11"/>
 <contactref element="IC52" pad="11"/>
+<contactref element="J7" pad="09"/>
 <wire x1="-454.47" y1="-1269.9038" x2="-467.6272" y2="-1269.9038" width="0" layer="19" extent="1-1"/>
 <wire x1="-441.3128" y1="-1269.9038" x2="-454.47" y2="-1269.9038" width="0" layer="19" extent="1-1"/>
+<wire x1="-419.735" y1="-1272.985" x2="-441.3128" y2="-1269.9038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCLK_ADC">
 <contactref element="IC51" pad="12"/>
 <contactref element="IC38" pad="12"/>
 <contactref element="IC52" pad="12"/>
+<contactref element="J7" pad="11"/>
 <wire x1="-454.47" y1="-1270.4038" x2="-467.6272" y2="-1270.4038" width="0" layer="19" extent="1-1"/>
 <wire x1="-441.3128" y1="-1270.4038" x2="-454.47" y2="-1270.4038" width="0" layer="19" extent="1-1"/>
+<wire x1="-418.465" y1="-1272.985" x2="-441.3128" y2="-1270.4038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!CS_ADC">
 <contactref element="IC51" pad="13"/>
 <contactref element="IC38" pad="13"/>
 <contactref element="IC52" pad="13"/>
+<contactref element="J7" pad="13"/>
 <wire x1="-454.47" y1="-1270.9038" x2="-467.6272" y2="-1270.9038" width="0" layer="19" extent="1-1"/>
 <wire x1="-441.3128" y1="-1270.9038" x2="-454.47" y2="-1270.9038" width="0" layer="19" extent="1-1"/>
+<wire x1="-417.195" y1="-1272.985" x2="-441.3128" y2="-1270.9038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DOUTA_ADC_2">
 <contactref element="IC38" pad="24"/>
+<contactref element="J7" pad="29"/>
+<wire x1="-407.035" y1="-1272.985" x2="-449.0426" y2="-1274.3312" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DOUTB_ADC_2">
 <contactref element="IC38" pad="25"/>
+<contactref element="J7" pad="27"/>
+<wire x1="-408.305" y1="-1272.985" x2="-448.5426" y2="-1274.3312" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OS1_ADC">
 <contactref element="IC38" pad="4"/>
 <contactref element="IC52" pad="4"/>
+<contactref element="J7" pad="03"/>
 <wire x1="-454.47" y1="-1266.4038" x2="-467.6272" y2="-1266.4038" width="0" layer="19" extent="1-1"/>
+<wire x1="-423.545" y1="-1272.985" x2="-454.47" y2="-1266.4038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUSY_ADC_2">
 <contactref element="IC38" pad="14"/>
+<contactref element="J7" pad="23"/>
+<wire x1="-410.845" y1="-1272.985" x2="-454.47" y2="-1271.4038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FIRSTDATA_ADC_2">
 <contactref element="IC38" pad="15"/>
+<contactref element="J7" pad="25"/>
+<wire x1="-409.575" y1="-1272.985" x2="-454.47" y2="-1271.9038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GP_6_N">
 <contactref element="IC52" pad="60"/>
@@ -19040,30 +19002,57 @@ design rules under a new name.</description>
 </signal>
 <signal name="DOUTB_ADC_3">
 <contactref element="IC52" pad="25"/>
-</signal>
-<signal name="DOUBTA_ADC_3">
-<contactref element="IC52" pad="24"/>
+<contactref element="J7" pad="35"/>
+<wire x1="-403.225" y1="-1272.985" x2="-461.6998" y2="-1274.3312" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FIRSTDATA_ADC_3">
 <contactref element="IC52" pad="15"/>
+<contactref element="J7" pad="33"/>
+<wire x1="-404.495" y1="-1272.985" x2="-467.6272" y2="-1271.9038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUSY_ADC_3">
 <contactref element="IC52" pad="14"/>
+<contactref element="J7" pad="31"/>
+<wire x1="-405.765" y1="-1272.985" x2="-467.6272" y2="-1271.4038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P_LED">
 <contactref element="R42" pad="2"/>
+<contactref element="J7" pad="24"/>
+<wire x1="64.05" y1="293.37" x2="-410.845" y2="-1269.555" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_OUT1">
 <contactref element="R52" pad="2"/>
+<contactref element="J7" pad="22"/>
+<wire x1="215.18" y1="295.91" x2="-412.115" y2="-1269.555" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_OUT2">
 <contactref element="R54" pad="2"/>
+<contactref element="J7" pad="20"/>
+<wire x1="-413.385" y1="-1269.555" x2="193.59" y2="295.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_OUT3">
 <contactref element="R56" pad="2"/>
+<contactref element="J7" pad="18"/>
+<wire x1="-414.655" y1="-1269.555" x2="172" y2="295.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC20" pad="5"/>
+</signal>
+<signal name="DOUTB_ADC_1">
+<contactref element="IC51" pad="25"/>
+<contactref element="J7" pad="19"/>
+<wire x1="-413.385" y1="-1272.985" x2="-435.3854" y2="-1274.3312" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DOUTA_ADC_1">
+<contactref element="IC51" pad="24"/>
+<contactref element="J7" pad="21"/>
+<wire x1="-412.115" y1="-1272.985" x2="-435.8854" y2="-1274.3312" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="J8" pad="38"/>
+</signal>
+<signal name="N$3">
+<contactref element="J8" pad="40"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
