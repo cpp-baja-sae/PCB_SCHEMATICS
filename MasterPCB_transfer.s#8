@@ -110,51 +110,7 @@
 <wire x1="0.8" y1="-0.405" x2="-0.8" y2="-0.405" width="0.1" layer="51"/>
 <wire x1="-0.8" y1="-0.405" x2="-0.8" y2="0.405" width="0.1" layer="51"/>
 </package>
-<package name="CAPC2012X145N" urn="urn:adsk.eagle:footprint:31721564/1">
-<description>Chip, 2.00 X 1.25 X 1.45 mm body
-&lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
-<wire x1="1.1" y1="1.0467" x2="-1.1" y2="1.0467" width="0.12" layer="21"/>
-<wire x1="1.1" y1="-1.0467" x2="-1.1" y2="-1.0467" width="0.12" layer="21"/>
-<wire x1="1.1" y1="-0.725" x2="-1.1" y2="-0.725" width="0.12" layer="51"/>
-<wire x1="-1.1" y1="-0.725" x2="-1.1" y2="0.725" width="0.12" layer="51"/>
-<wire x1="-1.1" y1="0.725" x2="1.1" y2="0.725" width="0.12" layer="51"/>
-<wire x1="1.1" y1="0.725" x2="1.1" y2="-0.725" width="0.12" layer="51"/>
-<smd name="1" x="-1.0618" y="0" dx="0.7918" dy="1.4653" layer="1" roundness="40"/>
-<smd name="2" x="1.0618" y="0" dx="0.7918" dy="1.4653" layer="1" roundness="40"/>
-<text x="0" y="1.6817" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.6817" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="CAPC3225X270N" urn="urn:adsk.eagle:footprint:31718473/1">
-<description>Chip, 3.20 X 2.50 X 2.70 mm body
-&lt;p&gt;Chip package with body size 3.20 X 2.50 X 2.70 mm&lt;/p&gt;</description>
-<wire x1="1.75" y1="1.6695" x2="-1.75" y2="1.6695" width="0.12" layer="21"/>
-<wire x1="1.75" y1="-1.6695" x2="-1.75" y2="-1.6695" width="0.12" layer="21"/>
-<wire x1="1.75" y1="-1.35" x2="-1.75" y2="-1.35" width="0.12" layer="51"/>
-<wire x1="-1.75" y1="-1.35" x2="-1.75" y2="1.35" width="0.12" layer="51"/>
-<wire x1="-1.75" y1="1.35" x2="1.75" y2="1.35" width="0.12" layer="51"/>
-<wire x1="1.75" y1="1.35" x2="1.75" y2="-1.35" width="0.12" layer="51"/>
-<smd name="1" x="-1.498" y="0" dx="1.2114" dy="2.711" layer="1" roundness="40"/>
-<smd name="2" x="1.498" y="0" dx="1.2114" dy="2.711" layer="1" roundness="40"/>
-<text x="0" y="2.3045" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.3045" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
 </packages>
-<packages3d>
-<package3d name="CAPC2012X145N" urn="urn:adsk.eagle:package:31721214/1" type="model">
-<description>Chip, 2.00 X 1.25 X 1.45 mm body
-&lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="CAPC2012X145N"/>
-</packageinstances>
-</package3d>
-<package3d name="CAPC3225X270N" urn="urn:adsk.eagle:package:31717837/1" type="model">
-<description>Chip, 3.20 X 2.50 X 2.70 mm body
-&lt;p&gt;Chip package with body size 3.20 X 2.50 X 2.70 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="CAPC3225X270N"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
 <symbol name="C3225X7R1N106K250AC">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
@@ -175,20 +131,6 @@
 <text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CAP_SYMBOL">
-<description>Basic capacitor symbol</description>
-<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
-<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
-<pin name="2" x="12.7" y="0" visible="off" length="point"/>
-<text x="0" y="2.54" size="1.27" layer="95">&gt;NAME</text>
-<text x="0" y="5.08" size="1.27" layer="96">&gt;VALUE</text>
-<text x="0" y="-2.54" size="1.27" layer="97">1</text>
-<text x="12.7" y="-2.54" size="1.27" layer="97" rot="MR0">2</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -237,66 +179,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <attribute name="MANUFACTURER_PART_NUMBER" value="06033C105KAT4A" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="581-06033C105KAT4A" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/AVX/06033C105KAT4A?qs=%252BdQmOuGyFcHIpI5MSreUwQ%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CGA4J3X7R1H105K125AB" prefix="C">
-<description>&lt;b&gt;
-Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200
-&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf?ref_disty=mouser"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP_SYMBOL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPC2012X145N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31721214/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0805 50V 1uF X7R 10% AEC-Q200 " constant="no"/>
-<attribute name="HEIGHT" value="1.25mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J3X7R1H105K125AB" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA4J3X7R1H105K " constant="no"/>
-<attribute name="MOUSER_STOCK_PRICE" value="https://www.mouser.com/ProductDetail/TDK/CGA4J3X7R1H105K125AB?qs=NRhsANhppD9cK8XQyI1JTg%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CNA6P1X7R1H106K250AE" prefix="C">
-<description>&lt;b&gt;
-Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 50V 10uF 10% Soft Term AEC-Q200
-&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf?ref_disty=mouser"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="CNA6P1X7R1H106K250AE" symbol="CAP_SYMBOL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPC3225X270N">
-<connects>
-<connect gate="CNA6P1X7R1H106K250AE" pin="1" pad="1"/>
-<connect gate="CNA6P1X7R1H106K250AE" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31717837/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 50V 10uF 10% Soft Term AEC-Q200 " constant="no"/>
-<attribute name="HEIGHT" value="2.5mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CNA6P1X7R1H106K250AE" constant="no"/>
-<attribute name="MOSUER_PART_NUMBER" value="810-CNA6P1X7R1H106K2 " constant="no"/>
-<attribute name="MOUSER_PRICE_STOCK" value="https://www.mouser.com/ProductDetail/TDK/CNA6P1X7R1H106K250AE?qs=w%2Fv1CP2dgqqx%252BlNrF5czZw%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5232,18 +5114,11 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <part name="C19" library="SamacSys_Parts" deviceset="06033C105KAT4A" device=""/>
 <part name="C20" library="SamacSys_Parts" deviceset="06033C105KAT4A" device=""/>
 <part name="C21" library="SamacSys_Parts" deviceset="06033C105KAT4A" device=""/>
-<part name="C22" library="SamacSys_Parts" deviceset="06033C105KAT4A" device=""/>
 <part name="C23" library="SamacSys_Parts" deviceset="06033C105KAT4A" device=""/>
 <part name="C24" library="SamacSys_Parts" deviceset="06033C105KAT4A" device=""/>
 <part name="C25" library="SamacSys_Parts" deviceset="C3225X7R1N106K250AC" device=""/>
 <part name="C26" library="SamacSys_Parts" deviceset="C3225X7R1N106K250AC" device=""/>
 <part name="C27" library="SamacSys_Parts" deviceset="06033C105KAT4A" device=""/>
-<part name="C7" library="SamacSys_Parts" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
-<part name="C8" library="SamacSys_Parts" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
-<part name="C9" library="SamacSys_Parts" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
-<part name="C13" library="SamacSys_Parts" deviceset="CNA6P1X7R1H106K250AE" device="" package3d_urn="urn:adsk.eagle:package:31717837/1"/>
-<part name="C14" library="SamacSys_Parts" deviceset="CNA6P1X7R1H106K250AE" device="" package3d_urn="urn:adsk.eagle:package:31717837/1"/>
-<part name="C10" library="SamacSys_Parts" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
 <part name="GND65" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND66" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND67" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5269,7 +5144,6 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <part name="GND89" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND90" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND91" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="SamacSys_Parts" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
 <part name="GND92" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND93" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND94" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -6747,11 +6621,17 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <part name="C5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
 <part name="C6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
 <part name="C18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
-<part name="C189" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
 <part name="C1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CNA6P1X7R1H106K250AE" device="" package3d_urn="urn:adsk.eagle:package:31717837/1"/>
 <part name="C11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
 <part name="C12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
 <part name="C15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
+<part name="C7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
+<part name="C8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
+<part name="C9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
+<part name="C13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CNA6P1X7R1H106K250AE" device="" package3d_urn="urn:adsk.eagle:package:31717837/1"/>
+<part name="C10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
+<part name="C4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
+<part name="C14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA4J3X7R1H105K125AB" device="" package3d_urn="urn:adsk.eagle:package:31721214/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -6773,30 +6653,6 @@ Communication occurs thorugh a serial line.</text>
 <wire x1="261.62" y1="233.68" x2="208.28" y2="233.68" width="0.1524" layer="94"/>
 </plain>
 <instances>
-<instance part="C7" gate="G$1" x="213.36" y="393.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="210.82" y="393.7" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="208.28" y="393.7" size="1.27" layer="96" rot="R90"/>
-</instance>
-<instance part="C8" gate="G$1" x="236.22" y="393.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="233.68" y="393.7" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="231.14" y="393.7" size="1.27" layer="96" rot="R90"/>
-</instance>
-<instance part="C9" gate="G$1" x="243.84" y="393.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="241.3" y="393.7" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="238.76" y="393.7" size="1.27" layer="96" rot="R90"/>
-</instance>
-<instance part="C13" gate="CNA6P1X7R1H106K250AE" x="220.98" y="393.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="218.44" y="393.7" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="215.9" y="393.7" size="1.27" layer="96" rot="R90"/>
-</instance>
-<instance part="C14" gate="CNA6P1X7R1H106K250AE" x="228.6" y="393.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="226.06" y="393.7" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="223.52" y="393.7" size="1.27" layer="96" rot="R90"/>
-</instance>
-<instance part="C10" gate="G$1" x="203.2" y="294.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="200.66" y="294.64" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="198.12" y="294.64" size="1.27" layer="96" rot="R90"/>
-</instance>
 <instance part="GND65" gate="1" x="203.2" y="279.4" smashed="yes">
 <attribute name="VALUE" x="200.66" y="276.86" size="1.778" layer="96"/>
 </instance>
@@ -6871,10 +6727,6 @@ Communication occurs thorugh a serial line.</text>
 </instance>
 <instance part="GND91" gate="1" x="256.54" y="144.78" smashed="yes" rot="R180">
 <attribute name="VALUE" x="259.08" y="147.32" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="C4" gate="G$1" x="208.28" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="205.74" y="50.8" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="203.2" y="50.8" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="GND92" gate="1" x="226.06" y="7.62" smashed="yes">
 <attribute name="VALUE" x="223.52" y="5.08" size="1.778" layer="96"/>
@@ -7243,13 +7095,9 @@ Communication occurs thorugh a serial line.</text>
 <attribute name="NAME" x="256.54" y="12.7" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="254" y="12.7" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="C189" gate="G$1" x="185.42" y="254" smashed="yes" rot="R90">
-<attribute name="NAME" x="182.88" y="254" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="180.34" y="254" size="1.27" layer="96" rot="R90"/>
-</instance>
-<instance part="C1" gate="CNA6P1X7R1H106K250AE" x="198.12" y="254" smashed="yes" rot="R90">
-<attribute name="NAME" x="195.58" y="254" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="193.04" y="254" size="1.27" layer="96" rot="R90"/>
+<instance part="C1" gate="CNA6P1X7R1H106K250AE" x="220.98" y="393.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="218.44" y="393.7" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="215.9" y="393.7" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="C11" gate="G$1" x="220.98" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="218.44" y="243.84" size="1.27" layer="95" rot="R90"/>
@@ -7263,6 +7111,30 @@ Communication occurs thorugh a serial line.</text>
 <attribute name="NAME" x="251.46" y="243.84" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="248.92" y="243.84" size="1.27" layer="96" rot="R90"/>
 </instance>
+<instance part="C7" gate="G$1" x="213.36" y="393.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="210.82" y="393.7" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="208.28" y="393.7" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="C8" gate="G$1" x="236.22" y="393.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="233.68" y="393.7" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="231.14" y="393.7" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="C9" gate="G$1" x="243.84" y="393.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="241.3" y="393.7" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="238.76" y="393.7" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="C13" gate="CNA6P1X7R1H106K250AE" x="228.6" y="393.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="226.06" y="393.7" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="223.52" y="393.7" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="C10" gate="G$1" x="203.2" y="294.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="200.66" y="294.64" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="198.12" y="294.64" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="C4" gate="G$1" x="208.28" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="205.74" y="50.8" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="203.2" y="50.8" size="1.27" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7271,8 +7143,8 @@ Communication occurs thorugh a serial line.</text>
 <segment>
 <wire x1="213.36" y1="406.4" x2="213.36" y2="414.02" width="0.1524" layer="91"/>
 <label x="213.36" y="408.94" size="1.778" layer="95" rot="R90"/>
-<pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="GND79" gate="1" pin="GND"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="373.38" x2="215.9" y2="381" width="0.1524" layer="91"/>
@@ -7299,7 +7171,6 @@ Communication occurs thorugh a serial line.</text>
 <pinref part="IC51" gate="G$1" pin="AGND_3"/>
 </segment>
 <segment>
-<pinref part="C13" gate="CNA6P1X7R1H106K250AE" pin="2"/>
 <pinref part="GND77" gate="1" pin="GND"/>
 <wire x1="220.98" y1="414.02" x2="220.98" y2="411.48" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="411.48" x2="220.98" y2="406.4" width="0.1524" layer="91"/>
@@ -7307,9 +7178,9 @@ Communication occurs thorugh a serial line.</text>
 <junction x="220.98" y="411.48"/>
 <wire x1="218.44" y1="411.48" x2="218.44" y2="373.38" width="0.1524" layer="91"/>
 <pinref part="IC51" gate="G$1" pin="REFGND_2"/>
+<pinref part="C1" gate="CNA6P1X7R1H106K250AE" pin="2"/>
 </segment>
 <segment>
-<pinref part="C14" gate="CNA6P1X7R1H106K250AE" pin="2"/>
 <pinref part="GND76" gate="1" pin="GND"/>
 <wire x1="228.6" y1="414.02" x2="228.6" y2="411.48" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="411.48" x2="228.6" y2="406.4" width="0.1524" layer="91"/>
@@ -7317,17 +7188,18 @@ Communication occurs thorugh a serial line.</text>
 <wire x1="226.06" y1="411.48" x2="228.6" y2="411.48" width="0.1524" layer="91"/>
 <junction x="228.6" y="411.48"/>
 <pinref part="IC51" gate="G$1" pin="REFGND_1"/>
+<pinref part="C13" gate="CNA6P1X7R1H106K250AE" pin="2"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="284.48" x2="215.9" y2="317.5" width="0.1524" layer="91"/>
 <label x="208.28" y="292.1" size="1.778" layer="95"/>
-<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="294.64" x2="203.2" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="284.48" x2="215.9" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="284.48" x2="203.2" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="GND65" gate="1" pin="GND"/>
 <junction x="203.2" y="284.48"/>
 <pinref part="IC51" gate="G$1" pin="AGND_1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="317.5" x2="231.14" y2="314.96" width="0.1524" layer="91"/>
@@ -7398,12 +7270,12 @@ Communication occurs thorugh a serial line.</text>
 <wire x1="208.28" y1="48.26" x2="220.98" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="48.26" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
 <label x="213.36" y="53.34" size="1.778" layer="95"/>
-<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="50.8" x2="208.28" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND95" gate="1" pin="GND"/>
 <wire x1="208.28" y1="48.26" x2="208.28" y2="45.72" width="0.1524" layer="91"/>
 <junction x="208.28" y="48.26"/>
 <pinref part="IC38" gate="G$1" pin="AGND_1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="256.54" y1="134.62" x2="256.54" y2="142.24" width="0.1524" layer="91"/>
@@ -7443,13 +7315,13 @@ Communication occurs thorugh a serial line.</text>
 </segment>
 <segment>
 <pinref part="GND80" gate="1" pin="GND"/>
-<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="414.02" x2="236.22" y2="406.4" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND81" gate="1" pin="GND"/>
-<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="414.02" x2="243.84" y2="406.4" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND86" gate="1" pin="GND"/>
@@ -7568,27 +7440,41 @@ Communication occurs thorugh a serial line.</text>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="259.08" y1="10.16" x2="259.08" y2="12.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="GND66" gate="1" pin="GND"/>
+<wire x1="220.98" y1="243.84" x2="220.98" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="GND67" gate="1" pin="GND"/>
+<wire x1="238.76" y1="243.84" x2="238.76" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="GND68" gate="1" pin="GND"/>
+<wire x1="254" y1="243.84" x2="254" y2="241.3" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="REGCAP2" class="0">
 <segment>
 <wire x1="236.22" y1="373.38" x2="236.22" y2="393.7" width="0.1524" layer="91"/>
 <label x="236.22" y="373.38" size="1.778" layer="95" rot="R90"/>
-<pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="IC51" gate="G$1" pin="REGCAP2"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="REGCAP1" class="0">
 <segment>
 <wire x1="243.84" y1="373.38" x2="243.84" y2="393.7" width="0.1524" layer="91"/>
 <label x="243.84" y="373.38" size="1.778" layer="95" rot="R90"/>
-<pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="IC51" gate="G$1" pin="REGCAP1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="REFCAPAB" class="0">
 <segment>
 <label x="220.98" y="373.38" size="1.778" layer="95" rot="R90"/>
-<pinref part="C13" gate="CNA6P1X7R1H106K250AE" pin="1"/>
 <wire x1="220.98" y1="393.7" x2="220.98" y2="375.92" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="375.92" x2="220.98" y2="373.38" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="375.92" x2="223.52" y2="375.92" width="0.1524" layer="91"/>
@@ -7596,14 +7482,15 @@ Communication occurs thorugh a serial line.</text>
 <wire x1="223.52" y1="375.92" x2="223.52" y2="373.38" width="0.1524" layer="91"/>
 <pinref part="IC51" gate="G$1" pin="REFCAPB"/>
 <pinref part="IC51" gate="G$1" pin="REFCAPA"/>
+<pinref part="C1" gate="CNA6P1X7R1H106K250AE" pin="1"/>
 </segment>
 </net>
 <net name="REFIN/OUT" class="0">
 <segment>
 <wire x1="228.6" y1="373.38" x2="228.6" y2="393.7" width="0.1524" layer="91"/>
 <label x="228.6" y="373.38" size="1.778" layer="95" rot="R90"/>
-<pinref part="C14" gate="CNA6P1X7R1H106K250AE" pin="1"/>
 <pinref part="IC51" gate="G$1" pin="REFIN/REFOUT"/>
+<pinref part="C13" gate="CNA6P1X7R1H106K250AE" pin="1"/>
 </segment>
 </net>
 <net name="VIN1_P" class="0">
@@ -8868,16 +8755,16 @@ Communication occurs thorugh a serial line.</text>
 <segment>
 <wire x1="213.36" y1="393.7" x2="213.36" y2="373.38" width="0.1524" layer="91"/>
 <label x="213.36" y="373.38" size="1.778" layer="95" rot="R90"/>
-<pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="IC51" gate="G$1" pin="AVDD_4"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="213.36" y1="317.5" x2="213.36" y2="312.42" width="0.1524" layer="91"/>
 <label x="200.66" y="302.26" size="1.778" layer="95" rot="R90"/>
 <wire x1="213.36" y1="312.42" x2="203.2" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="312.42" x2="203.2" y2="307.34" width="0.1524" layer="91"/>
 <pinref part="IC51" gate="G$1" pin="AVDD_1"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="134.62" x2="246.38" y2="142.24" width="0.1524" layer="91"/>
@@ -8919,9 +8806,9 @@ Communication occurs thorugh a serial line.</text>
 <wire x1="218.44" y1="78.74" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="66.04" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
 <label x="205.74" y="60.96" size="1.778" layer="95" rot="R90"/>
-<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="66.04" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="IC38" gate="G$1" pin="AVDD_1"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="OS1_ADC" class="0">
@@ -8983,9 +8870,6 @@ Communication occurs thorugh a serial line.</text>
 </instance>
 <instance part="C21" gate="G$1" x="241.3" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="240.03" y="168.91" size="1.778" layer="95" rot="R90" align="center-left"/>
-</instance>
-<instance part="C22" gate="G$1" x="177.8" y="53.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="171.45" y="62.23" size="1.778" layer="95" rot="R90" align="center-left"/>
 </instance>
 <instance part="C23" gate="G$1" x="248.92" y="15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="242.57" y="24.13" size="1.778" layer="95" rot="R90" align="center-left"/>
@@ -9254,19 +9138,14 @@ Communication occurs thorugh a serial line.</text>
 <instance part="GND543" gate="1" x="228.6" y="76.2" smashed="yes">
 <attribute name="VALUE" x="226.06" y="73.66" size="1.778" layer="96"/>
 </instance>
+<instance part="C14" gate="G$1" x="205.74" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="203.2" y="53.34" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="200.66" y="53.34" size="1.27" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="AVDD" class="0">
-<segment>
-<pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="81.28" x2="210.82" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="66.04" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
-<label x="203.2" y="66.04" size="1.778" layer="95"/>
-<pinref part="IC52" gate="G$1" pin="AVDD_1"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="C19" gate="G$1" pin="2"/>
@@ -9313,11 +9192,11 @@ Communication occurs thorugh a serial line.</text>
 <pinref part="IC52" gate="G$1" pin="REFGND_1"/>
 </segment>
 <segment>
-<pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="53.34" x2="213.36" y2="81.28" width="0.1524" layer="91"/>
-<label x="205.74" y="55.88" size="1.778" layer="95"/>
+<label x="205.74" y="50.8" size="1.778" layer="95"/>
 <pinref part="IC52" gate="G$1" pin="AGND_1"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C27" gate="G$1" pin="1"/>
@@ -10040,6 +9919,13 @@ Communication occurs thorugh a serial line.</text>
 <pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="27.94" x2="248.92" y2="30.48" width="0.1524" layer="91"/>
 <label x="246.38" y="30.48" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="210.82" y1="81.28" x2="210.82" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="66.04" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
+<label x="205.74" y="66.04" size="1.778" layer="95" rot="R90"/>
+<pinref part="IC52" gate="G$1" pin="AVDD_1"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="3.3V_DIGITAL" class="0">
@@ -27255,7 +27141,8 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <wire x1="208.28" y1="0" x2="208.28" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="208.28" y1="-7.62" x2="213.36" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="281.94" y1="-38.1" x2="287.02" y2="-38.1" width="0.1524" layer="94"/>
-<wire x1="287.02" y1="-38.1" x2="287.02" y2="-68.58" width="0.1524" layer="94"/>
+<wire x1="287.02" y1="-38.1" x2="287.02" y2="-48.26" width="0.1524" layer="94"/>
+<wire x1="287.02" y1="-48.26" x2="287.02" y2="-68.58" width="0.1524" layer="94"/>
 <wire x1="287.02" y1="-68.58" x2="281.94" y2="-68.58" width="0.1524" layer="94"/>
 <text x="289.56" y="-58.42" size="1.778" layer="97">Digital input</text>
 <text x="289.56" y="-43.18" size="1.778" layer="97">Driver indicators</text>
@@ -27263,6 +27150,7 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <wire x1="208.28" y1="-17.78" x2="208.28" y2="-66.04" width="0.1524" layer="94"/>
 <wire x1="208.28" y1="-66.04" x2="213.36" y2="-66.04" width="0.1524" layer="94"/>
 <text x="203.2" y="-40.64" size="1.778" layer="97" rot="R180">ADC interface</text>
+<wire x1="281.94" y1="-48.26" x2="287.02" y2="-48.26" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="UC1" gate="G$1" x="7.62" y="7.62" smashed="yes">
