@@ -1284,7 +1284,7 @@
 <smd name="11" x="3.175" y="1.613" dx="0.74" dy="1.47" layer="1" stop="no"/>
 <smd name="12" x="3.175" y="-1.613" dx="0.74" dy="1.47" layer="1" stop="no"/>
 </package>
-<package name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:footprint:34729421/1" library_version="100">
+<package name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:footprint:34729421/2" library_version="132">
 <wire x1="-11.43" y1="-1.27" x2="-11.43" y2="1.27" width="0.1" layer="51"/>
 <wire x1="-11.43" y1="1.27" x2="11.43" y2="1.27" width="0.1" layer="51"/>
 <wire x1="11.43" y1="1.27" x2="11.43" y2="-1.27" width="0.1" layer="51"/>
@@ -1297,6 +1297,10 @@
 <wire x1="-11.68" y1="2.805" x2="11.68" y2="2.805" width="0.05" layer="39"/>
 <wire x1="11.68" y1="2.805" x2="11.68" y2="-2.805" width="0.05" layer="39"/>
 <wire x1="11.68" y1="-2.805" x2="-11.68" y2="-2.805" width="0.05" layer="39"/>
+<wire x1="-12.7" y1="-2.7" x2="12.7" y2="-2.7" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-2.7" x2="-12.7" y2="31.6" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-2.7" x2="12.7" y2="31.6" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="31.75" x2="12.7" y2="31.75" width="0.127" layer="21"/>
 <text x="-12.43" y="3.57" size="1.27" layer="25">&gt;NAME</text>
 <text x="-12.43" y="-4.82" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="10.67" y="3.315" radius="0.1" width="0.2" layer="21"/>
@@ -1310,6 +1314,8 @@
 <smd name="07" x="-5.08" y="1.6025" dx="1.02" dy="1.905" layer="1"/>
 <smd name="08" x="-7.62" y="-1.6025" dx="1.02" dy="1.905" layer="1"/>
 <smd name="09" x="-10.16" y="1.6025" dx="1.02" dy="1.905" layer="1"/>
+<hole x="-10.16" y="27.01" drill="4"/>
+<hole x="10.16" y="27.01" drill="4"/>
 </package>
 <package name="BGA100C127P10X10_1500X1500X608" urn="urn:adsk.eagle:footprint:34729432/1" library_version="102">
 <description>&lt;b&gt;[BGA](ML-100-1)&lt;/b&gt;&lt;br&gt;
@@ -2000,7 +2006,7 @@
 <packageinstance name="SAMTEC-CLP-106-02-X-D"/>
 </packageinstances>
 </package3d>
-<package3d name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:package:34729422/2" type="model" library_version="100">
+<package3d name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:package:34729422/4" type="model" library_version="132">
 <packageinstances>
 <packageinstance name="SAMTEC_SSM-109-L-SV"/>
 </packageinstances>
@@ -4257,7 +4263,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/GMR100HTCFAR1
 </device>
 </devices>
 </deviceset>
-<deviceset name="SSM-109-L-SV" urn="urn:adsk.eagle:component:34729423/2" prefix="J" library_version="100">
+<deviceset name="SSM-109-L-SV" urn="urn:adsk.eagle:component:34729423/4" prefix="J" library_version="132">
 <gates>
 <gate name="G$1" symbol="SSM-109-L-SV" x="0" y="0"/>
 </gates>
@@ -4275,7 +4281,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/GMR100HTCFAR1
 <connect gate="G$1" pin="09" pad="09"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34729422/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34729422/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -6293,7 +6299,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 <part name="GND450" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SAMTEC-CLP-106-02-X-D" device="J" package3d_urn="urn:adsk.eagle:package:34729384/2"/>
 <part name="GND451" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SSM-109-L-SV" device="" package3d_urn="urn:adsk.eagle:package:34729422/2"/>
 <part name="IC31" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ADIS16500AMLZ" device="" package3d_urn="urn:adsk.eagle:package:34729433/2"/>
 <part name="GND452" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND453" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -6519,6 +6524,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 <part name="D85" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34959477/2"/>
 <part name="D86" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34959477/2"/>
 <part name="D87" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34959477/2"/>
+<part name="J9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SSM-109-L-SV" device="" package3d_urn="urn:adsk.eagle:package:34729422/4"/>
 </parts>
 <sheets>
 <sheet>
@@ -12669,9 +12675,9 @@ Output on-board voltages
 <wire x1="22.86" y1="40.64" x2="-7.62" y2="40.64" width="0.1524" layer="94"/>
 </plain>
 <instances>
-<instance part="J3" gate="G$1" x="12.7" y="15.24" smashed="yes">
-<attribute name="NAME" x="7.12" y="29.056" size="1.778" layer="95"/>
-<attribute name="VALUE" x="7.62" y="0" size="1.778" layer="96"/>
+<instance part="J9" gate="G$1" x="12.7" y="-17.78" smashed="yes">
+<attribute name="NAME" x="7.12" y="-3.964" size="1.778" layer="95"/>
+<attribute name="VALUE" x="7.62" y="-33.02" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -12679,65 +12685,65 @@ Output on-board voltages
 <nets>
 <net name="3.3V_NC" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="01"/>
-<wire x1="2.54" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
-<label x="0" y="27.94" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-25.4" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="09"/>
+<wire x1="0" y1="-27.94" x2="2.54" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS_EN" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="02"/>
-<wire x1="2.54" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
-<label x="0" y="25.4" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-22.86" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="08"/>
+<wire x1="0" y1="-25.4" x2="2.54" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBAT_NC" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="03"/>
-<wire x1="2.54" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
-<label x="0" y="22.86" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-20.32" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="07"/>
+<wire x1="0" y1="-22.86" x2="2.54" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS_TX" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="05"/>
-<wire x1="2.54" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="91"/>
-<label x="0" y="17.78" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-15.24" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="05"/>
+<wire x1="0" y1="-17.78" x2="2.54" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FIX_NC" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="04"/>
-<wire x1="2.54" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="91"/>
-<label x="0" y="20.32" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-17.78" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="06"/>
+<wire x1="0" y1="-20.32" x2="2.54" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS_RX" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="06"/>
-<wire x1="2.54" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
-<label x="0" y="15.24" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-12.7" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="04"/>
+<wire x1="0" y1="-15.24" x2="2.54" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="07"/>
-<wire x1="2.54" y1="10.16" x2="0" y2="10.16" width="0.1524" layer="91"/>
-<label x="0" y="12.7" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-10.16" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="03"/>
+<wire x1="0" y1="-12.7" x2="2.54" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V_SENSORS" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="08"/>
-<wire x1="2.54" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="91"/>
-<label x="0" y="10.16" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-7.62" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="02"/>
+<wire x1="0" y1="-10.16" x2="2.54" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PPS_NC" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="09"/>
-<wire x1="2.54" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="91"/>
-<label x="0" y="7.62" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-5.08" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="01"/>
+<wire x1="0" y1="-7.62" x2="2.54" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -27229,27 +27235,6 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <label x="106.68" y="-45.72" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="14V_BUS_FROM_CONNECTOR" class="0">
-<segment>
-<pinref part="J6" gate="G$1" pin="32"/>
-<wire x1="139.7" y1="-58.42" x2="137.16" y2="-58.42" width="0.1524" layer="91"/>
-<label x="142.24" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="6.5V_BUS_FROM_CONNECTOR" class="0">
-<segment>
-<pinref part="J6" gate="G$1" pin="30"/>
-<wire x1="139.7" y1="-55.88" x2="137.16" y2="-55.88" width="0.1524" layer="91"/>
-<label x="142.24" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5V_BUS_FROM_CONNECTOR" class="0">
-<segment>
-<pinref part="J6" gate="G$1" pin="28"/>
-<wire x1="139.7" y1="-53.34" x2="137.16" y2="-53.34" width="0.1524" layer="91"/>
-<label x="142.24" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="5V_CONNECTOR" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="16"/>
@@ -27277,6 +27262,11 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <pinref part="J6" gate="G$1" pin="14"/>
 <wire x1="139.7" y1="-35.56" x2="137.16" y2="-35.56" width="0.1524" layer="91"/>
 <label x="142.24" y="-35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="32"/>
+<wire x1="139.7" y1="-58.42" x2="137.16" y2="-58.42" width="0.1524" layer="91"/>
+<label x="142.24" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OS0_ADC" class="0">
@@ -29273,6 +29263,20 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <segment>
 <pinref part="J8" gate="G$1" pin="40"/>
 <wire x1="264.16" y1="-7.62" x2="266.7" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V_BUS" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="28"/>
+<wire x1="139.7" y1="-53.34" x2="137.16" y2="-53.34" width="0.1524" layer="91"/>
+<label x="142.24" y="-53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="6.5V_BUS" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="30"/>
+<wire x1="139.7" y1="-55.88" x2="137.16" y2="-55.88" width="0.1524" layer="91"/>
+<label x="142.24" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

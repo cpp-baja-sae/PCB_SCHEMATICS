@@ -6591,6 +6591,12 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="C13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="C3225X7R1N106K250AC" device="" package3d_urn="urn:adsk.eagle:package:34952039/2"/>
 <part name="C17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="C3225X7R1N106K250AC" device="" package3d_urn="urn:adsk.eagle:package:34952039/2"/>
 <part name="C25" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="C3225X7R1N106K250AC" device="" package3d_urn="urn:adsk.eagle:package:34952039/2"/>
+<part name="C26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM31C5C1E474JE01L" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
+<part name="C189" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM31C5C1E474JE01L" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
+<part name="GND544" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND545" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C191" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM31C5C1E474JE01L" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
+<part name="GND546" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8819,6 +8825,11 @@ The ADC also applies a 3rd order low pass filter with built in oversampling func
 
 Communication occurs thorugh a serial line.</text>
 <rectangle x1="25.4" y1="226.06" x2="180.34" y2="261.62" layer="98"/>
+<text x="111.76" y="170.18" size="1.778" layer="97">Filter @300hz  with 5/12 reduction</text>
+<wire x1="109.22" y1="175.26" x2="109.22" y2="167.64" width="0.1524" layer="94"/>
+<wire x1="109.22" y1="167.64" x2="152.4" y2="167.64" width="0.1524" layer="94"/>
+<wire x1="152.4" y1="167.64" x2="152.4" y2="175.26" width="0.1524" layer="94"/>
+<wire x1="152.4" y1="175.26" x2="109.22" y2="175.26" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="C19" gate="G$1" x="210.82" y="157.48" smashed="yes" rot="R90">
@@ -9323,6 +9334,21 @@ Communication occurs thorugh a serial line.</text>
 <wire x1="248.92" y1="81.28" x2="248.92" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="GND525" gate="1" pin="GND"/>
 </segment>
+<segment>
+<wire x1="180.34" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
+<label x="180.34" y="88.9" size="1.778" layer="95"/>
+<pinref part="IC52" gate="G$1" pin="AIN_8GND"/>
+</segment>
+<segment>
+<wire x1="180.34" y1="93.98" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
+<label x="180.34" y="93.98" size="1.778" layer="95"/>
+<pinref part="IC52" gate="G$1" pin="AIN_7GND"/>
+</segment>
+<segment>
+<wire x1="180.34" y1="99.06" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
+<label x="180.34" y="99.06" size="1.778" layer="95"/>
+<pinref part="IC52" gate="G$1" pin="AIN_6GND"/>
+</segment>
 </net>
 <net name="REFCAPAB00" class="0">
 <segment>
@@ -9509,13 +9535,6 @@ Communication occurs thorugh a serial line.</text>
 <junction x="132.08" y="154.94"/>
 </segment>
 </net>
-<net name="GP_6_N" class="0">
-<segment>
-<wire x1="180.34" y1="99.06" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
-<label x="180.34" y="99.06" size="1.778" layer="95"/>
-<pinref part="IC52" gate="G$1" pin="AIN_6GND"/>
-</segment>
-</net>
 <net name="GP_7_P" class="0">
 <segment>
 <wire x1="180.34" y1="96.52" x2="190.5" y2="96.52" width="0.1524" layer="91"/>
@@ -9538,13 +9557,6 @@ Communication occurs thorugh a serial line.</text>
 <junction x="132.08" y="114.3"/>
 </segment>
 </net>
-<net name="GP_7_N" class="0">
-<segment>
-<wire x1="180.34" y1="93.98" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
-<label x="180.34" y="93.98" size="1.778" layer="95"/>
-<pinref part="IC52" gate="G$1" pin="AIN_7GND"/>
-</segment>
-</net>
 <net name="GP_8_P" class="0">
 <segment>
 <wire x1="180.34" y1="91.44" x2="190.5" y2="91.44" width="0.1524" layer="91"/>
@@ -9565,13 +9577,6 @@ Communication occurs thorugh a serial line.</text>
 <wire x1="132.08" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="73.66" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
 <junction x="132.08" y="73.66"/>
-</segment>
-</net>
-<net name="GP_8_N" class="0">
-<segment>
-<wire x1="180.34" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
-<label x="180.34" y="88.9" size="1.778" layer="95"/>
-<pinref part="IC52" gate="G$1" pin="AIN_8GND"/>
 </segment>
 </net>
 <net name="GP_5_P" class="0">
@@ -11879,6 +11884,27 @@ Output on-board voltages
 <instance part="GND439" gate="1" x="137.16" y="-91.44" smashed="yes" rot="R270">
 <attribute name="VALUE" x="134.62" y="-91.44" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="C26" gate="G$1" x="170.18" y="63.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="173.99" y="54.61" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="181.61" y="41.91" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="C189" gate="G$1" x="170.18" y="-12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="173.99" y="-21.59" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="181.61" y="-34.29" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="GND544" gate="1" x="170.18" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="167.64" y="-33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="GND545" gate="1" x="170.18" y="45.72" smashed="yes">
+<attribute name="VALUE" x="167.64" y="43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="C191" gate="G$1" x="170.18" y="-93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="173.99" y="-102.87" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="181.61" y="-115.57" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="GND546" gate="1" x="170.18" y="-111.76" smashed="yes">
+<attribute name="VALUE" x="167.64" y="-114.3" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11898,16 +11924,25 @@ Output on-board voltages
 <pinref part="IC24" gate="G$1" pin="VDD"/>
 <wire x1="167.64" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
 <label x="172.72" y="63.5" size="1.778" layer="95"/>
+<pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="66.04" x2="170.18" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC25" gate="G$1" pin="VDD"/>
 <wire x1="167.64" y1="-10.16" x2="170.18" y2="-10.16" width="0.1524" layer="91"/>
 <label x="172.72" y="-12.7" size="1.778" layer="95"/>
+<pinref part="C189" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="-10.16" x2="170.18" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC26" gate="G$1" pin="VDD"/>
 <wire x1="167.64" y1="-91.44" x2="170.18" y2="-91.44" width="0.1524" layer="91"/>
 <label x="172.72" y="-93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="172.72" y="-93.98" size="1.778" layer="95"/>
+<pinref part="C191" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="-91.44" x2="170.18" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11970,6 +12005,21 @@ Output on-board voltages
 <pinref part="IC26" gate="G$1" pin="VSS"/>
 <wire x1="142.24" y1="-91.44" x2="139.7" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="GND439" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C26" gate="G$1" pin="2"/>
+<pinref part="GND545" gate="1" pin="GND"/>
+<wire x1="170.18" y1="50.8" x2="170.18" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C189" gate="G$1" pin="2"/>
+<pinref part="GND544" gate="1" pin="GND"/>
+<wire x1="170.18" y1="-25.4" x2="170.18" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C191" gate="G$1" pin="2"/>
+<pinref part="GND546" gate="1" pin="GND"/>
+<wire x1="170.18" y1="-106.68" x2="170.18" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FB+_1" class="0">
