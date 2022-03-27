@@ -785,26 +785,23 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <wire x1="-0.875" y1="-3.25" x2="-0.875" y2="3.25" width="0.2" layer="21"/>
 <wire x1="-3.975" y1="3.125" x2="-1.225" y2="3.125" width="0.2" layer="21"/>
 </package>
-<package name="AS_FEMALE_5_PIN" urn="urn:adsk.eagle:footprint:34263749/3" library_version="69">
-<wire x1="22.479" y1="0" x2="-0.021" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.021" y1="0" x2="-0.021" y2="14.5" width="0.127" layer="21"/>
-<wire x1="-0.021" y1="14.5" x2="22.479" y2="14.5" width="0.127" layer="21"/>
-<wire x1="22.479" y1="14.5" x2="22.479" y2="0" width="0.127" layer="21"/>
-<circle x="11.229" y="7.25" radius="2.1" width="0.127" layer="21"/>
-<circle x="20.219" y="7.25" radius="1.35" width="0.0762" layer="21"/>
-<circle x="2.239" y="7.25" radius="1.35" width="0.0762" layer="21"/>
-<circle x="11.557" y="9.3218" radius="0.8636" width="0.127" layer="21"/>
-<circle x="11.229" y="7.25" radius="13.335" width="0.127" layer="21"/>
-<pad name="1" x="13.309" y="7.57" drill="0.75" diameter="1.4224" rot="R180"/>
-<pad name="2" x="11.559" y="9.32" drill="0.75" diameter="1.4224" rot="R180"/>
-<pad name="3" x="9.359" y="8.2" drill="0.75" diameter="1.4224" rot="R180"/>
-<pad name="4" x="9.749" y="5.77" drill="0.75" diameter="1.4224" rot="R180"/>
-<pad name="5" x="12.179" y="5.38" drill="0.75" diameter="1.4224" rot="R180"/>
-<text x="8.3144" y="1.3642" size="1.27" layer="25">&gt;NAME</text>
-<text x="7.8406" y="11.7334" size="1.27" layer="27">&gt;VALUE</text>
-<text x="14.4238" y="7.4514" size="0.4064" layer="21">GND</text>
-<hole x="20.229" y="7.25" drill="5"/>
-<hole x="2.229" y="7.25" drill="5"/>
+<package name="AS_FEMALE_5_PIN" urn="urn:adsk.eagle:footprint:34263749/4" library_version="124">
+<circle x="-0.071" y="0.05" radius="2.1" width="0.127" layer="21"/>
+<circle x="8.919" y="0.05" radius="1.35" width="0.0762" layer="21"/>
+<circle x="-9.061" y="0.05" radius="1.35" width="0.0762" layer="21"/>
+<circle x="0.257" y="2.1218" radius="0.8636" width="0.127" layer="21"/>
+<pad name="1" x="2.009" y="0.37" drill="0.75" diameter="1.4224" rot="R180"/>
+<pad name="2" x="0.259" y="2.12" drill="0.75" diameter="1.4224" rot="R180"/>
+<pad name="3" x="-1.941" y="1" drill="0.75" diameter="1.4224" rot="R180"/>
+<pad name="4" x="-1.551" y="-1.43" drill="0.75" diameter="1.4224" rot="R180"/>
+<pad name="5" x="0.879" y="-1.82" drill="0.75" diameter="1.4224" rot="R180"/>
+<text x="-2.9856" y="-5.8358" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.4594" y="4.5334" size="1.27" layer="27">&gt;VALUE</text>
+<text x="3.1238" y="0.2514" size="0.4064" layer="21">GND</text>
+<hole x="8.929" y="0.05" drill="5"/>
+<hole x="-9.071" y="0.05" drill="5"/>
+<wire x1="-11.269" y1="1.1" x2="11.2" y2="1.1" width="0.127" layer="21" curve="-123"/>
+<wire x1="-11.269" y1="-1" x2="11.2" y2="-1" width="0.127" layer="21" curve="123"/>
 </package>
 <package name="QFN50P500X500X80-33T345N" urn="urn:adsk.eagle:footprint:31941209/1" library_version="70">
 <description>32-QFN, 0.50 mm pitch, 5.00 X 5.00 X 0.80 mm body, 3.45 X 3.45 mm thermal pad
@@ -1970,7 +1967,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <packageinstance name="SOT230P700X180-4N"/>
 </packageinstances>
 </package3d>
-<package3d name="AS_FEMALE_5_PIN" urn="urn:adsk.eagle:package:34263750/6" type="model" library_version="69">
+<package3d name="AS_FEMALE_5_PIN" urn="urn:adsk.eagle:package:34263750/8" type="model" library_version="125">
 <packageinstances>
 <packageinstance name="AS_FEMALE_5_PIN"/>
 </packageinstances>
@@ -3756,7 +3753,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="AS_FEMALE_5_PIN" urn="urn:adsk.eagle:component:34263753/6" prefix="Z" library_version="70">
+<deviceset name="AS_FEMALE_5_PIN" urn="urn:adsk.eagle:component:34263753/8" prefix="Z" library_version="125">
 <gates>
 <gate name="Z$1" symbol="AS_FEMALE_5_PIN" x="0" y="0"/>
 </gates>
@@ -3770,7 +3767,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 <connect gate="Z$1" pin="GND" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5368,11 +5365,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="GND55" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C111" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CNA5L1X7R1C106K160AE" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
 <part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND58" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C37" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C39" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -5433,11 +5430,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="GND110" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="GND111" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND112" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND113" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND114" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C44" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C45" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -5498,11 +5495,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="GND133" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="GND134" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND135" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND136" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND137" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C99" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C101" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -5563,11 +5560,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="GND156" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="GND157" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND158" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND159" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND160" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C114" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C115" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -5628,11 +5625,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="GND179" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D24" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="GND180" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND181" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND182" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND183" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C119" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C120" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -5693,11 +5690,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="GND202" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D30" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="GND203" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND204" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND205" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND206" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C124" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C125" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -5758,11 +5755,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="GND225" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D36" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="GND226" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND227" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND228" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND229" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C129" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C130" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -5823,11 +5820,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="GND248" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D42" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="GND249" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND250" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND251" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND252" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C134" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C135" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -5876,11 +5873,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="LED40" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
 <part name="R318" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
 <part name="GND266" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND273" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND274" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND275" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C139" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C140" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -5941,11 +5938,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="GND294" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D54" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="GND295" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z19" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z19" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND296" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC19" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND297" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z20" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z20" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND298" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C144" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C145" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -6006,11 +6003,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="GND317" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D60" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="GND318" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z21" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z21" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND319" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC20" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND320" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z22" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z22" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND321" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C149" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C150" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -6071,11 +6068,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="GND340" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D66" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="GND341" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z23" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z23" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND342" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC21" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND343" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z24" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z24" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND344" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C154" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C155" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -6136,11 +6133,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="GND363" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D72" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="GND364" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z25" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z25" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND365" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC22" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND366" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND367" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C159" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C160" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -6197,11 +6194,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="D77" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="GND385" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND386" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z27" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z27" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND267" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC23" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND268" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z28" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z28" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="GND269" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C164" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM1555C1H822JE01D" device="" package3d_urn="urn:adsk.eagle:package:34596893/2"/>
 <part name="C165" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CS0402KRX7R8BB104" device="" package3d_urn="urn:adsk.eagle:package:34596920/2"/>
@@ -6594,6 +6591,12 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <part name="C13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="C3225X7R1N106K250AC" device="" package3d_urn="urn:adsk.eagle:package:34952039/2"/>
 <part name="C17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="C3225X7R1N106K250AC" device="" package3d_urn="urn:adsk.eagle:package:34952039/2"/>
 <part name="C25" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="C3225X7R1N106K250AC" device="" package3d_urn="urn:adsk.eagle:package:34952039/2"/>
+<part name="C26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM31C5C1E474JE01L" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
+<part name="C189" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM31C5C1E474JE01L" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
+<part name="GND544" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND545" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C191" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GRM31C5C1E474JE01L" device="" package3d_urn="urn:adsk.eagle:package:31696082/3"/>
+<part name="GND546" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8822,6 +8825,11 @@ The ADC also applies a 3rd order low pass filter with built in oversampling func
 
 Communication occurs thorugh a serial line.</text>
 <rectangle x1="25.4" y1="226.06" x2="180.34" y2="261.62" layer="98"/>
+<text x="111.76" y="170.18" size="1.778" layer="97">Filter @300hz  with 5/12 reduction</text>
+<wire x1="109.22" y1="175.26" x2="109.22" y2="167.64" width="0.1524" layer="94"/>
+<wire x1="109.22" y1="167.64" x2="152.4" y2="167.64" width="0.1524" layer="94"/>
+<wire x1="152.4" y1="167.64" x2="152.4" y2="175.26" width="0.1524" layer="94"/>
+<wire x1="152.4" y1="175.26" x2="109.22" y2="175.26" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="C19" gate="G$1" x="210.82" y="157.48" smashed="yes" rot="R90">
@@ -9326,6 +9334,21 @@ Communication occurs thorugh a serial line.</text>
 <wire x1="248.92" y1="81.28" x2="248.92" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="GND525" gate="1" pin="GND"/>
 </segment>
+<segment>
+<wire x1="180.34" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
+<label x="180.34" y="88.9" size="1.778" layer="95"/>
+<pinref part="IC52" gate="G$1" pin="AIN_8GND"/>
+</segment>
+<segment>
+<wire x1="180.34" y1="93.98" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
+<label x="180.34" y="93.98" size="1.778" layer="95"/>
+<pinref part="IC52" gate="G$1" pin="AIN_7GND"/>
+</segment>
+<segment>
+<wire x1="180.34" y1="99.06" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
+<label x="180.34" y="99.06" size="1.778" layer="95"/>
+<pinref part="IC52" gate="G$1" pin="AIN_6GND"/>
+</segment>
 </net>
 <net name="REFCAPAB00" class="0">
 <segment>
@@ -9512,13 +9535,6 @@ Communication occurs thorugh a serial line.</text>
 <junction x="132.08" y="154.94"/>
 </segment>
 </net>
-<net name="GP_6_N" class="0">
-<segment>
-<wire x1="180.34" y1="99.06" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
-<label x="180.34" y="99.06" size="1.778" layer="95"/>
-<pinref part="IC52" gate="G$1" pin="AIN_6GND"/>
-</segment>
-</net>
 <net name="GP_7_P" class="0">
 <segment>
 <wire x1="180.34" y1="96.52" x2="190.5" y2="96.52" width="0.1524" layer="91"/>
@@ -9541,13 +9557,6 @@ Communication occurs thorugh a serial line.</text>
 <junction x="132.08" y="114.3"/>
 </segment>
 </net>
-<net name="GP_7_N" class="0">
-<segment>
-<wire x1="180.34" y1="93.98" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
-<label x="180.34" y="93.98" size="1.778" layer="95"/>
-<pinref part="IC52" gate="G$1" pin="AIN_7GND"/>
-</segment>
-</net>
 <net name="GP_8_P" class="0">
 <segment>
 <wire x1="180.34" y1="91.44" x2="190.5" y2="91.44" width="0.1524" layer="91"/>
@@ -9568,13 +9577,6 @@ Communication occurs thorugh a serial line.</text>
 <wire x1="132.08" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="73.66" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
 <junction x="132.08" y="73.66"/>
-</segment>
-</net>
-<net name="GP_8_N" class="0">
-<segment>
-<wire x1="180.34" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
-<label x="180.34" y="88.9" size="1.778" layer="95"/>
-<pinref part="IC52" gate="G$1" pin="AIN_8GND"/>
 </segment>
 </net>
 <net name="GP_5_P" class="0">
@@ -11882,6 +11884,27 @@ Output on-board voltages
 <instance part="GND439" gate="1" x="137.16" y="-91.44" smashed="yes" rot="R270">
 <attribute name="VALUE" x="134.62" y="-91.44" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="C26" gate="G$1" x="170.18" y="63.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="173.99" y="54.61" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="181.61" y="41.91" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="C189" gate="G$1" x="170.18" y="-12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="173.99" y="-21.59" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="181.61" y="-34.29" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="GND544" gate="1" x="170.18" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="167.64" y="-33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="GND545" gate="1" x="170.18" y="45.72" smashed="yes">
+<attribute name="VALUE" x="167.64" y="43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="C191" gate="G$1" x="170.18" y="-93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="173.99" y="-102.87" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="181.61" y="-115.57" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="GND546" gate="1" x="170.18" y="-111.76" smashed="yes">
+<attribute name="VALUE" x="167.64" y="-114.3" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11901,16 +11924,25 @@ Output on-board voltages
 <pinref part="IC24" gate="G$1" pin="VDD"/>
 <wire x1="167.64" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
 <label x="172.72" y="63.5" size="1.778" layer="95"/>
+<pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="66.04" x2="170.18" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC25" gate="G$1" pin="VDD"/>
 <wire x1="167.64" y1="-10.16" x2="170.18" y2="-10.16" width="0.1524" layer="91"/>
 <label x="172.72" y="-12.7" size="1.778" layer="95"/>
+<pinref part="C189" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="-10.16" x2="170.18" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC26" gate="G$1" pin="VDD"/>
 <wire x1="167.64" y1="-91.44" x2="170.18" y2="-91.44" width="0.1524" layer="91"/>
 <label x="172.72" y="-93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="172.72" y="-93.98" size="1.778" layer="95"/>
+<pinref part="C191" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="-91.44" x2="170.18" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11973,6 +12005,21 @@ Output on-board voltages
 <pinref part="IC26" gate="G$1" pin="VSS"/>
 <wire x1="142.24" y1="-91.44" x2="139.7" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="GND439" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C26" gate="G$1" pin="2"/>
+<pinref part="GND545" gate="1" pin="GND"/>
+<wire x1="170.18" y1="50.8" x2="170.18" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C189" gate="G$1" pin="2"/>
+<pinref part="GND544" gate="1" pin="GND"/>
+<wire x1="170.18" y1="-25.4" x2="170.18" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C191" gate="G$1" pin="2"/>
+<pinref part="GND546" gate="1" pin="GND"/>
+<wire x1="170.18" y1="-106.68" x2="170.18" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FB+_1" class="0">
