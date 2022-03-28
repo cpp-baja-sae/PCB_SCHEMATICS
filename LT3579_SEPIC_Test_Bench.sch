@@ -219,7 +219,7 @@
 <wire x1="0" y1="0.525" x2="0" y2="-0.525" width="0.2" layer="21"/>
 </package>
 <package name="SOT95P280X100-3N">
-<description>&lt;b&gt;SOT-346&lt;/b&gt;&lt;br&gt;
+<description>&lt;b&gt;SC-96&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-1.2" y="0.95" dx="1.3" dy="0.6" layer="1"/>
 <smd name="2" x="-1.2" y="-0.95" dx="1.3" dy="0.6" layer="1"/>
@@ -660,6 +660,17 @@
 <text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="RSR025N03HZGTL">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="G" x="0" y="0" length="middle"/>
+<pin name="S" x="0" y="-2.54" length="middle"/>
+<pin name="D" x="20.32" y="0" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1192,6 +1203,32 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB562X.
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERA-2ARB562X" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="667-ERA-2ARB562X" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-2ARB562X" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RSR025N03HZGTL" prefix="D">
+<description>&lt;b&gt;MOSFET 30V N-CHANNEL 2.5A&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGTL.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="RSR025N03HZGTL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X100-3N">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="MOSFET 30V N-CHANNEL 2.5A" constant="no"/>
+<attribute name="HEIGHT" value="1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RSR025N03HZGTL" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="755-RSR025N03HZGTL" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2031,24 +2068,6 @@ up to 125°C ambient.</description>
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SOT95P280X110-3N" urn="urn:adsk.eagle:footprint:34424419/1" library_version="112">
-<description>3-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.65 X 1.10 mm body
-&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.65 X 1.10 mm&lt;/p&gt;</description>
-<circle x="-1.404" y="1.7525" radius="0.25" width="0" layer="21"/>
-<wire x1="-0.9" y1="1.5625" x2="0.9" y2="1.5625" width="0.12" layer="21"/>
-<wire x1="0.9" y1="1.5625" x2="0.9" y2="0.5525" width="0.12" layer="21"/>
-<wire x1="-0.9" y1="-1.5625" x2="0.9" y2="-1.5625" width="0.12" layer="21"/>
-<wire x1="0.9" y1="-1.5625" x2="0.9" y2="-0.5525" width="0.12" layer="21"/>
-<wire x1="0.9" y1="-1.5" x2="-0.9" y2="-1.5" width="0.12" layer="51"/>
-<wire x1="-0.9" y1="-1.5" x2="-0.9" y2="1.5" width="0.12" layer="51"/>
-<wire x1="-0.9" y1="1.5" x2="0.9" y2="1.5" width="0.12" layer="51"/>
-<wire x1="0.9" y1="1.5" x2="0.9" y2="-1.5" width="0.12" layer="51"/>
-<smd name="1" x="-1.2533" y="0.95" dx="1.2088" dy="0.5971" layer="1"/>
-<smd name="2" x="-1.2533" y="-0.95" dx="1.2088" dy="0.5971" layer="1"/>
-<smd name="3" x="1.2533" y="0" dx="1.2088" dy="0.5971" layer="1"/>
-<text x="0" y="2.6375" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.1975" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
 <package name="ERJ2R_(0402)" urn="urn:adsk.eagle:footprint:34597291/1" library_version="112">
 <description>&lt;b&gt;ERJ2R_(0402)&lt;/b&gt;&lt;br&gt;
 </description>
@@ -2068,13 +2087,6 @@ up to 125°C ambient.</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="SOT95P280X110-3N" urn="urn:adsk.eagle:package:34424412/1" type="model" library_version="112">
-<description>3-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.65 X 1.10 mm body
-&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.65 X 1.10 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOT95P280X110-3N"/>
-</packageinstances>
-</package3d>
 <package3d name="ERJ2R_(0402)" urn="urn:adsk.eagle:package:34597292/2" type="model" library_version="112">
 <description>&lt;b&gt;ERJ2R_(0402)&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
@@ -2083,17 +2095,6 @@ up to 125°C ambient.</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="RTR025N05HZGTL" urn="urn:adsk.eagle:symbol:34425007/3" library_version="112">
-<wire x1="0" y1="12.7" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
-<pin name="DRAIN" x="2.54" y="-5.08" length="middle" rot="R90"/>
-<pin name="SOURCE" x="7.62" y="-5.08" length="middle" rot="R90"/>
-<pin name="GATE" x="5.08" y="17.78" length="middle" rot="R270"/>
-<text x="12.7" y="0" size="1.778" layer="95">&gt;NAME</text>
-<text x="12.7" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="ERJ-2RKF2002X" urn="urn:adsk.eagle:symbol:34597290/1" library_version="112">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
@@ -2106,26 +2107,6 @@ up to 125°C ambient.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RTR025N05HZGTL" urn="urn:adsk.eagle:component:34425015/5" prefix="F" library_version="112">
-<gates>
-<gate name="G$1" symbol="RTR025N05HZGTL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT95P280X110-3N">
-<connects>
-<connect gate="G$1" pin="DRAIN" pad="3"/>
-<connect gate="G$1" pin="GATE" pad="1"/>
-<connect gate="G$1" pin="SOURCE" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34424412/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ERJ-2RKF2002X" urn="urn:adsk.eagle:component:34597293/2" prefix="R" library_version="112">
 <description>&lt;b&gt;Precision Thick Film Chip Resistor, 0402, 0.063W&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"&gt; Datasheet &lt;/a&gt;</description>
@@ -2347,7 +2328,6 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="LDO_" library="SamacSys_Parts" deviceset="LDL1117S33R" device=""/>
 <part name="C_LDO_OUT_" library="SamacSys_Parts" deviceset="JMK107BB7475KA-T" device=""/>
 <part name="C_LDO_IN_" library="SamacSys_Parts" deviceset="CGA3E1X7R1V105K080AC" device=""/>
-<part name="NMOS_LDO_" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RTR025N05HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34424412/1"/>
 <part name="X_49" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_50" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_52" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -2357,16 +2337,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="R_LS_GATE_1" library="AT0805FRE07100KL" deviceset="AT0805FRE07100KL" device=""/>
 <part name="C_LS_1" library="SamacSys_Parts" deviceset="CGA2B2C0G1H102J050BE" device=""/>
 <part name="R_LS_DRAIN_1" library="SamacSys_Parts" deviceset="MCS0402MD1002DE000" device=""/>
-<part name="NMOS_LDO_1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RTR025N05HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34424412/1"/>
 <part name="X_57" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_58" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="TP_FAULT_LS_1" library="S1751-46R" deviceset="S1751-46R" device=""/>
-<part name="LDO_1" library="SamacSys_Parts" deviceset="LDL1117S33R" device=""/>
-<part name="C_LDO_OUT_1" library="SamacSys_Parts" deviceset="JMK107BB7475KA-T" device=""/>
-<part name="C_LDO_IN_1" library="SamacSys_Parts" deviceset="CGA3E1X7R1V105K080AC" device=""/>
-<part name="X_51" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="X_54" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="TP_LDO_OUT_1" library="S1751-46R" deviceset="S1751-46R" device=""/>
 <part name="R_10K_FILTER_1" library="AC0805DR-0710KL" deviceset="AC0805DR-0710KL" device=""/>
 <part name="R_5K_FILTER_\1" library="SamacSys_Parts" deviceset="RT1206BRD075KL" device=""/>
 <part name="C_68N_FILTER_1" library="SamacSys_Parts" deviceset="CEU4J2X7R1H683K125AE" device=""/>
@@ -2375,16 +2348,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="R_LS_GATE_2" library="AT0805FRE07100KL" deviceset="AT0805FRE07100KL" device=""/>
 <part name="C_LS_2" library="SamacSys_Parts" deviceset="CGA2B2C0G1H102J050BE" device=""/>
 <part name="R_LS_DRAIN_2" library="SamacSys_Parts" deviceset="MCS0402MD1002DE000" device=""/>
-<part name="NMOS_LDO_2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RTR025N05HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34424412/1"/>
 <part name="X_62" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_63" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="TP_FAULT_LS_2" library="S1751-46R" deviceset="S1751-46R" device=""/>
-<part name="LDO_2" library="SamacSys_Parts" deviceset="LDL1117S33R" device=""/>
-<part name="C_LDO_OUT_2" library="SamacSys_Parts" deviceset="JMK107BB7475KA-T" device=""/>
-<part name="C_LDO_IN_2" library="SamacSys_Parts" deviceset="CGA3E1X7R1V105K080AC" device=""/>
-<part name="X_55" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="X_56" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="TP_LDO_OUT_2" library="S1751-46R" deviceset="S1751-46R" device=""/>
 <part name="R_10K_FILTER_2" library="AC0805DR-0710KL" deviceset="AC0805DR-0710KL" device=""/>
 <part name="R_5K_FILTER_\2" library="SamacSys_Parts" deviceset="RT1206BRD075KL" device=""/>
 <part name="C_68N_FILTER_2" library="SamacSys_Parts" deviceset="CEU4J2X7R1H683K125AE" device=""/>
@@ -2400,6 +2366,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="R_LED_10K_2" library="SamacSys_Parts" deviceset="MCS0402MD1002DE000" device=""/>
 <part name="LED_2" library="SamacSys_Parts" deviceset="APTD1608LCGCK" device=""/>
 <part name="X_60" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="NMOS_LDO_" library="SamacSys_Parts" deviceset="RSR025N03HZGTL" device=""/>
+<part name="NMOS_LDO_1" library="SamacSys_Parts" deviceset="RSR025N03HZGTL" device=""/>
+<part name="NMOS_LDO_2" library="SamacSys_Parts" deviceset="RSR025N03HZGTL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2562,10 +2531,10 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <plain>
 <text x="-17.78" y="25.4" size="1.778" layer="95">LT3579 SEPIC Config: 13Vin -&gt; 14Vout</text>
 <text x="129.54" y="-7.62" size="1.778" layer="97">Ground Test Points</text>
-<text x="-137.16" y="-58.42" size="1.778" layer="97">Shunt resistor to measure difference between GNDS. </text>
+<text x="-132.08" y="-58.42" size="1.778" layer="97">Shunt resistor to measure difference between GNDS. </text>
 <text x="-180.34" y="124.46" size="1.778" layer="97">Filter to convert pulse signal to DC</text>
-<text x="-203.2" y="-50.8" size="1.778" layer="97">13V -&gt; 3.3V output</text>
-<text x="-182.88" y="27.94" size="1.778" layer="97">13V FAULT logic level -&gt; 3.3V Logic Level</text>
+<text x="-200.66" y="-50.8" size="1.778" layer="97">13V -&gt; 3.3V output</text>
+<text x="-193.04" y="27.94" size="1.778" layer="97">13V FAULT logic level -&gt; 3.3V Logic Level</text>
 <text x="134.62" y="106.68" size="1.778" layer="97">20K + 5.6K Series Resistance</text>
 </plain>
 <instances>
@@ -2758,9 +2727,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <attribute name="NAME" x="-124.46" y="68.58" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-124.46" y="58.42" size="1.27" layer="96"/>
 </instance>
-<instance part="R_LS_GATE_" gate="G$1" x="-160.02" y="15.24" smashed="yes">
-<attribute name="NAME" x="-170.184440625" y="20.32148125" size="2.54148125" layer="95"/>
-<attribute name="VALUE" x="-175.26996875" y="10.153359375" size="2.54331875" layer="96"/>
+<instance part="R_LS_GATE_" gate="G$1" x="-170.18" y="12.7" smashed="yes">
+<attribute name="NAME" x="-180.344440625" y="17.78148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="-185.42996875" y="7.613359375" size="2.54331875" layer="96"/>
 </instance>
 <instance part="C_LS_" gate="G$1" x="-93.98" y="-5.08" smashed="yes">
 <attribute name="NAME" x="-92.71" y="1.27" size="1.778" layer="95" align="center-left"/>
@@ -2770,29 +2739,25 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <attribute name="NAME" x="-90.17" y="16.51" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-92.71" y="8.89" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LDO_" gate="G$1" x="-187.96" y="-55.88" smashed="yes">
-<attribute name="NAME" x="-176.53" y="-50.8" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-181.61" y="-66.04" size="1.778" layer="96" align="center-left"/>
+<instance part="LDO_" gate="G$1" x="-185.42" y="-55.88" smashed="yes">
+<attribute name="NAME" x="-173.99" y="-50.8" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-179.07" y="-66.04" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C_LDO_OUT_" gate="G$1" x="-177.8" y="-35.56" smashed="yes">
-<attribute name="NAME" x="-179.07" y="-31.75" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-179.07" y="-39.37" size="1.778" layer="96" align="center-left"/>
+<instance part="C_LDO_OUT_" gate="G$1" x="-175.26" y="-35.56" smashed="yes">
+<attribute name="NAME" x="-176.53" y="-31.75" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-176.53" y="-39.37" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C_LDO_IN_" gate="G$1" x="-177.8" y="-83.82" smashed="yes">
-<attribute name="NAME" x="-176.53" y="-80.01" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-186.69" y="-87.63" size="1.778" layer="96" align="center-left"/>
+<instance part="C_LDO_IN_" gate="G$1" x="-175.26" y="-83.82" smashed="yes">
+<attribute name="NAME" x="-173.99" y="-80.01" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-184.15" y="-87.63" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="NMOS_LDO_" gate="G$1" x="-124.46" y="10.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="-137.16" y="22.86" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-137.16" y="7.62" size="1.778" layer="96"/>
-</instance>
-<instance part="X_49" gate="G$1" x="-157.48" y="-35.56" smashed="yes" rot="R90"/>
-<instance part="X_50" gate="G$1" x="-157.48" y="-83.82" smashed="yes" rot="R90"/>
-<instance part="X_52" gate="G$1" x="-111.76" y="17.78" smashed="yes" rot="R90"/>
+<instance part="X_49" gate="G$1" x="-154.94" y="-35.56" smashed="yes" rot="R90"/>
+<instance part="X_50" gate="G$1" x="-154.94" y="-83.82" smashed="yes" rot="R90"/>
+<instance part="X_52" gate="G$1" x="-144.78" y="15.24" smashed="yes" rot="R270"/>
 <instance part="X_53" gate="G$1" x="-63.5" y="-5.08" smashed="yes" rot="R90"/>
-<instance part="TP_LDO_OUT_" gate="G$1" x="-170.18" y="-22.86" smashed="yes">
-<attribute name="NAME" x="-172.72" y="-17.78" size="1.27" layer="95"/>
-<attribute name="VALUE" x="-172.72" y="-27.94" size="1.27" layer="96"/>
+<instance part="TP_LDO_OUT_" gate="G$1" x="-167.64" y="-22.86" smashed="yes">
+<attribute name="NAME" x="-170.18" y="-17.78" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-170.18" y="-27.94" size="1.27" layer="96"/>
 </instance>
 <instance part="TP_FAULT_LS_" gate="G$1" x="-86.36" y="-30.48" smashed="yes">
 <attribute name="NAME" x="-88.9" y="-25.4" size="1.27" layer="95"/>
@@ -2811,6 +2776,10 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <attribute name="VALUE" x="153.67" y="95.25" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="X_59" gate="G$1" x="200.66" y="99.06" smashed="yes" rot="R90"/>
+<instance part="NMOS_LDO_" gate="G$1" x="-137.16" y="12.7" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-133.35" y="20.32" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="VALUE" x="-135.89" y="7.62" size="1.778" layer="96" rot="MR180" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2913,17 +2882,12 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <segment>
 <pinref part="C_LDO_IN_" gate="G$1" pin="2"/>
 <pinref part="X_50" gate="G$1" pin="0"/>
-<wire x1="-165.1" y1="-83.82" x2="-157.48" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="-83.82" x2="-154.94" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C_LDO_OUT_" gate="G$1" pin="2"/>
 <pinref part="X_49" gate="G$1" pin="0"/>
-<wire x1="-165.1" y1="-35.56" x2="-157.48" y2="-35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="NMOS_LDO_" gate="G$1" pin="SOURCE"/>
-<pinref part="X_52" gate="G$1" pin="0"/>
-<wire x1="-119.38" y1="17.78" x2="-111.76" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="-35.56" x2="-154.94" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C_LS_" gate="G$1" pin="2"/>
@@ -2934,6 +2898,11 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <pinref part="LED_" gate="G$1" pin="K"/>
 <pinref part="X_59" gate="G$1" pin="0"/>
 <wire x1="193.04" y1="99.06" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="NMOS_LDO_" gate="G$1" pin="S"/>
+<wire x1="-137.16" y1="15.24" x2="-144.78" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="X_52" gate="G$1" pin="0"/>
 </segment>
 </net>
 <net name="FAULT_" class="0">
@@ -2955,8 +2924,8 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 </segment>
 <segment>
 <pinref part="R_LS_GATE_" gate="G$1" pin="1"/>
-<wire x1="-170.18" y1="15.24" x2="-177.8" y2="15.24" width="0.1524" layer="91"/>
-<label x="-187.96" y="15.24" size="1.778" layer="95"/>
+<wire x1="-180.34" y1="12.7" x2="-187.96" y2="12.7" width="0.1524" layer="91"/>
+<label x="-198.12" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VOUT_" class="0">
@@ -3218,8 +3187,8 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 </segment>
 <segment>
 <pinref part="LDO_" gate="G$1" pin="GND"/>
-<wire x1="-187.96" y1="-55.88" x2="-193.04" y2="-55.88" width="0.1524" layer="91"/>
-<label x="-198.12" y="-55.88" size="1.778" layer="95"/>
+<wire x1="-185.42" y1="-55.88" x2="-190.5" y2="-55.88" width="0.1524" layer="91"/>
+<label x="-195.58" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -3259,21 +3228,21 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 </segment>
 <segment>
 <pinref part="LDO_" gate="G$1" pin="VIN"/>
-<wire x1="-187.96" y1="-60.96" x2="-193.04" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="-60.96" x2="-190.5" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="C_LDO_IN_" gate="G$1" pin="1"/>
-<wire x1="-193.04" y1="-60.96" x2="-193.04" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="-193.04" y1="-73.66" x2="-193.04" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="-193.04" y1="-83.82" x2="-177.8" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="-193.04" y1="-73.66" x2="-177.8" y2="-73.66" width="0.1524" layer="91"/>
-<label x="-177.8" y="-73.66" size="1.778" layer="95"/>
-<junction x="-193.04" y="-73.66"/>
+<wire x1="-190.5" y1="-60.96" x2="-190.5" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="-73.66" x2="-190.5" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="-83.82" x2="-175.26" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="-73.66" x2="-175.26" y2="-73.66" width="0.1524" layer="91"/>
+<label x="-175.26" y="-73.66" size="1.778" layer="95"/>
+<junction x="-190.5" y="-73.66"/>
 </segment>
 </net>
 <net name="CH_GND" class="0">
 <segment>
 <pinref part="R_SHUNT_GND_" gate="G$1" pin="1"/>
 <wire x1="-121.92" y1="-68.58" x2="-124.46" y2="-68.58" width="0.1524" layer="91"/>
-<label x="-137.16" y="-68.58" size="1.778" layer="95"/>
+<label x="-134.62" y="-68.58" size="1.778" layer="95"/>
 <wire x1="-124.46" y1="-68.58" x2="-127" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="-121.92" y1="-86.36" x2="-124.46" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="-86.36" x2="-124.46" y2="-68.58" width="0.1524" layer="91"/>
@@ -3330,26 +3299,26 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <net name="LDO_OUT_" class="0">
 <segment>
 <pinref part="LDO_" gate="G$1" pin="VOUT_1"/>
-<wire x1="-187.96" y1="-58.42" x2="-208.28" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="-58.42" x2="-205.74" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="C_LDO_OUT_" gate="G$1" pin="1"/>
-<wire x1="-208.28" y1="-58.42" x2="-208.28" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="-208.28" y1="-43.18" x2="-208.28" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-208.28" y1="-35.56" x2="-177.8" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-208.28" y1="-35.56" x2="-208.28" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-208.28" y1="-10.16" x2="-175.26" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="-208.28" y="-35.56"/>
-<label x="-175.26" y="-10.16" size="1.778" layer="95"/>
-<wire x1="-208.28" y1="-10.16" x2="-208.28" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="-58.42" x2="-205.74" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="-43.18" x2="-205.74" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="-35.56" x2="-175.26" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="-35.56" x2="-205.74" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="-10.16" x2="-172.72" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="-205.74" y="-35.56"/>
+<label x="-172.72" y="-10.16" size="1.778" layer="95"/>
+<wire x1="-205.74" y1="-10.16" x2="-205.74" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="TP_LDO_OUT_" gate="G$1" pin="1"/>
-<wire x1="-208.28" y1="-22.86" x2="-177.8" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="-22.86" x2="-175.26" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="LDO_" gate="G$1" pin="VOUT_2"/>
-<wire x1="-154.94" y1="-55.88" x2="-149.86" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="-149.86" y1="-55.88" x2="-149.86" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="-149.86" y1="-43.18" x2="-208.28" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="-208.28" y="-43.18"/>
-<junction x="-208.28" y="-22.86"/>
-<junction x="-208.28" y="-10.16"/>
-<junction x="-177.8" y="-22.86"/>
+<wire x1="-152.4" y1="-55.88" x2="-147.32" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="-55.88" x2="-147.32" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="-43.18" x2="-205.74" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="-205.74" y="-43.18"/>
+<junction x="-205.74" y="-22.86"/>
+<junction x="-205.74" y="-10.16"/>
+<junction x="-175.26" y="-22.86"/>
 </segment>
 <segment>
 <pinref part="R_LS_DRAIN_" gate="G$1" pin="2"/>
@@ -3357,18 +3326,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <label x="-63.5" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="R_LS_GATE_" gate="G$1" pin="2"/>
-<pinref part="NMOS_LDO_" gate="G$1" pin="GATE"/>
-<wire x1="-149.86" y1="15.24" x2="-142.24" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="FAULT_LS_OUT_" class="0">
 <segment>
-<pinref part="NMOS_LDO_" gate="G$1" pin="DRAIN"/>
 <pinref part="R_LS_DRAIN_" gate="G$1" pin="1"/>
-<wire x1="-119.38" y1="12.7" x2="-96.52" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="12.7" x2="-93.98" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="12.7" x2="-96.52" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="C_LS_" gate="G$1" pin="1"/>
@@ -3381,8 +3341,10 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="-96.52" y1="-30.48" x2="-93.98" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="-96.52" y="-17.78"/>
 <junction x="-96.52" y="-5.08"/>
-<junction x="-96.52" y="12.7"/>
 <junction x="-93.98" y="-30.48"/>
+<pinref part="NMOS_LDO_" gate="G$1" pin="D"/>
+<wire x1="-116.84" y1="12.7" x2="-96.52" y2="12.7" width="0.1524" layer="91"/>
+<junction x="-96.52" y="12.7"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -3399,14 +3361,20 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="170.18" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R_LS_GATE_" gate="G$1" pin="2"/>
+<wire x1="-160.02" y1="12.7" x2="-137.16" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="NMOS_LDO_" gate="G$1" pin="G"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
 <text x="-17.78" y="27.94" size="1.778" layer="97">LT3579 SEPIC Config: 13Vin -&gt; 6.5Vout</text>
 <text x="129.54" y="-5.08" size="1.778" layer="97">Ground Test Points</text>
-<text x="-180.34" y="40.64" size="1.778" layer="97">13V FAULT logic level -&gt; 3.3V Logic Level</text>
-<text x="-208.28" y="-43.18" size="1.778" layer="97">13V -&gt; 3.3V output</text>
+<text x="-190.5" y="38.1" size="1.778" layer="97">13V FAULT logic level -&gt; 3.3V Logic Level</text>
 <text x="-182.88" y="134.62" size="1.778" layer="97">Filter to convert pulse signal to DC</text>
 </plain>
 <instances>
@@ -3582,9 +3550,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <attribute name="NAME" x="20.315559375" y="93.98148125" size="2.54148125" layer="95"/>
 <attribute name="VALUE" x="20.31003125" y="86.353359375" size="2.54331875" layer="96"/>
 </instance>
-<instance part="R_LS_GATE_1" gate="G$1" x="-167.64" y="22.86" smashed="yes">
-<attribute name="NAME" x="-177.804440625" y="27.94148125" size="2.54148125" layer="95"/>
-<attribute name="VALUE" x="-182.88996875" y="17.773359375" size="2.54331875" layer="96"/>
+<instance part="R_LS_GATE_1" gate="G$1" x="-177.8" y="20.32" smashed="yes">
+<attribute name="NAME" x="-187.964440625" y="25.40148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="-193.04996875" y="15.233359375" size="2.54331875" layer="96"/>
 </instance>
 <instance part="C_LS_1" gate="G$1" x="-101.6" y="2.54" smashed="yes">
 <attribute name="NAME" x="-100.33" y="8.89" size="1.778" layer="95" align="center-left"/>
@@ -3594,33 +3562,11 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <attribute name="NAME" x="-97.79" y="24.13" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-100.33" y="16.51" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="NMOS_LDO_1" gate="G$1" x="-132.08" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="-144.78" y="30.48" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-144.78" y="15.24" size="1.778" layer="96"/>
-</instance>
-<instance part="X_57" gate="G$1" x="-119.38" y="25.4" smashed="yes" rot="R90"/>
+<instance part="X_57" gate="G$1" x="-157.48" y="22.86" smashed="yes" rot="R270"/>
 <instance part="X_58" gate="G$1" x="-71.12" y="2.54" smashed="yes" rot="R90"/>
 <instance part="TP_FAULT_LS_1" gate="G$1" x="-93.98" y="-22.86" smashed="yes">
 <attribute name="NAME" x="-96.52" y="-17.78" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-96.52" y="-27.94" size="1.27" layer="96"/>
-</instance>
-<instance part="LDO_1" gate="G$1" x="-193.04" y="-48.26" smashed="yes">
-<attribute name="NAME" x="-181.61" y="-43.18" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-186.69" y="-58.42" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="C_LDO_OUT_1" gate="G$1" x="-182.88" y="-27.94" smashed="yes">
-<attribute name="NAME" x="-184.15" y="-24.13" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-184.15" y="-31.75" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="C_LDO_IN_1" gate="G$1" x="-182.88" y="-76.2" smashed="yes">
-<attribute name="NAME" x="-181.61" y="-72.39" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-191.77" y="-80.01" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="X_51" gate="G$1" x="-162.56" y="-27.94" smashed="yes" rot="R90"/>
-<instance part="X_54" gate="G$1" x="-162.56" y="-76.2" smashed="yes" rot="R90"/>
-<instance part="TP_LDO_OUT_1" gate="G$1" x="-175.26" y="-15.24" smashed="yes">
-<attribute name="NAME" x="-177.8" y="-10.16" size="1.27" layer="95"/>
-<attribute name="VALUE" x="-177.8" y="-20.32" size="1.27" layer="96"/>
 </instance>
 <instance part="R_10K_FILTER_1" gate="G$1" x="-160.02" y="109.22" smashed="yes">
 <attribute name="NAME" x="-170.184440625" y="111.76148125" size="2.54148125" layer="95"/>
@@ -3648,6 +3594,10 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <attribute name="VALUE" x="175.26" y="100.33" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="X_61" gate="G$1" x="180.34" y="106.68" smashed="yes" rot="R90"/>
+<instance part="NMOS_LDO_1" gate="G$1" x="-149.86" y="20.32" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-146.05" y="27.94" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="VALUE" x="-148.59" y="15.24" size="1.778" layer="96" rot="MR180" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3738,24 +3688,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <junction x="137.16" y="-58.42"/>
 </segment>
 <segment>
-<pinref part="NMOS_LDO_1" gate="G$1" pin="SOURCE"/>
-<pinref part="X_57" gate="G$1" pin="0"/>
-<wire x1="-127" y1="25.4" x2="-119.38" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C_LS_1" gate="G$1" pin="2"/>
 <pinref part="X_58" gate="G$1" pin="0"/>
 <wire x1="-88.9" y1="2.54" x2="-71.12" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C_LDO_IN_1" gate="G$1" pin="2"/>
-<pinref part="X_54" gate="G$1" pin="0"/>
-<wire x1="-170.18" y1="-76.2" x2="-162.56" y2="-76.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C_LDO_OUT_1" gate="G$1" pin="2"/>
-<pinref part="X_51" gate="G$1" pin="0"/>
-<wire x1="-170.18" y1="-27.94" x2="-162.56" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C_68N_FILTER_1" gate="G$1" pin="2"/>
@@ -3771,6 +3706,11 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <pinref part="LED_1" gate="G$1" pin="K"/>
 <pinref part="X_61" gate="G$1" pin="0"/>
 <wire x1="172.72" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X_57" gate="G$1" pin="0"/>
+<pinref part="NMOS_LDO_1" gate="G$1" pin="S"/>
+<wire x1="-157.48" y1="22.86" x2="-149.86" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FAULT_1" class="0">
@@ -3792,8 +3732,8 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 </segment>
 <segment>
 <pinref part="R_LS_GATE_1" gate="G$1" pin="1"/>
-<wire x1="-177.8" y1="22.86" x2="-187.96" y2="22.86" width="0.1524" layer="91"/>
-<label x="-198.12" y="22.86" size="1.778" layer="95"/>
+<wire x1="-187.96" y1="20.32" x2="-198.12" y2="20.32" width="0.1524" layer="91"/>
+<label x="-208.28" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VOUT_1" class="0">
@@ -4061,11 +4001,6 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="17.78" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
 <label x="25.4" y="15.24" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LDO_1" gate="G$1" pin="GND"/>
-<wire x1="-193.04" y1="-48.26" x2="-198.12" y2="-48.26" width="0.1524" layer="91"/>
-<label x="-203.2" y="-48.26" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="VIN" class="0">
 <segment>
@@ -4102,17 +4037,6 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="-49.53" y1="-58.42" x2="-59.69" y2="-58.42" width="0.1524" layer="91"/>
 <label x="-67.31" y="-58.42" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LDO_1" gate="G$1" pin="VIN"/>
-<wire x1="-193.04" y1="-53.34" x2="-198.12" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="C_LDO_IN_1" gate="G$1" pin="1"/>
-<wire x1="-198.12" y1="-53.34" x2="-198.12" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="-198.12" y1="-66.04" x2="-198.12" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-198.12" y1="-76.2" x2="-182.88" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-198.12" y1="-66.04" x2="-182.88" y2="-66.04" width="0.1524" layer="91"/>
-<label x="-182.88" y="-66.04" size="1.778" layer="95"/>
-<junction x="-198.12" y="-66.04"/>
-</segment>
 </net>
 <net name="CH_GND" class="0">
 <segment>
@@ -4145,47 +4069,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <label x="-193.04" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="R_LS_GATE_1" gate="G$1" pin="2"/>
-<pinref part="NMOS_LDO_1" gate="G$1" pin="GATE"/>
-<wire x1="-157.48" y1="22.86" x2="-149.86" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="LDO_OUT_1" class="0">
-<segment>
-<pinref part="LDO_1" gate="G$1" pin="VOUT_1"/>
-<wire x1="-193.04" y1="-50.8" x2="-213.36" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="C_LDO_OUT_1" gate="G$1" pin="1"/>
-<wire x1="-213.36" y1="-50.8" x2="-213.36" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-213.36" y1="-35.56" x2="-213.36" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="-213.36" y1="-27.94" x2="-182.88" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-213.36" y1="-27.94" x2="-213.36" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="-213.36" y="-27.94"/>
-<wire x1="-213.36" y1="-2.54" x2="-213.36" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="TP_LDO_OUT_1" gate="G$1" pin="1"/>
-<wire x1="-213.36" y1="-15.24" x2="-182.88" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="LDO_1" gate="G$1" pin="VOUT_2"/>
-<wire x1="-160.02" y1="-48.26" x2="-154.94" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="-154.94" y1="-48.26" x2="-154.94" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-154.94" y1="-35.56" x2="-213.36" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="-213.36" y="-35.56"/>
-<junction x="-213.36" y="-15.24"/>
-<wire x1="-213.36" y1="-2.54" x2="-182.88" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-182.88" y="-2.54" size="1.778" layer="95"/>
-<junction x="-182.88" y="-15.24"/>
-</segment>
-<segment>
-<pinref part="R_LS_DRAIN_1" gate="G$1" pin="2"/>
-<wire x1="-83.82" y1="20.32" x2="-73.66" y2="20.32" width="0.1524" layer="91"/>
-<label x="-73.66" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="FAULT_LS_OUT_1" class="0">
 <segment>
-<pinref part="NMOS_LDO_1" gate="G$1" pin="DRAIN"/>
 <pinref part="R_LS_DRAIN_1" gate="G$1" pin="1"/>
-<wire x1="-127" y1="20.32" x2="-104.14" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="20.32" x2="-101.6" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="20.32" x2="-104.14" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C_LS_1" gate="G$1" pin="1"/>
@@ -4198,8 +4084,10 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="-104.14" y1="-22.86" x2="-101.6" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="-104.14" y="-10.16"/>
 <junction x="-104.14" y="2.54"/>
-<junction x="-104.14" y="20.32"/>
 <junction x="-101.6" y="-22.86"/>
+<pinref part="NMOS_LDO_1" gate="G$1" pin="D"/>
+<wire x1="-129.54" y1="20.32" x2="-104.14" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-104.14" y="20.32"/>
 </segment>
 </net>
 <net name="CLK_FILTER_OUT_1" class="0">
@@ -4229,14 +4117,27 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="144.78" y1="106.68" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="LDO_OUT_" class="0">
+<segment>
+<pinref part="R_LS_DRAIN_1" gate="G$1" pin="2"/>
+<wire x1="-83.82" y1="20.32" x2="-73.66" y2="20.32" width="0.1524" layer="91"/>
+<label x="-73.66" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="R_LS_GATE_1" gate="G$1" pin="2"/>
+<pinref part="NMOS_LDO_1" gate="G$1" pin="G"/>
+<wire x1="-167.64" y1="20.32" x2="-149.86" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
 <text x="-17.78" y="27.94" size="1.778" layer="95">LT3579 SEPIC Config: 13Vin -&gt; 5Vout</text>
 <text x="129.54" y="-5.08" size="1.778" layer="97">Ground Test Points</text>
-<text x="-180.34" y="40.64" size="1.778" layer="97">13V FAULT logic level -&gt; 3.3V Logic Level</text>
-<text x="-215.9" y="-43.18" size="1.778" layer="97">13V -&gt; 3.3V output</text>
+<text x="-182.88" y="38.1" size="1.778" layer="97">13V FAULT logic level -&gt; 3.3V Logic Level</text>
 <text x="-182.88" y="127" size="1.778" layer="97">Filter to convert pulse signal to DC</text>
 </plain>
 <instances>
@@ -4412,9 +4313,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <attribute name="NAME" x="20.315559375" y="93.98148125" size="2.54148125" layer="95"/>
 <attribute name="VALUE" x="20.31003125" y="86.353359375" size="2.54331875" layer="96"/>
 </instance>
-<instance part="R_LS_GATE_2" gate="G$1" x="-167.64" y="22.86" smashed="yes">
-<attribute name="NAME" x="-177.804440625" y="27.94148125" size="2.54148125" layer="95"/>
-<attribute name="VALUE" x="-182.88996875" y="17.773359375" size="2.54331875" layer="96"/>
+<instance part="R_LS_GATE_2" gate="G$1" x="-180.34" y="20.32" smashed="yes">
+<attribute name="NAME" x="-190.504440625" y="25.40148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="-195.58996875" y="15.233359375" size="2.54331875" layer="96"/>
 </instance>
 <instance part="C_LS_2" gate="G$1" x="-101.6" y="2.54" smashed="yes">
 <attribute name="NAME" x="-100.33" y="8.89" size="1.778" layer="95" align="center-left"/>
@@ -4424,33 +4325,11 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <attribute name="NAME" x="-97.79" y="24.13" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-100.33" y="16.51" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="NMOS_LDO_2" gate="G$1" x="-132.08" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="-144.78" y="30.48" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-144.78" y="15.24" size="1.778" layer="96"/>
-</instance>
-<instance part="X_62" gate="G$1" x="-119.38" y="25.4" smashed="yes" rot="R90"/>
+<instance part="X_62" gate="G$1" x="-154.94" y="22.86" smashed="yes" rot="R270"/>
 <instance part="X_63" gate="G$1" x="-71.12" y="2.54" smashed="yes" rot="R90"/>
 <instance part="TP_FAULT_LS_2" gate="G$1" x="-93.98" y="-22.86" smashed="yes">
 <attribute name="NAME" x="-96.52" y="-17.78" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-96.52" y="-27.94" size="1.27" layer="96"/>
-</instance>
-<instance part="LDO_2" gate="G$1" x="-200.66" y="-48.26" smashed="yes">
-<attribute name="NAME" x="-189.23" y="-43.18" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-194.31" y="-58.42" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="C_LDO_OUT_2" gate="G$1" x="-190.5" y="-27.94" smashed="yes">
-<attribute name="NAME" x="-191.77" y="-24.13" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-191.77" y="-31.75" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="C_LDO_IN_2" gate="G$1" x="-190.5" y="-76.2" smashed="yes">
-<attribute name="NAME" x="-189.23" y="-72.39" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-199.39" y="-80.01" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="X_55" gate="G$1" x="-170.18" y="-27.94" smashed="yes" rot="R90"/>
-<instance part="X_56" gate="G$1" x="-170.18" y="-76.2" smashed="yes" rot="R90"/>
-<instance part="TP_LDO_OUT_2" gate="G$1" x="-182.88" y="-15.24" smashed="yes">
-<attribute name="NAME" x="-185.42" y="-10.16" size="1.27" layer="95"/>
-<attribute name="VALUE" x="-185.42" y="-20.32" size="1.27" layer="96"/>
 </instance>
 <instance part="R_10K_FILTER_2" gate="G$1" x="-160.02" y="101.6" smashed="yes">
 <attribute name="NAME" x="-170.184440625" y="104.14148125" size="2.54148125" layer="95"/>
@@ -4478,6 +4357,10 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <attribute name="VALUE" x="175.26" y="100.33" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="X_60" gate="G$1" x="180.34" y="106.68" smashed="yes" rot="R90"/>
+<instance part="NMOS_LDO_2" gate="G$1" x="-147.32" y="20.32" smashed="yes" rot="MR180">
+<attribute name="NAME" x="-143.51" y="27.94" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="VALUE" x="-146.05" y="15.24" size="1.778" layer="96" rot="MR180" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4568,24 +4451,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <junction x="137.16" y="-58.42"/>
 </segment>
 <segment>
-<pinref part="NMOS_LDO_2" gate="G$1" pin="SOURCE"/>
-<pinref part="X_62" gate="G$1" pin="0"/>
-<wire x1="-127" y1="25.4" x2="-119.38" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C_LS_2" gate="G$1" pin="2"/>
 <pinref part="X_63" gate="G$1" pin="0"/>
 <wire x1="-88.9" y1="2.54" x2="-71.12" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C_LDO_IN_2" gate="G$1" pin="2"/>
-<pinref part="X_56" gate="G$1" pin="0"/>
-<wire x1="-177.8" y1="-76.2" x2="-170.18" y2="-76.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C_LDO_OUT_2" gate="G$1" pin="2"/>
-<pinref part="X_55" gate="G$1" pin="0"/>
-<wire x1="-177.8" y1="-27.94" x2="-170.18" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C_68N_FILTER_2" gate="G$1" pin="2"/>
@@ -4601,6 +4469,11 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <pinref part="LED_2" gate="G$1" pin="K"/>
 <pinref part="X_60" gate="G$1" pin="0"/>
 <wire x1="172.72" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X_62" gate="G$1" pin="0"/>
+<pinref part="NMOS_LDO_2" gate="G$1" pin="S"/>
+<wire x1="-154.94" y1="22.86" x2="-147.32" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FAULT_2" class="0">
@@ -4622,8 +4495,8 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 </segment>
 <segment>
 <pinref part="R_LS_GATE_2" gate="G$1" pin="1"/>
-<wire x1="-177.8" y1="22.86" x2="-185.42" y2="22.86" width="0.1524" layer="91"/>
-<label x="-195.58" y="22.86" size="1.778" layer="95"/>
+<wire x1="-190.5" y1="20.32" x2="-198.12" y2="20.32" width="0.1524" layer="91"/>
+<label x="-208.28" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VOUT_2" class="0">
@@ -4889,11 +4762,6 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="17.78" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
 <label x="25.4" y="15.24" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LDO_2" gate="G$1" pin="GND"/>
-<wire x1="-200.66" y1="-48.26" x2="-205.74" y2="-48.26" width="0.1524" layer="91"/>
-<label x="-210.82" y="-48.26" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="VIN" class="0">
 <segment>
@@ -4930,17 +4798,6 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="-49.53" y1="-58.42" x2="-59.69" y2="-58.42" width="0.1524" layer="91"/>
 <label x="-67.31" y="-58.42" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LDO_2" gate="G$1" pin="VIN"/>
-<wire x1="-200.66" y1="-53.34" x2="-205.74" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="C_LDO_IN_2" gate="G$1" pin="1"/>
-<wire x1="-205.74" y1="-53.34" x2="-205.74" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="-205.74" y1="-66.04" x2="-205.74" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-205.74" y1="-76.2" x2="-190.5" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-205.74" y1="-66.04" x2="-190.5" y2="-66.04" width="0.1524" layer="91"/>
-<label x="-190.5" y="-66.04" size="1.778" layer="95"/>
-<junction x="-205.74" y="-66.04"/>
-</segment>
 </net>
 <net name="CH_GND" class="0">
 <segment>
@@ -4973,48 +4830,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <label x="-193.04" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LDO_OUT_2" class="0">
-<segment>
-<pinref part="R_LS_DRAIN_2" gate="G$1" pin="2"/>
-<wire x1="-83.82" y1="20.32" x2="-71.12" y2="20.32" width="0.1524" layer="91"/>
-<label x="-71.12" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LDO_2" gate="G$1" pin="VOUT_1"/>
-<wire x1="-200.66" y1="-50.8" x2="-220.98" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="C_LDO_OUT_2" gate="G$1" pin="1"/>
-<wire x1="-220.98" y1="-50.8" x2="-220.98" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-220.98" y1="-35.56" x2="-220.98" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="-220.98" y1="-27.94" x2="-190.5" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-220.98" y1="-27.94" x2="-220.98" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-220.98" y1="-2.54" x2="-187.96" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="-220.98" y="-27.94"/>
-<label x="-187.96" y="-2.54" size="1.778" layer="95"/>
-<wire x1="-220.98" y1="-2.54" x2="-220.98" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="TP_LDO_OUT_2" gate="G$1" pin="1"/>
-<wire x1="-220.98" y1="-15.24" x2="-190.5" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="LDO_2" gate="G$1" pin="VOUT_2"/>
-<wire x1="-167.64" y1="-48.26" x2="-162.56" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="-162.56" y1="-48.26" x2="-162.56" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-162.56" y1="-35.56" x2="-220.98" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="-220.98" y="-35.56"/>
-<junction x="-220.98" y="-15.24"/>
-<junction x="-220.98" y="-2.54"/>
-<junction x="-190.5" y="-15.24"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="R_LS_GATE_2" gate="G$1" pin="2"/>
-<pinref part="NMOS_LDO_2" gate="G$1" pin="GATE"/>
-<wire x1="-157.48" y1="22.86" x2="-149.86" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="FAULT_LS_OUT_2" class="0">
 <segment>
-<pinref part="NMOS_LDO_2" gate="G$1" pin="DRAIN"/>
 <pinref part="R_LS_DRAIN_2" gate="G$1" pin="1"/>
-<wire x1="-127" y1="20.32" x2="-104.14" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="20.32" x2="-101.6" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="20.32" x2="-104.14" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C_LS_2" gate="G$1" pin="1"/>
@@ -5025,10 +4843,12 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="-104.14" y1="-10.16" x2="-104.14" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="TP_FAULT_LS_2" gate="G$1" pin="1"/>
 <wire x1="-104.14" y1="-22.86" x2="-101.6" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="-104.14" y="20.32"/>
 <junction x="-104.14" y="2.54"/>
 <junction x="-104.14" y="-10.16"/>
 <junction x="-101.6" y="-22.86"/>
+<pinref part="NMOS_LDO_2" gate="G$1" pin="D"/>
+<wire x1="-127" y1="20.32" x2="-104.14" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-104.14" y="20.32"/>
 </segment>
 </net>
 <net name="CLK_FILTER_OUT_2" class="0">
@@ -5058,16 +4878,26 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="144.78" y1="106.68" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="LDO_OUT_" class="0">
+<segment>
+<pinref part="R_LS_DRAIN_2" gate="G$1" pin="2"/>
+<wire x1="-83.82" y1="20.32" x2="-71.12" y2="20.32" width="0.1524" layer="91"/>
+<label x="-71.12" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="R_LS_GATE_2" gate="G$1" pin="2"/>
+<pinref part="NMOS_LDO_2" gate="G$1" pin="G"/>
+<wire x1="-170.18" y1="20.32" x2="-147.32" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="206,2,-187.96,-58.42,LDO_OUT_,,,,,"/>
-<approved hash="206,2,-154.94,-55.88,LDO_OUT_,,,,,"/>
-<approved hash="206,3,-193.04,-50.8,LDO_OUT_1,,,,,"/>
-<approved hash="206,3,-160.02,-48.26,LDO_OUT_1,,,,,"/>
-<approved hash="206,4,-200.66,-50.8,LDO_OUT_2,,,,,"/>
-<approved hash="206,4,-167.64,-48.26,LDO_OUT_2,,,,,"/>
+<approved hash="206,2,-185.42,-58.42,LDO_OUT_,,,,,"/>
+<approved hash="206,2,-152.4,-55.88,LDO_OUT_,,,,,"/>
 </errors>
 </schematic>
 </drawing>

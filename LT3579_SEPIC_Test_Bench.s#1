@@ -5061,6 +5061,14 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="206,2,-187.96,-58.42,LDO_OUT_,,,,,"/>
+<approved hash="206,2,-154.94,-55.88,LDO_OUT_,,,,,"/>
+<approved hash="206,3,-193.04,-50.8,LDO_OUT_1,,,,,"/>
+<approved hash="206,3,-160.02,-48.26,LDO_OUT_1,,,,,"/>
+<approved hash="206,4,-200.66,-50.8,LDO_OUT_2,,,,,"/>
+<approved hash="206,4,-167.64,-48.26,LDO_OUT_2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
