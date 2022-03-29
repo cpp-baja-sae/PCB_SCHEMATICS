@@ -115,25 +115,6 @@
 <wire x1="-2.2" y1="2.6" x2="-1.55" y2="3.25" width="0.1" layer="51"/>
 <wire x1="-3.65" y1="3.5" x2="-2.2" y2="3.5" width="0.2" layer="21"/>
 </package>
-<package name="DIOM8059X261N">
-<description>&lt;b&gt;SMC 2LEAD CASE 403AC ISSUE A&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-3.45" y="0" dx="3.15" dy="2.25" layer="1" rot="R90"/>
-<smd name="2" x="3.45" y="0" dx="3.15" dy="2.25" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.825" y1="3.375" x2="4.825" y2="3.375" width="0.05" layer="51"/>
-<wire x1="4.825" y1="3.375" x2="4.825" y2="-3.375" width="0.05" layer="51"/>
-<wire x1="4.825" y1="-3.375" x2="-4.825" y2="-3.375" width="0.05" layer="51"/>
-<wire x1="-4.825" y1="-3.375" x2="-4.825" y2="3.375" width="0.05" layer="51"/>
-<wire x1="-3.975" y1="2.95" x2="3.975" y2="2.95" width="0.1" layer="51"/>
-<wire x1="3.975" y1="2.95" x2="3.975" y2="-2.95" width="0.1" layer="51"/>
-<wire x1="3.975" y1="-2.95" x2="-3.975" y2="-2.95" width="0.1" layer="51"/>
-<wire x1="-3.975" y1="-2.95" x2="-3.975" y2="2.95" width="0.1" layer="51"/>
-<wire x1="-3.975" y1="1.825" x2="-2.85" y2="2.95" width="0.1" layer="51"/>
-<wire x1="3.975" y1="2.95" x2="-4.575" y2="2.95" width="0.2" layer="21"/>
-<wire x1="-3.975" y1="-2.95" x2="3.975" y2="-2.95" width="0.2" layer="21"/>
-</package>
 <package name="CAPC2012X145N">
 <description>&lt;b&gt;CGA4 (J THICKNESS)&lt;/b&gt;&lt;br&gt;
 </description>
@@ -397,6 +378,25 @@
 <wire x1="1.25" y1="-0.75" x2="-1.25" y2="-0.75" width="0.1" layer="51"/>
 <wire x1="-1.25" y1="-0.75" x2="-1.25" y2="0.75" width="0.1" layer="51"/>
 </package>
+<package name="DIOM7958X256N">
+<description>&lt;b&gt;SMC CASE403-03&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.6" y="0" dx="3.05" dy="2" layer="1" rot="R90"/>
+<smd name="2" x="3.6" y="0" dx="3.05" dy="2" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.85" y1="3.3" x2="4.85" y2="3.3" width="0.05" layer="51"/>
+<wire x1="4.85" y1="3.3" x2="4.85" y2="-3.3" width="0.05" layer="51"/>
+<wire x1="4.85" y1="-3.3" x2="-4.85" y2="-3.3" width="0.05" layer="51"/>
+<wire x1="-4.85" y1="-3.3" x2="-4.85" y2="3.3" width="0.05" layer="51"/>
+<wire x1="-3.97" y1="2.922" x2="3.97" y2="2.922" width="0.1" layer="51"/>
+<wire x1="3.97" y1="2.922" x2="3.97" y2="-2.922" width="0.1" layer="51"/>
+<wire x1="3.97" y1="-2.922" x2="-3.97" y2="-2.922" width="0.1" layer="51"/>
+<wire x1="-3.97" y1="-2.922" x2="-3.97" y2="2.922" width="0.1" layer="51"/>
+<wire x1="-3.97" y1="1.922" x2="-2.97" y2="2.922" width="0.1" layer="51"/>
+<wire x1="3.97" y1="2.922" x2="-4.6" y2="2.922" width="0.2" layer="21"/>
+<wire x1="-3.97" y1="-2.922" x2="3.97" y2="-2.922" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LT3579EFE#PBF">
@@ -427,18 +427,6 @@
 <pin name="SW2_3" x="35.56" y="-17.78" length="middle" rot="R180"/>
 <pin name="SW2_2" x="35.56" y="-20.32" length="middle" rot="R180"/>
 <pin name="SW2_1" x="35.56" y="-22.86" length="middle" rot="R180"/>
-</symbol>
-<symbol name="MBRS360T3G">
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<text x="11.43" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="11.43" y="2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="K" x="0" y="0" visible="pad" length="middle"/>
-<pin name="A" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
-<polygon width="0.254" layer="94">
-<vertex x="5.08" y="0"/>
-<vertex x="10.16" y="2.54"/>
-<vertex x="10.16" y="-2.54"/>
-</polygon>
 </symbol>
 <symbol name="CGA4J1X7R1E475K125AE">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
@@ -672,6 +660,28 @@
 <pin name="S" x="0" y="-2.54" length="middle"/>
 <pin name="D" x="20.32" y="0" length="middle" rot="R180"/>
 </symbol>
+<symbol name="MBRS330T3G">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="11.43" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="11.43" y="2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="K" x="0" y="0" visible="pad" length="middle"/>
+<pin name="A" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="5.08" y="0"/>
+<vertex x="10.16" y="2.54"/>
+<vertex x="10.16" y="-2.54"/>
+</polygon>
+</symbol>
+<symbol name="AC0805FR-0710KL">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LT3579EFE#PBF" prefix="IC">
@@ -715,31 +725,6 @@ Source: &lt;a href="http://www.analog.com/media/en/technical-documentation/data-
 <attribute name="MANUFACTURER_PART_NUMBER" value="LT3579EFE#PBF" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="584-LT3579EFE#PBF" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=584-LT3579EFE%23PBF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MBRS360T3G" prefix="D">
-<description>&lt;b&gt;Schottky barrier diode,MBRS360T3 3A 60V ON Semiconductor MBRS360T3G Schottky Diode, 4A, 60V, 2-Pin SMC&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBRS360T3-D.PDF"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="MBRS360T3G" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DIOM8059X261N">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Schottky barrier diode,MBRS360T3 3A 60V ON Semiconductor MBRS360T3G Schottky Diode, 4A, 60V, 2-Pin SMC" constant="no"/>
-<attribute name="HEIGHT" value="2.61mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MBRS360T3G" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-MBRS360T3G" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/MBRS360T3G?qs=3JMERSakebpuPnGIg0cvPA%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1229,6 +1214,56 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 <attribute name="MANUFACTURER_PART_NUMBER" value="RSR025N03HZGTL" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="755-RSR025N03HZGTL" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MBRS330T3G" prefix="D">
+<description>&lt;b&gt;&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBRS340T3-D.PDF"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MBRS330T3G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIOM7958X256N">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="HEIGHT" value="2.56mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MBRS330T3G" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-MBRS330T3G" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/MBRS330T3G?qs=3JMERSakebqQvNYO1akzWA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AC0805FR-0710KL" prefix="R">
+<description>&lt;b&gt;Thick Film Resistors - SMD 10K ohm 1% 1/8W AEC-Q200&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/9c9982b5f9d8b10ce9b597e40b391084.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="AC0805FR-0710KL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC2012X60N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 10K ohm 1% 1/8W AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.6mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AC0805FR-0710KL" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-AC0805FR-0710KL" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805FR-0710KL?qs=yhV1fb9g%2FKbswcDAMQpnRQ%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2137,6 +2172,104 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 </deviceset>
 </devicesets>
 </library>
+<library name="DMP3015LSSQ-13">
+<packages>
+<package name="SOIC127P600X170-8N">
+<wire x1="1.925" y1="2.45" x2="-1.925" y2="2.45" width="0.127" layer="51"/>
+<wire x1="-1.925" y1="2.45" x2="-1.925" y2="-2.45" width="0.127" layer="51"/>
+<wire x1="-1.925" y1="-2.45" x2="1.925" y2="-2.45" width="0.127" layer="51"/>
+<wire x1="-1.925" y1="-2.52" x2="1.925" y2="-2.52" width="0.127" layer="21"/>
+<wire x1="1.925" y1="-2.45" x2="1.925" y2="2.45" width="0.127" layer="51"/>
+<wire x1="1.925" y1="2.52" x2="-1.925" y2="2.52" width="0.127" layer="21"/>
+<text x="-3.5" y="-3" size="1.27" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
+<text x="-3.5" y="3" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<circle x="-4" y="2" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4" y="2" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-3.665" y1="2.7" x2="3.665" y2="2.7" width="0.05" layer="39"/>
+<wire x1="3.665" y1="2.7" x2="3.665" y2="-2.7" width="0.05" layer="39"/>
+<wire x1="3.665" y1="-2.7" x2="-3.665" y2="-2.7" width="0.05" layer="39"/>
+<wire x1="-3.665" y1="-2.7" x2="-3.665" y2="2.7" width="0.05" layer="39"/>
+<smd name="1" x="-2.625" y="1.905" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="8" x="2.625" y="1.905" dx="1.58" dy="0.59" layer="1" roundness="25" rot="R180"/>
+<smd name="2" x="-2.625" y="0.635" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="3" x="-2.625" y="-0.635" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="7" x="2.625" y="0.635" dx="1.58" dy="0.59" layer="1" roundness="25" rot="R180"/>
+<smd name="6" x="2.625" y="-0.635" dx="1.58" dy="0.59" layer="1" roundness="25" rot="R180"/>
+<smd name="4" x="-2.625" y="-1.905" dx="1.58" dy="0.59" layer="1" roundness="25"/>
+<smd name="5" x="2.625" y="-1.905" dx="1.58" dy="0.59" layer="1" roundness="25" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DMP3015LSSQ-13_SECTION1">
+<wire x1="0.762" y1="-0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-3.175" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="1.905" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="0.762" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="4.572" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<text x="-8.89" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-8.89" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="4.318" y="-0.254"/>
+<vertex x="3.302" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="0"/>
+<vertex x="1.524" y="0.762"/>
+<vertex x="1.524" y="-0.762"/>
+</polygon>
+<pin name="S1" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="G1" x="-2.54" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="D1" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="4.064" y="-4.064" size="1.27" layer="97">D</text>
+<text x="-2.54" y="0" size="1.27" layer="97">G</text>
+<text x="4.064" y="3.556" size="1.27" layer="97">S</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DMP3015LSSQ-13" prefix="Q">
+<description>MOSFET Single -30V P-Ch Enh FET -20Vgss</description>
+<gates>
+<gate name="G$1" symbol="DMP3015LSSQ-13_SECTION1" x="-7.62" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P600X170-8N">
+<connects>
+<connect gate="G$1" pin="D1" pad="5 6 7 8"/>
+<connect gate="G$1" pin="G1" pad="4"/>
+<connect gate="G$1" pin="S1" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value="30V P-CHANNEL ENHANCEMENT MODE MOSFET"/>
+<attribute name="MF" value="Diodes Inc."/>
+<attribute name="MP" value=" DMP3015LSSQ-13 "/>
+<attribute name="PACKAGE" value="SO-8 Diodes Inc."/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/Diodes-Incorporated/DMP3015LSSQ-13?qs=NnBbvHfz1MmNJej%2FFBJXWg%3D%3D"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2148,7 +2281,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 </classes>
 <parts>
 <part name="LT3579_IC_" library="SamacSys_Parts" deviceset="LT3579EFE#PBF" device=""/>
-<part name="D1_" library="SamacSys_Parts" deviceset="MBRS360T3G" device=""/>
+<part name="D1_" library="SamacSys_Parts" deviceset="MBRS330T3G" device=""/>
 <part name="C_IN_1_" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
 <part name="C_IN_2_" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
 <part name="C_1_" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
@@ -2165,7 +2298,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="R_UVLO1_" library="AC0805FR-0730KL" deviceset="AC0805FR-0730KL" device=""/>
 <part name="R_FAULT_" library="AT0805FRE07100KL" deviceset="AT0805FRE07100KL" device=""/>
 <part name="R_FB_" library="AC0805FR-07150KL" deviceset="AC0805FR-07150KL" device=""/>
-<part name="R_GATE_" library="AC0805DR-0710KL" deviceset="AC0805DR-0710KL" device=""/>
+<part name="R_GATE_" library="SamacSys_Parts" deviceset="AC0805FR-0710KL" device=""/>
 <part name="X_3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_7" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -2203,7 +2336,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="X_16" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="TP_D1_" library="S1751-46R" deviceset="S1751-46R" device=""/>
 <part name="LT3579_IC_1" library="SamacSys_Parts" deviceset="LT3579EFE#PBF" device=""/>
-<part name="D1_1" library="SamacSys_Parts" deviceset="MBRS360T3G" device=""/>
+<part name="D1_1" library="SamacSys_Parts" deviceset="MBRS330T3G" device=""/>
 <part name="C_IN_1_1" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
 <part name="C_IN_2_1" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
 <part name="C_1_1" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
@@ -2219,7 +2352,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="PMOS_1" library="SamacSys_Parts" deviceset="RQ5E050ATTCL" device=""/>
 <part name="R_UVLO1_1" library="AC0805FR-0730KL" deviceset="AC0805FR-0730KL" device=""/>
 <part name="R_FAULT_1" library="AT0805FRE07100KL" deviceset="AT0805FRE07100KL" device=""/>
-<part name="R_GATE_1" library="AC0805DR-0710KL" deviceset="AC0805DR-0710KL" device=""/>
+<part name="R_GATE_1" library="SamacSys_Parts" deviceset="AC0805FR-0710KL" device=""/>
 <part name="X_17" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_18" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_19" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -2258,7 +2391,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="TP_D1_1" library="S1751-46R" deviceset="S1751-46R" device=""/>
 <part name="R_FB_1" library="AC0603FR-0764K9L" deviceset="AC0603FR-0764K9L" device=""/>
 <part name="LT3579_IC_2" library="SamacSys_Parts" deviceset="LT3579EFE#PBF" device=""/>
-<part name="D1_2" library="SamacSys_Parts" deviceset="MBRS360T3G" device=""/>
+<part name="D1_2" library="SamacSys_Parts" deviceset="MBRS330T3G" device=""/>
 <part name="C_IN_1_2" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
 <part name="C_IN_2_2" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
 <part name="C_1_2" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
@@ -2274,7 +2407,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="PMOS_2" library="SamacSys_Parts" deviceset="RQ5E050ATTCL" device=""/>
 <part name="R_UVLO1_2" library="AC0805FR-0730KL" deviceset="AC0805FR-0730KL" device=""/>
 <part name="R_FAULT_2" library="AT0805FRE07100KL" deviceset="AT0805FRE07100KL" device=""/>
-<part name="R_GATE_2" library="AC0805DR-0710KL" deviceset="AC0805DR-0710KL" device=""/>
+<part name="R_GATE_2" library="SamacSys_Parts" deviceset="AC0805FR-0710KL" device=""/>
 <part name="X_33" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_34" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_35" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -2369,6 +2502,8 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="NMOS_LDO_" library="SamacSys_Parts" deviceset="RSR025N03HZGTL" device=""/>
 <part name="NMOS_LDO_1" library="SamacSys_Parts" deviceset="RSR025N03HZGTL" device=""/>
 <part name="NMOS_LDO_2" library="SamacSys_Parts" deviceset="RSR025N03HZGTL" device=""/>
+<part name="PMOS_REVERSE_V_PROTECTION" library="DMP3015LSSQ-13" deviceset="DMP3015LSSQ-13" device=""/>
+<part name="X_51" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2399,6 +2534,11 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <instance part="GND2" gate="1" x="58.42" y="22.86" smashed="yes">
 <attribute name="VALUE" x="60.96" y="25.4" size="1.778" layer="96"/>
 </instance>
+<instance part="PMOS_REVERSE_V_PROTECTION" gate="G$1" x="-38.1" y="-55.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-49.53" y="-46.99" size="1.778" layer="96"/>
+<attribute name="NAME" x="-34.29" y="-62.23" size="1.778" layer="95"/>
+</instance>
+<instance part="X_51" gate="G$1" x="-40.64" y="-63.5" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -2420,16 +2560,6 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="4P_INPUT_CONNECTOR1" gate="A" pin="1"/>
-<wire x1="-58.42" y1="27.94" x2="-63.5" y2="27.94" width="0.1524" layer="91"/>
-<label x="-68.58" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="4P_INPUT_CONNECTOR1" gate="A" pin="3"/>
-<wire x1="-58.42" y1="25.4" x2="-63.5" y2="25.4" width="0.1524" layer="91"/>
-<label x="-68.58" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="C_DECOUPLE_CH_GND_1" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="-17.78" x2="-20.32" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-20.32" y="-17.78" size="1.778" layer="95"/>
@@ -2438,6 +2568,11 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <pinref part="C_DECOUPLE_CH_GND_2" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="-17.78" x2="48.26" y2="-17.78" width="0.1524" layer="91"/>
 <label x="48.26" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PMOS_REVERSE_V_PROTECTION" gate="G$1" pin="S1"/>
+<wire x1="-43.18" y1="-53.34" x2="-50.8" y2="-53.34" width="0.1524" layer="91"/>
+<label x="-55.88" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CH_GND" class="0">
@@ -2523,6 +2658,30 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
 <label x="-5.08" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="0" class="0">
+<segment>
+<pinref part="PMOS_REVERSE_V_PROTECTION" gate="G$1" pin="G1"/>
+<pinref part="X_51" gate="G$1" pin="0"/>
+<wire x1="-40.64" y1="-58.42" x2="-40.64" y2="-63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VIN_CONNECTOR" class="0">
+<segment>
+<pinref part="4P_INPUT_CONNECTOR1" gate="A" pin="1"/>
+<wire x1="-58.42" y1="27.94" x2="-63.5" y2="27.94" width="0.1524" layer="91"/>
+<label x="-83.82" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="4P_INPUT_CONNECTOR1" gate="A" pin="3"/>
+<wire x1="-58.42" y1="25.4" x2="-63.5" y2="25.4" width="0.1524" layer="91"/>
+<label x="-83.82" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PMOS_REVERSE_V_PROTECTION" gate="G$1" pin="D1"/>
+<wire x1="-33.02" y1="-53.34" x2="-25.4" y2="-53.34" width="0.1524" layer="91"/>
+<label x="-25.4" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -2981,7 +3140,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="0" y1="121.92" x2="7.62" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R_GATE_" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="121.92" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="106.68" x2="7.62" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="106.68" x2="7.62" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="106.68" x2="7.62" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R_FB_" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="106.68" x2="7.62" y2="88.9" width="0.1524" layer="91"/>
@@ -3004,7 +3163,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <segment>
 <pinref part="R_GATE_" gate="G$1" pin="2"/>
 <pinref part="PMOS_" gate="G$1" pin="G"/>
-<wire x1="38.1" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="106.68" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="106.68" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
 <label x="66.04" y="106.68" size="1.778" layer="95"/>
@@ -3798,7 +3957,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="0" y1="124.46" x2="7.62" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R_GATE_1" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="124.46" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="109.22" x2="7.62" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="109.22" x2="7.62" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="109.22" x2="7.62" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="109.22" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="91.44" x2="17.78" y2="91.44" width="0.1524" layer="91"/>
@@ -3821,7 +3980,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <segment>
 <pinref part="R_GATE_1" gate="G$1" pin="2"/>
 <pinref part="PMOS_1" gate="G$1" pin="G"/>
-<wire x1="38.1" y1="109.22" x2="55.88" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="109.22" x2="55.88" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="109.22" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
 <label x="66.04" y="109.22" size="1.778" layer="95"/>
@@ -4559,7 +4718,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="0" y1="124.46" x2="7.62" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R_GATE_2" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="124.46" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="109.22" x2="7.62" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="109.22" x2="7.62" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="109.22" x2="7.62" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="109.22" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="91.44" x2="17.78" y2="91.44" width="0.1524" layer="91"/>
@@ -4582,7 +4741,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <segment>
 <pinref part="R_GATE_2" gate="G$1" pin="2"/>
 <pinref part="PMOS_2" gate="G$1" pin="G"/>
-<wire x1="38.1" y1="109.22" x2="55.88" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="109.22" x2="55.88" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="109.22" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
 <label x="66.04" y="109.22" size="1.778" layer="95"/>
