@@ -2278,6 +2278,12 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="PWR_Connector" width="3.29" drill="0">
+</class>
+<class number="2" name="PWR_Vin_Vout" width="0.816" drill="0">
+</class>
+<class number="3" name="Signal" width="0.0463" drill="0">
+</class>
 </classes>
 <parts>
 <part name="LT3579_IC_" library="SamacSys_Parts" deviceset="LT3579EFE#PBF" device=""/>
@@ -2569,7 +2575,7 @@ Will mate with a male connector on the board enclosure. </text>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="8"/>
 <wire x1="50.8" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
@@ -2584,7 +2590,7 @@ Will mate with a male connector on the board enclosure. </text>
 <junction x="55.88" y="30.48"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="VIN" class="2">
 <segment>
 <pinref part="C_DECOUPLE_CH_GND_1" gate="G$1" pin="2"/>
 <wire x1="-63.5" y1="-17.78" x2="-55.88" y2="-17.78" width="0.1524" layer="91"/>
@@ -2601,7 +2607,7 @@ Will mate with a male connector on the board enclosure. </text>
 <label x="27.94" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CH_GND" class="0">
+<net name="CH_GND" class="2">
 <segment>
 <pinref part="C_DECOUPLE_CH_GND_1" gate="G$1" pin="1"/>
 <wire x1="-76.2" y1="-17.78" x2="-83.82" y2="-17.78" width="0.1524" layer="91"/>
@@ -2623,77 +2629,77 @@ Will mate with a male connector on the board enclosure. </text>
 <label x="-38.1" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VOUT_" class="0">
+<net name="VOUT_" class="2">
 <segment>
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="11"/>
 <wire x1="27.94" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
 <label x="12.7" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VOUT_1" class="0">
+<net name="VOUT_1" class="2">
 <segment>
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="9"/>
 <wire x1="27.94" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
 <label x="12.7" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VOUT_2" class="0">
+<net name="VOUT_2" class="2">
 <segment>
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="7"/>
 <wire x1="27.94" y1="27.94" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
 <label x="12.7" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK_FILTER_OUT_" class="0">
+<net name="CLK_FILTER_OUT_" class="3">
 <segment>
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="6"/>
 <wire x1="50.8" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
 <label x="55.88" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK_FILTER_OUT_1" class="0">
+<net name="CLK_FILTER_OUT_1" class="3">
 <segment>
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="4"/>
 <wire x1="50.8" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 <label x="55.88" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK_FILTER_OUT_2" class="0">
+<net name="CLK_FILTER_OUT_2" class="3">
 <segment>
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="20.32" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
 <label x="55.88" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FAULT_LS_OUT_" class="0">
+<net name="FAULT_LS_OUT_" class="3">
 <segment>
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="5"/>
 <wire x1="27.94" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
 <label x="2.54" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FAULT_LS_OUT_1" class="0">
+<net name="FAULT_LS_OUT_1" class="3">
 <segment>
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="3"/>
 <wire x1="27.94" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
 <label x="0" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FAULT_LS_OUT_2" class="0">
+<net name="FAULT_LS_OUT_2" class="3">
 <segment>
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="20.32" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
 <label x="0" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="0" class="0">
+<net name="0" class="1">
 <segment>
 <pinref part="PMOS_REVERSE_V_PROTECTION" gate="G$1" pin="G1"/>
 <pinref part="X_51" gate="G$1" pin="0"/>
 <wire x1="43.18" y1="-20.32" x2="43.18" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VIN_CONNECTOR" class="0">
+<net name="VIN_CONNECTOR" class="1">
 <segment>
 <pinref part="4P_INPUT_CONNECTOR1" gate="A" pin="1"/>
 <wire x1="-73.66" y1="35.56" x2="-78.74" y2="35.56" width="0.1524" layer="91"/>
@@ -3064,7 +3070,7 @@ output voltage of the circuit. </text>
 <busses>
 </busses>
 <nets>
-<net name="0" class="0">
+<net name="0" class="1">
 <segment>
 <pinref part="R_UVLO2_" gate="G$1" pin="1"/>
 <pinref part="X_3" gate="G$1" pin="0"/>
@@ -3185,7 +3191,7 @@ output voltage of the circuit. </text>
 <pinref part="X_52" gate="G$1" pin="0"/>
 </segment>
 </net>
-<net name="FAULT_" class="0">
+<net name="FAULT_" class="3">
 <segment>
 <pinref part="LT3579_IC_" gate="G$1" pin="!FAULT"/>
 <wire x1="-17.78" y1="5.08" x2="-25.4" y2="5.08" width="0.1524" layer="91"/>
@@ -3208,7 +3214,7 @@ output voltage of the circuit. </text>
 <label x="-203.2" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VOUT_" class="0">
+<net name="VOUT_" class="2">
 <segment>
 <pinref part="PMOS_" gate="G$1" pin="S"/>
 <wire x1="60.96" y1="137.16" x2="78.74" y2="137.16" width="0.1524" layer="91"/>
@@ -3238,7 +3244,7 @@ output voltage of the circuit. </text>
 <junction x="142.24" y="137.16"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="N$9" class="2">
 <segment>
 <pinref part="C_1_" gate="G$1" pin="2"/>
 <pinref part="D1_" gate="G$1" pin="A"/>
@@ -3254,7 +3260,7 @@ output voltage of the circuit. </text>
 <junction x="-15.24" y="152.4"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="N$13" class="2">
 <segment>
 <pinref part="D1_" gate="G$1" pin="K"/>
 <pinref part="PMOS_" gate="G$1" pin="D"/>
@@ -3275,7 +3281,7 @@ output voltage of the circuit. </text>
 <junction x="17.78" y="88.9"/>
 </segment>
 </net>
-<net name="GATE_" class="0">
+<net name="GATE_" class="3">
 <segment>
 <pinref part="LT3579_IC_" gate="G$1" pin="GATE"/>
 <wire x1="-17.78" y1="7.62" x2="-25.4" y2="7.62" width="0.1524" layer="91"/>
@@ -3295,7 +3301,7 @@ output voltage of the circuit. </text>
 <junction x="58.42" y="111.76"/>
 </segment>
 </net>
-<net name="FB_" class="0">
+<net name="FB_" class="3">
 <segment>
 <pinref part="LT3579_IC_" gate="G$1" pin="FB"/>
 <wire x1="-17.78" y1="12.7" x2="-25.4" y2="12.7" width="0.1524" layer="91"/>
@@ -3307,7 +3313,7 @@ output voltage of the circuit. </text>
 <label x="45.72" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SHDN_" class="0">
+<net name="SHDN_" class="3">
 <segment>
 <pinref part="LT3579_IC_" gate="G$1" pin="!SHDN"/>
 <wire x1="17.78" y1="5.08" x2="25.4" y2="5.08" width="0.1524" layer="91"/>
@@ -3329,7 +3335,7 @@ output voltage of the circuit. </text>
 <junction x="0" y="-104.14"/>
 </segment>
 </net>
-<net name="VC_" class="0">
+<net name="VC_" class="3">
 <segment>
 <pinref part="LT3579_IC_" gate="G$1" pin="VC"/>
 <wire x1="-17.78" y1="10.16" x2="-25.4" y2="10.16" width="0.1524" layer="91"/>
@@ -3353,7 +3359,7 @@ output voltage of the circuit. </text>
 <junction x="96.52" y="-132.08"/>
 </segment>
 </net>
-<net name="RT_" class="0">
+<net name="RT_" class="3">
 <segment>
 <pinref part="LT3579_IC_" gate="G$1" pin="RT"/>
 <wire x1="17.78" y1="7.62" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
@@ -3371,7 +3377,7 @@ output voltage of the circuit. </text>
 <junction x="83.82" y="-66.04"/>
 </segment>
 </net>
-<net name="SS_" class="0">
+<net name="SS_" class="3">
 <segment>
 <pinref part="LT3579_IC_" gate="G$1" pin="SS"/>
 <wire x1="17.78" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
@@ -3389,7 +3395,7 @@ output voltage of the circuit. </text>
 <junction x="81.28" y="-22.86"/>
 </segment>
 </net>
-<net name="SW1-2_" class="0">
+<net name="SW1-2_" class="2">
 <segment>
 <pinref part="LT3579_IC_" gate="G$1" pin="SW1_2"/>
 <wire x1="-17.78" y1="-2.54" x2="-22.86" y2="-2.54" width="0.1524" layer="91"/>
@@ -3449,7 +3455,7 @@ output voltage of the circuit. </text>
 <pinref part="L1L2_" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="R_SHUNT_GND_" gate="G$1" pin="2"/>
 <label x="-76.2" y="-78.74" size="1.778" layer="95"/>
@@ -3471,7 +3477,7 @@ output voltage of the circuit. </text>
 <label x="-200.66" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="VIN" class="2">
 <segment>
 <wire x1="-53.34" y1="109.22" x2="-63.5" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C_IN_2_" gate="G$1" pin="1"/>
@@ -3518,7 +3524,7 @@ output voltage of the circuit. </text>
 <junction x="-195.58" y="-76.2"/>
 </segment>
 </net>
-<net name="CH_GND" class="0">
+<net name="CH_GND" class="2">
 <segment>
 <pinref part="R_SHUNT_GND_" gate="G$1" pin="1"/>
 <wire x1="-121.92" y1="-78.74" x2="-124.46" y2="-78.74" width="0.1524" layer="91"/>
@@ -3531,7 +3537,7 @@ output voltage of the circuit. </text>
 <junction x="-121.92" y="-96.52"/>
 </segment>
 </net>
-<net name="CLK_" class="0">
+<net name="CLK_" class="3">
 <segment>
 <pinref part="LT3579_IC_" gate="G$1" pin="CLKOUT"/>
 <wire x1="17.78" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
@@ -3549,14 +3555,14 @@ output voltage of the circuit. </text>
 <label x="-213.36" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="N$4" class="3">
 <segment>
 <pinref part="R_C_" gate="G$1" pin="2"/>
 <pinref part="C_C_" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="-99.06" x2="96.52" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CLK_FILTER_OUT_" class="0">
+<net name="CLK_FILTER_OUT_" class="3">
 <segment>
 <pinref part="R_10K_FILTER_" gate="G$1" pin="2"/>
 <pinref part="R_5K_FILTER_\" gate="G$1" pin="1"/>
@@ -3576,7 +3582,7 @@ output voltage of the circuit. </text>
 <junction x="-162.56" y="124.46"/>
 </segment>
 </net>
-<net name="LDO_OUT_" class="0">
+<net name="LDO_OUT_" class="2">
 <segment>
 <pinref part="LDO_" gate="G$1" pin="VOUT_1"/>
 <wire x1="-190.5" y1="-60.96" x2="-210.82" y2="-60.96" width="0.1524" layer="91"/>
@@ -3606,7 +3612,7 @@ output voltage of the circuit. </text>
 <label x="-68.58" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FAULT_LS_OUT_" class="0">
+<net name="FAULT_LS_OUT_" class="3">
 <segment>
 <pinref part="R_LS_DRAIN_" gate="G$1" pin="1"/>
 <wire x1="-101.6" y1="15.24" x2="-99.06" y2="15.24" width="0.1524" layer="91"/>
@@ -3627,21 +3633,21 @@ output voltage of the circuit. </text>
 <junction x="-101.6" y="15.24"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="N$12" class="3">
 <segment>
 <pinref part="R_20K_LED1_" gate="G$1" pin="1"/>
 <pinref part="R_5.6K_LED2_" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="N$15" class="3">
 <segment>
 <pinref part="R_5.6K_LED2_" gate="G$1" pin="2"/>
 <pinref part="LED_" gate="G$1" pin="A"/>
 <wire x1="190.5" y1="114.3" x2="198.12" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="N$8" class="3">
 <segment>
 <pinref part="R_LS_GATE_" gate="G$1" pin="2"/>
 <wire x1="-165.1" y1="15.24" x2="-142.24" y2="15.24" width="0.1524" layer="91"/>
@@ -3968,7 +3974,7 @@ GATE pin turns off or on the PMOS. </text>
 <busses>
 </busses>
 <nets>
-<net name="0" class="0">
+<net name="0" class="1">
 <segment>
 <pinref part="R_UVLO2_1" gate="G$1" pin="1"/>
 <pinref part="X_17" gate="G$1" pin="0"/>
@@ -4079,7 +4085,7 @@ GATE pin turns off or on the PMOS. </text>
 <wire x1="-157.48" y1="22.86" x2="-149.86" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="FAULT_1" class="0">
+<net name="FAULT_1" class="3">
 <segment>
 <pinref part="LT3579_IC_1" gate="G$1" pin="!FAULT"/>
 <wire x1="-17.78" y1="7.62" x2="-25.4" y2="7.62" width="0.1524" layer="91"/>
@@ -4102,7 +4108,7 @@ GATE pin turns off or on the PMOS. </text>
 <label x="-208.28" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VOUT_1" class="0">
+<net name="VOUT_1" class="2">
 <segment>
 <pinref part="PMOS_1" gate="G$1" pin="S"/>
 <wire x1="60.96" y1="124.46" x2="78.74" y2="124.46" width="0.1524" layer="91"/>
@@ -4132,7 +4138,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="119.38" y="124.46"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$1" class="2">
 <segment>
 <pinref part="C_1_1" gate="G$1" pin="2"/>
 <pinref part="D1_1" gate="G$1" pin="A"/>
@@ -4148,7 +4154,7 @@ GATE pin turns off or on the PMOS. </text>
 <pinref part="L1L2_1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N$2" class="3">
 <segment>
 <pinref part="R_C_1" gate="G$1" pin="2"/>
 <pinref part="C_C_1" gate="G$1" pin="1"/>
@@ -4157,7 +4163,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="104.14" y="-106.68"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="N$3" class="2">
 <segment>
 <pinref part="D1_1" gate="G$1" pin="K"/>
 <pinref part="PMOS_1" gate="G$1" pin="D"/>
@@ -4178,7 +4184,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="17.78" y="76.2"/>
 </segment>
 </net>
-<net name="GATE_1" class="0">
+<net name="GATE_1" class="3">
 <segment>
 <pinref part="LT3579_IC_1" gate="G$1" pin="GATE"/>
 <wire x1="-17.78" y1="10.16" x2="-25.4" y2="10.16" width="0.1524" layer="91"/>
@@ -4198,7 +4204,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="58.42" y="99.06"/>
 </segment>
 </net>
-<net name="FB_1" class="0">
+<net name="FB_1" class="3">
 <segment>
 <pinref part="LT3579_IC_1" gate="G$1" pin="FB"/>
 <wire x1="-17.78" y1="15.24" x2="-25.4" y2="15.24" width="0.1524" layer="91"/>
@@ -4210,7 +4216,7 @@ GATE pin turns off or on the PMOS. </text>
 <pinref part="R_FB_1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="SHDN_1" class="0">
+<net name="SHDN_1" class="3">
 <segment>
 <pinref part="LT3579_IC_1" gate="G$1" pin="!SHDN"/>
 <wire x1="17.78" y1="7.62" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
@@ -4232,7 +4238,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="-15.24" y="-83.82"/>
 </segment>
 </net>
-<net name="VC_1" class="0">
+<net name="VC_1" class="3">
 <segment>
 <pinref part="LT3579_IC_1" gate="G$1" pin="VC"/>
 <wire x1="-17.78" y1="12.7" x2="-25.4" y2="12.7" width="0.1524" layer="91"/>
@@ -4255,7 +4261,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="104.14" y="-139.7"/>
 </segment>
 </net>
-<net name="RT_1" class="0">
+<net name="RT_1" class="3">
 <segment>
 <pinref part="LT3579_IC_1" gate="G$1" pin="RT"/>
 <wire x1="17.78" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
@@ -4273,7 +4279,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="86.36" y="-71.12"/>
 </segment>
 </net>
-<net name="SS_1" class="0">
+<net name="SS_1" class="3">
 <segment>
 <pinref part="LT3579_IC_1" gate="G$1" pin="SS"/>
 <wire x1="17.78" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
@@ -4291,7 +4297,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="81.28" y="-27.94"/>
 </segment>
 </net>
-<net name="SW1-2_1" class="0">
+<net name="SW1-2_1" class="2">
 <segment>
 <pinref part="LT3579_IC_1" gate="G$1" pin="SW1_2"/>
 <wire x1="-17.78" y1="0" x2="-22.86" y2="0" width="0.1524" layer="91"/>
@@ -4351,7 +4357,7 @@ GATE pin turns off or on the PMOS. </text>
 <pinref part="L1L2_1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="R_SHUNT_GND_1" gate="G$1" pin="2"/>
 <label x="-104.14" y="-60.96" size="1.778" layer="95"/>
@@ -4368,7 +4374,7 @@ GATE pin turns off or on the PMOS. </text>
 <label x="25.4" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="VIN" class="2">
 <segment>
 <wire x1="-53.34" y1="96.52" x2="-63.5" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C_IN_2_1" gate="G$1" pin="1"/>
@@ -4404,7 +4410,7 @@ GATE pin turns off or on the PMOS. </text>
 <label x="-67.31" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CH_GND" class="0">
+<net name="CH_GND" class="2">
 <segment>
 <pinref part="R_SHUNT_GND_1" gate="G$1" pin="1"/>
 <wire x1="-149.86" y1="-60.96" x2="-152.4" y2="-60.96" width="0.1524" layer="91"/>
@@ -4417,7 +4423,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="-149.86" y="-78.74"/>
 </segment>
 </net>
-<net name="CLK_1" class="0">
+<net name="CLK_1" class="3">
 <segment>
 <pinref part="LT3579_IC_1" gate="G$1" pin="CLKOUT"/>
 <wire x1="17.78" y1="5.08" x2="25.4" y2="5.08" width="0.1524" layer="91"/>
@@ -4435,7 +4441,7 @@ GATE pin turns off or on the PMOS. </text>
 <label x="-198.12" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FAULT_LS_OUT_1" class="0">
+<net name="FAULT_LS_OUT_1" class="3">
 <segment>
 <pinref part="R_LS_DRAIN_1" gate="G$1" pin="1"/>
 <wire x1="-104.14" y1="20.32" x2="-101.6" y2="20.32" width="0.1524" layer="91"/>
@@ -4456,7 +4462,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="-104.14" y="20.32"/>
 </segment>
 </net>
-<net name="CLK_FILTER_OUT_1" class="0">
+<net name="CLK_FILTER_OUT_1" class="3">
 <segment>
 <pinref part="R_10K_FILTER_1" gate="G$1" pin="2"/>
 <pinref part="R_5K_FILTER_\1" gate="G$1" pin="1"/>
@@ -4476,21 +4482,21 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="-144.78" y="109.22"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="N$11" class="2">
 <segment>
 <pinref part="R_LED_10K_1" gate="G$1" pin="2"/>
 <pinref part="LED_1" gate="G$1" pin="A"/>
 <wire x1="144.78" y1="106.68" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LDO_OUT_" class="0">
+<net name="LDO_OUT_" class="2">
 <segment>
 <pinref part="R_LS_DRAIN_1" gate="G$1" pin="2"/>
 <wire x1="-83.82" y1="20.32" x2="-73.66" y2="20.32" width="0.1524" layer="91"/>
 <label x="-73.66" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="N$10" class="3">
 <segment>
 <pinref part="R_LS_GATE_1" gate="G$1" pin="2"/>
 <pinref part="NMOS_LDO_1" gate="G$1" pin="G"/>
@@ -4817,7 +4823,7 @@ GATE pin turns off or on the PMOS. </text>
 <busses>
 </busses>
 <nets>
-<net name="0" class="0">
+<net name="0" class="1">
 <segment>
 <pinref part="R_UVLO2_2" gate="G$1" pin="1"/>
 <pinref part="X_33" gate="G$1" pin="0"/>
@@ -4928,7 +4934,7 @@ GATE pin turns off or on the PMOS. </text>
 <wire x1="-154.94" y1="22.86" x2="-147.32" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="FAULT_2" class="0">
+<net name="FAULT_2" class="3">
 <segment>
 <pinref part="LT3579_IC_2" gate="G$1" pin="!FAULT"/>
 <wire x1="-17.78" y1="7.62" x2="-25.4" y2="7.62" width="0.1524" layer="91"/>
@@ -4951,7 +4957,7 @@ GATE pin turns off or on the PMOS. </text>
 <label x="-208.28" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VOUT_2" class="0">
+<net name="VOUT_2" class="2">
 <segment>
 <pinref part="PMOS_2" gate="G$1" pin="S"/>
 <wire x1="60.96" y1="124.46" x2="78.74" y2="124.46" width="0.1524" layer="91"/>
@@ -4981,7 +4987,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="119.38" y="124.46"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="N$5" class="2">
 <segment>
 <pinref part="C_1_2" gate="G$1" pin="2"/>
 <pinref part="D1_2" gate="G$1" pin="A"/>
@@ -4997,14 +5003,14 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="-15.24" y="139.7"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="N$6" class="3">
 <segment>
 <pinref part="R_C_2" gate="G$1" pin="2"/>
 <pinref part="C_C_2" gate="G$1" pin="1"/>
 <wire x1="95.25" y1="-109.22" x2="102.87" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="N$7" class="2">
 <segment>
 <pinref part="D1_2" gate="G$1" pin="K"/>
 <pinref part="PMOS_2" gate="G$1" pin="D"/>
@@ -5025,7 +5031,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="20.32" y="76.2"/>
 </segment>
 </net>
-<net name="GATE_2" class="0">
+<net name="GATE_2" class="3">
 <segment>
 <pinref part="LT3579_IC_2" gate="G$1" pin="GATE"/>
 <wire x1="-17.78" y1="10.16" x2="-25.4" y2="10.16" width="0.1524" layer="91"/>
@@ -5045,7 +5051,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="58.42" y="99.06"/>
 </segment>
 </net>
-<net name="FB_2" class="0">
+<net name="FB_2" class="3">
 <segment>
 <pinref part="LT3579_IC_2" gate="G$1" pin="FB"/>
 <wire x1="-17.78" y1="15.24" x2="-25.4" y2="15.24" width="0.1524" layer="91"/>
@@ -5057,7 +5063,7 @@ GATE pin turns off or on the PMOS. </text>
 <pinref part="R_FB_2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="SHDN_2" class="0">
+<net name="SHDN_2" class="3">
 <segment>
 <pinref part="LT3579_IC_2" gate="G$1" pin="!SHDN"/>
 <wire x1="17.78" y1="7.62" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
@@ -5079,7 +5085,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="-15.24" y="-83.82"/>
 </segment>
 </net>
-<net name="VC_2" class="0">
+<net name="VC_2" class="3">
 <segment>
 <pinref part="LT3579_IC_2" gate="G$1" pin="VC"/>
 <wire x1="-17.78" y1="12.7" x2="-25.4" y2="12.7" width="0.1524" layer="91"/>
@@ -5102,7 +5108,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="104.14" y="-142.24"/>
 </segment>
 </net>
-<net name="RT_2" class="0">
+<net name="RT_2" class="3">
 <segment>
 <pinref part="LT3579_IC_2" gate="G$1" pin="RT"/>
 <wire x1="17.78" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
@@ -5120,7 +5126,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="88.9" y="-73.66"/>
 </segment>
 </net>
-<net name="SS_2" class="0">
+<net name="SS_2" class="3">
 <segment>
 <pinref part="LT3579_IC_2" gate="G$1" pin="SS"/>
 <wire x1="17.78" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
@@ -5138,7 +5144,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="86.36" y="-20.32"/>
 </segment>
 </net>
-<net name="SW1-2_2" class="0">
+<net name="SW1-2_2" class="2">
 <segment>
 <pinref part="LT3579_IC_2" gate="G$1" pin="SW1_2"/>
 <wire x1="-17.78" y1="0" x2="-22.86" y2="0" width="0.1524" layer="91"/>
@@ -5198,7 +5204,7 @@ GATE pin turns off or on the PMOS. </text>
 <pinref part="L1L2_2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="R_SHUNT_GND_2" gate="G$1" pin="2"/>
 <label x="-83.82" y="-58.42" size="1.778" layer="95"/>
@@ -5215,7 +5221,7 @@ GATE pin turns off or on the PMOS. </text>
 <label x="25.4" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="VIN" class="2">
 <segment>
 <wire x1="-53.34" y1="96.52" x2="-63.5" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C_IN_2_2" gate="G$1" pin="1"/>
@@ -5251,7 +5257,7 @@ GATE pin turns off or on the PMOS. </text>
 <label x="-67.31" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CH_GND" class="0">
+<net name="CH_GND" class="2">
 <segment>
 <pinref part="R_SHUNT_GND_2" gate="G$1" pin="1"/>
 <wire x1="-129.54" y1="-58.42" x2="-132.08" y2="-58.42" width="0.1524" layer="91"/>
@@ -5264,7 +5270,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="-129.54" y="-76.2"/>
 </segment>
 </net>
-<net name="CLK_2" class="0">
+<net name="CLK_2" class="3">
 <segment>
 <pinref part="LT3579_IC_2" gate="G$1" pin="CLKOUT"/>
 <wire x1="17.78" y1="5.08" x2="25.4" y2="5.08" width="0.1524" layer="91"/>
@@ -5282,7 +5288,7 @@ GATE pin turns off or on the PMOS. </text>
 <label x="-205.74" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FAULT_LS_OUT_2" class="0">
+<net name="FAULT_LS_OUT_2" class="3">
 <segment>
 <pinref part="R_LS_DRAIN_2" gate="G$1" pin="1"/>
 <wire x1="-104.14" y1="20.32" x2="-101.6" y2="20.32" width="0.1524" layer="91"/>
@@ -5303,7 +5309,7 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="-104.14" y="20.32"/>
 </segment>
 </net>
-<net name="CLK_FILTER_OUT_2" class="0">
+<net name="CLK_FILTER_OUT_2" class="3">
 <segment>
 <pinref part="R_10K_FILTER_2" gate="G$1" pin="2"/>
 <pinref part="R_5K_FILTER_\2" gate="G$1" pin="1"/>
@@ -5323,21 +5329,21 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="-152.4" y="101.6"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="N$16" class="2">
 <segment>
 <pinref part="R_LED_10K_2" gate="G$1" pin="2"/>
 <pinref part="LED_2" gate="G$1" pin="A"/>
 <wire x1="144.78" y1="106.68" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LDO_OUT_" class="0">
+<net name="LDO_OUT_" class="2">
 <segment>
 <pinref part="R_LS_DRAIN_2" gate="G$1" pin="2"/>
 <wire x1="-83.82" y1="20.32" x2="-71.12" y2="20.32" width="0.1524" layer="91"/>
 <label x="-71.12" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="N$14" class="3">
 <segment>
 <pinref part="R_LS_GATE_2" gate="G$1" pin="2"/>
 <pinref part="NMOS_LDO_2" gate="G$1" pin="G"/>
@@ -5348,8 +5354,8 @@ GATE pin turns off or on the PMOS. </text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="206,2,-195.58,-60.96,LDO_OUT_,,,,,"/>
-<approved hash="206,2,-162.56,-58.42,LDO_OUT_,,,,,"/>
+<approved hash="206,2,-190.5,-60.96,LDO_OUT_,,,,,"/>
+<approved hash="206,2,-157.48,-58.42,LDO_OUT_,,,,,"/>
 </errors>
 </schematic>
 </drawing>
