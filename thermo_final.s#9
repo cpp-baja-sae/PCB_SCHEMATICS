@@ -2499,7 +2499,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="CONNECTOR_6" library="PCC-SMD-20" deviceset="PCC-SMD-20" device=""/>
 <part name="CONNECTOR_0" library="PCC-SMD-20" deviceset="PCC-SMD-20" device=""/>
 <part name="CONNECTOR_7" library="PCC-SMD-20" deviceset="PCC-SMD-20" device=""/>
-<part name="T1" library="SamacSys_Parts" deviceset="782482_33VC" device=""/>
+<part name="TRANSFORMER" library="SamacSys_Parts" deviceset="782482_33VC" device=""/>
 <part name="D4" library="SamacSys_Parts" deviceset="PTVS12VS1UR,115" device=""/>
 <part name="D5" library="SamacSys_Parts" deviceset="PTVS12VS1UR,115" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2788,7 +2788,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="NAME" x="-55.88" y="-58.42" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-55.88" y="-68.58" size="1.778" layer="96"/>
 </instance>
-<instance part="T1" gate="G$1" x="279.4" y="93.98" smashed="yes">
+<instance part="TRANSFORMER" gate="G$1" x="279.4" y="93.98" smashed="yes">
 <attribute name="NAME" x="295.91" y="101.6" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="295.91" y="99.06" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -4684,7 +4684,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <label x="297.18" y="-7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="T1" gate="G$1" pin="PRIMARY_1"/>
+<pinref part="TRANSFORMER" gate="G$1" pin="PRIMARY_1"/>
 <wire x1="279.4" y1="93.98" x2="269.24" y2="93.98" width="0.1524" layer="91"/>
 <label x="266.7" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -4701,7 +4701,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <label x="271.78" y="-7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="T1" gate="G$1" pin="PRIMARY_3"/>
+<pinref part="TRANSFORMER" gate="G$1" pin="PRIMARY_3"/>
 <wire x1="279.4" y1="88.9" x2="269.24" y2="88.9" width="0.1524" layer="91"/>
 <label x="266.7" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -4716,14 +4716,14 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="PRIMARY_2"/>
+<pinref part="TRANSFORMER" gate="G$1" pin="PRIMARY_2"/>
 <wire x1="279.4" y1="91.44" x2="251.46" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="SECONDARY_2"/>
+<pinref part="TRANSFORMER" gate="G$1" pin="SECONDARY_2"/>
 <wire x1="322.58" y1="91.44" x2="350.52" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 </segment>
@@ -4735,7 +4735,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <label x="436.88" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="T1" gate="G$1" pin="SECONDARY_3"/>
+<pinref part="TRANSFORMER" gate="G$1" pin="SECONDARY_3"/>
 <wire x1="322.58" y1="93.98" x2="332.74" y2="93.98" width="0.1524" layer="91"/>
 <label x="332.74" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -4747,7 +4747,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <label x="436.88" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="T1" gate="G$1" pin="SECONDARY_1"/>
+<pinref part="TRANSFORMER" gate="G$1" pin="SECONDARY_1"/>
 <wire x1="322.58" y1="88.9" x2="332.74" y2="88.9" width="0.1524" layer="91"/>
 <label x="332.74" y="88.9" size="1.778" layer="95"/>
 </segment>

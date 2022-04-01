@@ -77,6 +77,9 @@
 <wire x1="67.8434" y1="88.8492" x2="67.818" y2="-0.127" width="0.000203125" layer="20"/>
 <wire x1="67.818" y1="-0.127" x2="0" y2="-0.127" width="0.000203125" layer="20"/>
 <wire x1="0" y1="-0.127" x2="0.0254" y2="88.8492" width="0.000203125" layer="20"/>
+<text x="58.166" y="1.2192" size="0.381" layer="21">Ethan Edwards
+Baja SAE
+WAGMI</text>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
@@ -2500,6 +2503,13 @@ design rules under a new name.</description>
 <vertex x="-7.1882" y="91.2368"/>
 <vertex x="-7.1882" y="90.3986"/>
 </polygon>
+<polygon width="0.1524" layer="1" pour="cutout">
+<vertex x="16.4846" y="71.501"/>
+<vertex x="29.21" y="71.501"/>
+<vertex x="29.21" y="61.4426"/>
+<vertex x="16.4592" y="61.4426"/>
+<vertex x="16.4846" y="61.4426"/>
+</polygon>
 <wire x1="24.0778" y1="49.3054" x2="25.5778" y2="49.5554" width="0" layer="19" extent="1-1"/>
 <wire x1="24.8278" y1="48.0554" x2="24.0778" y2="49.3054" width="0" layer="19" extent="1-1"/>
 <wire x1="25.967" y1="51.181" x2="25.5778" y2="49.5554" width="0" layer="19" extent="1-16"/>
@@ -4231,6 +4241,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
