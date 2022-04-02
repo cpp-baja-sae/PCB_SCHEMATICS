@@ -2402,12 +2402,12 @@ design rules under a new name.</description>
 <wire x1="41.3004" y1="39.1922" x2="41.3258" y2="39.2176" width="0.3048" layer="16"/>
 <wire x1="41.3004" y1="39.1922" x2="41.3004" y2="39.1414" width="0.3048" layer="1"/>
 <wire x1="41.3004" y1="39.1414" x2="40.9904" y2="38.8314" width="0.3048" layer="1" curve="-90"/>
-<wire x1="40.9904" y1="38.8314" x2="38.522" y2="38.8314" width="0.3048" layer="1"/>
 <wire x1="41.3258" y1="46.2026" x2="40.9956" y2="46.5328" width="0.3048" layer="16" curve="90"/>
 <wire x1="40.9956" y1="46.5328" x2="40.6654" y2="46.863" width="0.3048" layer="16" curve="-90"/>
 <wire x1="40.6654" y1="46.863" x2="40.6654" y2="48.1076" width="0.3048" layer="16"/>
 <wire x1="41.3258" y1="39.2176" x2="41.3258" y2="46.2026" width="0.3048" layer="16"/>
-<wire x1="38.522" y1="38.8314" x2="38.4458" y2="38.7552" width="0" layer="19" extent="1-1"/>
+<wire x1="40.9904" y1="38.8314" x2="38.6297625" y2="38.8314" width="0.3048" layer="1"/>
+<wire x1="38.4458" y1="38.7552" x2="38.6297625" y2="38.8314" width="0.3048" layer="1" curve="-45"/>
 </signal>
 <signal name="GND">
 <contactref element="MUX+" pad="8"/>
@@ -2506,10 +2506,11 @@ design rules under a new name.</description>
 <wire x1="20.4938" y1="47.498" x2="24.0778" y2="49.3054" width="0" layer="19" extent="1-16"/>
 <wire x1="42.2148" y1="4.9334" x2="42.1894" y2="4.9334" width="0" layer="19" extent="1-16"/>
 <wire x1="38.4458" y1="40.7052" x2="38.5064" y2="42.8712" width="0" layer="19" extent="1-16"/>
+<wire x1="32.4358" y1="42.9982" x2="35.5092" y2="43.049" width="0" layer="19" extent="16-16"/>
 <wire x1="27.94" y1="4.8826" x2="24.13" y2="4.8826" width="0" layer="19" extent="1-1"/>
 <wire x1="31.0642" y1="51.5834" x2="32.8226" y2="55.4228" width="0" layer="19" extent="1-1"/>
 <wire x1="42.2148" y1="10.3574" x2="42.1894" y2="4.9334" width="0" layer="19" extent="1-16"/>
-<wire x1="65.789" y1="46.6598" x2="65.789" y2="64.4398" width="0" layer="19" extent="1-1"/>
+<wire x1="65.789" y1="46.6598" x2="50.7746" y2="53.6194" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T2-">
 <contactref element="MUX-" pad="15"/>
@@ -2563,11 +2564,11 @@ design rules under a new name.</description>
 <via x="36.6522" y="40.3606" extent="1-16" drill="0.35"/>
 <wire x1="36.6522" y1="40.3606" x2="36.6522" y2="39.1922" width="0.3048" layer="16"/>
 <wire x1="36.6522" y1="39.1922" x2="37.1094" y2="38.735" width="0.3048" layer="16" curve="90"/>
-<wire x1="37.1094" y1="38.735" x2="38.4256" y2="38.735" width="0.3048" layer="16"/>
 <wire x1="4.702" y1="68.1482" x2="8.853896875" y2="68.1482" width="0.3048" layer="1"/>
 <wire x1="8.853896875" y1="68.1482" x2="10.64995" y2="67.40425" width="0.3048" layer="1" curve="-45"/>
 <wire x1="10.64995" y1="67.40425" x2="11.049" y2="67.0052" width="0.3048" layer="1"/>
-<wire x1="38.4458" y1="38.7552" x2="38.4256" y2="38.735" width="0" layer="19" extent="16-16"/>
+<wire x1="37.1094" y1="38.735" x2="38.397034375" y2="38.735" width="0.3048" layer="16"/>
+<wire x1="38.397034375" y1="38.735" x2="38.4458" y2="38.7552" width="0.3048" layer="16" curve="45"/>
 </signal>
 <signal name="T4-">
 <contactref element="MUX-" pad="1"/>

@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -2510,7 +2510,8 @@ design rules under a new name.</description>
 <vertex x="16.4592" y="61.4426"/>
 <vertex x="16.4846" y="61.4426"/>
 </polygon>
-<wire x1="24.0778" y1="49.3054" x2="25.5778" y2="49.5554" width="0" layer="19" extent="1-1"/>
+<wire x1="24.0778" y1="49.3054" x2="25.3278" y2="49.3054" width="0.3048" layer="1"/>
+<wire x1="25.3278" y1="49.3054" x2="25.5778" y2="49.5554" width="0.3048" layer="1" curve="90"/>
 <wire x1="24.8278" y1="48.0554" x2="24.0778" y2="49.3054" width="0" layer="19" extent="1-1"/>
 <wire x1="25.967" y1="51.181" x2="25.5778" y2="49.5554" width="0" layer="19" extent="1-16"/>
 <wire x1="20.4938" y1="47.498" x2="24.0778" y2="49.3054" width="0" layer="19" extent="1-16"/>
