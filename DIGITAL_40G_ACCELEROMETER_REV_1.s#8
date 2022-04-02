@@ -270,6 +270,54 @@
 <wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
 <wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
 </package>
+<package name="RESC1005X35N" urn="urn:adsk.eagle:footprint:34746414/1" library_version="25">
+<description>&lt;b&gt;CPF0402&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.55" y="0" dx="0.7" dy="0.6" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.7" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.15" y1="0.55" x2="1.15" y2="0.55" width="0.05" layer="51"/>
+<wire x1="1.15" y1="0.55" x2="1.15" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="1.15" y1="-0.55" x2="-1.15" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="-1.15" y1="-0.55" x2="-1.15" y2="0.55" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+</package>
+<package name="ERA2AED122X" urn="urn:adsk.eagle:footprint:34746583/1" library_version="25">
+<description>&lt;b&gt;ERA2A_(0402)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.512" y="0" dx="0.5" dy="0.475" layer="1" rot="R90"/>
+<smd name="2" x="0.512" y="0" dx="0.5" dy="0.475" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.2" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.2" layer="51"/>
+<wire x1="-1.25" y1="0.75" x2="1.25" y2="0.75" width="0.1" layer="51"/>
+<wire x1="1.25" y1="0.75" x2="1.25" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-0.75" x2="-1.25" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-0.75" x2="-1.25" y2="0.75" width="0.1" layer="51"/>
+</package>
+<package name="CAPC1005X55N" urn="urn:adsk.eagle:footprint:34744483/1" library_version="25">
+<description>&lt;b&gt;0402 (1005 metric)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.44" y="0" dx="0.65" dy="0.62" layer="1"/>
+<smd name="2" x="0.44" y="0" dx="0.65" dy="0.62" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.915" y1="0.46" x2="0.915" y2="0.46" width="0.05" layer="51"/>
+<wire x1="0.915" y1="0.46" x2="0.915" y2="-0.46" width="0.05" layer="51"/>
+<wire x1="0.915" y1="-0.46" x2="-0.915" y2="-0.46" width="0.05" layer="51"/>
+<wire x1="-0.915" y1="-0.46" x2="-0.915" y2="0.46" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="BGA100C127P10X10_1500X1500X608" urn="urn:adsk.eagle:package:34555055/2" type="model" library_version="9">
@@ -294,6 +342,24 @@
 <description>&lt;b&gt;0603 (1608 metric)&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="CAPC1608X90N"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1005X35N" urn="urn:adsk.eagle:package:34746415/2" type="model" library_version="25">
+<description>&lt;b&gt;CPF0402&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1005X35N"/>
+</packageinstances>
+</package3d>
+<package3d name="ERA2AED122X" urn="urn:adsk.eagle:package:34746584/2" type="model" library_version="25">
+<description>&lt;b&gt;ERA2A_(0402)&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="ERA2AED122X"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC1005X55N" urn="urn:adsk.eagle:package:34744484/2" type="model" library_version="25">
+<description>&lt;b&gt;0402 (1005 metric)&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC1005X55N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -446,6 +512,36 @@
 <pin name="SECONDARY_1" x="43.18" y="-5.08" length="middle" rot="R180"/>
 </symbol>
 <symbol name="JMK107BB7475KA-T" urn="urn:adsk.eagle:symbol:34740155/1" library_version="15">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="CPF0402B1K21E1" urn="urn:adsk.eagle:symbol:34746413/1" library_version="25">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="ERA-2AEB7870X" urn="urn:adsk.eagle:symbol:34746582/1" library_version="25">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="C0402C103J5RECAUTO" urn="urn:adsk.eagle:symbol:34744482/1" library_version="25">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
@@ -681,6 +777,90 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/JMK107BB7475K
 <attribute name="MANUFACTURER_PART_NUMBER" value="JMK107BB7475KA-T" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="963-JMK107BB7475KA-T" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/JMK107BB7475KA-T/?qs=Va%252BXcMGJzEswq6AuVGoq3Q%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPF0402B1K21E1" urn="urn:adsk.eagle:component:34746417/2" prefix="R" library_version="25">
+<description>&lt;b&gt;TE Connectivity CPF Series Precision Thin Film Surface Mount Resistor 0402 Case 1.21k +/-0.1% 0.063W +/-25ppm/C&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CPF0402B1K21E1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X35N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34746415/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="TE Connectivity CPF Series Precision Thin Film Surface Mount Resistor 0402 Case 1.21k +/-0.1% 0.063W +/-25ppm/C" constant="no"/>
+<attribute name="HEIGHT" value="0.35mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPF0402B1K21E1" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERA-2AEB7870X" urn="urn:adsk.eagle:component:34746585/2" prefix="R" library_version="25">
+<description>&lt;b&gt;Metal Thin Film Chip Resistor, 0402, 0.063W&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ERA-2AEB7870X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ERA2AED122X">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34746584/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" constant="no"/>
+<attribute name="HEIGHT" value="0.4mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-2AEB7870X" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C0402C103J5RECAUTO" urn="urn:adsk.eagle:component:34744485/2" prefix="C" library_version="25">
+<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.01uF X7R 0402 5% AEC-Q200&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.kemet.com/specsheet/C0402C103J5RECAUTO"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="C0402C103J5RECAUTO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC1005X55N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34744484/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.01uF X7R 0402 5% AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0402C103J5RECAUTO" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C0402C103J5RECAUT" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C0402C103J5RECAUTO?qs=MLItCLRbWsyFnqqp7gkmMQ%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1039,7 +1219,13 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <part name="R9" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
 <part name="R10" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
 <part name="R11" library="TNPW0402100RBYEP" deviceset="TNPW0402100RBYEP" device="" value="100"/>
-<part name="C4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="JMK107BB7475KA-T" device="" package3d_urn="urn:adsk.eagle:package:34029965/4"/>
+<part name="R12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="CPF0402B1K21E1" device="" package3d_urn="urn:adsk.eagle:package:34746415/2"/>
+<part name="R13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="CPF0402B1K21E1" device="" package3d_urn="urn:adsk.eagle:package:34746415/2"/>
+<part name="R14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="CPF0402B1K21E1" device="" package3d_urn="urn:adsk.eagle:package:34746415/2"/>
+<part name="R15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="ERA-2AEB7870X" device="" package3d_urn="urn:adsk.eagle:package:34746584/2"/>
+<part name="C4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="C0402C103J5RECAUTO" device="" package3d_urn="urn:adsk.eagle:package:34744484/2"/>
+<part name="R16" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
+<part name="R17" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1093,8 +1279,8 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <instance part="GND13" gate="1" x="212.09" y="76.2" smashed="yes" rot="R90">
 <attribute name="VALUE" x="214.63" y="73.66" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND14" gate="1" x="223.52" y="101.6" smashed="yes" rot="R90">
-<attribute name="VALUE" x="226.06" y="99.06" size="1.778" layer="96" rot="R90"/>
+<instance part="GND14" gate="1" x="241.3" y="101.6" smashed="yes" rot="R90">
+<attribute name="VALUE" x="243.84" y="99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND15" gate="1" x="208.28" y="128.27" smashed="yes" rot="R90">
 <attribute name="VALUE" x="210.82" y="125.73" size="1.778" layer="96" rot="R90"/>
@@ -1168,30 +1354,61 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <instance part="R11" gate="G$1" x="233.68" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="231.13851875" y="78.735559375" size="2.54148125" layer="95" rot="R90"/>
 </instance>
+<instance part="R12" gate="G$1" x="165.1" y="93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="168.91" y="80.01" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="166.37" y="80.01" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="R13" gate="G$1" x="172.72" y="93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="176.53" y="80.01" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="173.99" y="80.01" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="R14" gate="G$1" x="190.5" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="184.15" y="146.05" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="186.69" y="146.05" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="R15" gate="G$1" x="200.66" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="194.31" y="146.05" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="196.85" y="146.05" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
 <instance part="C4" gate="G$1" x="195.58" y="76.2" smashed="yes">
-<attribute name="NAME" x="204.47" y="82.55" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="204.47" y="80.01" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="194.31" y="82.55" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="194.31" y="80.01" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="R16" gate="G$1" x="215.9" y="104.14" smashed="yes">
+<attribute name="NAME" x="224.79" y="107.95" size="1.778" layer="95" align="center"/>
+</instance>
+<instance part="R17" gate="G$1" x="215.9" y="111.76" smashed="yes">
+<attribute name="NAME" x="224.79" y="115.57" size="1.778" layer="95" align="center"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="MOSI" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="DIN"/>
 <wire x1="134.62" y1="107.95" x2="157.48" y2="107.95" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="107.95" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="MOSI"/>
-<wire x1="157.48" y1="104.14" x2="175.26" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="104.14" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<label x="165.1" y="106.68" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="MISO" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="MISO"/>
-<wire x1="175.26" y1="101.6" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="101.6" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="101.6" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="101.6" x2="157.48" y2="90.17" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="DOUT"/>
 <wire x1="157.48" y1="90.17" x2="134.62" y2="90.17" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="101.6" x2="172.72" y2="93.98" width="0.1524" layer="91"/>
+<junction x="172.72" y="101.6"/>
+<label x="172.72" y="104.14" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1357,18 +1574,22 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <segment>
 <pinref part="IC2" gate="G$1" pin="MSTR"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="205.74" y1="101.6" x2="212.09" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="SLOW"/>
-<wire x1="212.09" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="104.14" x2="212.09" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="212.09" y1="104.14" x2="212.09" y2="101.6" width="0.1524" layer="91"/>
-<junction x="212.09" y="101.6"/>
+<wire x1="205.74" y1="101.6" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="101.6" x2="238.76" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="104.14" x2="236.22" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="104.14" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
+<junction x="236.22" y="101.6"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
 <wire x1="195.58" y1="121.92" x2="195.58" y2="128.27" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="128.27" x2="205.74" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="128.27" x2="200.66" y2="128.27" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="128.27" x2="205.74" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="132.08" x2="200.66" y2="128.27" width="0.1524" layer="91"/>
+<junction x="200.66" y="128.27"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="EP"/>
@@ -1413,9 +1634,11 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <label x="383.54" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="210.82" y1="76.2" x2="209.55" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="76.2" x2="209.55" y2="76.2" width="0.1524" layer="91"/>
+<junction x="209.55" y="76.2"/>
 </segment>
 </net>
 <net name="DR" class="0">
@@ -1505,6 +1728,15 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <junction x="190.5" y="76.2"/>
 <wire x1="193.04" y1="76.2" x2="193.04" y2="72.39" width="0.1524" layer="91"/>
 <label x="193.04" y="66.04" size="1.778" layer="95" rot="R90"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="76.2" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="73.66" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
+<junction x="185.42" y="76.2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="76.2" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
+<junction x="172.72" y="73.66"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -1574,6 +1806,11 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <wire x1="134.62" y1="31.75" x2="139.7" y2="31.75" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="31.75" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
 <label x="142.24" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="233.68" y1="111.76" x2="241.3" y2="111.76" width="0.1524" layer="91"/>
+<label x="238.76" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -1681,6 +1918,38 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="73.66" x2="233.68" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="73.66" x2="233.68" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ICMP" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="149.86" x2="193.04" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="ICMP"/>
+<wire x1="193.04" y1="149.86" x2="200.66" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="121.92" x2="193.04" y2="149.86" width="0.1524" layer="91"/>
+<junction x="193.04" y="149.86"/>
+<label x="193.04" y="127" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="IBIAS" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="IBIAS"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="121.92" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
+<label x="190.5" y="127" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="SLOW"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="104.14" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="111.76" x2="210.82" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="111.76" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
+<junction x="210.82" y="104.14"/>
 </segment>
 </net>
 </nets>
