@@ -2511,7 +2511,6 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="NMOS_LDO_1" library="SamacSys_Parts" deviceset="RSR025N03HZGTL" device=""/>
 <part name="NMOS_LDO_2" library="SamacSys_Parts" deviceset="RSR025N03HZGTL" device=""/>
 <part name="PMOS_REVERSE_V_PROTECTION" library="DMP3015LSSQ-13" deviceset="DMP3015LSSQ-13" device=""/>
-<part name="X_51" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2572,7 +2571,6 @@ Will mate with a male connector on the board enclosure. </text>
 <attribute name="VALUE" x="34.29" y="-8.89" size="1.778" layer="96"/>
 <attribute name="NAME" x="49.53" y="-24.13" size="1.778" layer="95"/>
 </instance>
-<instance part="X_51" gate="G$1" x="43.18" y="-25.4" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -2590,11 +2588,6 @@ Will mate with a male connector on the board enclosure. </text>
 <wire x1="55.88" y1="30.48" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <junction x="55.88" y="30.48"/>
-</segment>
-<segment>
-<pinref part="PMOS_REVERSE_V_PROTECTION" gate="G$1" pin="G1"/>
-<pinref part="X_51" gate="G$1" pin="0"/>
-<wire x1="43.18" y1="-20.32" x2="43.18" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="4">
@@ -2634,6 +2627,11 @@ Will mate with a male connector on the board enclosure. </text>
 <pinref part="4P_INPUT_CONNECTOR1" gate="A" pin="2"/>
 <wire x1="-43.18" y1="35.56" x2="-38.1" y2="35.56" width="0.1524" layer="91"/>
 <label x="-38.1" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PMOS_REVERSE_V_PROTECTION" gate="G$1" pin="G1"/>
+<wire x1="43.18" y1="-20.32" x2="43.18" y2="-25.4" width="0.1524" layer="91"/>
+<label x="38.1" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VOUT_" class="2">
