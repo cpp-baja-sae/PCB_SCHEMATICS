@@ -947,14 +947,14 @@ design rules under a new name.</description>
 <wire x1="11.215" y1="2.976" x2="29.1338" y2="26.5938" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="IP">
-<contactref element="Z1" pad="4"/>
 <contactref element="T1" pad="1"/>
-<wire x1="10.825" y1="5.406" x2="6.604" y2="8.636" width="0" layer="19" extent="1-1"/>
+<contactref element="Z1" pad="5"/>
+<wire x1="8.395" y1="5.796" x2="6.604" y2="8.636" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IM">
 <contactref element="T1" pad="3"/>
-<contactref element="Z1" pad="5"/>
-<wire x1="8.395" y1="5.796" x2="11.684" y2="8.636" width="0" layer="19" extent="1-1"/>
+<contactref element="Z1" pad="4"/>
+<wire x1="10.825" y1="5.406" x2="11.684" y2="8.636" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V">
 <contactref element="Z1" pad="2"/>

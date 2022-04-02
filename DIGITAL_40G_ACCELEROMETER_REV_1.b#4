@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -78,6 +78,22 @@
 <wire x1="19.03" y1="0" x2="19.03" y2="40.056" width="0" layer="20"/>
 <wire x1="19.03" y1="40.056" x2="0" y2="40.056" width="0" layer="20"/>
 <wire x1="0" y1="40.056" x2="0" y2="0" width="0" layer="20"/>
+<text x="3.048" y="7.112" size="0.6096" layer="25" rot="R90">BAJA SAE 2021-2022
+40G Accelerometer
+Designed By Anthony Bandak</text>
+<circle x="16.256" y="19.304" radius="2.1849875" width="0.3048" layer="25"/>
+<circle x="16.256" y="19.304" radius="0.254" width="0.3048" layer="25"/>
+<wire x1="16.51" y1="19.304" x2="18.288" y2="19.304" width="0.3048" layer="25"/>
+<wire x1="18.288" y1="19.304" x2="18.034" y2="19.558" width="0.3048" layer="25"/>
+<wire x1="18.034" y1="19.05" x2="18.288" y2="19.304" width="0.3048" layer="25"/>
+<wire x1="18.034" y1="19.558" x2="18.034" y2="19.05" width="0.3048" layer="25"/>
+<wire x1="16.51" y1="17.526" x2="16.256" y2="17.272" width="0.3048" layer="25"/>
+<wire x1="16.256" y1="19.05" x2="16.256" y2="17.272" width="0.3048" layer="25"/>
+<wire x1="16.002" y1="17.526" x2="16.51" y2="17.526" width="0.3048" layer="25"/>
+<wire x1="16.256" y1="17.272" x2="16.002" y2="17.526" width="0.3048" layer="25"/>
+<text x="15.3416" y="19.0246" size="0.6096" layer="25">Z</text>
+<text x="16.51" y="17.78" size="0.6096" layer="25">X</text>
+<text x="17.526" y="19.558" size="0.6096" layer="25">Y</text>
 </plain>
 <libraries>
 <library name="SamacSys_Parts" urn="urn:adsk.eagle:library:34029941">
@@ -1300,6 +1316,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
