@@ -2079,6 +2079,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <wire x1="1.3" y1="-0.85" x2="-1.3" y2="-0.85" width="0.2" layer="21"/>
 <circle x="-2.205" y="0.041" radius="0.048" width="0.2" layer="25"/>
 </package>
+<package name="THROUGH_HOLE" library_version="3" library_locally_modified="yes">
+<pad name="THROUGH_HOLE" x="0" y="0" locked="yes" drill="3.048" diameter="6.35"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="ERA2AED122X" urn="urn:adsk.eagle:package:34729076/1" type="box" library_version="3">
@@ -2162,6 +2165,10 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="THROUGH_HOLE" library_version="3" library_locally_modified="yes">
+<pin name="P$1" x="0" y="0" visible="off" length="short" direction="nc"/>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2301,6 +2308,21 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="MOUSER_PART_NUMBER" value="603-RC0402JR-133K3L" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/RC0402JR-133K3L?qs=fPU49sp6fCKWmtEENw96pg%3D%3D" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="THROUGH_HOLE" library_version="3" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="THROUGH_HOLE" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="THROUGH_HOLE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="THROUGH_HOLE"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2488,7 +2510,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="OR" library="SamacSys_Parts" deviceset="SN74LV32ADE4" device="" value="OR"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="SamacSys_Parts" deviceset="ERA-2ARB562X" device="" value="5.6K"/>
-<part name="R2" library="SamacSys_Parts" deviceset="ERA-2ARB562X" device="" value="5.6K"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PS_3.3V" library="SamacSys_Parts" deviceset="LDL1117S33R" device=""/>
@@ -2635,6 +2656,11 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" deviceset="CRG0402ZR" device="" package3d_urn="urn:adsk.eagle:package:34729065/2"/>
+<part name="U$1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" deviceset="THROUGH_HOLE" device=""/>
+<part name="U$2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" deviceset="THROUGH_HOLE" device=""/>
+<part name="U$3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" deviceset="THROUGH_HOLE" device=""/>
+<part name="U$4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" deviceset="THROUGH_HOLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2712,6 +2738,12 @@ unit with analog to digital conversion</text>
 <wire x1="347.98" y1="60.96" x2="347.98" y2="-38.1" width="0.1524" layer="94"/>
 <wire x1="347.98" y1="-38.1" x2="210.82" y2="-38.1" width="0.1524" layer="94"/>
 <text x="294.64" y="-25.4" size="2.54" layer="94">isoSPI (Slave)</text>
+<wire x1="30.48" y1="198.12" x2="30.48" y2="152.4" width="0.1524" layer="94"/>
+<wire x1="30.48" y1="152.4" x2="111.76" y2="152.4" width="0.1524" layer="94"/>
+<wire x1="111.76" y1="152.4" x2="111.76" y2="198.12" width="0.1524" layer="94"/>
+<wire x1="111.76" y1="198.12" x2="30.48" y2="198.12" width="0.1524" layer="94"/>
+<text x="38.1" y="187.96" size="2.54" layer="94">Through hole for board mounting to enclosure.
+For bolt size of 0.12"</text>
 </plain>
 <instances>
 <instance part="MUX+" gate="G$1" x="-114.3" y="25.4" smashed="yes">
@@ -2777,10 +2809,6 @@ unit with analog to digital conversion</text>
 <instance part="R1" gate="G$1" x="-27.94" y="2.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="-34.29" y="8.89" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="-31.75" y="8.89" size="1.778" layer="96" rot="R90" align="center-left"/>
-</instance>
-<instance part="R2" gate="G$1" x="-27.94" y="-30.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="-34.29" y="-24.13" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="-31.75" y="-24.13" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="GND10" gate="1" x="-22.86" y="20.32" smashed="yes">
 <attribute name="VALUE" x="-25.4" y="17.78" size="1.778" layer="96"/>
@@ -3315,6 +3343,22 @@ unit with analog to digital conversion</text>
 <instance part="GND56" gate="1" x="457.2" y="-22.86" smashed="yes">
 <attribute name="VALUE" x="454.66" y="-25.4" size="1.778" layer="96"/>
 </instance>
+<instance part="R2" gate="G$1" x="-27.94" y="-12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="-21.59" y="-21.59" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="-24.13" y="-16.51" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="U$1" gate="G$1" x="43.18" y="180.34" smashed="yes">
+<attribute name="NAME" x="38.1" y="182.88" size="1.778" layer="95"/>
+</instance>
+<instance part="U$2" gate="G$1" x="43.18" y="172.72" smashed="yes">
+<attribute name="NAME" x="38.1" y="175.26" size="1.778" layer="95"/>
+</instance>
+<instance part="U$3" gate="G$1" x="43.18" y="165.1" smashed="yes">
+<attribute name="NAME" x="38.1" y="167.64" size="1.778" layer="95"/>
+</instance>
+<instance part="U$4" gate="G$1" x="43.18" y="157.48" smashed="yes">
+<attribute name="NAME" x="38.1" y="160.02" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3343,26 +3387,18 @@ unit with analog to digital conversion</text>
 <label x="-124.46" y="-17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="-12.7" x2="180.34" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="COLD_JUNCTION" gate="G$1" pin="T-"/>
-<wire x1="182.88" y1="10.16" x2="170.18" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="10.16" x2="165.1" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="10.16" x2="170.18" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="-17.78" x2="180.34" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="170.18" y="10.16"/>
-<junction x="180.34" y="-17.78"/>
+<wire x1="182.88" y1="10.16" x2="165.1" y2="10.16" width="0.1524" layer="91"/>
 <label x="160.02" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="-12.7" x2="-27.94" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="-10.16" x2="-45.72" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="-10.16" x2="-10.16" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="-27.94" y="-10.16"/>
 <label x="-50.8" y="-10.16" size="1.778" layer="95"/>
 <label x="-10.16" y="-10.16" size="1.778" layer="95"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="TEST_CJ+" gate="G$1" pin="1"/>
@@ -3554,9 +3590,9 @@ unit with analog to digital conversion</text>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="-30.48" x2="-27.94" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="PS_12V" gate="G$1" pin="COMMON"/>
@@ -3887,6 +3923,11 @@ unit with analog to digital conversion</text>
 <pinref part="D20" gate="G$1" pin="A"/>
 <wire x1="457.2" y1="-17.78" x2="457.2" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="GND56" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="-12.7" x2="180.34" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="T2-" class="0">
