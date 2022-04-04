@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -74,12 +74,18 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="64.389" y2="-0.127" width="0" layer="20"/>
-<wire x1="64.389" y1="-0.127" x2="64.389" y2="62.23" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="64.389" y2="0" width="0" layer="20"/>
+<wire x1="64.389" y1="0" x2="64.389" y2="62.23" width="0" layer="20"/>
 <wire x1="64.389" y1="62.23" x2="0" y2="62.23" width="0" layer="20"/>
 <wire x1="0" y1="62.23" x2="0" y2="0" width="0" layer="20"/>
 <dimension x1="0" y1="62.23" x2="0" y2="0" x3="-4.318" y3="31.115" textsize="0.5" layer="51" unit="inch"/>
 <dimension x1="64.389" y1="62.23" x2="0" y2="62.23" x3="32.1945" y3="65.278" textsize="0.5" layer="51" unit="inch"/>
+<text x="62.5856" y="18.288" size="0.8128" layer="25" rot="R90">BAJA SAE 2021-2022
+Power Module
+Designed By Jovany Zepeda</text>
+<text x="33.6042" y="60.2742" size="1.016" layer="25">14Vout</text>
+<text x="32.5628" y="40.1574" size="1.016" layer="25">6.5Vout</text>
+<text x="33.0454" y="20.3962" size="1.016" layer="25">5Vout</text>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
@@ -1090,7 +1096,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA4F4C0G2W222J085AE" x="-43.83" y="108.073" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA4F4C0G2W222J0" x="-43.83" y="108.073" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA4F4C0G2W222J085AE?qs=r5DSvlrkXmLC8kBBrA0jlw%3D%3D" x="-43.83" y="108.073" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="29.62" y="11.713" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="29.9756" y="11.586" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C_DEC_CH_GND_1" library="SamacSys_Parts" package="CAPC2012X100N" value="CGA4F4C0G2W222J085AE" x="5.607" y="37.021" smashed="yes">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 450V 2.2nF 5% SOFT C0G AEC-Q200" x="88.157" y="-56.959" size="1.778" layer="27" display="off"/>
@@ -1099,7 +1105,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA4F4C0G2W222J085AE" x="88.157" y="-56.959" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA4F4C0G2W222J0" x="88.157" y="-56.959" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA4F4C0G2W222J085AE?qs=r5DSvlrkXmLC8kBBrA0jlw%3D%3D" x="88.157" y="-56.959" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="8.131" y="37.227" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="6.8864" y="35.703" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C_DEC_CH_GND_2" library="SamacSys_Parts" package="CAPC7563X250N" value="CGADN3X7R1E476M230LE" x="5.325" y="31.67" smashed="yes">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT SOFT 3025 25V 47uF X7R 20% AEC-Q200" x="45.965" y="-7.7" size="1.778" layer="27" display="off"/>
@@ -1108,7 +1114,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGADN3X7R1E476M230LE" x="45.965" y="-7.7" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGADN3X7R1E476ME" x="45.965" y="-7.7" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGADN3X7R1E476ME" x="45.965" y="-7.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="10.517" y="31.7" size="0.4064" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="10.136" y="31.5984" size="0.4064" layer="25" rot="R270" align="center"/>
 </element>
 <element name="C_F_" library="SamacSys_Parts" package="CAPC1005X55N" value="CGA2B2C0G1H470J050BA" x="28.408" y="54.183" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="MLCC CGA 0402 C0G 47pF 50V Automotive TDK 0402 CGA2 47pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-5%" x="-69.382" y="151.973" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1135,7 +1141,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B2C0G1H470J050BA" x="-19.25" y="113.303" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA2B2C0G1H470J" x="-19.25" y="113.303" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA2B2C0G1H470J050BA?qs=LcTL%2F5vFEzEvUQdRA7EAJA%3D%3D" x="-19.25" y="113.303" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="30.25" y="13.983" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="30.3008" y="13.856" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C_IN_1_" library="SamacSys_Parts" package="CAPC2012X145N" value="CGA4J1X7R1E475K125AE" x="25.832" y="57.008" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 4.7uF 25volts X7R 10% Soft Term" x="-77.038" y="7.478" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1144,7 +1150,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J1X7R1E475K125AE" x="-77.038" y="7.478" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA4J1X7R1E475KA" x="-77.038" y="7.478" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA4J1X7R1E475K125AE/?qs=nQSIdc08i%252BfhTtI2X7XptA%3D%3D" x="-77.038" y="7.478" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="25.682" y="58.968" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="25.3772" y="58.9426" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="C_IN_1_1" library="SamacSys_Parts" package="CAPC2012X145N" value="CGA4J1X7R1E475K125AE" x="25.318" y="37.466" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 4.7uF 25volts X7R 10% Soft Term" x="-77.552" y="-36.194" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1171,7 +1177,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J1X7R1E475K125AE" x="-77.236" y="31.608" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA4J1X7R1E475KA" x="-77.236" y="31.608" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA4J1X7R1E475K125AE/?qs=nQSIdc08i%252BfhTtI2X7XptA%3D%3D" x="-77.236" y="31.608" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="28.084" y="58.998" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="28.1348" y="58.9472" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="C_IN_2_1" library="SamacSys_Parts" package="CAPC2012X145N" value="CGA4J1X7R1E475K125AE" x="27.426" y="37.466" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 4.7uF 25volts X7R 10% Soft Term" x="-77.984" y="-12.064" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1207,7 +1213,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J1X7R1E475K125AE" x="154.993" y="63.101" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA4J1X7R1E475KA" x="154.993" y="63.101" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA4J1X7R1E475K125AE/?qs=nQSIdc08i%252BfhTtI2X7XptA%3D%3D" x="154.993" y="63.101" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="47.173" y="34.461" size="0.4064" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="47.046" y="40.9634" size="0.4064" layer="25" rot="R270" align="center"/>
 </element>
 <element name="C_OUT_1_2" library="SamacSys_Parts" package="CAPC2012X145N" value="CGA4J1X7R1E475K125AE" x="48.97" y="17.053" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 4.7uF 25volts X7R 10% Soft Term" x="-58.98" y="-32.477" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1234,7 +1240,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J1X7R1E475K125AE" x="157.045334375" y="135.491" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA4J1X7R1E475KA" x="157.045334375" y="135.491" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA4J1X7R1E475K125AE/?qs=nQSIdc08i%252BfhTtI2X7XptA%3D%3D" x="157.045334375" y="135.491" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="49.082" y="34.554334375" size="0.4064" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="49.4376" y="40.878934375" size="0.4064" layer="25" rot="R270" align="center"/>
 </element>
 <element name="C_OUT_2_2" library="SamacSys_Parts" package="CAPC2012X145N" value="CGA4J1X7R1E475K125AE" x="51.304665625" y="17.053" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 4.7uF 25volts X7R 10% Soft Term" x="-59.185334375" y="-8.347" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1261,7 +1267,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J1X7R1E475K125AE" x="161.63766875" y="111.361" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA4J1X7R1E475KA" x="161.63766875" y="111.361" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA4J1X7R1E475K125AE/?qs=nQSIdc08i%252BfhTtI2X7XptA%3D%3D" x="161.63766875" y="111.361" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="51.171" y="34.47766875" size="0.4064" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="51.1964" y="40.90386875" size="0.4064" layer="25" rot="R270" align="center"/>
 </element>
 <element name="C_OUT_3_2" library="SamacSys_Parts" package="CAPC2012X145N" value="CGA4J1X7R1E475K125AE" x="53.51233125" y="17.053" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 4.7uF 25volts X7R 10% Soft Term" x="-56.97766875" y="-80.737" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1668,23 +1674,23 @@ design rules under a new name.</description>
 <element name="TP_CLK_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="47.702" y="48.063" smashed="yes" rot="R180">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-48.818" y="114.103" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Harwin " x="-48.818" y="114.103" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="48.232" y="46.973" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="48.6384" y="47.0746" size="0.5" layer="25" rot="R180"/>
 <attribute name="TYPE" value="TEST POINT" x="-48.818" y="114.103" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-48.818" y="114.103" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP_CLK_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="48.527" y="28.642" smashed="yes">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="155.207" y="-37.398" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Harwin " x="155.207" y="-37.398" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="47.048" y="29.645" size="0.5" layer="25"/>
+<attribute name="NAME" x="46.7178" y="29.7466" size="0.5" layer="25"/>
 <attribute name="TYPE" value="TEST POINT" x="155.207" y="-37.398" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="155.207" y="-37.398" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP_CLK_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="49.962" y="9.573" smashed="yes" rot="R180">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="28.372" y="81.963" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Harwin " x="28.372" y="81.963" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="48.402" y="10.783" size="0.5" layer="25"/>
-<attribute name="TYPE" value="TEST POINT" x="28.372" y="81.963" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="28.372" y="81.963" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="TP_CLK_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="49.581" y="9.3444" smashed="yes" rot="R180">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="27.991" y="81.7344" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Harwin " x="27.991" y="81.7344" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="47.9448" y="10.5544" size="0.5" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="27.991" y="81.7344" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="27.991" y="81.7344" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP_D1_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="33.27" y="44.713" smashed="yes" rot="MR0">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="1.52" y="-27.677" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1794,7 +1800,7 @@ design rules under a new name.</description>
 <element name="TP_GND2_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="54.53" y="46.406" smashed="yes" rot="R90">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="114.22" y="113.716" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Harwin " x="114.22" y="113.716" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="55.84" y="46.206" size="0.5" layer="25"/>
+<attribute name="NAME" x="55.6876" y="46.7394" size="0.5" layer="25"/>
 <attribute name="TYPE" value="TEST POINT" x="114.22" y="113.716" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="114.22" y="113.716" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -1805,33 +1811,33 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="TEST POINT" x="79.692" y="-14.623" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="79.692" y="-14.623" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP_GND2_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="57.612" y="9.5935" smashed="yes" rot="R180">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="9.352" y="62.9335" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Harwin " x="9.352" y="62.9335" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="57.149" y="10.9125" size="0.5" layer="25"/>
-<attribute name="TYPE" value="TEST POINT" x="9.352" y="62.9335" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="9.352" y="62.9335" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="TP_GND2_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="58.3232" y="9.4411" smashed="yes" rot="R180">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="10.0632" y="62.7811" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Harwin " x="10.0632" y="62.7811" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="57.3014" y="10.6077" size="0.5" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="10.0632" y="62.7811" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="10.0632" y="62.7811" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP_GND3_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="47.635" y="45.479" smashed="yes">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="126.375" y="-14.211" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Harwin " x="126.375" y="-14.211" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="45.895" y="43.829" size="0.5" layer="25"/>
+<attribute name="NAME" x="45.7172" y="43.9052" size="0.5" layer="25"/>
 <attribute name="TYPE" value="TEST POINT" x="126.375" y="-14.211" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="126.375" y="-14.211" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP_GND3_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="48.4995" y="26.188" smashed="yes">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="109.4595" y="-27.152" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Harwin " x="109.4595" y="-27.152" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="46.5995" y="27.358" size="0.5" layer="25"/>
-<attribute name="TYPE" value="TEST POINT" x="109.4595" y="-27.152" size="1.778" layer="27" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="109.4595" y="-27.152" size="1.778" layer="27" display="off"/>
+<element name="TP_GND3_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="48.4487" y="25.807" smashed="yes">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="109.4087" y="-27.533" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Harwin " x="109.4087" y="-27.533" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="46.5487" y="26.977" size="0.5" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="109.4087" y="-27.533" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="109.4087" y="-27.533" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP_GND3_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="49.85225" y="6.612" smashed="yes">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="123.51225" y="-46.728" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Harwin " x="123.51225" y="-46.728" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="47.85225" y="4.812" size="0.5" layer="25"/>
-<attribute name="TYPE" value="TEST POINT" x="123.51225" y="-46.728" size="1.778" layer="27" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="123.51225" y="-46.728" size="1.778" layer="27" display="off"/>
+<element name="TP_GND3_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="49.67445" y="6.1294" smashed="yes">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="123.33445" y="-47.2106" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Harwin " x="123.33445" y="-47.2106" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="47.67445" y="4.3294" size="0.5" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="123.33445" y="-47.2106" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="123.33445" y="-47.2106" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP_GND4_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="52.787" y="58.041" smashed="yes" rot="MR180">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="142.957" y="117.731" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2026,12 +2032,12 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CEU4J2X7R1H683K125AE" x="39.396" y="54.077" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="39.396" y="54.077" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="39.396" y="54.077" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="52.256" y="49.477" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="52.2306" y="49.3754" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="TP_CLK_FILTER_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="51.436" y="45.479" smashed="yes">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="39.486" y="37.379" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Harwin " x="39.486" y="37.379" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="48.716" y="46.779" size="0.5" layer="25"/>
+<attribute name="NAME" x="50.1638" y="43.858" size="0.5" layer="25"/>
 <attribute name="TYPE" value="TEST POINT" x="39.486" y="37.379" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="39.486" y="37.379" size="1.778" layer="27" display="off"/>
 </element>
@@ -2079,7 +2085,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="JMK107BB7475KA-T" x="27.194" y="31.23675" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="963-JMK107BB7475KA-T" x="27.194" y="31.23675" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/JMK107BB7475KA-T/?qs=Va%252BXcMGJzEswq6AuVGoq3Q%3D%3D" x="27.194" y="31.23675" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="1.97825" y="50.611" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="2.30845" y="50.611" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="C_LDO_IN_" library="SamacSys_Parts" package="CAPC1608X90N" value="CGA3E1X7R1V105K080AC" x="5.701" y="39.0185" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 1uF 35volts X7R 10% T=0.8mm" x="35.351" y="28.8685" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2121,7 +2127,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B2C0G1H102J050BE" x="66.015" y="33.793" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA2B2C0G1H102J5" x="66.015" y="33.793" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA2B2C0G1H102J050BE?qs=P1JMDcb91o7BA6xd7%2FtTJw%3D%3D" x="66.015" y="33.793" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="29.875" y="24.543" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="30.383" y="27.3878" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="R_LS_DRAIN_1" library="SamacSys_Parts" package="RESC1005X37N" value="MCS0402MD1002DE000" x="28.63" y="26.273" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="66.93" y="40.923" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2130,7 +2136,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="66.93" y="40.923" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="66.93" y="40.923" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="66.93" y="40.923" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="28.11" y="24.703" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="26.967" y="24.7538" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="TP_FAULT_LS_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="28.77" y="28.823" smashed="yes" rot="R180">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="55.67" y="15.123" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2144,7 +2150,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Thick Film Resistors - SMD 10kOhms 1/8W 0805 0.5% AEC-Q200 " x="6.415" y="33.023" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="YAGEO" x="6.415" y="33.023" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="AC0805DR-0710KL" x="6.415" y="33.023" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="47.424" y="31.895" size="0.4064" layer="25"/>
+<attribute name="NAME" x="46.5604" y="32.7586" size="0.4064" layer="25"/>
 <attribute name="PACKAGE" value="None" x="6.415" y="33.023" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="6.415" y="33.023" size="1.778" layer="27" display="off"/>
 </element>
@@ -2155,7 +2161,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="-0.928" y="29.627" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="-0.928" y="29.627" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="-0.928" y="29.627" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="52.702" y="32.907" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="54.2768" y="32.7292" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="C_68N_FILTER_1" library="SamacSys_Parts" package="CAPC2013X150N" value="CEU4J2X7R1H683K125AE" x="51.5" y="27.972" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=68nF, LxWxT:2x1.25x1.25mm" x="55.55" y="81.922" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2164,14 +2170,14 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CEU4J2X7R1H683K125AE" x="55.55" y="81.922" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="55.55" y="81.922" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="55.55" y="81.922" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="52.93" y="27.002" size="0.4064" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="54.8622" y="28.3936" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP_CLK_FILTER_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="53.441" y="26.48225" smashed="yes" rot="R270">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="29.191" y="80.38225" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Harwin " x="29.191" y="80.38225" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="55.245" y="24.75725" size="0.5" layer="25" rot="R90"/>
-<attribute name="TYPE" value="TEST POINT" x="29.191" y="80.38225" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="29.191" y="80.38225" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="TP_CLK_FILTER_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="53.441" y="25.84725" smashed="yes" rot="R270">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="29.191" y="79.74725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Harwin " x="29.191" y="79.74725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="49.95405" y="23.3934" size="0.5" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="29.191" y="79.74725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="29.191" y="79.74725" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R_LS_GATE_2" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="34.46" y="9.973" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="In Stock" x="49.41" y="37.673" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2190,7 +2196,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B2C0G1H102J050BE" x="66.76" y="13.3555" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA2B2C0G1H102J5" x="66.76" y="13.3555" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA2B2C0G1H102J050BE?qs=P1JMDcb91o7BA6xd7%2FtTJw%3D%3D" x="66.76" y="13.3555" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="29.8575" y="6.853" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="30.7211" y="6.8276" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="R_LS_DRAIN_2" library="SamacSys_Parts" package="RESC1005X37N" value="MCS0402MD1002DE000" x="29.02" y="5.723" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="67.32" y="20.373" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2199,12 +2205,12 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="67.32" y="20.373" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="67.32" y="20.373" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="67.32" y="20.373" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="26.81" y="3.963" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="27.8768" y="4.2424" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="TP_FAULT_LS_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="29.27" y="8.123" smashed="yes" rot="R180">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="56.17" y="-5.577" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Harwin " x="56.17" y="-5.577" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="26.56" y="7.443" size="0.5" layer="25" rot="R90"/>
+<attribute name="NAME" x="27.2204" y="6.427" size="0.5" layer="25" rot="R90"/>
 <attribute name="TYPE" value="TEST POINT" x="56.17" y="-5.577" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="56.17" y="-5.577" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -2217,30 +2223,30 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="None" x="7.977" y="13.975" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="7.977" y="13.975" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R_5K_FILTER_\2" library="SamacSys_Parts" package="RESC3116X65N" value="RT1206BRD075KL" x="54.362" y="11.915" smashed="yes">
-<attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" x="1.012" y="10.365" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.65mm" x="1.012" y="10.365" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="1.012" y="10.365" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="1.012" y="10.365" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="1.012" y="10.365" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="1.012" y="10.365" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="54.402" y="13.448" size="0.4064" layer="25" align="center"/>
+<element name="R_5K_FILTER_\2" library="SamacSys_Parts" package="RESC3116X65N" value="RT1206BRD075KL" x="54.362" y="12.1944" smashed="yes">
+<attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" x="1.012" y="10.6444" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.65mm" x="1.012" y="10.6444" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="1.012" y="10.6444" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="1.012" y="10.6444" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="1.012" y="10.6444" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="1.012" y="10.6444" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="54.529" y="13.7782" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="C_68N_FILTER_2" library="SamacSys_Parts" package="CAPC2013X150N" value="CEU4J2X7R1H683K125AE" x="53.881" y="9.49" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=68nF, LxWxT:2x1.25x1.25mm" x="-0.069" y="13.54" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.5mm" x="-0.069" y="13.54" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="-0.069" y="13.54" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CEU4J2X7R1H683K125AE" x="-0.069" y="13.54" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-0.069" y="13.54" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-0.069" y="13.54" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="54.161" y="10.85" size="0.4064" layer="25" align="center"/>
+<element name="C_68N_FILTER_2" library="SamacSys_Parts" package="CAPC2013X150N" value="CEU4J2X7R1H683K125AE" x="53.8302" y="8.982" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=68nF, LxWxT:2x1.25x1.25mm" x="-0.1198" y="13.032" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.5mm" x="-0.1198" y="13.032" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-0.1198" y="13.032" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CEU4J2X7R1H683K125AE" x="-0.1198" y="13.032" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-0.1198" y="13.032" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-0.1198" y="13.032" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="54.1102" y="10.342" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="TP_CLK_FILTER_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="53.871875" y="6.485" smashed="yes" rot="R180">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="107.771875" y="30.735" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Harwin " x="107.771875" y="30.735" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="50.781875" y="7.645" size="0.5" layer="25"/>
-<attribute name="TYPE" value="TEST POINT" x="107.771875" y="30.735" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="107.771875" y="30.735" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="TP_CLK_FILTER_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="53.846475" y="6.1548" smashed="yes" rot="R180">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="107.746475" y="30.4048" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Harwin " x="107.746475" y="30.4048" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="50.756475" y="7.3148" size="0.5" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="107.746475" y="30.4048" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="107.746475" y="30.4048" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED_" library="SamacSys_Parts" package="APT1608CGCK" value="APTD1608LCGCK" x="55.521" y="50.4" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 0603 Dome Lens LED Green- 570nm" x="58.071" y="54.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2276,7 +2282,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="52.778003125" y="30.591" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="52.778003125" y="30.591" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="52.778003125" y="30.591" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="51.617996875" y="35.551" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="52.7648" y="40.594396875" size="0.4064" layer="25" rot="R270" align="center"/>
 </element>
 <element name="LED_1" library="SamacSys_Parts" package="APT1608CGCK" value="APTD1608LCGCK" x="54.399" y="38.774" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 0603 Dome Lens LED Green- 570nm" x="54.399" y="27.874" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2347,183 +2353,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="4.141" y="25.089" size="1.27" layer="27" ratio="10" rot="R270" align="top-left"/>
 </element>
 <element name="U$1" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="4.191" y="4.191" smashed="yes"/>
-<element name="U$2" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="60.198" y="4.064" smashed="yes"/>
+<element name="U$2" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="60.198" y="4.191" smashed="yes"/>
 <element name="U$3" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="60.198" y="57.912" smashed="yes"/>
 <element name="U$4" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="4.191" y="58.039" smashed="yes" rot="R180"/>
 </elements>
 <signals>
-<signal name="GND" class="1">
-<contactref element="12P_OUTPUT_CONNECTOR1" pad="8"/>
-<contactref element="12P_OUTPUT_CONNECTOR1" pad="10"/>
-<contactref element="12P_OUTPUT_CONNECTOR1" pad="12"/>
-<contactref element="R_SHUNT_GND_" pad="2"/>
-<contactref element="TP_GND_" pad="1"/>
-<contactref element="LT3579_IC_" pad="20"/>
-<contactref element="R_SHUNT_GND_1" pad="2"/>
-<contactref element="TP_GND_1" pad="1"/>
-<contactref element="LT3579_IC_1" pad="20"/>
-<contactref element="R_SHUNT_GND_2" pad="2"/>
-<contactref element="TP_GND_2" pad="1"/>
-<contactref element="LT3579_IC_2" pad="20"/>
-<contactref element="LDO_" pad="1"/>
-<contactref element="R_UVLO2_" pad="1"/>
-<contactref element="C_SS_" pad="2"/>
-<contactref element="C_F_" pad="2"/>
-<contactref element="C_C_" pad="2"/>
-<contactref element="R_T_" pad="2"/>
-<contactref element="L1L2_" pad="4"/>
-<contactref element="C_IN_2_" pad="2"/>
-<contactref element="C_IN_1_" pad="2"/>
-<contactref element="C_OUT_1_" pad="2"/>
-<contactref element="C_OUT_2_" pad="2"/>
-<contactref element="C_OUT_3_" pad="2"/>
-<contactref element="LT3579_IC_" pad="21"/>
-<contactref element="TP_GND1_" pad="1"/>
-<contactref element="TP_GND2_" pad="1"/>
-<contactref element="TP_GND3_" pad="1"/>
-<contactref element="TP_GND4_" pad="1"/>
-<contactref element="R_UVLO2_1" pad="1"/>
-<contactref element="C_SS_1" pad="2"/>
-<contactref element="C_F_1" pad="2"/>
-<contactref element="C_C_1" pad="2"/>
-<contactref element="R_T_1" pad="2"/>
-<contactref element="L1L2_1" pad="4"/>
-<contactref element="C_IN_2_1" pad="2"/>
-<contactref element="C_IN_1_1" pad="2"/>
-<contactref element="C_OUT_1_1" pad="2"/>
-<contactref element="C_OUT_2_1" pad="2"/>
-<contactref element="C_OUT_3_1" pad="2"/>
-<contactref element="LT3579_IC_1" pad="21"/>
-<contactref element="TP_GND1_1" pad="1"/>
-<contactref element="TP_GND2_1" pad="1"/>
-<contactref element="TP_GND3_1" pad="1"/>
-<contactref element="TP_GND4_1" pad="1"/>
-<contactref element="R_UVLO2_2" pad="1"/>
-<contactref element="C_SS_2" pad="2"/>
-<contactref element="C_F_2" pad="2"/>
-<contactref element="C_C_2" pad="2"/>
-<contactref element="R_T_2" pad="2"/>
-<contactref element="L1L2_2" pad="4"/>
-<contactref element="C_IN_2_2" pad="2"/>
-<contactref element="C_IN_1_2" pad="2"/>
-<contactref element="C_OUT_1_2" pad="2"/>
-<contactref element="C_OUT_2_2" pad="2"/>
-<contactref element="C_OUT_3_2" pad="2"/>
-<contactref element="LT3579_IC_2" pad="21"/>
-<contactref element="TP_GND1_2" pad="1"/>
-<contactref element="TP_GND2_2" pad="1"/>
-<contactref element="TP_GND3_2" pad="1"/>
-<contactref element="TP_GND4_2" pad="1"/>
-<contactref element="C_68N_FILTER_" pad="2"/>
-<contactref element="R_5K_FILTER_\" pad="2"/>
-<contactref element="C_LDO_IN_" pad="2"/>
-<contactref element="C_LDO_OUT_" pad="2"/>
-<contactref element="C_LS_" pad="2"/>
-<contactref element="C_LS_1" pad="2"/>
-<contactref element="C_68N_FILTER_1" pad="2"/>
-<contactref element="R_5K_FILTER_\1" pad="2"/>
-<contactref element="C_LS_2" pad="2"/>
-<contactref element="C_68N_FILTER_2" pad="2"/>
-<contactref element="R_5K_FILTER_\2" pad="2"/>
-<contactref element="LED_" pad="2"/>
-<contactref element="LED_1" pad="2"/>
-<contactref element="LED_2" pad="2"/>
-<contactref element="NMOS_LDO_" pad="2"/>
-<contactref element="NMOS_LDO_1" pad="2"/>
-<contactref element="NMOS_LDO_2" pad="2"/>
-<polygon width="0.1524" layer="16" isolate="0.25">
-<vertex x="19.193" y="62.373"/>
-<vertex x="19.193" y="43.13069375" curve="90"/>
-<vertex x="20.03269375" y="42.291"/>
-<vertex x="65.985" y="42.291"/>
-<vertex x="65.985" y="62.373"/>
-</polygon>
-<polygon width="0.127" layer="1" isolate="0.25">
-<vertex x="-0.319525" y="51.481"/>
-<vertex x="-0.319525" y="39.443103125" curve="90"/>
-<vertex x="0.942578125" y="38.181"/>
-<vertex x="4.617221875" y="38.181" curve="90"/>
-<vertex x="5.114" y="38.677778125"/>
-<vertex x="5.114" y="44.697246875" curve="45"/>
-<vertex x="4.98406875" y="45.01093125"/>
-<vertex x="4.414" y="45.581"/>
-<vertex x="4.414" y="48.881"/>
-<vertex x="5.314" y="49.781"/>
-<vertex x="5.314" y="50.941903125" curve="90"/>
-<vertex x="4.774903125" y="51.481"/>
-</polygon>
-<polygon width="0.127" layer="1" isolate="0.25" rank="2">
-<vertex x="14.12" y="62.173"/>
-<vertex x="65.677" y="62.173"/>
-<vertex x="65.677" y="-0.327"/>
-<vertex x="14.12" y="-0.327"/>
-</polygon>
-<via x="22.86" y="6.604" extent="1-16" drill="0.4"/>
-<via x="32.258" y="5.842" extent="1-16" drill="0.4"/>
-<via x="44.323" y="3.048" extent="1-16" drill="0.4"/>
-<via x="52.324" y="4.318" extent="1-16" drill="0.4"/>
-<via x="52.197" y="20.32" extent="1-16" drill="0.4"/>
-<via x="59.944" y="15.113" extent="1-16" drill="0.4"/>
-<via x="48.387" y="4.064" extent="1-16" drill="0.4"/>
-<via x="51.435" y="25.4" extent="1-16" drill="0.4"/>
-<via x="44.45" y="59.563" extent="1-16" drill="0.4"/>
-<via x="28.448" y="60.452" extent="1-16" drill="0.4"/>
-<via x="50.8" y="59.563" extent="1-16" drill="0.4"/>
-<via x="52.07" y="60.071" extent="1-16" drill="0.4"/>
-<via x="25.019" y="34.798" extent="1-16" drill="0.4"/>
-<via x="44.069" y="40.894" extent="1-16" drill="0.4"/>
-<via x="47.752" y="43.561" extent="1-16" drill="0.4"/>
-<via x="26.035" y="54.483" extent="1-16" drill="0.4"/>
-<via x="54.483" y="43.815" extent="1-16" drill="0.4"/>
-<via x="29.21" y="14.478" extent="1-16" drill="0.4"/>
-<via x="22.86" y="9.398" extent="1-16" drill="0.4"/>
-<via x="45.974" y="20.701" extent="1-16" drill="0.4"/>
-<via x="62.357" y="29.972" extent="1-16" drill="0.4"/>
-<polygon width="0.127" layer="2" isolate="0.25">
-<vertex x="9.064" y="39.028115625" curve="-90"/>
-<vertex x="18.716884375" y="48.681"/>
-<vertex x="24.79814375" y="48.681" curve="90"/>
-<vertex x="25.122" y="49.00485625"/>
-<vertex x="25.122" y="62"/>
-<vertex x="24.822" y="62.3"/>
-<vertex x="-0.1" y="62.3"/>
-<vertex x="-0.1" y="38.4"/>
-<vertex x="0.219" y="38.081"/>
-<vertex x="8.116884375" y="38.081" curve="90"/>
-</polygon>
-<via x="1.778" y="41.021" extent="1-16" drill="0.35"/>
-<via x="1.778" y="44.069" extent="1-16" drill="0.35"/>
-<via x="1.905" y="47.625" extent="1-16" drill="0.35"/>
-<via x="2.413" y="49.911" extent="1-16" drill="0.35"/>
-<via x="23.495" y="53.848" extent="1-16" drill="0.35"/>
-<via x="23.241" y="50.546" extent="1-16" drill="0.35"/>
-<via x="3.175" y="39.37" extent="1-16" drill="0.35"/>
-<via x="55.372" y="4.445" extent="1-16" drill="0.35"/>
-<via x="56.642" y="7.112" extent="1-16" drill="0.35"/>
-<via x="62.103" y="23.241" extent="1-16" drill="0.35"/>
-<via x="60.071" y="9.906" extent="1-16" drill="0.35"/>
-<via x="59.944" y="19.304" extent="1-16" drill="0.35"/>
-<via x="62.969" y="34.671" extent="1-16" drill="0.35"/>
-<via x="41.402" y="60.452" extent="1-16" drill="0.35"/>
-<via x="42.926" y="59.69" extent="1-16" drill="0.35"/>
-<via x="53.975" y="59.563" extent="1-16" drill="0.35"/>
-<via x="48.006" y="59.817" extent="1-16" drill="0.35"/>
-<polygon width="0.127" layer="16">
-<vertex x="19.177" y="23.2936125"/>
-<vertex x="19.177" y="41.275" curve="-90"/>
-<vertex x="19.812" y="41.91"/>
-<vertex x="66.04" y="41.91"/>
-<vertex x="66.04" y="22.86"/>
-<vertex x="19.6106125" y="22.86" curve="-90"/>
-</polygon>
-<polygon width="0.127" layer="16">
-<vertex x="66.04" y="22.479"/>
-<vertex x="19.812" y="22.479" curve="90"/>
-<vertex x="19.177" y="21.844"/>
-<vertex x="19.177" y="-0.635"/>
-<vertex x="66.04" y="-0.635"/>
-</polygon>
-</signal>
 <signal name="VIN" class="4">
 <contactref element="C_DEC_CH_GND_1" pad="2"/>
 <contactref element="C_DEC_CH_GND_2" pad="2"/>
@@ -2566,9 +2400,9 @@ design rules under a new name.</description>
 <wire x1="27.325" y1="18.108" x2="30.41" y2="18.108" width="0.816" layer="1"/>
 <wire x1="30.41" y1="18.108" x2="30.61" y2="17.908" width="0.816" layer="1"/>
 <wire x1="31.885" y1="17.908" x2="30.61" y2="17.908" width="0.816" layer="1"/>
-<wire x1="11.333" y1="43.327" x2="11.333" y2="59.3582" width="0.816" layer="1"/>
-<wire x1="11.333" y1="59.3582" x2="12.2478" y2="60.273" width="0.816" layer="1" curve="-90"/>
-<wire x1="12.2478" y1="60.273" x2="22.035875" y2="60.273" width="0.816" layer="1"/>
+<wire x1="11.333" y1="43.327" x2="11.333" y2="57.4178875" width="0.816" layer="1"/>
+<wire x1="11.333" y1="57.4178875" x2="14.1881125" y2="60.273" width="0.816" layer="1" curve="-90"/>
+<wire x1="14.1881125" y1="60.273" x2="22.035875" y2="60.273" width="0.816" layer="1"/>
 <wire x1="22.035875" y1="60.273" x2="24.64966875" y2="59.19033125" width="0.816" layer="1" curve="-45.000034"/>
 <wire x1="24.64966875" y1="59.19033125" x2="25.832" y2="58.008" width="0.816" layer="1"/>
 <wire x1="31.56899375" y1="57.613" x2="34.3470625" y2="57.613" width="0.1524" layer="1"/>
@@ -2759,14 +2593,14 @@ design rules under a new name.</description>
 <wire x1="48.462" y1="56.173" x2="50.498" y2="56.173" width="0.816" layer="1"/>
 <wire x1="50.498" y1="56.173" x2="51.48679375" y2="56.173" width="0.816" layer="1"/>
 <wire x1="51.48679375" y1="56.173" x2="52.881" y2="55.5955" width="0.816" layer="1" curve="-45"/>
-<wire x1="59.792" y1="51.587" x2="59.792" y2="33.449" width="0.816" layer="1"/>
+<wire x1="56.465809375" y1="54.913190625" x2="59.792" y2="46.88305625" width="0.816" layer="1" curve="-45"/>
+<wire x1="59.792" y1="46.88305625" x2="59.792" y2="33.449" width="0.816" layer="1"/>
 <wire x1="59.866" y1="33.375" x2="59.792" y2="33.449" width="0.816" layer="1"/>
 <wire x1="59.866" y1="33.375" x2="59.811" y2="33.32" width="0.816" layer="16"/>
 <wire x1="59.811" y1="33.32" x2="58.224" y2="33.32" width="0.816" layer="16"/>
 <wire x1="52.881" y1="55.5955" x2="52.9775" y2="55.499" width="0.816" layer="1"/>
 <wire x1="52.9775" y1="55.499" x2="55.051540625" y2="55.499" width="0.816" layer="1"/>
 <wire x1="55.051540625" y1="55.499" x2="56.465809375" y2="54.913190625" width="0.816" layer="1" curve="-45"/>
-<wire x1="56.465809375" y1="54.913190625" x2="59.792" y2="51.587" width="0.816" layer="1"/>
 </signal>
 <signal name="CLK_" class="3">
 <contactref element="LT3579_IC_" pad="16"/>
@@ -2850,9 +2684,8 @@ design rules under a new name.</description>
 <contactref element="R_10K_FILTER_2" pad="1"/>
 <wire x1="45.425" y1="12.768" x2="47.419659375" y2="12.768" width="0.1524" layer="1"/>
 <wire x1="47.419659375" y1="12.768" x2="48.972" y2="12.125" width="0.1524" layer="1" curve="-45"/>
-<wire x1="48.972" y1="12.125" x2="49.645371875" y2="11.451628125" width="0.1524" layer="1"/>
-<wire x1="49.645371875" y1="11.451628125" x2="49.962" y2="10.68721875" width="0.1524" layer="1" curve="-45"/>
-<wire x1="49.962" y1="10.68721875" x2="49.962" y2="9.573" width="0.1524" layer="1"/>
+<wire x1="48.972" y1="12.125" x2="49.581" y2="11.516" width="0.1524" layer="1"/>
+<wire x1="49.581" y1="11.516" x2="49.581" y2="9.3444" width="0.1524" layer="1"/>
 </signal>
 <signal name="VOUT_2" class="2">
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="7"/>
@@ -3459,9 +3292,9 @@ design rules under a new name.</description>
 <wire x1="50.366" y1="50.627" x2="50.366" y2="48.077" width="0.1524" layer="1"/>
 <wire x1="50.366" y1="48.077" x2="51.436" y2="45.493790625" width="0.1524" layer="1" curve="-45"/>
 <wire x1="51.436" y1="45.493790625" x2="51.436" y2="45.479" width="0.1524" layer="1"/>
-<via x="62.969" y="37.17563125" extent="1-16" drill="0.35"/>
-<wire x1="62.969" y1="37.17563125" x2="61.49963125" y2="37.17563125" width="0.1524" layer="16"/>
-<wire x1="61.49963125" y1="37.17563125" x2="61.454" y2="37.13" width="0.1524" layer="16"/>
+<via x="62.8674" y="37.20103125" extent="1-16" drill="0.35"/>
+<wire x1="62.8674" y1="37.20103125" x2="61.52503125" y2="37.20103125" width="0.1524" layer="16"/>
+<wire x1="61.52503125" y1="37.20103125" x2="61.454" y2="37.13" width="0.1524" layer="16"/>
 <via x="51.761" y="43.67" extent="1-16" drill="0.35"/>
 <wire x1="51.761" y1="43.67" x2="51.436" y2="44.45461875" width="0.1524" layer="1" curve="-45"/>
 <wire x1="51.436" y1="44.45461875" x2="51.436" y2="45.479" width="0.1524" layer="1"/>
@@ -3497,8 +3330,8 @@ design rules under a new name.</description>
 <wire x1="27.825409375" y1="25.723" x2="28.63" y2="25.723" width="0.816" layer="1"/>
 <wire x1="29.02" y1="5.173" x2="26.701" y2="5.173" width="0.816" layer="1"/>
 <wire x1="26.701" y1="5.173" x2="25.947" y2="5.927" width="0.816" layer="1"/>
-<wire x1="25.42" y1="27.073" x2="25.947" y2="26.546" width="0.816" layer="2"/>
-<wire x1="25.947" y1="26.546" x2="25.947" y2="5.927" width="0.816" layer="2"/>
+<wire x1="25.42" y1="27.073" x2="25.947" y2="25.800709375" width="0.816" layer="2" curve="-45.0001"/>
+<wire x1="25.947" y1="25.800709375" x2="25.947" y2="5.927" width="0.816" layer="2"/>
 <wire x1="6.164" y1="52.781" x2="6.244" y2="52.701" width="0.816" layer="1"/>
 <wire x1="6.244" y1="52.701" x2="6.244" y2="50.58675" width="0.816" layer="1"/>
 <wire x1="6.244" y1="50.58675" x2="6.244" y2="47.451" width="0.816" layer="1"/>
@@ -3529,12 +3362,13 @@ design rules under a new name.</description>
 <wire x1="30.96265" y1="47.273" x2="33.38499375" y2="47.273" width="0.1524" layer="1"/>
 <wire x1="33.38499375" y1="47.273" x2="35.834703125" y2="46.258296875" width="0.1524" layer="1" curve="-45"/>
 <wire x1="35.834703125" y1="46.258296875" x2="36.12" y2="45.973" width="0.1524" layer="1"/>
-<wire x1="36.12" y1="45.973" x2="47.312" y2="45.973" width="0.1524" layer="2"/>
+<wire x1="36.12" y1="45.973" x2="42.1119125" y2="45.973" width="0.1524" layer="2"/>
+<wire x1="42.1119125" y1="45.973" x2="50.989015625" y2="42.295984375" width="0.1524" layer="2" curve="-45"/>
+<wire x1="50.989015625" y1="42.295984375" x2="55.701440625" y2="37.583559375" width="0.1524" layer="2"/>
 <via x="56.818" y="37.148" extent="1-16" drill="0.35"/>
 <wire x1="56.818" y1="37.148" x2="58.206" y2="37.148" width="0.1524" layer="16"/>
 <wire x1="58.206" y1="37.148" x2="58.224" y2="37.13" width="0.1524" layer="16"/>
 <via x="36.12" y="45.973" extent="1-16" drill="0.35"/>
-<wire x1="47.312" y1="45.973" x2="55.701440625" y2="37.583559375" width="0.1524" layer="2"/>
 <wire x1="55.701440625" y1="37.583559375" x2="56.752975" y2="37.148" width="0.1524" layer="2" curve="45.000085"/>
 <wire x1="56.752975" y1="37.148" x2="56.818" y2="37.148" width="0.1524" layer="2"/>
 </signal>
@@ -3570,20 +3404,20 @@ design rules under a new name.</description>
 <wire x1="50.922" y1="31.177" x2="49.324" y2="31.177" width="0.1524" layer="1"/>
 <wire x1="49.32" y1="31.173" x2="49.324" y2="31.177" width="0.1524" layer="1"/>
 <wire x1="51.5" y1="29.002" x2="51.375146875" y2="28.94238125" width="0.1524" layer="1"/>
-<via x="62.969" y="38.375" extent="1-16" drill="0.35"/>
+<via x="62.8674" y="38.4004" extent="1-16" drill="0.35"/>
 <wire x1="51.375146875" y1="28.94238125" x2="50.922" y2="28.726" width="0.1524" layer="1"/>
-<wire x1="62.969" y1="38.375" x2="61.479" y2="38.375" width="0.1524" layer="16"/>
-<wire x1="61.479" y1="38.375" x2="61.454" y2="38.4" width="0.1524" layer="16"/>
+<wire x1="62.8674" y1="38.4004" x2="61.4544" y2="38.4004" width="0.1524" layer="16"/>
+<wire x1="61.454" y1="38.4" x2="61.4544" y2="38.4004" width="0.1524" layer="16"/>
 <wire x1="50.922" y1="31.177" x2="51.375146875" y2="30.723853125" width="0.1524" layer="1"/>
 <wire x1="51.375146875" y1="30.723853125" x2="51.375146875" y2="28.94238125" width="0.1524" layer="1"/>
 <wire x1="51.5" y1="29.002" x2="53.441" y2="27.061" width="0.1524" layer="1"/>
-<wire x1="53.441" y1="27.061" x2="53.441" y2="26.48225" width="0.1524" layer="1"/>
+<wire x1="53.441" y1="27.061" x2="53.441" y2="25.84725" width="0.1524" layer="1"/>
 <wire x1="51.5" y1="29.002" x2="54.61" y2="29.002" width="0.1524" layer="1"/>
 <wire x1="54.61" y1="29.002" x2="54.61" y2="29.21" width="0.1524" layer="1"/>
 <via x="54.61" y="29.21" extent="1-16" drill="0.35"/>
-<wire x1="62.969" y1="38.375" x2="62.969" y2="38.331" width="0.1524" layer="2"/>
-<wire x1="62.969" y1="38.331" x2="54.61" y2="29.972" width="0.1524" layer="2"/>
-<wire x1="54.61" y1="29.972" x2="54.61" y2="29.21" width="0.1524" layer="2"/>
+<wire x1="62.8674" y1="38.4004" x2="62.8674" y2="38.3564" width="0.1524" layer="2"/>
+<wire x1="62.8674" y1="38.3564" x2="55.23861875" y2="30.72761875" width="0.1524" layer="2"/>
+<wire x1="55.23861875" y1="30.72761875" x2="54.61" y2="29.21" width="0.1524" layer="2" curve="45"/>
 </signal>
 <signal name="FAULT_LS_OUT_2" class="3">
 <contactref element="R_LS_DRAIN_2" pad="1"/>
@@ -3619,24 +3453,25 @@ design rules under a new name.</description>
 <contactref element="C_68N_FILTER_2" pad="1"/>
 <contactref element="TP_CLK_FILTER_2" pad="1"/>
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="2"/>
-<wire x1="50.882" y1="12.125" x2="52.652" y2="12.125" width="0.1524" layer="1"/>
-<wire x1="52.652" y1="12.125" x2="52.862" y2="11.915" width="0.1524" layer="1"/>
-<wire x1="52.851" y1="9.49" x2="52.862" y2="9.501" width="0.1524" layer="1"/>
-<wire x1="52.862" y1="11.915" x2="52.862" y2="9.501" width="0.1524" layer="1"/>
-<wire x1="53.871875" y1="6.485" x2="52.851" y2="7.505875" width="0.1524" layer="1"/>
-<wire x1="52.851" y1="9.49" x2="52.851" y2="7.505875" width="0.1524" layer="1"/>
-<wire x1="53.871875" y1="6.485" x2="54.379875" y2="5.977" width="0.1524" layer="1"/>
-<via x="62.969" y="39.648" extent="1-16" drill="0.35"/>
-<wire x1="62.969" y1="39.648" x2="62.947" y2="39.67" width="0.1524" layer="16"/>
-<wire x1="62.947" y1="39.67" x2="61.454" y2="39.67" width="0.1524" layer="16"/>
-<wire x1="52.862" y1="11.915" x2="52.862" y2="13.71796875" width="0.1524" layer="1"/>
+<wire x1="50.882" y1="12.125" x2="52.7926" y2="12.125" width="0.1524" layer="1"/>
+<wire x1="52.7926" y1="12.125" x2="52.862" y2="12.1944" width="0.1524" layer="1"/>
+<wire x1="52.8002" y1="8.982" x2="52.862" y2="9.0438" width="0.1524" layer="1"/>
+<wire x1="52.862" y1="12.1944" x2="52.862" y2="9.0438" width="0.1524" layer="1"/>
+<wire x1="53.846475" y1="6.1548" x2="52.8002" y2="7.201075" width="0.1524" layer="1"/>
+<wire x1="52.8002" y1="8.982" x2="52.8002" y2="7.201075" width="0.1524" layer="1"/>
+<wire x1="53.846475" y1="6.1548" x2="54.354475" y2="5.6468" width="0.1524" layer="1"/>
+<via x="62.8674" y="39.6734" extent="1-16" drill="0.35"/>
+<wire x1="62.8674" y1="39.6734" x2="62.8454" y2="39.6954" width="0.1524" layer="16"/>
+<wire x1="62.8454" y1="39.6954" x2="61.4794" y2="39.6954" width="0.1524" layer="16"/>
+<wire x1="61.4794" y1="39.6954" x2="61.454" y2="39.67" width="0.1524" layer="16"/>
+<wire x1="52.862" y1="12.1944" x2="52.862" y2="13.71796875" width="0.1524" layer="1"/>
 <wire x1="52.862" y1="13.71796875" x2="52.705" y2="14.097" width="0.1524" layer="1" curve="45"/>
 <via x="52.705" y="14.097" extent="1-16" drill="0.35"/>
 <wire x1="52.705" y1="14.097" x2="59.177015625" y2="20.569015625" width="0.1524" layer="15"/>
 <wire x1="59.177015625" y1="20.569015625" x2="60.706" y2="24.2603125" width="0.1524" layer="15" curve="45.000037"/>
 <wire x1="60.706" y1="24.2603125" x2="60.706" y2="38.36021875" width="0.1524" layer="15"/>
-<wire x1="60.706" y1="38.36021875" x2="60.881209375" y2="38.783209375" width="0.1524" layer="15" curve="-45"/>
-<wire x1="60.881209375" y1="38.783209375" x2="62.969" y2="39.648" width="0.1524" layer="15" curve="-45"/>
+<wire x1="60.706" y1="38.36021875" x2="60.914953125" y2="38.86466875" width="0.1524" layer="15" curve="-45"/>
+<wire x1="60.914953125" y1="38.86466875" x2="62.8674" y2="39.6734" width="0.1524" layer="15" curve="-45"/>
 </signal>
 <signal name="N$12" class="3">
 <contactref element="R_20K_LED1_" pad="1"/>
@@ -3713,6 +3548,202 @@ design rules under a new name.</description>
 <vertex x="11.082525" y="11.6" curve="90"/>
 </polygon>
 </signal>
+<signal name="GND_">
+<contactref element="12P_OUTPUT_CONNECTOR1" pad="12"/>
+<contactref element="R_SHUNT_GND_" pad="2"/>
+<contactref element="TP_GND_" pad="1"/>
+<contactref element="LT3579_IC_" pad="20"/>
+<contactref element="LDO_" pad="1"/>
+<contactref element="R_UVLO2_" pad="1"/>
+<contactref element="C_SS_" pad="2"/>
+<contactref element="C_F_" pad="2"/>
+<contactref element="C_C_" pad="2"/>
+<contactref element="R_T_" pad="2"/>
+<contactref element="L1L2_" pad="4"/>
+<contactref element="C_IN_2_" pad="2"/>
+<contactref element="C_IN_1_" pad="2"/>
+<contactref element="C_OUT_1_" pad="2"/>
+<contactref element="C_OUT_2_" pad="2"/>
+<contactref element="C_OUT_3_" pad="2"/>
+<contactref element="LT3579_IC_" pad="21"/>
+<contactref element="TP_GND1_" pad="1"/>
+<contactref element="TP_GND2_" pad="1"/>
+<contactref element="TP_GND3_" pad="1"/>
+<contactref element="TP_GND4_" pad="1"/>
+<contactref element="C_68N_FILTER_" pad="2"/>
+<contactref element="R_5K_FILTER_\" pad="2"/>
+<contactref element="C_LDO_IN_" pad="2"/>
+<contactref element="C_LDO_OUT_" pad="2"/>
+<contactref element="C_LS_" pad="2"/>
+<contactref element="LED_" pad="2"/>
+<contactref element="NMOS_LDO_" pad="2"/>
+<polygon width="0.1524" layer="16" isolate="0.25">
+<vertex x="19.193" y="62.373"/>
+<vertex x="19.193" y="43.13069375" curve="90"/>
+<vertex x="20.03269375" y="42.291"/>
+<vertex x="65.985" y="42.291"/>
+<vertex x="65.985" y="62.373"/>
+</polygon>
+<via x="3.4544" y="39.7256" extent="1-16" drill="0.35"/>
+<via x="1.8288" y="42.2402" extent="1-16" drill="0.35"/>
+<via x="1.8796" y="44.5262" extent="1-16" drill="0.35"/>
+<via x="1.9304" y="47.752" extent="1-16" drill="0.35"/>
+<via x="3.429" y="51.435" extent="1-16" drill="0.35"/>
+<polygon width="0.127" layer="1" isolate="0.25" rank="2">
+<vertex x="14.0692" y="62.3762"/>
+<vertex x="65.677" y="62.3762"/>
+<vertex x="65.677" y="42.345"/>
+<vertex x="15.0564125" y="42.345" curve="-90"/>
+<vertex x="14.0692" y="43.3322125"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="-0.0762" y="38.3794"/>
+<vertex x="5.06333125" y="38.3794" curve="90"/>
+<vertex x="5.4102" y="38.72626875"/>
+<vertex x="5.4102" y="44.437725" curve="-90"/>
+<vertex x="5.879675" y="44.9072"/>
+<vertex x="9.715984375" y="44.9072" curve="90"/>
+<vertex x="10.1346" y="45.325815625"/>
+<vertex x="10.1346" y="61.938228125" curve="90"/>
+<vertex x="9.538028125" y="62.5348"/>
+<vertex x="-0.0762" y="62.5348"/>
+</polygon>
+<via x="23.0124" y="50.4952" extent="1-16" drill="0.35"/>
+<via x="26.4668" y="54.4068" extent="1-16" drill="0.35"/>
+<via x="29.6672" y="55.9816" extent="1-16" drill="0.35"/>
+<via x="43.7388" y="58.3438" extent="1-16" drill="0.35"/>
+<via x="49.657" y="58.4708" extent="1-16" drill="0.35"/>
+<via x="56.1848" y="47.9044" extent="1-16" drill="0.35"/>
+<via x="56.1848" y="45.2628" extent="1-16" drill="0.35"/>
+<via x="47.7266" y="43.307" extent="1-16" drill="0.35"/>
+<via x="61.4426" y="43.307" extent="1-16" drill="0.35"/>
+<wire x1="61.4426" y1="43.307" x2="61.4426" y2="34.775" width="0.816" layer="1"/>
+<wire x1="62.8674" y1="33.3502" x2="61.4426" y2="34.775" width="0.816" layer="1" curve="-90"/>
+<via x="62.8674" y="33.3502" extent="1-16" drill="0.35"/>
+<wire x1="62.8674" y1="33.3502" x2="62.8674" y2="33.3454" width="0.816" layer="16"/>
+<wire x1="62.8674" y1="33.3454" x2="61.4794" y2="33.3454" width="0.816" layer="16"/>
+<wire x1="61.4794" y1="33.3454" x2="61.454" y2="33.32" width="0.816" layer="16"/>
+<polygon width="0.1016" layer="2">
+<vertex x="-0.254" y="62.3062"/>
+<vertex x="65.3796" y="62.3062"/>
+<vertex x="65.3796" y="42.2402"/>
+<vertex x="6.116240625" y="42.2402" curve="90"/>
+<vertex x="5.5118" y="41.635759375"/>
+<vertex x="5.5118" y="39.06093125" curve="-90"/>
+<vertex x="4.77946875" y="38.3286"/>
+<vertex x="-0.254" y="38.3286"/>
+</polygon>
+</signal>
+<signal name="GND_1">
+<contactref element="12P_OUTPUT_CONNECTOR1" pad="10"/>
+<contactref element="R_SHUNT_GND_1" pad="2"/>
+<contactref element="TP_GND_1" pad="1"/>
+<contactref element="LT3579_IC_1" pad="20"/>
+<contactref element="R_UVLO2_1" pad="1"/>
+<contactref element="C_SS_1" pad="2"/>
+<contactref element="C_F_1" pad="2"/>
+<contactref element="C_C_1" pad="2"/>
+<contactref element="R_T_1" pad="2"/>
+<contactref element="L1L2_1" pad="4"/>
+<contactref element="C_IN_2_1" pad="2"/>
+<contactref element="C_IN_1_1" pad="2"/>
+<contactref element="C_OUT_1_1" pad="2"/>
+<contactref element="C_OUT_2_1" pad="2"/>
+<contactref element="C_OUT_3_1" pad="2"/>
+<contactref element="LT3579_IC_1" pad="21"/>
+<contactref element="TP_GND1_1" pad="1"/>
+<contactref element="TP_GND2_1" pad="1"/>
+<contactref element="TP_GND3_1" pad="1"/>
+<contactref element="TP_GND4_1" pad="1"/>
+<contactref element="C_LS_1" pad="2"/>
+<contactref element="C_68N_FILTER_1" pad="2"/>
+<contactref element="R_5K_FILTER_\1" pad="2"/>
+<contactref element="LED_1" pad="2"/>
+<contactref element="NMOS_LDO_1" pad="2"/>
+<polygon width="0.127" layer="16">
+<vertex x="19.177" y="23.2936125"/>
+<vertex x="19.177" y="41.275" curve="-90"/>
+<vertex x="19.812" y="41.91"/>
+<vertex x="66.04" y="41.91"/>
+<vertex x="66.04" y="22.86"/>
+<vertex x="19.6106125" y="22.86" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="1" rank="2">
+<vertex x="65.786" y="22.86"/>
+<vertex x="15.171921875" y="22.86" curve="-90"/>
+<vertex x="14.097" y="23.934921875"/>
+<vertex x="14.097" y="40.6092" curve="-90"/>
+<vertex x="15.3978" y="41.91"/>
+<vertex x="65.786" y="41.91"/>
+</polygon>
+<via x="27.0256" y="35.0774" extent="1-16" drill="0.35"/>
+<via x="21.7678" y="29.1084" extent="1-16" drill="0.35"/>
+<via x="29.6164" y="30.3276" extent="1-16" drill="0.35"/>
+<via x="36.5506" y="28.6258" extent="1-16" drill="0.35"/>
+<via x="43.815" y="40.894" extent="1-16" drill="0.35"/>
+<via x="48.514" y="40.9194" extent="1-16" drill="0.35"/>
+<via x="54.1782" y="41.1988" extent="1-16" drill="0.35"/>
+<via x="51.4858" y="25.6286" extent="1-16" drill="0.35"/>
+<via x="48.9204" y="24.1554" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND_2">
+<contactref element="12P_OUTPUT_CONNECTOR1" pad="8"/>
+<contactref element="R_SHUNT_GND_2" pad="2"/>
+<contactref element="TP_GND_2" pad="1"/>
+<contactref element="LT3579_IC_2" pad="20"/>
+<contactref element="R_UVLO2_2" pad="1"/>
+<contactref element="C_SS_2" pad="2"/>
+<contactref element="C_F_2" pad="2"/>
+<contactref element="C_C_2" pad="2"/>
+<contactref element="R_T_2" pad="2"/>
+<contactref element="L1L2_2" pad="4"/>
+<contactref element="C_IN_2_2" pad="2"/>
+<contactref element="C_IN_1_2" pad="2"/>
+<contactref element="C_OUT_1_2" pad="2"/>
+<contactref element="C_OUT_2_2" pad="2"/>
+<contactref element="C_OUT_3_2" pad="2"/>
+<contactref element="LT3579_IC_2" pad="21"/>
+<contactref element="TP_GND1_2" pad="1"/>
+<contactref element="TP_GND2_2" pad="1"/>
+<contactref element="TP_GND3_2" pad="1"/>
+<contactref element="TP_GND4_2" pad="1"/>
+<contactref element="C_LS_2" pad="2"/>
+<contactref element="C_68N_FILTER_2" pad="2"/>
+<contactref element="R_5K_FILTER_\2" pad="2"/>
+<contactref element="LED_2" pad="2"/>
+<contactref element="NMOS_LDO_2" pad="2"/>
+<polygon width="0.127" layer="16">
+<vertex x="66.04" y="22.479"/>
+<vertex x="19.812" y="22.479" curve="90"/>
+<vertex x="19.177" y="21.844"/>
+<vertex x="19.177" y="-0.2794"/>
+<vertex x="66.04" y="-0.2794"/>
+</polygon>
+<polygon width="0.127" layer="1" rank="2">
+<vertex x="14.097" y="-0.254"/>
+<vertex x="14.097" y="20.767396875" curve="-90"/>
+<vertex x="15.808603125" y="22.479"/>
+<vertex x="65.913" y="22.479"/>
+<vertex x="65.913" y="-0.254"/>
+</polygon>
+<via x="22.3774" y="8.7884" extent="1-16" drill="0.35"/>
+<via x="27.3812" y="14.5796" extent="1-16" drill="0.35"/>
+<via x="29.1338" y="15.8496" extent="1-16" drill="0.35"/>
+<via x="44.3992" y="2.286" extent="1-16" drill="0.35"/>
+<via x="52.0192" y="2.2098" extent="1-16" drill="0.35"/>
+<via x="57.4802" y="7.5438" extent="1-16" drill="0.35"/>
+<via x="49.3776" y="7.6708" extent="1-16" drill="0.35"/>
+<via x="59.8424" y="12.6746" extent="1-16" drill="0.35"/>
+<via x="59.7916" y="17.2212" extent="1-16" drill="0.35"/>
+<via x="52.2224" y="20.574" extent="1-16" drill="0.35"/>
+<via x="44.831" y="20.701" extent="1-16" drill="0.35"/>
+<via x="61.468" y="21.5138" extent="1-16" drill="0.35"/>
+<via x="62.8674" y="35.8902" extent="1-16" drill="0.35"/>
+<wire x1="62.8674" y1="35.8902" x2="61.454" y2="35.8902" width="0.816" layer="16"/>
+<wire x1="61.454" y1="35.8902" x2="61.454" y2="35.86" width="0.816" layer="16"/>
+<wire x1="61.468" y1="21.5138" x2="61.468" y2="34.4908" width="0.816" layer="2"/>
+<wire x1="61.468" y1="34.4908" x2="62.8674" y2="35.8902" width="0.816" layer="2" curve="-90"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -3724,6 +3755,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

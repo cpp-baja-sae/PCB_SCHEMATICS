@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -74,8 +74,8 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="64.389" y2="-0.127" width="0" layer="20"/>
-<wire x1="64.389" y1="-0.127" x2="64.389" y2="62.23" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="64.389" y2="0" width="0" layer="20"/>
+<wire x1="64.389" y1="0" x2="64.389" y2="62.23" width="0" layer="20"/>
 <wire x1="64.389" y1="62.23" x2="0" y2="62.23" width="0" layer="20"/>
 <wire x1="0" y1="62.23" x2="0" y2="0" width="0" layer="20"/>
 <dimension x1="0" y1="62.23" x2="0" y2="0" x3="-4.318" y3="31.115" textsize="0.5" layer="51" unit="inch"/>
@@ -2347,167 +2347,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="4.141" y="25.089" size="1.27" layer="27" ratio="10" rot="R270" align="top-left"/>
 </element>
 <element name="U$1" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="4.191" y="4.191" smashed="yes"/>
-<element name="U$2" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="60.198" y="4.064" smashed="yes"/>
+<element name="U$2" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="60.198" y="4.191" smashed="yes"/>
 <element name="U$3" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="60.198" y="57.912" smashed="yes"/>
 <element name="U$4" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="4.191" y="58.039" smashed="yes" rot="R180"/>
 </elements>
 <signals>
-<signal name="GND" class="1">
-<contactref element="12P_OUTPUT_CONNECTOR1" pad="8"/>
-<contactref element="12P_OUTPUT_CONNECTOR1" pad="10"/>
-<contactref element="12P_OUTPUT_CONNECTOR1" pad="12"/>
-<contactref element="R_SHUNT_GND_" pad="2"/>
-<contactref element="TP_GND_" pad="1"/>
-<contactref element="LT3579_IC_" pad="20"/>
-<contactref element="R_SHUNT_GND_1" pad="2"/>
-<contactref element="TP_GND_1" pad="1"/>
-<contactref element="LT3579_IC_1" pad="20"/>
-<contactref element="R_SHUNT_GND_2" pad="2"/>
-<contactref element="TP_GND_2" pad="1"/>
-<contactref element="LT3579_IC_2" pad="20"/>
-<contactref element="LDO_" pad="1"/>
-<contactref element="R_UVLO2_" pad="1"/>
-<contactref element="C_SS_" pad="2"/>
-<contactref element="C_F_" pad="2"/>
-<contactref element="C_C_" pad="2"/>
-<contactref element="R_T_" pad="2"/>
-<contactref element="L1L2_" pad="4"/>
-<contactref element="C_IN_2_" pad="2"/>
-<contactref element="C_IN_1_" pad="2"/>
-<contactref element="C_OUT_1_" pad="2"/>
-<contactref element="C_OUT_2_" pad="2"/>
-<contactref element="C_OUT_3_" pad="2"/>
-<contactref element="LT3579_IC_" pad="21"/>
-<contactref element="TP_GND1_" pad="1"/>
-<contactref element="TP_GND2_" pad="1"/>
-<contactref element="TP_GND3_" pad="1"/>
-<contactref element="TP_GND4_" pad="1"/>
-<contactref element="R_UVLO2_1" pad="1"/>
-<contactref element="C_SS_1" pad="2"/>
-<contactref element="C_F_1" pad="2"/>
-<contactref element="C_C_1" pad="2"/>
-<contactref element="R_T_1" pad="2"/>
-<contactref element="L1L2_1" pad="4"/>
-<contactref element="C_IN_2_1" pad="2"/>
-<contactref element="C_IN_1_1" pad="2"/>
-<contactref element="C_OUT_1_1" pad="2"/>
-<contactref element="C_OUT_2_1" pad="2"/>
-<contactref element="C_OUT_3_1" pad="2"/>
-<contactref element="LT3579_IC_1" pad="21"/>
-<contactref element="TP_GND1_1" pad="1"/>
-<contactref element="TP_GND2_1" pad="1"/>
-<contactref element="TP_GND3_1" pad="1"/>
-<contactref element="TP_GND4_1" pad="1"/>
-<contactref element="R_UVLO2_2" pad="1"/>
-<contactref element="C_SS_2" pad="2"/>
-<contactref element="C_F_2" pad="2"/>
-<contactref element="C_C_2" pad="2"/>
-<contactref element="R_T_2" pad="2"/>
-<contactref element="L1L2_2" pad="4"/>
-<contactref element="C_IN_2_2" pad="2"/>
-<contactref element="C_IN_1_2" pad="2"/>
-<contactref element="C_OUT_1_2" pad="2"/>
-<contactref element="C_OUT_2_2" pad="2"/>
-<contactref element="C_OUT_3_2" pad="2"/>
-<contactref element="LT3579_IC_2" pad="21"/>
-<contactref element="TP_GND1_2" pad="1"/>
-<contactref element="TP_GND2_2" pad="1"/>
-<contactref element="TP_GND3_2" pad="1"/>
-<contactref element="TP_GND4_2" pad="1"/>
-<contactref element="C_68N_FILTER_" pad="2"/>
-<contactref element="R_5K_FILTER_\" pad="2"/>
-<contactref element="C_LDO_IN_" pad="2"/>
-<contactref element="C_LDO_OUT_" pad="2"/>
-<contactref element="C_LS_" pad="2"/>
-<contactref element="C_LS_1" pad="2"/>
-<contactref element="C_68N_FILTER_1" pad="2"/>
-<contactref element="R_5K_FILTER_\1" pad="2"/>
-<contactref element="C_LS_2" pad="2"/>
-<contactref element="C_68N_FILTER_2" pad="2"/>
-<contactref element="R_5K_FILTER_\2" pad="2"/>
-<contactref element="LED_" pad="2"/>
-<contactref element="LED_1" pad="2"/>
-<contactref element="LED_2" pad="2"/>
-<contactref element="NMOS_LDO_" pad="2"/>
-<contactref element="NMOS_LDO_1" pad="2"/>
-<contactref element="NMOS_LDO_2" pad="2"/>
-<polygon width="0.1524" layer="16" isolate="0.25">
-<vertex x="19.32" y="62.373"/>
-<vertex x="19.32" y="-0.127"/>
-<vertex x="65.985" y="-0.127"/>
-<vertex x="65.985" y="62.373"/>
-</polygon>
-<polygon width="0.127" layer="1" isolate="0.25">
-<vertex x="-0.319525" y="51.481"/>
-<vertex x="-0.319525" y="39.443103125" curve="90"/>
-<vertex x="0.942578125" y="38.181"/>
-<vertex x="4.617221875" y="38.181" curve="90"/>
-<vertex x="5.114" y="38.677778125"/>
-<vertex x="5.114" y="44.697246875" curve="45"/>
-<vertex x="4.98406875" y="45.01093125"/>
-<vertex x="4.414" y="45.581"/>
-<vertex x="4.414" y="48.881"/>
-<vertex x="5.314" y="49.781"/>
-<vertex x="5.314" y="50.941903125" curve="90"/>
-<vertex x="4.774903125" y="51.481"/>
-</polygon>
-<polygon width="0.127" layer="1" isolate="0.25" rank="2">
-<vertex x="14.12" y="62.173"/>
-<vertex x="65.677" y="62.173"/>
-<vertex x="65.677" y="-0.327"/>
-<vertex x="14.12" y="-0.327"/>
-</polygon>
-<via x="22.86" y="6.604" extent="1-16" drill="0.4"/>
-<via x="32.258" y="5.842" extent="1-16" drill="0.4"/>
-<via x="44.323" y="3.048" extent="1-16" drill="0.4"/>
-<via x="52.324" y="4.318" extent="1-16" drill="0.4"/>
-<via x="49.53" y="22.606" extent="1-16" drill="0.4"/>
-<via x="59.944" y="15.113" extent="1-16" drill="0.4"/>
-<via x="48.387" y="4.064" extent="1-16" drill="0.4"/>
-<via x="51.435" y="25.4" extent="1-16" drill="0.4"/>
-<via x="44.45" y="59.563" extent="1-16" drill="0.4"/>
-<via x="28.448" y="60.452" extent="1-16" drill="0.4"/>
-<via x="50.8" y="59.563" extent="1-16" drill="0.4"/>
-<via x="52.07" y="60.071" extent="1-16" drill="0.4"/>
-<via x="25.019" y="34.798" extent="1-16" drill="0.4"/>
-<via x="42.799" y="41.783" extent="1-16" drill="0.4"/>
-<via x="48.895" y="41.783" extent="1-16" drill="0.4"/>
-<via x="26.035" y="54.483" extent="1-16" drill="0.4"/>
-<via x="54.483" y="43.815" extent="1-16" drill="0.4"/>
-<via x="29.21" y="14.478" extent="1-16" drill="0.4"/>
-<via x="22.86" y="9.398" extent="1-16" drill="0.4"/>
-<via x="44.45" y="22.098" extent="1-16" drill="0.4"/>
-<via x="62.357" y="29.972" extent="1-16" drill="0.4"/>
-<polygon width="0.127" layer="2" isolate="0.25">
-<vertex x="9.064" y="39.028115625" curve="-90"/>
-<vertex x="18.716884375" y="48.681"/>
-<vertex x="24.79814375" y="48.681" curve="90"/>
-<vertex x="25.122" y="49.00485625"/>
-<vertex x="25.122" y="62"/>
-<vertex x="24.822" y="62.3"/>
-<vertex x="-0.1" y="62.3"/>
-<vertex x="-0.1" y="38.4"/>
-<vertex x="0.219" y="38.081"/>
-<vertex x="8.116884375" y="38.081" curve="90"/>
-</polygon>
-<via x="1.778" y="41.021" extent="1-16" drill="0.35"/>
-<via x="1.778" y="44.069" extent="1-16" drill="0.35"/>
-<via x="1.905" y="47.625" extent="1-16" drill="0.35"/>
-<via x="2.413" y="49.911" extent="1-16" drill="0.35"/>
-<via x="23.495" y="53.848" extent="1-16" drill="0.35"/>
-<via x="23.241" y="50.546" extent="1-16" drill="0.35"/>
-<via x="3.175" y="39.37" extent="1-16" drill="0.35"/>
-<via x="55.372" y="4.445" extent="1-16" drill="0.35"/>
-<via x="56.642" y="7.112" extent="1-16" drill="0.35"/>
-<via x="62.103" y="23.241" extent="1-16" drill="0.35"/>
-<via x="60.071" y="9.906" extent="1-16" drill="0.35"/>
-<via x="59.944" y="19.304" extent="1-16" drill="0.35"/>
-<via x="62.969" y="34.671" extent="1-16" drill="0.35"/>
-<via x="41.402" y="60.452" extent="1-16" drill="0.35"/>
-<via x="42.926" y="59.69" extent="1-16" drill="0.35"/>
-<via x="53.975" y="59.563" extent="1-16" drill="0.35"/>
-<via x="48.006" y="59.817" extent="1-16" drill="0.35"/>
-</signal>
 <signal name="VIN" class="4">
 <contactref element="C_DEC_CH_GND_1" pad="2"/>
 <contactref element="C_DEC_CH_GND_2" pad="2"/>
@@ -2550,9 +2394,9 @@ design rules under a new name.</description>
 <wire x1="27.325" y1="18.108" x2="30.41" y2="18.108" width="0.816" layer="1"/>
 <wire x1="30.41" y1="18.108" x2="30.61" y2="17.908" width="0.816" layer="1"/>
 <wire x1="31.885" y1="17.908" x2="30.61" y2="17.908" width="0.816" layer="1"/>
-<wire x1="11.333" y1="43.327" x2="11.333" y2="59.3582" width="0.816" layer="1"/>
-<wire x1="11.333" y1="59.3582" x2="12.2478" y2="60.273" width="0.816" layer="1" curve="-90"/>
-<wire x1="12.2478" y1="60.273" x2="22.035875" y2="60.273" width="0.816" layer="1"/>
+<wire x1="11.333" y1="43.327" x2="11.333" y2="57.4178875" width="0.816" layer="1"/>
+<wire x1="11.333" y1="57.4178875" x2="14.1881125" y2="60.273" width="0.816" layer="1" curve="-90"/>
+<wire x1="14.1881125" y1="60.273" x2="22.035875" y2="60.273" width="0.816" layer="1"/>
 <wire x1="22.035875" y1="60.273" x2="24.64966875" y2="59.19033125" width="0.816" layer="1" curve="-45.000034"/>
 <wire x1="24.64966875" y1="59.19033125" x2="25.832" y2="58.008" width="0.816" layer="1"/>
 <wire x1="31.56899375" y1="57.613" x2="34.3470625" y2="57.613" width="0.1524" layer="1"/>
@@ -2696,13 +2540,6 @@ design rules under a new name.</description>
 <vertex x="12.793" y="9.453384375"/>
 <vertex x="12.793" y="0"/>
 </polygon>
-<polygon width="0.127" layer="16" isolate="0.25">
-<vertex x="18.82" y="62.273"/>
-<vertex x="18.82" y="-0.127"/>
-<vertex x="10.4" y="-0.127"/>
-<vertex x="10.4" y="-0.127"/>
-<vertex x="10.4" y="62.273"/>
-</polygon>
 <via x="11.127" y="2.746" extent="1-16" drill="0.4"/>
 <via x="11.054" y="8.254" extent="1-16" drill="0.4"/>
 <via x="6.332" y="8.051" extent="1-16" drill="0.4"/>
@@ -2710,6 +2547,12 @@ design rules under a new name.</description>
 <via x="3.727" y="24.103" extent="1-16" drill="0.4"/>
 <via x="1.778" y="27.432" extent="1-16" drill="0.4"/>
 <via x="3.314" y="37.008" extent="1-16" drill="0.4"/>
+<polygon width="0.127" layer="16">
+<vertex x="18.796" y="62.357"/>
+<vertex x="-0.254" y="62.357"/>
+<vertex x="-0.254" y="-0.127"/>
+<vertex x="18.796" y="-0.127"/>
+</polygon>
 </signal>
 <signal name="FAULT_" class="3">
 <contactref element="LT3579_IC_" pad="4"/>
@@ -2744,14 +2587,14 @@ design rules under a new name.</description>
 <wire x1="48.462" y1="56.173" x2="50.498" y2="56.173" width="0.816" layer="1"/>
 <wire x1="50.498" y1="56.173" x2="51.48679375" y2="56.173" width="0.816" layer="1"/>
 <wire x1="51.48679375" y1="56.173" x2="52.881" y2="55.5955" width="0.816" layer="1" curve="-45"/>
-<wire x1="59.792" y1="51.587" x2="59.792" y2="33.449" width="0.816" layer="1"/>
+<wire x1="56.465809375" y1="54.913190625" x2="59.792" y2="46.88305625" width="0.816" layer="1" curve="-45"/>
+<wire x1="59.792" y1="46.88305625" x2="59.792" y2="33.449" width="0.816" layer="1"/>
 <wire x1="59.866" y1="33.375" x2="59.792" y2="33.449" width="0.816" layer="1"/>
 <wire x1="59.866" y1="33.375" x2="59.811" y2="33.32" width="0.816" layer="16"/>
 <wire x1="59.811" y1="33.32" x2="58.224" y2="33.32" width="0.816" layer="16"/>
 <wire x1="52.881" y1="55.5955" x2="52.9775" y2="55.499" width="0.816" layer="1"/>
 <wire x1="52.9775" y1="55.499" x2="55.051540625" y2="55.499" width="0.816" layer="1"/>
 <wire x1="55.051540625" y1="55.499" x2="56.465809375" y2="54.913190625" width="0.816" layer="1" curve="-45"/>
-<wire x1="56.465809375" y1="54.913190625" x2="59.792" y2="51.587" width="0.816" layer="1"/>
 </signal>
 <signal name="CLK_" class="3">
 <contactref element="LT3579_IC_" pad="16"/>
@@ -3482,8 +3325,8 @@ design rules under a new name.</description>
 <wire x1="27.825409375" y1="25.723" x2="28.63" y2="25.723" width="0.816" layer="1"/>
 <wire x1="29.02" y1="5.173" x2="26.701" y2="5.173" width="0.816" layer="1"/>
 <wire x1="26.701" y1="5.173" x2="25.947" y2="5.927" width="0.816" layer="1"/>
-<wire x1="25.42" y1="27.073" x2="25.947" y2="26.546" width="0.816" layer="2"/>
-<wire x1="25.947" y1="26.546" x2="25.947" y2="5.927" width="0.816" layer="2"/>
+<wire x1="25.42" y1="27.073" x2="25.947" y2="25.800709375" width="0.816" layer="2" curve="-45.0001"/>
+<wire x1="25.947" y1="25.800709375" x2="25.947" y2="5.927" width="0.816" layer="2"/>
 <wire x1="6.164" y1="52.781" x2="6.244" y2="52.701" width="0.816" layer="1"/>
 <wire x1="6.244" y1="52.701" x2="6.244" y2="50.58675" width="0.816" layer="1"/>
 <wire x1="6.244" y1="50.58675" x2="6.244" y2="47.451" width="0.816" layer="1"/>
@@ -3514,12 +3357,13 @@ design rules under a new name.</description>
 <wire x1="30.96265" y1="47.273" x2="33.38499375" y2="47.273" width="0.1524" layer="1"/>
 <wire x1="33.38499375" y1="47.273" x2="35.834703125" y2="46.258296875" width="0.1524" layer="1" curve="-45"/>
 <wire x1="35.834703125" y1="46.258296875" x2="36.12" y2="45.973" width="0.1524" layer="1"/>
-<wire x1="36.12" y1="45.973" x2="47.312" y2="45.973" width="0.1524" layer="2"/>
+<wire x1="36.12" y1="45.973" x2="42.1119125" y2="45.973" width="0.1524" layer="2"/>
+<wire x1="42.1119125" y1="45.973" x2="50.989015625" y2="42.295984375" width="0.1524" layer="2" curve="-45"/>
+<wire x1="50.989015625" y1="42.295984375" x2="55.701440625" y2="37.583559375" width="0.1524" layer="2"/>
 <via x="56.818" y="37.148" extent="1-16" drill="0.35"/>
 <wire x1="56.818" y1="37.148" x2="58.206" y2="37.148" width="0.1524" layer="16"/>
 <wire x1="58.206" y1="37.148" x2="58.224" y2="37.13" width="0.1524" layer="16"/>
 <via x="36.12" y="45.973" extent="1-16" drill="0.35"/>
-<wire x1="47.312" y1="45.973" x2="55.701440625" y2="37.583559375" width="0.1524" layer="2"/>
 <wire x1="55.701440625" y1="37.583559375" x2="56.752975" y2="37.148" width="0.1524" layer="2" curve="45.000085"/>
 <wire x1="56.752975" y1="37.148" x2="56.818" y2="37.148" width="0.1524" layer="2"/>
 </signal>
@@ -3567,8 +3411,8 @@ design rules under a new name.</description>
 <wire x1="54.61" y1="29.002" x2="54.61" y2="29.21" width="0.1524" layer="1"/>
 <via x="54.61" y="29.21" extent="1-16" drill="0.35"/>
 <wire x1="62.969" y1="38.375" x2="62.969" y2="38.331" width="0.1524" layer="2"/>
-<wire x1="62.969" y1="38.331" x2="54.61" y2="29.972" width="0.1524" layer="2"/>
-<wire x1="54.61" y1="29.972" x2="54.61" y2="29.21" width="0.1524" layer="2"/>
+<wire x1="62.969" y1="38.331" x2="55.148815625" y2="30.510815625" width="0.1524" layer="2"/>
+<wire x1="55.148815625" y1="30.510815625" x2="54.61" y2="29.21" width="0.1524" layer="2" curve="45"/>
 </signal>
 <signal name="FAULT_LS_OUT_2" class="3">
 <contactref element="R_LS_DRAIN_2" pad="1"/>
@@ -3697,6 +3541,204 @@ design rules under a new name.</description>
 <vertex x="4.6" y="11.6"/>
 <vertex x="11.082525" y="11.6" curve="90"/>
 </polygon>
+</signal>
+<signal name="GND_">
+<contactref element="12P_OUTPUT_CONNECTOR1" pad="12"/>
+<contactref element="R_SHUNT_GND_" pad="2"/>
+<contactref element="TP_GND_" pad="1"/>
+<contactref element="LT3579_IC_" pad="20"/>
+<contactref element="LDO_" pad="1"/>
+<contactref element="R_UVLO2_" pad="1"/>
+<contactref element="C_SS_" pad="2"/>
+<contactref element="C_F_" pad="2"/>
+<contactref element="C_C_" pad="2"/>
+<contactref element="R_T_" pad="2"/>
+<contactref element="L1L2_" pad="4"/>
+<contactref element="C_IN_2_" pad="2"/>
+<contactref element="C_IN_1_" pad="2"/>
+<contactref element="C_OUT_1_" pad="2"/>
+<contactref element="C_OUT_2_" pad="2"/>
+<contactref element="C_OUT_3_" pad="2"/>
+<contactref element="LT3579_IC_" pad="21"/>
+<contactref element="TP_GND1_" pad="1"/>
+<contactref element="TP_GND2_" pad="1"/>
+<contactref element="TP_GND3_" pad="1"/>
+<contactref element="TP_GND4_" pad="1"/>
+<contactref element="C_68N_FILTER_" pad="2"/>
+<contactref element="R_5K_FILTER_\" pad="2"/>
+<contactref element="C_LDO_IN_" pad="2"/>
+<contactref element="C_LDO_OUT_" pad="2"/>
+<contactref element="C_LS_" pad="2"/>
+<contactref element="LED_" pad="2"/>
+<contactref element="NMOS_LDO_" pad="2"/>
+<polygon width="0.1524" layer="16" isolate="0.25">
+<vertex x="19.193" y="62.373"/>
+<vertex x="19.193" y="43.13069375" curve="90"/>
+<vertex x="20.03269375" y="42.291"/>
+<vertex x="65.985" y="42.291"/>
+<vertex x="65.985" y="62.373"/>
+</polygon>
+<via x="3.4544" y="39.7256" extent="1-16" drill="0.35"/>
+<via x="1.8288" y="42.2402" extent="1-16" drill="0.35"/>
+<via x="1.8796" y="44.5262" extent="1-16" drill="0.35"/>
+<via x="1.9304" y="47.752" extent="1-16" drill="0.35"/>
+<via x="3.429" y="51.435" extent="1-16" drill="0.35"/>
+<polygon width="0.127" layer="2" isolate="0.25">
+<vertex x="9.064" y="39.028115625" curve="-90"/>
+<vertex x="18.716884375" y="48.681"/>
+<vertex x="24.79814375" y="48.681" curve="90"/>
+<vertex x="25.122" y="49.00485625"/>
+<vertex x="25.122" y="62"/>
+<vertex x="24.822" y="62.3"/>
+<vertex x="-0.1" y="62.3"/>
+<vertex x="-0.1" y="38.4"/>
+<vertex x="0.219" y="38.081"/>
+<vertex x="8.116884375" y="38.081" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="1" isolate="0.25" rank="2">
+<vertex x="14.0692" y="62.3762"/>
+<vertex x="65.677" y="62.3762"/>
+<vertex x="65.677" y="42.345"/>
+<vertex x="15.0564125" y="42.345" curve="-90"/>
+<vertex x="14.0692" y="43.3322125"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="-0.0762" y="38.3794"/>
+<vertex x="5.06333125" y="38.3794" curve="90"/>
+<vertex x="5.4102" y="38.72626875"/>
+<vertex x="5.4102" y="44.437725" curve="-90"/>
+<vertex x="5.879675" y="44.9072"/>
+<vertex x="9.715984375" y="44.9072" curve="90"/>
+<vertex x="10.1346" y="45.325815625"/>
+<vertex x="10.1346" y="61.938228125" curve="90"/>
+<vertex x="9.538028125" y="62.5348"/>
+<vertex x="-0.0762" y="62.5348"/>
+</polygon>
+<via x="23.0124" y="50.4952" extent="1-16" drill="0.35"/>
+<via x="26.4668" y="54.4068" extent="1-16" drill="0.35"/>
+<via x="29.6672" y="55.9816" extent="1-16" drill="0.35"/>
+<via x="43.7388" y="58.3438" extent="1-16" drill="0.35"/>
+<via x="49.657" y="58.4708" extent="1-16" drill="0.35"/>
+<via x="56.1848" y="47.9044" extent="1-16" drill="0.35"/>
+<via x="56.1848" y="45.2628" extent="1-16" drill="0.35"/>
+<via x="47.7266" y="43.307" extent="1-16" drill="0.35"/>
+<via x="61.4426" y="43.307" extent="1-16" drill="0.35"/>
+<wire x1="61.4426" y1="43.307" x2="61.4426" y2="34.798" width="0.816" layer="1"/>
+<wire x1="61.4426" y1="34.798" x2="62.9158" y2="33.3248" width="0.816" layer="1" curve="90"/>
+<via x="62.9158" y="33.3248" extent="1-16" drill="0.35"/>
+<wire x1="62.9158" y1="33.3248" x2="62.9158" y2="33.32" width="0.816" layer="16"/>
+<wire x1="62.9158" y1="33.32" x2="61.454" y2="33.32" width="0.816" layer="16"/>
+</signal>
+<signal name="GND_1">
+<contactref element="12P_OUTPUT_CONNECTOR1" pad="10"/>
+<contactref element="R_SHUNT_GND_1" pad="2"/>
+<contactref element="TP_GND_1" pad="1"/>
+<contactref element="LT3579_IC_1" pad="20"/>
+<contactref element="R_UVLO2_1" pad="1"/>
+<contactref element="C_SS_1" pad="2"/>
+<contactref element="C_F_1" pad="2"/>
+<contactref element="C_C_1" pad="2"/>
+<contactref element="R_T_1" pad="2"/>
+<contactref element="L1L2_1" pad="4"/>
+<contactref element="C_IN_2_1" pad="2"/>
+<contactref element="C_IN_1_1" pad="2"/>
+<contactref element="C_OUT_1_1" pad="2"/>
+<contactref element="C_OUT_2_1" pad="2"/>
+<contactref element="C_OUT_3_1" pad="2"/>
+<contactref element="LT3579_IC_1" pad="21"/>
+<contactref element="TP_GND1_1" pad="1"/>
+<contactref element="TP_GND2_1" pad="1"/>
+<contactref element="TP_GND3_1" pad="1"/>
+<contactref element="TP_GND4_1" pad="1"/>
+<contactref element="C_LS_1" pad="2"/>
+<contactref element="C_68N_FILTER_1" pad="2"/>
+<contactref element="R_5K_FILTER_\1" pad="2"/>
+<contactref element="LED_1" pad="2"/>
+<contactref element="NMOS_LDO_1" pad="2"/>
+<polygon width="0.127" layer="16">
+<vertex x="19.177" y="23.2936125"/>
+<vertex x="19.177" y="41.275" curve="-90"/>
+<vertex x="19.812" y="41.91"/>
+<vertex x="66.04" y="41.91"/>
+<vertex x="66.04" y="22.86"/>
+<vertex x="19.6106125" y="22.86" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="1" rank="2">
+<vertex x="65.786" y="22.86"/>
+<vertex x="15.171921875" y="22.86" curve="-90"/>
+<vertex x="14.097" y="23.934921875"/>
+<vertex x="14.097" y="40.6092" curve="-90"/>
+<vertex x="15.3978" y="41.91"/>
+<vertex x="65.786" y="41.91"/>
+</polygon>
+<via x="27.0256" y="35.0774" extent="1-16" drill="0.35"/>
+<via x="21.7678" y="29.1084" extent="1-16" drill="0.35"/>
+<via x="29.6164" y="30.3276" extent="1-16" drill="0.35"/>
+<via x="36.5506" y="28.6258" extent="1-16" drill="0.35"/>
+<via x="43.815" y="40.894" extent="1-16" drill="0.35"/>
+<via x="48.514" y="40.9194" extent="1-16" drill="0.35"/>
+<via x="54.1782" y="41.1988" extent="1-16" drill="0.35"/>
+<via x="51.4858" y="25.6286" extent="1-16" drill="0.35"/>
+<via x="48.9204" y="24.1554" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND_2">
+<contactref element="12P_OUTPUT_CONNECTOR1" pad="8"/>
+<contactref element="R_SHUNT_GND_2" pad="2"/>
+<contactref element="TP_GND_2" pad="1"/>
+<contactref element="LT3579_IC_2" pad="20"/>
+<contactref element="R_UVLO2_2" pad="1"/>
+<contactref element="C_SS_2" pad="2"/>
+<contactref element="C_F_2" pad="2"/>
+<contactref element="C_C_2" pad="2"/>
+<contactref element="R_T_2" pad="2"/>
+<contactref element="L1L2_2" pad="4"/>
+<contactref element="C_IN_2_2" pad="2"/>
+<contactref element="C_IN_1_2" pad="2"/>
+<contactref element="C_OUT_1_2" pad="2"/>
+<contactref element="C_OUT_2_2" pad="2"/>
+<contactref element="C_OUT_3_2" pad="2"/>
+<contactref element="LT3579_IC_2" pad="21"/>
+<contactref element="TP_GND1_2" pad="1"/>
+<contactref element="TP_GND2_2" pad="1"/>
+<contactref element="TP_GND3_2" pad="1"/>
+<contactref element="TP_GND4_2" pad="1"/>
+<contactref element="C_LS_2" pad="2"/>
+<contactref element="C_68N_FILTER_2" pad="2"/>
+<contactref element="R_5K_FILTER_\2" pad="2"/>
+<contactref element="LED_2" pad="2"/>
+<contactref element="NMOS_LDO_2" pad="2"/>
+<polygon width="0.127" layer="16">
+<vertex x="66.04" y="22.479"/>
+<vertex x="19.812" y="22.479" curve="90"/>
+<vertex x="19.177" y="21.844"/>
+<vertex x="19.177" y="-0.2794"/>
+<vertex x="66.04" y="-0.2794"/>
+</polygon>
+<polygon width="0.127" layer="1" rank="2">
+<vertex x="14.097" y="-0.254"/>
+<vertex x="14.097" y="20.767396875" curve="-90"/>
+<vertex x="15.808603125" y="22.479"/>
+<vertex x="65.913" y="22.479"/>
+<vertex x="65.913" y="-0.254"/>
+</polygon>
+<via x="22.3774" y="8.7884" extent="1-16" drill="0.35"/>
+<via x="27.3812" y="14.5796" extent="1-16" drill="0.35"/>
+<via x="29.1338" y="15.8496" extent="1-16" drill="0.35"/>
+<via x="44.3992" y="2.286" extent="1-16" drill="0.35"/>
+<via x="52.0192" y="2.2098" extent="1-16" drill="0.35"/>
+<via x="57.8866" y="7.9248" extent="1-16" drill="0.35"/>
+<via x="49.6316" y="8.1026" extent="1-16" drill="0.35"/>
+<via x="59.8424" y="12.6746" extent="1-16" drill="0.35"/>
+<via x="59.7916" y="17.2212" extent="1-16" drill="0.35"/>
+<via x="52.2224" y="20.574" extent="1-16" drill="0.35"/>
+<via x="44.831" y="20.701" extent="1-16" drill="0.35"/>
+<via x="61.468" y="21.5138" extent="1-16" drill="0.35"/>
+<wire x1="61.468" y1="21.5138" x2="61.468" y2="34.3678" width="0.816" layer="2"/>
+<wire x1="61.468" y1="34.3678" x2="62.965" y2="35.8648" width="0.816" layer="2" curve="-90"/>
+<via x="62.9666" y="35.8648" extent="1-16" drill="0.35"/>
+<wire x1="62.9666" y1="35.8648" x2="61.454" y2="35.8648" width="0.816" layer="16"/>
+<wire x1="61.454" y1="35.8648" x2="61.454" y2="35.86" width="0.816" layer="16"/>
+<wire x1="62.965" y1="35.8648" x2="62.9666" y2="35.8648" width="0" layer="19" extent="1-2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
