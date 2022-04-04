@@ -2474,16 +2474,16 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="MUX-" library="SamacSys_Parts" deviceset="DG4051EEQ-T1-GE3" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC5" library="SamacSys_Parts" deviceset="MAX6675ISA+" device=""/>
+<part name="COLD_JUNCTION" library="SamacSys_Parts" deviceset="MAX6675ISA+" device=""/>
 <part name="C1" library="SamacSys_Parts" deviceset="CGA3E2X7R1H104K080AE" device="" value="0.1uF"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D-TYPE" library="SamacSys_Parts" deviceset="74AHCT273D,118" device="" value="D-type"/>
-<part name="AND1" library="SamacSys_Parts" deviceset="SN74LVC08AMDREP" device="" value="AND1"/>
+<part name="AND2" library="SamacSys_Parts" deviceset="SN74LVC08AMDREP" device="" value="AND1"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="INVERTER" library="SamacSys_Parts" deviceset="SN74HCS05QDRQ1" device="" value="INVERTER"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="AND2" library="SamacSys_Parts" deviceset="SN74LVC08AMDREP" device="" value="AND2"/>
+<part name="AND1" library="SamacSys_Parts" deviceset="SN74LVC08AMDREP" device="" value="AND2"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="OR" library="SamacSys_Parts" deviceset="SN74LV32ADE4" device="" value="OR"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2728,7 +2728,7 @@ unit with analog to digital conversion</text>
 <instance part="GND2" gate="1" x="-124.46" y="-38.1" smashed="yes">
 <attribute name="VALUE" x="-127" y="-40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="IC5" gate="G$1" x="182.88" y="12.7" smashed="yes">
+<instance part="COLD_JUNCTION" gate="G$1" x="182.88" y="12.7" smashed="yes">
 <attribute name="NAME" x="194.31" y="20.32" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="189.23" y="17.78" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -2743,7 +2743,7 @@ unit with analog to digital conversion</text>
 <attribute name="NAME" x="26.67" y="-101.6" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="24.13" y="-104.14" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="AND1" gate="G$1" x="-114.3" y="-99.06" smashed="yes">
+<instance part="AND2" gate="G$1" x="-114.3" y="-99.06" smashed="yes">
 <attribute name="NAME" x="-102.87" y="-91.44" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-102.87" y="-93.98" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -2760,7 +2760,7 @@ unit with analog to digital conversion</text>
 <instance part="GND7" gate="1" x="-180.34" y="-139.7" smashed="yes">
 <attribute name="VALUE" x="-182.88" y="-142.24" size="1.778" layer="96"/>
 </instance>
-<instance part="AND2" gate="G$1" x="-114.3" y="-137.16" smashed="yes">
+<instance part="AND1" gate="G$1" x="-114.3" y="-137.16" smashed="yes">
 <attribute name="NAME" x="-102.87" y="-129.54" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-102.87" y="-132.08" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -3346,7 +3346,7 @@ unit with analog to digital conversion</text>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="-12.7" x2="180.34" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="IC5" gate="G$1" pin="T-"/>
+<pinref part="COLD_JUNCTION" gate="G$1" pin="T-"/>
 <wire x1="182.88" y1="10.16" x2="170.18" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="10.16" x2="165.1" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="10.16" x2="170.18" y2="-17.78" width="0.1524" layer="91"/>
@@ -3462,7 +3462,7 @@ unit with analog to digital conversion</text>
 <label x="-124.46" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="T+"/>
+<pinref part="COLD_JUNCTION" gate="G$1" pin="T+"/>
 <wire x1="182.88" y1="7.62" x2="175.26" y2="7.62" width="0.1524" layer="91"/>
 <label x="172.72" y="7.62" size="1.778" layer="95"/>
 </segment>
@@ -3512,12 +3512,12 @@ unit with analog to digital conversion</text>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="GND"/>
+<pinref part="COLD_JUNCTION" gate="G$1" pin="GND"/>
 <wire x1="182.88" y1="12.7" x2="175.26" y2="12.7" width="0.1524" layer="91"/>
 <label x="172.72" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND1" gate="G$1" pin="GND"/>
+<pinref part="AND2" gate="G$1" pin="GND"/>
 <wire x1="-114.3" y1="-114.3" x2="-121.92" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="-121.92" y1="-114.3" x2="-121.92" y2="-121.92" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -3535,7 +3535,7 @@ unit with analog to digital conversion</text>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="AND2" gate="G$1" pin="GND"/>
+<pinref part="AND1" gate="G$1" pin="GND"/>
 <wire x1="-114.3" y1="-152.4" x2="-121.92" y2="-152.4" width="0.1524" layer="91"/>
 <wire x1="-121.92" y1="-152.4" x2="-121.92" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -3819,10 +3819,10 @@ unit with analog to digital conversion</text>
 <pinref part="GND53" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="AND2" gate="G$1" pin="4B"/>
+<pinref part="AND1" gate="G$1" pin="4B"/>
 <wire x1="-88.9" y1="-139.7" x2="-86.36" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="-139.7" x2="-86.36" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="AND2" gate="G$1" pin="4A"/>
+<pinref part="AND1" gate="G$1" pin="4A"/>
 <wire x1="-86.36" y1="-142.24" x2="-86.36" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="-144.78" x2="-86.36" y2="-147.32" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="-147.32" x2="-86.36" y2="-149.86" width="0.1524" layer="91"/>
@@ -3830,16 +3830,16 @@ unit with analog to digital conversion</text>
 <wire x1="-86.36" y1="-152.4" x2="-86.36" y2="-160.02" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="-142.24" x2="-86.36" y2="-142.24" width="0.1524" layer="91"/>
 <junction x="-86.36" y="-142.24"/>
-<pinref part="AND2" gate="G$1" pin="4Y"/>
+<pinref part="AND1" gate="G$1" pin="4Y"/>
 <wire x1="-88.9" y1="-144.78" x2="-86.36" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="-86.36" y="-144.78"/>
-<pinref part="AND2" gate="G$1" pin="3B"/>
+<pinref part="AND1" gate="G$1" pin="3B"/>
 <wire x1="-88.9" y1="-147.32" x2="-86.36" y2="-147.32" width="0.1524" layer="91"/>
 <junction x="-86.36" y="-147.32"/>
-<pinref part="AND2" gate="G$1" pin="3A"/>
+<pinref part="AND1" gate="G$1" pin="3A"/>
 <wire x1="-88.9" y1="-149.86" x2="-86.36" y2="-149.86" width="0.1524" layer="91"/>
 <junction x="-86.36" y="-149.86"/>
-<pinref part="AND2" gate="G$1" pin="3Y"/>
+<pinref part="AND1" gate="G$1" pin="3Y"/>
 <wire x1="-88.9" y1="-152.4" x2="-86.36" y2="-152.4" width="0.1524" layer="91"/>
 <junction x="-86.36" y="-152.4"/>
 <pinref part="GND54" gate="1" pin="GND"/>
@@ -4064,7 +4064,7 @@ unit with analog to digital conversion</text>
 <label x="-124.46" y="-25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="VCC"/>
+<pinref part="COLD_JUNCTION" gate="G$1" pin="VCC"/>
 <wire x1="182.88" y1="5.08" x2="180.34" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="5.08" x2="175.26" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="5.08" x2="180.34" y2="0" width="0.1524" layer="91"/>
@@ -4073,7 +4073,7 @@ unit with analog to digital conversion</text>
 <label x="172.72" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND1" gate="G$1" pin="VCC"/>
+<pinref part="AND2" gate="G$1" pin="VCC"/>
 <wire x1="-88.9" y1="-99.06" x2="-78.74" y2="-99.06" width="0.1524" layer="91"/>
 <label x="-78.74" y="-99.06" size="1.778" layer="95"/>
 </segment>
@@ -4088,7 +4088,7 @@ unit with analog to digital conversion</text>
 <label x="-137.16" y="-116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND2" gate="G$1" pin="VCC"/>
+<pinref part="AND1" gate="G$1" pin="VCC"/>
 <wire x1="-88.9" y1="-137.16" x2="-78.74" y2="-137.16" width="0.1524" layer="91"/>
 <label x="-78.74" y="-137.16" size="1.778" layer="95"/>
 </segment>
@@ -4182,7 +4182,7 @@ unit with analog to digital conversion</text>
 <label x="48.26" y="-132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND1" gate="G$1" pin="1Y"/>
+<pinref part="AND2" gate="G$1" pin="1Y"/>
 <wire x1="-114.3" y1="-104.14" x2="-121.92" y2="-104.14" width="0.1524" layer="91"/>
 <label x="-127" y="-104.14" size="1.778" layer="95"/>
 </segment>
@@ -4204,12 +4204,12 @@ unit with analog to digital conversion</text>
 <label x="2.54" y="-114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND1" gate="G$1" pin="1A"/>
+<pinref part="AND2" gate="G$1" pin="1A"/>
 <wire x1="-114.3" y1="-99.06" x2="-121.92" y2="-99.06" width="0.1524" layer="91"/>
 <label x="-127" y="-99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="!CS"/>
+<pinref part="COLD_JUNCTION" gate="G$1" pin="!CS"/>
 <pinref part="SPI" gate="G$1" pin="!CS"/>
 <wire x1="208.28" y1="7.62" x2="251.46" y2="7.62" width="0.1524" layer="91"/>
 <label x="223.52" y="7.62" size="1.778" layer="95"/>
@@ -4267,7 +4267,7 @@ unit with analog to digital conversion</text>
 <label x="-185.42" y="-119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND1" gate="G$1" pin="1B"/>
+<pinref part="AND2" gate="G$1" pin="1B"/>
 <wire x1="-114.3" y1="-101.6" x2="-121.92" y2="-101.6" width="0.1524" layer="91"/>
 <label x="-127" y="-101.6" size="1.778" layer="95"/>
 </segment>
@@ -4311,7 +4311,7 @@ unit with analog to digital conversion</text>
 <label x="-139.7" y="-124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND2" gate="G$1" pin="2A"/>
+<pinref part="AND1" gate="G$1" pin="2A"/>
 <wire x1="-114.3" y1="-144.78" x2="-121.92" y2="-144.78" width="0.1524" layer="91"/>
 <label x="-127" y="-144.78" size="1.778" layer="95"/>
 </segment>
@@ -4333,7 +4333,7 @@ unit with analog to digital conversion</text>
 <label x="45.72" y="-129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND1" gate="G$1" pin="4A"/>
+<pinref part="AND2" gate="G$1" pin="4A"/>
 <wire x1="-88.9" y1="-104.14" x2="-81.28" y2="-104.14" width="0.1524" layer="91"/>
 <label x="-81.28" y="-104.14" size="1.778" layer="95"/>
 </segment>
@@ -4392,7 +4392,7 @@ unit with analog to digital conversion</text>
 <label x="7.62" y="-111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND1" gate="G$1" pin="2A"/>
+<pinref part="AND2" gate="G$1" pin="2A"/>
 <wire x1="-114.3" y1="-106.68" x2="-121.92" y2="-106.68" width="0.1524" layer="91"/>
 <label x="-127" y="-106.68" size="1.778" layer="95"/>
 </segment>
@@ -4420,7 +4420,7 @@ unit with analog to digital conversion</text>
 <label x="-185.42" y="-127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND2" gate="G$1" pin="1A"/>
+<pinref part="AND1" gate="G$1" pin="1A"/>
 <wire x1="-114.3" y1="-137.16" x2="-121.92" y2="-137.16" width="0.1524" layer="91"/>
 <label x="-127" y="-137.16" size="1.778" layer="95"/>
 </segment>
@@ -4442,7 +4442,7 @@ unit with analog to digital conversion</text>
 <label x="7.62" y="-121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND1" gate="G$1" pin="3A"/>
+<pinref part="AND2" gate="G$1" pin="3A"/>
 <wire x1="-88.9" y1="-111.76" x2="-81.28" y2="-111.76" width="0.1524" layer="91"/>
 <label x="-81.28" y="-111.76" size="1.778" layer="95"/>
 </segment>
@@ -4454,7 +4454,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="Q0!Q1" class="0">
 <segment>
-<pinref part="AND1" gate="G$1" pin="2Y"/>
+<pinref part="AND2" gate="G$1" pin="2Y"/>
 <wire x1="-114.3" y1="-111.76" x2="-121.92" y2="-111.76" width="0.1524" layer="91"/>
 <label x="-127" y="-111.76" size="1.778" layer="95"/>
 </segment>
@@ -4466,7 +4466,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="!Q5" class="0">
 <segment>
-<pinref part="AND1" gate="G$1" pin="4B"/>
+<pinref part="AND2" gate="G$1" pin="4B"/>
 <wire x1="-88.9" y1="-101.6" x2="-81.28" y2="-101.6" width="0.1524" layer="91"/>
 <label x="-81.28" y="-101.6" size="1.778" layer="95"/>
 </segment>
@@ -4478,7 +4478,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="Q4!Q5" class="0">
 <segment>
-<pinref part="AND1" gate="G$1" pin="4Y"/>
+<pinref part="AND2" gate="G$1" pin="4Y"/>
 <wire x1="-88.9" y1="-106.68" x2="-81.28" y2="-106.68" width="0.1524" layer="91"/>
 <label x="-81.28" y="-106.68" size="1.778" layer="95"/>
 </segment>
@@ -4490,7 +4490,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="Q2!Q3" class="0">
 <segment>
-<pinref part="AND1" gate="G$1" pin="3Y"/>
+<pinref part="AND2" gate="G$1" pin="3Y"/>
 <wire x1="-88.9" y1="-114.3" x2="-81.28" y2="-114.3" width="0.1524" layer="91"/>
 <label x="-81.28" y="-114.3" size="1.778" layer="95"/>
 </segment>
@@ -4507,7 +4507,7 @@ unit with analog to digital conversion</text>
 <label x="-185.42" y="-129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND1" gate="G$1" pin="2B"/>
+<pinref part="AND2" gate="G$1" pin="2B"/>
 <wire x1="-114.3" y1="-109.22" x2="-121.92" y2="-109.22" width="0.1524" layer="91"/>
 <label x="-127" y="-109.22" size="1.778" layer="95"/>
 </segment>
@@ -4536,7 +4536,7 @@ unit with analog to digital conversion</text>
 <label x="-139.7" y="-121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND2" gate="G$1" pin="2B"/>
+<pinref part="AND1" gate="G$1" pin="2B"/>
 <wire x1="-114.3" y1="-147.32" x2="-121.92" y2="-147.32" width="0.1524" layer="91"/>
 <label x="-127" y="-147.32" size="1.778" layer="95"/>
 </segment>
@@ -4548,7 +4548,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="!Q3" class="0">
 <segment>
-<pinref part="AND1" gate="G$1" pin="3B"/>
+<pinref part="AND2" gate="G$1" pin="3B"/>
 <wire x1="-88.9" y1="-109.22" x2="-81.28" y2="-109.22" width="0.1524" layer="91"/>
 <label x="-81.28" y="-109.22" size="1.778" layer="95"/>
 </segment>
@@ -4558,14 +4558,14 @@ unit with analog to digital conversion</text>
 <label x="-139.7" y="-132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AND2" gate="G$1" pin="1B"/>
+<pinref part="AND1" gate="G$1" pin="1B"/>
 <wire x1="-114.3" y1="-139.7" x2="-121.92" y2="-139.7" width="0.1524" layer="91"/>
 <label x="-127" y="-139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="Q1!Q3" class="0">
 <segment>
-<pinref part="AND2" gate="G$1" pin="1Y"/>
+<pinref part="AND1" gate="G$1" pin="1Y"/>
 <wire x1="-114.3" y1="-142.24" x2="-121.92" y2="-142.24" width="0.1524" layer="91"/>
 <label x="-127" y="-142.24" size="1.778" layer="95"/>
 </segment>
@@ -4577,7 +4577,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="Q5!Q7" class="0">
 <segment>
-<pinref part="AND2" gate="G$1" pin="2Y"/>
+<pinref part="AND1" gate="G$1" pin="2Y"/>
 <wire x1="-114.3" y1="-149.86" x2="-121.92" y2="-149.86" width="0.1524" layer="91"/>
 <label x="-127" y="-149.86" size="1.778" layer="95"/>
 </segment>
@@ -4718,7 +4718,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="SO"/>
+<pinref part="COLD_JUNCTION" gate="G$1" pin="SO"/>
 <wire x1="208.28" y1="10.16" x2="213.36" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="10.16" x2="231.14" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="10.16" x2="231.14" y2="12.7" width="0.1524" layer="91"/>
@@ -4747,7 +4747,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="SCK"/>
+<pinref part="COLD_JUNCTION" gate="G$1" pin="SCK"/>
 <wire x1="208.28" y1="5.08" x2="215.9" y2="5.08" width="0.1524" layer="91"/>
 <label x="215.9" y="5.08" size="1.778" layer="95"/>
 </segment>

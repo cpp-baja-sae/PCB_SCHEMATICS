@@ -2743,7 +2743,7 @@ unit with analog to digital conversion</text>
 <wire x1="111.76" y1="152.4" x2="111.76" y2="198.12" width="0.1524" layer="94"/>
 <wire x1="111.76" y1="198.12" x2="30.48" y2="198.12" width="0.1524" layer="94"/>
 <text x="38.1" y="187.96" size="2.54" layer="94">Through hole for board mounting to enclosure.
-For bolt size of 0.12"</text>
+For bolt size of 1/16"</text>
 </plain>
 <instances>
 <instance part="MUX+" gate="G$1" x="-114.3" y="25.4" smashed="yes">

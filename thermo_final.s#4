@@ -2470,8 +2470,8 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </class>
 </classes>
 <parts>
-<part name="IC1" library="SamacSys_Parts" deviceset="DG4051EEQ-T1-GE3" device=""/>
-<part name="IC2" library="SamacSys_Parts" deviceset="DG4051EEQ-T1-GE3" device=""/>
+<part name="MUX+" library="SamacSys_Parts" deviceset="DG4051EEQ-T1-GE3" device=""/>
+<part name="MUX-" library="SamacSys_Parts" deviceset="DG4051EEQ-T1-GE3" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC5" library="SamacSys_Parts" deviceset="MAX6675ISA+" device=""/>
@@ -2714,11 +2714,11 @@ unit with analog to digital conversion</text>
 <text x="294.64" y="-25.4" size="2.54" layer="94">isoSPI (Slave)</text>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="-114.3" y="25.4" smashed="yes">
+<instance part="MUX+" gate="G$1" x="-114.3" y="25.4" smashed="yes">
 <attribute name="NAME" x="-102.87" y="33.02" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-110.49" y="30.48" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="IC2" gate="G$1" x="-114.3" y="-12.7" smashed="yes">
+<instance part="MUX-" gate="G$1" x="-114.3" y="-12.7" smashed="yes">
 <attribute name="NAME" x="-102.87" y="-5.08" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-110.49" y="-7.62" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -3321,7 +3321,7 @@ unit with analog to digital conversion</text>
 <nets>
 <net name="T7+" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="X7"/>
+<pinref part="MUX+" gate="G$1" pin="X7"/>
 <wire x1="-114.3" y1="17.78" x2="-121.92" y2="17.78" width="0.1524" layer="91"/>
 <label x="-124.46" y="17.78" size="1.778" layer="95"/>
 </segment>
@@ -3338,7 +3338,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="CJ-" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="X"/>
+<pinref part="MUX-" gate="G$1" pin="X"/>
 <wire x1="-114.3" y1="-17.78" x2="-121.92" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-124.46" y="-17.78" size="1.778" layer="95"/>
 </segment>
@@ -3372,7 +3372,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T1+" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="X1"/>
+<pinref part="MUX+" gate="G$1" pin="X1"/>
 <wire x1="-86.36" y1="20.32" x2="-78.74" y2="20.32" width="0.1524" layer="91"/>
 <label x="-78.74" y="20.32" size="1.778" layer="95"/>
 </segment>
@@ -3389,7 +3389,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T2+" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="X2"/>
+<pinref part="MUX+" gate="G$1" pin="X2"/>
 <wire x1="-86.36" y1="22.86" x2="-78.74" y2="22.86" width="0.1524" layer="91"/>
 <label x="-78.74" y="22.86" size="1.778" layer="95"/>
 </segment>
@@ -3406,7 +3406,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T3+" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="X3"/>
+<pinref part="MUX+" gate="G$1" pin="X3"/>
 <wire x1="-86.36" y1="15.24" x2="-78.74" y2="15.24" width="0.1524" layer="91"/>
 <label x="-78.74" y="15.24" size="1.778" layer="95"/>
 </segment>
@@ -3423,7 +3423,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T4+" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="X4"/>
+<pinref part="MUX+" gate="G$1" pin="X4"/>
 <wire x1="-114.3" y1="25.4" x2="-121.92" y2="25.4" width="0.1524" layer="91"/>
 <label x="-124.46" y="25.4" size="1.778" layer="95"/>
 </segment>
@@ -3440,7 +3440,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T6+" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="X6"/>
+<pinref part="MUX+" gate="G$1" pin="X6"/>
 <wire x1="-114.3" y1="22.86" x2="-121.92" y2="22.86" width="0.1524" layer="91"/>
 <label x="-124.46" y="22.86" size="1.778" layer="95"/>
 </segment>
@@ -3457,7 +3457,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="CJ+" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="X"/>
+<pinref part="MUX+" gate="G$1" pin="X"/>
 <wire x1="-114.3" y1="20.32" x2="-121.92" y2="20.32" width="0.1524" layer="91"/>
 <label x="-124.46" y="20.32" size="1.778" layer="95"/>
 </segment>
@@ -3483,7 +3483,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T5+" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="X5"/>
+<pinref part="MUX+" gate="G$1" pin="X5"/>
 <wire x1="-114.3" y1="15.24" x2="-121.92" y2="15.24" width="0.1524" layer="91"/>
 <label x="-124.46" y="15.24" size="1.778" layer="95"/>
 </segment>
@@ -3500,13 +3500,13 @@ unit with analog to digital conversion</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="MUX+" gate="G$1" pin="GND"/>
 <wire x1="-114.3" y1="7.62" x2="-124.46" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="-124.46" y1="7.62" x2="-124.46" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="MUX-" gate="G$1" pin="GND"/>
 <wire x1="-114.3" y1="-30.48" x2="-124.46" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="-30.48" x2="-124.46" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -3891,7 +3891,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T2-" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="X2"/>
+<pinref part="MUX-" gate="G$1" pin="X2"/>
 <wire x1="-86.36" y1="-15.24" x2="-78.74" y2="-15.24" width="0.1524" layer="91"/>
 <label x="-78.74" y="-15.24" size="1.778" layer="95"/>
 </segment>
@@ -3908,7 +3908,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T1-" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="X1"/>
+<pinref part="MUX-" gate="G$1" pin="X1"/>
 <wire x1="-86.36" y1="-17.78" x2="-78.74" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-78.74" y="-17.78" size="1.778" layer="95"/>
 </segment>
@@ -3925,7 +3925,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T3-" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="X3"/>
+<pinref part="MUX-" gate="G$1" pin="X3"/>
 <wire x1="-86.36" y1="-22.86" x2="-78.74" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-78.74" y="-22.86" size="1.778" layer="95"/>
 </segment>
@@ -3942,7 +3942,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T4-" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="X4"/>
+<pinref part="MUX-" gate="G$1" pin="X4"/>
 <wire x1="-114.3" y1="-12.7" x2="-121.92" y2="-12.7" width="0.1524" layer="91"/>
 <label x="-124.46" y="-12.7" size="1.778" layer="95"/>
 </segment>
@@ -3959,7 +3959,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T6-" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="X6"/>
+<pinref part="MUX-" gate="G$1" pin="X6"/>
 <wire x1="-114.3" y1="-15.24" x2="-121.92" y2="-15.24" width="0.1524" layer="91"/>
 <label x="-124.46" y="-15.24" size="1.778" layer="95"/>
 </segment>
@@ -3976,7 +3976,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T7-" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="X7"/>
+<pinref part="MUX-" gate="G$1" pin="X7"/>
 <wire x1="-114.3" y1="-20.32" x2="-121.92" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-124.46" y="-20.32" size="1.778" layer="95"/>
 </segment>
@@ -3993,7 +3993,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T5-" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="X5"/>
+<pinref part="MUX-" gate="G$1" pin="X5"/>
 <wire x1="-114.3" y1="-22.86" x2="-121.92" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-124.46" y="-22.86" size="1.778" layer="95"/>
 </segment>
@@ -4010,7 +4010,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T0+" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="X0"/>
+<pinref part="MUX+" gate="G$1" pin="X0"/>
 <wire x1="-86.36" y1="17.78" x2="-78.74" y2="17.78" width="0.1524" layer="91"/>
 <label x="-78.74" y="17.78" size="1.778" layer="95"/>
 </segment>
@@ -4027,7 +4027,7 @@ unit with analog to digital conversion</text>
 </net>
 <net name="T0-" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="X0"/>
+<pinref part="MUX-" gate="G$1" pin="X0"/>
 <wire x1="-86.36" y1="-20.32" x2="-78.74" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-78.74" y="-20.32" size="1.778" layer="95"/>
 </segment>
@@ -4044,22 +4044,22 @@ unit with analog to digital conversion</text>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="V+"/>
+<pinref part="MUX+" gate="G$1" pin="V+"/>
 <wire x1="-86.36" y1="25.4" x2="-78.74" y2="25.4" width="0.1524" layer="91"/>
 <label x="-78.74" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="ENABLE"/>
+<pinref part="MUX+" gate="G$1" pin="ENABLE"/>
 <wire x1="-114.3" y1="12.7" x2="-124.46" y2="12.7" width="0.1524" layer="91"/>
 <label x="-124.46" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="V+"/>
+<pinref part="MUX-" gate="G$1" pin="V+"/>
 <wire x1="-86.36" y1="-12.7" x2="-78.74" y2="-12.7" width="0.1524" layer="91"/>
 <label x="-78.74" y="-12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="ENABLE"/>
+<pinref part="MUX-" gate="G$1" pin="ENABLE"/>
 <wire x1="-114.3" y1="-25.4" x2="-124.46" y2="-25.4" width="0.1524" layer="91"/>
 <label x="-124.46" y="-25.4" size="1.778" layer="95"/>
 </segment>
@@ -4236,12 +4236,12 @@ unit with analog to digital conversion</text>
 </net>
 <net name="-VCC" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="V-"/>
+<pinref part="MUX+" gate="G$1" pin="V-"/>
 <wire x1="-114.3" y1="10.16" x2="-124.46" y2="10.16" width="0.1524" layer="91"/>
 <label x="-124.46" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="V-"/>
+<pinref part="MUX-" gate="G$1" pin="V-"/>
 <wire x1="-114.3" y1="-27.94" x2="-124.46" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-124.46" y="-27.94" size="1.778" layer="95"/>
 </segment>
@@ -4360,12 +4360,12 @@ unit with analog to digital conversion</text>
 <label x="-139.7" y="-129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="A"/>
+<pinref part="MUX+" gate="G$1" pin="A"/>
 <wire x1="-86.36" y1="12.7" x2="-78.74" y2="12.7" width="0.1524" layer="91"/>
 <label x="-78.74" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="A"/>
+<pinref part="MUX-" gate="G$1" pin="A"/>
 <wire x1="-86.36" y1="-25.4" x2="-78.74" y2="-25.4" width="0.1524" layer="91"/>
 <label x="-78.74" y="-25.4" size="1.778" layer="95"/>
 </segment>
@@ -4594,12 +4594,12 @@ unit with analog to digital conversion</text>
 <label x="-66.04" y="-121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="B"/>
+<pinref part="MUX+" gate="G$1" pin="B"/>
 <wire x1="-86.36" y1="10.16" x2="-78.74" y2="10.16" width="0.1524" layer="91"/>
 <label x="-78.74" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="B"/>
+<pinref part="MUX-" gate="G$1" pin="B"/>
 <wire x1="-86.36" y1="-27.94" x2="-78.74" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-78.74" y="-27.94" size="1.778" layer="95"/>
 </segment>
@@ -4628,12 +4628,12 @@ unit with analog to digital conversion</text>
 <label x="-20.32" y="-124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="C"/>
+<pinref part="MUX-" gate="G$1" pin="C"/>
 <wire x1="-86.36" y1="-30.48" x2="-78.74" y2="-30.48" width="0.1524" layer="91"/>
 <label x="-78.74" y="-30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="C"/>
+<pinref part="MUX+" gate="G$1" pin="C"/>
 <wire x1="-86.36" y1="7.62" x2="-78.74" y2="7.62" width="0.1524" layer="91"/>
 <label x="-78.74" y="7.62" size="1.778" layer="95"/>
 </segment>
