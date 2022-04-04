@@ -2550,8 +2550,6 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <part name="U$2" library="THROUGH_HOLE" deviceset="THROUGH_HOLE_" device=""/>
 <part name="U$3" library="THROUGH_HOLE" deviceset="THROUGH_HOLE_" device=""/>
 <part name="U$4" library="THROUGH_HOLE" deviceset="THROUGH_HOLE_" device=""/>
-<part name="U$5" library="THROUGH_HOLE" deviceset="THROUGH_HOLE_" device=""/>
-<part name="U$6" library="THROUGH_HOLE" deviceset="THROUGH_HOLE_" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2630,12 +2628,6 @@ For bolt size of 0.12"</text>
 </instance>
 <instance part="U$4" gate="G$1" x="-81.28" y="-76.2" smashed="yes">
 <attribute name="NAME" x="-81.28" y="-73.66" size="1.778" layer="95"/>
-</instance>
-<instance part="U$5" gate="G$1" x="-81.28" y="-83.82" smashed="yes">
-<attribute name="NAME" x="-81.28" y="-81.28" size="1.778" layer="95"/>
-</instance>
-<instance part="U$6" gate="G$1" x="-81.28" y="-91.44" smashed="yes">
-<attribute name="NAME" x="-81.28" y="-88.9" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>

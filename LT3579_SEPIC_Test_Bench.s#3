@@ -2454,8 +2454,8 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <part name="TP_D1_2" library="S1751-46R" deviceset="S1751-46R" device=""/>
 <part name="R_FB_2" library="AC0805FR-0745K3L" deviceset="AC0805FR-0745K3L" device=""/>
 <part name="4P_INPUT_CONNECTOR1" library="SAMTEC-CLP-102-02-X-D" deviceset="SAMTEC-CLP-102-02-X-D" device="J"/>
-<part name="C_DECOUPLE_CH_GND_1" library="SamacSys_Parts" deviceset="CGA4F4C0G2W222J085AE" device=""/>
-<part name="C_DECOUPLE_CH_GND_2" library="SamacSys_Parts" deviceset="CGADN3X7R1E476M230LE" device=""/>
+<part name="C_DEC_CH_GND_1" library="SamacSys_Parts" deviceset="CGA4F4C0G2W222J085AE" device=""/>
+<part name="C_DEC_CH_GND_2" library="SamacSys_Parts" deviceset="CGADN3X7R1E476M230LE" device=""/>
 <part name="12P_OUTPUT_CONNECTOR1" library="SamacSys_Parts" deviceset="CLP-106-02-F-D" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R_10K_FILTER_" library="AC0805DR-0710KL" deviceset="AC0805DR-0710KL" device=""/>
@@ -2552,11 +2552,11 @@ Will mate with a male connector on the board enclosure. </text>
 <attribute name="NAME" x="-78.74" y="43.18" size="2.54" layer="95"/>
 <attribute name="VALUE" x="-68.58" y="22.86" size="2.286" layer="96"/>
 </instance>
-<instance part="C_DECOUPLE_CH_GND_1" gate="G$1" x="-76.2" y="-17.78" smashed="yes">
+<instance part="C_DEC_CH_GND_1" gate="G$1" x="-76.2" y="-17.78" smashed="yes">
 <attribute name="NAME" x="-85.09" y="-11.43" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-85.09" y="-21.59" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C_DECOUPLE_CH_GND_2" gate="G$1" x="-22.86" y="-17.78" smashed="yes">
+<instance part="C_DEC_CH_GND_2" gate="G$1" x="-22.86" y="-17.78" smashed="yes">
 <attribute name="NAME" x="-31.75" y="-11.43" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-31.75" y="-21.59" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -2592,12 +2592,12 @@ Will mate with a male connector on the board enclosure. </text>
 </net>
 <net name="VIN" class="4">
 <segment>
-<pinref part="C_DECOUPLE_CH_GND_1" gate="G$1" pin="2"/>
+<pinref part="C_DEC_CH_GND_1" gate="G$1" pin="2"/>
 <wire x1="-63.5" y1="-17.78" x2="-55.88" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-55.88" y="-17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C_DECOUPLE_CH_GND_2" gate="G$1" pin="2"/>
+<pinref part="C_DEC_CH_GND_2" gate="G$1" pin="2"/>
 <wire x1="-10.16" y1="-17.78" x2="-2.54" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-2.54" y="-17.78" size="1.778" layer="95"/>
 </segment>
@@ -2609,12 +2609,12 @@ Will mate with a male connector on the board enclosure. </text>
 </net>
 <net name="CH_GND" class="2">
 <segment>
-<pinref part="C_DECOUPLE_CH_GND_1" gate="G$1" pin="1"/>
+<pinref part="C_DEC_CH_GND_1" gate="G$1" pin="1"/>
 <wire x1="-76.2" y1="-17.78" x2="-83.82" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-93.98" y="-17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C_DECOUPLE_CH_GND_2" gate="G$1" pin="1"/>
+<pinref part="C_DEC_CH_GND_2" gate="G$1" pin="1"/>
 <wire x1="-22.86" y1="-17.78" x2="-30.48" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-40.64" y="-17.78" size="1.778" layer="95"/>
 </segment>
