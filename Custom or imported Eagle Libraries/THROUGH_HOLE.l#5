@@ -64,7 +64,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -84,26 +84,13 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 </packages>
 <symbols>
 <symbol name="THROUGH_HOLE_SYM">
-<text x="0" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<pin name="P$1" x="0" y="0" visible="off" length="short" direction="nc"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0" y1="-5.08" x2="0" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
+<text x="0" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="THROUGH_HOLE_">
-<gates>
-<gate name="G$1" symbol="THROUGH_HOLE_SYM" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="THROUGH_HOLE">
-<connects>
-<connect gate="G$1" pin="P$1" pad="THROUGH_HOLE"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </drawing>
