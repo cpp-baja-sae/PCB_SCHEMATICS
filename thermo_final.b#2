@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1984,16 +1984,16 @@ design rules under a new name.</description>
 <attribute name="NAME" x="34.036" y="48.895" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="35.56" y="48.895" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R3" library="TNPW0402100RBYEP" package="RESC1005X40N" value="100" x="24.13" y="55.372" smashed="yes" rot="MR270">
-<attribute name="AVAILABILITY" value="In Stock" x="115.57" y="-30.988" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DESCRIPTION" value=" TNPW0402 100R 0.1% T-13 EP1 E3 " x="115.57" y="-30.988" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MF" value="Vishay" x="115.57" y="-30.988" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MP" value="TNPW0402100RBYEP" x="115.57" y="-30.988" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="25.278" y="55.941" size="0.6096" layer="26" rot="MR270"/>
-<attribute name="PACKAGE" value="1005 Stackpole" x="115.57" y="-30.988" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="PRICE" value="None" x="115.57" y="-30.988" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TNPW0402100RBYEP/?ref=eda" x="115.57" y="-30.988" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="24.76" y="56.322" size="0.5" layer="28" rot="MR270" align="top-left"/>
+<element name="R3" library="TNPW0402100RBYEP" package="RESC1005X40N" value="100" x="22.7076" y="55.626" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="-68.7324" y="-30.734" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" TNPW0402 100R 0.1% T-13 EP1 E3 " x="-68.7324" y="-30.734" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Vishay" x="-68.7324" y="-30.734" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="TNPW0402100RBYEP" x="-68.7324" y="-30.734" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="21.5596" y="56.195" size="0.6096" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1005 Stackpole" x="-68.7324" y="-30.734" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="-68.7324" y="-30.734" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TNPW0402100RBYEP/?ref=eda" x="-68.7324" y="-30.734" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="22.0776" y="56.576" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="R30" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="32.385" y="48.895" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-80.645" y="84.455" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2955,9 +2955,6 @@ design rules under a new name.</description>
 <wire x1="31.2674" y1="40.6908" x2="31.8724" y2="40.9414" width="0.3048" layer="1" curve="45"/>
 <wire x1="31.8724" y1="40.9414" x2="32.471" y2="41.54" width="0.3048" layer="1"/>
 <wire x1="24.777" y1="56.364" x2="24.777" y2="56.4268" width="0.3048" layer="1"/>
-<wire x1="24.777" y1="56.4268" x2="24.3586" y2="56.8452" width="0.3048" layer="1" curve="-90"/>
-<wire x1="24.3586" y1="56.8452" x2="25.273" y2="57.7596" width="0.3048" layer="1" curve="-90"/>
-<wire x1="25.273" y1="57.7596" x2="26.1112" y2="57.7596" width="0.3048" layer="1"/>
 <via x="26.1112" y="57.7596" extent="1-16" drill="0.35"/>
 <wire x1="25.087" y1="56.515" x2="25.087" y2="57.0656" width="0.3048" layer="16"/>
 <wire x1="25.277" y1="56.364" x2="25.777" y2="56.364" width="0.3048" layer="1"/>
@@ -3125,6 +3122,8 @@ design rules under a new name.</description>
 <wire x1="21.336" y1="54.3814" x2="21.9964" y2="53.721" width="0.3048" layer="2" curve="90"/>
 <wire x1="21.9964" y1="53.721" x2="23.3172" y2="53.721" width="0.3048" layer="2"/>
 <wire x1="20.8534" y1="54.864" x2="18.669" y2="54.864" width="0.3048" layer="2"/>
+<wire x1="24.777" y1="56.364" x2="24.777" y2="56.4254" width="0.3048" layer="1"/>
+<wire x1="24.777" y1="56.4254" x2="26.1112" y2="57.7596" width="0.3048" layer="1" curve="-90"/>
 </signal>
 <signal name="CLK">
 <contactref element="D-TYPE" pad="11"/>
@@ -4033,32 +4032,24 @@ design rules under a new name.</description>
 <contactref element="SPI" pad="10"/>
 <contactref element="R3" pad="2"/>
 <contactref element="TRANSFORMER" pad="1"/>
-<wire x1="24.027" y1="55.114" x2="22.9148" y2="55.114" width="0.3048" layer="1"/>
-<wire x1="22.9148" y1="55.114" x2="20.9042" y2="57.1246" width="0.3048" layer="1" curve="-90"/>
-<wire x1="24.13" y1="54.915" x2="24.13" y2="54.5592" width="0.3048" layer="16"/>
-<wire x1="24.13" y1="54.5592" x2="23.5712" y2="54.0004" width="0.3048" layer="16" curve="-90"/>
-<wire x1="23.5712" y1="54.0004" x2="23.0886" y2="54.0004" width="0.3048" layer="16"/>
-<wire x1="23.0886" y1="54.0004" x2="22.606" y2="54.483" width="0.3048" layer="16" curve="-90"/>
-<via x="22.606" y="54.483" extent="1-16" drill="0.35"/>
-<wire x1="22.606" y1="54.483" x2="23.237" y2="55.114" width="0.3048" layer="1" curve="-90"/>
-<wire x1="23.237" y1="55.114" x2="24.027" y2="55.114" width="0.3048" layer="1"/>
-<wire x1="20.9042" y1="64.6938" x2="18.6944" y2="66.9036" width="0.3048" layer="1" curve="90"/>
-<wire x1="20.9042" y1="57.1246" x2="20.9042" y2="64.6938" width="0.3048" layer="1"/>
+<wire x1="18.6944" y1="66.9036" x2="20.9042" y2="64.6938" width="0.3048" layer="1" curve="-90"/>
+<wire x1="20.9042" y1="56.9724" x2="22.7076" y2="55.169" width="0.3048" layer="1" curve="90"/>
+<wire x1="20.9042" y1="64.6938" x2="20.9042" y2="56.9724" width="0.3048" layer="1"/>
+<wire x1="22.7076" y1="55.169" x2="22.7626" y2="55.114" width="0.3048" layer="1" curve="-90"/>
+<wire x1="24.027" y1="55.114" x2="22.7626" y2="55.114" width="0.3048" layer="1"/>
+<wire x1="22.7626" y1="55.114" x2="22.7076" y2="55.169" width="0.3048" layer="1" curve="-90"/>
 </signal>
 <signal name="IM">
 <contactref element="SPI" pad="9"/>
 <contactref element="R3" pad="1"/>
 <contactref element="TRANSFORMER" pad="3"/>
-<wire x1="24.027" y1="55.614" x2="22.745" y2="55.614" width="0.3048" layer="1"/>
-<wire x1="22.745" y1="55.614" x2="21.59" y2="56.769" width="0.3048" layer="1" curve="-90"/>
-<wire x1="24.13" y1="55.829" x2="24.05401875" y2="55.82898125" width="0.3048" layer="16"/>
-<wire x1="24.05401875" y1="55.82898125" x2="23.0505" y2="56.8325" width="0.3048" layer="16" curve="90"/>
-<wire x1="23.0505" y1="56.8325" x2="22.606" y2="56.388" width="0.3048" layer="16" curve="90"/>
-<via x="22.606" y="56.388" extent="1-16" drill="0.35"/>
-<wire x1="22.606" y1="56.388" x2="23.38" y2="55.614" width="0.3048" layer="1" curve="90"/>
-<wire x1="23.38" y1="55.614" x2="24.027" y2="55.614" width="0.3048" layer="1"/>
+<wire x1="22.7076" y1="56.083" x2="22.7076" y2="56.0832" width="0.3048" layer="1"/>
 <wire x1="21.59" y1="64.7192" x2="23.7744" y2="66.9036" width="0.3048" layer="1" curve="-90"/>
-<wire x1="21.59" y1="56.769" x2="21.59" y2="64.7192" width="0.3048" layer="1"/>
+<wire x1="21.59" y1="64.7192" x2="21.59" y2="56.769" width="0.3048" layer="1"/>
+<wire x1="21.59" y1="56.769" x2="22.276" y2="56.083" width="0.3048" layer="1" curve="90"/>
+<wire x1="22.276" y1="56.083" x2="22.7076" y2="56.083" width="0.3048" layer="1"/>
+<wire x1="22.7076" y1="56.083" x2="23.558" y2="56.083" width="0.3048" layer="1"/>
+<wire x1="23.558" y1="56.083" x2="24.027" y2="55.614" width="0.3048" layer="1" curve="-90"/>
 </signal>
 <signal name="N$10">
 <contactref element="TRANSFORMER" pad="2"/>
