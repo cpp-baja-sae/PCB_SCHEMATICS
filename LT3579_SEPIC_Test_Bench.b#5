@@ -8,8 +8,8 @@
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,17 +22,17 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -57,7 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
@@ -74,13 +74,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="81.026" y2="0" width="0" layer="20"/>
-<wire x1="81.026" y1="0" x2="81.026" y2="62.103" width="0" layer="20"/>
-<wire x1="81.026" y1="62.103" x2="0" y2="62.103" width="0" layer="20"/>
-<wire x1="0" y1="62.103" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="68.453" y2="0" width="0" layer="20"/>
+<wire x1="68.453" y1="0" x2="68.453" y2="62.23" width="0" layer="20"/>
+<wire x1="68.453" y1="62.23" x2="0" y2="62.23" width="0" layer="20"/>
+<wire x1="0" y1="62.23" x2="0" y2="0" width="0" layer="20"/>
 <dimension x1="85.09" y1="62.1" x2="0" y2="62.1" x3="42.545" y3="68.58" textsize="0.5" layer="1" unit="inch"/>
 <dimension x1="81.026" y1="62.103" x2="0" y2="62.103" x3="40.513" y3="65.532" textsize="0.5" layer="15" unit="inch"/>
-<dimension x1="-0.127" y1="62.865" x2="71.755" y2="62.992" x3="35.812884375" y3="63.56013125" textsize="0.5" layer="1" unit="inch"/>
+<dimension x1="68.453" y1="62.23" x2="0" y2="62.23" x3="34.2265" y3="63.5" textsize="0.5" layer="1" unit="inch"/>
+<dimension x1="0" y1="62.23" x2="0" y2="0" x3="-4.318" y3="31.115" textsize="0.5" layer="1" unit="inch"/>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
@@ -1540,23 +1541,23 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="88.412" y="101.8" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/GMR100HTCFAR100/?ref=eda" x="88.412" y="101.8" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R_T_" library="SamacSys_Parts" package="RESC2012X60N" value="AC0805FR-07124KL" x="56.337" y="56.01" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD AEC-Q200" x="151.587" y="169.04" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="HEIGHT" value="0.6mm" x="151.587" y="169.04" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="151.587" y="169.04" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AC0805FR-07124KL" x="151.587" y="169.04" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-AC0805FR-07124KL" x="151.587" y="169.04" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-AC0805FR-07124KL" x="151.587" y="169.04" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="56.187" y="57.41" size="0.3048" layer="26" rot="MR180" align="center"/>
+<element name="R_T_" library="SamacSys_Parts" package="RESC2012X60N" value="AC0805FR-07124KL" x="56.083" y="56.01" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD AEC-Q200" x="151.333" y="169.04" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="0.6mm" x="151.333" y="169.04" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="151.333" y="169.04" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AC0805FR-07124KL" x="151.333" y="169.04" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-AC0805FR-07124KL" x="151.333" y="169.04" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-AC0805FR-07124KL" x="151.333" y="169.04" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="55.933" y="57.41" size="0.3048" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="R_T_1" library="SamacSys_Parts" package="RESC2012X60N" value="AC0805FR-07124KL" x="56.085" y="38.08" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD AEC-Q200" x="77.675" y="153.65" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="HEIGHT" value="0.6mm" x="77.675" y="153.65" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="77.675" y="153.65" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AC0805FR-07124KL" x="77.675" y="153.65" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-AC0805FR-07124KL" x="77.675" y="153.65" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-AC0805FR-07124KL" x="77.675" y="153.65" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="56.135" y="39.44" size="0.3048" layer="26" rot="MR180" align="center"/>
+<element name="R_T_1" library="SamacSys_Parts" package="RESC2012X60N" value="AC0805FR-07124KL" x="56.085" y="38.461" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD AEC-Q200" x="77.675" y="154.031" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="0.6mm" x="77.675" y="154.031" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="77.675" y="154.031" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AC0805FR-07124KL" x="77.675" y="154.031" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-AC0805FR-07124KL" x="77.675" y="154.031" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-AC0805FR-07124KL" x="77.675" y="154.031" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="53.722" y="38.805" size="0.3048" layer="26" rot="MR180" align="center"/>
 </element>
 <element name="R_T_2" library="SamacSys_Parts" package="RESC2012X60N" value="AC0805FR-07124KL" x="58.002" y="18.68" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD AEC-Q200" x="97.372" y="134.25" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1582,7 +1583,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" 30 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film " x="153.271" y="122.795" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Yageo" x="153.271" y="122.795" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="AC0805FR-0730KL" x="153.271" y="122.795" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="50.341" y="31.465" size="0.3048" layer="26" rot="MR180"/>
+<attribute name="NAME" x="49.753" y="31.828" size="0.3048" layer="26" rot="MR270"/>
 <attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="153.271" y="122.795" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="153.271" y="122.795" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/AC0805FR-0730KL/?ref=eda" x="153.271" y="122.795" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1604,16 +1605,16 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="28.302" y="-43.49666875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="28.302" y="-43.49666875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="28.302" y="-43.49666875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="57.54866875" y="52" size="0.3048" layer="26" rot="MR0" align="center"/>
+<attribute name="NAME" x="57.67566875" y="49.079" size="0.3048" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="R_UVLO2_1" library="SamacSys_Parts" package="RESC3116X65N" value="RT1206BRD075KL" x="55.771" y="32.523" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" x="10.051" y="-61.457" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="0.65mm" x="10.051" y="-61.457" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="10.051" y="-61.457" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="10.051" y="-61.457" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="10.051" y="-61.457" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="10.051" y="-61.457" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="55.651" y="34.143" size="0.3048" layer="26" rot="MR180" align="center"/>
+<element name="R_UVLO2_1" library="SamacSys_Parts" package="RESC3116X65N" value="RT1206BRD075KL" x="56.152" y="32.523" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" x="10.432" y="-61.457" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="0.65mm" x="10.432" y="-61.457" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="10.432" y="-61.457" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="10.432" y="-61.457" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="10.432" y="-61.457" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="10.432" y="-61.457" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="56.032" y="34.016" size="0.3048" layer="26" rot="MR180" align="center"/>
 </element>
 <element name="R_UVLO2_2" library="SamacSys_Parts" package="RESC3116X65N" value="RT1206BRD075KL" x="58.802" y="12.93" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" x="-3.428" y="-81.05" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1622,7 +1623,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="-3.428" y="-81.05" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="-3.428" y="-81.05" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="-3.428" y="-81.05" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="58.732" y="14.49" size="0.3048" layer="26" rot="MR0" align="center"/>
+<attribute name="NAME" x="58.986" y="14.363" size="0.3048" layer="26" rot="MR0" align="center"/>
 </element>
 <element name="TP_CF_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="35.25199375" y="54.483" smashed="yes" rot="R180">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-30.78800625" y="120.523" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1680,12 +1681,12 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="TEST POINT" x="158.509" y="-37.271" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="158.509" y="-37.271" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP_CLK_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="53.137" y="9.7" smashed="yes" rot="R180">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="31.547" y="82.09" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Harwin " x="31.547" y="82.09" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="51.577" y="10.91" size="0.5" layer="25"/>
-<attribute name="TYPE" value="TEST POINT" x="31.547" y="82.09" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="31.547" y="82.09" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="TP_CLK_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="53.264" y="9.7" smashed="yes" rot="R180">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="31.674" y="82.09" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Harwin " x="31.674" y="82.09" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="51.704" y="10.91" size="0.5" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="31.674" y="82.09" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="31.674" y="82.09" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP_D1_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="36.572" y="44.84" smashed="yes" rot="MR0">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="4.822" y="-27.55" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1799,12 +1800,12 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="TEST POINT" x="117.522" y="113.843" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="117.522" y="113.843" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="TP_GND2_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="58.021" y="28.004" smashed="yes" rot="R270">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="4.681" y="-7.556" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Harwin " x="4.681" y="-7.556" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="59.226" y="28.179" size="0.5" layer="25"/>
-<attribute name="TYPE" value="TEST POINT" x="4.681" y="-7.556" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="4.681" y="-7.556" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="TP_GND2_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="47.434" y="38.844" smashed="yes">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="82.994" y="-14.496" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Harwin " x="82.994" y="-14.496" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="49.359" y="40.528" size="0.5" layer="25" rot="R180"/>
+<attribute name="TYPE" value="TEST POINT" x="82.994" y="-14.496" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="82.994" y="-14.496" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP_GND2_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="60.914" y="9.7205" smashed="yes" rot="R180">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="12.654" y="63.0605" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1820,12 +1821,12 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="TEST POINT" x="129.677" y="-14.084" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="129.677" y="-14.084" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP_GND3_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="52.0555" y="25.934" smashed="yes">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="113.0155" y="-27.406" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Harwin " x="113.0155" y="-27.406" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="50.1555" y="27.104" size="0.5" layer="25"/>
-<attribute name="TYPE" value="TEST POINT" x="113.0155" y="-27.406" size="1.778" layer="27" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="113.0155" y="-27.406" size="1.778" layer="27" display="off"/>
+<element name="TP_GND3_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="51.8015" y="26.315" smashed="yes">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="112.7615" y="-27.025" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Harwin " x="112.7615" y="-27.025" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="49.9015" y="27.485" size="0.5" layer="25"/>
+<attribute name="TYPE" value="TEST POINT" x="112.7615" y="-27.025" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="112.7615" y="-27.025" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP_GND3_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="53.15425" y="6.739" smashed="yes">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="126.81425" y="-46.601" size="1.778" layer="27" display="off"/>
@@ -1834,26 +1835,26 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="TEST POINT" x="126.81425" y="-46.601" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="126.81425" y="-46.601" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP_GND4_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="59.692" y="55.29" smashed="yes" rot="MR270">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="119.382" y="-34.88" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MFR" value="Harwin " x="119.382" y="-34.88" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="59.552" y="57.77" size="0.5" layer="26" rot="MR180"/>
-<attribute name="TYPE" value="TEST POINT" x="119.382" y="-34.88" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="119.382" y="-34.88" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="TP_GND4_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="59.438" y="54.274" smashed="yes" rot="MR270">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="119.128" y="-35.896" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFR" value="Harwin " x="119.128" y="-35.896" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="60.822" y="53.833" size="0.5" layer="26" rot="MR180"/>
+<attribute name="TYPE" value="TEST POINT" x="119.128" y="-35.896" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="119.128" y="-35.896" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="TP_GND4_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="56.015" y="40.415" smashed="yes" rot="MR180">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="142.375" y="93.755" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MFR" value="Harwin " x="142.375" y="93.755" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="56.726" y="41.634" size="0.5" layer="26" rot="MR0"/>
-<attribute name="TYPE" value="TEST POINT" x="142.375" y="93.755" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="142.375" y="93.755" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="TP_GND4_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="55.634" y="30.382" smashed="yes" rot="MR180">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="141.994" y="83.722" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MFR" value="Harwin " x="141.994" y="83.722" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="57.574" y="30.629" size="0.5" layer="26" rot="MR180"/>
+<attribute name="TYPE" value="TEST POINT" x="141.994" y="83.722" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="141.994" y="83.722" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="TP_GND4_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="61.5745" y="18.015" smashed="yes" rot="MR90">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="8.2345" y="117.075" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MFR" value="Harwin " x="8.2345" y="117.075" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="62.667" y="19.1775" size="0.5" layer="26" rot="MR180"/>
-<attribute name="TYPE" value="TEST POINT" x="8.2345" y="117.075" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="8.2345" y="117.075" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="TP_GND4_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="60.9395" y="17.761" smashed="yes" rot="MR90">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="7.5995" y="116.821" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFR" value="Harwin " x="7.5995" y="116.821" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="62.032" y="18.9235" size="0.5" layer="26" rot="MR180"/>
+<attribute name="TYPE" value="TEST POINT" x="7.5995" y="116.821" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="7.5995" y="116.821" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="TP_GND_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="24.582" y="52.465" smashed="yes" rot="MR0">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-68.128" y="-19.925" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1918,19 +1919,19 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="TEST POINT" x="3.522" y="84.02" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="3.522" y="84.02" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="TP_RT_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="56.662" y="53.4766625" smashed="yes" rot="MR0">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="4.592" y="-25.2633375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFR" value="Harwin " x="4.592" y="-25.2633375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="59.012" y="52.8733375" size="0.5" layer="26" rot="MR180"/>
-<attribute name="TYPE" value="TEST POINT" x="4.592" y="-25.2633375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="4.592" y="-25.2633375" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP_RT_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="56.408" y="53.4766625" smashed="yes" rot="MR0">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="4.338" y="-25.2633375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFR" value="Harwin " x="4.338" y="-25.2633375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="55.583" y="52.3653375" size="0.5" layer="26" rot="MR180"/>
+<attribute name="TYPE" value="TEST POINT" x="4.338" y="-25.2633375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="4.338" y="-25.2633375" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="TP_RT_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="55.221" y="36.218" smashed="yes" rot="MR180">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="117.451" y="114.958" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MFR" value="Harwin " x="117.451" y="114.958" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="57.271" y="35.508" size="0.5" layer="26" rot="MR180"/>
-<attribute name="TYPE" value="TEST POINT" x="117.451" y="114.958" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="117.451" y="114.958" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="TP_RT_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="56.364" y="36.472" smashed="yes" rot="MR180">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="118.594" y="115.212" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MFR" value="Harwin " x="118.594" y="115.212" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="58.345" y="35.681" size="0.5" layer="26" rot="MR90"/>
+<attribute name="TYPE" value="TEST POINT" x="118.594" y="115.212" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="118.594" y="115.212" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="TP_RT_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="57.957" y="15.96" smashed="yes" rot="MR0">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-14.433" y="-62.78" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1946,12 +1947,12 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="TEST POINT" x="12.612" y="-12.1" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="12.612" y="-12.1" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="TP_SHDN_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="54.586" y="30.294" smashed="yes" rot="MR0">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-22.884" y="-16.696" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFR" value="Harwin " x="-22.884" y="-16.696" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="53.356" y="28.984" size="0.5" layer="26" rot="MR180"/>
-<attribute name="TYPE" value="TEST POINT" x="-22.884" y="-16.696" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-22.884" y="-16.696" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP_SHDN_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="51.919" y="30.294" smashed="yes" rot="MR0">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-25.551" y="-16.696" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFR" value="Harwin " x="-25.551" y="-16.696" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="49.673" y="28.984" size="0.5" layer="26" rot="MR180"/>
+<attribute name="TYPE" value="TEST POINT" x="-25.551" y="-16.696" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-25.551" y="-16.696" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="TP_SHDN_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="58.292" y="10.04" smashed="yes" rot="MR0">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-31.878" y="-36.95" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2158,21 +2159,21 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="2.374" y="29.754" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="56.004" y="33.034" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="C_68N_FILTER_1" library="SamacSys_Parts" package="CAPC2013X150N" value="CEU4J2X7R1H683K125AE" x="55.34" y="28.767" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=68nF, LxWxT:2x1.25x1.25mm" x="1.39" y="32.817" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.5mm" x="1.39" y="32.817" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="1.39" y="32.817" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CEU4J2X7R1H683K125AE" x="1.39" y="32.817" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="1.39" y="32.817" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="1.39" y="32.817" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="56.31" y="30.197" size="0.4064" layer="25" align="center"/>
+<element name="C_68N_FILTER_1" library="SamacSys_Parts" package="CAPC2013X150N" value="CEU4J2X7R1H683K125AE" x="54.802" y="28.099" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=68nF, LxWxT:2x1.25x1.25mm" x="58.852" y="82.049" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1.5mm" x="58.852" y="82.049" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="58.852" y="82.049" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CEU4J2X7R1H683K125AE" x="58.852" y="82.049" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="58.852" y="82.049" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="58.852" y="82.049" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="56.232" y="27.129" size="0.4064" layer="25" rot="R270" align="center"/>
 </element>
-<element name="TP_CLK_FILTER_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="55.94625" y="25.172" smashed="yes" rot="R180">
-<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="109.84625" y="49.422" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Harwin " x="109.84625" y="49.422" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="54.22125" y="23.368" size="0.5" layer="25"/>
-<attribute name="TYPE" value="TEST POINT" x="109.84625" y="49.422" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="109.84625" y="49.422" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="TP_CLK_FILTER_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="56.743" y="26.60925" smashed="yes" rot="R270">
+<attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="32.493" y="80.50925" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Harwin " x="32.493" y="80.50925" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="58.547" y="24.88425" size="0.5" layer="25" rot="R90"/>
+<attribute name="TYPE" value="TEST POINT" x="32.493" y="80.50925" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="32.493" y="80.50925" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R_LS_GATE_2" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="37.762" y="10.1" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="In Stock" x="52.712" y="37.8" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2209,23 +2210,23 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="TEST POINT" x="59.472" y="-5.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="59.472" y="-5.45" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R_10K_FILTER_2" library="AC0805DR-0710KL" package="RESC2012X60N" value="AC0805DR-0710KL" x="53.102" y="12.76" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="11.152" y="14.61" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Thick Film Resistors - SMD 10kOhms 1/8W 0805 0.5% AEC-Q200 " x="11.152" y="14.61" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="YAGEO" x="11.152" y="14.61" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="AC0805DR-0710KL" x="11.152" y="14.61" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="50.292" y="14.4" size="0.4064" layer="25"/>
-<attribute name="PACKAGE" value="None" x="11.152" y="14.61" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="11.152" y="14.61" size="1.778" layer="27" display="off"/>
+<element name="R_10K_FILTER_2" library="AC0805DR-0710KL" package="RESC2012X60N" value="AC0805DR-0710KL" x="53.229" y="12.252" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="11.279" y="14.102" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Thick Film Resistors - SMD 10kOhms 1/8W 0805 0.5% AEC-Q200 " x="11.279" y="14.102" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="YAGEO" x="11.279" y="14.102" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="AC0805DR-0710KL" x="11.279" y="14.102" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.419" y="13.892" size="0.4064" layer="25"/>
+<attribute name="PACKAGE" value="None" x="11.279" y="14.102" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="11.279" y="14.102" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R_5K_FILTER_\2" library="SamacSys_Parts" package="RESC3116X65N" value="RT1206BRD075KL" x="57.664" y="12.55" smashed="yes">
-<attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" x="4.314" y="11" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.65mm" x="4.314" y="11" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="4.314" y="11" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="4.314" y="11" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="4.314" y="11" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="4.314" y="11" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="57.704" y="14.21" size="0.4064" layer="25" align="center"/>
+<element name="R_5K_FILTER_\2" library="SamacSys_Parts" package="RESC3116X65N" value="RT1206BRD075KL" x="57.664" y="12.042" smashed="yes">
+<attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" x="4.314" y="10.492" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.65mm" x="4.314" y="10.492" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="4.314" y="10.492" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="4.314" y="10.492" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="4.314" y="10.492" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="4.314" y="10.492" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="57.704" y="13.575" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="C_68N_FILTER_2" library="SamacSys_Parts" package="CAPC2013X150N" value="CEU4J2X7R1H683K125AE" x="57.183" y="9.617" smashed="yes">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=68nF, LxWxT:2x1.25x1.25mm" x="3.233" y="13.667" size="1.778" layer="27" display="off"/>
@@ -2348,8 +2349,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="6.3" y="25.724" size="1.27" layer="27" ratio="10" rot="R270" align="top-left"/>
 </element>
 <element name="U$1" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="4.572" y="4.572" smashed="yes"/>
-<element name="U$2" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="64.389" y="4.445" smashed="yes"/>
-<element name="U$3" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="65.8114" y="57.785" smashed="yes"/>
+<element name="U$2" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="63.881" y="4.572" smashed="yes"/>
+<element name="U$3" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="63.881" y="57.658" smashed="yes"/>
 <element name="U$4" library="THROUGH_HOLE" package="THROUGH_HOLE" value="THROUGH_HOLE_" x="4.572" y="57.531" smashed="yes" rot="R180"/>
 </elements>
 <signals>
@@ -2435,8 +2436,8 @@ design rules under a new name.</description>
 <polygon width="0.1524" layer="16" isolate="0.25">
 <vertex x="22.622" y="62.5"/>
 <vertex x="22.622" y="0"/>
-<vertex x="82.114" y="0"/>
-<vertex x="82.114" y="62.5"/>
+<vertex x="69.287" y="0"/>
+<vertex x="69.287" y="62.5"/>
 </polygon>
 <polygon width="0.127" layer="1" isolate="0.25">
 <vertex x="0.84" y="49.973525"/>
@@ -2458,18 +2459,18 @@ design rules under a new name.</description>
 </polygon>
 <polygon width="0.127" layer="1" isolate="0.25" rank="2">
 <vertex x="17.422" y="62.3"/>
-<vertex x="82.187" y="62.3"/>
-<vertex x="82.187" y="-0.2"/>
+<vertex x="68.979" y="62.3"/>
+<vertex x="68.979" y="-0.2"/>
 <vertex x="17.422" y="-0.2"/>
 </polygon>
 <via x="26.162" y="6.731" extent="1-16" drill="0.4"/>
 <via x="35.56" y="5.969" extent="1-16" drill="0.4"/>
 <via x="48.641" y="2.921" extent="1-16" drill="0.4"/>
 <via x="53.086" y="3.81" extent="1-16" drill="0.4"/>
-<via x="66.04" y="11.303" extent="1-16" drill="0.4"/>
-<via x="63.754" y="17.78" extent="1-16" drill="0.4"/>
-<via x="65.024" y="14.478" extent="1-16" drill="0.4"/>
-<via x="52.705" y="22.733" extent="1-16" drill="0.4"/>
+<via x="52.832" y="22.733" extent="1-16" drill="0.4"/>
+<via x="63.246" y="15.24" extent="1-16" drill="0.4"/>
+<via x="51.308" y="1.905" extent="1-16" drill="0.4"/>
+<via x="54.737" y="25.527" extent="1-16" drill="0.4"/>
 <via x="47.752" y="59.69" extent="1-16" drill="0.4"/>
 <via x="31.75" y="60.579" extent="1-16" drill="0.4"/>
 <via x="54.102" y="59.69" extent="1-16" drill="0.4"/>
@@ -2482,7 +2483,7 @@ design rules under a new name.</description>
 <via x="32.512" y="14.605" extent="1-16" drill="0.4"/>
 <via x="26.162" y="9.525" extent="1-16" drill="0.4"/>
 <via x="47.752" y="22.225" extent="1-16" drill="0.4"/>
-<via x="62.992" y="27.178" extent="1-16" drill="0.4"/>
+<via x="66.421" y="30.099" extent="1-16" drill="0.4"/>
 <polygon width="0.127" layer="2" isolate="0.25">
 <vertex x="11.45" y="48.4"/>
 <vertex x="27.722" y="48.4"/>
@@ -2505,15 +2506,14 @@ design rules under a new name.</description>
 <via x="7.112" y="39.116" extent="1-16" drill="0.35"/>
 <via x="56.642" y="1.651" extent="1-16" drill="0.35"/>
 <via x="58.801" y="3.556" extent="1-16" drill="0.35"/>
-<via x="65.659" y="17.145" extent="1-16" drill="0.35"/>
-<via x="64.643" y="16.129" extent="1-16" drill="0.35"/>
-<via x="64.897" y="18.034" extent="1-16" drill="0.35"/>
-<via x="67.033" y="34.671" extent="1-16" drill="0.35"/>
+<via x="65.913" y="23.368" extent="1-16" drill="0.35"/>
+<via x="63.373" y="10.033" extent="1-16" drill="0.35"/>
+<via x="63.246" y="19.431" extent="1-16" drill="0.35"/>
+<via x="67.033" y="34.798" extent="1-16" drill="0.35"/>
 <via x="44.704" y="60.579" extent="1-16" drill="0.35"/>
 <via x="46.228" y="59.817" extent="1-16" drill="0.35"/>
 <via x="57.277" y="59.69" extent="1-16" drill="0.35"/>
 <via x="51.308" y="59.944" extent="1-16" drill="0.35"/>
-<wire x1="52.876" y1="36.051" x2="52.397334375" y2="38.828" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VIN" class="4">
 <contactref element="C_DEC_CH_GND_1" pad="2"/>
@@ -2561,7 +2561,9 @@ design rules under a new name.</description>
 <wire x1="35.187" y1="18.035" x2="33.912" y2="18.035" width="0.816" layer="1"/>
 <wire x1="12.984" y1="43.2" x2="12.984" y2="59.728203125" width="0.816" layer="1"/>
 <wire x1="12.984" y1="59.728203125" x2="13.655796875" y2="60.4" width="0.816" layer="1" curve="-90"/>
-<wire x1="13.655796875" y1="60.4" x2="26.7633125" y2="60.4" width="0.816" layer="1"/>
+<wire x1="13.655796875" y1="60.4" x2="25.337875" y2="60.4" width="0.816" layer="1"/>
+<wire x1="25.337875" y1="60.4" x2="27.95166875" y2="59.31733125" width="0.816" layer="1" curve="-45.000034"/>
+<wire x1="27.95166875" y1="59.31733125" x2="29.134" y2="58.135" width="0.816" layer="1"/>
 <wire x1="34.87099375" y1="57.74" x2="37.6490625" y2="57.74" width="0.1524" layer="1"/>
 <wire x1="37.6490625" y1="57.74" x2="38.900265625" y2="57.221734375" width="0.1524" layer="1" curve="-45"/>
 <wire x1="38.900265625" y1="57.221734375" x2="39.022" y2="56.92784375" width="0.1524" layer="1" curve="-45"/>
@@ -2593,13 +2595,12 @@ design rules under a new name.</description>
 <wire x1="40.333" y1="35.9" x2="41.413703125" y2="34.819296875" width="0.1524" layer="16"/>
 <wire x1="41.413703125" y1="34.819296875" x2="41.70491875" y2="34.6247125" width="0.1524" layer="16" curve="22.499952"/>
 <wire x1="41.70491875" y1="34.6247125" x2="43.337359375" y2="34.3" width="0.1524" layer="16" curve="22.500005"/>
-<wire x1="43.337359375" y1="34.3" x2="51.02368125" y2="34.3" width="0.1524" layer="16"/>
-<wire x1="51.02368125" y1="34.3" x2="52.128721875" y2="33.842278125" width="0.1524" layer="16" curve="-44.999942"/>
-<wire x1="52.128721875" y1="33.842278125" x2="52.626" y2="33.345" width="0.1524" layer="16"/>
+<wire x1="43.337359375" y1="34.3" x2="51.671" y2="34.3" width="0.1524" layer="16"/>
+<wire x1="51.671" y1="34.3" x2="52.626" y2="33.345" width="0.1524" layer="16"/>
 <wire x1="40.233" y1="35.9" x2="40.333" y2="35.9" width="0.1524" layer="16"/>
 <wire x1="52.626" y1="33.345" x2="52.626" y2="32.625" width="0.1524" layer="16"/>
-<wire x1="39.022" y1="54.1" x2="39.26341875" y2="54.2" width="0.1524" layer="1"/>
-<wire x1="39.26341875" y1="54.2" x2="39.822" y2="54.2" width="0.1524" layer="1"/>
+<wire x1="39.022" y1="54.1" x2="39.524728125" y2="54.2" width="0.1524" layer="1" curve="-22.500197"/>
+<wire x1="39.524728125" y1="54.2" x2="39.822" y2="54.2" width="0.1524" layer="1"/>
 <via x="39.822" y="54.2" extent="1-16" drill="0.35"/>
 <wire x1="39.822" y1="54.2" x2="41.0344875" y2="52.9875125" width="0.1524" layer="16"/>
 <wire x1="41.0344875" y1="52.9875125" x2="42.063421875" y2="52.3" width="0.1524" layer="16" curve="22.500018"/>
@@ -2620,16 +2621,20 @@ design rules under a new name.</description>
 <wire x1="34.387" y1="32.1" x2="34.645578125" y2="32.358578125" width="0.1524" layer="16"/>
 <wire x1="34.645578125" y1="32.358578125" x2="36.123225" y2="32.6525" width="0.1524" layer="16" curve="-22.499994"/>
 <wire x1="36.123225" y1="32.6525" x2="36.257" y2="32.6525" width="0.1524" layer="16"/>
-<wire x1="41.280578125" y1="11.558578125" x2="41.6192625" y2="12.376234375" width="0.1524" layer="1"/>
+<wire x1="41.6192625" y1="12.376234375" x2="41.42051875" y2="11.896425" width="0.1524" layer="1"/>
+<wire x1="41.42051875" y1="11.896425" x2="41.022" y2="11.3" width="0.1524" layer="1" curve="-22.499919"/>
 <wire x1="41.6192625" y1="12.376234375" x2="41.622" y2="12.39" width="0.1524" layer="1" curve="22.495071"/>
-<wire x1="41.622" y1="12.39" x2="41.622" y2="12.57125625" width="0.1524" layer="1"/>
-<wire x1="41.280578125" y1="11.558578125" x2="41.022" y2="11.3" width="0.1524" layer="1"/>
-<wire x1="41.022" y1="11.3" x2="36.222" y2="11.3" width="0.1524" layer="2"/>
-<wire x1="36.222" y1="11.3" x2="35.522" y2="12" width="0.1524" layer="2"/>
+<wire x1="41.622" y1="12.39" x2="41.622" y2="12.41215625" width="0.1524" layer="1"/>
+<wire x1="41.622" y1="12.41215625" x2="41.422" y2="12.895" width="0.1524" layer="1" curve="45"/>
+<wire x1="41.022" y1="11.3" x2="37.01585625" y2="11.3" width="0.1524" layer="2"/>
+<wire x1="37.01585625" y1="11.3" x2="35.660659375" y2="11.861340625" width="0.1524" layer="2" curve="-44.999934"/>
+<wire x1="35.660659375" y1="11.861340625" x2="35.522" y2="12" width="0.1524" layer="2"/>
 <via x="35.522" y="12" extent="1-16" drill="0.35"/>
 <wire x1="35.522" y1="12" x2="36.462" y2="12.94" width="0.1524" layer="16"/>
 <wire x1="36.462" y1="12.94" x2="36.807" y2="12.94" width="0.1524" layer="16"/>
-<wire x1="33.687" y1="50.7" x2="34.122" y2="50.7" width="0.1524" layer="2"/>
+<wire x1="33.687" y1="50.7" x2="34.429590625" y2="50.392409375" width="0.1524" layer="2" curve="-44.999879"/>
+<wire x1="34.429590625" y1="50.392409375" x2="35.37695" y2="50" width="0.1524" layer="2" curve="45"/>
+<wire x1="35.37695" y1="50" x2="38.922" y2="50" width="0.1524" layer="2"/>
 <via x="33.687" y="50.7" extent="1-16" drill="0.35"/>
 <wire x1="33.687" y1="50.7" x2="33.699434375" y2="50.712434375" width="0.1524" layer="16"/>
 <wire x1="33.699434375" y1="50.712434375" x2="35.637" y2="51.515" width="0.1524" layer="16" curve="-45"/>
@@ -2651,8 +2656,6 @@ design rules under a new name.</description>
 <wire x1="15.3628125" y1="20.9401875" x2="13.438" y2="22.865" width="0.816" layer="1"/>
 <wire x1="22.692" y1="39.83" x2="20.108790625" y2="40.9" width="0.816" layer="1" curve="45"/>
 <wire x1="20.108790625" y1="40.9" x2="12.984" y2="40.9" width="0.816" layer="1"/>
-<wire x1="26.7633125" y1="60.4" x2="26.94373125" y2="60.32526875" width="0.816" layer="1" curve="-45"/>
-<wire x1="26.94373125" y1="60.32526875" x2="29.134" y2="58.135" width="0.816" layer="1"/>
 <wire x1="22.722" y1="56.34" x2="24.517" y2="58.135" width="0.816" layer="1"/>
 <wire x1="24.517" y1="58.135" x2="29.134" y2="58.135" width="0.816" layer="1"/>
 <wire x1="37.582" y1="16.221496875" x2="37.000503125" y2="16.221496875" width="0.816" layer="1"/>
@@ -2669,14 +2672,10 @@ design rules under a new name.</description>
 <wire x1="34.47599375" y1="58.135" x2="31.476" y2="58.135" width="0.8128" layer="1"/>
 <via x="41.022" y="11.3" extent="1-16" drill="0.35"/>
 <via x="39.433" y="31.3" extent="1-16" drill="0.35"/>
-<wire x1="34.822" y1="50" x2="38.922" y2="50" width="0.1524" layer="2"/>
-<wire x1="34.122" y1="50.7" x2="34.822" y2="50" width="0.1524" layer="2"/>
 <via x="38.922" y="50" extent="1-16" drill="0.35"/>
-<wire x1="38.922" y1="50" x2="39.022" y2="50.1" width="0.1524" layer="1"/>
-<wire x1="39.022" y1="50.1" x2="39.022" y2="51.1" width="0.1524" layer="1"/>
+<wire x1="38.922" y1="50" x2="39.022" y2="50.24141875" width="0.1524" layer="1" curve="45"/>
+<wire x1="39.022" y1="50.24141875" x2="39.022" y2="51.1" width="0.1524" layer="1"/>
 <wire x1="34.87099375" y1="57.74" x2="34.47599375" y2="58.135" width="0.1524" layer="1"/>
-<wire x1="41.622" y1="12.57125625" x2="41.5345" y2="12.7825" width="0.1524" layer="1" curve="45"/>
-<wire x1="41.5345" y1="12.7825" x2="41.422" y2="12.895" width="0.1524" layer="1"/>
 </signal>
 <signal name="CH_GND" class="2">
 <contactref element="C_DEC_CH_GND_1" pad="1"/>
@@ -2750,18 +2749,20 @@ design rules under a new name.</description>
 <wire x1="46.362" y1="55.61" x2="46.462" y2="55.71" width="0.816" layer="1"/>
 <wire x1="46.462" y1="55.71" x2="48.3036125" y2="55.71" width="0.816" layer="1"/>
 <wire x1="48.3036125" y1="55.71" x2="49.728" y2="56.3" width="0.816" layer="1" curve="45"/>
-<wire x1="56.183" y1="55.7225" x2="60.43765" y2="55.7225" width="0.816" layer="1"/>
-<wire x1="60.43765" y1="55.7225" x2="62.5917625" y2="54.8302375" width="0.816" layer="1" curve="-45"/>
 <via x="63.93" y="33.502" extent="1-16" drill="0.35"/>
 <wire x1="49.728" y1="56.3" x2="51.764" y2="56.3" width="0.816" layer="1"/>
 <wire x1="51.764" y1="56.3" x2="53.8" y2="56.3" width="0.816" layer="1"/>
-<wire x1="53.8" y1="56.3" x2="55.6055" y2="56.3" width="0.816" layer="1"/>
-<wire x1="55.6055" y1="56.3" x2="56.183" y2="55.7225" width="0.816" layer="1"/>
-<wire x1="62.5917625" y1="54.8302375" x2="63.856" y2="53.566" width="0.816" layer="1"/>
+<wire x1="53.8" y1="56.3" x2="54.78879375" y2="56.3" width="0.816" layer="1"/>
+<wire x1="54.78879375" y1="56.3" x2="56.183" y2="55.7225" width="0.816" layer="1" curve="-45"/>
+<wire x1="63.856" y1="49.911" x2="63.856" y2="33.576" width="0.816" layer="1"/>
 <wire x1="63.93" y1="33.502" x2="63.856" y2="33.576" width="0.816" layer="1"/>
-<wire x1="63.856" y1="53.566" x2="63.856" y2="33.576" width="0.816" layer="1"/>
 <wire x1="63.93" y1="33.502" x2="63.875" y2="33.447" width="0.816" layer="16"/>
 <wire x1="63.875" y1="33.447" x2="62.288" y2="33.447" width="0.816" layer="16"/>
+<wire x1="56.183" y1="55.7225" x2="56.2795" y2="55.626" width="0.816" layer="1"/>
+<wire x1="56.2795" y1="55.626" x2="58.353540625" y2="55.626" width="0.816" layer="1"/>
+<wire x1="58.353540625" y1="55.626" x2="59.767809375" y2="55.040190625" width="0.816" layer="1" curve="-45"/>
+<wire x1="59.767809375" y1="55.040190625" x2="63.119903125" y2="51.688096875" width="0.816" layer="1"/>
+<wire x1="63.119903125" y1="51.688096875" x2="63.856" y2="49.911" width="0.816" layer="1" curve="-45"/>
 </signal>
 <signal name="CLK_" class="3">
 <contactref element="LT3579_IC_" pad="16"/>
@@ -2843,11 +2844,11 @@ design rules under a new name.</description>
 <contactref element="LT3579_IC_2" pad="16"/>
 <contactref element="TP_CLK_2" pad="1"/>
 <contactref element="R_10K_FILTER_2" pad="1"/>
-<wire x1="48.727" y1="12.895" x2="52.012" y2="12.895" width="0.1524" layer="1"/>
-<wire x1="52.012" y1="12.895" x2="52.147" y2="12.76" width="0.1524" layer="1"/>
-<wire x1="52.147" y1="12.76" x2="52.677965625" y2="12.229034375" width="0.1524" layer="1"/>
-<wire x1="52.677965625" y1="12.229034375" x2="53.137" y2="11.120825" width="0.1524" layer="1" curve="-45"/>
-<wire x1="53.137" y1="11.120825" x2="53.137" y2="9.7" width="0.1524" layer="1"/>
+<wire x1="48.727" y1="12.895" x2="50.721659375" y2="12.895" width="0.1524" layer="1"/>
+<wire x1="50.721659375" y1="12.895" x2="52.274" y2="12.252" width="0.1524" layer="1" curve="-45"/>
+<wire x1="52.274" y1="12.252" x2="52.947371875" y2="11.578628125" width="0.1524" layer="1"/>
+<wire x1="52.947371875" y1="11.578628125" x2="53.264" y2="10.81421875" width="0.1524" layer="1" curve="-45"/>
+<wire x1="53.264" y1="10.81421875" x2="53.264" y2="9.7" width="0.1524" layer="1"/>
 </signal>
 <signal name="VOUT_2" class="2">
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="7"/>
@@ -2866,9 +2867,9 @@ design rules under a new name.</description>
 <wire x1="62.273" y1="36.002" x2="62.288" y2="35.987" width="0.816" layer="16"/>
 <wire x1="44.602" y1="17.98" x2="47.972" y2="17.98" width="0.816" layer="1"/>
 <wire x1="47.972" y1="17.98" x2="52.072" y2="17.98" width="0.816" layer="1"/>
-<wire x1="60.0144" y1="35.0074" x2="60.0144" y2="19.118403125" width="0.816" layer="1"/>
-<wire x1="58.935996875" y1="18.04" x2="60.0144" y2="19.118403125" width="0.816" layer="1"/>
-<wire x1="60.0144" y1="35.0074" x2="60.882" y2="35.875" width="0.816" layer="1"/>
+<wire x1="58.935996875" y1="18.04" x2="60.0144" y2="20.64349375" width="0.816" layer="1" curve="45"/>
+<wire x1="60.0144" y1="20.64349375" x2="60.0144" y2="33.780428125" width="0.816" layer="1"/>
+<wire x1="60.0144" y1="33.780428125" x2="60.882" y2="35.875" width="0.816" layer="1" curve="-45"/>
 <wire x1="60.882" y1="35.875" x2="62.146" y2="35.875" width="0.816" layer="16"/>
 <wire x1="62.146" y1="35.875" x2="62.273" y2="36.002" width="0.816" layer="16"/>
 </signal>
@@ -2900,15 +2901,15 @@ design rules under a new name.</description>
 <wire x1="30.552" y1="52.93" x2="31.522" y2="53.9" width="0.816" layer="16"/>
 <wire x1="31.522" y1="53.9" x2="35.527" y2="53.9" width="0.816" layer="16"/>
 <wire x1="35.527" y1="53.9" x2="35.647" y2="53.78" width="0.816" layer="16"/>
-<wire x1="34.532" y1="59.91" x2="35.473540625" y2="60.3" width="0.816" layer="16" curve="-45"/>
-<wire x1="35.473540625" y1="60.3" x2="39.622" y2="60.3" width="0.816" layer="16"/>
+<wire x1="39.622" y1="60.3" x2="36.677453125" y2="60.3" width="0.816" layer="16"/>
+<wire x1="36.677453125" y1="60.3" x2="34.532" y2="58.154546875" width="0.816" layer="16" curve="90"/>
+<wire x1="34.532" y1="58.154546875" x2="34.532" y2="57.08" width="0.816" layer="16"/>
 <wire x1="40.202" y1="59.72" x2="40.202" y2="57.97" width="0.816" layer="16"/>
 <wire x1="39.622" y1="60.3" x2="40.202" y2="59.72" width="0.816" layer="16"/>
 <wire x1="39.622" y1="60.3" x2="41.922" y2="60.3" width="0.816" layer="16"/>
 <via x="41.922" y="60.3" extent="1-16" drill="0.35"/>
 <wire x1="41.922" y1="60.3" x2="41.922" y2="58.04" width="0.816" layer="1"/>
 <wire x1="41.922" y1="58.04" x2="41.952" y2="58.01" width="0.816" layer="1"/>
-<wire x1="34.532" y1="59.91" x2="34.532" y2="57.08" width="0.816" layer="16"/>
 <wire x1="34.532" y1="57.08" x2="35.527" y2="56.085" width="0.816" layer="16"/>
 <wire x1="35.527" y1="56.085" x2="35.527" y2="53.9" width="0.816" layer="16"/>
 </signal>
@@ -2993,14 +2994,15 @@ design rules under a new name.</description>
 <contactref element="LT3579_IC_" pad="18"/>
 <contactref element="R_T_" pad="1"/>
 <contactref element="TP_RT_" pad="1"/>
-<wire x1="56.662" y1="53.4766625" x2="56.276778125" y2="53.861884375" width="0.1524" layer="16"/>
-<wire x1="56.276778125" y1="53.861884375" x2="55.387" y2="56.01" width="0.1524" layer="16" curve="-45"/>
+<wire x1="56.408" y1="53.4766625" x2="56.022778125" y2="53.861884375" width="0.1524" layer="16"/>
+<wire x1="56.022778125" y1="53.861884375" x2="55.133" y2="56.01" width="0.1524" layer="16" curve="-45"/>
 <wire x1="47.302" y1="51.9" x2="47.277" y2="51.925" width="0.1524" layer="1"/>
-<wire x1="56.662" y1="53.4766625" x2="55.272765625" y2="53.4766625" width="0.1524" layer="16"/>
-<wire x1="55.272765625" y1="53.4766625" x2="54.122" y2="53" width="0.1524" layer="16" curve="45"/>
-<via x="54.122" y="53" extent="1-16" drill="0.35"/>
-<wire x1="54.122" y1="53" x2="53.74109375" y2="52.61909375" width="0.1524" layer="1"/>
-<wire x1="53.74109375" y1="52.61909375" x2="52.00505" y2="51.9" width="0.1524" layer="1" curve="-45"/>
+<wire x1="56.408" y1="53.4766625" x2="55.018765625" y2="53.4766625" width="0.1524" layer="16"/>
+<wire x1="55.018765625" y1="53.4766625" x2="54.084803125" y2="53.089803125" width="0.1524" layer="16"/>
+<wire x1="54.084803125" y1="53.089803125" x2="53.995" y2="53" width="0.1524" layer="16" curve="45"/>
+<via x="53.995" y="53" extent="1-16" drill="0.35"/>
+<wire x1="53.995" y1="53" x2="53.524290625" y2="52.529290625" width="0.1524" layer="1"/>
+<wire x1="53.524290625" y1="52.529290625" x2="52.00505" y2="51.9" width="0.1524" layer="1" curve="-45"/>
 <wire x1="52.00505" y1="51.9" x2="47.302" y2="51.9" width="0.1524" layer="1"/>
 </signal>
 <signal name="SS_" class="3">
@@ -3098,9 +3100,9 @@ design rules under a new name.</description>
 <wire x1="33.632" y1="35.23" x2="36.262" y2="35.23" width="0.816" layer="16"/>
 <wire x1="33.632" y1="35.23" x2="35.197" y2="36.795" width="0.816" layer="16"/>
 <wire x1="35.197" y1="36.795" x2="35.197" y2="38.59" width="0.816" layer="16"/>
-<wire x1="35.197" y1="38.59" x2="35.197" y2="41.01" width="0.816" layer="16"/>
-<wire x1="35.197" y1="41.01" x2="35.687" y2="41.5" width="0.816" layer="16"/>
-<wire x1="35.687" y1="41.5" x2="39.633" y2="41.5" width="0.816" layer="16"/>
+<wire x1="35.197" y1="38.59" x2="35.197" y2="40.0682875" width="0.816" layer="16"/>
+<wire x1="35.197" y1="40.0682875" x2="36.6287125" y2="41.5" width="0.816" layer="16" curve="-90"/>
+<wire x1="36.6287125" y1="41.5" x2="39.633" y2="41.5" width="0.816" layer="16"/>
 <wire x1="40.303" y1="40.83" x2="40.303" y2="39.655" width="0.816" layer="16"/>
 <wire x1="39.633" y1="41.5" x2="40.303" y2="40.83" width="0.816" layer="16"/>
 <wire x1="39.633" y1="41.5" x2="43.106" y2="41.5" width="0.816" layer="16"/>
@@ -3147,18 +3149,20 @@ design rules under a new name.</description>
 <contactref element="R_UVLO2_1" pad="2"/>
 <contactref element="R_UVLO1_1" pad="1"/>
 <contactref element="TP_SHDN_1" pad="1"/>
-<wire x1="54.271" y1="32.523" x2="54.586" y2="32.208" width="0.1524" layer="16"/>
-<wire x1="54.586" y1="32.208" x2="54.586" y2="30.294" width="0.1524" layer="16"/>
+<wire x1="52.042" y1="30.294" x2="51.919" y2="30.294" width="0.1524" layer="16"/>
 <wire x1="50.7727125" y1="32.625" x2="50.716" y2="32.625" width="0.1524" layer="16"/>
 <wire x1="52.668875" y1="31.412034375" x2="51.502584375" y2="31.895128125" width="0.1524" layer="16" curve="-45"/>
-<wire x1="51.502584375" y1="31.895128125" x2="50.7727125" y2="32.625" width="0.1524" layer="16"/>
-<wire x1="54.271" y1="32.523" x2="53.507340625" y2="31.759340625" width="0.1524" layer="16"/>
-<wire x1="53.507340625" y1="31.759340625" x2="52.668875" y2="31.412034375" width="0.1524" layer="16" curve="-45.000112"/>
+<wire x1="51.502584375" y1="31.895128125" x2="50.90635625" y2="32.49135625" width="0.1524" layer="16"/>
+<wire x1="50.90635625" y1="32.49135625" x2="50.7727125" y2="32.625" width="0.1524" layer="16"/>
+<wire x1="54.652" y1="32.523" x2="54.157753125" y2="32.028753125" width="0.1524" layer="16"/>
+<wire x1="54.157753125" y1="32.028753125" x2="52.668875" y2="31.412034375" width="0.1524" layer="16" curve="-45.000112"/>
 <wire x1="50.716" y1="32.625" x2="50.6228" y2="32.5318" width="0.1524" layer="16"/>
 <wire x1="50.6228" y1="32.5318" x2="49.398" y2="32.5318" width="0.1524" layer="16"/>
 <via x="49.398" y="32.5318" extent="1-16" drill="0.35"/>
 <wire x1="49.398" y1="32.5318" x2="48.1142" y2="32.5318" width="0.1524" layer="1"/>
 <wire x1="48.1142" y1="32.5318" x2="48.071" y2="32.575" width="0.1524" layer="1"/>
+<wire x1="51.919" y1="30.294" x2="51.744075" y2="30.468925" width="0.1524" layer="16"/>
+<wire x1="51.744075" y1="30.468925" x2="50.90635625" y2="32.49135625" width="0.1524" layer="16" curve="-45"/>
 </signal>
 <signal name="VC_1" class="3">
 <contactref element="LT3579_IC_1" pad="2"/>
@@ -3186,11 +3190,11 @@ design rules under a new name.</description>
 <contactref element="LT3579_IC_1" pad="18"/>
 <contactref element="R_T_1" pad="1"/>
 <contactref element="TP_RT_1" pad="1"/>
-<wire x1="55.221" y1="36.218" x2="55.221021875" y2="37.629803125" width="0.1524" layer="16"/>
-<wire x1="55.221021875" y1="37.629803125" x2="55.135" y2="37.837475" width="0.1524" layer="16" curve="-44.999936"/>
-<wire x1="55.135" y1="37.837475" x2="55.135" y2="38.08" width="0.1524" layer="16"/>
-<wire x1="54.179" y1="34.2" x2="54.179" y2="35.176" width="0.1524" layer="16"/>
-<wire x1="55.221" y1="36.218" x2="54.179" y2="35.176" width="0.1524" layer="16"/>
+<wire x1="56.364" y1="36.472" x2="55.23155625" y2="37.60436875" width="0.1524" layer="16"/>
+<wire x1="55.23155625" y1="37.60436875" x2="55.135" y2="37.837475" width="0.1524" layer="16" curve="-44.999936"/>
+<wire x1="55.135" y1="37.837475" x2="55.135" y2="38.461" width="0.1524" layer="16"/>
+<wire x1="56.364" y1="36.472" x2="54.24051875" y2="34.34851875" width="0.1524" layer="16"/>
+<wire x1="54.24051875" y1="34.34851875" x2="54.179" y2="34.2" width="0.1524" layer="16" curve="45"/>
 <via x="54.179" y="34.2" extent="1-16" drill="0.35"/>
 <wire x1="54.179" y1="34.2" x2="53.821409375" y2="33.842409375" width="0.1524" layer="1"/>
 <wire x1="53.821409375" y1="33.842409375" x2="52.63745625" y2="33.352" width="0.1524" layer="1" curve="-45"/>
@@ -3202,8 +3206,8 @@ design rules under a new name.</description>
 <contactref element="C_SS_1" pad="1"/>
 <contactref element="TP_SS_1" pad="1"/>
 <wire x1="51.255" y1="38.257" x2="51.255" y2="37.622" width="0.1524" layer="16"/>
-<wire x1="51.255" y1="37.622" x2="50.876" y2="37.243" width="0.1524" layer="16"/>
-<wire x1="50.876" y1="37.243" x2="50.876" y2="36.051" width="0.1524" layer="16"/>
+<wire x1="51.255" y1="37.622" x2="50.876" y2="36.707015625" width="0.1524" layer="16" curve="45"/>
+<wire x1="50.876" y1="36.707015625" x2="50.876" y2="36.051" width="0.1524" layer="16"/>
 <via x="49.879" y="35.0338" extent="1-16" drill="0.35"/>
 <wire x1="49.879" y1="35.0338" x2="48.9303" y2="34.0851" width="0.1524" layer="1"/>
 <wire x1="48.9303" y1="34.0851" x2="48.423071875" y2="33.875" width="0.1524" layer="1" curve="-44.999865"/>
@@ -3263,8 +3267,8 @@ design rules under a new name.</description>
 <wire x1="31.112" y1="4.3" x2="31.702" y2="4.89" width="0.816" layer="16"/>
 <wire x1="31.702" y1="4.89" x2="37.447" y2="4.89" width="0.816" layer="16"/>
 <wire x1="37.447" y1="4.89" x2="37.797" y2="4.54" width="0.816" layer="16"/>
-<wire x1="37.797" y1="4.54" x2="40.662" y2="4.54" width="0.816" layer="16"/>
-<wire x1="40.662" y1="4.54" x2="41.022" y2="4.9" width="0.816" layer="16"/>
+<wire x1="37.797" y1="4.54" x2="40.152884375" y2="4.54" width="0.816" layer="16"/>
+<wire x1="40.152884375" y1="4.54" x2="41.022" y2="4.9" width="0.816" layer="16" curve="45"/>
 <via x="41.022" y="4.9" extent="1-16" drill="0.35"/>
 <wire x1="41.022" y1="4.9" x2="42.377" y2="6.255" width="0.816" layer="1"/>
 <wire x1="42.377" y1="6.255" x2="42.377" y2="6.475" width="0.816" layer="1"/>
@@ -3287,9 +3291,9 @@ design rules under a new name.</description>
 <wire x1="36.122" y1="15.78" x2="35.622" y2="16.28" width="0.816" layer="16"/>
 <wire x1="35.622" y1="19.26" x2="35.712" y2="19.35" width="0.816" layer="16"/>
 <wire x1="35.622" y1="16.28" x2="35.622" y2="19.26" width="0.816" layer="16"/>
-<wire x1="35.712" y1="19.35" x2="35.712" y2="21.99" width="0.816" layer="16"/>
-<wire x1="35.712" y1="21.99" x2="36.022" y2="22.3" width="0.816" layer="16"/>
-<wire x1="36.022" y1="22.3" x2="41.022" y2="22.3" width="0.816" layer="16"/>
+<wire x1="35.712" y1="19.35" x2="35.712" y2="21.131009375" width="0.816" layer="16"/>
+<wire x1="35.712" y1="21.131009375" x2="36.880990625" y2="22.3" width="0.816" layer="16" curve="-90"/>
+<wire x1="36.880990625" y1="22.3" x2="41.022" y2="22.3" width="0.816" layer="16"/>
 <wire x1="41.502" y1="21.82" x2="41.502" y2="20.305" width="0.816" layer="16"/>
 <wire x1="41.502" y1="21.82" x2="41.022" y2="22.3" width="0.816" layer="16"/>
 <wire x1="41.022" y1="22.3" x2="43.622" y2="22.3" width="0.816" layer="16"/>
@@ -3375,12 +3379,13 @@ design rules under a new name.</description>
 <wire x1="57.052" y1="18.68" x2="57.438840625" y2="18.293159375" width="0.1524" layer="16"/>
 <wire x1="57.438840625" y1="18.293159375" x2="57.957" y2="17.042209375" width="0.1524" layer="16" curve="-45"/>
 <wire x1="57.957" y1="17.042209375" x2="57.957" y2="15.96" width="0.1524" layer="16"/>
-<wire x1="57.957" y1="15.96" x2="56.982" y2="15.96" width="0.1524" layer="16"/>
-<wire x1="56.982" y1="15.96" x2="55.622" y2="14.6" width="0.1524" layer="16"/>
-<via x="55.622" y="14.6" extent="1-16" drill="0.35"/>
-<wire x1="55.622" y1="14.6" x2="55.357" y2="14.335" width="0.1524" layer="1"/>
-<wire x1="55.357" y1="14.335" x2="55.019009375" y2="14.195" width="0.1524" layer="1" curve="-45"/>
-<wire x1="55.019009375" y1="14.195" x2="48.727" y2="14.195" width="0.1524" layer="1"/>
+<wire x1="57.957" y1="15.96" x2="57.15435625" y2="15.96" width="0.1524" layer="16"/>
+<wire x1="57.15435625" y1="15.96" x2="55.34250625" y2="15.20950625" width="0.1524" layer="16" curve="45.000049"/>
+<wire x1="55.34250625" y1="15.20950625" x2="55.114" y2="14.981" width="0.1524" layer="16"/>
+<via x="55.114" y="14.981" extent="1-16" drill="0.35"/>
+<wire x1="55.114" y1="14.981" x2="54.793896875" y2="14.660896875" width="0.1524" layer="1"/>
+<wire x1="54.793896875" y1="14.660896875" x2="53.669121875" y2="14.195" width="0.1524" layer="1" curve="-45.000113"/>
+<wire x1="53.669121875" y1="14.195" x2="48.727" y2="14.195" width="0.1524" layer="1"/>
 </signal>
 <signal name="SS_2" class="3">
 <contactref element="LT3579_IC_2" pad="19"/>
@@ -3391,8 +3396,8 @@ design rules under a new name.</description>
 <wire x1="49.693790625" y1="14.9297375" x2="49.86841875" y2="15.04641875" width="0.1524" layer="1" curve="22.499854"/>
 <wire x1="49.86841875" y1="15.04641875" x2="50.622" y2="15.8" width="0.1524" layer="1"/>
 <via x="50.622" y="15.8" extent="1-16" drill="0.35"/>
-<wire x1="50.622" y1="15.8" x2="51.872" y2="15.8" width="0.1524" layer="16"/>
-<wire x1="51.872" y1="15.8" x2="52.187" y2="16.115" width="0.1524" layer="16"/>
+<wire x1="50.622" y1="15.8" x2="51.426521875" y2="15.8" width="0.1524" layer="16"/>
+<wire x1="51.426521875" y1="15.8" x2="52.187" y2="16.115" width="0.1524" layer="16" curve="45"/>
 <wire x1="52.187" y1="16.115" x2="52.187" y2="16.627621875" width="0.1524" layer="16"/>
 <wire x1="52.187" y1="16.627621875" x2="52.782653125" y2="18.065653125" width="0.1524" layer="16" curve="-45"/>
 <wire x1="52.782653125" y1="18.065653125" x2="53.427" y2="18.71" width="0.1524" layer="16"/>
@@ -3448,18 +3453,22 @@ design rules under a new name.</description>
 <wire x1="52.468" y1="51" x2="53.914" y2="51" width="0.1524" layer="1"/>
 <wire x1="53.914" y1="51" x2="53.668" y2="50.754" width="0.1524" layer="1"/>
 <wire x1="53.668" y1="50.754" x2="53.668" y2="48.204" width="0.1524" layer="1"/>
-<wire x1="53.668" y1="48.204" x2="54.20311875" y2="47.66888125" width="0.1524" layer="1"/>
-<wire x1="54.20311875" y1="47.66888125" x2="54.738" y2="46.37756875" width="0.1524" layer="1" curve="45.000101"/>
-<wire x1="54.738" y1="46.37756875" x2="54.738" y2="45.606" width="0.1524" layer="1"/>
+<wire x1="53.668" y1="48.204" x2="54.738" y2="45.620790625" width="0.1524" layer="1" curve="-45"/>
+<wire x1="54.738" y1="45.620790625" x2="54.738" y2="45.606" width="0.1524" layer="1"/>
 <via x="67.033" y="37.30263125" extent="1-16" drill="0.35"/>
 <wire x1="67.033" y1="37.30263125" x2="65.56363125" y2="37.30263125" width="0.1524" layer="16"/>
 <wire x1="65.56363125" y1="37.30263125" x2="65.518" y2="37.257" width="0.1524" layer="16"/>
 <via x="55.063" y="43.797" extent="1-16" drill="0.35"/>
-<wire x1="55.063" y1="43.797" x2="54.738" y2="44.122" width="0.1524" layer="1"/>
-<wire x1="54.738" y1="44.122" x2="54.738" y2="45.606" width="0.1524" layer="1"/>
-<wire x1="55.063" y1="43.797" x2="56.315" y2="42.545" width="0.1524" layer="2"/>
-<wire x1="61.79063125" y1="42.545" x2="67.033" y2="37.30263125" width="0.1524" layer="2"/>
-<wire x1="56.315" y1="42.545" x2="61.79063125" y2="42.545" width="0.1524" layer="2"/>
+<wire x1="55.063" y1="43.797" x2="54.738" y2="44.58161875" width="0.1524" layer="1" curve="-45"/>
+<wire x1="54.738" y1="44.58161875" x2="54.738" y2="45.606" width="0.1524" layer="1"/>
+<wire x1="55.063" y1="43.797" x2="55.063" y2="43.69476875" width="0.1524" layer="16"/>
+<wire x1="55.063" y1="43.69476875" x2="55.95876875" y2="42.799" width="0.1524" layer="16" curve="90"/>
+<wire x1="55.95876875" y1="42.799" x2="62.806078125" y2="42.799" width="0.1524" layer="16"/>
+<wire x1="62.806078125" y1="42.799" x2="63.881" y2="41.724078125" width="0.1524" layer="16" curve="-90"/>
+<wire x1="63.881" y1="41.724078125" x2="63.881" y2="38.158921875" width="0.1524" layer="16"/>
+<wire x1="63.881" y1="38.158921875" x2="64.955921875" y2="37.084" width="0.1524" layer="16" curve="90"/>
+<wire x1="64.955921875" y1="37.084" x2="65.518" y2="37.084" width="0.1524" layer="16"/>
+<wire x1="65.518" y1="37.084" x2="65.518" y2="37.257" width="0.1524" layer="16"/>
 </signal>
 <signal name="LDO_OUT_" class="2">
 <contactref element="LDO_" pad="2"/>
@@ -3475,8 +3484,9 @@ design rules under a new name.</description>
 <wire x1="10.8715" y1="49.4625" x2="10.8715" y2="49.368" width="0.816" layer="1"/>
 <wire x1="10.8715" y1="49.4625" x2="10.868" y2="49.459" width="0.816" layer="1"/>
 <wire x1="10.868" y1="49.459" x2="11.39" y2="49.459" width="0.816" layer="2"/>
-<wire x1="26.128" y1="49.459" x2="11.39" y2="49.459" width="0.816" layer="2"/>
-<wire x1="26.128" y1="49.459" x2="28.287" y2="47.3" width="0.816" layer="2"/>
+<wire x1="11.39" y1="49.459" x2="23.08523125" y2="49.459" width="0.816" layer="2"/>
+<wire x1="23.08523125" y1="49.459" x2="28.2795625" y2="47.3074375" width="0.816" layer="2" curve="-44.999983"/>
+<wire x1="28.2795625" y1="47.3074375" x2="28.287" y2="47.3" width="0.816" layer="2"/>
 <wire x1="28.287" y1="47.3" x2="29.026796875" y2="46.560203125" width="0.816" layer="1"/>
 <wire x1="29.026796875" y1="46.560203125" x2="29.77569375" y2="46.25" width="0.816" layer="1" curve="45.000169"/>
 <wire x1="29.77569375" y1="46.25" x2="30.607" y2="46.25" width="0.816" layer="1"/>
@@ -3521,8 +3531,9 @@ design rules under a new name.</description>
 <wire x1="60.882" y1="37.275" x2="62.27" y2="37.275" width="0.1524" layer="16"/>
 <wire x1="62.27" y1="37.275" x2="62.288" y2="37.257" width="0.1524" layer="16"/>
 <via x="39.422" y="46.1" extent="1-16" drill="0.35"/>
-<wire x1="51.448134375" y1="45.773865625" x2="59.947" y2="37.275" width="0.1524" layer="2"/>
-<wire x1="59.947" y1="37.275" x2="60.882" y2="37.275" width="0.1524" layer="2"/>
+<wire x1="51.448134375" y1="45.773865625" x2="59.331834375" y2="37.890165625" width="0.1524" layer="2"/>
+<wire x1="59.331834375" y1="37.890165625" x2="60.816975" y2="37.275" width="0.1524" layer="2" curve="45.000085"/>
+<wire x1="60.816975" y1="37.275" x2="60.882" y2="37.275" width="0.1524" layer="2"/>
 </signal>
 <signal name="FAULT_LS_OUT_1" class="3">
 <contactref element="R_LS_DRAIN_1" pad="1"/>
@@ -3541,9 +3552,10 @@ design rules under a new name.</description>
 <wire x1="32.520309375" y1="26.95" x2="33.317" y2="26.62" width="0.1524" layer="1" curve="-45"/>
 <wire x1="33.317" y1="26.62" x2="34.2344" y2="27" width="0.1524" layer="1" curve="-45"/>
 <wire x1="34.2344" y1="27" x2="38.087" y2="27" width="0.1524" layer="1"/>
-<wire x1="39.933" y1="26.9" x2="51.635" y2="38.602" width="0.1524" layer="15"/>
-<wire x1="51.635" y1="38.602" x2="59.485" y2="38.602" width="0.1524" layer="15"/>
-<wire x1="59.485" y1="38.602" x2="62.213" y2="38.602" width="0" layer="19" extent="16-16"/>
+<wire x1="39.933" y1="26.9" x2="49.32443125" y2="36.29143125" width="0.1524" layer="15"/>
+<wire x1="49.32443125" y1="36.29143125" x2="54.9026375" y2="38.602" width="0.1524" layer="15" curve="-45.000023"/>
+<wire x1="54.9026375" y1="38.602" x2="59.485" y2="38.602" width="0.1524" layer="15"/>
+<wire x1="59.485" y1="38.602" x2="62.213" y2="38.602" width="0.1524" layer="16"/>
 </signal>
 <signal name="CLK_FILTER_OUT_1" class="3">
 <contactref element="R_10K_FILTER_1" pad="2"/>
@@ -3553,17 +3565,20 @@ design rules under a new name.</description>
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="4"/>
 <wire x1="54.224" y1="31.304" x2="52.626" y2="31.304" width="0.1524" layer="1"/>
 <wire x1="52.622" y1="31.3" x2="52.626" y2="31.304" width="0.1524" layer="1"/>
-<wire x1="54.31" y1="28.767" x2="54.224" y2="28.853" width="0.1524" layer="1"/>
-<wire x1="54.224" y1="31.304" x2="54.224" y2="28.853" width="0.1524" layer="1"/>
-<wire x1="54.31" y1="28.767" x2="54.561196875" y2="28.515803125" width="0.1524" layer="1"/>
-<wire x1="54.561196875" y1="28.515803125" x2="55.94625" y2="25.172" width="0.1524" layer="1" curve="-45"/>
-<wire x1="55.94625" y1="25.172" x2="55.890125" y2="25.115875" width="0.1524" layer="1"/>
-<wire x1="55.890125" y1="25.115875" x2="57.987" y2="23.019" width="0.1524" layer="1"/>
+<wire x1="54.802" y1="29.129" x2="54.677146875" y2="29.06938125" width="0.1524" layer="1"/>
 <via x="67.033" y="38.502" extent="1-16" drill="0.35"/>
+<wire x1="54.677146875" y1="29.06938125" x2="54.224" y2="28.853" width="0.1524" layer="1"/>
 <wire x1="67.033" y1="38.502" x2="65.543" y2="38.502" width="0.1524" layer="16"/>
 <wire x1="65.543" y1="38.502" x2="65.518" y2="38.527" width="0.1524" layer="16"/>
-<via x="57.987" y="23.019" extent="1-16" drill="0.35"/>
-<wire x1="54.224" y1="31.304" x2="65.518" y2="38.527" width="0" layer="19" extent="1-16"/>
+<wire x1="54.224" y1="31.304" x2="54.677146875" y2="30.850853125" width="0.1524" layer="1"/>
+<wire x1="54.677146875" y1="30.850853125" x2="54.677146875" y2="29.06938125" width="0.1524" layer="1"/>
+<wire x1="54.802" y1="29.129" x2="56.743" y2="27.188" width="0.1524" layer="1"/>
+<wire x1="56.743" y1="27.188" x2="56.743" y2="26.60925" width="0.1524" layer="1"/>
+<wire x1="54.802" y1="29.129" x2="57.912" y2="29.129" width="0.1524" layer="1"/>
+<wire x1="57.912" y1="29.129" x2="57.912" y2="29.337" width="0.1524" layer="1"/>
+<via x="57.912" y="29.337" extent="1-16" drill="0.35"/>
+<wire x1="67.033" y1="38.502" x2="67.033" y2="38.458" width="0.1524" layer="2"/>
+<wire x1="67.033" y1="38.458" x2="57.912" y2="29.337" width="0.1524" layer="2"/>
 </signal>
 <signal name="FAULT_LS_OUT_2" class="3">
 <contactref element="R_LS_DRAIN_2" pad="1"/>
@@ -3584,11 +3599,14 @@ design rules under a new name.</description>
 <wire x1="34.062" y1="6.1825" x2="34.33555" y2="6.45605" width="0.1524" layer="1"/>
 <wire x1="34.33555" y1="6.45605" x2="36.131603125" y2="7.2" width="0.1524" layer="1" curve="-45"/>
 <wire x1="36.131603125" y1="7.2" x2="39.322" y2="7.2" width="0.1524" layer="1"/>
-<wire x1="60.882" y1="38.51415" x2="60.882" y2="39.851" width="0.1524" layer="15"/>
-<wire x1="50.7502" y1="28.38235" x2="60.882" y2="38.51415" width="0.1524" layer="15"/>
-<wire x1="41.222" y1="8.1" x2="50.7502" y2="17.6282" width="0.1524" layer="15"/>
-<wire x1="50.7502" y1="17.6282" x2="50.7502" y2="28.38235" width="0.1524" layer="15"/>
-<wire x1="60.882" y1="39.851" x2="62.288" y2="39.797" width="0" layer="19" extent="16-16"/>
+<wire x1="50.7502" y1="19.792871875" x2="50.7502" y2="26.85585" width="0.1524" layer="15"/>
+<wire x1="50.7502" y1="26.85585" x2="51.8296" y2="29.46175" width="0.1524" layer="15" curve="-45"/>
+<wire x1="51.8296" y1="29.46175" x2="59.936703125" y2="37.568853125" width="0.1524" layer="15"/>
+<wire x1="59.936703125" y1="37.568853125" x2="60.882" y2="39.851" width="0.1524" layer="15" curve="45"/>
+<wire x1="41.222" y1="8.1" x2="49.219546875" y2="16.097546875" width="0.1524" layer="15"/>
+<wire x1="49.219546875" y1="16.097546875" x2="50.7502" y2="19.792871875" width="0.1524" layer="15" curve="45"/>
+<wire x1="60.882" y1="39.851" x2="62.234" y2="39.851" width="0.1524" layer="16"/>
+<wire x1="62.234" y1="39.851" x2="62.288" y2="39.797" width="0.1524" layer="16"/>
 </signal>
 <signal name="CLK_FILTER_OUT_2" class="3">
 <contactref element="R_10K_FILTER_2" pad="2"/>
@@ -3596,22 +3614,24 @@ design rules under a new name.</description>
 <contactref element="C_68N_FILTER_2" pad="1"/>
 <contactref element="TP_CLK_FILTER_2" pad="1"/>
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="2"/>
-<wire x1="54.057" y1="12.76" x2="55.954" y2="12.76" width="0.1524" layer="1"/>
-<wire x1="55.954" y1="12.76" x2="56.164" y2="12.55" width="0.1524" layer="1"/>
+<wire x1="54.184" y1="12.252" x2="55.954" y2="12.252" width="0.1524" layer="1"/>
+<wire x1="55.954" y1="12.252" x2="56.164" y2="12.042" width="0.1524" layer="1"/>
 <wire x1="56.153" y1="9.617" x2="56.164" y2="9.628" width="0.1524" layer="1"/>
-<wire x1="56.164" y1="12.55" x2="56.164" y2="9.628" width="0.1524" layer="1"/>
+<wire x1="56.164" y1="12.042" x2="56.164" y2="9.628" width="0.1524" layer="1"/>
 <wire x1="57.173875" y1="6.612" x2="56.153" y2="7.632875" width="0.1524" layer="1"/>
 <wire x1="56.153" y1="9.617" x2="56.153" y2="7.632875" width="0.1524" layer="1"/>
 <wire x1="57.173875" y1="6.612" x2="57.681875" y2="6.104" width="0.1524" layer="1"/>
-<wire x1="57.681875" y1="6.104" x2="57.681875" y2="4.336875" width="0.1524" layer="1"/>
-<wire x1="57.66" y1="4.327" x2="57.69175" y2="4.327" width="0.1524" layer="1"/>
-<wire x1="57.69175" y1="4.327" x2="57.681875" y2="4.336875" width="0.1524" layer="1"/>
 <via x="67.033" y="39.775" extent="1-16" drill="0.35"/>
 <wire x1="67.033" y1="39.775" x2="67.011" y2="39.797" width="0.1524" layer="16"/>
 <wire x1="67.011" y1="39.797" x2="65.518" y2="39.797" width="0.1524" layer="16"/>
-<via x="57.66" y="4.327" extent="1-16" drill="0.35"/>
-<wire x1="57.66" y1="4.327" x2="57.15" y2="5.55825" width="0.1524" layer="2" curve="-45"/>
-<wire x1="65.518" y1="39.797" x2="56.164" y2="12.55" width="0" layer="19" extent="1-16"/>
+<wire x1="56.164" y1="12.042" x2="56.164" y2="13.84496875" width="0.1524" layer="1"/>
+<wire x1="56.164" y1="13.84496875" x2="56.007" y2="14.224" width="0.1524" layer="1" curve="45"/>
+<via x="56.007" y="14.224" extent="1-16" drill="0.35"/>
+<wire x1="56.007" y1="14.224" x2="63.346225" y2="21.563225" width="0.1524" layer="15"/>
+<wire x1="63.346225" y1="21.563225" x2="64.77" y2="25.000521875" width="0.1524" layer="15" curve="45.000037"/>
+<wire x1="64.77" y1="25.000521875" x2="64.77" y2="38.48721875" width="0.1524" layer="15"/>
+<wire x1="64.77" y1="38.48721875" x2="64.945209375" y2="38.910209375" width="0.1524" layer="15" curve="-45"/>
+<wire x1="64.945209375" y1="38.910209375" x2="67.033" y2="39.775" width="0.1524" layer="15" curve="-45"/>
 </signal>
 <signal name="N$12" class="3">
 <contactref element="R_20K_LED1_" pad="1"/>
@@ -3622,8 +3642,8 @@ design rules under a new name.</description>
 <signal name="N$15" class="3">
 <contactref element="R_5.6K_LED2_" pad="2"/>
 <contactref element="LED_" pad="1"/>
-<wire x1="58.5" y1="53.538" x2="58.823" y2="53.215" width="0.1524" layer="1"/>
-<wire x1="58.823" y1="53.215" x2="58.823" y2="51.352" width="0.1524" layer="1"/>
+<wire x1="58.5" y1="53.538" x2="58.823" y2="52.758209375" width="0.1524" layer="1" curve="-45"/>
+<wire x1="58.823" y1="52.758209375" x2="58.823" y2="51.352" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$11" class="2">
 <contactref element="R_LED_10K_1" pad="2"/>
@@ -3634,15 +3654,15 @@ design rules under a new name.</description>
 <signal name="N$16" class="2">
 <contactref element="R_LED_10K_2" pad="2"/>
 <contactref element="LED_2" pad="1"/>
-<wire x1="61.1305" y1="13.99" x2="61.130503125" y2="14.74549375" width="0.816" layer="1"/>
-<wire x1="61.130503125" y1="14.74549375" x2="58.935996875" y2="16.94" width="0.816" layer="1"/>
+<wire x1="61.1305" y1="13.99" x2="60.5962875" y2="15.279709375" width="0.816" layer="1" curve="45.000266"/>
+<wire x1="60.5962875" y1="15.279709375" x2="58.935996875" y2="16.94" width="0.816" layer="1"/>
 </signal>
 <signal name="N$8" class="3">
 <contactref element="R_LS_GATE_" pad="2"/>
 <contactref element="NMOS_LDO_" pad="1"/>
-<wire x1="34.28699375" y1="48.35" x2="33.922" y2="48.71499375" width="0.1524" layer="1"/>
-<wire x1="33.922" y1="49.446" x2="33.922" y2="48.71499375" width="0.1524" layer="1"/>
-<wire x1="33.922" y1="49.446" x2="33.768" y2="49.6" width="0.1524" layer="1"/>
+<wire x1="34.28699375" y1="48.35" x2="34.2849" y2="48.35209375" width="0.1524" layer="1"/>
+<wire x1="34.2849" y1="48.35209375" x2="33.922" y2="49.2282125" width="0.1524" layer="1" curve="-45"/>
+<wire x1="33.922" y1="49.2282125" x2="33.768" y2="49.6" width="0.1524" layer="1" curve="45"/>
 <via x="33.768" y="49.6" extent="1-16" drill="0.35"/>
 <wire x1="33.768" y1="49.6" x2="35.267" y2="49.6" width="0.1524" layer="16"/>
 <wire x1="35.267" y1="49.6" x2="35.617" y2="49.25" width="0.1524" layer="16"/>
