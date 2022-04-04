@@ -1257,7 +1257,7 @@
 <smd name="11" x="3.175" y="1.613" dx="0.74" dy="1.47" layer="1" stop="no"/>
 <smd name="12" x="3.175" y="-1.613" dx="0.74" dy="1.47" layer="1" stop="no"/>
 </package>
-<package name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:footprint:34729421/1" library_version="100">
+<package name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:footprint:34729421/2" library_version="132">
 <wire x1="-11.43" y1="-1.27" x2="-11.43" y2="1.27" width="0.1" layer="51"/>
 <wire x1="-11.43" y1="1.27" x2="11.43" y2="1.27" width="0.1" layer="51"/>
 <wire x1="11.43" y1="1.27" x2="11.43" y2="-1.27" width="0.1" layer="51"/>
@@ -1270,6 +1270,10 @@
 <wire x1="-11.68" y1="2.805" x2="11.68" y2="2.805" width="0.05" layer="39"/>
 <wire x1="11.68" y1="2.805" x2="11.68" y2="-2.805" width="0.05" layer="39"/>
 <wire x1="11.68" y1="-2.805" x2="-11.68" y2="-2.805" width="0.05" layer="39"/>
+<wire x1="-12.7" y1="-2.7" x2="12.7" y2="-2.7" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-2.7" x2="-12.7" y2="31.6" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-2.7" x2="12.7" y2="31.6" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="31.75" x2="12.7" y2="31.75" width="0.127" layer="21"/>
 <text x="-12.43" y="3.57" size="1.27" layer="25">&gt;NAME</text>
 <text x="-12.43" y="-4.82" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="10.67" y="3.315" radius="0.1" width="0.2" layer="21"/>
@@ -1283,6 +1287,8 @@
 <smd name="07" x="-5.08" y="1.6025" dx="1.02" dy="1.905" layer="1"/>
 <smd name="08" x="-7.62" y="-1.6025" dx="1.02" dy="1.905" layer="1"/>
 <smd name="09" x="-10.16" y="1.6025" dx="1.02" dy="1.905" layer="1"/>
+<hole x="-10.16" y="27.01" drill="4"/>
+<hole x="10.16" y="27.01" drill="4"/>
 </package>
 <package name="BGA100C127P10X10_1500X1500X608" urn="urn:adsk.eagle:footprint:34729432/1" library_version="102">
 <description>&lt;b&gt;[BGA](ML-100-1)&lt;/b&gt;&lt;br&gt;
@@ -1973,7 +1979,7 @@
 <packageinstance name="SAMTEC-CLP-106-02-X-D"/>
 </packageinstances>
 </package3d>
-<package3d name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:package:34729422/2" type="model" library_version="100">
+<package3d name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:package:34729422/4" type="model" library_version="132">
 <packageinstances>
 <packageinstance name="SAMTEC_SSM-109-L-SV"/>
 </packageinstances>
@@ -10346,10 +10352,10 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" x="-376.7836" y="505.8664" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-376.7836" y="505.8664" size="0.6096" layer="25" align="center"/>
 </element>
-<element name="J9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SAMTEC_SSM-109-L-SV" package3d_urn="urn:adsk.eagle:package:34729422/2" value="SSM-109-L-SV" x="-438.7088" y="-7.1374" smashed="yes">
-<attribute name="MANUFACTURER" value="SAMTEC " x="-438.7088" y="-7.1374" size="0.6096" layer="27" display="off"/>
-<attribute name="NAME" x="-451.1388" y="-3.5674" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-451.1388" y="-11.9574" size="1.27" layer="27"/>
+<element name="J9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SAMTEC_SSM-109-L-SV" package3d_urn="urn:adsk.eagle:package:34729422/4" value="SSM-109-L-SV" x="139.954" y="287.6296" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="SAMTEC " x="139.954" y="287.6296" size="0.6096" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="152.384" y="284.0596" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="152.384" y="292.4496" size="1.27" layer="27" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -11634,7 +11640,7 @@ design rules under a new name.</description>
 <wire x1="-245.2674" y1="916.6352" x2="-247.391" y2="909.7264" width="0" layer="19" extent="1-1"/>
 <wire x1="-247.391" y1="931.672" x2="-245.2674" y2="916.6352" width="0" layer="19" extent="1-1"/>
 <wire x1="-264.2372" y1="944.4736" x2="-247.391" y2="931.672" width="0" layer="19" extent="1-1"/>
-<wire x1="-433.6288" y1="-5.5349" x2="-419.926" y2="249.4026" width="0" layer="19" extent="1-1"/>
+<wire x1="134.874" y1="286.0271" x2="-419.926" y2="249.4026" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="REGCAP2">
 <contactref element="IC51" pad="39"/>
@@ -13051,7 +13057,7 @@ design rules under a new name.</description>
 <wire x1="-238.4552" y1="420.2938" x2="-239.7252" y2="419.0238" width="0" layer="19" extent="1-1"/>
 <wire x1="-248.1602" y1="405.6888" x2="-246.0752" y2="413.9438" width="0" layer="19" extent="1-1"/>
 <wire x1="-281.0002" y1="380.6238" x2="-248.1602" y2="405.6888" width="0" layer="19" extent="1-1"/>
-<wire x1="-431.0888" y1="-8.7399" x2="-281.0002" y2="380.6238" width="0" layer="19" extent="1-1"/>
+<wire x1="132.334" y1="289.2321" x2="-281.0002" y2="380.6238" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="6.5V_BUS">
 <contactref element="IC5" pad="1"/>
@@ -16708,7 +16714,7 @@ design rules under a new name.</description>
 <signal name="GPS_EN">
 <contactref element="J8" pad="39"/>
 <contactref element="J9" pad="08"/>
-<wire x1="125.2606" y1="47.4726" x2="-446.3288" y2="-8.7399" width="0" layer="19" extent="1-1"/>
+<wire x1="125.2606" y1="47.4726" x2="147.574" y2="289.2321" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT_NC">
 <contactref element="J9" pad="07"/>
@@ -16716,7 +16722,7 @@ design rules under a new name.</description>
 <signal name="GPS_TX">
 <contactref element="J8" pad="35"/>
 <contactref element="J9" pad="05"/>
-<wire x1="125.2606" y1="44.9326" x2="-438.7088" y2="-5.5349" width="0" layer="19" extent="1-1"/>
+<wire x1="125.2606" y1="44.9326" x2="139.954" y2="286.0271" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FIX_NC">
 <contactref element="J9" pad="06"/>
@@ -16724,7 +16730,7 @@ design rules under a new name.</description>
 <signal name="GPS_RX">
 <contactref element="J8" pad="37"/>
 <contactref element="J9" pad="04"/>
-<wire x1="125.2606" y1="46.2026" x2="-436.1688" y2="-8.7399" width="0" layer="19" extent="1-1"/>
+<wire x1="125.2606" y1="46.2026" x2="137.414" y2="289.2321" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PPS_NC">
 <contactref element="J9" pad="01"/>
