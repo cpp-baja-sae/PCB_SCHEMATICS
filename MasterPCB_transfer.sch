@@ -1843,6 +1843,9 @@
 <wire x1="-0.2" y1="-1.45" x2="-0.2" y2="1.45" width="0.2" layer="21"/>
 <wire x1="-1.85" y1="1.5" x2="-0.55" y2="1.5" width="0.2" layer="21"/>
 </package>
+<package name="1/16TH_BOLT" urn="urn:adsk.eagle:footprint:35094095/2" library_version="137">
+<pad name="1/16IN" x="0" y="0" locked="yes" drill="3.048" diameter="6.35"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="NUCLEO_H723ZG" urn="urn:adsk.eagle:package:34377632/8" type="model" library_version="60">
@@ -2086,6 +2089,11 @@
 <description>&lt;b&gt;SC-96&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SOT95P280X100-3N"/>
+</packageinstances>
+</package3d>
+<package3d name="1/16TH_BOLT" urn="urn:adsk.eagle:package:35094096/3" type="empty" library_version="137">
+<packageinstances>
+<packageinstance name="1/16TH_BOLT"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3151,6 +3159,9 @@
 <pin name="GATE" x="5.08" y="17.78" length="middle" rot="R270"/>
 <text x="12.7" y="0" size="1.778" layer="95">&gt;NAME</text>
 <text x="12.7" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="THROUGH_HOLE" urn="urn:adsk.eagle:symbol:35094094/3" library_version="137">
+<pin name="THROUGH_HOLE" x="0" y="0" visible="pad" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4974,6 +4985,24 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 </device>
 </devices>
 </deviceset>
+<deviceset name="THROUGH_HOLE" urn="urn:adsk.eagle:component:35094097/4" library_version="137">
+<gates>
+<gate name="G$1" symbol="THROUGH_HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1/16TH_BOLT">
+<connects>
+<connect gate="G$1" pin="THROUGH_HOLE" pad="1/16IN"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -6525,6 +6554,18 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 <part name="D86" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34959477/2"/>
 <part name="D87" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34959477/2"/>
 <part name="J9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SSM-109-L-SV" device="" package3d_urn="urn:adsk.eagle:package:34729422/5"/>
+<part name="U$5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -27217,6 +27258,18 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <attribute name="NAME" x="243.34" y="43.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="243.84" y="-12.7" size="1.778" layer="96"/>
 </instance>
+<instance part="U$5" gate="G$1" x="-30.48" y="132.08" smashed="yes"/>
+<instance part="U$6" gate="G$1" x="-33.02" y="132.08" smashed="yes"/>
+<instance part="U$7" gate="G$1" x="-35.56" y="132.08" smashed="yes"/>
+<instance part="U$8" gate="G$1" x="-38.1" y="132.08" smashed="yes"/>
+<instance part="U$9" gate="G$1" x="-40.64" y="132.08" smashed="yes"/>
+<instance part="U$10" gate="G$1" x="-43.18" y="132.08" smashed="yes"/>
+<instance part="U$11" gate="G$1" x="-45.72" y="132.08" smashed="yes"/>
+<instance part="U$12" gate="G$1" x="-48.26" y="132.08" smashed="yes"/>
+<instance part="U$13" gate="G$1" x="-50.8" y="132.08" smashed="yes"/>
+<instance part="U$14" gate="G$1" x="-53.34" y="132.08" smashed="yes"/>
+<instance part="U$15" gate="G$1" x="-25.4" y="132.08" smashed="yes"/>
+<instance part="U$16" gate="G$1" x="-27.94" y="132.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
