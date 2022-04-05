@@ -1284,7 +1284,7 @@
 <smd name="11" x="3.175" y="1.613" dx="0.74" dy="1.47" layer="1" stop="no"/>
 <smd name="12" x="3.175" y="-1.613" dx="0.74" dy="1.47" layer="1" stop="no"/>
 </package>
-<package name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:footprint:34729421/2" library_version="132">
+<package name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:footprint:34729421/3" library_version="134">
 <wire x1="-11.43" y1="-1.27" x2="-11.43" y2="1.27" width="0.1" layer="51"/>
 <wire x1="-11.43" y1="1.27" x2="11.43" y2="1.27" width="0.1" layer="51"/>
 <wire x1="11.43" y1="1.27" x2="11.43" y2="-1.27" width="0.1" layer="51"/>
@@ -1314,8 +1314,8 @@
 <smd name="07" x="-5.08" y="1.6025" dx="1.02" dy="1.905" layer="1"/>
 <smd name="08" x="-7.62" y="-1.6025" dx="1.02" dy="1.905" layer="1"/>
 <smd name="09" x="-10.16" y="1.6025" dx="1.02" dy="1.905" layer="1"/>
-<hole x="-10.16" y="27.01" drill="4"/>
-<hole x="10.16" y="27.01" drill="4"/>
+<hole x="-10.16" y="29.72" drill="7"/>
+<hole x="10.16" y="29.72" drill="7"/>
 </package>
 <package name="BGA100C127P10X10_1500X1500X608" urn="urn:adsk.eagle:footprint:34729432/1" library_version="102">
 <description>&lt;b&gt;[BGA](ML-100-1)&lt;/b&gt;&lt;br&gt;
@@ -2006,7 +2006,7 @@
 <packageinstance name="SAMTEC-CLP-106-02-X-D"/>
 </packageinstances>
 </package3d>
-<package3d name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:package:34729422/4" type="model" library_version="132">
+<package3d name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:package:34729422/5" type="model" library_version="134">
 <packageinstances>
 <packageinstance name="SAMTEC_SSM-109-L-SV"/>
 </packageinstances>
@@ -4263,7 +4263,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/GMR100HTCFAR1
 </device>
 </devices>
 </deviceset>
-<deviceset name="SSM-109-L-SV" urn="urn:adsk.eagle:component:34729423/4" prefix="J" library_version="132">
+<deviceset name="SSM-109-L-SV" urn="urn:adsk.eagle:component:34729423/5" prefix="J" library_version="134">
 <gates>
 <gate name="G$1" symbol="SSM-109-L-SV" x="0" y="0"/>
 </gates>
@@ -4281,7 +4281,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/GMR100HTCFAR1
 <connect gate="G$1" pin="09" pad="09"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34729422/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34729422/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -6524,7 +6524,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 <part name="D85" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34959477/2"/>
 <part name="D86" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34959477/2"/>
 <part name="D87" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34959477/2"/>
-<part name="J9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SSM-109-L-SV" device="" package3d_urn="urn:adsk.eagle:package:34729422/4"/>
+<part name="J9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SSM-109-L-SV" device="" package3d_urn="urn:adsk.eagle:package:34729422/5"/>
 </parts>
 <sheets>
 <sheet>

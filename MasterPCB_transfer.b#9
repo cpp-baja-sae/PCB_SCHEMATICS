@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -75,11 +75,11 @@
 <fusionsync huburn="a.YnVzaW5lc3M6bXljcHAyMDk" projecturn="a.YnVzaW5lc3M6bXljcHAyMDkjRDIwMjAwNDAzMjgyNjY0NzA2" f3durn="urn:adsk.wipprod:dm.lineage:aqJsdtv9Rx27lS6l7Bl9_A" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="8bca59d1-f36a-4ef5-8f22-3a0c0e4c7969" lastsyncedrevisionid="8bca59d1-f36a-4ef5-8f22-3a0c0e4c7969" lastboardhashguid="0b5007aa-9dea-5180-16e2-0dc1a0a62b7f" lastpushedtime="2022-03-27T05:57:49Z" linktopcb3d="true"/>
 <plain>
 <wire x1="10.16" y1="0" x2="256.54" y2="0" width="0" layer="20"/>
-<wire x1="10.16" y1="0" x2="3.81" y2="8.985759375" width="0" layer="20" curve="-110"/>
-<wire x1="114.3" y1="269.57528125" x2="3.81" y2="8.985759375" width="0" layer="20"/>
+<wire x1="10.16" y1="0" x2="3.81" y2="8.89" width="0" layer="20" curve="-110"/>
+<wire x1="114.3" y1="269.57528125" x2="3.81" y2="8.89" width="0" layer="20"/>
 <wire x1="114.3" y1="269.57528125" x2="152.4" y2="269.57528125" width="0" layer="20" curve="-130"/>
-<wire x1="256.54" y1="0" x2="262.89" y2="8.985759375" width="0" layer="20" curve="110"/>
-<wire x1="262.89" y1="8.985759375" x2="152.4" y2="269.57528125" width="0" layer="20"/>
+<wire x1="256.54" y1="0" x2="262.89" y2="8.89" width="0" layer="20" curve="110"/>
+<wire x1="262.89" y1="8.89" x2="152.4" y2="269.57528125" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="SamacSys_Parts" urn="urn:adsk.eagle:library:31941355">
@@ -4575,8 +4575,8 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="-141.427453125" y="-92.652596875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="64.11696875" y="7.94528125" size="0.6096" layer="25" align="center"/>
 </element>
-<element name="Z5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AS_FEMALE_5_PIN" package3d_urn="urn:adsk.eagle:package:34263750/8" value="AS_FEMALE_5_PIN" x="202.06309375" y="13.46555625" smashed="yes" rot="R90">
-<attribute name="NAME" x="200.69889375" y="21.77995625" size="0.6096" layer="25" rot="R90"/>
+<element name="Z5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AS_FEMALE_5_PIN" package3d_urn="urn:adsk.eagle:package:34263750/8" value="AS_FEMALE_5_PIN" x="202.438" y="13.2842" smashed="yes" rot="R90">
+<attribute name="NAME" x="201.0738" y="21.5986" size="0.6096" layer="25" rot="R90"/>
 </element>
 <element name="IC12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="QFN50P500X500X80-33T345N" package3d_urn="urn:adsk.eagle:package:31941201/1" value="LTC4222CUH#PBF" x="-138.0744" y="278.4856" smashed="yes">
 <attribute name="DESCRIPTION" value="Hot Swap Voltage Controllers Dual Hot Swap Controller w/ADC and I2C" x="-150.7744" y="291.1856" size="1.778" layer="27" display="off"/>
@@ -4587,8 +4587,8 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Analog-Devices/LTC4222CUHPBF?qs=hVkxg5c3xu9PWFTJ4vRWUw%3D%3D" x="-150.7744" y="291.1856" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-138.0744" y="281.978" size="0.6096" layer="25" align="bottom-center"/>
 </element>
-<element name="Z6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AS_FEMALE_5_PIN" package3d_urn="urn:adsk.eagle:package:34263750/8" value="AS_FEMALE_5_PIN" x="218.31909375" y="13.46555625" smashed="yes" rot="R90">
-<attribute name="NAME" x="216.95489375" y="21.77995625" size="0.6096" layer="25" rot="R90"/>
+<element name="Z6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AS_FEMALE_5_PIN" package3d_urn="urn:adsk.eagle:package:34263750/8" value="AS_FEMALE_5_PIN" x="218.694" y="13.2842" smashed="yes" rot="R90">
+<attribute name="NAME" x="217.3298" y="21.5986" size="0.6096" layer="25" rot="R90"/>
 </element>
 <element name="C99" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="0402CAP" package3d_urn="urn:adsk.eagle:package:34596893/2" value="GRM1555C1H822JE01D" x="-98.7044" y="264.5156" smashed="yes">
 <attribute name="NAME" x="-98.7044" y="264.5156" size="0.6096" layer="25" align="center"/>
@@ -4911,8 +4911,8 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="-308.2544" y="143.8656" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-102.7684" y="245.4556" size="0.6096" layer="25" align="center"/>
 </element>
-<element name="Z7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AS_FEMALE_5_PIN" package3d_urn="urn:adsk.eagle:package:34263750/8" value="AS_FEMALE_5_PIN" x="234.57509375" y="13.46555625" smashed="yes" rot="R90">
-<attribute name="NAME" x="233.21089375" y="21.77995625" size="0.6096" layer="25" rot="R90"/>
+<element name="Z7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AS_FEMALE_5_PIN" package3d_urn="urn:adsk.eagle:package:34263750/8" value="AS_FEMALE_5_PIN" x="234.95" y="13.2842" smashed="yes" rot="R90">
+<attribute name="NAME" x="233.5858" y="21.5986" size="0.6096" layer="25" rot="R90"/>
 </element>
 <element name="IC13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="QFN50P500X500X80-33T345N" package3d_urn="urn:adsk.eagle:package:31941201/1" value="LTC4222CUH#PBF" x="-217.2462" y="314.7822" smashed="yes">
 <attribute name="DESCRIPTION" value="Hot Swap Voltage Controllers Dual Hot Swap Controller w/ADC and I2C" x="-229.9462" y="327.4822" size="1.778" layer="27" display="off"/>
@@ -4923,8 +4923,8 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/Analog-Devices/LTC4222CUHPBF?qs=hVkxg5c3xu9PWFTJ4vRWUw%3D%3D" x="-229.9462" y="327.4822" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-217.2462" y="318.2746" size="0.6096" layer="25" align="bottom-center"/>
 </element>
-<element name="Z8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AS_FEMALE_5_PIN" package3d_urn="urn:adsk.eagle:package:34263750/8" value="AS_FEMALE_5_PIN" x="250.83109375" y="13.46555625" smashed="yes" rot="R90">
-<attribute name="NAME" x="249.46689375" y="21.77995625" size="0.6096" layer="25" rot="R90"/>
+<element name="Z8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AS_FEMALE_5_PIN" package3d_urn="urn:adsk.eagle:package:34263750/8" value="AS_FEMALE_5_PIN" x="251.206" y="13.2842" smashed="yes" rot="R90">
+<attribute name="NAME" x="249.8418" y="21.5986" size="0.6096" layer="25" rot="R90"/>
 </element>
 <element name="C114" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="0402CAP" package3d_urn="urn:adsk.eagle:package:34596893/2" value="GRM1555C1H822JE01D" x="-177.8762" y="300.8122" smashed="yes">
 <attribute name="NAME" x="-177.8762" y="300.8122" size="0.6096" layer="25" align="center"/>
@@ -11074,8 +11074,7 @@ design rules under a new name.</description>
 <wire x1="155.29315" y1="-50.657759375" x2="151.48315" y2="-43.037759375" width="0" layer="19" extent="1-1"/>
 <wire x1="159.37815" y1="-20.177759375" x2="145.98315" y2="-27.797759375" width="0" layer="19" extent="1-1"/>
 <wire x1="161.81315" y1="-22.717759375" x2="159.37815" y2="-20.177759375" width="0" layer="19" extent="1-1"/>
-<wire x1="40.580653125" y1="44.40681875" x2="161.81315" y2="-22.717759375" width="0" layer="19" extent="1-1"/>
-<wire x1="163.76315" y1="-27.797759375" x2="40.580653125" y2="44.40681875" width="0" layer="19" extent="1-1"/>
+<wire x1="163.76315" y1="-27.797759375" x2="161.81315" y2="-22.717759375" width="0" layer="19" extent="1-1"/>
 <wire x1="163.76315" y1="-30.337759375" x2="163.76315" y2="-27.797759375" width="0" layer="19" extent="1-1"/>
 <wire x1="163.76315" y1="-32.877759375" x2="163.76315" y2="-30.337759375" width="0" layer="19" extent="1-1"/>
 <wire x1="171.80315" y1="-43.037759375" x2="163.76315" y2="-32.877759375" width="0" layer="19" extent="1-1"/>
@@ -11084,17 +11083,16 @@ design rules under a new name.</description>
 <wire x1="110.42315" y1="-30.337759375" x2="110.42315" y2="-27.797759375" width="0" layer="19" extent="1-1"/>
 <wire x1="110.42315" y1="-32.877759375" x2="110.42315" y2="-30.337759375" width="0" layer="19" extent="1-1"/>
 <wire x1="112.11315" y1="-48.117759375" x2="110.42315" y2="-32.877759375" width="0" layer="19" extent="1-1"/>
-<wire x1="37.24715625" y1="43.94403125" x2="112.11315" y2="-48.117759375" width="0" layer="19" extent="1-1"/>
-<wire x1="113.01315" y1="-53.197759375" x2="37.24715625" y2="43.94403125" width="0" layer="19" extent="1-1"/>
+<wire x1="113.01315" y1="-53.197759375" x2="112.11315" y2="-48.117759375" width="0" layer="19" extent="1-1"/>
 <wire x1="95.459725" y1="-40.44975625" x2="110.42315" y2="-32.877759375" width="0" layer="19" extent="1-1"/>
 <wire x1="133.70315" y1="-50.657759375" x2="128.20315" y2="-32.877759375" width="0" layer="19" extent="1-1"/>
 <wire x1="139.7264" y1="60.5282" x2="159.7782" y2="48.8188" width="0" layer="19" extent="1-1"/>
 <wire x1="139.6502" y1="64.1858" x2="139.7264" y2="60.5282" width="0" layer="19" extent="1-1"/>
 <wire x1="129.7086" y1="64.7078" x2="139.6502" y2="64.1858" width="0" layer="19" extent="1-1"/>
-<wire x1="234.20509375" y1="15.47455625" x2="238.26909375" y2="45.19255625" width="0" layer="19" extent="1-1"/>
-<wire x1="217.94909375" y1="15.47455625" x2="234.20509375" y2="15.47455625" width="0" layer="19" extent="1-1"/>
-<wire x1="201.69309375" y1="15.47455625" x2="217.94909375" y2="15.47455625" width="0" layer="19" extent="1-1"/>
-<wire x1="250.46109375" y1="15.47455625" x2="234.20509375" y2="15.47455625" width="0" layer="19" extent="1-1"/>
+<wire x1="234.58" y1="15.2932" x2="238.26909375" y2="45.19255625" width="0" layer="19" extent="1-1"/>
+<wire x1="218.324" y1="15.2932" x2="234.58" y2="15.2932" width="0" layer="19" extent="1-1"/>
+<wire x1="202.068" y1="15.2932" x2="218.324" y2="15.2932" width="0" layer="19" extent="1-1"/>
+<wire x1="250.836" y1="15.2932" x2="234.58" y2="15.2932" width="0" layer="19" extent="1-1"/>
 <wire x1="163.4236" y1="148.0566" x2="160.8836" y2="112.4966" width="0" layer="19" extent="1-1"/>
 <wire x1="160.8836" y1="160.7566" x2="163.4236" y2="148.0566" width="0" layer="19" extent="1-1"/>
 <wire x1="160.8836" y1="175.9966" x2="160.8836" y2="160.7566" width="0" layer="19" extent="1-1"/>
@@ -11157,13 +11155,15 @@ design rules under a new name.</description>
 <wire x1="34.921696875" y1="45.25111875" x2="33.171696875" y2="42.81791875" width="0" layer="19" extent="16-16"/>
 <wire x1="34.671696875" y1="47.68431875" x2="34.921696875" y2="45.25111875" width="0" layer="19" extent="16-16"/>
 <wire x1="36.171696875" y1="47.68431875" x2="34.671696875" y2="47.68431875" width="0" layer="19" extent="16-16"/>
-<wire x1="36.671696875" y1="42.81791875" x2="34.921696875" y2="45.25111875" width="0" layer="19" extent="16-16"/>
+<wire x1="37.24715625" y1="43.94403125" x2="34.921696875" y2="45.25111875" width="0" layer="19" extent="1-16"/>
+<wire x1="36.671696875" y1="42.81791875" x2="37.24715625" y2="43.94403125" width="0" layer="19" extent="1-16"/>
 <wire x1="34.30091875" y1="50.74244375" x2="34.671696875" y2="47.68431875" width="0" layer="19" extent="16-16"/>
 <wire x1="33.327084375" y1="50.763259375" x2="34.30091875" y2="50.74244375" width="0" layer="19" extent="16-16"/>
 <wire x1="32.315659375" y1="50.598159375" x2="33.327084375" y2="50.763259375" width="0" layer="19" extent="16-16"/>
 <wire x1="35.921440625" y1="52.844359375" x2="34.30091875" y2="50.74244375" width="0" layer="19" extent="16-16"/>
 <wire x1="37.576003125" y1="50.487925" x2="35.921440625" y2="52.844359375" width="0" layer="19" extent="16-16"/>
-<wire x1="42.7084" y1="43.2586" x2="36.671696875" y2="42.81791875" width="0" layer="19" extent="16-16"/>
+<wire x1="40.580653125" y1="44.40681875" x2="37.24715625" y2="43.94403125" width="0" layer="19" extent="1-16"/>
+<wire x1="42.7084" y1="43.2586" x2="40.580653125" y2="44.40681875" width="0" layer="19" extent="16-16"/>
 <wire x1="58.9644" y1="43.2586" x2="42.7084" y2="43.2586" width="0" layer="19" extent="1-1"/>
 <wire x1="75.2204" y1="43.2586" x2="58.9644" y2="43.2586" width="0" layer="19" extent="1-1"/>
 <wire x1="38.5682" y1="72.2654" x2="35.921440625" y2="52.844359375" width="0" layer="19" extent="16-16"/>
@@ -12489,42 +12489,42 @@ design rules under a new name.</description>
 <contactref element="R102" pad="1"/>
 <contactref element="D13" pad="1"/>
 <contactref element="Z5" pad="4"/>
-<wire x1="-55.1092" y1="250.9774" x2="203.49309375" y2="11.91455625" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.1092" y1="250.9774" x2="203.868" y2="11.7332" width="0" layer="19" extent="1-1"/>
 <wire x1="-139.4744" y1="248.0056" x2="-55.1092" y2="250.9774" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF9_P">
 <contactref element="R98" pad="1"/>
 <contactref element="D14" pad="1"/>
 <contactref element="Z5" pad="5"/>
-<wire x1="-55.1092" y1="253.5174" x2="203.88309375" y2="14.34455625" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.1092" y1="253.5174" x2="204.258" y2="14.1632" width="0" layer="19" extent="1-1"/>
 <wire x1="-121.6944" y1="248.0056" x2="-55.1092" y2="253.5174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF10_N">
 <contactref element="R104" pad="1"/>
 <contactref element="D16" pad="1"/>
 <contactref element="Z6" pad="4"/>
-<wire x1="-55.1092" y1="245.8974" x2="219.74909375" y2="11.91455625" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.1092" y1="245.8974" x2="220.124" y2="11.7332" width="0" layer="19" extent="1-1"/>
 <wire x1="-139.4744" y1="245.4656" x2="-55.1092" y2="245.8974" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF10_P">
 <contactref element="R103" pad="1"/>
 <contactref element="D17" pad="1"/>
 <contactref element="Z6" pad="5"/>
-<wire x1="-55.1092" y1="248.4374" x2="220.13909375" y2="14.34455625" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.1092" y1="248.4374" x2="220.514" y2="14.1632" width="0" layer="19" extent="1-1"/>
 <wire x1="-121.6944" y1="245.4656" x2="-55.1092" y2="248.4374" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF11_N">
 <contactref element="R106" pad="1"/>
 <contactref element="D19" pad="1"/>
 <contactref element="Z7" pad="4"/>
-<wire x1="-55.1092" y1="240.8174" x2="236.00509375" y2="11.91455625" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.1092" y1="240.8174" x2="236.38" y2="11.7332" width="0" layer="19" extent="1-1"/>
 <wire x1="-218.6462" y1="284.3022" x2="-55.1092" y2="240.8174" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF11_P">
 <contactref element="R105" pad="1"/>
 <contactref element="D20" pad="1"/>
 <contactref element="Z7" pad="5"/>
-<wire x1="-55.1092" y1="243.3574" x2="236.39509375" y2="14.34455625" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.1092" y1="243.3574" x2="236.77" y2="14.1632" width="0" layer="19" extent="1-1"/>
 <wire x1="-200.8662" y1="284.3022" x2="-55.1092" y2="243.3574" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF12_N">
@@ -12532,14 +12532,14 @@ design rules under a new name.</description>
 <contactref element="D22" pad="1"/>
 <contactref element="Z8" pad="4"/>
 <wire x1="-218.6462" y1="281.7622" x2="-55.1092" y2="235.7374" width="0" layer="19" extent="1-1"/>
-<wire x1="252.26109375" y1="11.91455625" x2="-55.1092" y2="235.7374" width="0" layer="19" extent="1-1"/>
+<wire x1="252.636" y1="11.7332" x2="-55.1092" y2="235.7374" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF12_P">
 <contactref element="R107" pad="1"/>
 <contactref element="D23" pad="1"/>
 <contactref element="Z8" pad="5"/>
 <wire x1="-200.8662" y1="281.7622" x2="-55.1092" y2="238.2774" width="0" layer="19" extent="1-1"/>
-<wire x1="252.65109375" y1="14.34455625" x2="-55.1092" y2="238.2774" width="0" layer="19" extent="1-1"/>
+<wire x1="253.026" y1="14.1632" x2="-55.1092" y2="238.2774" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF13_N">
 <contactref element="R110" pad="1"/>
@@ -14960,7 +14960,7 @@ design rules under a new name.</description>
 <contactref element="R180" pad="1"/>
 <contactref element="R184" pad="2"/>
 <contactref element="Z5" pad="2"/>
-<wire x1="-96.7144" y1="253.0856" x2="199.94309375" y2="13.72455625" width="0" layer="19" extent="1-1"/>
+<wire x1="-96.7144" y1="253.0856" x2="200.318" y2="13.5432" width="0" layer="19" extent="1-1"/>
 <wire x1="-108.3519" y1="267.0556" x2="-96.7144" y2="253.0856" width="0" layer="19" extent="1-1"/>
 <wire x1="-125.7094" y1="280.3756" x2="-108.3519" y2="267.0556" width="0" layer="19" extent="1-1"/>
 <wire x1="-126.6444" y1="280.2506" x2="-125.7094" y2="280.3756" width="0" layer="19" extent="1-1"/>
@@ -14982,14 +14982,14 @@ design rules under a new name.</description>
 <contactref element="IC12" pad="23"/>
 <contactref element="Z5" pad="3"/>
 <contactref element="D15" pad="1"/>
-<wire x1="-103.9144" y1="248.0056" x2="201.06309375" y2="11.52455625" width="0" layer="19" extent="1-1"/>
+<wire x1="-103.9144" y1="248.0056" x2="201.438" y2="11.3432" width="0" layer="19" extent="1-1"/>
 <wire x1="-135.6412" y1="279.7356" x2="-103.9144" y2="248.0056" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADIN2_3">
 <contactref element="IC12" pad="18"/>
 <contactref element="D18" pad="1"/>
 <contactref element="Z6" pad="3"/>
-<wire x1="-103.9144" y1="245.4656" x2="217.31909375" y2="11.52455625" width="0" layer="19" extent="1-1"/>
+<wire x1="-103.9144" y1="245.4656" x2="217.694" y2="11.3432" width="0" layer="19" extent="1-1"/>
 <wire x1="-135.6412" y1="277.2356" x2="-103.9144" y2="245.4656" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO2_3">
@@ -15011,7 +15011,7 @@ design rules under a new name.</description>
 <contactref element="M6" pad="8"/>
 <contactref element="R191" pad="1"/>
 <contactref element="Z6" pad="2"/>
-<wire x1="-111.7394" y1="280.3756" x2="216.19909375" y2="13.72455625" width="0" layer="19" extent="1-1"/>
+<wire x1="-111.7394" y1="280.3756" x2="216.574" y2="13.5432" width="0" layer="19" extent="1-1"/>
 <wire x1="-112.6744" y1="280.2506" x2="-111.7394" y2="280.3756" width="0" layer="19" extent="1-1"/>
 <wire x1="-137.3244" y1="276.0524" x2="-112.6744" y2="280.2506" width="0" layer="19" extent="1-1"/>
 <wire x1="-138.8319" y1="263.2456" x2="-137.3244" y2="276.0524" width="0" layer="19" extent="1-1"/>
@@ -15096,7 +15096,7 @@ design rules under a new name.</description>
 <contactref element="R202" pad="1"/>
 <contactref element="R210" pad="2"/>
 <contactref element="Z7" pad="2"/>
-<wire x1="-175.8862" y1="289.3822" x2="232.45509375" y2="13.72455625" width="0" layer="19" extent="1-1"/>
+<wire x1="-175.8862" y1="289.3822" x2="232.83" y2="13.5432" width="0" layer="19" extent="1-1"/>
 <wire x1="-187.5237" y1="303.3522" x2="-175.8862" y2="289.3822" width="0" layer="19" extent="1-1"/>
 <wire x1="-204.8812" y1="316.6722" x2="-187.5237" y2="303.3522" width="0" layer="19" extent="1-1"/>
 <wire x1="-205.8162" y1="316.5472" x2="-204.8812" y2="316.6722" width="0" layer="19" extent="1-1"/>
@@ -15118,7 +15118,7 @@ design rules under a new name.</description>
 <contactref element="IC13" pad="23"/>
 <contactref element="D21" pad="1"/>
 <contactref element="Z7" pad="3"/>
-<wire x1="-183.0862" y1="284.3022" x2="233.57509375" y2="11.52455625" width="0" layer="19" extent="1-1"/>
+<wire x1="-183.0862" y1="284.3022" x2="233.95" y2="11.3432" width="0" layer="19" extent="1-1"/>
 <wire x1="-214.813" y1="316.0322" x2="-183.0862" y2="284.3022" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADIN2_4">
@@ -15126,7 +15126,7 @@ design rules under a new name.</description>
 <contactref element="Z8" pad="3"/>
 <contactref element="D24" pad="1"/>
 <wire x1="-183.0862" y1="281.7622" x2="-214.813" y2="313.5322" width="0" layer="19" extent="1-1"/>
-<wire x1="249.83109375" y1="11.52455625" x2="-183.0862" y2="281.7622" width="0" layer="19" extent="1-1"/>
+<wire x1="250.206" y1="11.3432" x2="-183.0862" y2="281.7622" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO2_4">
 <contactref element="IC13" pad="16"/>
@@ -15151,7 +15151,7 @@ design rules under a new name.</description>
 <wire x1="-216.4962" y1="312.349" x2="-191.8462" y2="316.5472" width="0" layer="19" extent="1-1"/>
 <wire x1="-218.0037" y1="299.5422" x2="-216.4962" y2="312.349" width="0" layer="19" extent="1-1"/>
 <wire x1="-216.5262" y1="286.8422" x2="-218.0037" y2="299.5422" width="0" layer="19" extent="1-1"/>
-<wire x1="248.71109375" y1="13.72455625" x2="-190.9112" y2="316.6722" width="0" layer="19" extent="1-1"/>
+<wire x1="249.086" y1="13.5432" x2="-190.9112" y2="316.6722" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GATE2_4">
 <contactref element="IC13" pad="13"/>
