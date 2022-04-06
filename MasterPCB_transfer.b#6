@@ -7844,14 +7844,14 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="417.509196875" y="-180.493415625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="60.9211375" y="37.56186875" size="0.6096" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D68" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34598068/2" value="PTVS12VS1UR,115" x="64.205865625" y="40.46195" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="281.325065625" y="418.92195" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="mm" x="281.325065625" y="418.92195" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="281.325065625" y="418.92195" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="281.325065625" y="418.92195" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="281.325065625" y="418.92195" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="281.325065625" y="418.92195" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="63.26978125" y="40.743890625" size="0.6096" layer="25" rot="R270" align="center"/>
+<element name="D68" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34598068/2" value="PTVS12VS1UR,115" x="63.99174375" y="41.05681875" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="281.11094375" y="419.51681875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="281.11094375" y="419.51681875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="281.11094375" y="419.51681875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="281.11094375" y="419.51681875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="281.11094375" y="419.51681875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="281.11094375" y="419.51681875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="63.055659375" y="41.338759375" size="0.6096" layer="25" rot="R270" align="center"/>
 </element>
 <element name="D69" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34598068/2" value="PTVS12VS1UR,115" x="56.03036875" y="37.89400625" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="384.96036875" y="-176.68519375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -11279,8 +11279,8 @@ design rules under a new name.</description>
 <wire x1="70.641209375" y1="50.77341875" x2="68.97014375" y2="52.97288125" width="0" layer="19" extent="16-16"/>
 <wire x1="66.264090625" y1="43.19205625" x2="68.014090625" y2="45.62525625" width="0" layer="19" extent="16-16"/>
 <wire x1="63.63715625" y1="42.7498875" x2="66.264090625" y2="43.19205625" width="0" layer="19" extent="16-16"/>
-<wire x1="64.205865625" y1="39.06195" x2="63.63715625" y2="42.7498875" width="0" layer="19" extent="1-16"/>
-<wire x1="59.239196875" y1="36.625784375" x2="64.205865625" y2="39.06195" width="0" layer="19" extent="1-1"/>
+<wire x1="63.99174375" y1="39.65681875" x2="63.63715625" y2="42.7498875" width="0" layer="19" extent="1-16"/>
+<wire x1="59.239196875" y1="36.625784375" x2="63.99174375" y2="39.65681875" width="0" layer="19" extent="1-1"/>
 <wire x1="59.574" y1="43.284" x2="63.63715625" y2="42.7498875" width="0" layer="19" extent="16-16"/>
 <wire x1="59.923590625" y1="45.23460625" x2="59.574" y2="43.284" width="0" layer="19" extent="1-1"/>
 <wire x1="71.961803125" y1="37.393121875" x2="69.764090625" y2="43.19205625" width="0" layer="19" extent="1-16"/>
@@ -12489,7 +12489,7 @@ design rules under a new name.</description>
 <contactref element="D68" pad="1"/>
 <contactref element="Z23" pad="5"/>
 <wire x1="61.764" y1="42.154" x2="66.36045625" y2="34.584390625" width="0" layer="19" extent="1-1"/>
-<wire x1="64.205865625" y1="41.86195" x2="61.764" y2="42.154" width="0" layer="19" extent="1-1"/>
+<wire x1="63.99174375" y1="42.45681875" x2="61.764" y2="42.154" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF8_N">
 <contactref element="R88" pad="1"/>
