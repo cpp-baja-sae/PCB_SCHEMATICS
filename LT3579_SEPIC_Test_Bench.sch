@@ -3376,11 +3376,6 @@ output voltage of the circuit. </text>
 <label x="25.4" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LDO_" gate="G$1" pin="GND"/>
-<wire x1="-190.5" y1="-58.42" x2="-195.58" y2="-58.42" width="0.1524" layer="91"/>
-<label x="-200.66" y="-58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R_UVLO2_" gate="G$1" pin="1"/>
 <pinref part="X_3" gate="G$1" pin="0"/>
 <wire x1="16.51" y1="-78.74" x2="24.13" y2="-78.74" width="0.1524" layer="91"/>
@@ -3477,16 +3472,6 @@ output voltage of the circuit. </text>
 <label x="-119.38" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C_LDO_IN_" gate="G$1" pin="2"/>
-<pinref part="X_50" gate="G$1" pin="0"/>
-<wire x1="-167.64" y1="-86.36" x2="-160.02" y2="-86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C_LDO_OUT_" gate="G$1" pin="2"/>
-<pinref part="X_49" gate="G$1" pin="0"/>
-<wire x1="-167.64" y1="-38.1" x2="-160.02" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C_LS_" gate="G$1" pin="2"/>
 <pinref part="X_53" gate="G$1" pin="0"/>
 <wire x1="-86.36" y1="-2.54" x2="-68.58" y2="-2.54" width="0.1524" layer="91"/>
@@ -3560,6 +3545,23 @@ output voltage of the circuit. </text>
 <junction x="-124.46" y="-78.74"/>
 <pinref part="TP_CH_GND_" gate="G$1" pin="1"/>
 <junction x="-121.92" y="-96.52"/>
+</segment>
+<segment>
+<pinref part="C_LDO_IN_" gate="G$1" pin="2"/>
+<pinref part="X_50" gate="G$1" pin="0"/>
+<wire x1="-167.64" y1="-86.36" x2="-160.02" y2="-86.36" width="0.1524" layer="91"/>
+<label x="-162.56" y="-81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LDO_" gate="G$1" pin="GND"/>
+<wire x1="-190.5" y1="-58.42" x2="-195.58" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-208.28" y="-58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C_LDO_OUT_" gate="G$1" pin="2"/>
+<pinref part="X_49" gate="G$1" pin="0"/>
+<wire x1="-167.64" y1="-38.1" x2="-160.02" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-162.56" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CLK_" class="3">
