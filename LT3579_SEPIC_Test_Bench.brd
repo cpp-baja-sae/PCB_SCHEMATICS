@@ -2468,7 +2468,7 @@ design rules under a new name.</description>
 <via x="30.385" y="50.573" extent="1-16" drill="0.35"/>
 <wire x1="30.385" y1="50.573" x2="30.397434375" y2="50.585434375" width="0.381" layer="16"/>
 <wire x1="30.397434375" y1="50.585434375" x2="32.335" y2="51.388" width="0.381" layer="16" curve="-45"/>
-<polygon width="0.127" layer="1">
+<polygon width="0.127" layer="1" thermals="no">
 <vertex x="7.259046875" y="40.873546875"/>
 <vertex x="6.75786875" y="40.37236875" curve="44.999902"/>
 <vertex x="6.222" y="39.078665625"/>
@@ -2542,7 +2542,7 @@ design rules under a new name.</description>
 <contactref element="C_LDO_IN_" pad="2"/>
 <contactref element="LDO_" pad="1"/>
 <contactref element="C_LDO_OUT_" pad="2"/>
-<polygon width="0.0762" layer="1">
+<polygon width="0.0762" layer="1" thermals="no">
 <vertex x="12.8778" y="-0.3048"/>
 <vertex x="-0.2286" y="-0.3048"/>
 <vertex x="-0.2286" y="62.3824"/>
@@ -2569,6 +2569,39 @@ design rules under a new name.</description>
 <via x="1.8542" y="44.45" extent="1-16" drill="0.35"/>
 <via x="1.905" y="47.752" extent="1-16" drill="0.35"/>
 <via x="3.4036" y="51.4096" extent="1-16" drill="0.35"/>
+<polygon width="0.1016" layer="16" thermals="no">
+<vertex x="17.0434" y="58.8264"/>
+<vertex x="17.0434" y="54.2544"/>
+<vertex x="16.891" y="54.102"/>
+<vertex x="14.8336" y="54.102"/>
+<vertex x="14.6558" y="54.2798"/>
+<vertex x="14.6558" y="58.42"/>
+<vertex x="14.8844" y="58.6486"/>
+<vertex x="15.0622" y="58.8264"/>
+</polygon>
+<polygon width="0.1016" layer="16" thermals="no">
+<vertex x="17.145" y="38.9382"/>
+<vertex x="17.145" y="34.7726"/>
+<vertex x="16.9672" y="34.5948"/>
+<vertex x="15.2146" y="34.5948"/>
+<vertex x="15.113" y="34.6964"/>
+<vertex x="15.0368" y="34.7726"/>
+<vertex x="15.0368" y="38.8112"/>
+<vertex x="15.3416" y="39.116"/>
+<vertex x="16.9164" y="39.116"/>
+<vertex x="16.9926" y="39.116"/>
+<vertex x="17.145" y="38.9636"/>
+</polygon>
+<polygon width="0.1016" layer="16" thermals="no">
+<vertex x="16.7386" y="18.5166"/>
+<vertex x="16.9926" y="18.2626"/>
+<vertex x="16.9926" y="14.6304"/>
+<vertex x="16.8656" y="14.5034"/>
+<vertex x="15.0622" y="14.5034"/>
+<vertex x="14.8844" y="14.6812"/>
+<vertex x="14.8844" y="18.415"/>
+<vertex x="14.986" y="18.5166"/>
+</polygon>
 </signal>
 <signal name="FAULT_" class="3">
 <contactref element="LT3579_IC_" pad="4"/>
@@ -2892,7 +2925,7 @@ design rules under a new name.</description>
 <wire x1="17.96055" y1="42.9556" x2="38.240946875" y2="42.9556" width="0.816" layer="1"/>
 <wire x1="38.240946875" y1="42.9556" x2="39.53" y2="43.533453125" width="0.816" layer="1" curve="90"/>
 <wire x1="39.53" y1="43.533453125" x2="39.53" y2="44.453" width="0.816" layer="1"/>
-<polygon width="0.127" layer="1" isolate="0.25">
+<polygon width="0.127" layer="1" isolate="0.25" thermals="no">
 <vertex x="42.92" y="48.185790625"/>
 <vertex x="42.92" y="49.879940625" curve="-90"/>
 <vertex x="43.113059375" y="50.073"/>
@@ -3091,7 +3124,7 @@ design rules under a new name.</description>
 <wire x1="15.89" y1="24.605459375" x2="17.322459375" y2="23.173" width="0.816" layer="1" curve="90"/>
 <wire x1="17.322459375" y1="23.173" x2="38.112253125" y2="23.173" width="0.816" layer="1"/>
 <wire x1="38.112253125" y1="23.173" x2="39.2931375" y2="23.6621375" width="0.816" layer="1" curve="45"/>
-<polygon width="0.127" layer="1" isolate="0.25">
+<polygon width="0.127" layer="1" isolate="0.25" thermals="no">
 <vertex x="40.78735" y="29.073"/>
 <vertex x="42.880703125" y="29.073" curve="90"/>
 <vertex x="43.604" y="29.796296875"/>
@@ -3284,7 +3317,7 @@ design rules under a new name.</description>
 <wire x1="39.718646875" y1="1.471134375" x2="41.12" y2="2.8724875" width="0.816" layer="1" curve="90"/>
 <wire x1="41.12" y1="2.8724875" x2="41.12" y2="6.303" width="0.816" layer="1"/>
 <wire x1="41.12" y1="6.303" x2="41.075" y2="6.348" width="0.816" layer="1"/>
-<polygon width="0.127" layer="1" isolate="0.25">
+<polygon width="0.127" layer="1" isolate="0.25" thermals="no">
 <vertex x="40.42" y="5.073"/>
 <vertex x="46.51799375" y="5.073" curve="90"/>
 <vertex x="46.9708" y="5.52580625"/>
@@ -3561,7 +3594,7 @@ design rules under a new name.</description>
 <contactref element="PMOS_REVERSE_V_PROTECTION" pad="7"/>
 <contactref element="PMOS_REVERSE_V_PROTECTION" pad="8"/>
 <contactref element="PMOS_REVERSE_V_PROTECTION" pad="5"/>
-<polygon width="0.1524" layer="1" isolate="0.25">
+<polygon width="0.1524" layer="1" isolate="0.25" thermals="no">
 <vertex x="12.935625" y="13.4531"/>
 <vertex x="12.935625" y="19.15495" curve="90"/>
 <vertex x="10.990575" y="21.1"/>
@@ -3655,6 +3688,29 @@ design rules under a new name.</description>
 <vertex x="42.3926" y="53.431003125"/>
 <vertex x="42.3926" y="48.3616" curve="-90"/>
 </polygon>
+<polygon width="0.1016" layer="1" thermals="no">
+<vertex x="15.2654" y="58.42"/>
+<vertex x="14.7574" y="58.42"/>
+<vertex x="14.6558" y="58.3184"/>
+<vertex x="14.6558" y="54.0004"/>
+<vertex x="14.7828" y="53.8734"/>
+<vertex x="17.272" y="53.8734"/>
+<vertex x="17.3228" y="53.9242"/>
+<vertex x="17.3228" y="58.2422"/>
+<vertex x="17.1958" y="58.3692"/>
+<vertex x="17.145" y="58.42"/>
+</polygon>
+<polygon width="0.1016" layer="16" thermals="no">
+<vertex x="21.1074" y="58.8518"/>
+<vertex x="21.1074" y="54.3052"/>
+<vertex x="21.2344" y="54.1782"/>
+<vertex x="23.2156" y="54.1782"/>
+<vertex x="23.2918" y="54.2544"/>
+<vertex x="23.2918" y="58.674"/>
+<vertex x="23.241" y="58.7248"/>
+<vertex x="23.0886" y="58.8772"/>
+<vertex x="23.0632" y="58.8518"/>
+</polygon>
 </signal>
 <signal name="GND_1">
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="10"/>
@@ -3732,6 +3788,37 @@ design rules under a new name.</description>
 <vertex x="40.6654" y="35.0266" curve="90"/>
 <vertex x="40.4622" y="34.8234"/>
 <vertex x="40.4622" y="29.678625" curve="90"/>
+</polygon>
+<polygon width="0.1016" layer="1" thermals="no">
+<vertex x="15.2146" y="39.0652"/>
+<vertex x="14.5288" y="38.3794"/>
+<vertex x="14.5288" y="37.719"/>
+<vertex x="14.5288" y="34.1376"/>
+<vertex x="14.7828" y="33.8836"/>
+<vertex x="17.1196" y="33.8836"/>
+<vertex x="17.272" y="34.036"/>
+<vertex x="17.4498" y="34.2138"/>
+<vertex x="17.4498" y="38.5064"/>
+<vertex x="16.891" y="39.0652"/>
+</polygon>
+<polygon width="0.1016" layer="16" thermals="no">
+<vertex x="60.3758" y="35.1028"/>
+<vertex x="60.4012" y="35.1282"/>
+<vertex x="62.5602" y="35.1282"/>
+<vertex x="62.6364" y="35.052"/>
+<vertex x="62.6364" y="34.0106"/>
+<vertex x="60.5028" y="34.0106"/>
+<vertex x="60.3758" y="34.1376"/>
+</polygon>
+<polygon width="0.1016" layer="16" thermals="no">
+<vertex x="20.7518" y="39.0144"/>
+<vertex x="20.2438" y="38.5064"/>
+<vertex x="20.2438" y="34.5948"/>
+<vertex x="20.3708" y="34.4678"/>
+<vertex x="23.2156" y="34.4678"/>
+<vertex x="23.4188" y="34.671"/>
+<vertex x="23.4188" y="38.862"/>
+<vertex x="23.2664" y="39.0144"/>
 </polygon>
 </signal>
 <signal name="GND_2">
@@ -3817,6 +3904,28 @@ design rules under a new name.</description>
 <vertex x="43.8658" y="15.65513125" curve="90"/>
 <vertex x="43.51893125" y="16.002"/>
 <vertex x="41.654590625" y="16.002" curve="90"/>
+</polygon>
+<polygon width="0.1016" layer="1" thermals="no">
+<vertex x="16.0274" y="18.3388"/>
+<vertex x="14.859" y="18.3388"/>
+<vertex x="14.6304" y="18.1102"/>
+<vertex x="14.6304" y="13.7414"/>
+<vertex x="14.986" y="13.3858"/>
+<vertex x="17.4498" y="13.3858"/>
+<vertex x="17.7546" y="13.6906"/>
+<vertex x="17.7546" y="17.6784"/>
+<vertex x="17.5006" y="17.9324"/>
+<vertex x="17.0942" y="18.3388"/>
+</polygon>
+<polygon width="0.1016" layer="16" thermals="no">
+<vertex x="20.4724" y="18.4404"/>
+<vertex x="20.5994" y="18.5674"/>
+<vertex x="22.9362" y="18.5674"/>
+<vertex x="23.0886" y="18.415"/>
+<vertex x="23.0886" y="14.5034"/>
+<vertex x="23.0124" y="14.4272"/>
+<vertex x="20.5994" y="14.4272"/>
+<vertex x="20.4724" y="14.5542"/>
 </polygon>
 </signal>
 </signals>
