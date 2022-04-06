@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1284,7 +1284,7 @@
 <smd name="11" x="3.175" y="1.613" dx="0.74" dy="1.47" layer="1" stop="no"/>
 <smd name="12" x="3.175" y="-1.613" dx="0.74" dy="1.47" layer="1" stop="no"/>
 </package>
-<package name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:footprint:34729421/1" library_version="100">
+<package name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:footprint:34729421/3" library_version="134">
 <wire x1="-11.43" y1="-1.27" x2="-11.43" y2="1.27" width="0.1" layer="51"/>
 <wire x1="-11.43" y1="1.27" x2="11.43" y2="1.27" width="0.1" layer="51"/>
 <wire x1="11.43" y1="1.27" x2="11.43" y2="-1.27" width="0.1" layer="51"/>
@@ -1297,6 +1297,10 @@
 <wire x1="-11.68" y1="2.805" x2="11.68" y2="2.805" width="0.05" layer="39"/>
 <wire x1="11.68" y1="2.805" x2="11.68" y2="-2.805" width="0.05" layer="39"/>
 <wire x1="11.68" y1="-2.805" x2="-11.68" y2="-2.805" width="0.05" layer="39"/>
+<wire x1="-12.7" y1="-2.7" x2="12.7" y2="-2.7" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-2.7" x2="-12.7" y2="31.6" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-2.7" x2="12.7" y2="31.6" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="31.75" x2="12.7" y2="31.75" width="0.127" layer="21"/>
 <text x="-12.43" y="3.57" size="1.27" layer="25">&gt;NAME</text>
 <text x="-12.43" y="-4.82" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="10.67" y="3.315" radius="0.1" width="0.2" layer="21"/>
@@ -1310,6 +1314,8 @@
 <smd name="07" x="-5.08" y="1.6025" dx="1.02" dy="1.905" layer="1"/>
 <smd name="08" x="-7.62" y="-1.6025" dx="1.02" dy="1.905" layer="1"/>
 <smd name="09" x="-10.16" y="1.6025" dx="1.02" dy="1.905" layer="1"/>
+<hole x="-10.16" y="29.72" drill="7"/>
+<hole x="10.16" y="29.72" drill="7"/>
 </package>
 <package name="BGA100C127P10X10_1500X1500X608" urn="urn:adsk.eagle:footprint:34729432/1" library_version="102">
 <description>&lt;b&gt;[BGA](ML-100-1)&lt;/b&gt;&lt;br&gt;
@@ -1837,6 +1843,9 @@
 <wire x1="-0.2" y1="-1.45" x2="-0.2" y2="1.45" width="0.2" layer="21"/>
 <wire x1="-1.85" y1="1.5" x2="-0.55" y2="1.5" width="0.2" layer="21"/>
 </package>
+<package name="1/16TH_BOLT" urn="urn:adsk.eagle:footprint:35094095/2" library_version="137">
+<pad name="1/16IN" x="0" y="0" locked="yes" drill="3.048" diameter="6.35"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="NUCLEO_H723ZG" urn="urn:adsk.eagle:package:34377632/8" type="model" library_version="60">
@@ -2000,7 +2009,7 @@
 <packageinstance name="SAMTEC-CLP-106-02-X-D"/>
 </packageinstances>
 </package3d>
-<package3d name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:package:34729422/2" type="model" library_version="100">
+<package3d name="SAMTEC_SSM-109-L-SV" urn="urn:adsk.eagle:package:34729422/5" type="model" library_version="134">
 <packageinstances>
 <packageinstance name="SAMTEC_SSM-109-L-SV"/>
 </packageinstances>
@@ -2080,6 +2089,11 @@
 <description>&lt;b&gt;SC-96&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SOT95P280X100-3N"/>
+</packageinstances>
+</package3d>
+<package3d name="1/16TH_BOLT" urn="urn:adsk.eagle:package:35094096/3" type="empty" library_version="137">
+<packageinstances>
+<packageinstance name="1/16TH_BOLT"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3145,6 +3159,9 @@
 <pin name="GATE" x="5.08" y="17.78" length="middle" rot="R270"/>
 <text x="12.7" y="0" size="1.778" layer="95">&gt;NAME</text>
 <text x="12.7" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="THROUGH_HOLE" urn="urn:adsk.eagle:symbol:35094094/3" library_version="137">
+<pin name="THROUGH_HOLE" x="0" y="0" visible="pad" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4257,7 +4274,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/GMR100HTCFAR1
 </device>
 </devices>
 </deviceset>
-<deviceset name="SSM-109-L-SV" urn="urn:adsk.eagle:component:34729423/2" prefix="J" library_version="100">
+<deviceset name="SSM-109-L-SV" urn="urn:adsk.eagle:component:34729423/5" prefix="J" library_version="134">
 <gates>
 <gate name="G$1" symbol="SSM-109-L-SV" x="0" y="0"/>
 </gates>
@@ -4275,7 +4292,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/GMR100HTCFAR1
 <connect gate="G$1" pin="09" pad="09"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34729422/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34729422/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4964,6 +4981,24 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 <attribute name="MOUSER_PART_NUMBER" value="755-RSR025N03HZGTL" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="THROUGH_HOLE" urn="urn:adsk.eagle:component:35094097/4" library_version="137">
+<gates>
+<gate name="G$1" symbol="THROUGH_HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1/16TH_BOLT">
+<connects>
+<connect gate="G$1" pin="THROUGH_HOLE" pad="1/16IN"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6293,7 +6328,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 <part name="GND450" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SAMTEC-CLP-106-02-X-D" device="J" package3d_urn="urn:adsk.eagle:package:34729384/2"/>
 <part name="GND451" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SSM-109-L-SV" device="" package3d_urn="urn:adsk.eagle:package:34729422/2"/>
 <part name="IC31" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ADIS16500AMLZ" device="" package3d_urn="urn:adsk.eagle:package:34729433/2"/>
 <part name="GND452" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND453" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -6519,20 +6553,24 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 <part name="D85" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34959477/2"/>
 <part name="D86" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34959477/2"/>
 <part name="D87" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:34959477/2"/>
+<part name="J9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SSM-109-L-SV" device="" package3d_urn="urn:adsk.eagle:package:34729422/5"/>
+<part name="U$5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 </parts>
 <sheets>
 <sheet>
 <description>Strain Gauge ADC</description>
 <plain>
-<text x="66.04" y="508" size="1.778" layer="97">2x 16 bit differential single frame capture SAR ADCs that are dedicated for measuring simultaneous outputs from strain gauges.
-
-Input signal flow
-Analog signal -&gt; High input impedance buffer -&gt; Low pass filter BW@~200 hz -&gt; High input impedance buffer -&gt; Digitizing
-
-The ADC also applies a 3rd order low pass filter with built in oversampling functionalty.
-
-Communication occurs thorugh a serial line.</text>
-<rectangle x1="63.5" y1="495.3" x2="213.36" y2="530.86" layer="98"/>
 <text x="210.82" y="228.6" size="1.778" layer="97">From data sheet for split plane conditioning</text>
 <wire x1="208.28" y1="233.68" x2="208.28" y2="226.06" width="0.1524" layer="94"/>
 <wire x1="208.28" y1="226.06" x2="261.62" y2="226.06" width="0.1524" layer="94"/>
@@ -8738,15 +8776,6 @@ Communication occurs thorugh a serial line.</text>
 <sheet>
 <description>General and accelerometer ADC</description>
 <plain>
-<text x="30.48" y="233.68" size="1.778" layer="97">2x 16 bit differential single frame capture SAR ADCs that are dedicated for measuring simultaneous outputs from strain gauges.
-
-Input signal flow
-Analog signal -&gt; High input impedance buffer -&gt; Low pass filter BW@~200 hz -&gt; High input impedance buffer -&gt; scale input within 5v range -&gt; Digitizing
-
-The ADC also applies a 3rd order low pass filter with built in oversampling functionalty.
-
-Communication occurs thorugh a serial line.</text>
-<rectangle x1="25.4" y1="226.06" x2="180.34" y2="261.62" layer="98"/>
 <text x="111.76" y="170.18" size="1.778" layer="97">Filter @300hz  with 5/12 reduction</text>
 <wire x1="109.22" y1="175.26" x2="109.22" y2="167.64" width="0.1524" layer="94"/>
 <wire x1="109.22" y1="167.64" x2="152.4" y2="167.64" width="0.1524" layer="94"/>
@@ -12669,9 +12698,9 @@ Output on-board voltages
 <wire x1="22.86" y1="40.64" x2="-7.62" y2="40.64" width="0.1524" layer="94"/>
 </plain>
 <instances>
-<instance part="J3" gate="G$1" x="12.7" y="15.24" smashed="yes">
-<attribute name="NAME" x="7.12" y="29.056" size="1.778" layer="95"/>
-<attribute name="VALUE" x="7.62" y="0" size="1.778" layer="96"/>
+<instance part="J9" gate="G$1" x="12.7" y="-17.78" smashed="yes">
+<attribute name="NAME" x="7.12" y="-3.964" size="1.778" layer="95"/>
+<attribute name="VALUE" x="7.62" y="-33.02" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -12679,65 +12708,65 @@ Output on-board voltages
 <nets>
 <net name="3.3V_NC" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="01"/>
-<wire x1="2.54" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
-<label x="0" y="27.94" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-25.4" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="09"/>
+<wire x1="0" y1="-27.94" x2="2.54" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS_EN" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="02"/>
-<wire x1="2.54" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
-<label x="0" y="25.4" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-22.86" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="08"/>
+<wire x1="0" y1="-25.4" x2="2.54" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBAT_NC" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="03"/>
-<wire x1="2.54" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
-<label x="0" y="22.86" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-20.32" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="07"/>
+<wire x1="0" y1="-22.86" x2="2.54" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS_TX" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="05"/>
-<wire x1="2.54" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="91"/>
-<label x="0" y="17.78" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-15.24" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="05"/>
+<wire x1="0" y1="-17.78" x2="2.54" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FIX_NC" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="04"/>
-<wire x1="2.54" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="91"/>
-<label x="0" y="20.32" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-17.78" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="06"/>
+<wire x1="0" y1="-20.32" x2="2.54" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS_RX" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="06"/>
-<wire x1="2.54" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
-<label x="0" y="15.24" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-12.7" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="04"/>
+<wire x1="0" y1="-15.24" x2="2.54" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="07"/>
-<wire x1="2.54" y1="10.16" x2="0" y2="10.16" width="0.1524" layer="91"/>
-<label x="0" y="12.7" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-10.16" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="03"/>
+<wire x1="0" y1="-12.7" x2="2.54" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V_SENSORS" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="08"/>
-<wire x1="2.54" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="91"/>
-<label x="0" y="10.16" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-7.62" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="02"/>
+<wire x1="0" y1="-10.16" x2="2.54" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PPS_NC" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="09"/>
-<wire x1="2.54" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="91"/>
-<label x="0" y="7.62" size="1.778" layer="95" rot="R180"/>
+<label x="-2.54" y="-5.08" size="1.778" layer="95" rot="R180"/>
+<pinref part="J9" gate="G$1" pin="01"/>
+<wire x1="0" y1="-7.62" x2="2.54" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -27211,6 +27240,18 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <attribute name="NAME" x="243.34" y="43.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="243.84" y="-12.7" size="1.778" layer="96"/>
 </instance>
+<instance part="U$5" gate="G$1" x="-30.48" y="132.08" smashed="yes"/>
+<instance part="U$6" gate="G$1" x="-33.02" y="132.08" smashed="yes"/>
+<instance part="U$7" gate="G$1" x="-35.56" y="132.08" smashed="yes"/>
+<instance part="U$8" gate="G$1" x="-38.1" y="132.08" smashed="yes"/>
+<instance part="U$9" gate="G$1" x="-40.64" y="132.08" smashed="yes"/>
+<instance part="U$10" gate="G$1" x="-43.18" y="132.08" smashed="yes"/>
+<instance part="U$11" gate="G$1" x="-45.72" y="132.08" smashed="yes"/>
+<instance part="U$12" gate="G$1" x="-48.26" y="132.08" smashed="yes"/>
+<instance part="U$13" gate="G$1" x="-50.8" y="132.08" smashed="yes"/>
+<instance part="U$14" gate="G$1" x="-53.34" y="132.08" smashed="yes"/>
+<instance part="U$15" gate="G$1" x="-25.4" y="132.08" smashed="yes"/>
+<instance part="U$16" gate="G$1" x="-27.94" y="132.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>

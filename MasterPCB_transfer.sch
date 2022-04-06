@@ -14731,12 +14731,13 @@ and inrush current resistor</text>
 <wire x1="10.16" y1="967.74" x2="495.3" y2="967.74" width="0.1524" layer="94"/>
 <wire x1="495.3" y1="967.74" x2="495.3" y2="911.86" width="0.1524" layer="94"/>
 <wire x1="495.3" y1="911.86" x2="10.16" y2="911.86" width="0.1524" layer="94"/>
-<text x="-38.1" y="937.26" size="1.778" layer="97">Single ended digital inputs
-Splice GND node between 2 sensors</text>
-<wire x1="-40.64" y1="944.88" x2="-40.64" y2="934.72" width="0.1524" layer="94"/>
-<wire x1="-40.64" y1="934.72" x2="5.08" y2="934.72" width="0.1524" layer="94"/>
+<text x="-45.72" y="937.26" size="1.778" layer="97">Single ended digital inputs
+Splice GND node between 2 sensors
+2 sensors share same short circuit protection</text>
+<wire x1="-48.26" y1="944.88" x2="-48.26" y2="934.72" width="0.1524" layer="94"/>
+<wire x1="-48.26" y1="934.72" x2="5.08" y2="934.72" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="934.72" x2="5.08" y2="944.88" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="944.88" x2="-40.64" y2="944.88" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="944.88" x2="-48.26" y2="944.88" width="0.1524" layer="94"/>
 <text x="-43.18" y="76.2" size="1.778" layer="97">Visual indicator that power is available 
 to the node at this segment of the board</text>
 <wire x1="-45.72" y1="83.82" x2="-45.72" y2="73.66" width="0.1524" layer="94"/>
@@ -20587,16 +20588,6 @@ to the node at this segment of the board</text>
 <label x="162.56" y="769.62" size="1.778" layer="95" rot="MR180"/>
 </segment>
 <segment>
-<pinref part="Z27" gate="Z$1" pin="1"/>
-<wire x1="347.98" y1="947.42" x2="353.06" y2="947.42" width="0.1524" layer="91"/>
-<label x="350.52" y="949.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Z28" gate="Z$1" pin="1"/>
-<wire x1="477.52" y1="947.42" x2="482.6" y2="947.42" width="0.1524" layer="91"/>
-<label x="480.06" y="949.96" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R424" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="876.3" x2="309.88" y2="876.3" width="0.1524" layer="91"/>
 <label x="309.88" y="878.84" size="1.778" layer="95" rot="R180"/>
@@ -20640,16 +20631,6 @@ to the node at this segment of the board</text>
 <pinref part="R443" gate="G$1" pin="2"/>
 <wire x1="436.88" y1="767.08" x2="436.88" y2="769.62" width="0.1524" layer="91"/>
 <label x="426.72" y="772.16" size="1.778" layer="95" rot="MR180"/>
-</segment>
-<segment>
-<pinref part="Z27" gate="Z$1" pin="4"/>
-<wire x1="322.58" y1="947.42" x2="317.5" y2="947.42" width="0.1524" layer="91"/>
-<label x="312.42" y="949.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Z28" gate="Z$1" pin="4"/>
-<wire x1="452.12" y1="947.42" x2="447.04" y2="947.42" width="0.1524" layer="91"/>
-<label x="441.96" y="949.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R445" gate="G$1" pin="1"/>
@@ -20720,16 +20701,6 @@ to the node at this segment of the board</text>
 <pinref part="R458" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="838.2" x2="281.94" y2="840.74" width="0.1524" layer="91"/>
 <label x="276.86" y="843.28" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Z15" gate="Z$1" pin="1"/>
-<wire x1="871.22" y1="701.04" x2="876.3" y2="701.04" width="0.1524" layer="91"/>
-<label x="876.3" y="698.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Z16" gate="Z$1" pin="1"/>
-<wire x1="1000.76" y1="701.04" x2="1005.84" y2="701.04" width="0.1524" layer="91"/>
-<label x="1005.84" y="698.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -25356,20 +25327,6 @@ to the node at this segment of the board</text>
 <label x="447.04" y="624.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ADIN1_8" class="0">
-<segment>
-<pinref part="D33" gate="G$1" pin="K"/>
-<wire x1="365.76" y1="695.96" x2="365.76" y2="698.5" width="0.1524" layer="91"/>
-<label x="368.3" y="698.5" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="ADIN2_8" class="0">
-<segment>
-<pinref part="D36" gate="G$1" pin="K"/>
-<wire x1="495.3" y1="695.96" x2="495.3" y2="698.5" width="0.1524" layer="91"/>
-<label x="497.84" y="698.5" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="GPIO2_8" class="0">
 <segment>
 <pinref part="IC15" gate="G$1" pin="GPIO2"/>
@@ -25602,13 +25559,6 @@ to the node at this segment of the board</text>
 <label x="706.12" y="624.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ADIN1_9" class="0">
-<segment>
-<pinref part="D39" gate="G$1" pin="K"/>
-<wire x1="624.84" y1="695.96" x2="624.84" y2="698.5" width="0.1524" layer="91"/>
-<label x="627.38" y="698.5" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="ADIN2_9_POWER_TEMP3" class="0">
 <segment>
 <pinref part="IC16" gate="G$1" pin="ADIN2"/>
@@ -25619,6 +25569,11 @@ to the node at this segment of the board</text>
 <pinref part="Z13" gate="Z$1" pin="2"/>
 <wire x1="599.44" y1="688.34" x2="599.44" y2="683.26" width="0.1524" layer="91"/>
 <label x="591.82" y="675.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D39" gate="G$1" pin="K"/>
+<wire x1="624.84" y1="695.96" x2="624.84" y2="698.5" width="0.1524" layer="91"/>
+<label x="627.38" y="698.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GPIO2_9" class="0">
@@ -26086,6 +26041,11 @@ to the node at this segment of the board</text>
 <wire x1="1003.3" y1="629.92" x2="1003.3" y2="627.38" width="0.1524" layer="91"/>
 <label x="1003.3" y="624.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="Z15" gate="Z$1" pin="1"/>
+<wire x1="871.22" y1="701.04" x2="876.3" y2="701.04" width="0.1524" layer="91"/>
+<label x="876.3" y="698.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="FB1_10" class="0">
 <segment>
@@ -26176,6 +26136,11 @@ to the node at this segment of the board</text>
 <wire x1="934.72" y1="502.92" x2="934.72" y2="500.38" width="0.1524" layer="91"/>
 <label x="924.56" y="497.84" size="1.778" layer="95" rot="MR180"/>
 </segment>
+<segment>
+<pinref part="Z16" gate="Z$1" pin="1"/>
+<wire x1="1000.76" y1="701.04" x2="1005.84" y2="701.04" width="0.1524" layer="91"/>
+<label x="1005.84" y="698.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GATE2_10" class="0">
 <segment>
@@ -26261,9 +26226,14 @@ to the node at this segment of the board</text>
 <label x="137.16" y="741.68" size="1.778" layer="95" rot="MR180"/>
 </segment>
 <segment>
-<pinref part="Z25" gate="Z$1" pin="1"/>
-<wire x1="83.82" y1="944.88" x2="88.9" y2="944.88" width="0.1524" layer="91"/>
-<label x="86.36" y="947.42" size="1.778" layer="95"/>
+<pinref part="Z26" gate="Z$1" pin="4"/>
+<wire x1="187.96" y1="944.88" x2="182.88" y2="944.88" width="0.1524" layer="91"/>
+<label x="177.8" y="947.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Z26" gate="Z$1" pin="1"/>
+<wire x1="213.36" y1="944.88" x2="218.44" y2="944.88" width="0.1524" layer="91"/>
+<label x="215.9" y="947.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO2_11" class="0">
@@ -26303,6 +26273,11 @@ to the node at this segment of the board</text>
 <pinref part="Z25" gate="Z$1" pin="4"/>
 <wire x1="58.42" y1="944.88" x2="53.34" y2="944.88" width="0.1524" layer="91"/>
 <label x="48.26" y="947.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Z25" gate="Z$1" pin="1"/>
+<wire x1="83.82" y1="944.88" x2="88.9" y2="944.88" width="0.1524" layer="91"/>
+<label x="86.36" y="947.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GATE2_11" class="0">
@@ -26534,9 +26509,14 @@ to the node at this segment of the board</text>
 <label x="363.22" y="886.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Z26" gate="Z$1" pin="4"/>
-<wire x1="187.96" y1="944.88" x2="182.88" y2="944.88" width="0.1524" layer="91"/>
-<label x="177.8" y="947.42" size="1.778" layer="95"/>
+<pinref part="Z27" gate="Z$1" pin="4"/>
+<wire x1="322.58" y1="947.42" x2="317.5" y2="947.42" width="0.1524" layer="91"/>
+<label x="312.42" y="949.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Z27" gate="Z$1" pin="1"/>
+<wire x1="347.98" y1="947.42" x2="353.06" y2="947.42" width="0.1524" layer="91"/>
+<label x="350.52" y="949.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GATE1_12" class="0">
@@ -26664,9 +26644,14 @@ to the node at this segment of the board</text>
 <label x="482.6" y="772.16" size="1.778" layer="95" rot="MR180"/>
 </segment>
 <segment>
-<pinref part="Z26" gate="Z$1" pin="1"/>
-<wire x1="213.36" y1="944.88" x2="218.44" y2="944.88" width="0.1524" layer="91"/>
-<label x="215.9" y="947.42" size="1.778" layer="95"/>
+<pinref part="Z28" gate="Z$1" pin="4"/>
+<wire x1="452.12" y1="947.42" x2="447.04" y2="947.42" width="0.1524" layer="91"/>
+<label x="441.96" y="949.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Z28" gate="Z$1" pin="1"/>
+<wire x1="477.52" y1="947.42" x2="482.6" y2="947.42" width="0.1524" layer="91"/>
+<label x="480.06" y="949.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GATE2_12" class="0">
@@ -27043,6 +27028,11 @@ to the node at this segment of the board</text>
 <wire x1="340.36" y1="688.34" x2="340.36" y2="683.26" width="0.1524" layer="91"/>
 <label x="332.74" y="675.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="D33" gate="G$1" pin="K"/>
+<wire x1="365.76" y1="695.96" x2="365.76" y2="698.5" width="0.1524" layer="91"/>
+<label x="368.3" y="698.5" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="ADIN2_8_POWER_TEMP2" class="0">
 <segment>
@@ -27054,6 +27044,11 @@ to the node at this segment of the board</text>
 <pinref part="Z12" gate="Z$1" pin="2"/>
 <wire x1="469.9" y1="688.34" x2="469.9" y2="683.26" width="0.1524" layer="91"/>
 <label x="462.28" y="675.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D36" gate="G$1" pin="K"/>
+<wire x1="495.3" y1="695.96" x2="495.3" y2="698.5" width="0.1524" layer="91"/>
+<label x="497.84" y="698.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$1" class="0">
