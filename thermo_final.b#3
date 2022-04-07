@@ -72,6 +72,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6bXljcHA3MjQ" projecturn="a.YnVzaW5lc3M6bXljcHA3MjQjRDIwMjIwNDA3NTE0NTMyNTA2" f3durn="urn:adsk.wipprod:dm.lineage:5ZqQX2WsSt2ZEz1t_3Q5SQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="3ee2eb8a-6c9b-480e-b5d4-79b7e8a2f028" lastsyncedrevisionid="3ee2eb8a-6c9b-480e-b5d4-79b7e8a2f028" lastboardhashguid="3e895c1b-ea9d-58a1-0bf0-89034826e16b" lastpushedtime="2022-04-07T03:03:27Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="100.584" x2="67.818" y2="100.584" width="0.000203125" layer="20"/>
 <wire x1="67.818" y1="100.584" x2="67.818" y2="0" width="0.000203125" layer="20"/>
@@ -88,360 +89,6 @@ WAGMI
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="RESC1005X40N">
-<description>&lt;b&gt;RC0402&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
-<smd name="2" x="0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.175" y1="0.55" x2="1.175" y2="0.55" width="0.05" layer="51"/>
-<wire x1="1.175" y1="0.55" x2="1.175" y2="-0.55" width="0.05" layer="51"/>
-<wire x1="1.175" y1="-0.55" x2="-1.175" y2="-0.55" width="0.05" layer="51"/>
-<wire x1="-1.175" y1="-0.55" x2="-1.175" y2="0.55" width="0.05" layer="51"/>
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
-<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
-</package>
-<package name="CAPC1608X90N@1">
-<description>&lt;b&gt;0603 (1608 metric)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.67" y="0" dx="0.94" dy="0.81" layer="1" rot="R90"/>
-<smd name="2" x="0.67" y="0" dx="0.94" dy="0.81" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.225" y1="0.62" x2="1.225" y2="0.62" width="0.05" layer="51"/>
-<wire x1="1.225" y1="0.62" x2="1.225" y2="-0.62" width="0.05" layer="51"/>
-<wire x1="1.225" y1="-0.62" x2="-1.225" y2="-0.62" width="0.05" layer="51"/>
-<wire x1="-1.225" y1="-0.62" x2="-1.225" y2="0.62" width="0.05" layer="51"/>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
-</package>
-<package name="CAPC1608X90N">
-<description>&lt;b&gt;0603-1&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.7" y="0" dx="0.99" dy="0.78" layer="1" rot="R90"/>
-<smd name="2" x="0.7" y="0" dx="0.99" dy="0.78" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.24" y1="0.65" x2="1.24" y2="0.65" width="0.05" layer="51"/>
-<wire x1="1.24" y1="0.65" x2="1.24" y2="-0.65" width="0.05" layer="51"/>
-<wire x1="1.24" y1="-0.65" x2="-1.24" y2="-0.65" width="0.05" layer="51"/>
-<wire x1="-1.24" y1="-0.65" x2="-1.24" y2="0.65" width="0.05" layer="51"/>
-<wire x1="-0.8" y1="0.405" x2="0.8" y2="0.405" width="0.1" layer="51"/>
-<wire x1="0.8" y1="0.405" x2="0.8" y2="-0.405" width="0.1" layer="51"/>
-<wire x1="0.8" y1="-0.405" x2="-0.8" y2="-0.405" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="-0.405" x2="-0.8" y2="0.405" width="0.1" layer="51"/>
-</package>
-<package name="CAPC1005X55N">
-<description>&lt;b&gt;0402 (1005 metric)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.44" y="0" dx="0.65" dy="0.62" layer="1"/>
-<smd name="2" x="0.44" y="0" dx="0.65" dy="0.62" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.915" y1="0.46" x2="0.915" y2="0.46" width="0.05" layer="51"/>
-<wire x1="0.915" y1="0.46" x2="0.915" y2="-0.46" width="0.05" layer="51"/>
-<wire x1="0.915" y1="-0.46" x2="-0.915" y2="-0.46" width="0.05" layer="51"/>
-<wire x1="-0.915" y1="-0.46" x2="-0.915" y2="0.46" width="0.05" layer="51"/>
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
-<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
-</package>
-<package name="SOD123W">
-<description>&lt;b&gt;SOD123W&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.4" y="0" dx="1.2" dy="1.2" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.2" dy="1.2" layer="1"/>
-<text x="-0.254" y="-0.01" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.254" y="-0.01" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.3" y1="0.85" x2="1.3" y2="0.85" width="0.2" layer="51"/>
-<wire x1="1.3" y1="0.85" x2="1.3" y2="-0.85" width="0.2" layer="51"/>
-<wire x1="1.3" y1="-0.85" x2="-1.3" y2="-0.85" width="0.2" layer="51"/>
-<wire x1="-1.3" y1="-0.85" x2="-1.3" y2="0.85" width="0.2" layer="51"/>
-<wire x1="-1.3" y1="0.85" x2="1.3" y2="0.85" width="0.2" layer="21"/>
-<wire x1="1.3" y1="-0.85" x2="-1.3" y2="-0.85" width="0.2" layer="21"/>
-<circle x="-2.205" y="0.041" radius="0.048" width="0.2" layer="25"/>
-</package>
-<package name="SOP65P640X120-16N">
-<description>&lt;b&gt;TSSOP 16 Lead&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.962" y="2.275" dx="1.525" dy="0.45" layer="1"/>
-<smd name="2" x="-2.962" y="1.625" dx="1.525" dy="0.45" layer="1"/>
-<smd name="3" x="-2.962" y="0.975" dx="1.525" dy="0.45" layer="1"/>
-<smd name="4" x="-2.962" y="0.325" dx="1.525" dy="0.45" layer="1"/>
-<smd name="5" x="-2.962" y="-0.325" dx="1.525" dy="0.45" layer="1"/>
-<smd name="6" x="-2.962" y="-0.975" dx="1.525" dy="0.45" layer="1"/>
-<smd name="7" x="-2.962" y="-1.625" dx="1.525" dy="0.45" layer="1"/>
-<smd name="8" x="-2.962" y="-2.275" dx="1.525" dy="0.45" layer="1"/>
-<smd name="9" x="2.962" y="-2.275" dx="1.525" dy="0.45" layer="1"/>
-<smd name="10" x="2.962" y="-1.625" dx="1.525" dy="0.45" layer="1"/>
-<smd name="11" x="2.962" y="-0.975" dx="1.525" dy="0.45" layer="1"/>
-<smd name="12" x="2.962" y="-0.325" dx="1.525" dy="0.45" layer="1"/>
-<smd name="13" x="2.962" y="0.325" dx="1.525" dy="0.45" layer="1"/>
-<smd name="14" x="2.962" y="0.975" dx="1.525" dy="0.45" layer="1"/>
-<smd name="15" x="2.962" y="1.625" dx="1.525" dy="0.45" layer="1"/>
-<smd name="16" x="2.962" y="2.275" dx="1.525" dy="0.45" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.975" y1="2.8" x2="3.975" y2="2.8" width="0.05" layer="51"/>
-<wire x1="3.975" y1="2.8" x2="3.975" y2="-2.8" width="0.05" layer="51"/>
-<wire x1="3.975" y1="-2.8" x2="-3.975" y2="-2.8" width="0.05" layer="51"/>
-<wire x1="-3.975" y1="-2.8" x2="-3.975" y2="2.8" width="0.05" layer="51"/>
-<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.1" layer="51"/>
-<wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.1" layer="51"/>
-<wire x1="2.2" y1="-2.5" x2="-2.2" y2="-2.5" width="0.1" layer="51"/>
-<wire x1="-2.2" y1="-2.5" x2="-2.2" y2="2.5" width="0.1" layer="51"/>
-<wire x1="-2.2" y1="1.85" x2="-1.55" y2="2.5" width="0.1" layer="51"/>
-<wire x1="-1.85" y1="2.5" x2="1.85" y2="2.5" width="0.2" layer="21"/>
-<wire x1="1.85" y1="2.5" x2="1.85" y2="-2.5" width="0.2" layer="21"/>
-<wire x1="1.85" y1="-2.5" x2="-1.85" y2="-2.5" width="0.2" layer="21"/>
-<wire x1="-1.85" y1="-2.5" x2="-1.85" y2="2.5" width="0.2" layer="21"/>
-<wire x1="-3.725" y1="2.85" x2="-2.2" y2="2.85" width="0.2" layer="21"/>
-</package>
-<package name="SOT230P700X180-4N">
-<description>&lt;b&gt;SOT223-3&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.6" y="2.3" dx="2.75" dy="0.95" layer="1"/>
-<smd name="2" x="-2.6" y="0" dx="2.75" dy="0.95" layer="1"/>
-<smd name="3" x="-2.6" y="-2.3" dx="2.75" dy="0.95" layer="1"/>
-<smd name="4" x="2.6" y="0" dx="3.25" dy="2.75" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.225" y1="3.6" x2="4.225" y2="3.6" width="0.05" layer="51"/>
-<wire x1="4.225" y1="3.6" x2="4.225" y2="-3.6" width="0.05" layer="51"/>
-<wire x1="4.225" y1="-3.6" x2="-4.225" y2="-3.6" width="0.05" layer="51"/>
-<wire x1="-4.225" y1="-3.6" x2="-4.225" y2="3.6" width="0.05" layer="51"/>
-<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.1" layer="51"/>
-<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.1" layer="51"/>
-<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.1" layer="51"/>
-<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.1" layer="51"/>
-<wire x1="-1.75" y1="0.95" x2="0.55" y2="3.25" width="0.1" layer="51"/>
-<wire x1="-0.875" y1="3.25" x2="0.875" y2="3.25" width="0.2" layer="21"/>
-<wire x1="0.875" y1="3.25" x2="0.875" y2="-3.25" width="0.2" layer="21"/>
-<wire x1="0.875" y1="-3.25" x2="-0.875" y2="-3.25" width="0.2" layer="21"/>
-<wire x1="-0.875" y1="-3.25" x2="-0.875" y2="3.25" width="0.2" layer="21"/>
-<wire x1="-3.975" y1="3.125" x2="-1.225" y2="3.125" width="0.2" layer="21"/>
-</package>
-<package name="SOIC127P1032X265-20N">
-<description>&lt;b&gt;SO20&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-4.725" y="5.715" dx="1.95" dy="0.7" layer="1"/>
-<smd name="2" x="-4.725" y="4.445" dx="1.95" dy="0.7" layer="1"/>
-<smd name="3" x="-4.725" y="3.175" dx="1.95" dy="0.7" layer="1"/>
-<smd name="4" x="-4.725" y="1.905" dx="1.95" dy="0.7" layer="1"/>
-<smd name="5" x="-4.725" y="0.635" dx="1.95" dy="0.7" layer="1"/>
-<smd name="6" x="-4.725" y="-0.635" dx="1.95" dy="0.7" layer="1"/>
-<smd name="7" x="-4.725" y="-1.905" dx="1.95" dy="0.7" layer="1"/>
-<smd name="8" x="-4.725" y="-3.175" dx="1.95" dy="0.7" layer="1"/>
-<smd name="9" x="-4.725" y="-4.445" dx="1.95" dy="0.7" layer="1"/>
-<smd name="10" x="-4.725" y="-5.715" dx="1.95" dy="0.7" layer="1"/>
-<smd name="11" x="4.725" y="-5.715" dx="1.95" dy="0.7" layer="1"/>
-<smd name="12" x="4.725" y="-4.445" dx="1.95" dy="0.7" layer="1"/>
-<smd name="13" x="4.725" y="-3.175" dx="1.95" dy="0.7" layer="1"/>
-<smd name="14" x="4.725" y="-1.905" dx="1.95" dy="0.7" layer="1"/>
-<smd name="15" x="4.725" y="-0.635" dx="1.95" dy="0.7" layer="1"/>
-<smd name="16" x="4.725" y="0.635" dx="1.95" dy="0.7" layer="1"/>
-<smd name="17" x="4.725" y="1.905" dx="1.95" dy="0.7" layer="1"/>
-<smd name="18" x="4.725" y="3.175" dx="1.95" dy="0.7" layer="1"/>
-<smd name="19" x="4.725" y="4.445" dx="1.95" dy="0.7" layer="1"/>
-<smd name="20" x="4.725" y="5.715" dx="1.95" dy="0.7" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-5.95" y1="6.75" x2="5.95" y2="6.75" width="0.05" layer="51"/>
-<wire x1="5.95" y1="6.75" x2="5.95" y2="-6.75" width="0.05" layer="51"/>
-<wire x1="5.95" y1="-6.75" x2="-5.95" y2="-6.75" width="0.05" layer="51"/>
-<wire x1="-5.95" y1="-6.75" x2="-5.95" y2="6.75" width="0.05" layer="51"/>
-<wire x1="-3.75" y1="6.4" x2="3.75" y2="6.4" width="0.1" layer="51"/>
-<wire x1="3.75" y1="6.4" x2="3.75" y2="-6.4" width="0.1" layer="51"/>
-<wire x1="3.75" y1="-6.4" x2="-3.75" y2="-6.4" width="0.1" layer="51"/>
-<wire x1="-3.75" y1="-6.4" x2="-3.75" y2="6.4" width="0.1" layer="51"/>
-<wire x1="-3.75" y1="5.13" x2="-2.48" y2="6.4" width="0.1" layer="51"/>
-<wire x1="-3.4" y1="6.4" x2="3.4" y2="6.4" width="0.2" layer="21"/>
-<wire x1="3.4" y1="6.4" x2="3.4" y2="-6.4" width="0.2" layer="21"/>
-<wire x1="3.4" y1="-6.4" x2="-3.4" y2="-6.4" width="0.2" layer="21"/>
-<wire x1="-3.4" y1="-6.4" x2="-3.4" y2="6.4" width="0.2" layer="21"/>
-<wire x1="-5.7" y1="6.415" x2="-3.75" y2="6.415" width="0.2" layer="21"/>
-</package>
-<package name="QFN50P300X300X80-17N">
-<description>&lt;b&gt;LTC6820IUD#PBF&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.5" y="0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="2" x="-1.5" y="0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="3" x="-1.5" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="4" x="-1.5" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="5" x="-0.75" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="-0.25" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="0.25" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="0.75" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="1.5" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="10" x="1.5" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="11" x="1.5" y="0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="12" x="1.5" y="0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="13" x="0.75" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="0.25" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="15" x="-0.25" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="16" x="-0.75" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="0" y="0" dx="1.75" dy="1.75" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.125" y1="2.125" x2="2.125" y2="2.125" width="0.05" layer="51"/>
-<wire x1="2.125" y1="2.125" x2="2.125" y2="-2.125" width="0.05" layer="51"/>
-<wire x1="2.125" y1="-2.125" x2="-2.125" y2="-2.125" width="0.05" layer="51"/>
-<wire x1="-2.125" y1="-2.125" x2="-2.125" y2="2.125" width="0.05" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="1" x2="-1" y2="1.5" width="0.1" layer="51"/>
-<circle x="-1.9" y="1.5" radius="0.125" width="0.25" layer="25"/>
-</package>
-<package name="SOIC127P600X175-8N">
-<description>&lt;b&gt;8 SO-3&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
-<smd name="2" x="-2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
-<smd name="3" x="-2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
-<smd name="4" x="-2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
-<smd name="5" x="2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
-<smd name="6" x="2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
-<smd name="7" x="2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
-<smd name="8" x="2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.725" y1="2.75" x2="3.725" y2="2.75" width="0.05" layer="51"/>
-<wire x1="3.725" y1="2.75" x2="3.725" y2="-2.75" width="0.05" layer="51"/>
-<wire x1="3.725" y1="-2.75" x2="-3.725" y2="-2.75" width="0.05" layer="51"/>
-<wire x1="-3.725" y1="-2.75" x2="-3.725" y2="2.75" width="0.05" layer="51"/>
-<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
-<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.1" layer="51"/>
-<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="51"/>
-<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
-<wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="2.45" x2="1.6" y2="2.45" width="0.2" layer="21"/>
-<wire x1="1.6" y1="2.45" x2="1.6" y2="-2.45" width="0.2" layer="21"/>
-<wire x1="1.6" y1="-2.45" x2="-1.6" y2="-2.45" width="0.2" layer="21"/>
-<wire x1="-1.6" y1="-2.45" x2="-1.6" y2="2.45" width="0.2" layer="21"/>
-<wire x1="-3.475" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
-</package>
-<package name="SOIC127P600X175-14N">
-<description>&lt;b&gt;D (-R-PDSO-G14)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
-<smd name="2" x="-2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
-<smd name="3" x="-2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
-<smd name="4" x="-2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
-<smd name="5" x="-2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
-<smd name="6" x="-2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
-<smd name="7" x="-2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
-<smd name="8" x="2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
-<smd name="9" x="2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
-<smd name="10" x="2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
-<smd name="11" x="2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
-<smd name="12" x="2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
-<smd name="13" x="2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
-<smd name="14" x="2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.725" y1="4.625" x2="3.725" y2="4.625" width="0.05" layer="51"/>
-<wire x1="3.725" y1="4.625" x2="3.725" y2="-4.625" width="0.05" layer="51"/>
-<wire x1="3.725" y1="-4.625" x2="-3.725" y2="-4.625" width="0.05" layer="51"/>
-<wire x1="-3.725" y1="-4.625" x2="-3.725" y2="4.625" width="0.05" layer="51"/>
-<wire x1="-1.95" y1="4.325" x2="1.95" y2="4.325" width="0.1" layer="51"/>
-<wire x1="1.95" y1="4.325" x2="1.95" y2="-4.325" width="0.1" layer="51"/>
-<wire x1="1.95" y1="-4.325" x2="-1.95" y2="-4.325" width="0.1" layer="51"/>
-<wire x1="-1.95" y1="-4.325" x2="-1.95" y2="4.325" width="0.1" layer="51"/>
-<wire x1="-1.95" y1="3.055" x2="-0.68" y2="4.325" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="4.325" x2="1.6" y2="4.325" width="0.2" layer="21"/>
-<wire x1="1.6" y1="4.325" x2="1.6" y2="-4.325" width="0.2" layer="21"/>
-<wire x1="1.6" y1="-4.325" x2="-1.6" y2="-4.325" width="0.2" layer="21"/>
-<wire x1="-1.6" y1="-4.325" x2="-1.6" y2="4.325" width="0.2" layer="21"/>
-<wire x1="-3.475" y1="4.485" x2="-1.95" y2="4.485" width="0.2" layer="21"/>
-</package>
-<package name="AA3021LSYSKJ3TR">
-<description>&lt;b&gt;AA3021LSYSK/J3-TR-2&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.4" y="0" dx="1.5" dy="1.4" layer="1" rot="R90"/>
-<smd name="2" x="1.4" y="0" dx="1.5" dy="1.4" layer="1" rot="R90"/>
-<text x="-0.25" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.25" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.35" y1="1" x2="1.35" y2="1" width="0.2" layer="51"/>
-<wire x1="1.35" y1="1" x2="1.35" y2="-1" width="0.2" layer="51"/>
-<wire x1="1.35" y1="-1" x2="-1.35" y2="-1" width="0.2" layer="51"/>
-<wire x1="-1.35" y1="-1" x2="-1.35" y2="1" width="0.2" layer="51"/>
-<wire x1="-3.6" y1="2" x2="3.1" y2="2" width="0.1" layer="51"/>
-<wire x1="3.1" y1="2" x2="3.1" y2="-2" width="0.1" layer="51"/>
-<wire x1="3.1" y1="-2" x2="-3.6" y2="-2" width="0.1" layer="51"/>
-<wire x1="-3.6" y1="-2" x2="-3.6" y2="2" width="0.1" layer="51"/>
-<wire x1="-1.35" y1="1" x2="1.35" y2="1" width="0.1" layer="21"/>
-<wire x1="-1.35" y1="-1" x2="1.35" y2="-1" width="0.1" layer="21"/>
-<wire x1="-2.6" y1="0" x2="-2.6" y2="0" width="0.1" layer="21"/>
-<wire x1="-2.6" y1="0" x2="-2.5" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
-<wire x1="-2.5" y1="0" x2="-2.6" y2="0" width="0.1" layer="21" curve="180"/>
-</package>
-<package name="SOT95P280X130-5N">
-<description>&lt;b&gt;SOT-25&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.4" y="0.95" dx="0.9" dy="0.6" layer="1"/>
-<smd name="2" x="-1.4" y="0" dx="0.9" dy="0.6" layer="1"/>
-<smd name="3" x="-1.4" y="-0.95" dx="0.9" dy="0.6" layer="1"/>
-<smd name="4" x="1.4" y="-0.95" dx="0.9" dy="0.6" layer="1"/>
-<smd name="5" x="1.4" y="0.95" dx="0.9" dy="0.6" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.1" y1="1.8" x2="2.1" y2="1.8" width="0.05" layer="51"/>
-<wire x1="2.1" y1="1.8" x2="2.1" y2="-1.8" width="0.05" layer="51"/>
-<wire x1="2.1" y1="-1.8" x2="-2.1" y2="-1.8" width="0.05" layer="51"/>
-<wire x1="-2.1" y1="-1.8" x2="-2.1" y2="1.8" width="0.05" layer="51"/>
-<wire x1="-0.825" y1="1.45" x2="0.825" y2="1.45" width="0.1" layer="51"/>
-<wire x1="0.825" y1="1.45" x2="0.825" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="0.825" y1="-1.45" x2="-0.825" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="-0.825" y1="-1.45" x2="-0.825" y2="1.45" width="0.1" layer="51"/>
-<wire x1="-0.825" y1="0.5" x2="0.125" y2="1.45" width="0.1" layer="51"/>
-<wire x1="-0.6" y1="1.45" x2="0.6" y2="1.45" width="0.2" layer="21"/>
-<wire x1="0.6" y1="1.45" x2="0.6" y2="-1.45" width="0.2" layer="21"/>
-<wire x1="0.6" y1="-1.45" x2="-0.6" y2="-1.45" width="0.2" layer="21"/>
-<wire x1="-0.6" y1="-1.45" x2="-0.6" y2="1.45" width="0.2" layer="21"/>
-<wire x1="-1.85" y1="1.5" x2="-0.95" y2="1.5" width="0.2" layer="21"/>
-</package>
-<package name="TMR67212WIR">
-<description>&lt;b&gt;TMR 6WIR Series, 6 Watt&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="0.76" diameter="1.303"/>
-<pad name="2" x="2.54" y="0" drill="0.76" diameter="1.303"/>
-<pad name="3" x="5.08" y="0" drill="0.76" diameter="1.303"/>
-<pad name="6" x="12.7" y="0" drill="0.76" diameter="1.303"/>
-<pad name="7" x="15.24" y="0" drill="0.76" diameter="1.303"/>
-<pad name="8" x="17.78" y="0" drill="0.76" diameter="1.303"/>
-<pad name="C1" x="3.59" y="-6.175" drill="1.2" diameter="1.8"/>
-<pad name="C2" x="14.19" y="3.425" drill="1.2" diameter="1.8"/>
-<text x="8.65" y="-1.375" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="8.65" y="-1.375" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2" y1="-6.175" x2="19.8" y2="-6.175" width="0.2" layer="51"/>
-<wire x1="19.8" y1="-6.175" x2="19.8" y2="3.425" width="0.2" layer="51"/>
-<wire x1="19.8" y1="3.425" x2="-2" y2="3.425" width="0.2" layer="51"/>
-<wire x1="-2" y1="3.425" x2="-2" y2="-6.175" width="0.2" layer="51"/>
-<wire x1="-3.5" y1="-8.075" x2="20.8" y2="-8.075" width="0.1" layer="51"/>
-<wire x1="20.8" y1="-8.075" x2="20.8" y2="5.325" width="0.1" layer="51"/>
-<wire x1="20.8" y1="5.325" x2="-3.5" y2="5.325" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="5.325" x2="-3.5" y2="-8.075" width="0.1" layer="51"/>
-<wire x1="1.89" y1="-6.175" x2="-2" y2="-6.175" width="0.1" layer="21"/>
-<wire x1="-2" y1="-6.175" x2="-2" y2="3.425" width="0.1" layer="21"/>
-<wire x1="-2" y1="3.425" x2="12.39" y2="3.425" width="0.1" layer="21"/>
-<wire x1="15.89" y1="3.425" x2="18.89" y2="3.425" width="0.1" layer="21"/>
-<wire x1="18.89" y1="3.425" x2="19.8" y2="3.425" width="0.1" layer="21"/>
-<wire x1="19.8" y1="3.425" x2="19.8" y2="-6.175" width="0.1" layer="21"/>
-<wire x1="19.8" y1="-6.175" x2="5.39" y2="-6.175" width="0.1" layer="21"/>
-<wire x1="-2.4" y1="0" x2="-2.4" y2="0" width="0.1" layer="21"/>
-<wire x1="-2.4" y1="0" x2="-2.5" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
-<wire x1="-2.5" y1="0" x2="-2.4" y2="0" width="0.1" layer="21" curve="180"/>
-</package>
 <package name="ERA2AED122X">
 <description>&lt;b&gt;ERA2A_(0402)&lt;/b&gt;&lt;br&gt;
 </description>
@@ -457,22 +104,6 @@ WAGMI
 <wire x1="1.25" y1="0.75" x2="1.25" y2="-0.75" width="0.1" layer="51"/>
 <wire x1="1.25" y1="-0.75" x2="-1.25" y2="-0.75" width="0.1" layer="51"/>
 <wire x1="-1.25" y1="-0.75" x2="-1.25" y2="0.75" width="0.1" layer="51"/>
-</package>
-<package name="RESC1005X35N">
-<description>&lt;b&gt;CPF0402&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.55" y="0" dx="0.7" dy="0.6" layer="1"/>
-<smd name="2" x="0.55" y="0" dx="0.7" dy="0.6" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.15" y1="0.55" x2="1.15" y2="0.55" width="0.05" layer="51"/>
-<wire x1="1.15" y1="0.55" x2="1.15" y2="-0.55" width="0.05" layer="51"/>
-<wire x1="1.15" y1="-0.55" x2="-1.15" y2="-0.55" width="0.05" layer="51"/>
-<wire x1="-1.15" y1="-0.55" x2="-1.15" y2="0.55" width="0.05" layer="51"/>
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
-<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
 </package>
 <package name="ERJ2R_(0402)">
 <description>&lt;b&gt;ERJ2R_(0402)&lt;/b&gt;&lt;br&gt;
@@ -520,21 +151,21 @@ WAGMI
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="CAPC1608X90N" urn="urn:adsk.eagle:footprint:34729051/1" library_version="3">
-<description>&lt;b&gt;0603 (1608 metric)&lt;/b&gt;&lt;br&gt;
+<package name="CAPC1608X90N" urn="urn:adsk.eagle:footprint:35131687/1" library_version="24">
+<description>&lt;b&gt;0603-1&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-0.67" y="0" dx="0.94" dy="0.81" layer="1" rot="R90"/>
-<smd name="2" x="0.67" y="0" dx="0.94" dy="0.81" layer="1" rot="R90"/>
+<smd name="1" x="-0.7" y="0" dx="0.99" dy="0.78" layer="1" rot="R90"/>
+<smd name="2" x="0.7" y="0" dx="0.99" dy="0.78" layer="1" rot="R90"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.225" y1="0.62" x2="1.225" y2="0.62" width="0.05" layer="51"/>
-<wire x1="1.225" y1="0.62" x2="1.225" y2="-0.62" width="0.05" layer="51"/>
-<wire x1="1.225" y1="-0.62" x2="-1.225" y2="-0.62" width="0.05" layer="51"/>
-<wire x1="-1.225" y1="-0.62" x2="-1.225" y2="0.62" width="0.05" layer="51"/>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-1.24" y1="0.65" x2="1.24" y2="0.65" width="0.05" layer="51"/>
+<wire x1="1.24" y1="0.65" x2="1.24" y2="-0.65" width="0.05" layer="51"/>
+<wire x1="1.24" y1="-0.65" x2="-1.24" y2="-0.65" width="0.05" layer="51"/>
+<wire x1="-1.24" y1="-0.65" x2="-1.24" y2="0.65" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.405" x2="0.8" y2="0.405" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.405" x2="0.8" y2="-0.405" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.405" x2="-0.8" y2="-0.405" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.405" x2="-0.8" y2="0.405" width="0.1" layer="51"/>
 </package>
 <package name="SOD123W" urn="urn:adsk.eagle:footprint:34729044/1" library_version="3">
 <description>&lt;b&gt;SOD123W&lt;/b&gt;&lt;br&gt;
@@ -551,7 +182,7 @@ WAGMI
 <wire x1="1.3" y1="-0.85" x2="-1.3" y2="-0.85" width="0.2" layer="21"/>
 <circle x="-2.205" y="0.041" radius="0.048" width="0.2" layer="25"/>
 </package>
-<package name="ERA2AED122X" urn="urn:adsk.eagle:footprint:34729037/1" library_version="3">
+<package name="ERA2AED122X" urn="urn:adsk.eagle:footprint:34729037/1" library_version="24">
 <description>&lt;b&gt;ERA2A_(0402)&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-0.512" y="0" dx="0.5" dy="0.475" layer="1" rot="R90"/>
@@ -586,33 +217,415 @@ WAGMI
 <package name="THROUGH_HOLE" library_version="3" library_locally_modified="yes">
 <pad name="THROUGH_HOLE" x="0" y="0" locked="yes" drill="3.048" diameter="6.35"/>
 </package>
+<package name="SOP65P640X120-16N" urn="urn:adsk.eagle:footprint:34729042/1" library_version="24">
+<description>&lt;b&gt;TSSOP 16 Lead&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.962" y="2.275" dx="1.525" dy="0.45" layer="1"/>
+<smd name="2" x="-2.962" y="1.625" dx="1.525" dy="0.45" layer="1"/>
+<smd name="3" x="-2.962" y="0.975" dx="1.525" dy="0.45" layer="1"/>
+<smd name="4" x="-2.962" y="0.325" dx="1.525" dy="0.45" layer="1"/>
+<smd name="5" x="-2.962" y="-0.325" dx="1.525" dy="0.45" layer="1"/>
+<smd name="6" x="-2.962" y="-0.975" dx="1.525" dy="0.45" layer="1"/>
+<smd name="7" x="-2.962" y="-1.625" dx="1.525" dy="0.45" layer="1"/>
+<smd name="8" x="-2.962" y="-2.275" dx="1.525" dy="0.45" layer="1"/>
+<smd name="9" x="2.962" y="-2.275" dx="1.525" dy="0.45" layer="1"/>
+<smd name="10" x="2.962" y="-1.625" dx="1.525" dy="0.45" layer="1"/>
+<smd name="11" x="2.962" y="-0.975" dx="1.525" dy="0.45" layer="1"/>
+<smd name="12" x="2.962" y="-0.325" dx="1.525" dy="0.45" layer="1"/>
+<smd name="13" x="2.962" y="0.325" dx="1.525" dy="0.45" layer="1"/>
+<smd name="14" x="2.962" y="0.975" dx="1.525" dy="0.45" layer="1"/>
+<smd name="15" x="2.962" y="1.625" dx="1.525" dy="0.45" layer="1"/>
+<smd name="16" x="2.962" y="2.275" dx="1.525" dy="0.45" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.975" y1="2.8" x2="3.975" y2="2.8" width="0.05" layer="51"/>
+<wire x1="3.975" y1="2.8" x2="3.975" y2="-2.8" width="0.05" layer="51"/>
+<wire x1="3.975" y1="-2.8" x2="-3.975" y2="-2.8" width="0.05" layer="51"/>
+<wire x1="-3.975" y1="-2.8" x2="-3.975" y2="2.8" width="0.05" layer="51"/>
+<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="2.2" y1="-2.5" x2="-2.2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="-2.5" x2="-2.2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="1.85" x2="-1.55" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="2.5" x2="1.85" y2="2.5" width="0.2" layer="21"/>
+<wire x1="1.85" y1="2.5" x2="1.85" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="1.85" y1="-2.5" x2="-1.85" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="-2.5" x2="-1.85" y2="2.5" width="0.2" layer="21"/>
+<wire x1="-3.725" y1="2.85" x2="-2.2" y2="2.85" width="0.2" layer="21"/>
+</package>
+<package name="SOIC127P600X175-14N" urn="urn:adsk.eagle:footprint:34729040/1" library_version="24">
+<description>&lt;b&gt;D (-R-PDSO-G14)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="2" x="-2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="3" x="-2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="4" x="-2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
+<smd name="5" x="-2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="6" x="-2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="7" x="-2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="8" x="2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="9" x="2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="10" x="2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="11" x="2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
+<smd name="12" x="2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="13" x="2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="14" x="2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="4.625" x2="3.725" y2="4.625" width="0.05" layer="51"/>
+<wire x1="3.725" y1="4.625" x2="3.725" y2="-4.625" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-4.625" x2="-3.725" y2="-4.625" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-4.625" x2="-3.725" y2="4.625" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="4.325" x2="1.95" y2="4.325" width="0.1" layer="51"/>
+<wire x1="1.95" y1="4.325" x2="1.95" y2="-4.325" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-4.325" x2="-1.95" y2="-4.325" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-4.325" x2="-1.95" y2="4.325" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="3.055" x2="-0.68" y2="4.325" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="4.325" x2="1.6" y2="4.325" width="0.2" layer="21"/>
+<wire x1="1.6" y1="4.325" x2="1.6" y2="-4.325" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-4.325" x2="-1.6" y2="-4.325" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-4.325" x2="-1.6" y2="4.325" width="0.2" layer="21"/>
+<wire x1="-3.475" y1="4.485" x2="-1.95" y2="4.485" width="0.2" layer="21"/>
+</package>
+<package name="SOIC127P1032X265-20N" urn="urn:adsk.eagle:footprint:34729041/1" library_version="24">
+<description>&lt;b&gt;SO20&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-4.725" y="5.715" dx="1.95" dy="0.7" layer="1"/>
+<smd name="2" x="-4.725" y="4.445" dx="1.95" dy="0.7" layer="1"/>
+<smd name="3" x="-4.725" y="3.175" dx="1.95" dy="0.7" layer="1"/>
+<smd name="4" x="-4.725" y="1.905" dx="1.95" dy="0.7" layer="1"/>
+<smd name="5" x="-4.725" y="0.635" dx="1.95" dy="0.7" layer="1"/>
+<smd name="6" x="-4.725" y="-0.635" dx="1.95" dy="0.7" layer="1"/>
+<smd name="7" x="-4.725" y="-1.905" dx="1.95" dy="0.7" layer="1"/>
+<smd name="8" x="-4.725" y="-3.175" dx="1.95" dy="0.7" layer="1"/>
+<smd name="9" x="-4.725" y="-4.445" dx="1.95" dy="0.7" layer="1"/>
+<smd name="10" x="-4.725" y="-5.715" dx="1.95" dy="0.7" layer="1"/>
+<smd name="11" x="4.725" y="-5.715" dx="1.95" dy="0.7" layer="1"/>
+<smd name="12" x="4.725" y="-4.445" dx="1.95" dy="0.7" layer="1"/>
+<smd name="13" x="4.725" y="-3.175" dx="1.95" dy="0.7" layer="1"/>
+<smd name="14" x="4.725" y="-1.905" dx="1.95" dy="0.7" layer="1"/>
+<smd name="15" x="4.725" y="-0.635" dx="1.95" dy="0.7" layer="1"/>
+<smd name="16" x="4.725" y="0.635" dx="1.95" dy="0.7" layer="1"/>
+<smd name="17" x="4.725" y="1.905" dx="1.95" dy="0.7" layer="1"/>
+<smd name="18" x="4.725" y="3.175" dx="1.95" dy="0.7" layer="1"/>
+<smd name="19" x="4.725" y="4.445" dx="1.95" dy="0.7" layer="1"/>
+<smd name="20" x="4.725" y="5.715" dx="1.95" dy="0.7" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-5.95" y1="6.75" x2="5.95" y2="6.75" width="0.05" layer="51"/>
+<wire x1="5.95" y1="6.75" x2="5.95" y2="-6.75" width="0.05" layer="51"/>
+<wire x1="5.95" y1="-6.75" x2="-5.95" y2="-6.75" width="0.05" layer="51"/>
+<wire x1="-5.95" y1="-6.75" x2="-5.95" y2="6.75" width="0.05" layer="51"/>
+<wire x1="-3.75" y1="6.4" x2="3.75" y2="6.4" width="0.1" layer="51"/>
+<wire x1="3.75" y1="6.4" x2="3.75" y2="-6.4" width="0.1" layer="51"/>
+<wire x1="3.75" y1="-6.4" x2="-3.75" y2="-6.4" width="0.1" layer="51"/>
+<wire x1="-3.75" y1="-6.4" x2="-3.75" y2="6.4" width="0.1" layer="51"/>
+<wire x1="-3.75" y1="5.13" x2="-2.48" y2="6.4" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="6.4" x2="3.4" y2="6.4" width="0.2" layer="21"/>
+<wire x1="3.4" y1="6.4" x2="3.4" y2="-6.4" width="0.2" layer="21"/>
+<wire x1="3.4" y1="-6.4" x2="-3.4" y2="-6.4" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-6.4" x2="-3.4" y2="6.4" width="0.2" layer="21"/>
+<wire x1="-5.7" y1="6.415" x2="-3.75" y2="6.415" width="0.2" layer="21"/>
+</package>
+<package name="TMR67212WIR" urn="urn:adsk.eagle:footprint:34729043/1" library_version="24">
+<description>&lt;b&gt;TMR 6WIR Series, 6 Watt&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.76" diameter="1.303"/>
+<pad name="2" x="2.54" y="0" drill="0.76" diameter="1.303"/>
+<pad name="3" x="5.08" y="0" drill="0.76" diameter="1.303"/>
+<pad name="6" x="12.7" y="0" drill="0.76" diameter="1.303"/>
+<pad name="7" x="15.24" y="0" drill="0.76" diameter="1.303"/>
+<pad name="8" x="17.78" y="0" drill="0.76" diameter="1.303"/>
+<pad name="C1" x="3.59" y="-6.175" drill="1.2" diameter="1.8"/>
+<pad name="C2" x="14.19" y="3.425" drill="1.2" diameter="1.8"/>
+<text x="8.65" y="-1.375" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="8.65" y="-1.375" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2" y1="-6.175" x2="19.8" y2="-6.175" width="0.2" layer="51"/>
+<wire x1="19.8" y1="-6.175" x2="19.8" y2="3.425" width="0.2" layer="51"/>
+<wire x1="19.8" y1="3.425" x2="-2" y2="3.425" width="0.2" layer="51"/>
+<wire x1="-2" y1="3.425" x2="-2" y2="-6.175" width="0.2" layer="51"/>
+<wire x1="-3.5" y1="-8.075" x2="20.8" y2="-8.075" width="0.1" layer="51"/>
+<wire x1="20.8" y1="-8.075" x2="20.8" y2="5.325" width="0.1" layer="51"/>
+<wire x1="20.8" y1="5.325" x2="-3.5" y2="5.325" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="5.325" x2="-3.5" y2="-8.075" width="0.1" layer="51"/>
+<wire x1="1.89" y1="-6.175" x2="-2" y2="-6.175" width="0.1" layer="21"/>
+<wire x1="-2" y1="-6.175" x2="-2" y2="3.425" width="0.1" layer="21"/>
+<wire x1="-2" y1="3.425" x2="12.39" y2="3.425" width="0.1" layer="21"/>
+<wire x1="15.89" y1="3.425" x2="18.89" y2="3.425" width="0.1" layer="21"/>
+<wire x1="18.89" y1="3.425" x2="19.8" y2="3.425" width="0.1" layer="21"/>
+<wire x1="19.8" y1="3.425" x2="19.8" y2="-6.175" width="0.1" layer="21"/>
+<wire x1="19.8" y1="-6.175" x2="5.39" y2="-6.175" width="0.1" layer="21"/>
+<wire x1="-2.4" y1="0" x2="-2.4" y2="0" width="0.1" layer="21"/>
+<wire x1="-2.4" y1="0" x2="-2.5" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="0" x2="-2.4" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
+<package name="SOT230P700X180-4N" urn="urn:adsk.eagle:footprint:34729036/1" library_version="24">
+<description>&lt;b&gt;SOT223-3&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.6" y="2.3" dx="2.75" dy="0.95" layer="1"/>
+<smd name="2" x="-2.6" y="0" dx="2.75" dy="0.95" layer="1"/>
+<smd name="3" x="-2.6" y="-2.3" dx="2.75" dy="0.95" layer="1"/>
+<smd name="4" x="2.6" y="0" dx="3.25" dy="2.75" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.225" y1="3.6" x2="4.225" y2="3.6" width="0.05" layer="51"/>
+<wire x1="4.225" y1="3.6" x2="4.225" y2="-3.6" width="0.05" layer="51"/>
+<wire x1="4.225" y1="-3.6" x2="-4.225" y2="-3.6" width="0.05" layer="51"/>
+<wire x1="-4.225" y1="-3.6" x2="-4.225" y2="3.6" width="0.05" layer="51"/>
+<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="0.95" x2="0.55" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-0.875" y1="3.25" x2="0.875" y2="3.25" width="0.2" layer="21"/>
+<wire x1="0.875" y1="3.25" x2="0.875" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="0.875" y1="-3.25" x2="-0.875" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="-0.875" y1="-3.25" x2="-0.875" y2="3.25" width="0.2" layer="21"/>
+<wire x1="-3.975" y1="3.125" x2="-1.225" y2="3.125" width="0.2" layer="21"/>
+</package>
+<package name="SOT95P280X130-5N" urn="urn:adsk.eagle:footprint:34729035/1" library_version="24">
+<description>&lt;b&gt;SOT-25&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.4" y="0.95" dx="0.9" dy="0.6" layer="1"/>
+<smd name="2" x="-1.4" y="0" dx="0.9" dy="0.6" layer="1"/>
+<smd name="3" x="-1.4" y="-0.95" dx="0.9" dy="0.6" layer="1"/>
+<smd name="4" x="1.4" y="-0.95" dx="0.9" dy="0.6" layer="1"/>
+<smd name="5" x="1.4" y="0.95" dx="0.9" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.1" y1="1.8" x2="2.1" y2="1.8" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.8" x2="2.1" y2="-1.8" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.8" x2="-2.1" y2="-1.8" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.8" x2="-2.1" y2="1.8" width="0.05" layer="51"/>
+<wire x1="-0.825" y1="1.45" x2="0.825" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.825" y1="1.45" x2="0.825" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.825" y1="-1.45" x2="-0.825" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.825" y1="-1.45" x2="-0.825" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.825" y1="0.5" x2="0.125" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.6" y1="1.45" x2="0.6" y2="1.45" width="0.2" layer="21"/>
+<wire x1="0.6" y1="1.45" x2="0.6" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="0.6" y1="-1.45" x2="-0.6" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.6" y1="-1.45" x2="-0.6" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="1.5" x2="-0.95" y2="1.5" width="0.2" layer="21"/>
+</package>
+<package name="SOIC127P600X175-8N" urn="urn:adsk.eagle:footprint:34729046/1" library_version="24">
+<description>&lt;b&gt;8 SO-3&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="2" x="-2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="3" x="-2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="4" x="-2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="5" x="2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="6" x="2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="7" x="2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="8" x="2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="2.75" x2="3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="2.75" x2="3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-2.75" x2="-3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-2.75" x2="-3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="2.45" x2="1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="2.45" x2="1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-2.45" x2="-1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-2.45" x2="-1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="-3.475" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
+</package>
+<package name="QFN50P300X300X80-17N" urn="urn:adsk.eagle:footprint:34729034/1" library_version="24">
+<description>&lt;b&gt;LTC6820IUD#PBF&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.5" y="0.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="2" x="-1.5" y="0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="3" x="-1.5" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="4" x="-1.5" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="5" x="-0.75" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-0.25" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="0.25" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="0.75" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="1.5" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="10" x="1.5" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="11" x="1.5" y="0.25" dx="0.8" dy="0.3" layer="1"/>
+<smd name="12" x="1.5" y="0.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="13" x="0.75" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="0.25" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="-0.25" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="-0.75" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="0" y="0" dx="1.75" dy="1.75" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.125" y1="2.125" x2="2.125" y2="2.125" width="0.05" layer="51"/>
+<wire x1="2.125" y1="2.125" x2="2.125" y2="-2.125" width="0.05" layer="51"/>
+<wire x1="2.125" y1="-2.125" x2="-2.125" y2="-2.125" width="0.05" layer="51"/>
+<wire x1="-2.125" y1="-2.125" x2="-2.125" y2="2.125" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="1" x2="-1" y2="1.5" width="0.1" layer="51"/>
+<circle x="-1.9" y="1.5" radius="0.125" width="0.25" layer="25"/>
+</package>
+<package name="CAPC1005X55N" urn="urn:adsk.eagle:footprint:34729031/1" library_version="24">
+<description>&lt;b&gt;0402 (1005 metric)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.44" y="0" dx="0.65" dy="0.62" layer="1"/>
+<smd name="2" x="0.44" y="0" dx="0.65" dy="0.62" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.915" y1="0.46" x2="0.915" y2="0.46" width="0.05" layer="51"/>
+<wire x1="0.915" y1="0.46" x2="0.915" y2="-0.46" width="0.05" layer="51"/>
+<wire x1="0.915" y1="-0.46" x2="-0.915" y2="-0.46" width="0.05" layer="51"/>
+<wire x1="-0.915" y1="-0.46" x2="-0.915" y2="0.46" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+</package>
+<package name="RESC1005X35N" urn="urn:adsk.eagle:footprint:34729032/1" library_version="24">
+<description>&lt;b&gt;CPF0402&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.55" y="0" dx="0.7" dy="0.6" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.7" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.15" y1="0.55" x2="1.15" y2="0.55" width="0.05" layer="51"/>
+<wire x1="1.15" y1="0.55" x2="1.15" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="1.15" y1="-0.55" x2="-1.15" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="-1.15" y1="-0.55" x2="-1.15" y2="0.55" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+</package>
+<package name="AA3021LSYSKJ3TR" urn="urn:adsk.eagle:footprint:35131692/1" library_version="24">
+<description>&lt;b&gt;AA3021LSYSK/J3-TR-2&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.4" y="0" dx="1.5" dy="1.4" layer="1" rot="R90"/>
+<smd name="2" x="1.4" y="0" dx="1.5" dy="1.4" layer="1" rot="R90"/>
+<text x="-0.25" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.25" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.35" y1="1" x2="1.35" y2="1" width="0.2" layer="51"/>
+<wire x1="1.35" y1="1" x2="1.35" y2="-1" width="0.2" layer="51"/>
+<wire x1="1.35" y1="-1" x2="-1.35" y2="-1" width="0.2" layer="51"/>
+<wire x1="-1.35" y1="-1" x2="-1.35" y2="1" width="0.2" layer="51"/>
+<wire x1="-3.6" y1="2" x2="3.1" y2="2" width="0.1" layer="51"/>
+<wire x1="3.1" y1="2" x2="3.1" y2="-2" width="0.1" layer="51"/>
+<wire x1="3.1" y1="-2" x2="-3.6" y2="-2" width="0.1" layer="51"/>
+<wire x1="-3.6" y1="-2" x2="-3.6" y2="2" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="1" x2="1.35" y2="1" width="0.1" layer="21"/>
+<wire x1="-1.35" y1="-1" x2="1.35" y2="-1" width="0.1" layer="21"/>
+<wire x1="-2.6" y1="0" x2="-2.6" y2="0" width="0.1" layer="21"/>
+<wire x1="-2.6" y1="0" x2="-2.5" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-2.5" y1="0" x2="-2.5" y2="0" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="0" x2="-2.6" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="CAPC1608X90N" urn="urn:adsk.eagle:package:34729062/1" type="box" library_version="3">
-<description>&lt;b&gt;0603 (1608 metric)&lt;/b&gt;&lt;br&gt;
-</description>
+<package3d name="CAPC1608X90N" urn="urn:adsk.eagle:package:34729062/3" type="model" library_version="24">
+<description>&lt;b&gt;0603-1&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="CAPC1608X90N"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD123W" urn="urn:adsk.eagle:package:34729069/1" type="box" library_version="3">
+<package3d name="SOD123W" urn="urn:adsk.eagle:package:34729069/2" type="model" library_version="24" library_locally_modified="yes">
 <description>&lt;b&gt;SOD123W&lt;/b&gt;&lt;br&gt;
 </description>
 <packageinstances>
 <packageinstance name="SOD123W"/>
 </packageinstances>
 </package3d>
-<package3d name="ERA2AED122X" urn="urn:adsk.eagle:package:34729076/1" type="box" library_version="3">
+<package3d name="ERA2AED122X" urn="urn:adsk.eagle:package:34729076/2" type="model" library_version="24">
 <description>&lt;b&gt;ERA2A_(0402)&lt;/b&gt;&lt;br&gt;
 </description>
 <packageinstances>
 <packageinstance name="ERA2AED122X"/>
 </packageinstances>
 </package3d>
-<package3d name="RESC1005X40N" urn="urn:adsk.eagle:package:34729065/2" type="box" library_version="3">
+<package3d name="RESC1005X40N" urn="urn:adsk.eagle:package:34729065/3" type="model" library_version="24">
 <description>&lt;b&gt;RC0402&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="RESC1005X40N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP65P640X120-16N" urn="urn:adsk.eagle:package:34729071/2" type="model" library_version="24">
+<description>&lt;b&gt;TSSOP 16 Lead&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="SOP65P640X120-16N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P600X175-14N" urn="urn:adsk.eagle:package:34729073/2" type="model" library_version="24">
+<description>&lt;b&gt;D (-R-PDSO-G14)&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X175-14N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P1032X265-20N" urn="urn:adsk.eagle:package:34729072/2" type="model" library_version="24">
+<description>&lt;b&gt;SO20&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="SOIC127P1032X265-20N"/>
+</packageinstances>
+</package3d>
+<package3d name="TMR67212WIR" urn="urn:adsk.eagle:package:34729070/2" type="model" library_version="24">
+<description>&lt;b&gt;TMR 6WIR Series, 6 Watt&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="TMR67212WIR"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT230P700X180-4N" urn="urn:adsk.eagle:package:34729077/2" type="model" library_version="24">
+<description>&lt;b&gt;SOT223-3&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="SOT230P700X180-4N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P280X130-5N" urn="urn:adsk.eagle:package:34729078/2" type="model" library_version="24">
+<description>&lt;b&gt;SOT-25&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="SOT95P280X130-5N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P600X175-8N" urn="urn:adsk.eagle:package:34729067/2" type="model" library_version="24">
+<description>&lt;b&gt;8 SO-3&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X175-8N"/>
+</packageinstances>
+</package3d>
+<package3d name="QFN50P300X300X80-17N" urn="urn:adsk.eagle:package:34729079/2" type="model" library_version="24">
+<description>&lt;b&gt;LTC6820IUD#PBF&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="QFN50P300X300X80-17N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC1005X55N" urn="urn:adsk.eagle:package:34729082/2" type="model" library_version="24">
+<description>&lt;b&gt;0402 (1005 metric)&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="CAPC1005X55N"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1005X35N" urn="urn:adsk.eagle:package:34729081/2" type="model" library_version="24">
+<description>&lt;b&gt;CPF0402&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="RESC1005X35N"/>
+</packageinstances>
+</package3d>
+<package3d name="AA3021LSYSKJ3TR" urn="urn:adsk.eagle:package:35131693/2" type="model" library_version="24">
+<description>&lt;b&gt;AA3021LSYSK/J3-TR-2&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="AA3021LSYSKJ3TR"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -882,9 +895,25 @@ WAGMI
 <wire x1="2.3" y1="0" x2="2.3" y2="0" width="0.2" layer="21"/>
 <wire x1="2.3" y1="0" x2="2.3" y2="0.2" width="0.2" layer="21" curve="180"/>
 </package>
+<package name="RESC1005X40N" urn="urn:adsk.eagle:footprint:34732737/1" library_version="112">
+<description>&lt;b&gt;CRCW0402&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.175" y1="0.55" x2="1.175" y2="0.55" width="0.05" layer="51"/>
+<wire x1="1.175" y1="0.55" x2="1.175" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="1.175" y1="-0.55" x2="-1.175" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="-1.175" y1="-0.55" x2="-1.175" y2="0.55" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="APT1608CGCK" urn="urn:adsk.eagle:package:34597165/1" type="box" library_version="96">
+<package3d name="APT1608CGCK" urn="urn:adsk.eagle:package:34597165/2" type="model" library_version="137">
 <description>&lt;b&gt;1.6 x 0.8 mm SMD Chip LED Lamp&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="APT1608CGCK"/>
@@ -896,25 +925,13 @@ WAGMI
 <packageinstance name="S175146R"/>
 </packageinstances>
 </package3d>
+<package3d name="RESC1005X40N" urn="urn:adsk.eagle:package:31696460/9" type="model" library_version="112">
+<description>&lt;b&gt;CRCW0402&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1005X40N"/>
+</packageinstances>
+</package3d>
 </packages3d>
-</library>
-<library name="TNPW0402100RBYEP">
-<packages>
-<package name="RESC1005X40N">
-<text x="-0.95" y="-0.63" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-0.95" y="0.63" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="0.53" y1="-0.28" x2="-0.53" y2="-0.28" width="0.127" layer="51"/>
-<wire x1="0.53" y1="0.28" x2="-0.53" y2="0.28" width="0.127" layer="51"/>
-<wire x1="0.53" y1="-0.28" x2="0.53" y2="0.28" width="0.127" layer="51"/>
-<wire x1="-0.53" y1="-0.28" x2="-0.53" y2="0.28" width="0.127" layer="51"/>
-<wire x1="-0.95" y1="-0.55" x2="0.95" y2="-0.55" width="0.05" layer="39"/>
-<wire x1="-0.95" y1="0.55" x2="0.95" y2="0.55" width="0.05" layer="39"/>
-<wire x1="-0.95" y1="-0.55" x2="-0.95" y2="0.55" width="0.05" layer="39"/>
-<wire x1="0.95" y1="-0.55" x2="0.95" y2="0.55" width="0.05" layer="39"/>
-<smd name="1" x="-0.457" y="0" dx="0.49" dy="0.6" layer="1"/>
-<smd name="2" x="0.457" y="0" dx="0.49" dy="0.6" layer="1"/>
-</package>
-</packages>
 </library>
 </libraries>
 <attributes>
@@ -1109,7 +1126,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="R5" library="SamacSys_Parts" package="RESC1005X40N" value="3.3K" x="28.194" y="53.34" smashed="yes" rot="MR90">
+<element name="R5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:34729065/3" value="3.3K" x="28.194" y="53.34" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 3.3K ohm 5% 50V General Purpose" x="-77.216" y="74.93" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-77.216" y="74.93" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-77.216" y="74.93" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1119,7 +1136,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="29.1846" y="53.2892" size="0.6096" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="28.194" y="53.34" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="C1" library="SamacSys_Parts" package="CAPC1608X90N@1" value="0.1uF" x="32.893" y="58.039" smashed="yes" rot="MR270">
+<element name="C1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="CAPC1608X90N" package3d_urn="urn:adsk.eagle:package:34729062/3" value="0.1uF" x="32.893" y="58.039" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=0.1uF, LxWxT:1.6x0.8x0.8mm" x="145.923" y="-48.641" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="145.923" y="-48.641" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" x="145.923" y="-48.641" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1129,7 +1146,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.877" y="58.039" size="0.6096" layer="26" rot="MR270" align="center"/>
 <attribute name="VALUE" x="32.893" y="58.039" size="1.27" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="C10" library="SamacSys_Parts" package="CAPC1608X90N" value="27pF" x="21.2598" y="74.93" smashed="yes" rot="MR270">
+<element name="C10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="CAPC1608X90N" package3d_urn="urn:adsk.eagle:package:34729062/3" value="27pF" x="21.2598" y="74.93" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Capacitor, 0603 27PF  +/-5% 50V" x="136.8298" y="34.29" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="136.8298" y="34.29" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="AVX" x="136.8298" y="34.29" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1139,7 +1156,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.5298" y="74.93" size="0.6096" layer="26" rot="MR270" align="center"/>
 <attribute name="VALUE" x="21.2598" y="74.93" size="1.27" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="C2" library="SamacSys_Parts" package="CAPC1608X90N@1" value="1uF" x="44.45" y="46.863" smashed="yes" rot="MR90">
+<element name="C2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="CAPC1608X90N" package3d_urn="urn:adsk.eagle:package:34729062/3" value="1uF" x="44.45" y="46.863" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 1uF 35volts X7R 10% T=0.8mm" x="-71.12" y="107.823" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="-71.12" y="107.823" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" x="-71.12" y="107.823" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1149,7 +1166,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="45.72" y="46.863" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="44.45" y="46.863" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="C3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="CAPC1608X90N" package3d_urn="urn:adsk.eagle:package:34729062/1" value="4.7uF" x="46.609" y="74.422" smashed="yes" rot="MR0">
+<element name="C3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="CAPC1608X90N" package3d_urn="urn:adsk.eagle:package:34729062/3" value="4.7uF" x="46.609" y="74.422" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Taiyo Yuden JMK107BB7475KA-T 4.7F MLCC 6.3V dc +/-10% Tolerance SMD" x="30.099" y="-41.148" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="30.099" y="-41.148" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TAIYO YUDEN" x="30.099" y="-41.148" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1159,7 +1176,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="46.609" y="73.279" size="0.6096" layer="26" rot="MR0" align="center"/>
 <attribute name="VALUE" x="46.609" y="74.422" size="1.27" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="C4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="CAPC1608X90N" package3d_urn="urn:adsk.eagle:package:34729062/1" value="4.7uF" x="50.419" y="74.422" smashed="yes" rot="MR180">
+<element name="C4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="CAPC1608X90N" package3d_urn="urn:adsk.eagle:package:34729062/3" value="4.7uF" x="50.419" y="74.422" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Taiyo Yuden JMK107BB7475KA-T 4.7F MLCC 6.3V dc +/-10% Tolerance SMD" x="73.279" y="189.992" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="73.279" y="189.992" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TAIYO YUDEN" x="73.279" y="189.992" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1169,7 +1186,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="50.419" y="73.279" size="0.6096" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="50.419" y="74.422" size="1.27" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C5" library="SamacSys_Parts" package="CAPC1608X90N@1" value="1uF" x="47.244" y="46.863" smashed="yes" rot="MR270">
+<element name="C5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="CAPC1608X90N" package3d_urn="urn:adsk.eagle:package:34729062/3" value="1uF" x="47.244" y="46.863" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 1uF 35volts X7R 10% T=0.8mm" x="162.814" y="-19.177" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="162.814" y="-19.177" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" x="162.814" y="-19.177" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1179,7 +1196,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="45.974" y="46.863" size="0.6096" layer="26" rot="MR270" align="center"/>
 <attribute name="VALUE" x="47.244" y="46.863" size="1.27" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="C6" library="SamacSys_Parts" package="CAPC1608X90N@1" value="1uF" x="26.797" y="48.641" smashed="yes" rot="MR90">
+<element name="C6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="CAPC1608X90N" package3d_urn="urn:adsk.eagle:package:34729062/3" value="1uF" x="26.797" y="48.641" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 1uF 35volts X7R 10% T=0.8mm" x="-88.773" y="119.761" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="-88.773" y="119.761" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" x="-88.773" y="119.761" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1189,7 +1206,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.654" y="48.641" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="26.797" y="48.641" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="C7" library="SamacSys_Parts" package="CAPC1608X90N@1" value="4.7uF" x="26.797" y="46.101" smashed="yes" rot="MR90">
+<element name="C7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="CAPC1608X90N" package3d_urn="urn:adsk.eagle:package:34729062/3" value="4.7uF" x="26.797" y="46.101" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Taiyo Yuden JMK107BB7475KA-T 4.7F MLCC 6.3V dc +/-10% Tolerance SMD" x="-88.773" y="75.311" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="-88.773" y="75.311" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TAIYO YUDEN" x="-88.773" y="75.311" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1199,7 +1216,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.654" y="46.101" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="26.797" y="46.101" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="C8" library="SamacSys_Parts" package="CAPC1005X55N" value="0.01uF" x="25.527" y="56.515" smashed="yes" rot="MR180">
+<element name="C8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="CAPC1005X55N" package3d_urn="urn:adsk.eagle:package:34729082/2" value="0.01uF" x="25.527" y="56.515" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.01uF X7R 0402 5% AEC-Q200" x="119.507" y="169.545" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.55mm" x="119.507" y="169.545" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kemet" x="119.507" y="169.545" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1209,7 +1226,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.527" y="55.626" size="0.6096" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="25.527" y="56.515" size="1.27" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="C9" library="SamacSys_Parts" package="CAPC1608X90N" value="27pF" x="21.2598" y="68.961" smashed="yes" rot="MR270">
+<element name="C9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="CAPC1608X90N" package3d_urn="urn:adsk.eagle:package:34729062/3" value="27pF" x="21.2598" y="68.961" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Capacitor, 0603 27PF  +/-5% 50V" x="136.8298" y="33.401" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="0.9mm" x="136.8298" y="33.401" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="AVX" x="136.8298" y="33.401" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1219,7 +1236,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.5298" y="68.961" size="0.6096" layer="26" rot="MR270" align="center"/>
 <attribute name="VALUE" x="21.2598" y="68.961" size="1.27" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="D1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/1" value="PTVS12VS1UR,115" x="14.4526" y="82.55" smashed="yes" rot="R180">
+<element name="D1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="14.4526" y="82.55" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-7.1374" y="177.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-7.1374" y="177.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="-7.1374" y="177.8" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1229,7 +1246,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.7066" y="81.143" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="14.7066" y="82.56" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="D10" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="3.302" y="69.723" smashed="yes" rot="R180">
+<element name="D10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="3.302" y="69.723" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-89.408" y="167.513" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-89.408" y="167.513" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="-89.408" y="167.513" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1239,7 +1256,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.35" y="70.495" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="3.556" y="69.733" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="D11" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="3.302" y="47.879" smashed="yes" rot="R180">
+<element name="D11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="3.302" y="47.879" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-18.288" y="148.209" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-18.288" y="148.209" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="-18.288" y="148.209" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1249,7 +1266,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.35" y="48.651" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="3.556" y="47.889" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="D12" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="64.389" y="91.313" smashed="yes">
+<element name="D12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="64.389" y="91.313" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="103.759" y="-9.017" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="103.759" y="-9.017" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="103.759" y="-9.017" size="1.778" layer="27" display="off"/>
@@ -1259,7 +1276,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="61.0108" y="90.3124" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="64.135" y="91.303" size="1.27" layer="27" align="center"/>
 </element>
-<element name="D13" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="64.389" y="48.387" smashed="yes">
+<element name="D13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="64.389" y="48.387" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="121.539" y="-51.943" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="121.539" y="-51.943" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="121.539" y="-51.943" size="1.778" layer="27" display="off"/>
@@ -1269,7 +1286,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="61.0108" y="47.3356" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="64.135" y="48.377" size="1.27" layer="27" align="center"/>
 </element>
-<element name="D14" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="64.389" y="69.723" smashed="yes">
+<element name="D14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="64.389" y="69.723" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="139.319" y="-30.607" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="139.319" y="-30.607" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="139.319" y="-30.607" size="1.778" layer="27" display="off"/>
@@ -1279,7 +1296,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="61.214" y="68.7478" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="64.135" y="69.713" size="1.27" layer="27" align="center"/>
 </element>
-<element name="D15" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="3.302" y="73.533" smashed="yes" rot="R180">
+<element name="D15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="3.302" y="73.533" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-89.408" y="173.863" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-89.408" y="173.863" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="-89.408" y="173.863" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1289,7 +1306,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.35" y="74.305" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="3.556" y="73.543" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="D16" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="64.389" y="26.416" smashed="yes">
+<element name="D16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="64.389" y="26.416" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="85.979" y="-76.454" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="85.979" y="-76.454" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="85.979" y="-76.454" size="1.778" layer="27" display="off"/>
@@ -1299,7 +1316,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="61.1632" y="25.4408" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="64.135" y="26.406" size="1.27" layer="27" align="center"/>
 </element>
-<element name="D17" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="3.429" y="9.017" smashed="yes" rot="R180">
+<element name="D17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="3.429" y="9.017" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-35.941" y="111.887" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-35.941" y="111.887" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="-35.941" y="111.887" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1309,7 +1326,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.6548" y="9.8652" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="3.683" y="9.027" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="D18" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="3.302" y="51.816" smashed="yes" rot="R180">
+<element name="D18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="3.302" y="51.816" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-53.848" y="154.686" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-53.848" y="154.686" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="-53.848" y="154.686" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1319,7 +1336,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.5278" y="52.7912" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="3.556" y="51.826" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="D19" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="3.429" y="30.48" smashed="yes" rot="R180">
+<element name="D19" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="3.429" y="30.48" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-71.501" y="133.35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-71.501" y="133.35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="-71.501" y="133.35" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1329,7 +1346,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.477" y="31.252" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="3.683" y="30.49" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="D2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/1" value="PTVS12VS1UR,115" x="29.9974" y="82.6008" smashed="yes">
+<element name="D2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="29.9974" y="82.6008" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="69.3674" y="-12.6492" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="69.3674" y="-12.6492" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="69.3674" y="-12.6492" size="1.778" layer="27" display="off"/>
@@ -1339,7 +1356,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.1244" y="84.0078" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="29.7434" y="82.5908" size="1.27" layer="27" align="center"/>
 </element>
-<element name="D20" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/1" value="PTVS12VS1UR,115" x="27.4066" y="86.2076" smashed="yes">
+<element name="D20" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="27.4066" y="86.2076" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="120.1166" y="-16.6624" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="120.1166" y="-16.6624" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="120.1166" y="-16.6624" size="1.778" layer="27" display="off"/>
@@ -1349,17 +1366,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="27.4066" y="87.6146" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="27.1526" y="86.1976" size="1.27" layer="27" align="center"/>
 </element>
-<element name="D3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/1" value="PTVS12VS1UR,115" x="19.431" y="85.217" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-37.719" y="180.467" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-37.719" y="180.467" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-37.719" y="180.467" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="-37.719" y="180.467" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="-37.719" y="180.467" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="-37.719" y="180.467" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="19.431" y="83.81" size="0.6096" layer="25" align="center"/>
-<attribute name="VALUE" x="19.685" y="85.227" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="D3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="19.5326" y="86.1314" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-37.6174" y="181.3814" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-37.6174" y="181.3814" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-37.6174" y="181.3814" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTVS12VS1UR,115" x="-37.6174" y="181.3814" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PTVS12VS1UR115" x="-37.6174" y="181.3814" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PTVS12VS1UR115?qs=LMSg3oBIm%2FiWSHvsyxWiLg%3D%3D" x="-37.6174" y="181.3814" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="19.5326" y="84.7244" size="0.6096" layer="25" align="center"/>
+<attribute name="VALUE" x="19.7866" y="86.1414" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="D4" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="64.389" y="73.533" smashed="yes">
+<element name="D4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="64.389" y="73.533" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="139.319" y="-21.717" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="139.319" y="-21.717" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="139.319" y="-21.717" size="1.778" layer="27" display="off"/>
@@ -1369,7 +1386,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="61.595" y="74.412" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="64.135" y="73.523" size="1.27" layer="27" align="center"/>
 </element>
-<element name="D5" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="64.389" y="30.48" smashed="yes">
+<element name="D5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="64.389" y="30.48" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="157.099" y="-64.77" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="157.099" y="-64.77" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="157.099" y="-64.77" size="1.778" layer="27" display="off"/>
@@ -1379,7 +1396,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="61.4426" y="31.0542" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="64.135" y="30.47" size="1.27" layer="27" align="center"/>
 </element>
-<element name="D6" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="64.389" y="51.943" smashed="yes">
+<element name="D6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="64.389" y="51.943" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="85.979" y="-45.847" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="85.979" y="-45.847" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="85.979" y="-45.847" size="1.778" layer="27" display="off"/>
@@ -1389,7 +1406,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="61.214" y="52.5426" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="64.135" y="51.933" size="1.27" layer="27" align="center"/>
 </element>
-<element name="D7" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="3.429" y="91.567" smashed="yes" rot="R180">
+<element name="D7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="3.429" y="91.567" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-35.941" y="189.357" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-35.941" y="189.357" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="-35.941" y="189.357" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1399,7 +1416,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.6294" y="92.4406" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="3.683" y="91.577" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="D8" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="64.389" y="8.636" smashed="yes">
+<element name="D8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="64.389" y="8.636" smashed="yes">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="121.539" y="-89.154" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="mm" x="121.539" y="-89.154" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="121.539" y="-89.154" size="1.778" layer="27" display="off"/>
@@ -1409,7 +1426,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="61.468" y="9.515" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="64.135" y="8.626" size="1.27" layer="27" align="center"/>
 </element>
-<element name="D9" library="SamacSys_Parts" package="SOD123W" value="PTVS12VS1UR,115" x="3.429" y="26.797" smashed="yes" rot="R180">
+<element name="D9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOD123W" package3d_urn="urn:adsk.eagle:package:34729069/2" value="PTVS12VS1UR,115" x="3.429" y="26.797" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="PTVSxS1UR series - 400 W Transient Voltage Suppressor" x="-71.501" y="124.587" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="-71.501" y="124.587" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="-71.501" y="124.587" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1419,7 +1436,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.5786" y="25.771" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="3.683" y="26.807" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="MUX+" library="SamacSys_Parts" package="SOP65P640X120-16N" value="DG4051EEQ-T1-GE3" x="35.433" y="43.815" smashed="yes" rot="R180">
+<element name="MUX+" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOP65P640X120-16N" package3d_urn="urn:adsk.eagle:package:34729071/2" value="DG4051EEQ-T1-GE3" x="35.433" y="43.815" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="VISHAY - DG4051EEQ-T1-GE3 - ANALOGUE MUX, 1 CH, 8:1, TSSOP-16" x="12.573" y="111.125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1.2mm" x="12.573" y="111.125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Vishay" x="12.573" y="111.125" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1429,7 +1446,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="35.2044" y="40.2844" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="35.433" y="43.815" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="PS_3.3V" library="SamacSys_Parts" package="SOT230P700X180-4N" value="LDL1117S33R" x="24.003" y="46.99" smashed="yes" rot="R180">
+<element name="PS_3.3V" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOT230P700X180-4N" package3d_urn="urn:adsk.eagle:package:34729077/2" value="LDL1117S33R" x="24.003" y="46.99" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="STMICROELECTRONICS - LDL1117S33R - LDO, FIXED, 3.3V, 1.2A, SOT-223-3" x="-66.167" y="101.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1.8mm" x="-66.167" y="101.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="-66.167" y="101.6" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1439,7 +1456,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="24.5364" y="41.8592" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="24.003" y="46.99" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="MUX-" library="SamacSys_Parts" package="SOP65P640X120-16N" value="DG4051EEQ-T1-GE3" x="35.433" y="43.815" smashed="yes" rot="MR180">
+<element name="MUX-" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOP65P640X120-16N" package3d_urn="urn:adsk.eagle:package:34729071/2" value="DG4051EEQ-T1-GE3" x="35.433" y="43.815" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="VISHAY - DG4051EEQ-T1-GE3 - ANALOGUE MUX, 1 CH, 8:1, TSSOP-16" x="77.343" y="111.125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="1.2mm" x="77.343" y="111.125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Vishay" x="77.343" y="111.125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1449,7 +1466,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="35.6108" y="47.1932" size="0.6096" layer="26" rot="MR0" align="center"/>
 <attribute name="VALUE" x="35.433" y="43.815" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="D-TYPE" library="SamacSys_Parts" package="SOIC127P1032X265-20N" value="D-type" x="35.179" y="26.67" smashed="yes" rot="R180">
+<element name="D-TYPE" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOIC127P1032X265-20N" package3d_urn="urn:adsk.eagle:package:34729072/2" value="D-type" x="35.179" y="26.67" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="74AHC(T)273 - Octal D-type flip-flop with reset; positive-edge trigger@en-us" x="-46.101" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="2.65mm" x="-46.101" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="-46.101" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1459,7 +1476,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="35.4076" y="19.4818" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="35.179" y="26.67" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="SPI" library="SamacSys_Parts" package="QFN50P300X300X80-17N" value="LTC6820IUD#PBF" x="25.527" y="54.864" smashed="yes" rot="R180">
+<element name="SPI" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="QFN50P300X300X80-17N" package3d_urn="urn:adsk.eagle:package:34729079/2" value="LTC6820IUD#PBF" x="25.527" y="54.864" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Interface - Specialized isoSPI Iso Communications Int" x="-67.183" y="120.904" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="0.8mm" x="-67.183" y="120.904" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Analog Devices" x="-67.183" y="120.904" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1469,7 +1486,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.4254" y="52.197" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="25.527" y="54.864" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="COLD_JUNCTION" library="SamacSys_Parts" package="SOIC127P600X175-8N" value="MAX6675ISA+" x="35.56" y="58.801" smashed="yes">
+<element name="COLD_JUNCTION" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOIC127P600X175-8N" package3d_urn="urn:adsk.eagle:package:34729067/2" value="MAX6675ISA+" x="35.56" y="58.801" smashed="yes">
 <attribute name="DESCRIPTION" value="MAX6675ISA+, 12bit Temperature Sensor +/-6C Serial-SPI 3 to 5.5V 8-Pin SOIC" x="93.98" y="-8.509" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.75mm" x="93.98" y="-8.509" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Maxim Integrated" x="93.98" y="-8.509" size="1.778" layer="27" display="off"/>
@@ -1479,7 +1496,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="35.5346" y="61.9506" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="35.56" y="58.801" size="1.27" layer="27" align="center"/>
 </element>
-<element name="AND2" library="SamacSys_Parts" package="SOIC127P600X175-14N" value="AND1" x="45.974" y="12.954" smashed="yes" rot="MR90">
+<element name="AND2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOIC127P600X175-14N" package3d_urn="urn:adsk.eagle:package:34729073/2" value="AND1" x="45.974" y="12.954" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Enhanced Product Quadruple 2-Input Positive-And Gate" x="-9.906" y="77.724" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="1.75mm" x="-9.906" y="77.724" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-9.906" y="77.724" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1489,7 +1506,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="51.1048" y="12.954" size="0.6096" layer="26" rot="MR270" align="center"/>
 <attribute name="VALUE" x="45.974" y="12.954" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="INVERTER" library="SamacSys_Parts" package="SOIC127P600X175-14N" value="INVERTER" x="24.13" y="12.954" smashed="yes" rot="R90">
+<element name="INVERTER" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOIC127P600X175-14N" package3d_urn="urn:adsk.eagle:package:34729073/2" value="INVERTER" x="24.13" y="12.954" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Inverters Automotive hex inverters with open-drain outputs" x="80.01" y="68.834" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="1.75mm" x="80.01" y="68.834" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="80.01" y="68.834" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1499,7 +1516,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.415" y="13.0302" size="0.6096" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="24.13" y="12.954" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="AND1" library="SamacSys_Parts" package="SOIC127P600X175-14N" value="AND2" x="45.974" y="12.954" smashed="yes" rot="R270">
+<element name="AND1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOIC127P600X175-14N" package3d_urn="urn:adsk.eagle:package:34729073/2" value="AND2" x="45.974" y="12.954" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Enhanced Product Quadruple 2-Input Positive-And Gate" x="-9.906" y="-59.436" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.75mm" x="-9.906" y="-59.436" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-9.906" y="-59.436" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1509,7 +1526,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="40.7416" y="12.9794" size="0.6096" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="45.974" y="12.954" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="OR" library="SamacSys_Parts" package="SOIC127P600X175-14N" value="OR" x="24.13" y="12.954" smashed="yes" rot="MR90">
+<element name="OR" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOIC127P600X175-14N" package3d_urn="urn:adsk.eagle:package:34729073/2" value="OR" x="24.13" y="12.954" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-Input Positive-OR Gates" x="-31.75" y="92.964" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="1.75mm" x="-31.75" y="92.964" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-31.75" y="92.964" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1599,22 +1616,22 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="102.108" y="122.936" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="55.658" y="53.376" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="19.9644" y="81.3308" smashed="yes">
-<attribute name="NAME" x="18.6182" y="83.1596" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="64" x="97.4344" y="15.2908" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="18.6944" y="78.1558" size="1.27" layer="27"/>
+<element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="19.8374" y="81.3308" smashed="yes">
+<attribute name="NAME" x="18.4912" y="83.1596" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="64" x="97.3074" y="15.2908" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="18.5674" y="78.1558" size="1.27" layer="27"/>
 </element>
-<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="22.6568" y="81.3308" smashed="yes">
-<attribute name="NAME" x="21.3106" y="83.1596" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="64" x="105.2068" y="15.2908" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="21.3868" y="78.1558" size="1.27" layer="27"/>
+<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="22.5298" y="81.3308" smashed="yes">
+<attribute name="NAME" x="21.1836" y="83.1596" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="64" x="105.0798" y="15.2908" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="21.2598" y="78.1558" size="1.27" layer="27"/>
 </element>
 <element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="23.368" y="89.535" smashed="yes">
 <attribute name="NAME" x="22.0218" y="91.3638" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="92" x="93.218" y="23.495" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="19.558" y="86.36" size="1.27" layer="27"/>
 </element>
-<element name="LED_MISO" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="44.323" y="63.881" smashed="yes">
+<element name="LED_MISO" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="44.323" y="63.881" smashed="yes">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="67.183" y="-8.509" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="67.183" y="-8.509" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="67.183" y="-8.509" size="1.778" layer="27" display="off"/>
@@ -1624,7 +1641,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="48.1076" y="63.877" size="0.6096" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="44.073" y="63.881" size="1.27" layer="27" align="center"/>
 </element>
-<element name="LED_Q3" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="48.641" y="36.957" smashed="yes" rot="R180">
+<element name="LED_Q3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="48.641" y="36.957" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="5.461" y="119.507" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="5.461" y="119.507" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="5.461" y="119.507" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1634,7 +1651,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.8066" y="36.6228" size="0.6096" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="48.891" y="36.957" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="LED_Q4" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="21.59" y="35.052" smashed="yes">
+<element name="LED_Q4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="21.59" y="35.052" smashed="yes">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="85.09" y="-47.498" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="85.09" y="-47.498" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="85.09" y="-47.498" size="1.778" layer="27" display="off"/>
@@ -1644,7 +1661,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.3228" y="34.9544" size="0.6096" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="21.34" y="35.052" size="1.27" layer="27" align="center"/>
 </element>
-<element name="LED_Q5" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="21.59" y="30.734" smashed="yes">
+<element name="LED_Q5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="21.59" y="30.734" smashed="yes">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="105.41" y="-51.816" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="105.41" y="-51.816" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="105.41" y="-51.816" size="1.778" layer="27" display="off"/>
@@ -1654,7 +1671,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.3238" y="30.6618" size="0.6096" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="21.34" y="30.734" size="1.27" layer="27" align="center"/>
 </element>
-<element name="LED_Q6" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="21.59" y="26.543" smashed="yes">
+<element name="LED_Q6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="21.59" y="26.543" smashed="yes">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="44.45" y="-61.087" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="44.45" y="-61.087" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="44.45" y="-61.087" size="1.778" layer="27" display="off"/>
@@ -1664,7 +1681,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.272" y="26.539" size="0.6096" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="21.34" y="26.543" size="1.27" layer="27" align="center"/>
 </element>
-<element name="LED_Q7" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="21.59" y="22.479" smashed="yes">
+<element name="LED_Q7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="21.59" y="22.479" smashed="yes">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="64.77" y="-65.151" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="64.77" y="-65.151" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="64.77" y="-65.151" size="1.778" layer="27" display="off"/>
@@ -1674,7 +1691,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.272" y="22.61" size="0.6096" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="21.34" y="22.479" size="1.27" layer="27" align="center"/>
 </element>
-<element name="LED_A0" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="APT1608CGCK" package3d_urn="urn:adsk.eagle:package:34597165/1" value="APTD1608LCGCK" x="38.481" y="48.641" smashed="yes" rot="R90">
+<element name="LED_A0" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="APT1608CGCK" package3d_urn="urn:adsk.eagle:package:34597165/2" value="APTD1608LCGCK" x="38.481" y="48.641" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 0603 Dome Lens LED Green- 570nm" x="143.891" y="86.741" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="mm" x="143.891" y="86.741" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="143.891" y="86.741" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1684,7 +1701,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="37.084" y="48.514" size="0.6096" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="38.481" y="48.641" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="LED_A1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="APT1608CGCK" package3d_urn="urn:adsk.eagle:package:34597165/1" value="APTD1608LCGCK" x="35.433" y="48.641" smashed="yes" rot="R90">
+<element name="LED_A1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="APT1608CGCK" package3d_urn="urn:adsk.eagle:package:34597165/2" value="APTD1608LCGCK" x="35.433" y="48.641" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 0603 Dome Lens LED Green- 570nm" x="140.843" y="103.251" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="mm" x="140.843" y="103.251" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="140.843" y="103.251" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1694,7 +1711,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="33.909" y="48.514" size="0.6096" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="35.433" y="48.641" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="LED_A2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="APT1608CGCK" package3d_urn="urn:adsk.eagle:package:34597165/1" value="APTD1608LCGCK" x="32.385" y="48.641" smashed="yes" rot="R90">
+<element name="LED_A2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="APT1608CGCK" package3d_urn="urn:adsk.eagle:package:34597165/2" value="APTD1608LCGCK" x="32.385" y="48.641" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 0603 Dome Lens LED Green- 570nm" x="137.795" y="119.761" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="mm" x="137.795" y="119.761" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="137.795" y="119.761" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1704,7 +1721,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.861" y="48.514" size="0.6096" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="32.385" y="48.641" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="LED_SCK" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="44.323" y="54.229" smashed="yes">
+<element name="LED_SCK" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="44.323" y="54.229" smashed="yes">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="87.503" y="-18.161" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="87.503" y="-18.161" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="87.503" y="-18.161" size="1.778" layer="27" display="off"/>
@@ -1714,7 +1731,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="48.133" y="53.9456" size="0.6096" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="44.073" y="54.229" size="1.27" layer="27" align="center"/>
 </element>
-<element name="LED_CS" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="44.323" y="58.928" smashed="yes">
+<element name="LED_CS" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="44.323" y="58.928" smashed="yes">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="107.823" y="-13.462" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="107.823" y="-13.462" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="107.823" y="-13.462" size="1.778" layer="27" display="off"/>
@@ -1724,7 +1741,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="48.1076" y="58.8812" size="0.6096" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="44.073" y="58.928" size="1.27" layer="27" align="center"/>
 </element>
-<element name="LED_3.3V" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="17.653" y="46.99" smashed="yes" rot="R270">
+<element name="LED_3.3V" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="17.653" y="46.99" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-54.737" y="-36.83" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-54.737" y="-36.83" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-54.737" y="-36.83" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1734,7 +1751,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="15.0622" y="47.1638" size="0.6096" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="17.653" y="47.24" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="LED_-3.3V" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="45.974" y="43.053" smashed="yes">
+<element name="LED_-3.3V" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="45.974" y="43.053" smashed="yes">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="68.834" y="-34.417" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="68.834" y="-34.417" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="68.834" y="-34.417" size="1.778" layer="27" display="off"/>
@@ -1744,7 +1761,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="45.724" y="40.513" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="45.724" y="43.053" size="1.27" layer="27" align="center"/>
 </element>
-<element name="LED_12V" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="38.1" y="84.836" smashed="yes" rot="R270">
+<element name="LED_12V" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="38.1" y="84.836" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-39.37" y="41.656" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-39.37" y="41.656" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-39.37" y="41.656" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1754,7 +1771,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="40.6908" y="85.213" size="0.6096" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="38.1" y="85.086" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="LED_Q0" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="48.641" y="24.003" smashed="yes" rot="R180">
+<element name="LED_Q0" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="48.641" y="24.003" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-14.859" y="101.473" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-14.859" y="101.473" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-14.859" y="101.473" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1764,7 +1781,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.8574" y="23.9816" size="0.6096" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="48.891" y="24.003" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="LED_Q1" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="48.641" y="28.194" smashed="yes" rot="R180">
+<element name="LED_Q1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="48.641" y="28.194" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="-35.179" y="105.664" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-35.179" y="105.664" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="-35.179" y="105.664" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1774,7 +1791,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.7304" y="28.19" size="0.6096" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="48.891" y="28.194" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="LED_Q2" library="SamacSys_Parts" package="AA3021LSYSKJ3TR" value="AA3021LSYSK_J3-TR" x="48.641" y="32.512" smashed="yes" rot="R180">
+<element name="LED_Q2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:35131693/2" value="AA3021LSYSK_J3-TR" x="48.641" y="32.512" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="25.781" y="115.062" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="25.781" y="115.062" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kingbright" x="25.781" y="115.062" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1784,7 +1801,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.7558" y="32.4826" size="0.6096" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="48.891" y="32.512" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="PS_-3.3V" library="SamacSys_Parts" package="SOT95P280X130-5N" value="XC6901D331MR-G" x="45.847" y="47.371" smashed="yes" rot="R180">
+<element name="PS_-3.3V" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="SOT95P280X130-5N" package3d_urn="urn:adsk.eagle:package:34729078/2" value="XC6901D331MR-G" x="45.847" y="47.371" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="TOREX - XC6901D331MR-G - LDO Voltage Regulator, Fixed, -12.4 V to -2.4 V in, 102 mV Drop, -3.3 V/200 mA out, SOT-25-5" x="-16.383" y="135.001" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1.3mm" x="-16.383" y="135.001" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Torex" x="-16.383" y="135.001" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1794,7 +1811,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="45.847" y="49.657" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="45.847" y="47.371" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="PS_12V" library="SamacSys_Parts" package="TMR67212WIR" value="TMR_6-2422WIR" x="33.4772" y="76.073" smashed="yes">
+<element name="PS_12V" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="TMR67212WIR" package3d_urn="urn:adsk.eagle:package:34729070/2" value="TMR_6-2422WIR" x="33.4772" y="76.073" smashed="yes">
 <attribute name="DESCRIPTION" value="6 Watt DC/DC converter, railway, 4:1 input incl. 110 VDC nominal, regulated, 3000 VDC I/O-isolation, encapsulated, SIP-8 metal case" x="67.7672" y="17.653" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="11.7mm" x="67.7672" y="17.653" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Traco Power" x="67.7672" y="17.653" size="1.778" layer="27" display="off"/>
@@ -1804,7 +1821,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="42.813" y="82.2418" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="42.1272" y="74.698" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R1" library="SamacSys_Parts" package="ERA2AED122X" value="5.6K" x="31.115" y="57.404" smashed="yes" rot="R270">
+<element name="R1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="5.6K" x="31.115" y="57.404" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-84.455" y="11.684" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-84.455" y="11.684" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-84.455" y="11.684" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1814,7 +1831,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="29.972" y="57.277" size="0.6096" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="31.115" y="57.404" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="R13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="44.958" y="54.229" smashed="yes" rot="MR180">
+<element name="R13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="44.958" y="54.229" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="146.558" y="159.639" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="146.558" y="159.639" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="146.558" y="159.639" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1824,7 +1841,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="44.958" y="55.499" size="0.6096" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="44.958" y="54.229" size="1.27" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="R14" library="SamacSys_Parts" package="RESC1005X35N" value="1.21K" x="25.908" y="53.34" smashed="yes" rot="MR0">
+<element name="R14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X35N" package3d_urn="urn:adsk.eagle:package:34729081/2" value="1.21K" x="25.908" y="53.34" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="TE Connectivity CPF Series Precision Thin Film Surface Mount Resistor 0402 Case 1.21k +/-0.1% 0.063W +/-25ppm/C" x="-74.422" y="-59.69" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="0.35mm" x="-74.422" y="-59.69" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="-74.422" y="-59.69" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1844,7 +1861,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.3548" y="52.3494" size="0.6096" layer="26" rot="MR0" align="center"/>
 <attribute name="VALUE" x="20.955" y="52.832" size="1.27" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="R16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="44.831" y="58.928" smashed="yes" rot="MR180">
+<element name="R16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="44.831" y="58.928" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="65.151" y="166.878" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="65.151" y="166.878" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="65.151" y="166.878" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1854,7 +1871,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="44.831" y="60.198" size="0.6096" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="44.831" y="58.928" size="1.27" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="R17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="17.526" y="47.498" smashed="yes" rot="MR90">
+<element name="R17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="17.526" y="47.498" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-90.424" y="83.058" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-90.424" y="83.058" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-90.424" y="83.058" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1864,7 +1881,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.796" y="47.498" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="17.526" y="47.498" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="46.482" y="43.053" smashed="yes" rot="MR180">
+<element name="R18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="46.482" y="43.053" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="97.282" y="151.003" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="97.282" y="151.003" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="97.282" y="151.003" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1884,7 +1901,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="37.211" y="85.3694" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="38.1" y="85.344" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R20" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="51.054" y="23.241" smashed="yes" rot="MR90">
+<element name="R20" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="51.054" y="23.241" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-56.896" y="89.281" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-56.896" y="89.281" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-56.896" y="89.281" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1894,7 +1911,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.324" y="23.241" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="51.054" y="23.241" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R21" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="51.054" y="27.432" smashed="yes" rot="MR90">
+<element name="R21" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="51.054" y="27.432" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-56.896" y="108.712" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-56.896" y="108.712" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-56.896" y="108.712" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1904,7 +1921,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.324" y="27.432" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="51.054" y="27.432" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R22" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="51.054" y="31.75" smashed="yes" rot="MR90">
+<element name="R22" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="51.054" y="31.75" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-56.896" y="128.27" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-56.896" y="128.27" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-56.896" y="128.27" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1914,7 +1931,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.324" y="31.75" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="51.054" y="31.75" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R23" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="51.054" y="36.322" smashed="yes" rot="MR90">
+<element name="R23" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="51.054" y="36.322" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-59.436" y="56.642" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-59.436" y="56.642" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-59.436" y="56.642" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1924,7 +1941,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.451" y="36.322" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="51.054" y="36.322" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R24" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="19.304" y="34.417" smashed="yes" rot="MR90">
+<element name="R24" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="19.304" y="34.417" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-91.186" y="69.977" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-91.186" y="69.977" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-91.186" y="69.977" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1934,7 +1951,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.034" y="34.417" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="19.304" y="34.417" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R25" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="19.304" y="30.099" smashed="yes" rot="MR90">
+<element name="R25" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="19.304" y="30.099" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-91.186" y="80.899" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-91.186" y="80.899" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-91.186" y="80.899" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1944,7 +1961,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.034" y="30.099" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="19.304" y="30.099" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="19.431" y="25.908" smashed="yes" rot="MR90">
+<element name="R26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="19.431" y="25.908" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-91.059" y="91.948" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-91.059" y="91.948" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-91.059" y="91.948" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1954,7 +1971,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="20.701" y="25.908" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="19.431" y="25.908" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R27" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="19.304" y="21.844" smashed="yes" rot="MR90">
+<element name="R27" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="19.304" y="21.844" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-91.186" y="103.124" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-91.186" y="103.124" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-91.186" y="103.124" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1964,7 +1981,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="20.574" y="21.844" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="19.304" y="21.844" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R28" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="38.481" y="48.768" smashed="yes" rot="MR90">
+<element name="R28" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="38.481" y="48.768" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-72.009" y="145.288" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-72.009" y="145.288" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-72.009" y="145.288" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1974,7 +1991,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="37.211" y="48.768" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="38.481" y="48.768" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R29" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="35.56" y="48.895" smashed="yes" rot="MR90">
+<element name="R29" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="35.56" y="48.895" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-77.47" y="69.215" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-77.47" y="69.215" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-77.47" y="69.215" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1984,9 +2001,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="34.036" y="48.895" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="35.56" y="48.895" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R3" library="TNPW0402100RBYEP" package="RESC1005X40N" value="100" x="22.7076" y="55.626" smashed="yes" rot="R270">
+<element name="R3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:31696460/9" value="100" x="22.7076" y="55.626" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="-68.7324" y="-30.734" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" TNPW0402 100R 0.1% T-13 EP1 E3 " x="-68.7324" y="-30.734" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" 100 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film " x="-68.7324" y="-30.734" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Vishay" x="-68.7324" y="-30.734" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="TNPW0402100RBYEP" x="-68.7324" y="-30.734" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="21.5596" y="56.195" size="0.6096" layer="25" rot="R270"/>
@@ -1995,7 +2012,7 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TNPW0402100RBYEP/?ref=eda" x="-68.7324" y="-30.734" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="22.0776" y="56.576" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="R30" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="32.385" y="48.895" smashed="yes" rot="MR90">
+<element name="R30" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="32.385" y="48.895" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="-80.645" y="84.455" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-80.645" y="84.455" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="-80.645" y="84.455" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2005,17 +2022,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.115" y="48.895" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="32.385" y="48.895" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="R36" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:34729065/2" value="CRG0402ZR" x="19.2532" y="78.7908" smashed="yes">
-<attribute name="DESCRIPTION" value="0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR" x="68.7832" y="-34.2392" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.4mm" x="68.7832" y="-34.2392" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="68.7832" y="-34.2392" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402ZR" x="68.7832" y="-34.2392" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="279-CRG0402ZR" x="68.7832" y="-34.2392" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRG0402ZR?qs=n4i9pByFsMS7bfq5JAG5yw%3D%3D" x="68.7832" y="-34.2392" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.304" y="79.7052" size="0.6096" layer="25" align="center"/>
-<attribute name="VALUE" x="19.2532" y="78.7908" size="1.27" layer="27" align="center"/>
+<element name="R36" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:34729065/3" value="CRG0402ZR" x="19.812" y="79.3242" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR" x="-93.218" y="29.7942" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="-93.218" y="29.7942" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="-93.218" y="29.7942" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402ZR" x="-93.218" y="29.7942" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-CRG0402ZR" x="-93.218" y="29.7942" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRG0402ZR?qs=n4i9pByFsMS7bfq5JAG5yw%3D%3D" x="-93.218" y="29.7942" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="18.7706" y="79.1972" size="0.6096" layer="25" rot="R270" align="center"/>
+<attribute name="VALUE" x="19.812" y="79.3242" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="R37" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:34729065/2" value="CRG0402ZR" x="16.6116" y="80.5434" smashed="yes" rot="R270">
+<element name="R37" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:34729065/3" value="CRG0402ZR" x="16.6116" y="80.5434" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR" x="-96.4184" y="19.5834" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-96.4184" y="19.5834" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="-96.4184" y="19.5834" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2025,7 +2042,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.6276" y="80.5434" size="0.6096" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="16.6116" y="80.5434" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="R38" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:34729065/2" value="CRG0402ZR" x="25.8318" y="80.645" smashed="yes" rot="R270">
+<element name="R38" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:34729065/3" value="CRG0402ZR" x="25.8318" y="80.645" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR" x="-87.1982" y="8.255" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="-87.1982" y="8.255" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="-87.1982" y="8.255" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2035,17 +2052,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="24.892" y="81.026" size="0.6096" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="25.8318" y="80.645" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="R39" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:34729065/2" value="CRG0402ZR" x="23.1394" y="78.7908" smashed="yes">
-<attribute name="DESCRIPTION" value="0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR" x="106.9594" y="-34.2392" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.4mm" x="106.9594" y="-34.2392" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="106.9594" y="-34.2392" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402ZR" x="106.9594" y="-34.2392" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="279-CRG0402ZR" x="106.9594" y="-34.2392" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRG0402ZR?qs=n4i9pByFsMS7bfq5JAG5yw%3D%3D" x="106.9594" y="-34.2392" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.5966" y="79.756" size="0.6096" layer="25" align="center"/>
-<attribute name="VALUE" x="23.1394" y="78.7908" size="1.27" layer="27" align="center"/>
+<element name="R39" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:34729065/3" value="CRG0402ZR" x="22.5298" y="79.3242" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR" x="135.5598" y="163.1442" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="135.5598" y="163.1442" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="135.5598" y="163.1442" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402ZR" x="135.5598" y="163.1442" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-CRG0402ZR" x="135.5598" y="163.1442" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRG0402ZR?qs=n4i9pByFsMS7bfq5JAG5yw%3D%3D" x="135.5598" y="163.1442" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="23.5204" y="79.2734" size="0.6096" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="22.5298" y="79.3242" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="R8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/1" value="ERA-2ARB562X" x="44.958" y="63.881" smashed="yes" rot="MR180">
+<element name="R8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="ERA2AED122X" package3d_urn="urn:adsk.eagle:package:34729076/2" value="ERA-2ARB562X" x="44.958" y="63.881" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="131.318" y="169.291" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="131.318" y="169.291" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" x="131.318" y="169.291" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2165,7 +2182,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.959" y="59.2142" size="0.6096" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="50.8" y="59.265" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="R4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:34729065/2" value="3.3K" x="27.051" y="55.753" smashed="yes" rot="MR90">
+<element name="R4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:34729065/3" value="3.3K" x="27.051" y="55.753" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 3.3K ohm 5% 50V General Purpose" x="27.051" y="55.753" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="27.051" y="55.753" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="27.051" y="55.753" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2175,7 +2192,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.067" y="55.88" size="0.6096" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="27.051" y="55.753" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="R2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:34729065/2" value="CRG0402ZR" x="30.861" y="60.833" smashed="yes" rot="R90">
+<element name="R2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34728992" package="RESC1005X40N" package3d_urn="urn:adsk.eagle:package:34729065/3" value="CRG0402ZR" x="30.861" y="60.833" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR" x="30.861" y="60.833" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="0.4mm" x="30.861" y="60.833" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="30.861" y="60.833" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2276,14 +2293,7 @@ design rules under a new name.</description>
 <contactref element="D7" pad="1"/>
 <wire x1="4.829" y1="91.567" x2="5.08" y2="91.316" width="0.3048" layer="1" curve="-90"/>
 <wire x1="5.08" y1="91.316" x2="5.08" y2="88.623" width="0.3048" layer="1"/>
-<via x="33.782" y="67.183" extent="1-16" drill="0.35"/>
 <via x="35.941" y="44.958" extent="1-16" drill="0.35"/>
-<wire x1="33.973490625" y1="66.991509375" x2="34.5948" y2="65.4915375" width="0.3048" layer="16" curve="-45"/>
-<wire x1="33.973490625" y1="66.991509375" x2="33.782" y2="67.183" width="0.3048" layer="16"/>
-<wire x1="34.5948" y1="65.4915375" x2="34.5948" y2="46.9138" width="0.3048" layer="16"/>
-<wire x1="4.829" y1="91.567" x2="10.20358125" y2="91.567" width="0.3048" layer="1"/>
-<wire x1="10.20358125" y1="91.567" x2="11.43" y2="91.059" width="0.3048" layer="1" curve="-45"/>
-<via x="11.43" y="91.059" extent="1-16" drill="0.35"/>
 <wire x1="32.471" y1="44.14" x2="33.145425" y2="44.14" width="0.3048" layer="1"/>
 <wire x1="33.145425" y1="44.14" x2="33.8074" y2="43.8658" width="0.3048" layer="1" curve="-45"/>
 <wire x1="33.8074" y1="43.8658" x2="34.48193125" y2="43.5864" width="0.3048" layer="1" curve="45"/>
@@ -2294,9 +2304,12 @@ design rules under a new name.</description>
 <wire x1="35.941" y1="45.758475" x2="35.7886" y2="46.1264" width="0.3048" layer="16" curve="45"/>
 <wire x1="35.7886" y1="46.1264" x2="35.77116875" y2="46.14383125" width="0.3048" layer="16"/>
 <wire x1="35.77116875" y1="46.14383125" x2="35.0774" y2="46.4312" width="0.3048" layer="16" curve="45"/>
-<wire x1="35.0774" y1="46.4312" x2="34.5948" y2="46.9138" width="0.3048" layer="16" curve="-90"/>
+<wire x1="34.5948" y1="46.9138" x2="35.0774" y2="46.4312" width="0.3048" layer="16" curve="90"/>
 <wire x1="35.941" y1="44.958" x2="35.941" y2="45.758475" width="0.3048" layer="16"/>
-<wire x1="33.782" y1="67.183" x2="11.43" y2="91.059" width="0" layer="19" extent="1-1"/>
+<wire x1="33.274" y1="91.567" x2="34.5948" y2="90.2462" width="0.3048" layer="1" curve="-90"/>
+<via x="34.5948" y="90.2462" extent="1-16" drill="0.35"/>
+<wire x1="4.829" y1="91.567" x2="33.274" y2="91.567" width="0.3048" layer="1"/>
+<wire x1="34.5948" y1="90.2462" x2="34.5948" y2="46.9138" width="0.3048" layer="16"/>
 </signal>
 <signal name="T4+">
 <contactref element="MUX+" pad="1"/>
@@ -2577,11 +2590,11 @@ design rules under a new name.</description>
 <via x="30.6578" y="71.8312" extent="1-16" drill="0.35"/>
 <via x="42.4688" y="66.7004" extent="1-16" drill="0.35"/>
 <via x="51.4604" y="83.3882" extent="1-16" drill="0.35"/>
-<via x="33.3756" y="82.677" extent="1-16" drill="0.35"/>
+<via x="31.369" y="85.217" extent="1-16" drill="0.35"/>
 <via x="35.3568" y="84.9122" extent="1-16" drill="0.35"/>
-<via x="22.6822" y="85.2424" extent="1-16" drill="0.35"/>
-<via x="18.2372" y="87.376" extent="1-16" drill="0.35"/>
-<via x="13.7922" y="86.995" extent="1-16" drill="0.35"/>
+<via x="23.5712" y="86.8172" extent="1-16" drill="0.35"/>
+<via x="19.0246" y="87.757" extent="1-16" drill="0.35"/>
+<via x="13.6906" y="84.4804" extent="1-16" drill="0.35"/>
 <via x="13.97" y="64.1096" extent="1-16" drill="0.35"/>
 <via x="27.1272" y="62.9158" extent="1-16" drill="0.35"/>
 <via x="31.8008" y="65.278" extent="1-16" drill="0.35"/>
@@ -2651,6 +2664,141 @@ design rules under a new name.</description>
 <vertex x="18.3896" y="66.5226" curve="90"/>
 <vertex x="18.4658" y="66.4464"/>
 </polygon>
+<polygon width="0.1778" layer="1" pour="cutout" isolate="0.635">
+<vertex x="17.9324" y="79.1464"/>
+<vertex x="17.9324" y="82.9818"/>
+<vertex x="24.3332" y="82.9818"/>
+<vertex x="24.3332" y="79.1464"/>
+</polygon>
+<wire x1="59.5376" y1="92.8116" x2="65.789" y2="91.313" width="0" layer="19" extent="1-1"/>
+<wire x1="51.4604" y1="83.3882" x2="59.5376" y2="92.8116" width="0" layer="19" extent="1-1"/>
+<wire x1="48.768" y1="84.709" x2="51.4604" y2="83.3882" width="0" layer="19" extent="1-1"/>
+<wire x1="48.7172" y1="76.073" x2="51.4604" y2="83.3882" width="0" layer="19" extent="1-1"/>
+<wire x1="49.719" y1="74.422" x2="48.7172" y2="76.073" width="0" layer="19" extent="16-16"/>
+<wire x1="47.309" y1="74.422" x2="48.7172" y2="76.073" width="0" layer="19" extent="16-16"/>
+<wire x1="38.5572" y1="76.073" x2="47.309" y2="74.422" width="0" layer="19" extent="16-16"/>
+<wire x1="33.4772" y1="76.073" x2="38.5572" y2="76.073" width="0" layer="19" extent="1-1"/>
+<wire x1="30.6578" y1="71.8312" x2="33.4772" y2="76.073" width="0" layer="19" extent="1-1"/>
+<wire x1="28.6004" y1="66.167" x2="30.6578" y2="71.8312" width="0" layer="19" extent="1-1"/>
+<wire x1="31.8008" y1="65.278" x2="28.6004" y2="66.167" width="0" layer="19" extent="1-1"/>
+<wire x1="27.1272" y1="62.9158" x2="28.6004" y2="66.167" width="0" layer="19" extent="1-1"/>
+<wire x1="29.1846" y1="61.5696" x2="27.1272" y2="62.9158" width="0" layer="19" extent="1-1"/>
+<wire x1="30.861" y1="61.383" x2="29.1846" y2="61.5696" width="0" layer="19" extent="1-1"/>
+<wire x1="32.848" y1="60.706" x2="30.861" y2="61.383" width="0" layer="19" extent="1-1"/>
+<wire x1="32.893" y1="58.739" x2="32.848" y2="60.706" width="0" layer="19" extent="1-16"/>
+<wire x1="31.115" y1="56.892" x2="32.893" y2="58.739" width="0" layer="19" extent="1-16"/>
+<wire x1="25.967" y1="56.515" x2="31.115" y2="56.892" width="0" layer="19" extent="1-16"/>
+<wire x1="25.527" y1="54.864" x2="25.967" y2="56.515" width="0" layer="19" extent="1-16"/>
+<wire x1="20.443" y1="52.832" x2="18.669" y2="53.34" width="0" layer="19" extent="16-16"/>
+<wire x1="18.5166" y1="56.261" x2="18.669" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="21.0312" y1="49.8094" x2="20.443" y2="52.832" width="0" layer="19" extent="16-16"/>
+<wire x1="14.1732" y1="53.1876" x2="18.669" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="12.9286" y1="50.3174" x2="14.1732" y2="53.1876" width="0" layer="19" extent="1-1"/>
+<wire x1="17.526" y1="46.986" x2="21.0312" y2="49.8094" width="0" layer="19" extent="16-16"/>
+<wire x1="7.7978" y1="49.8856" x2="12.9286" y2="50.3174" width="0" layer="19" extent="1-1"/>
+<wire x1="18.3642" y1="41.7576" x2="17.526" y2="46.986" width="0" layer="19" extent="16-16"/>
+<wire x1="22.6822" y1="38.227" x2="18.3642" y2="41.7576" width="0" layer="19" extent="1-1"/>
+<wire x1="19.304" y1="33.905" x2="22.6822" y2="38.227" width="0" layer="19" extent="16-16"/>
+<wire x1="19.304" y1="29.587" x2="19.304" y2="33.905" width="0" layer="19" extent="16-16"/>
+<wire x1="15.6464" y1="27.686" x2="19.304" y2="29.587" width="0" layer="19" extent="16-16"/>
+<wire x1="19.431" y1="25.396" x2="19.304" y2="29.587" width="0" layer="19" extent="16-16"/>
+<wire x1="19.304" y1="21.332" x2="19.431" y2="25.396" width="0" layer="19" extent="16-16"/>
+<wire x1="18.1356" y1="19.8628" x2="19.304" y2="21.332" width="0" layer="19" extent="16-16"/>
+<wire x1="18.2372" y1="15.5702" x2="18.1356" y2="19.8628" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="10.242" x2="18.2372" y2="15.5702" width="0" layer="19" extent="16-16"/>
+<wire x1="18.0848" y1="9.271" x2="20.32" y2="10.242" width="0" layer="19" extent="16-16"/>
+<wire x1="22.86" y1="10.242" x2="20.32" y2="10.242" width="0" layer="19" extent="1-16"/>
+<wire x1="24.13" y1="10.242" x2="22.86" y2="10.242" width="0" layer="19" extent="1-1"/>
+<wire x1="27.94" y1="10.242" x2="24.13" y2="10.242" width="0" layer="19" extent="1-1"/>
+<wire x1="26.797" y1="47.941" x2="24.777" y2="53.364" width="0" layer="19" extent="1-16"/>
+<wire x1="26.797" y1="45.401" x2="26.797" y2="47.941" width="0" layer="19" extent="16-16"/>
+<wire x1="26.603" y1="44.69" x2="26.797" y2="45.401" width="0" layer="19" extent="1-16"/>
+<wire x1="31.115" y1="48.768" x2="26.797" y2="47.941" width="0" layer="19" extent="16-16"/>
+<wire x1="32.385" y1="48.383" x2="31.115" y2="48.768" width="0" layer="19" extent="16-16"/>
+<wire x1="33.909" y1="48.514" x2="32.385" y2="48.383" width="0" layer="19" extent="16-16"/>
+<wire x1="35.56" y1="48.383" x2="33.909" y2="48.514" width="0" layer="19" extent="16-16"/>
+<wire x1="32.471" y1="46.09" x2="32.385" y2="48.383" width="0" layer="19" extent="16-16"/>
+<wire x1="38.481" y1="48.256" x2="35.56" y2="48.383" width="0" layer="19" extent="16-16"/>
+<wire x1="43.18" y1="49.9364" x2="40.1066" y2="48.387" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="47.563" x2="43.18" y2="49.9364" width="0" layer="19" extent="16-16"/>
+<wire x1="47.247" y1="46.421" x2="44.45" y2="47.563" width="0" layer="19" extent="1-16"/>
+<wire x1="47.244" y1="46.163" x2="47.247" y2="46.421" width="0" layer="19" extent="1-16"/>
+<wire x1="48.8188" y1="46.228" x2="47.247" y2="46.421" width="0" layer="19" extent="1-1"/>
+<wire x1="49.7332" y1="43.0022" x2="48.8188" y2="46.228" width="0" layer="19" extent="1-1"/>
+<wire x1="45.97" y1="43.053" x2="47.244" y2="46.163" width="0" layer="19" extent="16-16"/>
+<wire x1="42.3926" y1="41.3512" x2="45.97" y2="43.053" width="0" layer="19" extent="16-16"/>
+<wire x1="41.3258" y1="38.8112" x2="42.3926" y2="41.3512" width="0" layer="19" extent="1-1"/>
+<wire x1="39.0652" y1="39.7256" x2="41.3258" y2="38.8112" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="36.068" x2="39.0652" y2="39.7256" width="0" layer="19" extent="1-1"/>
+<wire x1="39.904" y1="32.385" x2="38.1" y2="36.068" width="0" layer="19" extent="1-1"/>
+<wire x1="41.783" y1="32.5882" x2="39.904" y2="32.385" width="0" layer="19" extent="1-1"/>
+<wire x1="34.671" y1="39.4208" x2="39.0652" y2="39.7256" width="0" layer="19" extent="1-1"/>
+<wire x1="29.1592" y1="36.9316" x2="34.671" y2="39.4208" width="0" layer="19" extent="1-1"/>
+<wire x1="30.1752" y1="34.5694" x2="29.1592" y2="36.9316" width="0" layer="19" extent="1-1"/>
+<wire x1="1.902" y1="51.816" x2="7.7978" y2="49.8856" width="0" layer="19" extent="1-1"/>
+<wire x1="1.902" y1="47.879" x2="1.902" y2="51.816" width="0" layer="19" extent="1-1"/>
+<wire x1="27.4828" y1="28.6766" x2="30.1752" y2="34.5694" width="0" layer="19" extent="1-1"/>
+<wire x1="27.3812" y1="23.2918" x2="27.4828" y2="28.6766" width="0" layer="19" extent="1-1"/>
+<wire x1="31.3974" y1="82.6008" x2="33.4772" y2="76.073" width="0" layer="19" extent="1-1"/>
+<wire x1="31.369" y1="85.217" x2="31.3974" y2="82.6008" width="0" layer="19" extent="1-1"/>
+<wire x1="28.8066" y1="86.2076" x2="31.369" y2="85.217" width="0" layer="19" extent="1-1"/>
+<wire x1="35.3568" y1="84.9122" x2="31.369" y2="85.217" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="84.8315" x2="35.3568" y2="84.9122" width="0" layer="19" extent="16-16"/>
+<wire x1="23.5712" y1="86.8172" x2="28.8066" y2="86.2076" width="0" layer="19" extent="1-1"/>
+<wire x1="23.368" y1="89.535" x2="23.5712" y2="86.8172" width="0" layer="19" extent="1-1"/>
+<wire x1="23.495" y1="94.0054" x2="23.368" y2="89.535" width="0" layer="19" extent="1-1"/>
+<wire x1="19.0246" y1="87.757" x2="23.5712" y2="86.8172" width="0" layer="19" extent="1-1"/>
+<wire x1="18.1326" y1="86.1314" x2="19.0246" y2="87.757" width="0" layer="19" extent="1-1"/>
+<wire x1="13.6906" y1="84.4804" x2="18.1326" y2="86.1314" width="0" layer="19" extent="1-1"/>
+<wire x1="13.0526" y1="82.55" x2="13.6906" y2="84.4804" width="0" layer="19" extent="1-1"/>
+<wire x1="15.1892" y1="93.853" x2="19.0246" y2="87.757" width="0" layer="19" extent="1-1"/>
+<wire x1="9.3218" y1="92.9386" x2="15.1892" y2="93.853" width="0" layer="19" extent="1-1"/>
+<wire x1="51.054" y1="35.81" x2="49.7332" y2="43.0022" width="0" layer="19" extent="16-16"/>
+<wire x1="51.054" y1="31.238" x2="51.054" y2="35.81" width="0" layer="19" extent="16-16"/>
+<wire x1="51.054" y1="26.92" x2="51.054" y2="31.238" width="0" layer="19" extent="16-16"/>
+<wire x1="51.054" y1="22.729" x2="51.054" y2="26.92" width="0" layer="19" extent="16-16"/>
+<wire x1="51.4604" y1="16.2814" x2="51.054" y2="22.729" width="0" layer="19" extent="16-16"/>
+<wire x1="48.514" y1="10.242" x2="51.4604" y2="16.2814" width="0" layer="19" extent="1-1"/>
+<wire x1="47.244" y1="10.242" x2="48.514" y2="10.242" width="0" layer="19" extent="1-1"/>
+<wire x1="45.974" y1="10.242" x2="47.244" y2="10.242" width="0" layer="19" extent="1-1"/>
+<wire x1="44.704" y1="10.242" x2="45.974" y2="10.242" width="0" layer="19" extent="1-1"/>
+<wire x1="43.434" y1="10.242" x2="44.704" y2="10.242" width="0" layer="19" extent="1-1"/>
+<wire x1="42.164" y1="10.242" x2="43.434" y2="10.242" width="0" layer="19" extent="1-16"/>
+<wire x1="42.164" y1="10.242" x2="42.164" y2="10.242" width="0" layer="19" extent="1-16"/>
+<wire x1="41.91" y1="8.636" x2="42.164" y2="10.242" width="0" layer="19" extent="16-16"/>
+<wire x1="51.5112" y1="9.1948" x2="48.514" y2="10.242" width="0" layer="19" extent="1-1"/>
+<wire x1="56.4642" y1="7.6708" x2="51.5112" y2="9.1948" width="0" layer="19" extent="1-1"/>
+<wire x1="42.164" y1="15.666" x2="42.164" y2="10.242" width="0" layer="19" extent="1-16"/>
+<wire x1="38.608" y1="16.3322" x2="42.164" y2="15.666" width="0" layer="19" extent="1-1"/>
+<wire x1="37.7444" y1="13.5636" x2="38.608" y2="16.3322" width="0" layer="19" extent="1-1"/>
+<wire x1="35.6616" y1="15.748" x2="38.608" y2="16.3322" width="0" layer="19" extent="1-1"/>
+<wire x1="2.029" y1="91.567" x2="9.3218" y2="92.9386" width="0" layer="19" extent="1-1"/>
+<wire x1="31.5976" y1="93.9546" x2="23.495" y2="94.0054" width="0" layer="19" extent="1-1"/>
+<wire x1="34.544" y1="5.2578" x2="41.91" y2="8.636" width="0" layer="19" extent="1-1"/>
+<wire x1="21.2598" y1="69.661" x2="28.6004" y2="66.167" width="0" layer="19" extent="1-16"/>
+<wire x1="21.2598" y1="74.23" x2="21.2598" y2="69.661" width="0" layer="19" extent="16-16"/>
+<wire x1="7.493" y1="28.7528" x2="15.6464" y2="27.686" width="0" layer="19" extent="1-1"/>
+<wire x1="2.029" y1="30.48" x2="7.493" y2="28.7528" width="0" layer="19" extent="1-1"/>
+<wire x1="2.029" y1="26.797" x2="2.029" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="64.1096" x2="18.5166" y2="56.261" width="0" layer="19" extent="1-1"/>
+<wire x1="42.4688" y1="66.7004" x2="47.309" y2="74.422" width="0" layer="19" extent="16-16"/>
+<wire x1="65.789" y1="8.636" x2="56.4642" y2="7.6708" width="0" layer="19" extent="1-1"/>
+<wire x1="7.7978" y1="71.628" x2="13.97" y2="64.1096" width="0" layer="19" extent="1-1"/>
+<wire x1="1.902" y1="73.533" x2="7.7978" y2="71.628" width="0" layer="19" extent="1-1"/>
+<wire x1="1.902" y1="69.723" x2="1.902" y2="73.533" width="0" layer="19" extent="1-1"/>
+<wire x1="60.7822" y1="28.1432" x2="51.054" y2="26.92" width="0" layer="19" extent="16-16"/>
+<wire x1="65.789" y1="26.416" x2="60.7822" y2="28.1432" width="0" layer="19" extent="1-1"/>
+<wire x1="65.789" y1="30.48" x2="65.789" y2="26.416" width="0" layer="19" extent="1-1"/>
+<wire x1="7.4676" y1="7.5692" x2="18.0848" y2="9.271" width="0" layer="19" extent="1-1"/>
+<wire x1="2.029" y1="9.017" x2="7.4676" y2="7.5692" width="0" layer="19" extent="1-1"/>
+<wire x1="60.5282" y1="71.5518" x2="49.719" y2="74.422" width="0" layer="19" extent="16-16"/>
+<wire x1="65.789" y1="69.723" x2="60.5282" y2="71.5518" width="0" layer="19" extent="1-1"/>
+<wire x1="65.789" y1="73.533" x2="65.789" y2="69.723" width="0" layer="19" extent="1-1"/>
+<wire x1="50.8" y1="58.928" x2="42.4688" y2="66.7004" width="0" layer="19" extent="1-1"/>
+<wire x1="54.0004" y1="59.055" x2="50.8" y2="58.928" width="0" layer="19" extent="1-1"/>
+<wire x1="60.833" y1="49.9364" x2="54.0004" y2="59.055" width="0" layer="19" extent="1-1"/>
+<wire x1="65.789" y1="48.387" x2="60.833" y2="49.9364" width="0" layer="19" extent="1-1"/>
+<wire x1="65.789" y1="51.943" x2="65.789" y2="48.387" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T2-">
 <contactref element="MUX-" pad="15"/>
@@ -2921,7 +3069,7 @@ design rules under a new name.</description>
 <wire x1="24.511" y1="47.117" x2="24.511" y2="46.863" width="0.3048" layer="16"/>
 <wire x1="24.511" y1="46.863" x2="25.0952" y2="46.2788" width="0.3048" layer="16" curve="90"/>
 <wire x1="25.0952" y1="46.2788" x2="26.3048" y2="46.2788" width="0.3048" layer="16"/>
-<wire x1="26.3048" y1="46.2788" x2="26.797" y2="46.771" width="0.3048" layer="16" curve="90"/>
+<wire x1="26.3048" y1="46.2788" x2="26.797" y2="46.801" width="0.3048" layer="16" curve="90"/>
 <wire x1="26.603" y1="46.99" x2="28.575" y2="46.99" width="0.3048" layer="1"/>
 <via x="28.575" y="46.99" extent="1-16" drill="0.35"/>
 <wire x1="32.471" y1="41.54" x2="33.661640625" y2="41.54" width="0.3048" layer="1"/>
@@ -2995,7 +3143,7 @@ design rules under a new name.</description>
 <wire x1="28.1178" y1="47.5234" x2="27.7368" y2="47.1424" width="0.3048" layer="16" curve="90"/>
 <wire x1="27.7368" y1="47.1424" x2="27.7368" y2="47.0916" width="0.3048" layer="16"/>
 <wire x1="27.7368" y1="47.0916" x2="27.4162" y2="46.771" width="0.3048" layer="16" curve="-90"/>
-<wire x1="27.4162" y1="46.771" x2="26.797" y2="46.771" width="0.3048" layer="16"/>
+<wire x1="27.4162" y1="46.771" x2="26.797" y2="46.801" width="0.3048" layer="16"/>
 <wire x1="28.7528" y1="51.054" x2="28.7528" y2="48.1584" width="0.3048" layer="16"/>
 <wire x1="44.446" y1="63.881" x2="44.446" y2="59.055" width="0.3048" layer="16"/>
 <wire x1="44.446" y1="59.055" x2="44.319" y2="58.928" width="0.3048" layer="16" curve="-90"/>
@@ -3091,7 +3239,7 @@ design rules under a new name.</description>
 <wire x1="34.587890625" y1="45.0342" x2="34.671" y2="45.0342" width="0.3048" layer="16"/>
 <wire x1="34.671" y1="45.0342" x2="35.128728125" y2="44.844603125" width="0.3048" layer="16" curve="-45"/>
 <wire x1="35.128728125" y1="44.844603125" x2="35.18696875" y2="44.7863625" width="0.3048" layer="16"/>
-<wire x1="32.893" y1="57.369" x2="31.6896" y2="57.369" width="0.3048" layer="16"/>
+<wire x1="32.893" y1="57.339" x2="31.6896" y2="57.369" width="0.3048" layer="16"/>
 <wire x1="31.6896" y1="57.369" x2="31.369" y2="57.0484" width="0.3048" layer="16" curve="90"/>
 <wire x1="31.369" y1="57.0484" x2="31.620446875" y2="56.441353125" width="0.3048" layer="16" curve="45"/>
 <wire x1="31.80463125" y1="56.25716875" x2="32.7152" y2="55.88" width="0.3048" layer="16" curve="45"/>
@@ -3257,7 +3405,7 @@ design rules under a new name.</description>
 <wire x1="42.799" y1="45.593" x2="43.815" y2="44.577" width="0.3048" layer="1" curve="90"/>
 <via x="43.815" y="44.577" extent="1-16" drill="0.35"/>
 <wire x1="43.815" y1="44.577" x2="44.45" y2="45.212" width="0.3048" layer="16" curve="90"/>
-<wire x1="44.45" y1="45.212" x2="44.45" y2="46.193" width="0.3048" layer="16"/>
+<wire x1="44.45" y1="45.212" x2="44.45" y2="46.163" width="0.3048" layer="16"/>
 <wire x1="44.447" y1="46.421" x2="44.447" y2="43.35960625" width="0.3048" layer="1"/>
 <wire x1="44.447" y1="43.35960625" x2="44.574" y2="43.053" width="0.3048" layer="1" curve="45"/>
 <wire x1="44.447" y1="46.421" x2="43.368" y2="46.421" width="0.3048" layer="1"/>
@@ -3858,7 +4006,7 @@ design rules under a new name.</description>
 <wire x1="28.4988" y1="50.1396" x2="27.9146" y2="50.7238" width="0.3048" layer="1" curve="90"/>
 <via x="27.9146" y="50.7238" extent="1-16" drill="0.35"/>
 <wire x1="27.9146" y1="50.7238" x2="26.797" y2="49.6062" width="0.3048" layer="16" curve="90"/>
-<wire x1="26.797" y1="49.6062" x2="26.797" y2="49.311" width="0.3048" layer="16"/>
+<wire x1="26.797" y1="49.6062" x2="26.797" y2="49.341" width="0.3048" layer="16"/>
 <wire x1="26.603" y1="49.29" x2="24.177503125" y2="49.29" width="0.3048" layer="1"/>
 <wire x1="24.177503125" y1="49.29" x2="22.38145" y2="50.03395" width="0.3048" layer="1" curve="-45"/>
 <wire x1="22.38145" y1="50.03395" x2="22.059525" y2="50.355875" width="0.3048" layer="1"/>
@@ -3867,8 +4015,8 @@ design rules under a new name.</description>
 <via x="14.9352" y="51.0286" extent="1-16" drill="0.35"/>
 <wire x1="12.8778" y1="53.086" x2="14.9352" y2="51.0286" width="0.3048" layer="16" curve="90"/>
 <wire x1="46.1772" y1="76.073" x2="45.939" y2="75.49798125" width="0.3048" layer="16" curve="45"/>
-<wire x1="45.939" y1="75.49798125" x2="45.939" y2="74.422" width="0.3048" layer="16"/>
-<wire x1="45.939" y1="74.422" x2="42.45075" y2="77.91025" width="0.3048" layer="16"/>
+<wire x1="45.939" y1="75.49798125" x2="45.909" y2="74.422" width="0.3048" layer="16"/>
+<wire x1="45.909" y1="74.422" x2="42.45075" y2="77.91025" width="0.3048" layer="16"/>
 <wire x1="42.45075" y1="77.91025" x2="41.7068" y2="79.706303125" width="0.3048" layer="16" curve="-45"/>
 <wire x1="41.7068" y1="79.706303125" x2="41.7068" y2="89.662" width="0.3048" layer="16"/>
 <wire x1="41.7068" y1="89.662" x2="38.5064" y2="92.8624" width="0.3048" layer="16" curve="90"/>
@@ -3883,13 +4031,13 @@ design rules under a new name.</description>
 <contactref element="C5" pad="1"/>
 <via x="49.276" y="48.26" extent="1-16" drill="0.35"/>
 <wire x1="49.276" y1="48.26" x2="47.971" y2="48.26" width="0.3048" layer="16"/>
-<wire x1="47.971" y1="48.26" x2="47.244" y2="47.533" width="0.3048" layer="16" curve="90"/>
+<wire x1="47.971" y1="48.26" x2="47.244" y2="47.563" width="0.3048" layer="16" curve="90"/>
 <wire x1="50.382896875" y1="47.371" x2="51.74534375" y2="47.93534375" width="0.3048" layer="1" curve="45"/>
 <wire x1="54.012196875" y1="50.202196875" x2="54.102" y2="50.419" width="0.3048" layer="1" curve="45"/>
 <via x="54.102" y="50.419" extent="1-16" drill="0.35"/>
 <wire x1="54.102" y1="50.419" x2="54.8132" y2="52.135990625" width="0.3048" layer="16" curve="45"/>
 <wire x1="54.8132" y1="69.594896875" x2="54.033328125" y2="71.477671875" width="0.3048" layer="16" curve="45"/>
-<wire x1="54.033328125" y1="71.477671875" x2="51.089" y2="74.422" width="0.3048" layer="16"/>
+<wire x1="54.033328125" y1="71.477671875" x2="51.119" y2="74.422" width="0.3048" layer="16"/>
 <wire x1="51.74534375" y1="47.93534375" x2="54.012196875" y2="50.202196875" width="0.3048" layer="1"/>
 <wire x1="54.8132" y1="52.135990625" x2="54.8132" y2="69.594896875" width="0.3048" layer="16"/>
 <wire x1="47.247" y1="47.371" x2="50.382896875" y2="47.371" width="0.3048" layer="1"/>
@@ -3898,7 +4046,7 @@ design rules under a new name.</description>
 <wire x1="49.8348" y1="47.9552" x2="49.8348" y2="47.919096875" width="0.3048" layer="1"/>
 <wire x1="49.8348" y1="47.919096875" x2="50.382896875" y2="47.371" width="0.3048" layer="1" curve="90"/>
 <wire x1="51.2572" y1="76.073" x2="51.2572" y2="74.828071875" width="0.3048" layer="16"/>
-<wire x1="51.2572" y1="74.828071875" x2="51.089" y2="74.422" width="0.3048" layer="16" curve="-45"/>
+<wire x1="51.2572" y1="74.828071875" x2="51.119" y2="74.422" width="0.3048" layer="16" curve="-45"/>
 </signal>
 <signal name="VDD">
 <contactref element="PS_12V" pad="2"/>
@@ -3907,10 +4055,10 @@ design rules under a new name.</description>
 <contactref element="JP3" pad="1"/>
 <contactref element="D3" pad="1"/>
 <wire x1="36.0172" y1="76.073" x2="38.1" y2="78.1558" width="0.3048" layer="1" curve="90"/>
-<wire x1="20.828" y1="89.535" x2="20.828" y2="85.22" width="0.3048" layer="1"/>
-<wire x1="20.831" y1="85.217" x2="20.828" y2="85.22" width="0.3048" layer="1"/>
-<wire x1="20.831" y1="85.217" x2="20.831" y2="84.071" width="0.3048" layer="1"/>
-<wire x1="20.831" y1="84.071" x2="21.7424" y2="83.1596" width="0.3048" layer="1" curve="90"/>
+<wire x1="20.828" y1="89.535" x2="20.828" y2="86.236" width="0.3048" layer="1"/>
+<wire x1="20.9326" y1="86.1314" x2="20.828" y2="86.236" width="0.3048" layer="1"/>
+<wire x1="20.9326" y1="86.1314" x2="20.9326" y2="83.9694" width="0.3048" layer="1"/>
+<wire x1="20.9326" y1="83.9694" x2="21.7424" y2="83.1596" width="0.3048" layer="1" curve="90"/>
 <wire x1="27.0764" y1="83.1596" x2="27.3812" y2="83.4644" width="0.3048" layer="1" curve="90"/>
 <wire x1="27.3812" y1="83.4644" x2="28.2956" y2="84.3788" width="0.3048" layer="1" curve="-90"/>
 <wire x1="32.9692" y1="84.3788" x2="36.0172" y2="81.3308" width="0.3048" layer="1" curve="-90"/>
@@ -4037,11 +4185,11 @@ design rules under a new name.</description>
 <contactref element="R3" pad="2"/>
 <contactref element="TRANSFORMER" pad="1"/>
 <wire x1="18.6944" y1="66.9036" x2="20.9042" y2="64.6938" width="0.3048" layer="1" curve="-90"/>
-<wire x1="20.9042" y1="56.9724" x2="22.7076" y2="55.169" width="0.3048" layer="1" curve="90"/>
+<wire x1="20.9042" y1="56.9724" x2="22.7076" y2="55.076" width="0.3048" layer="1" curve="90"/>
 <wire x1="20.9042" y1="64.6938" x2="20.9042" y2="56.9724" width="0.3048" layer="1"/>
-<wire x1="22.7076" y1="55.169" x2="22.7626" y2="55.114" width="0.3048" layer="1" curve="-90"/>
+<wire x1="22.7076" y1="55.076" x2="22.7626" y2="55.114" width="0.3048" layer="1" curve="-90"/>
 <wire x1="24.027" y1="55.114" x2="22.7626" y2="55.114" width="0.3048" layer="1"/>
-<wire x1="22.7626" y1="55.114" x2="22.7076" y2="55.169" width="0.3048" layer="1" curve="-90"/>
+<wire x1="22.7626" y1="55.114" x2="22.7076" y2="55.076" width="0.3048" layer="1" curve="-90"/>
 </signal>
 <signal name="IM">
 <contactref element="SPI" pad="9"/>
@@ -4051,8 +4199,8 @@ design rules under a new name.</description>
 <wire x1="21.59" y1="64.7192" x2="21.59" y2="57.3532" width="0.3048" layer="1"/>
 <wire x1="21.59" y1="57.3532" x2="21.59" y2="56.769" width="0.3048" layer="1"/>
 <wire x1="21.59" y1="56.769" x2="22.276" y2="56.083" width="0.3048" layer="1" curve="90"/>
-<wire x1="22.276" y1="56.083" x2="22.7076" y2="56.083" width="0.3048" layer="1"/>
-<wire x1="22.7076" y1="56.083" x2="23.558" y2="56.083" width="0.3048" layer="1"/>
+<wire x1="22.276" y1="56.083" x2="22.7076" y2="56.176" width="0.3048" layer="1"/>
+<wire x1="22.7076" y1="56.176" x2="23.558" y2="56.083" width="0.3048" layer="1"/>
 <wire x1="23.558" y1="56.083" x2="24.027" y2="55.614" width="0.3048" layer="1" curve="-90"/>
 </signal>
 <signal name="N$10">
@@ -4070,14 +4218,14 @@ design rules under a new name.</description>
 <signal name="IPOUT">
 <contactref element="R36" pad="2"/>
 <contactref element="TRANSFORMER" pad="6"/>
-<wire x1="19.8032" y1="78.7908" x2="19.8032" y2="78.1724" width="0.3048" layer="1"/>
-<wire x1="19.8032" y1="78.1724" x2="18.6944" y2="77.0636" width="0.3048" layer="1" curve="-90"/>
+<wire x1="19.812" y1="78.7742" x2="19.812" y2="78.1812" width="0.3048" layer="1"/>
+<wire x1="19.812" y1="78.1812" x2="18.6944" y2="77.0636" width="0.3048" layer="1" curve="-90"/>
 </signal>
 <signal name="IMOUT">
 <contactref element="R39" pad="1"/>
 <contactref element="TRANSFORMER" pad="4"/>
-<wire x1="22.5894" y1="78.7908" x2="22.5894" y2="78.2486" width="0.3048" layer="1"/>
-<wire x1="22.5894" y1="78.2486" x2="23.7744" y2="77.0636" width="0.3048" layer="1" curve="90"/>
+<wire x1="22.5298" y1="78.7742" x2="22.5298" y2="78.3082" width="0.3048" layer="1"/>
+<wire x1="22.5298" y1="78.3082" x2="23.7744" y2="77.0636" width="0.3048" layer="1" curve="90"/>
 </signal>
 <signal name="N$11">
 <contactref element="SPI" pad="15"/>
@@ -4326,27 +4474,24 @@ design rules under a new name.</description>
 <contactref element="R37" pad="1"/>
 <contactref element="JP1" pad="1"/>
 <contactref element="D1" pad="1"/>
-<wire x1="15.8526" y1="82.55" x2="15.8496" y2="82.553" width="0.3048" layer="1"/>
-<wire x1="19.9644" y1="81.3308" x2="18.7032" y2="80.0696" width="0.3048" layer="1" curve="90"/>
-<wire x1="18.7032" y1="80.0696" x2="18.7032" y2="78.7908" width="0.3048" layer="1"/>
 <wire x1="16.6116" y1="81.0934" x2="16.849" y2="81.3308" width="0.3048" layer="1" curve="-90"/>
-<wire x1="16.849" y1="81.3308" x2="19.9644" y2="81.3308" width="0.3048" layer="1"/>
-<wire x1="15.8526" y1="82.55" x2="18.7452" y2="82.55" width="0.3048" layer="1"/>
-<wire x1="18.7452" y1="82.55" x2="19.9644" y2="81.3308" width="0.3048" layer="1" curve="-90"/>
+<wire x1="16.849" y1="81.3308" x2="19.8374" y2="81.3308" width="0.3048" layer="1"/>
+<wire x1="15.8526" y1="82.55" x2="18.6182" y2="82.55" width="0.3048" layer="1"/>
+<wire x1="18.6182" y1="82.55" x2="19.8374" y2="81.3308" width="0.3048" layer="1" curve="-90"/>
+<wire x1="19.812" y1="79.8742" x2="19.8374" y2="79.8996" width="0.3048" layer="1"/>
+<wire x1="19.8374" y1="81.3308" x2="19.8374" y2="79.8996" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$40">
 <contactref element="R38" pad="1"/>
 <contactref element="R39" pad="2"/>
 <contactref element="JP2" pad="1"/>
 <contactref element="D2" pad="1"/>
-<wire x1="23.6894" y1="78.7908" x2="23.6894" y2="80.2982" width="0.3048" layer="1"/>
-<wire x1="23.6894" y1="80.2982" x2="22.6568" y2="81.3308" width="0.3048" layer="1" curve="90"/>
-<wire x1="22.6568" y1="81.3308" x2="25.696" y2="81.3308" width="0.3048" layer="1"/>
-<wire x1="25.696" y1="81.3308" x2="25.8318" y2="81.195" width="0.3048" layer="1" curve="-90"/>
-<wire x1="25.8318" y1="81.195" x2="25.8318" y2="81.2068" width="0.3048" layer="1"/>
 <wire x1="28.5974" y1="82.6008" x2="28.318" y2="82.3214" width="0.3048" layer="1" curve="-90"/>
-<wire x1="23.6474" y1="82.3214" x2="22.6568" y2="81.3308" width="0.3048" layer="1" curve="90"/>
-<wire x1="28.318" y1="82.3214" x2="23.6474" y2="82.3214" width="0.3048" layer="1"/>
+<wire x1="23.5204" y1="82.3214" x2="22.5298" y2="81.3308" width="0.3048" layer="1" curve="90"/>
+<wire x1="28.318" y1="82.3214" x2="23.5204" y2="82.3214" width="0.3048" layer="1"/>
+<wire x1="22.5298" y1="81.3308" x2="22.5298" y2="79.8742" width="0.3048" layer="1"/>
+<wire x1="22.5298" y1="81.3308" x2="22.85765" y2="81.195" width="0.3048" layer="1" curve="45"/>
+<wire x1="22.85765" y1="81.195" x2="25.8318" y2="81.195" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$4">
 <via x="31.5976" y="12.8524" extent="1-16" drill="0.35"/>
@@ -4370,6 +4515,11 @@ which will not be processed correctly with this version.
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
