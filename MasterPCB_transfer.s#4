@@ -20721,16 +20721,6 @@ to the node at this segment of the board</text>
 <wire x1="281.94" y1="838.2" x2="281.94" y2="840.74" width="0.1524" layer="91"/>
 <label x="276.86" y="843.28" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="Z15" gate="Z$1" pin="1"/>
-<wire x1="871.22" y1="701.04" x2="876.3" y2="701.04" width="0.1524" layer="91"/>
-<label x="876.3" y="698.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Z16" gate="Z$1" pin="1"/>
-<wire x1="1000.76" y1="701.04" x2="1005.84" y2="701.04" width="0.1524" layer="91"/>
-<label x="1005.84" y="698.5" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="N$33" class="0">
 <segment>
@@ -26072,6 +26062,11 @@ to the node at this segment of the board</text>
 <wire x1="1003.3" y1="629.92" x2="1003.3" y2="627.38" width="0.1524" layer="91"/>
 <label x="1003.3" y="624.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="Z15" gate="Z$1" pin="1"/>
+<wire x1="871.22" y1="701.04" x2="876.3" y2="701.04" width="0.1524" layer="91"/>
+<label x="876.3" y="698.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="FB1_10" class="0">
 <segment>
@@ -26161,6 +26156,11 @@ to the node at this segment of the board</text>
 <pinref part="R315" gate="G$1" pin="1"/>
 <wire x1="934.72" y1="502.92" x2="934.72" y2="500.38" width="0.1524" layer="91"/>
 <label x="924.56" y="497.84" size="1.778" layer="95" rot="MR180"/>
+</segment>
+<segment>
+<pinref part="Z16" gate="Z$1" pin="1"/>
+<wire x1="1000.76" y1="701.04" x2="1005.84" y2="701.04" width="0.1524" layer="91"/>
+<label x="1005.84" y="698.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GATE2_10" class="0">

@@ -6571,15 +6571,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 <sheet>
 <description>Strain Gauge ADC</description>
 <plain>
-<text x="66.04" y="508" size="1.778" layer="97">2x 16 bit differential single frame capture SAR ADCs that are dedicated for measuring simultaneous outputs from strain gauges.
-
-Input signal flow
-Analog signal -&gt; High input impedance buffer -&gt; Low pass filter BW@~200 hz -&gt; High input impedance buffer -&gt; Digitizing
-
-The ADC also applies a 3rd order low pass filter with built in oversampling functionalty.
-
-Communication occurs thorugh a serial line.</text>
-<rectangle x1="63.5" y1="495.3" x2="213.36" y2="530.86" layer="98"/>
 <text x="210.82" y="228.6" size="1.778" layer="97">From data sheet for split plane conditioning</text>
 <wire x1="208.28" y1="233.68" x2="208.28" y2="226.06" width="0.1524" layer="94"/>
 <wire x1="208.28" y1="226.06" x2="261.62" y2="226.06" width="0.1524" layer="94"/>
@@ -8785,15 +8776,6 @@ Communication occurs thorugh a serial line.</text>
 <sheet>
 <description>General and accelerometer ADC</description>
 <plain>
-<text x="30.48" y="233.68" size="1.778" layer="97">2x 16 bit differential single frame capture SAR ADCs that are dedicated for measuring simultaneous outputs from strain gauges.
-
-Input signal flow
-Analog signal -&gt; High input impedance buffer -&gt; Low pass filter BW@~200 hz -&gt; High input impedance buffer -&gt; scale input within 5v range -&gt; Digitizing
-
-The ADC also applies a 3rd order low pass filter with built in oversampling functionalty.
-
-Communication occurs thorugh a serial line.</text>
-<rectangle x1="25.4" y1="226.06" x2="180.34" y2="261.62" layer="98"/>
 <text x="111.76" y="170.18" size="1.778" layer="97">Filter @300hz  with 5/12 reduction</text>
 <wire x1="109.22" y1="175.26" x2="109.22" y2="167.64" width="0.1524" layer="94"/>
 <wire x1="109.22" y1="167.64" x2="152.4" y2="167.64" width="0.1524" layer="94"/>

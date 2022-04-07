@@ -14731,12 +14731,13 @@ and inrush current resistor</text>
 <wire x1="10.16" y1="967.74" x2="495.3" y2="967.74" width="0.1524" layer="94"/>
 <wire x1="495.3" y1="967.74" x2="495.3" y2="911.86" width="0.1524" layer="94"/>
 <wire x1="495.3" y1="911.86" x2="10.16" y2="911.86" width="0.1524" layer="94"/>
-<text x="-38.1" y="937.26" size="1.778" layer="97">Single ended digital inputs
-Splice GND node between 2 sensors</text>
-<wire x1="-40.64" y1="944.88" x2="-40.64" y2="934.72" width="0.1524" layer="94"/>
-<wire x1="-40.64" y1="934.72" x2="5.08" y2="934.72" width="0.1524" layer="94"/>
+<text x="-45.72" y="937.26" size="1.778" layer="97">Single ended digital inputs
+Splice GND node between 2 sensors
+2 sensors share same short circuit protection</text>
+<wire x1="-48.26" y1="944.88" x2="-48.26" y2="934.72" width="0.1524" layer="94"/>
+<wire x1="-48.26" y1="934.72" x2="5.08" y2="934.72" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="934.72" x2="5.08" y2="944.88" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="944.88" x2="-40.64" y2="944.88" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="944.88" x2="-48.26" y2="944.88" width="0.1524" layer="94"/>
 <text x="-43.18" y="76.2" size="1.778" layer="97">Visual indicator that power is available 
 to the node at this segment of the board</text>
 <wire x1="-45.72" y1="83.82" x2="-45.72" y2="73.66" width="0.1524" layer="94"/>
