@@ -6560,12 +6560,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 <part name="U$8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
-<part name="U$11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
-<part name="U$16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -27241,12 +27239,10 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <instance part="U$8" gate="G$1" x="-38.1" y="132.08" smashed="yes"/>
 <instance part="U$9" gate="G$1" x="-40.64" y="132.08" smashed="yes"/>
 <instance part="U$10" gate="G$1" x="-43.18" y="132.08" smashed="yes"/>
-<instance part="U$11" gate="G$1" x="-45.72" y="132.08" smashed="yes"/>
 <instance part="U$12" gate="G$1" x="-48.26" y="132.08" smashed="yes"/>
 <instance part="U$13" gate="G$1" x="-50.8" y="132.08" smashed="yes"/>
 <instance part="U$14" gate="G$1" x="-53.34" y="132.08" smashed="yes"/>
 <instance part="U$15" gate="G$1" x="-25.4" y="132.08" smashed="yes"/>
-<instance part="U$16" gate="G$1" x="-27.94" y="132.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>

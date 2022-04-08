@@ -25578,13 +25578,6 @@ to the node at this segment of the board</text>
 <label x="706.12" y="624.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ADIN1_9" class="0">
-<segment>
-<pinref part="D39" gate="G$1" pin="K"/>
-<wire x1="624.84" y1="695.96" x2="624.84" y2="698.5" width="0.1524" layer="91"/>
-<label x="627.38" y="698.5" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="ADIN2_9_POWER_TEMP3" class="0">
 <segment>
 <pinref part="IC16" gate="G$1" pin="ADIN2"/>
@@ -25595,6 +25588,11 @@ to the node at this segment of the board</text>
 <pinref part="Z13" gate="Z$1" pin="2"/>
 <wire x1="599.44" y1="688.34" x2="599.44" y2="683.26" width="0.1524" layer="91"/>
 <label x="591.82" y="675.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D39" gate="G$1" pin="K"/>
+<wire x1="624.84" y1="695.96" x2="624.84" y2="698.5" width="0.1524" layer="91"/>
+<label x="627.38" y="698.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GPIO2_9" class="0">

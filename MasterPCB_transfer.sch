@@ -7043,11 +7043,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 <attribute name="VALUE" x="203.2" y="50.8" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="C13" gate="G$1" x="220.98" y="393.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="214.63" y="402.59" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="NAME" x="222.25" y="389.89" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="217.17" y="402.59" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="C1" gate="G$1" x="228.6" y="393.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="222.25" y="402.59" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="NAME" x="227.33" y="389.89" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="224.79" y="402.59" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="C16" gate="G$1" x="226.06" y="160.02" smashed="yes" rot="R90">
