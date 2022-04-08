@@ -10360,10 +10360,10 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" x="101.427025" y="-135.66495625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="101.427025" y="-135.66495625" size="0.6096" layer="25" rot="R90" align="center"/>
 </element>
-<element name="J9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SAMTEC_SSM-109-L-SV" package3d_urn="urn:adsk.eagle:package:34729422/5" value="SSM-109-L-SV" x="140.208" y="45.466" smashed="yes" rot="MR0">
-<attribute name="MANUFACTURER" value="SAMTEC " x="140.208" y="45.466" size="0.6096" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="152.638" y="49.036" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="152.638" y="40.646" size="1.27" layer="28" rot="MR0"/>
+<element name="J9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SAMTEC_SSM-109-L-SV" package3d_urn="urn:adsk.eagle:package:34729422/5" value="SSM-109-L-SV" x="137.795" y="70.104" smashed="yes" rot="MR0">
+<attribute name="MANUFACTURER" value="SAMTEC " x="137.795" y="70.104" size="0.6096" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="150.225" y="73.674" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="150.225" y="65.284" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="U$5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="93.091" y="28.956" smashed="yes"/>
 <element name="U$6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="82.55" y="5.08" smashed="yes"/>
@@ -11658,7 +11658,7 @@ design rules under a new name.</description>
 <wire x1="171.069" y1="103.3526" x2="168.529" y2="116.0526" width="0" layer="19" extent="1-1"/>
 <wire x1="168.529" y1="131.2926" x2="168.529" y2="116.0526" width="0" layer="19" extent="1-1"/>
 <wire x1="171.069" y1="131.2926" x2="168.529" y2="131.2926" width="0" layer="19" extent="1-1"/>
-<wire x1="135.128" y1="47.0685" x2="156.6164" y2="50.5196" width="0" layer="19" extent="1-16"/>
+<wire x1="132.715" y1="71.7065" x2="156.6164" y2="50.5196" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="REGCAP2">
 <contactref element="IC51" pad="39"/>
@@ -13063,7 +13063,7 @@ design rules under a new name.</description>
 <contactref element="IC33" pad="5"/>
 <contactref element="C106" pad="2"/>
 <contactref element="J9" pad="02"/>
-<wire x1="135.5506" y1="20.2438" x2="132.588" y2="43.8635" width="0" layer="19" extent="1-16"/>
+<wire x1="135.5506" y1="20.2438" x2="130.175" y2="68.5015" width="0" layer="19" extent="1-16"/>
 <wire x1="140.7506" y1="20.2438" x2="135.5506" y2="20.2438" width="0" layer="19" extent="1-1"/>
 <wire x1="148.8684" y1="18.3642" x2="140.7506" y2="20.2438" width="0" layer="19" extent="1-1"/>
 <wire x1="153.960321875" y1="-44.434253125" x2="148.8684" y2="18.3642" width="0" layer="19" extent="1-1"/>
@@ -16727,7 +16727,7 @@ design rules under a new name.</description>
 <signal name="GPS_EN">
 <contactref element="J8" pad="39"/>
 <contactref element="J9" pad="08"/>
-<wire x1="127.445" y1="13.335" x2="147.828" y2="43.8635" width="0" layer="19" extent="16-16"/>
+<wire x1="127.445" y1="13.335" x2="145.415" y2="68.5015" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VBAT_NC">
 <contactref element="J9" pad="07"/>
@@ -16735,7 +16735,7 @@ design rules under a new name.</description>
 <signal name="GPS_TX">
 <contactref element="J8" pad="35"/>
 <contactref element="J9" pad="05"/>
-<wire x1="127.445" y1="15.875" x2="140.208" y2="47.0685" width="0" layer="19" extent="16-16"/>
+<wire x1="127.445" y1="15.875" x2="137.795" y2="71.7065" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="FIX_NC">
 <contactref element="J9" pad="06"/>
@@ -16743,7 +16743,7 @@ design rules under a new name.</description>
 <signal name="GPS_RX">
 <contactref element="J8" pad="37"/>
 <contactref element="J9" pad="04"/>
-<wire x1="127.445" y1="14.605" x2="137.668" y2="43.8635" width="0" layer="19" extent="16-16"/>
+<wire x1="127.445" y1="14.605" x2="135.255" y2="68.5015" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PPS_NC">
 <contactref element="J9" pad="01"/>
