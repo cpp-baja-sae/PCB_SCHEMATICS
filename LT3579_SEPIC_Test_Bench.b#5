@@ -2526,21 +2526,6 @@ design rules under a new name.</description>
 <contactref element="R_SHUNT_GND_2" pad="1"/>
 <contactref element="TP_CH_GND_2" pad="1"/>
 <contactref element="PMOS_REVERSE_V_PROTECTION" pad="4"/>
-<polygon width="0.127" layer="1" isolate="0.25">
-<vertex x="-0.235" y="0"/>
-<vertex x="-0.235" y="36.788946875" curve="-90"/>
-<vertex x="0.958653125" y="37.9826"/>
-<vertex x="5.1382125" y="37.9826" curve="-90"/>
-<vertex x="5.695" y="37.4258125"/>
-<vertex x="5.695" y="22.049"/>
-<vertex x="4.74745" y="21.10145" curve="45"/>
-<vertex x="3.8" y="18.814103125"/>
-<vertex x="3.8" y="11.1"/>
-<vertex x="4" y="10.9"/>
-<vertex x="11.346384375" y="10.9" curve="-90"/>
-<vertex x="12.793" y="9.453384375"/>
-<vertex x="12.793" y="0"/>
-</polygon>
 <via x="11.127" y="2.746" extent="1-16" drill="0.4"/>
 <via x="11.054" y="8.254" extent="1-16" drill="0.4"/>
 <via x="6.332" y="8.051" extent="1-16" drill="0.4"/>
@@ -2549,14 +2534,36 @@ design rules under a new name.</description>
 <via x="1.778" y="27.432" extent="1-16" drill="0.4"/>
 <via x="3.314" y="37.008" extent="1-16" drill="0.4"/>
 <polygon width="0.127" layer="16">
-<vertex x="18.796" y="62.357"/>
+<vertex x="17.8816" y="62.357"/>
 <vertex x="-0.254" y="62.357"/>
 <vertex x="-0.254" y="-0.127"/>
-<vertex x="18.796" y="-0.127"/>
+<vertex x="17.8816" y="-0.127"/>
 </polygon>
 <contactref element="C_LDO_IN_" pad="2"/>
 <contactref element="LDO_" pad="1"/>
 <contactref element="C_LDO_OUT_" pad="2"/>
+<polygon width="0.0762" layer="1">
+<vertex x="12.446" y="-0.3048"/>
+<vertex x="-0.2286" y="-0.3048"/>
+<vertex x="-0.2286" y="62.3824"/>
+<vertex x="12.7254" y="62.3824"/>
+<vertex x="12.7254" y="44.8818"/>
+<vertex x="6.9596" y="44.8818"/>
+<vertex x="6.9596" y="44.4754"/>
+<vertex x="6.9596" y="41.7068"/>
+<vertex x="5.1562" y="41.7068"/>
+<vertex x="5.1562" y="22.5298"/>
+<vertex x="3.5814" y="22.5298"/>
+<vertex x="3.5814" y="10.922"/>
+<vertex x="12.446" y="10.922"/>
+</polygon>
+<via x="3.9116" y="31.6738" extent="1-16" drill="0.35"/>
+<via x="1.9558" y="21.1328" extent="1-16" drill="0.35"/>
+<via x="3.302" y="39.6748" extent="1-16" drill="0.35"/>
+<via x="1.9304" y="42.037" extent="1-16" drill="0.35"/>
+<via x="1.8542" y="44.45" extent="1-16" drill="0.35"/>
+<via x="1.905" y="47.752" extent="1-16" drill="0.35"/>
+<via x="3.4036" y="51.4096" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="FAULT_" class="3">
 <contactref element="LT3579_IC_" pad="4"/>
@@ -3587,34 +3594,17 @@ design rules under a new name.</description>
 <contactref element="LED_" pad="2"/>
 <contactref element="NMOS_LDO_" pad="2"/>
 <polygon width="0.1524" layer="16" isolate="0.25">
-<vertex x="19.193" y="62.373"/>
-<vertex x="19.1422" y="42.8498"/>
+<vertex x="20.2092" y="62.373"/>
+<vertex x="20.1584" y="42.8498"/>
 <vertex x="65.9342" y="42.8498"/>
 <vertex x="65.985" y="62.373"/>
 </polygon>
-<via x="3.4544" y="39.7256" extent="1-16" drill="0.35"/>
-<via x="1.8288" y="42.2402" extent="1-16" drill="0.35"/>
-<via x="1.8796" y="44.5262" extent="1-16" drill="0.35"/>
-<via x="1.9304" y="47.752" extent="1-16" drill="0.35"/>
-<via x="3.429" y="51.435" extent="1-16" drill="0.35"/>
 <polygon width="0.127" layer="1" isolate="0.25" rank="2">
 <vertex x="14.0692" y="62.3762"/>
 <vertex x="65.677" y="62.3762"/>
 <vertex x="65.4992" y="42.853"/>
 <vertex x="14.8786125" y="42.853" curve="-90"/>
 <vertex x="14.0692" y="43.3322125"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="-0.0762" y="38.3794"/>
-<vertex x="5.06333125" y="38.3794" curve="90"/>
-<vertex x="5.4102" y="38.72626875"/>
-<vertex x="5.4102" y="44.437725" curve="-90"/>
-<vertex x="5.879675" y="44.9072"/>
-<vertex x="9.715984375" y="44.9072" curve="90"/>
-<vertex x="10.1346" y="45.325815625"/>
-<vertex x="10.1346" y="61.938228125" curve="90"/>
-<vertex x="9.538028125" y="62.5348"/>
-<vertex x="-0.0762" y="62.5348"/>
 </polygon>
 <via x="23.0124" y="50.4952" extent="1-16" drill="0.35"/>
 <via x="29.0576" y="60.452" extent="1-16" drill="0.35"/>
@@ -3726,6 +3716,12 @@ design rules under a new name.</description>
 <via x="58.0136" y="27.5082" extent="1-16" drill="0.35"/>
 <via x="58.0136" y="24.765" extent="1-16" drill="0.35"/>
 <via x="50.1142" y="26.5684" extent="1-16" drill="0.35"/>
+<polygon width="0.0762" layer="1">
+<vertex x="40.4622" y="33.8074"/>
+<vertex x="40.4622" y="29.5148"/>
+<vertex x="43.2308" y="29.5148"/>
+<vertex x="43.2308" y="33.8074"/>
+</polygon>
 </signal>
 <signal name="GND_2">
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="8"/>

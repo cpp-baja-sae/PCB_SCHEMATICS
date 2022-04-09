@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -2529,8 +2529,8 @@ design rules under a new name.</description>
 <polygon width="0.127" layer="1" isolate="0.25">
 <vertex x="-0.235" y="0"/>
 <vertex x="-0.235" y="36.788946875" curve="-90"/>
-<vertex x="0.857053125" y="37.881"/>
-<vertex x="5.2398125" y="37.881" curve="-90"/>
+<vertex x="0.958653125" y="37.9826"/>
+<vertex x="5.1382125" y="37.9826" curve="-90"/>
 <vertex x="5.695" y="37.4258125"/>
 <vertex x="5.695" y="22.049"/>
 <vertex x="4.74745" y="21.10145" curve="45"/>
@@ -3562,7 +3562,6 @@ design rules under a new name.</description>
 <contactref element="R_SHUNT_GND_" pad="2"/>
 <contactref element="TP_GND_" pad="1"/>
 <contactref element="LT3579_IC_" pad="20"/>
-<contactref element="LDO_" pad="1"/>
 <contactref element="R_UVLO2_" pad="1"/>
 <contactref element="C_SS_" pad="2"/>
 <contactref element="C_F_" pad="2"/>
@@ -3630,16 +3629,6 @@ design rules under a new name.</description>
 <wire x1="62.8674" y1="33.3502" x2="62.8674" y2="33.3454" width="0.816" layer="16"/>
 <wire x1="62.8674" y1="33.3454" x2="61.4794" y2="33.3454" width="0.816" layer="16"/>
 <wire x1="61.4794" y1="33.3454" x2="61.454" y2="33.32" width="0.816" layer="16"/>
-<polygon width="0.1016" layer="2">
-<vertex x="-0.254" y="62.3062"/>
-<vertex x="65.3796" y="62.3062"/>
-<vertex x="65.5574" y="42.8244"/>
-<vertex x="6.294040625" y="42.8244" curve="90"/>
-<vertex x="5.5118" y="41.635759375"/>
-<vertex x="5.5118" y="39.06093125" curve="-90"/>
-<vertex x="4.77946875" y="38.3286"/>
-<vertex x="-0.254" y="38.3286"/>
-</polygon>
 <via x="26.67" y="60.4266" extent="1-16" drill="0.35"/>
 <via x="24.0284" y="55.9308" extent="1-16" drill="0.35"/>
 <via x="23.9776" y="54.0258" extent="1-16" drill="0.35"/>
@@ -3660,6 +3649,14 @@ design rules under a new name.</description>
 <via x="62.23" y="47.4726" extent="1-16" drill="0.35"/>
 <via x="62.3062" y="50.1904" extent="1-16" drill="0.35"/>
 <via x="62.1538" y="52.6542" extent="1-16" drill="0.35"/>
+<polygon width="0.0762" layer="1" thermals="no" rank="2">
+<vertex x="39.7002" y="48.26"/>
+<vertex x="39.7002" y="53.7464"/>
+<vertex x="40.259" y="54.3052"/>
+<vertex x="41.9354" y="54.3052"/>
+<vertex x="42.3926" y="53.848"/>
+<vertex x="42.3926" y="48.26"/>
+</polygon>
 </signal>
 <signal name="GND_1">
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="10"/>
@@ -3803,6 +3800,9 @@ design rules under a new name.</description>
 <via x="41.529" y="15.1638" extent="1-16" drill="0.35"/>
 <via x="42.7228" y="15.1384" extent="1-16" drill="0.35"/>
 <via x="43.8404" y="15.1638" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="CHASIS_GND">
+<contactref element="LDO_" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
