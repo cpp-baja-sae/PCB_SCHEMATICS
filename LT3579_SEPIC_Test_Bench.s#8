@@ -1854,39 +1854,6 @@ up to 125°C ambient.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1" urn="urn:adsk.eagle:library:371">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
- GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
- Please keep in mind, that these devices are necessary for the
- automatic wiring of the supply signals.&lt;p&gt;
- The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
- In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SAMTEC-CLP-102-02-X-D">
 <packages>
 <package name="SAMTEC-CLP-102-02-X-D">
@@ -2492,7 +2459,6 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <part name="C_DEC_CH_GND_1" library="SamacSys_Parts" deviceset="CGA4F4C0G2W222J085AE" device=""/>
 <part name="C_DEC_CH_GND_2" library="SamacSys_Parts" deviceset="CGADN3X7R1E476M230LE" device=""/>
 <part name="12P_OUTPUT_CONNECTOR1" library="SamacSys_Parts" deviceset="CLP-106-02-F-D" device=""/>
-<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R_10K_FILTER_" library="AC0805DR-0710KL" deviceset="AC0805DR-0710KL" device=""/>
 <part name="R_5K_FILTER_\" library="SamacSys_Parts" deviceset="RT1206BRD075KL" device=""/>
 <part name="C_68N_FILTER_" library="SamacSys_Parts" deviceset="CEU4J2X7R1H683K125AE" device=""/>
@@ -2610,9 +2576,6 @@ For bolt size of 0.12"</text>
 <attribute name="NAME" x="29.21" y="40.64" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="29.21" y="38.1" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="GND2" gate="1" x="63.5" y="27.94" smashed="yes">
-<attribute name="VALUE" x="66.04" y="30.48" size="1.778" layer="96"/>
-</instance>
 <instance part="PMOS_REVERSE_V_PROTECTION" gate="G$1" x="45.72" y="-17.78" smashed="yes" rot="R90">
 <attribute name="VALUE" x="34.29" y="-8.89" size="1.778" layer="96"/>
 <attribute name="NAME" x="49.53" y="-24.13" size="1.778" layer="95"/>
@@ -2633,21 +2596,6 @@ For bolt size of 0.12"</text>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
-<segment>
-<pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="8"/>
-<wire x1="50.8" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="10"/>
-<wire x1="50.8" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="27.94" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="12"/>
-<wire x1="50.8" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="33.02" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="30.48" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<junction x="55.88" y="30.48"/>
-</segment>
-</net>
 <net name="VIN" class="4">
 <segment>
 <pinref part="C_DEC_CH_GND_1" gate="G$1" pin="2"/>
@@ -2770,6 +2718,27 @@ For bolt size of 0.12"</text>
 <pinref part="PMOS_REVERSE_V_PROTECTION" gate="G$1" pin="D1"/>
 <wire x1="50.8" y1="-15.24" x2="58.42" y2="-15.24" width="0.1524" layer="91"/>
 <label x="58.42" y="-15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND_" class="0">
+<segment>
+<pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="12"/>
+<wire x1="50.8" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<label x="55.88" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND_1" class="0">
+<segment>
+<pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="10"/>
+<wire x1="50.8" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
+<label x="55.88" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND_2" class="0">
+<segment>
+<pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="8"/>
+<wire x1="50.8" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
+<label x="55.88" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
