@@ -6560,12 +6560,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 <part name="U$8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
-<part name="U$11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
-<part name="U$16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -20588,16 +20586,6 @@ to the node at this segment of the board</text>
 <label x="162.56" y="769.62" size="1.778" layer="95" rot="MR180"/>
 </segment>
 <segment>
-<pinref part="Z27" gate="Z$1" pin="1"/>
-<wire x1="347.98" y1="947.42" x2="353.06" y2="947.42" width="0.1524" layer="91"/>
-<label x="350.52" y="949.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Z28" gate="Z$1" pin="1"/>
-<wire x1="477.52" y1="947.42" x2="482.6" y2="947.42" width="0.1524" layer="91"/>
-<label x="480.06" y="949.96" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R424" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="876.3" x2="309.88" y2="876.3" width="0.1524" layer="91"/>
 <label x="309.88" y="878.84" size="1.778" layer="95" rot="R180"/>
@@ -20641,16 +20629,6 @@ to the node at this segment of the board</text>
 <pinref part="R443" gate="G$1" pin="2"/>
 <wire x1="436.88" y1="767.08" x2="436.88" y2="769.62" width="0.1524" layer="91"/>
 <label x="426.72" y="772.16" size="1.778" layer="95" rot="MR180"/>
-</segment>
-<segment>
-<pinref part="Z27" gate="Z$1" pin="4"/>
-<wire x1="322.58" y1="947.42" x2="317.5" y2="947.42" width="0.1524" layer="91"/>
-<label x="312.42" y="949.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Z28" gate="Z$1" pin="4"/>
-<wire x1="452.12" y1="947.42" x2="447.04" y2="947.42" width="0.1524" layer="91"/>
-<label x="441.96" y="949.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R445" gate="G$1" pin="1"/>
@@ -26246,9 +26224,14 @@ to the node at this segment of the board</text>
 <label x="137.16" y="741.68" size="1.778" layer="95" rot="MR180"/>
 </segment>
 <segment>
-<pinref part="Z25" gate="Z$1" pin="1"/>
-<wire x1="83.82" y1="944.88" x2="88.9" y2="944.88" width="0.1524" layer="91"/>
-<label x="86.36" y="947.42" size="1.778" layer="95"/>
+<pinref part="Z26" gate="Z$1" pin="4"/>
+<wire x1="187.96" y1="944.88" x2="182.88" y2="944.88" width="0.1524" layer="91"/>
+<label x="177.8" y="947.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Z26" gate="Z$1" pin="1"/>
+<wire x1="213.36" y1="944.88" x2="218.44" y2="944.88" width="0.1524" layer="91"/>
+<label x="215.9" y="947.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO2_11" class="0">
@@ -26288,6 +26271,11 @@ to the node at this segment of the board</text>
 <pinref part="Z25" gate="Z$1" pin="4"/>
 <wire x1="58.42" y1="944.88" x2="53.34" y2="944.88" width="0.1524" layer="91"/>
 <label x="48.26" y="947.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Z25" gate="Z$1" pin="1"/>
+<wire x1="83.82" y1="944.88" x2="88.9" y2="944.88" width="0.1524" layer="91"/>
+<label x="86.36" y="947.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GATE2_11" class="0">
@@ -26519,9 +26507,14 @@ to the node at this segment of the board</text>
 <label x="363.22" y="886.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Z26" gate="Z$1" pin="4"/>
-<wire x1="187.96" y1="944.88" x2="182.88" y2="944.88" width="0.1524" layer="91"/>
-<label x="177.8" y="947.42" size="1.778" layer="95"/>
+<pinref part="Z27" gate="Z$1" pin="4"/>
+<wire x1="322.58" y1="947.42" x2="317.5" y2="947.42" width="0.1524" layer="91"/>
+<label x="312.42" y="949.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Z27" gate="Z$1" pin="1"/>
+<wire x1="347.98" y1="947.42" x2="353.06" y2="947.42" width="0.1524" layer="91"/>
+<label x="350.52" y="949.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GATE1_12" class="0">
@@ -26649,9 +26642,14 @@ to the node at this segment of the board</text>
 <label x="482.6" y="772.16" size="1.778" layer="95" rot="MR180"/>
 </segment>
 <segment>
-<pinref part="Z26" gate="Z$1" pin="1"/>
-<wire x1="213.36" y1="944.88" x2="218.44" y2="944.88" width="0.1524" layer="91"/>
-<label x="215.9" y="947.42" size="1.778" layer="95"/>
+<pinref part="Z28" gate="Z$1" pin="4"/>
+<wire x1="452.12" y1="947.42" x2="447.04" y2="947.42" width="0.1524" layer="91"/>
+<label x="441.96" y="949.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Z28" gate="Z$1" pin="1"/>
+<wire x1="477.52" y1="947.42" x2="482.6" y2="947.42" width="0.1524" layer="91"/>
+<label x="480.06" y="949.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GATE2_12" class="0">
@@ -27241,12 +27239,10 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <instance part="U$8" gate="G$1" x="-38.1" y="132.08" smashed="yes"/>
 <instance part="U$9" gate="G$1" x="-40.64" y="132.08" smashed="yes"/>
 <instance part="U$10" gate="G$1" x="-43.18" y="132.08" smashed="yes"/>
-<instance part="U$11" gate="G$1" x="-45.72" y="132.08" smashed="yes"/>
 <instance part="U$12" gate="G$1" x="-48.26" y="132.08" smashed="yes"/>
 <instance part="U$13" gate="G$1" x="-50.8" y="132.08" smashed="yes"/>
 <instance part="U$14" gate="G$1" x="-53.34" y="132.08" smashed="yes"/>
 <instance part="U$15" gate="G$1" x="-25.4" y="132.08" smashed="yes"/>
-<instance part="U$16" gate="G$1" x="-27.94" y="132.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
