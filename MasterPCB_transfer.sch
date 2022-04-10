@@ -13324,11 +13324,6 @@ Enable direct connection with 40G link</text>
 <wire x1="35.56" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
 <label x="33.02" y="114.3" size="1.778" layer="95" rot="R180"/>
 </segment>
-<segment>
-<pinref part="R516" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="111.76" x2="55.88" y2="111.76" width="0.1524" layer="91"/>
-<label x="55.88" y="111.76" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="ICMP" class="0">
 <segment>
@@ -13386,6 +13381,11 @@ Enable direct connection with 40G link</text>
 <pinref part="IC33" gate="G$1" pin="B_N"/>
 <wire x1="124.46" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
 <label x="127" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R516" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="111.76" x2="55.88" y2="111.76" width="0.1524" layer="91"/>
+<label x="55.88" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IP_OUT2" class="0">
