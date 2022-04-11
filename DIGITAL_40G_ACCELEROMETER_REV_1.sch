@@ -318,6 +318,20 @@
 <wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
 </package>
+<package name="RESC1005X40N" urn="urn:adsk.eagle:footprint:34740211/1" library_version="31">
+<text x="-0.95" y="-0.63" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-0.95" y="0.63" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="0.53" y1="-0.28" x2="-0.53" y2="-0.28" width="0.127" layer="51"/>
+<wire x1="0.53" y1="0.28" x2="-0.53" y2="0.28" width="0.127" layer="51"/>
+<wire x1="0.53" y1="-0.28" x2="0.53" y2="0.28" width="0.127" layer="51"/>
+<wire x1="-0.53" y1="-0.28" x2="-0.53" y2="0.28" width="0.127" layer="51"/>
+<wire x1="-0.95" y1="-0.55" x2="0.95" y2="-0.55" width="0.05" layer="39"/>
+<wire x1="-0.95" y1="0.55" x2="0.95" y2="0.55" width="0.05" layer="39"/>
+<wire x1="-0.95" y1="-0.55" x2="-0.95" y2="0.55" width="0.05" layer="39"/>
+<wire x1="0.95" y1="-0.55" x2="0.95" y2="0.55" width="0.05" layer="39"/>
+<smd name="1" x="-0.457" y="0" dx="0.49" dy="0.6" layer="1"/>
+<smd name="2" x="0.457" y="0" dx="0.49" dy="0.6" layer="1"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="BGA100C127P10X10_1500X1500X608" urn="urn:adsk.eagle:package:34555055/2" type="model" library_version="9">
@@ -360,6 +374,11 @@
 <description>&lt;b&gt;0402 (1005 metric)&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="CAPC1005X55N"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1005X40N" urn="urn:adsk.eagle:package:34740186/6" type="model" library_version="31">
+<packageinstances>
+<packageinstance name="RESC1005X40N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -560,6 +579,31 @@
 <text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="TNPW0402100RBYEP" urn="urn:adsk.eagle:symbol:34740212/1" library_version="31">
+<wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-0.635" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-1.905" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
+<text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="CRG0402ZR" urn="urn:adsk.eagle:symbol:34740184/1" library_version="31">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -904,6 +948,62 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 </device>
 </devices>
 </deviceset>
+<deviceset name="TNPW0402100RBYEP" urn="urn:adsk.eagle:component:34740213/6" prefix="R" uservalue="yes" library_version="31">
+<description> &lt;a href="https://pricing.snapeda.com/parts/TNPW0402100RBYEP/Vishay/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TNPW0402100RBYEP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34740186/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 100 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film "/>
+<attribute name="MF" value="Vishay"/>
+<attribute name="MP" value="TNPW0402100RBYEP"/>
+<attribute name="PACKAGE" value="1005 Stackpole"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TNPW0402100RBYEP/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRG0402ZR" urn="urn:adsk.eagle:component:34740187/6" prefix="R" library_version="31">
+<description>&lt;b&gt;0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data Sheet1773204JpdfEnglishENG_DS_1773204_J.pdf6-1622826-4"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRG0402ZR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34740186/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR" constant="no"/>
+<attribute name="HEIGHT" value="0.4mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402ZR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="279-CRG0402ZR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRG0402ZR?qs=n4i9pByFsMS7bfq5JAG5yw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
@@ -943,26 +1043,23 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="AS_FEMALE_5_PIN" urn="urn:adsk.eagle:footprint:34263749/3" library_version="89">
-<wire x1="22.479" y1="0" x2="-0.021" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.021" y1="0" x2="-0.021" y2="14.5" width="0.127" layer="21"/>
-<wire x1="-0.021" y1="14.5" x2="22.479" y2="14.5" width="0.127" layer="21"/>
-<wire x1="22.479" y1="14.5" x2="22.479" y2="0" width="0.127" layer="21"/>
-<circle x="11.229" y="7.25" radius="2.1" width="0.127" layer="21"/>
-<circle x="20.219" y="7.25" radius="1.35" width="0.0762" layer="21"/>
-<circle x="2.239" y="7.25" radius="1.35" width="0.0762" layer="21"/>
-<circle x="11.557" y="9.3218" radius="0.8636" width="0.127" layer="21"/>
-<circle x="11.229" y="7.25" radius="13.335" width="0.127" layer="21"/>
-<pad name="1" x="13.309" y="7.57" drill="0.75" diameter="1.4224" rot="R180"/>
-<pad name="2" x="11.559" y="9.32" drill="0.75" diameter="1.4224" rot="R180"/>
-<pad name="3" x="9.359" y="8.2" drill="0.75" diameter="1.4224" rot="R180"/>
-<pad name="4" x="9.749" y="5.77" drill="0.75" diameter="1.4224" rot="R180"/>
-<pad name="5" x="12.179" y="5.38" drill="0.75" diameter="1.4224" rot="R180"/>
-<text x="8.3144" y="1.3642" size="1.27" layer="25">&gt;NAME</text>
-<text x="7.8406" y="11.7334" size="1.27" layer="27">&gt;VALUE</text>
-<text x="14.4238" y="7.4514" size="0.4064" layer="21">GND</text>
-<hole x="20.229" y="7.25" drill="5"/>
-<hole x="2.229" y="7.25" drill="5"/>
+<package name="AS_FEMALE_5_PIN" urn="urn:adsk.eagle:footprint:34263749/4" library_version="138">
+<circle x="-0.071" y="0.05" radius="2.1" width="0.127" layer="21"/>
+<circle x="8.919" y="0.05" radius="1.35" width="0.0762" layer="21"/>
+<circle x="-9.061" y="0.05" radius="1.35" width="0.0762" layer="21"/>
+<circle x="0.257" y="2.1218" radius="0.8636" width="0.127" layer="21"/>
+<pad name="1" x="2.009" y="0.37" drill="0.75" diameter="1.4224" rot="R180"/>
+<pad name="2" x="0.259" y="2.12" drill="0.75" diameter="1.4224" rot="R180"/>
+<pad name="3" x="-1.941" y="1" drill="0.75" diameter="1.4224" rot="R180"/>
+<pad name="4" x="-1.551" y="-1.43" drill="0.75" diameter="1.4224" rot="R180"/>
+<pad name="5" x="0.879" y="-1.82" drill="0.75" diameter="1.4224" rot="R180"/>
+<text x="-2.9856" y="-5.8358" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.4594" y="4.5334" size="1.27" layer="27">&gt;VALUE</text>
+<text x="3.1238" y="0.2514" size="0.4064" layer="21">GND</text>
+<hole x="8.929" y="0.05" drill="5"/>
+<hole x="-9.071" y="0.05" drill="5"/>
+<wire x1="-11.269" y1="1.1" x2="11.2" y2="1.1" width="0.127" layer="21" curve="-123"/>
+<wire x1="-11.269" y1="-1" x2="11.2" y2="-1" width="0.127" layer="21" curve="123"/>
 </package>
 <package name="SOT230P700X180-4N" urn="urn:adsk.eagle:footprint:34485301/1" library_version="112">
 <description>&lt;b&gt;SOT223-3&lt;/b&gt;&lt;br&gt;
@@ -990,7 +1087,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 </package>
 </packages>
 <packages3d>
-<package3d name="AS_FEMALE_5_PIN" urn="urn:adsk.eagle:package:34263750/6" type="model" library_version="89">
+<package3d name="AS_FEMALE_5_PIN" urn="urn:adsk.eagle:package:34263750/8" type="model" library_version="138">
 <packageinstances>
 <packageinstance name="AS_FEMALE_5_PIN"/>
 </packageinstances>
@@ -1032,7 +1129,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AS_FEMALE_5_PIN" urn="urn:adsk.eagle:component:34263753/6" prefix="Z" library_version="89">
+<deviceset name="AS_FEMALE_5_PIN" urn="urn:adsk.eagle:component:34263753/8" prefix="Z" library_version="138">
 <gates>
 <gate name="Z$1" symbol="AS_FEMALE_5_PIN" x="0" y="0"/>
 </gates>
@@ -1046,7 +1143,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <connect gate="Z$1" pin="GND" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1086,129 +1183,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 </deviceset>
 </devicesets>
 </library>
-<library name="CRG0402ZR">
-<description>&lt;0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="RESC1005X40N">
-<description>&lt;b&gt;1SS389,L3F&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
-<smd name="2" x="0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.175" y1="0.55" x2="1.175" y2="0.55" width="0.05" layer="51"/>
-<wire x1="1.175" y1="0.55" x2="1.175" y2="-0.55" width="0.05" layer="51"/>
-<wire x1="1.175" y1="-0.55" x2="-1.175" y2="-0.55" width="0.05" layer="51"/>
-<wire x1="-1.175" y1="-0.55" x2="-1.175" y2="0.55" width="0.05" layer="51"/>
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
-<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CRG0402ZR">
-<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CRG0402ZR" prefix="R">
-<description>&lt;b&gt;0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data Sheet1773204JpdfEnglishENG_DS_1773204_J.pdf6-1622826-4"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CRG0402ZR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RESC1005X40N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="0 0402 Thick Film Surface Mount Fixed Resistor +/-0% 0.063W CRG0402ZR" constant="no"/>
-<attribute name="HEIGHT" value="0.4mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402ZR" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="279-CRG0402ZR" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRG0402ZR?qs=n4i9pByFsMS7bfq5JAG5yw%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="TNPW0402100RBYEP">
-<packages>
-<package name="RESC1005X40N">
-<text x="-0.95" y="-0.63" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-0.95" y="0.63" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="0.53" y1="-0.28" x2="-0.53" y2="-0.28" width="0.127" layer="51"/>
-<wire x1="0.53" y1="0.28" x2="-0.53" y2="0.28" width="0.127" layer="51"/>
-<wire x1="0.53" y1="-0.28" x2="0.53" y2="0.28" width="0.127" layer="51"/>
-<wire x1="-0.53" y1="-0.28" x2="-0.53" y2="0.28" width="0.127" layer="51"/>
-<wire x1="-0.95" y1="-0.55" x2="0.95" y2="-0.55" width="0.05" layer="39"/>
-<wire x1="-0.95" y1="0.55" x2="0.95" y2="0.55" width="0.05" layer="39"/>
-<wire x1="-0.95" y1="-0.55" x2="-0.95" y2="0.55" width="0.05" layer="39"/>
-<wire x1="0.95" y1="-0.55" x2="0.95" y2="0.55" width="0.05" layer="39"/>
-<smd name="1" x="-0.457" y="0" dx="0.49" dy="0.6" layer="1"/>
-<smd name="2" x="0.457" y="0" dx="0.49" dy="0.6" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TNPW0402100RBYEP">
-<wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="1.905" x2="-0.635" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
-<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
-<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="4.445" y1="-1.905" x2="5.08" y2="0" width="0.254" layer="94"/>
-<text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
-<text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
-<pin name="1" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
-<pin name="2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TNPW0402100RBYEP" prefix="R">
-<description> &lt;a href="https://pricing.snapeda.com/parts/TNPW0402100RBYEP/Vishay/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="TNPW0402100RBYEP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RESC1005X40N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" 100 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film "/>
-<attribute name="MF" value="Vishay"/>
-<attribute name="MP" value="TNPW0402100RBYEP"/>
-<attribute name="PACKAGE" value="1005 Stackpole"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TNPW0402100RBYEP/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1237,7 +1211,7 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Z1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/6"/>
+<part name="Z1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AS_FEMALE_5_PIN" device="" package3d_urn="urn:adsk.eagle:package:34263750/8"/>
 <part name="T1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="782482_33VC" device="" package3d_urn="urn:adsk.eagle:package:34608653/2"/>
 <part name="IC3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LDL1117S33R" device="" package3d_urn="urn:adsk.eagle:package:34485302/2"/>
 <part name="C1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="JMK107BB7475KA-T" device="" package3d_urn="urn:adsk.eagle:package:34029965/6"/>
@@ -1246,14 +1220,14 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="JMK107BB7475KA-T" device="" package3d_urn="urn:adsk.eagle:package:34029965/6"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R11" library="TNPW0402100RBYEP" deviceset="TNPW0402100RBYEP" device="" value="100"/>
+<part name="R11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="TNPW0402100RBYEP" device="" package3d_urn="urn:adsk.eagle:package:34740186/6" value="100"/>
 <part name="R12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="CPF0402B1K21E1" device="" package3d_urn="urn:adsk.eagle:package:34746415/2"/>
 <part name="R13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="CPF0402B1K21E1" device="" package3d_urn="urn:adsk.eagle:package:34746415/2"/>
 <part name="R14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="CPF0402B1K21E1" device="" package3d_urn="urn:adsk.eagle:package:34746415/2"/>
 <part name="R15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="ERA-2AEB7870X" device="" package3d_urn="urn:adsk.eagle:package:34746584/2"/>
 <part name="C4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="C0402C103J5RECAUTO" device="" package3d_urn="urn:adsk.eagle:package:34744484/2"/>
-<part name="R16" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
-<part name="R17" library="CRG0402ZR" deviceset="CRG0402ZR" device=""/>
+<part name="R16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="CRG0402ZR" device="" package3d_urn="urn:adsk.eagle:package:34740186/6"/>
+<part name="R17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="CRG0402ZR" device="" package3d_urn="urn:adsk.eagle:package:34740186/6"/>
 <part name="C5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="06035C270JAT2A" device="" package3d_urn="urn:adsk.eagle:package:34029965/6"/>
 <part name="C6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="06035C270JAT2A" device="" package3d_urn="urn:adsk.eagle:package:34029965/6"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>

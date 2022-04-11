@@ -1411,6 +1411,7 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <wire x1="175.26" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="104.14" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
 <label x="165.1" y="106.68" size="1.778" layer="95" rot="R180"/>
+<junction x="165.1" y="104.14"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -1677,14 +1678,14 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 </net>
 <net name="IP" class="0">
 <segment>
-<pinref part="Z1" gate="Z$1" pin="3"/>
-<wire x1="289.56" y1="116.84" x2="289.56" y2="109.22" width="0.1524" layer="91"/>
-<label x="287.02" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="T1" gate="G$1" pin="PRIMARY_1"/>
 <wire x1="292.1" y1="50.8" x2="276.86" y2="50.8" width="0.1524" layer="91"/>
 <label x="276.86" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Z1" gate="Z$1" pin="4"/>
+<wire x1="281.94" y1="129.54" x2="271.78" y2="129.54" width="0.1524" layer="91"/>
+<label x="271.78" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IM" class="0">
@@ -1694,9 +1695,9 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <label x="276.86" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Z1" gate="Z$1" pin="4"/>
-<wire x1="281.94" y1="129.54" x2="271.78" y2="129.54" width="0.1524" layer="91"/>
-<label x="271.78" y="129.54" size="1.778" layer="95"/>
+<pinref part="Z1" gate="Z$1" pin="3"/>
+<wire x1="289.56" y1="116.84" x2="289.56" y2="109.22" width="0.1524" layer="91"/>
+<label x="287.02" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12V" class="0">
