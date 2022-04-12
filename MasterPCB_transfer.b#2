@@ -72,7 +72,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXljcHAyMDk" projecturn="a.YnVzaW5lc3M6bXljcHAyMDkjRDIwMjAwNDAzMjgyNjY0NzA2" f3durn="urn:adsk.wipprod:dm.lineage:aqJsdtv9Rx27lS6l7Bl9_A" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="8bca59d1-f36a-4ef5-8f22-3a0c0e4c7969" lastsyncedrevisionid="8bca59d1-f36a-4ef5-8f22-3a0c0e4c7969" lastboardhashguid="0b5007aa-9dea-5180-16e2-0dc1a0a62b7f" lastpushedtime="2022-03-27T05:57:49Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXljcHAyMDk" projecturn="a.YnVzaW5lc3M6bXljcHAyMDkjRDIwMjAwNDAzMjgyNjY0NzA2" f3durn="urn:adsk.wipprod:dm.lineage:aqJsdtv9Rx27lS6l7Bl9_A" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="c237b375-4fd9-43c0-bddd-cbb451208bd1" lastsyncedrevisionid="c237b375-4fd9-43c0-bddd-cbb451208bd1" lastboardhashguid="3b1af3d7-56dc-8877-33df-8ade6132841f" lastpushedtime="2022-04-10T02:37:07Z" linktopcb3d="true"/>
 <plain>
 <wire x1="17.684978125" y1="0" x2="258.667021875" y2="0" width="0.1524" layer="20"/>
 <wire x1="267.444015625" y1="15.27761875" x2="185.599171875" y2="155.6455625" width="0.1524" layer="20"/>
@@ -2027,7 +2027,7 @@
 <packageinstance name="QFN50P200X155X50-10N"/>
 </packageinstances>
 </package3d>
-<package3d name="S35ML04G300WHI000" urn="urn:adsk.eagle:package:34851701/1" type="box" library_version="114">
+<package3d name="S35ML04G300WHI000" urn="urn:adsk.eagle:package:34851701/2" type="model" library_version="138">
 <packageinstances>
 <packageinstance name="S35ML04G300WHI000"/>
 </packageinstances>
@@ -8663,12 +8663,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="234.273853125" y="55.838090625" size="0.6096" layer="26" rot="MR0" align="center"/>
 </element>
 <element name="R452" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERJ2R_(0402)" package3d_urn="urn:adsk.eagle:package:34597292/2" value="ERJ-2RKF2002X" x="234.169965625" y="50.30850625" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Precision Thick Film Chip Resistor, 0402, 0.063W" x="2051.539965625" y="42.68850625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.4mm" x="2051.539965625" y="42.68850625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="2051.539965625" y="42.68850625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF2002X" x="2051.539965625" y="42.68850625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-2RKF2002X" x="2051.539965625" y="42.68850625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF2002X?qs=H7k1u0Mp9JTOxRcN%252B6dzQw%3D%3D" x="2051.539965625" y="42.68850625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Precision Thick Film Chip Resistor, 0402, 0.063W" x="0" y="42.68850625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="0" y="42.68850625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="0" y="42.68850625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF2002X" x="0" y="42.68850625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-2RKF2002X" x="0" y="42.68850625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF2002X?qs=H7k1u0Mp9JTOxRcN%252B6dzQw%3D%3D" x="0" y="42.68850625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="235.77829375" y="50.3755625" size="0.6096" layer="25" rot="R90" align="center"/>
 </element>
 <element name="LED79" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="LEDM168X65N" package3d_urn="urn:adsk.eagle:package:34606956/2" value="SMLD12BN1WT86" x="200.2256625" y="71.035925" smashed="yes" rot="MR90">
@@ -8771,12 +8771,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="218.277440625" y="82.189321875" size="0.6096" layer="26" rot="MR0" align="center"/>
 </element>
 <element name="R458" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERJ2R_(0402)" package3d_urn="urn:adsk.eagle:package:34597292/2" value="ERJ-2RKF2002X" x="217.825571875" y="78.3597625" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Precision Thick Film Chip Resistor, 0402, 0.063W" x="2065.675571875" y="70.7397625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.4mm" x="2065.675571875" y="70.7397625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="2065.675571875" y="70.7397625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF2002X" x="2065.675571875" y="70.7397625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-2RKF2002X" x="2065.675571875" y="70.7397625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF2002X?qs=H7k1u0Mp9JTOxRcN%252B6dzQw%3D%3D" x="2065.675571875" y="70.7397625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Precision Thick Film Chip Resistor, 0402, 0.063W" x="0" y="70.7397625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="0" y="70.7397625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="0" y="70.7397625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF2002X" x="0" y="70.7397625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-2RKF2002X" x="0" y="70.7397625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF2002X?qs=H7k1u0Mp9JTOxRcN%252B6dzQw%3D%3D" x="0" y="70.7397625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="219.047059375" y="78.049375" size="0.6096" layer="25" rot="R90" align="center"/>
 </element>
 <element name="LED85" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="182.680603125" y="127.5108" smashed="yes" rot="MR270">
@@ -8923,14 +8923,14 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="353.868225" y="77.73085" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="216.516203125" y="89.16085" size="0.6096" layer="26" rot="MR90" align="center"/>
 </element>
-<element name="LED93" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="184.72810625" y="145.353278125" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="51.186084375" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="1.3mm" x="51.186084375" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kingbright" x="51.186084375" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="51.186084375" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="51.186084375" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="51.186084375" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="184.72810625" y="145.603278125" size="0.6096" layer="26" rot="MR270" align="center"/>
+<element name="LED93" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="186.511440625" y="145.353278125" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="52.96941875" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="52.96941875" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="52.96941875" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="52.96941875" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="52.96941875" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="52.96941875" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="186.511440625" y="145.603278125" size="0.6096" layer="26" rot="MR270" align="center"/>
 </element>
 <element name="R467" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="185.5818" y="149.5145625" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="197.0118" y="279.246584375" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -8941,14 +8941,14 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="197.0118" y="279.246584375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="185.5818" y="149.5145625" size="0.6096" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="LED94" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="180.730653125" y="145.35048125" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="54.80863125" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="1.3mm" x="54.80863125" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kingbright" x="54.80863125" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="54.80863125" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="54.80863125" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="54.80863125" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="180.730653125" y="145.60048125" size="0.6096" layer="26" rot="MR270" align="center"/>
+<element name="LED94" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="182.5139875" y="145.35048125" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="56.591965625" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="56.591965625" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="56.591965625" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="56.591965625" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="56.591965625" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="56.591965625" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="182.5139875" y="145.60048125" size="0.6096" layer="26" rot="MR270" align="center"/>
 </element>
 <element name="R468" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="181.570375" y="149.51685" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="193.000375" y="271.628871875" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -8959,14 +8959,14 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="193.000375" y="271.628871875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="181.570375" y="149.51685" size="0.6096" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="LED95" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="176.725325" y="145.3388" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="58.423303125" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="1.3mm" x="58.423303125" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kingbright" x="58.423303125" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="58.423303125" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="58.423303125" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="58.423303125" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="176.725325" y="145.5888" size="0.6096" layer="26" rot="MR270" align="center"/>
+<element name="LED95" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="178.508659375" y="145.3388" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="60.2066375" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="60.2066375" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="60.2066375" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="60.2066375" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="60.2066375" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="60.2066375" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="178.508659375" y="145.5888" size="0.6096" layer="26" rot="MR270" align="center"/>
 </element>
 <element name="R469" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="177.573178125" y="149.50135" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="189.003178125" y="263.993371875" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -8977,14 +8977,14 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="189.003178125" y="263.993371875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="177.573178125" y="149.50135" size="0.6096" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="LED96" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="172.71695" y="145.33194375" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="64.873125" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="1.3mm" x="64.873125" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kingbright" x="64.873125" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="64.873125" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="64.873125" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="64.873125" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="172.71695" y="145.58194375" size="0.6096" layer="26" rot="MR270" align="center"/>
+<element name="LED96" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="174.500284375" y="145.33194375" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="66.656459375" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="66.656459375" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="66.656459375" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="66.656459375" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="66.656459375" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="66.656459375" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="174.500284375" y="145.58194375" size="0.6096" layer="26" rot="MR270" align="center"/>
 </element>
 <element name="R470" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="173.585884375" y="149.470109375" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="185.015884375" y="256.34213125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -9599,7 +9599,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRG0402ZR?qs=n4i9pByFsMS7bfq5JAG5yw%3D%3D" x="-94.551246875" y="58.695078125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="182.675528125" y="55.891175" size="0.6096" layer="26" rot="MR270" align="center"/>
 </element>
-<element name="IC34" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="153.540459375" y="49.314609375" smashed="yes" rot="MR90"/>
+<element name="IC34" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="153.540459375" y="49.314609375" smashed="yes" rot="MR90"/>
 <element name="IC55" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="QFN40P400X400X80-33N" package3d_urn="urn:adsk.eagle:package:34851815/2" value="MUX36S16IRSNR" x="107.83874375" y="63.08928125" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Precision 36V 8-Channel/16-Channel Single Ended CMOS Multiplexer" x="107.83874375" y="63.08928125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="0.8mm" x="107.83874375" y="63.08928125" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -9618,7 +9618,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="163.0276125" y="73.30338125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="163.0276125" y="72.33741875" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC35" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="140.840459375" y="49.314609375" smashed="yes" rot="MR90"/>
+<element name="IC35" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="140.840459375" y="49.314609375" smashed="yes" rot="MR90"/>
 <element name="C174" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="124.839471875" y="65.64935625" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="108.329471875" y="-127.44144375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="108.329471875" y="-127.44144375" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9628,7 +9628,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="108.329471875" y="-127.44144375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="124.839471875" y="65.64935625" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC36" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="128.140459375" y="49.314609375" smashed="yes" rot="MR90"/>
+<element name="IC36" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="128.140459375" y="49.314609375" smashed="yes" rot="MR90"/>
 <element name="C175" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="124.833628125" y="58.059071875" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="108.323628125" y="-117.251728125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="108.323628125" y="-117.251728125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9638,7 +9638,9 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="108.323628125" y="-117.251728125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="124.833628125" y="58.059071875" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC37" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="115.440459375" y="49.314609375" smashed="yes" rot="MR90"/>
+<element name="IC37" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="115.440459375" y="49.314609375" smashed="yes" rot="MR90">
+<attribute name="SPICEPREFIX" value="X" x="115.440459375" y="49.314609375" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
 <element name="C176" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="124.843534375" y="50.415703125" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="108.333534375" y="-107.115096875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="108.333534375" y="-107.115096875" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9648,7 +9650,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="108.333534375" y="-107.115096875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="124.843534375" y="50.415703125" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC39" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="153.540459375" y="56.934609375" smashed="yes" rot="MR90"/>
+<element name="IC39" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="153.540459375" y="56.934609375" smashed="yes" rot="MR90"/>
 <element name="C177" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="162.991796875" y="50.428659375" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="146.481796875" y="-43.602140625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="146.481796875" y="-43.602140625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9658,7 +9660,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="146.481796875" y="-43.602140625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="162.991796875" y="50.428659375" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC40" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="140.840459375" y="56.934609375" smashed="yes" rot="MR90"/>
+<element name="IC40" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="140.840459375" y="56.934609375" smashed="yes" rot="MR90"/>
 <element name="C178" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="163.000178125" y="58.078378125" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="129.980178125" y="-33.412421875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="129.980178125" y="-33.412421875" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9668,7 +9670,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="129.980178125" y="-33.412421875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="163.000178125" y="58.078378125" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC41" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="128.140459375" y="56.934609375" smashed="yes" rot="MR90"/>
+<element name="IC41" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="128.140459375" y="56.934609375" smashed="yes" rot="MR90"/>
 <element name="C179" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="163.00754375" y="65.66459375" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="113.47754375" y="-23.28620625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="113.47754375" y="-23.28620625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9678,7 +9680,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="113.47754375" y="-23.28620625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="163.00754375" y="65.66459375" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC42" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="115.440459375" y="56.934609375" smashed="yes" rot="MR90"/>
+<element name="IC42" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="115.440459375" y="56.934609375" smashed="yes" rot="MR90"/>
 <element name="C180" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="124.83668125" y="73.253353125" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="58.79668125" y="-13.157446875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="58.79668125" y="-13.157446875" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9688,7 +9690,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="58.79668125" y="-13.157446875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="124.83668125" y="73.253353125" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC43" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="153.540459375" y="64.554609375" smashed="yes" rot="MR90"/>
+<element name="IC43" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="153.540459375" y="64.554609375" smashed="yes" rot="MR90"/>
 <element name="C181" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="150.135334375" y="73.272146875" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="133.625334375" y="50.361346875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="133.625334375" y="50.361346875" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9698,7 +9700,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="133.625334375" y="50.361346875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="150.135334375" y="73.272146875" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC44" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="140.840459375" y="64.554609375" smashed="yes" rot="MR90"/>
+<element name="IC44" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="140.840459375" y="64.554609375" smashed="yes" rot="MR90"/>
 <element name="C182" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="137.51940625" y="73.300090625" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="84.17940625" y="50.389290625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="84.17940625" y="50.389290625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9708,7 +9710,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="84.17940625" y="50.389290625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="137.51940625" y="73.300090625" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC45" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="128.140459375" y="64.554609375" smashed="yes" rot="MR90"/>
+<element name="IC45" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="128.140459375" y="64.554609375" smashed="yes" rot="MR90"/>
 <element name="C183" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="150.135334375" y="65.641478125" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="100.605334375" y="45.270678125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="100.605334375" y="45.270678125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9718,7 +9720,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="100.605334375" y="45.270678125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="150.135334375" y="65.641478125" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC46" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="115.440459375" y="64.554609375" smashed="yes" rot="MR90"/>
+<element name="IC46" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="115.440459375" y="64.554609375" smashed="yes" rot="MR90"/>
 <element name="C184" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="137.51940625" y="65.651640625" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="51.15940625" y="45.280840625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="51.15940625" y="45.280840625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9728,7 +9730,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="51.15940625" y="45.280840625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="137.51940625" y="65.651640625" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC47" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="153.540459375" y="72.174609375" smashed="yes" rot="MR90"/>
+<element name="IC47" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="153.540459375" y="72.174609375" smashed="yes" rot="MR90"/>
 <element name="C185" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="150.165815625" y="58.097678125" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="67.615815625" y="40.266878125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="67.615815625" y="40.266878125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9738,7 +9740,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="67.615815625" y="40.266878125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="150.165815625" y="58.097678125" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC48" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="140.840459375" y="72.174609375" smashed="yes" rot="MR90"/>
+<element name="IC48" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="140.840459375" y="72.174609375" smashed="yes" rot="MR90"/>
 <element name="C186" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="137.502896875" y="58.019703125" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="18.122896875" y="40.188903125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="18.122896875" y="40.188903125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9748,7 +9750,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="18.122896875" y="40.188903125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="137.502896875" y="58.019703125" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC49" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="128.140459375" y="72.174609375" smashed="yes" rot="MR90"/>
+<element name="IC49" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="128.140459375" y="72.174609375" smashed="yes" rot="MR90"/>
 <element name="C187" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="150.234903125" y="50.471328125" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="34.664903125" y="35.180528125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="34.664903125" y="35.180528125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9758,7 +9760,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/CS0402KRX7R8BB104?qs=OCVh8QRf89CevdcE88rDSA%3D%3D" x="34.664903125" y="35.180528125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="150.234903125" y="50.471328125" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="IC50" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/1" value="S35ML04G300WHI000" x="115.440459375" y="72.174609375" smashed="yes" rot="MR90"/>
+<element name="IC50" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="S35ML04G300WHI000" package3d_urn="urn:adsk.eagle:package:34851701/2" value="S35ML04G300WHI000" x="115.440459375" y="72.174609375" smashed="yes" rot="MR90"/>
 <element name="C188" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC1005X65N" package3d_urn="urn:adsk.eagle:package:34596920/2" value="CS0402KRX7R8BB104" x="137.571984375" y="50.393353125" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="CS0402KRX7R8BB104" x="-14.828015625" y="35.102553125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="0.65mm" x="-14.828015625" y="35.102553125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -12150,7 +12152,7 @@ design rules under a new name.</description>
 <contactref element="LED93" pad="2"/>
 <contactref element="D84" pad="3"/>
 <wire x1="185.17666875" y1="144.6902625" x2="185.3445625" y2="146.85685625" width="0" layer="19" extent="1-1"/>
-<wire x1="184.72810625" y1="143.953278125" x2="185.17666875" y2="144.6902625" width="0" layer="19" extent="1-16"/>
+<wire x1="186.511440625" y1="143.953278125" x2="185.17666875" y2="144.6902625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$113">
 <contactref element="R42" pad="1"/>
@@ -12162,7 +12164,7 @@ design rules under a new name.</description>
 <contactref element="LED94" pad="2"/>
 <contactref element="D85" pad="3"/>
 <wire x1="181.826153125" y1="146.84745625" x2="183.174640625" y2="144.6788375" width="0" layer="19" extent="1-1"/>
-<wire x1="180.730653125" y1="143.95048125" x2="183.174640625" y2="144.6788375" width="0" layer="19" extent="1-16"/>
+<wire x1="182.5139875" y1="143.95048125" x2="183.174640625" y2="144.6788375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$122">
 <contactref element="R52" pad="1"/>
@@ -12174,7 +12176,7 @@ design rules under a new name.</description>
 <contactref element="LED95" pad="2"/>
 <contactref element="D86" pad="3"/>
 <wire x1="178.33873125" y1="146.84110625" x2="181.155846875" y2="144.6803625" width="0" layer="19" extent="1-1"/>
-<wire x1="176.725325" y1="143.9388" x2="178.33873125" y2="146.84110625" width="0" layer="19" extent="1-16"/>
+<wire x1="178.508659375" y1="143.9388" x2="178.33873125" y2="146.84110625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$131">
 <contactref element="R54" pad="1"/>
@@ -12186,7 +12188,7 @@ design rules under a new name.</description>
 <contactref element="LED96" pad="2"/>
 <contactref element="D87" pad="3"/>
 <wire x1="174.842165625" y1="146.836534375" x2="179.125115625" y2="144.681121875" width="0" layer="19" extent="1-1"/>
-<wire x1="172.71695" y1="143.93194375" x2="174.842165625" y2="146.836534375" width="0" layer="19" extent="1-16"/>
+<wire x1="174.500284375" y1="143.93194375" x2="174.842165625" y2="146.836534375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$138">
 <contactref element="R56" pad="1"/>
@@ -16515,22 +16517,22 @@ design rules under a new name.</description>
 <signal name="N$338">
 <contactref element="LED93" pad="1"/>
 <contactref element="R467" pad="2"/>
-<wire x1="184.72810625" y1="146.753278125" x2="185.0318" y2="149.5145625" width="0" layer="19" extent="16-16"/>
+<wire x1="186.511440625" y1="146.753278125" x2="185.0318" y2="149.5145625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$339">
 <contactref element="LED94" pad="1"/>
 <contactref element="R468" pad="2"/>
-<wire x1="180.730653125" y1="146.75048125" x2="181.020375" y2="149.51685" width="0" layer="19" extent="16-16"/>
+<wire x1="182.5139875" y1="146.75048125" x2="181.020375" y2="149.51685" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$341">
 <contactref element="LED95" pad="1"/>
 <contactref element="R469" pad="2"/>
-<wire x1="176.725325" y1="146.7388" x2="177.023178125" y2="149.50135" width="0" layer="19" extent="16-16"/>
+<wire x1="178.508659375" y1="146.7388" x2="177.023178125" y2="149.50135" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$343">
 <contactref element="LED96" pad="1"/>
 <contactref element="R470" pad="2"/>
-<wire x1="172.71695" y1="146.73194375" x2="173.035884375" y2="149.470109375" width="0" layer="19" extent="16-16"/>
+<wire x1="174.500284375" y1="146.73194375" x2="173.035884375" y2="149.470109375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="TEMP1">
 <contactref element="U$1" pad="1"/>
@@ -16877,10 +16879,8 @@ design rules under a new name.</description>
 <contactref element="IC33" pad="9"/>
 <contactref element="R515" pad="1"/>
 <contactref element="Z15" pad="5"/>
-<contactref element="R517" pad="2"/>
-<wire x1="186.8043" y1="55.247959375" x2="187.215209375" y2="53.374365625" width="0" layer="19" extent="16-16"/>
 <wire x1="182.838340625" y1="53.057128125" x2="187.215209375" y2="53.374365625" width="0" layer="19" extent="16-16"/>
-<wire x1="188.077" y1="74.888" x2="186.8043" y2="55.247959375" width="0" layer="19" extent="16-16"/>
+<wire x1="188.077" y1="74.888" x2="187.215209375" y2="53.374365625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="IM_OUT1">
 <contactref element="IC33" pad="8"/>
@@ -16891,6 +16891,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="IP_OUT2">
 <contactref element="IC33" pad="7"/>
+<contactref element="R517" pad="2"/>
+<wire x1="186.8043" y1="55.247959375" x2="186.215209375" y2="53.374365625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="IM_OUT2">
 <contactref element="IC33" pad="6"/>

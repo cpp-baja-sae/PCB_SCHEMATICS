@@ -26916,11 +26916,6 @@ to the node at this segment of the board</text>
 <wire x1="845.82" y1="701.04" x2="840.74" y2="701.04" width="0.1524" layer="91"/>
 <label x="840.74" y="703.58" size="1.778" layer="95" rot="R180"/>
 </segment>
-<segment>
-<pinref part="R517" gate="G$1" pin="2"/>
-<wire x1="944.88" y1="718.82" x2="942.34" y2="718.82" width="0.1524" layer="91"/>
-<label x="942.34" y="721.36" size="1.778" layer="95" rot="R180"/>
-</segment>
 </net>
 <net name="40G_GPIO" class="0">
 <segment>
@@ -27139,6 +27134,13 @@ to the node at this segment of the board</text>
 <pinref part="R149" gate="G$1" pin="1"/>
 <wire x1="-55.88" y1="38.1" x2="-55.88" y2="35.56" width="0.1524" layer="91"/>
 <label x="-58.42" y="33.02" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="IP_OUT2" class="0">
+<segment>
+<pinref part="R517" gate="G$1" pin="2"/>
+<wire x1="944.88" y1="718.82" x2="942.34" y2="718.82" width="0.1524" layer="91"/>
+<label x="942.34" y="721.36" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
