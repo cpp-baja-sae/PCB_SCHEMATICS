@@ -9,7 +9,7 @@
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,18 +22,18 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,9 +47,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -1285,7 +1285,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J2X8R1E224K125AE" x="74.035" y="166.668" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA4J2X8R1E224KA" x="74.035" y="166.668" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA4J2X8R1E224KA" x="74.035" y="166.668" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="48.345" y="52.478" size="0.508" layer="26" rot="MR180" align="center"/>
+<attribute name="NAME" x="48.4212" y="52.3256" size="0.508" layer="26" rot="MR180" align="center"/>
 </element>
 <element name="C_SS_1" library="SamacSys_Parts" package="CAPC2012X145N" value="CGA4J2X8R1E224K125AE" x="48.574" y="35.924" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT SOFT 0805 25V 0.22uF X8R 10% T: 1.25mm" x="98.104" y="148.954" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1294,7 +1294,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J2X8R1E224K125AE" x="98.104" y="148.954" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA4J2X8R1E224KA" x="98.104" y="148.954" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA4J2X8R1E224KA" x="98.104" y="148.954" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="48.584" y="34.694" size="0.508" layer="26" rot="MR180" align="center"/>
+<attribute name="NAME" x="48.4062" y="34.4908" size="0.508" layer="26" rot="MR180" align="center"/>
 </element>
 <element name="C_SS_2" library="SamacSys_Parts" package="CAPC2012X145N" value="CGA4J2X8R1E224K125AE" x="49.885" y="15.988" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT SOFT 0805 25V 0.22uF X8R 10% T: 1.25mm" x="123.545" y="129.018" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1303,7 +1303,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA4J2X8R1E224K125AE" x="123.545" y="129.018" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="810-CGA4J2X8R1E224KA" x="123.545" y="129.018" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA4J2X8R1E224KA" x="123.545" y="129.018" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="49.995" y="14.708" size="0.508" layer="26" rot="MR180" align="center"/>
+<attribute name="NAME" x="49.7664" y="14.5048" size="0.508" layer="26" rot="MR180" align="center"/>
 </element>
 <element name="D1_" library="SamacSys_Parts" package="DIOM7958X256N" value="MBRS330T3G" x="27.25" y="48.363" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="" x="66.62" y="-11.327" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1321,7 +1321,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MBRS330T3G" x="66.87" y="-43.552" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="863-MBRS330T3G" x="66.87" y="-43.552" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/MBRS330T3G?qs=3JMERSakebqQvNYO1akzWA%3D%3D" x="66.87" y="-43.552" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="25.415" y="34.223" size="0.508" layer="26" rot="MR180" align="center"/>
+<attribute name="NAME" x="26.4818" y="34.2992" size="0.508" layer="26" rot="MR180" align="center"/>
 </element>
 <element name="D1_2" library="SamacSys_Parts" package="DIOM7958X256N" value="MBRS330T3G" x="28.4" y="8.363" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="" x="67.77" y="-76.727" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1428,15 +1428,15 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/AC0805JR-0712KL?qs=ygRr%2FtkhteuiNEuAWdf3HA%3D%3D" x="-55.775" y="126.150165625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="34.1788" y="12.040965625" size="0.508" layer="25" rot="R180" align="center"/>
 </element>
-<element name="R_FAULT_" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="33.29" y="51.388" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="In Stock" x="0.27" y="-38.782" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200 " x="0.27" y="-38.782" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Yageo" x="0.27" y="-38.782" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="AT0805FRE07150KL" x="0.27" y="-38.782" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="34.19" y="52.478" size="0.508" layer="26" rot="MR0"/>
-<attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="0.27" y="-38.782" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="0.27" y="-38.782" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D" x="0.27" y="-38.782" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R_FAULT_" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="33.3916" y="50.5498" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="In Stock" x="0.3716" y="-39.6202" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200 " x="0.3716" y="-39.6202" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Yageo" x="0.3716" y="-39.6202" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="AT0805FRE07150KL" x="0.3716" y="-39.6202" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="34.7488" y="51.8938" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="0.3716" y="-39.6202" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="0.3716" y="-39.6202" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D" x="0.3716" y="-39.6202" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R_FAULT_1" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="33.91" y="32.5255" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="In Stock" x="-6.73" y="-57.6445" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1448,22 +1448,22 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="-6.73" y="-57.6445" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D" x="-6.73" y="-57.6445" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R_FAULT_2" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="34.46" y="12.813" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="In Stock" x="-13.8" y="-77.357" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200 " x="-13.8" y="-77.357" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Yageo" x="-13.8" y="-77.357" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="AT0805FRE07150KL" x="-13.8" y="-77.357" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="35.475" y="14.008" size="0.508" layer="26" rot="MR0"/>
-<attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="-13.8" y="-77.357" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="-13.8" y="-77.357" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D" x="-13.8" y="-77.357" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R_FAULT_2" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="34.5362" y="12.5082" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="In Stock" x="-13.7238" y="-77.6618" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200 " x="-13.7238" y="-77.6618" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Yageo" x="-13.7238" y="-77.6618" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="AT0805FRE07150KL" x="-13.7238" y="-77.6618" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="36.0338" y="13.7286" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="-13.7238" y="-77.6618" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="-13.7238" y="-77.6618" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D" x="-13.7238" y="-77.6618" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R_FB_" library="AC0805FR-07150KL" package="RESC2012X60N" value="AC0805FR-07150KL" x="36.9" y="56.888" smashed="yes" rot="MR270">
 <attribute name="AVAILABILITY" value="In Stock" x="127.07" y="1.008" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DESCRIPTION" value=" 150 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film " x="127.07" y="1.008" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="Yageo" x="127.07" y="1.008" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="AC0805FR-07150KL" x="127.07" y="1.008" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="37.635" y="58.783" size="0.508" layer="26" rot="MR0"/>
+<attribute name="NAME" x="38.2094" y="57.549" size="0.508" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="127.07" y="1.008" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="127.07" y="1.008" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/AC0805FR-07150KL/?ref=eda" x="127.07" y="1.008" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1478,14 +1478,14 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="129.132" y="-44.2516" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AC0805FR-0745K3L?qs=UBLIud9aIG27CXHbsp3wlg%3D%3D" x="129.132" y="-44.2516" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R_GATE_" library="SamacSys_Parts" package="RESC2012X60N" value="AC0805FR-0710KL" x="33.295" y="53.653" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 10K ohm 1% 1/8W AEC-Q200" x="104.415" y="143.823" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="HEIGHT" value="0.6mm" x="33.295" y="53.653" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="33.295" y="53.653" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AC0805FR-0710KL" x="33.295" y="53.653" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-AC0805FR-0710KL" x="33.295" y="53.653" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805FR-0710KL?qs=yhV1fb9g%2FKbswcDAMQpnRQ%3D%3D" x="33.295" y="53.653" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="31.7532" y="55.0576" size="0.508" layer="26" rot="MR180"/>
+<element name="R_GATE_" library="SamacSys_Parts" package="RESC2012X60N" value="AC0805FR-0710KL" x="33.168" y="53.5768" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 10K ohm 1% 1/8W AEC-Q200" x="104.288" y="143.7468" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="0.6mm" x="33.168" y="53.5768" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="33.168" y="53.5768" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AC0805FR-0710KL" x="33.168" y="53.5768" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-AC0805FR-0710KL" x="33.168" y="53.5768" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805FR-0710KL?qs=yhV1fb9g%2FKbswcDAMQpnRQ%3D%3D" x="33.168" y="53.5768" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="31.7532" y="55.2862" size="0.508" layer="26" rot="MR180"/>
 </element>
 <element name="R_GATE_1" library="SamacSys_Parts" package="RESC2012X60N" value="AC0805FR-0710KL" x="33.91" y="35.103" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 10K ohm 1% 1/8W AEC-Q200" x="112.65" y="125.273" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1496,14 +1496,14 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805FR-0710KL?qs=yhV1fb9g%2FKbswcDAMQpnRQ%3D%3D" x="33.91" y="35.103" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="32.8" y="33.983" size="0.508" layer="26" rot="MR180"/>
 </element>
-<element name="R_GATE_2" library="SamacSys_Parts" package="RESC2012X60N" value="AC0805FR-0710KL" x="34.46" y="15.653" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 10K ohm 1% 1/8W AEC-Q200" x="120.82" y="105.823" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="HEIGHT" value="0.6mm" x="34.46" y="15.653" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="34.46" y="15.653" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AC0805FR-0710KL" x="34.46" y="15.653" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-AC0805FR-0710KL" x="34.46" y="15.653" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805FR-0710KL?qs=yhV1fb9g%2FKbswcDAMQpnRQ%3D%3D" x="34.46" y="15.653" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="33.45" y="17.113" size="0.508" layer="26" rot="MR180"/>
+<element name="R_GATE_2" library="SamacSys_Parts" package="RESC2012X60N" value="AC0805FR-0710KL" x="34.46" y="15.4244" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 10K ohm 1% 1/8W AEC-Q200" x="120.82" y="105.5944" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="0.6mm" x="34.46" y="15.4244" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="34.46" y="15.4244" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AC0805FR-0710KL" x="34.46" y="15.4244" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-AC0805FR-0710KL" x="34.46" y="15.4244" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/AC0805FR-0710KL?qs=yhV1fb9g%2FKbswcDAMQpnRQ%3D%3D" x="34.46" y="15.4244" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="33.0182" y="17.24" size="0.508" layer="26" rot="MR180"/>
 </element>
 <element name="R_FB_1" library="AC0603FR-0764K9L" package="RESC1608X55N" value="AC0603FR-0764K9L" x="37.4582" y="38.708" smashed="yes" rot="MR270">
 <attribute name="AVAILABILITY" value="In Stock" x="131.4382" y="19.658" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1520,7 +1520,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" 100 mOhms ±1% 7W Chip Resistor 2512 (6432 Metric) Automotive AEC-Q200 Metal Element " x="67.33" y="141.473" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Rohm" x="67.33" y="141.473" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="GMR100HTCFAR100" x="67.33" y="141.473" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="17.48" y="53.993" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="16.6418" y="59.581" size="0.508" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="6432 Rohm Semiconductor" x="67.33" y="141.473" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="67.33" y="141.473" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/GMR100HTCFAR100/?ref=eda" x="67.33" y="141.473" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1530,7 +1530,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" 100 mOhms ±1% 7W Chip Resistor 2512 (6432 Metric) Automotive AEC-Q200 Metal Element " x="76.22" y="121.823" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Rohm" x="76.22" y="121.823" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="GMR100HTCFAR100" x="76.22" y="121.823" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="19.52" y="39.353" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="16.1418" y="39.7848" size="0.508" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="6432 Rohm Semiconductor" x="76.22" y="121.823" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="76.22" y="121.823" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/GMR100HTCFAR100/?ref=eda" x="76.22" y="121.823" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1540,7 +1540,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" 100 mOhms ±1% 7W Chip Resistor 2512 (6432 Metric) Automotive AEC-Q200 Metal Element " x="85.11" y="101.673" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Rohm" x="85.11" y="101.673" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="GMR100HTCFAR100" x="85.11" y="101.673" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="19.92" y="19.183" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="16.3132" y="19.7926" size="0.508" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="6432 Rohm Semiconductor" x="85.11" y="101.673" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="85.11" y="101.673" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/GMR100HTCFAR100/?ref=eda" x="85.11" y="101.673" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1552,7 +1552,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AC0805FR-07124KL" x="148.031" y="169.7766" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-AC0805FR-07124KL" x="148.031" y="169.7766" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-AC0805FR-07124KL" x="148.031" y="169.7766" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="52.631" y="58.1466" size="0.508" layer="26" rot="MR180" align="center"/>
+<attribute name="NAME" x="52.7072" y="58.3244" size="0.508" layer="26" rot="MR180" align="center"/>
 </element>
 <element name="R_T_1" library="SamacSys_Parts" package="RESC2012X60N" value="AC0805FR-07124KL" x="52.8084" y="39.0706" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD AEC-Q200" x="74.3984" y="154.6406" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1561,7 +1561,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AC0805FR-07124KL" x="74.3984" y="154.6406" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-AC0805FR-07124KL" x="74.3984" y="154.6406" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-AC0805FR-07124KL" x="74.3984" y="154.6406" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="52.3504" y="40.4052" size="0.508" layer="26" rot="MR180" align="center"/>
+<attribute name="NAME" x="52.833" y="40.5576" size="0.508" layer="26" rot="MR180" align="center"/>
 </element>
 <element name="R_T_2" library="SamacSys_Parts" package="RESC2012X60N" value="AC0805FR-07124KL" x="54.6492" y="19.0102" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD AEC-Q200" x="94.0192" y="134.5802" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1570,14 +1570,14 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AC0805FR-07124KL" x="94.0192" y="134.5802" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-AC0805FR-07124KL" x="94.0192" y="134.5802" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-AC0805FR-07124KL" x="94.0192" y="134.5802" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="54.6992" y="20.4302" size="0.508" layer="26" rot="MR180" align="center"/>
+<attribute name="NAME" x="54.6738" y="20.4556" size="0.508" layer="26" rot="MR180" align="center"/>
 </element>
 <element name="R_UVLO1_" library="AC0805FR-0730KL" package="RESC2012X60N" value="AC0805FR-0730KL" x="49.44" y="50.603" smashed="yes" rot="MR180">
 <attribute name="AVAILABILITY" value="In Stock" x="143.42" y="140.773" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DESCRIPTION" value=" 30 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film " x="143.42" y="140.773" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Yageo" x="143.42" y="140.773" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="AC0805FR-0730KL" x="143.42" y="140.773" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="47.91" y="49.413" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="47.4782" y="49.3622" size="0.508" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="143.42" y="140.773" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="143.42" y="140.773" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/AC0805FR-0730KL/?ref=eda" x="143.42" y="140.773" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1587,7 +1587,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" 30 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film " x="149.9944" y="122.795" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Yageo" x="149.9944" y="122.795" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="AC0805FR-0730KL" x="149.9944" y="122.795" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="46.4764" y="31.828" size="0.508" layer="26" rot="MR270"/>
+<attribute name="NAME" x="49.7096" y="30.6634" size="0.508" layer="26" rot="MR0"/>
 <attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="149.9944" y="122.795" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="149.9944" y="122.795" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/AC0805FR-0730KL/?ref=eda" x="149.9944" y="122.795" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1597,7 +1597,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" 30 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film " x="159.51" y="103.123" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Yageo" x="159.51" y="103.123" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MP" value="AC0805FR-0730KL" x="159.51" y="103.123" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="48.79" y="11.693" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="47.901" y="11.4644" size="0.508" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="159.51" y="103.123" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PRICE" value="None" x="159.51" y="103.123" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/AC0805FR-0730KL/?ref=eda" x="159.51" y="103.123" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1609,7 +1609,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="25" y="-43.62366875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="25" y="-43.62366875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="25" y="-43.62366875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="54.37366875" y="48.952" size="0.508" layer="26" rot="MR0" align="center"/>
+<attribute name="NAME" x="53.91646875" y="48.7234" size="0.508" layer="26" rot="MR0" align="center"/>
 </element>
 <element name="R_UVLO2_1" library="SamacSys_Parts" package="RESC3116X65N" value="RT1206BRD075KL" x="52.85" y="32.396" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" x="7.13" y="-61.584" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1618,16 +1618,16 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="7.13" y="-61.584" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="7.13" y="-61.584" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="7.13" y="-61.584" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="52.73" y="33.889" size="0.508" layer="26" rot="MR180" align="center"/>
+<attribute name="NAME" x="52.8062" y="30.6886" size="0.508" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="R_UVLO2_2" library="SamacSys_Parts" package="RESC3116X65N" value="RT1206BRD075KL" x="55.5" y="12.803" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" x="-6.73" y="-81.177" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="0.65mm" x="-6.73" y="-81.177" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-6.73" y="-81.177" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="-6.73" y="-81.177" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="-6.73" y="-81.177" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="-6.73" y="-81.177" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="55.684" y="14.236" size="0.508" layer="26" rot="MR0" align="center"/>
+<element name="R_UVLO2_2" library="SamacSys_Parts" package="RESC3116X65N" value="RT1206BRD075KL" x="55.5254" y="12.549" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" x="-6.7046" y="-81.431" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="0.65mm" x="-6.7046" y="-81.431" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-6.7046" y="-81.431" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT1206BRD075KL" x="-6.7046" y="-81.431" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-RT1206BRD075KL" x="-6.7046" y="-81.431" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Yageo/RT1206BRD075KL?qs=8cPjvKtxWv5bP%252BIM%2FRQCeQ%3D%3D" x="-6.7046" y="-81.431" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="55.7348" y="14.3122" size="0.508" layer="26" rot="MR0" align="center"/>
 </element>
 <element name="TP_CF_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="33.19459375" y="54.356" smashed="yes" rot="R180">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-32.84540625" y="120.396" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1695,14 +1695,14 @@ design rules under a new name.</description>
 <element name="TP_D1_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="33.1938" y="44.5098" smashed="yes" rot="MR0">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="1.4438" y="-27.8802" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Harwin " x="1.4438" y="-27.8802" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="32.8938" y="43.1798" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="32.335" y="43.256" size="0.508" layer="26" rot="MR180"/>
 <attribute name="TYPE" value="TEST POINT" x="1.4438" y="-27.8802" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="1.4438" y="-27.8802" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="TP_D1_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="33.691" y="25.4718" smashed="yes" rot="MR0">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-8.219" y="-46.9182" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Harwin " x="-8.219" y="-46.9182" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="35.9412" y="24.7626" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="32.6138" y="24.153" size="0.508" layer="26" rot="MR180"/>
 <attribute name="TYPE" value="TEST POINT" x="-8.219" y="-46.9182" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-8.219" y="-46.9182" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1716,7 +1716,7 @@ design rules under a new name.</description>
 <element name="TP_FAULT_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="38.2174" y="47.0314" smashed="yes" rot="MR270">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="97.9074" y="14.0114" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Harwin " x="97.9074" y="14.0114" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="37.8174" y="49.1714" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="39.6718" y="48.0346" size="0.508" layer="26" rot="MR180"/>
 <attribute name="TYPE" value="TEST POINT" x="97.9074" y="14.0114" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="97.9074" y="14.0114" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -1751,7 +1751,7 @@ design rules under a new name.</description>
 <element name="TP_FB_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="31.0384" y="19.2738" smashed="yes" rot="MR90">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-41.3516" y="101.8238" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Harwin " x="-41.3516" y="101.8238" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="29.663" y="18.5482" size="0.508" layer="26" rot="MR0"/>
+<attribute name="NAME" x="29.8662" y="19.9198" size="0.508" layer="26" rot="MR0"/>
 <attribute name="TYPE" value="TEST POINT" x="-41.3516" y="101.8238" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-41.3516" y="101.8238" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
@@ -1779,7 +1779,7 @@ design rules under a new name.</description>
 <element name="TP_GND1_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="45.159" y="56.976" smashed="yes" rot="MR270">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="104.849" y="1.096" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Harwin " x="104.849" y="1.096" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="43.1104" y="59.737" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="43.0088" y="59.5338" size="0.508" layer="26" rot="MR180"/>
 <attribute name="TYPE" value="TEST POINT" x="104.849" y="1.096" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="104.849" y="1.096" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -1849,35 +1849,35 @@ design rules under a new name.</description>
 <element name="TP_GND4_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="53.2856" y="27.44" smashed="yes" rot="MR90">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-0.0544" y="113.8" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Harwin " x="-0.0544" y="113.8" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="56.1164" y="24.997" size="0.508" layer="26" rot="MR0"/>
+<attribute name="NAME" x="51.5034" y="25.5236" size="0.508" layer="26" rot="MR180"/>
 <attribute name="TYPE" value="TEST POINT" x="-0.0544" y="113.8" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-0.0544" y="113.8" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="TP_GND4_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="58.1455" y="19.0056" smashed="yes" rot="MR90">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="4.8055" y="118.0656" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Harwin " x="4.8055" y="118.0656" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="59.238" y="20.1681" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="56.5964" y="21.5397" size="0.508" layer="26" rot="MR180"/>
 <attribute name="TYPE" value="TEST POINT" x="4.8055" y="118.0656" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="4.8055" y="118.0656" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="TP_GND_" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="20.9664" y="51.8362" smashed="yes" rot="MR270">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="93.3564" y="-40.8738" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Harwin " x="93.3564" y="-40.8738" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="22.5764" y="50.4962" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="19.867" y="53.1358" size="0.508" layer="26" rot="MR270"/>
 <attribute name="TYPE" value="TEST POINT" x="93.3564" y="-40.8738" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="93.3564" y="-40.8738" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="TP_GND_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="21.3608" y="32.1512" smashed="yes" rot="MR270">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="81.0508" y="-69.4488" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Harwin " x="81.0508" y="-69.4488" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="22.6998" y="31.1222" size="0.508" layer="26" font="vector" rot="MR90"/>
+<attribute name="NAME" x="22.6998" y="30.3348" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="TYPE" value="TEST POINT" x="81.0508" y="-69.4488" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="81.0508" y="-69.4488" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="TP_GND_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="21.2162" y="11.755" smashed="yes" rot="MR270">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="87.2562" y="-9.835" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Harwin " x="87.2562" y="-9.835" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="22.5337" y="10.7075" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="22.6353" y="9.7931" size="0.508" layer="26" rot="MR90"/>
 <attribute name="TYPE" value="TEST POINT" x="87.2562" y="-9.835" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="87.2562" y="-9.835" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -1940,7 +1940,7 @@ design rules under a new name.</description>
 <element name="TP_RT_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="54.5534" y="15.833" smashed="yes" rot="MR0">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-17.8366" y="-62.907" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Harwin " x="-17.8366" y="-62.907" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="56.6334" y="15.453" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="56.0156" y="17.0844" size="0.508" layer="26" rot="MR0"/>
 <attribute name="TYPE" value="TEST POINT" x="-17.8366" y="-62.907" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-17.8366" y="-62.907" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1954,7 +1954,7 @@ design rules under a new name.</description>
 <element name="TP_SHDN_1" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="48.236" y="29.1002" smashed="yes" rot="MR0">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="-29.234" y="-17.8898" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Harwin " x="-29.234" y="-17.8898" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="45.99" y="27.7902" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="46.3202" y="27.9934" size="0.508" layer="26" rot="MR180"/>
 <attribute name="TYPE" value="TEST POINT" x="-29.234" y="-17.8898" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="-29.234" y="-17.8898" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1982,7 +1982,7 @@ design rules under a new name.</description>
 <element name="TP_SS_2" library="S1751-46R" package="S1751-46R_" value="S1751-46R" x="50.125" y="18.8116" smashed="yes" rot="MR180">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL " x="152.995" y="97.5516" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Harwin " x="152.995" y="97.5516" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="48.895" y="20.4216" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="48.9204" y="20.5486" size="0.508" layer="26" rot="MR180"/>
 <attribute name="TYPE" value="TEST POINT" x="152.995" y="97.5516" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="152.995" y="97.5516" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2041,15 +2041,15 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="TEST POINT" x="39.6892" y="37.3536" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="39.6892" y="37.3536" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R_LS_GATE_" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="33.27" y="49.123" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="In Stock" x="47.22" y="70.823" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200 " x="47.22" y="70.823" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Yageo" x="47.22" y="70.823" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="AT0805FRE07150KL" x="47.22" y="70.823" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="34.38" y="50.213" size="0.508" layer="26" rot="MR0"/>
-<attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="47.22" y="70.823" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="47.22" y="70.823" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D" x="47.22" y="70.823" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R_LS_GATE_" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="33.397" y="47.3704" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="In Stock" x="47.347" y="69.0704" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200 " x="47.347" y="69.0704" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Yageo" x="47.347" y="69.0704" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="AT0805FRE07150KL" x="47.347" y="69.0704" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="35.1674" y="48.5874" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="47.347" y="69.0704" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="47.347" y="69.0704" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D" x="47.347" y="69.0704" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C_LS_" library="SamacSys_Parts" package="CAPC1005X55N" value="CGA2B2C0G1H102J050BE" x="28.5278" y="46.5346" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 1nF 5% C0G AEC-Q200" x="1.9278" y="38.6846" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2179,15 +2179,15 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="TEST POINT" x="29.9022" y="80.50925" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="URL" value="https://www.mouser.com/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" x="29.9022" y="80.50925" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R_LS_GATE_2" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="34.46" y="9.973" smashed="yes" rot="MR0">
-<attribute name="AVAILABILITY" value="In Stock" x="49.41" y="37.673" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value=" Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200 " x="49.41" y="37.673" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Yageo" x="49.41" y="37.673" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="AT0805FRE07150KL" x="49.41" y="37.673" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="35.8" y="11.153" size="0.508" layer="26" rot="MR0"/>
-<attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="49.41" y="37.673" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PRICE" value="None" x="49.41" y="37.673" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D" x="49.41" y="37.673" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R_LS_GATE_2" library="AT0805FRE07100KL" package="RESC2012X60N" value="AT0805FRE07100KL" x="34.6124" y="9.211" smashed="yes" rot="MR0">
+<attribute name="AVAILABILITY" value="In Stock" x="49.5624" y="36.911" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value=" Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200 " x="49.5624" y="36.911" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Yageo" x="49.5624" y="36.911" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="AT0805FRE07150KL" x="49.5624" y="36.911" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="36.6382" y="10.4418" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PACKAGE" value="2012 Rohm Semiconductor" x="49.5624" y="36.911" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PRICE" value="None" x="49.5624" y="36.911" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D" x="49.5624" y="36.911" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C_LS_2" library="SamacSys_Parts" package="CAPC1005X55N" value="CGA2B2C0G1H102J050BE" x="30.76" y="4.9213" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 1nF 5% C0G AEC-Q200" x="66.76" y="12.7713" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2439,9 +2439,9 @@ design rules under a new name.</description>
 <wire x1="35.72" y1="53.973" x2="36.222728125" y2="54.073" width="0.381" layer="1" curve="-22.500197"/>
 <wire x1="36.222728125" y1="54.073" x2="36.52" y2="54.073" width="0.381" layer="1"/>
 <via x="36.52" y="54.073" extent="1-16" drill="0.35"/>
-<wire x1="36.52" y1="54.073" x2="37.7324875" y2="52.8605125" width="0.381" layer="16"/>
-<wire x1="37.7324875" y1="52.8605125" x2="38.761421875" y2="52.173" width="0.381" layer="16" curve="22.500018"/>
-<wire x1="38.761421875" y1="52.173" x2="48.576071875" y2="52.173" width="0.381" layer="16"/>
+<wire x1="36.52" y1="54.073" x2="37.674559375" y2="52.918440625" width="0.381" layer="16"/>
+<wire x1="37.674559375" y1="52.918440625" x2="39.4742125" y2="52.173" width="0.381" layer="16" curve="45"/>
+<wire x1="39.4742125" y1="52.173" x2="48.576071875" y2="52.173" width="0.381" layer="16"/>
 <wire x1="48.576071875" y1="52.173" x2="50.35816875" y2="51.43483125" width="0.381" layer="16" curve="-44.99995"/>
 <wire x1="50.35816875" y1="51.43483125" x2="50.395" y2="51.398" width="0.381" layer="16"/>
 <wire x1="50.395" y1="51.398" x2="50.395" y2="50.603" width="0.381" layer="16"/>
@@ -2456,18 +2456,20 @@ design rules under a new name.</description>
 <wire x1="31.085" y1="31.973" x2="31.343578125" y2="32.231578125" width="0.381" layer="16"/>
 <wire x1="31.343578125" y1="32.231578125" x2="32.821225" y2="32.5255" width="0.381" layer="16" curve="-22.499994"/>
 <wire x1="32.821225" y1="32.5255" x2="32.955" y2="32.5255" width="0.381" layer="16"/>
-<wire x1="36.9072" y1="10.8428" x2="33.71385625" y2="11.173" width="0.381" layer="2"/>
-<wire x1="33.71385625" y1="11.173" x2="32.358659375" y2="11.734340625" width="0.381" layer="2" curve="-44.999934"/>
-<wire x1="32.358659375" y1="11.734340625" x2="32.22" y2="11.873" width="0.381" layer="2"/>
+<wire x1="37.4914" y1="10.792" x2="34.526978125" y2="10.792" width="0.381" layer="2"/>
+<wire x1="34.526978125" y1="10.792" x2="33.79005625" y2="10.8682" width="0.381" layer="2"/>
+<wire x1="33.79005625" y1="10.8682" x2="32.825103125" y2="11.267896875" width="0.381" layer="2" curve="-44.999934"/>
+<wire x1="32.825103125" y1="11.267896875" x2="32.22" y2="11.873" width="0.381" layer="2"/>
 <via x="32.22" y="11.873" extent="1-16" drill="0.35"/>
-<wire x1="32.22" y1="11.873" x2="33.16" y2="12.813" width="0.381" layer="16"/>
-<wire x1="33.16" y1="12.813" x2="33.505" y2="12.813" width="0.381" layer="16"/>
+<wire x1="32.22" y1="11.873" x2="32.87040625" y2="12.14240625" width="0.381" layer="16" curve="45"/>
+<wire x1="32.87040625" y1="12.14240625" x2="33.2362" y2="12.5082" width="0.381" layer="16"/>
+<wire x1="33.2362" y1="12.5082" x2="33.5812" y2="12.5082" width="0.381" layer="16"/>
 <wire x1="30.385" y1="50.573" x2="31.127590625" y2="50.265409375" width="0.381" layer="2" curve="-44.999879"/>
 <wire x1="31.127590625" y1="50.265409375" x2="32.07495" y2="49.873" width="0.381" layer="2" curve="45"/>
 <wire x1="32.07495" y1="49.873" x2="35.62" y2="49.873" width="0.381" layer="2"/>
 <via x="30.385" y="50.573" extent="1-16" drill="0.35"/>
-<wire x1="30.385" y1="50.573" x2="30.397434375" y2="50.585434375" width="0.381" layer="16"/>
-<wire x1="30.397434375" y1="50.585434375" x2="32.335" y2="51.388" width="0.381" layer="16" curve="-45"/>
+<wire x1="32.4366" y1="50.5498" x2="32.426990625" y2="50.573" width="0.381" layer="16"/>
+<wire x1="30.385" y1="50.573" x2="32.426990625" y2="50.573" width="0.381" layer="16" curve="-45"/>
 <polygon width="0.127" layer="1" thermals="no">
 <vertex x="7.259046875" y="40.873546875"/>
 <vertex x="6.75786875" y="40.37236875" curve="44.999902"/>
@@ -2496,7 +2498,7 @@ design rules under a new name.</description>
 <wire x1="36.517309375" y1="35.759309375" x2="36.917309375" y2="35.759309375" width="0.381" layer="1"/>
 <wire x1="28.174" y1="58.8716" x2="25.832" y2="58.8716" width="0.8128" layer="1"/>
 <wire x1="32.18999375" y1="58.8716" x2="28.174" y2="58.8716" width="0.8128" layer="1"/>
-<via x="36.9072" y="10.8428" extent="1-16" drill="0.35"/>
+<via x="37.4914" y="10.792" extent="1-16" drill="0.35"/>
 <via x="35.9532" y="31.2238" extent="1-16" drill="0.35"/>
 <via x="35.62" y="49.873" extent="1-16" drill="0.35"/>
 <wire x1="35.4406" y1="50.973" x2="35.4406" y2="50.306109375" width="0.381" layer="1"/>
@@ -2505,8 +2507,8 @@ design rules under a new name.</description>
 <wire x1="39.575" y1="12.768" x2="37.2100625" y2="12.768" width="0.381" layer="1"/>
 <wire x1="39.575" y1="12.768" x2="39.154728125" y2="12.768" width="0.381" layer="1"/>
 <wire x1="39.154728125" y1="12.768" x2="38.30095625" y2="12.41435625" width="0.381" layer="1" curve="45"/>
-<wire x1="38.30095625" y1="12.41435625" x2="37.032925" y2="11.146325" width="0.381" layer="1"/>
-<wire x1="37.032925" y1="11.146325" x2="36.9072" y2="10.8428" width="0.381" layer="1" curve="45"/>
+<wire x1="38.30095625" y1="12.41435625" x2="38.06614375" y2="12.17954375" width="0.381" layer="1"/>
+<wire x1="38.06614375" y1="12.17954375" x2="37.4914" y2="10.792" width="0.381" layer="1" curve="45"/>
 <wire x1="19.61" y1="16.013" x2="19.61" y2="17.235" width="0.381" layer="1"/>
 <wire x1="19.61" y1="17.235" x2="17.2033" y2="19.6417" width="0.816" layer="1"/>
 <wire x1="17.0688" y1="19.6746" x2="15.0472" y2="19.6746" width="0.816" layer="1"/>
@@ -2602,6 +2604,10 @@ design rules under a new name.</description>
 <vertex x="14.8844" y="18.415"/>
 <vertex x="14.986" y="18.5166"/>
 </polygon>
+<via x="1.9304" y="50.0126" extent="1-16" drill="0.35"/>
+<via x="1.5494" y="11.5824" extent="1-16" drill="0.35"/>
+<via x="1.6002" y="8.382" extent="1-16" drill="0.35"/>
+<via x="7.874" y="7.874" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="FAULT_" class="3">
 <contactref element="LT3579_IC_" pad="4"/>
@@ -2611,14 +2617,13 @@ design rules under a new name.</description>
 <wire x1="38.125" y1="51.148" x2="36.3942" y2="51.148" width="0.381" layer="1"/>
 <wire x1="36.3942" y1="51.148" x2="36.293" y2="51.2492" width="0.381" layer="1"/>
 <via x="36.293" y="51.2492" extent="1-16" drill="0.35"/>
-<wire x1="36.293" y1="51.2492" x2="34.3838" y2="51.2492" width="0.381" layer="16"/>
-<wire x1="34.39" y1="51.243" x2="34.3838" y2="51.2492" width="0.381" layer="16"/>
-<wire x1="34.3838" y1="51.2492" x2="34.245" y2="51.388" width="0.381" layer="16"/>
-<wire x1="34.225" y1="49.123" x2="34.225" y2="51.078" width="0.381" layer="16"/>
-<wire x1="34.225" y1="51.078" x2="34.39" y2="51.243" width="0.381" layer="16"/>
-<wire x1="38.2174" y1="47.0314" x2="37.86176875" y2="47.0314" width="0.381" layer="16"/>
-<wire x1="37.86176875" y1="47.0314" x2="35.224" y2="48.124" width="0.381" layer="16" curve="-45"/>
-<wire x1="35.224" y1="48.124" x2="34.225" y2="49.123" width="0.381" layer="16"/>
+<wire x1="38.2174" y1="47.0314" x2="37.8206" y2="47.0314" width="0.381" layer="16"/>
+<wire x1="36.293" y1="51.2492" x2="34.604490625" y2="50.549796875" width="0.381" layer="16" curve="44.999947"/>
+<wire x1="34.604490625" y1="50.549796875" x2="34.3466" y2="50.5498" width="0.381" layer="16"/>
+<wire x1="34.3466" y1="50.5498" x2="34.352" y2="50.5444" width="0.381" layer="16"/>
+<wire x1="34.352" y1="50.5444" x2="34.352" y2="47.3704" width="0.381" layer="16"/>
+<wire x1="37.4816" y1="47.3704" x2="37.8206" y2="47.0314" width="0.381" layer="16"/>
+<wire x1="34.352" y1="47.3704" x2="37.4816" y2="47.3704" width="0.381" layer="16"/>
 </signal>
 <signal name="VOUT_" class="2">
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="11"/>
@@ -2663,14 +2668,14 @@ design rules under a new name.</description>
 <contactref element="TP_FAULT_2" pad="1"/>
 <contactref element="R_LS_GATE_2" pad="1"/>
 <via x="37.239" y="13.5002" extent="1-16" drill="0.35"/>
-<wire x1="37.239" y1="13.5002" x2="36.908" y2="13.1692" width="0.381" layer="16"/>
-<wire x1="36.908" y1="13.1692" x2="35.62" y2="12.913" width="0.381" layer="16" curve="-22.49999"/>
-<wire x1="35.52" y1="12.813" x2="35.415" y2="12.813" width="0.381" layer="16"/>
-<wire x1="35.415" y1="9.973" x2="35.415" y2="12.708" width="0.381" layer="16"/>
-<wire x1="35.415" y1="12.708" x2="35.52" y2="12.813" width="0.381" layer="16"/>
-<wire x1="35.52" y1="12.813" x2="35.62" y2="12.913" width="0.381" layer="16"/>
-<wire x1="35.415" y1="9.973" x2="38.685" y2="9.973" width="0.381" layer="16"/>
-<wire x1="38.685" y1="9.973" x2="39.0042" y2="9.6538" width="0.381" layer="16"/>
+<wire x1="37.239" y1="13.5002" x2="36.508596875" y2="12.769796875" width="0.381" layer="16"/>
+<wire x1="36.508596875" y1="12.769796875" x2="35.6962" y2="12.6082" width="0.381" layer="16" curve="-22.49999"/>
+<wire x1="35.5962" y1="12.5082" x2="35.4912" y2="12.5082" width="0.381" layer="16"/>
+<wire x1="35.4912" y1="12.5082" x2="35.5674" y2="12.432" width="0.381" layer="16"/>
+<wire x1="35.5674" y1="12.432" x2="35.5674" y2="9.211" width="0.381" layer="16"/>
+<wire x1="35.5962" y1="12.5082" x2="35.6962" y2="12.6082" width="0.381" layer="16"/>
+<wire x1="39.0042" y1="9.6538" x2="38.5614" y2="9.211" width="0.381" layer="16"/>
+<wire x1="38.5614" y1="9.211" x2="35.5674" y2="9.211" width="0.381" layer="16"/>
 <wire x1="39.575" y1="13.418" x2="37.3212" y2="13.418" width="0.381" layer="1"/>
 <wire x1="37.3212" y1="13.418" x2="37.239" y2="13.5002" width="0.381" layer="1"/>
 </signal>
@@ -2789,18 +2794,19 @@ design rules under a new name.</description>
 <contactref element="R_FB_" pad="1"/>
 <contactref element="TP_FB_" pad="1"/>
 <wire x1="27.25" y1="51.963" x2="27.25" y2="52.803" width="0.816" layer="16"/>
-<wire x1="27.25" y1="52.803" x2="28.22" y2="53.773" width="0.816" layer="16"/>
-<wire x1="28.22" y1="53.773" x2="32.225" y2="53.773" width="0.816" layer="16"/>
-<wire x1="32.225" y1="53.773" x2="32.345" y2="53.653" width="0.816" layer="16"/>
+<wire x1="27.25" y1="52.803" x2="29.5917875" y2="53.773" width="0.816" layer="16" curve="-45"/>
+<wire x1="29.5917875" y1="53.773" x2="32.0218" y2="53.773" width="0.816" layer="16"/>
+<wire x1="32.0218" y1="53.773" x2="32.225" y2="53.773" width="0.816" layer="16"/>
+<wire x1="32.0218" y1="53.773" x2="32.218" y2="53.5768" width="0.816" layer="16"/>
 <wire x1="30.5188" y1="57.5626" x2="30.5765375" y2="58.581803125" width="0.816" layer="16"/>
 <wire x1="30.5765375" y1="58.581803125" x2="32.26044375" y2="60.173" width="0.816" layer="16" curve="-86.757644"/>
 <wire x1="32.26044375" y1="60.173" x2="35.181975" y2="60.173" width="0.816" layer="16"/>
 <wire x1="35.181975" y1="60.173" x2="36.715" y2="59.538" width="0.816" layer="16" curve="-45"/>
 <via x="36.715" y="59.538" extent="1-16" drill="0.35"/>
-<wire x1="30.5188" y1="57.5626" x2="31.6154" y2="56.0088" width="0.816" layer="16"/>
-<wire x1="31.6154" y1="56.0088" x2="32.225" y2="53.773" width="0.816" layer="16"/>
-<wire x1="36.715" y1="59.538" x2="36.9" y2="59.353" width="0.816" layer="16"/>
-<wire x1="36.9" y1="59.353" x2="36.9" y2="57.843" width="0.816" layer="16"/>
+<wire x1="30.5188" y1="57.5626" x2="32.115671875" y2="54.173978125" width="0.816" layer="16" curve="-19.961479"/>
+<wire x1="32.115671875" y1="54.173978125" x2="32.225" y2="53.773" width="0.816" layer="16"/>
+<wire x1="36.715" y1="59.538" x2="36.9" y2="59.091371875" width="0.816" layer="16" curve="-45"/>
+<wire x1="36.9" y1="59.091371875" x2="36.9" y2="57.843" width="0.816" layer="16"/>
 <wire x1="38.65" y1="57.883" x2="36.995" y2="59.538" width="0.816" layer="1"/>
 <wire x1="36.995" y1="59.538" x2="36.715" y2="59.538" width="0.816" layer="1"/>
 </signal>
@@ -2818,11 +2824,10 @@ design rules under a new name.</description>
 <wire x1="37.174440625" y1="51.798" x2="36.284284375" y2="52.166715625" width="0.381" layer="1"/>
 <wire x1="36.284284375" y1="52.166715625" x2="36.2676" y2="52.1834" width="0.381" layer="1" curve="-45"/>
 <via x="36.2676" y="52.1834" extent="1-16" drill="0.35"/>
-<wire x1="36.2676" y1="52.1834" x2="36.2422" y2="52.158" width="0.381" layer="16"/>
-<wire x1="36.2422" y1="52.158" x2="35.74" y2="52.158" width="0.381" layer="16"/>
-<wire x1="35.74" y1="52.158" x2="34.245" y2="53.653" width="0.381" layer="16"/>
-<wire x1="34.245" y1="53.653" x2="34.2196" y2="57.0074" width="0.381" layer="16"/>
-<wire x1="34.2196" y1="57.0074" x2="34.06" y2="57.2178" width="0.381" layer="16"/>
+<wire x1="36.2676" y1="52.1834" x2="35.5114" y2="52.1834" width="0.381" layer="16" curve="-90"/>
+<wire x1="35.5114" y1="52.1834" x2="34.118" y2="53.5768" width="0.381" layer="16"/>
+<wire x1="34.118" y1="53.5768" x2="34.0907375" y2="57.17728125" width="0.381" layer="16"/>
+<wire x1="34.0907375" y1="57.17728125" x2="34.06" y2="57.2178" width="0.381" layer="16"/>
 </signal>
 <signal name="FB_" class="3">
 <contactref element="LT3579_IC_" pad="1"/>
@@ -3188,7 +3193,9 @@ design rules under a new name.</description>
 <contactref element="TP_FB_2" pad="1"/>
 <wire x1="28.4" y1="11.963" x2="32.09" y2="15.653" width="0.816" layer="16"/>
 <wire x1="32.09" y1="15.653" x2="32.82" y2="15.653" width="0.816" layer="16"/>
-<wire x1="32.82" y1="15.653" x2="33.51" y2="15.653" width="0.816" layer="16"/>
+<wire x1="32.82" y1="15.653" x2="33.455" y2="15.653" width="0.816" layer="16"/>
+<wire x1="33.51" y1="15.4244" x2="33.51" y2="15.598" width="0.816" layer="16"/>
+<wire x1="33.51" y1="15.598" x2="33.455" y2="15.653" width="0.816" layer="16"/>
 <wire x1="32.82" y1="15.653" x2="32.32" y2="16.153" width="0.816" layer="16"/>
 <wire x1="31.5326" y1="19.0568" x2="31.0384" y2="19.2738" width="0.816" layer="16"/>
 <wire x1="32.32" y1="16.153" x2="31.5326" y2="19.0568" width="0.816" layer="16"/>
@@ -3208,11 +3215,11 @@ design rules under a new name.</description>
 <contactref element="PMOS_2" pad="1"/>
 <contactref element="TP_GATE_2" pad="1"/>
 <wire x1="34.956" y1="19.233" x2="35.41" y2="19.033" width="0.381" layer="16"/>
-<wire x1="35.41" y1="19.033" x2="35.41" y2="15.653" width="0.381" layer="16"/>
+<wire x1="35.41" y1="19.033" x2="35.41" y2="15.4244" width="0.381" layer="16"/>
 <via x="37.2644" y="14.4598" extent="1-16" drill="0.35"/>
-<wire x1="37.2644" y1="14.4598" x2="37.163215625" y2="14.4598" width="0.381" layer="16"/>
-<wire x1="37.163215625" y1="14.4598" x2="35.47551875" y2="15.58748125" width="0.381" layer="16" curve="-22.500033"/>
-<wire x1="35.47551875" y1="15.58748125" x2="35.41" y2="15.653" width="0.381" layer="16"/>
+<wire x1="37.2644" y1="14.4598" x2="37.0493625" y2="14.4598" width="0.381" layer="16"/>
+<wire x1="37.0493625" y1="14.4598" x2="35.89748125" y2="14.93691875" width="0.381" layer="16"/>
+<wire x1="35.89748125" y1="14.93691875" x2="35.41" y2="15.4244" width="0.381" layer="16"/>
 <wire x1="39.4" y1="17.853" x2="40.397121875" y2="16.855878125" width="0.381" layer="1"/>
 <wire x1="40.397121875" y1="16.855878125" x2="40.72" y2="16.07638125" width="0.381" layer="1" curve="-44.999838"/>
 <wire x1="40.72" y1="16.07638125" x2="40.72" y2="14.417915625" width="0.381" layer="1"/>
@@ -3239,8 +3246,8 @@ design rules under a new name.</description>
 <wire x1="50.09903125" y1="12.18896875" x2="51.0274625" y2="11.8044" width="0.381" layer="16" curve="44.999904"/>
 <wire x1="50.09903125" y1="12.18896875" x2="49.335" y2="12.953" width="0.381" layer="16"/>
 <wire x1="55.0662" y1="8.8462" x2="54.673984375" y2="9.238415625" width="0.381" layer="16"/>
-<wire x1="54.673984375" y1="9.238415625" x2="54" y2="11.748396875" width="0.381" layer="16" curve="-45"/>
-<wire x1="54" y1="11.748396875" x2="54" y2="12.803" width="0.381" layer="16"/>
+<wire x1="54.673984375" y1="9.238415625" x2="54.0254" y2="11.65380625" width="0.381" layer="16" curve="-45"/>
+<wire x1="54.0254" y1="11.65380625" x2="54.0254" y2="12.549" width="0.381" layer="16"/>
 <wire x1="49.335" y1="12.953" x2="48.8624" y2="13.4256" width="0.381" layer="16"/>
 <wire x1="48.8624" y1="13.4256" x2="47.4708" y2="13.4256" width="0.381" layer="16"/>
 <wire x1="47.4708" y1="13.4256" x2="47.4454" y2="13.451" width="0.381" layer="16"/>
@@ -3248,8 +3255,8 @@ design rules under a new name.</description>
 <wire x1="47.4454" y1="13.451" x2="45.458" y2="13.451" width="0.381" layer="1"/>
 <wire x1="45.425" y1="13.418" x2="45.458" y2="13.451" width="0.381" layer="1"/>
 <wire x1="51.0274625" y1="11.8044" x2="52.315940625" y2="11.8044" width="0.381" layer="16"/>
-<wire x1="52.315940625" y1="11.8044" x2="53.48609375" y2="12.28909375" width="0.381" layer="16" curve="45.000077"/>
-<wire x1="53.48609375" y1="12.28909375" x2="54" y2="12.803" width="0.381" layer="16"/>
+<wire x1="52.315940625" y1="11.8044" x2="53.963059375" y2="12.486659375" width="0.381" layer="16" curve="45.000077"/>
+<wire x1="53.963059375" y1="12.486659375" x2="54.0254" y2="12.549" width="0.381" layer="16"/>
 </signal>
 <signal name="VC_2" class="3">
 <contactref element="LT3579_IC_2" pad="2"/>
@@ -3569,8 +3576,8 @@ design rules under a new name.</description>
 <wire x1="30.9829" y1="48.22509375" x2="30.62" y2="49.1012125" width="0.381" layer="1" curve="-45"/>
 <wire x1="30.62" y1="49.1012125" x2="30.466" y2="49.473" width="0.381" layer="1" curve="45"/>
 <via x="30.466" y="49.473" extent="1-16" drill="0.35"/>
-<wire x1="30.466" y1="49.473" x2="31.965" y2="49.473" width="0.381" layer="16"/>
-<wire x1="31.965" y1="49.473" x2="32.315" y2="49.123" width="0.381" layer="16"/>
+<wire x1="32.442" y1="47.3704" x2="30.466" y2="49.3464" width="0.381" layer="16"/>
+<wire x1="30.466" y1="49.473" x2="30.466" y2="49.3464" width="0.381" layer="16"/>
 </signal>
 <signal name="N$10" class="3">
 <contactref element="R_LS_GATE_1" pad="2"/>
@@ -3589,11 +3596,8 @@ design rules under a new name.</description>
 <wire x1="33.62" y1="8.023" x2="33.18885" y2="8.023" width="0.381" layer="1"/>
 <wire x1="33.18885" y1="8.023" x2="31.9914" y2="8.519" width="0.381" layer="1" curve="-45"/>
 <via x="31.9914" y="8.519" extent="1-16" drill="0.35"/>
-<wire x1="31.9914" y1="8.519" x2="31.9914" y2="8.80804375" width="0.381" layer="16"/>
-<wire x1="31.9914" y1="8.80804375" x2="32.3706625" y2="9.7236625" width="0.381" layer="16" curve="-44.999754"/>
-<wire x1="32.3706625" y1="9.7236625" x2="32.39589375" y2="9.74889375" width="0.381" layer="16"/>
-<wire x1="32.39589375" y1="9.74889375" x2="32.936934375" y2="9.973" width="0.381" layer="16" curve="-44.999766"/>
-<wire x1="32.936934375" y1="9.973" x2="33.505" y2="9.973" width="0.381" layer="16"/>
+<wire x1="31.9914" y1="8.519" x2="32.6834" y2="9.211" width="0.381" layer="16" curve="-90"/>
+<wire x1="32.6834" y1="9.211" x2="33.6574" y2="9.211" width="0.381" layer="16"/>
 </signal>
 <signal name="VIN_CONNECTOR" class="1">
 <contactref element="4P_INPUT_CONNECTOR1" pad="1"/>
@@ -3725,6 +3729,13 @@ design rules under a new name.</description>
 <vertex x="42.291" y="48.2346"/>
 <vertex x="40.017128125" y="48.2346" curve="-90"/>
 </polygon>
+<via x="24.8412" y="55.6514" extent="1-16" drill="0.35"/>
+<via x="26.8224" y="55.7276" extent="1-16" drill="0.35"/>
+<via x="40.64" y="54.2544" extent="1-16" drill="0.35"/>
+<via x="42.4434" y="54.2544" extent="1-16" drill="0.35"/>
+<via x="44.0182" y="54.229" extent="1-16" drill="0.35"/>
+<via x="45.5676" y="54.2036" extent="1-16" drill="0.35"/>
+<via x="50.6984" y="54.8894" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="GND_1">
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="10"/>
@@ -3841,6 +3852,9 @@ design rules under a new name.</description>
 <vertex x="41.414484375" y="35.7632"/>
 <vertex x="46.9138" y="35.7632" curve="-90"/>
 </polygon>
+<via x="41.3766" y="35.2806" extent="1-16" drill="0.35"/>
+<via x="42.4942" y="35.2552" extent="1-16" drill="0.35"/>
+<via x="43.8912" y="35.2806" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="GND_2">
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="8"/>
@@ -3947,14 +3961,24 @@ design rules under a new name.</description>
 <via x="61.5696" y="18.2118" extent="1-16" drill="0.35"/>
 <polygon width="0.1016" layer="1" thermals="no">
 <vertex x="43.8658" y="11.303"/>
-<vertex x="43.8658" y="10.5156"/>
-<vertex x="41.0972" y="10.5156"/>
-<vertex x="41.0972" y="16.9418"/>
-<vertex x="47.6758" y="16.9418"/>
-<vertex x="47.6758" y="15.113"/>
-<vertex x="44.704" y="15.113"/>
-<vertex x="43.8658" y="14.2748"/>
+<vertex x="43.8658" y="11.072990625" curve="-90"/>
+<vertex x="43.308409375" y="10.5156"/>
+<vertex x="41.52718125" y="10.5156" curve="-90"/>
+<vertex x="41.0972" y="10.94558125"/>
+<vertex x="41.0972" y="16.345228125" curve="-90"/>
+<vertex x="41.693771875" y="16.9418"/>
+<vertex x="47.206325" y="16.9418" curve="-90"/>
+<vertex x="47.6758" y="16.472325"/>
+<vertex x="47.6758" y="15.494" curve="-90"/>
+<vertex x="47.2948" y="15.113"/>
+<vertex x="44.739921875" y="15.113" curve="45"/>
+<vertex x="44.6786" y="15.0876"/>
+<vertex x="44.611275" y="15.020275" curve="45"/>
+<vertex x="43.8658" y="13.2205375"/>
 </polygon>
+<via x="41.7576" y="16.3068" extent="1-16" drill="0.35"/>
+<via x="43.053" y="16.3576" extent="1-16" drill="0.35"/>
+<via x="44.5262" y="16.3576" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
