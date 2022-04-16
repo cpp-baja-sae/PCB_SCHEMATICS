@@ -12857,29 +12857,37 @@ design rules under a new name.</description>
 <contactref element="R118" pad="1"/>
 <contactref element="Z9" pad="4"/>
 <contactref element="D25" pad="1"/>
+<contactref element="J11" pad="04"/>
 <wire x1="52.8002" y1="64.033146875" x2="51.976" y2="67.029" width="0" layer="19" extent="1-1"/>
 <wire x1="57.137209375" y1="58.0959" x2="52.8002" y2="64.033146875" width="0" layer="19" extent="1-1"/>
+<wire x1="13.451840625" y1="-27.837390625" x2="57.137209375" y2="58.0959" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF_GP1_P">
 <contactref element="R117" pad="1"/>
 <contactref element="Z9" pad="5"/>
 <contactref element="D26" pad="1"/>
+<contactref element="J11" pad="02"/>
 <wire x1="52.366" y1="69.459" x2="53.948078125" y2="68.74505" width="0" layer="19" extent="1-1"/>
 <wire x1="57.12273125" y1="63.909703125" x2="53.948078125" y2="68.74505" width="0" layer="19" extent="1-1"/>
+<wire x1="12.181840625" y1="-27.837390625" x2="57.12273125" y2="63.909703125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF_GP2_N">
 <contactref element="R120" pad="1"/>
 <contactref element="D28" pad="1"/>
 <contactref element="Z10" pad="4"/>
+<contactref element="J11" pad="08"/>
 <wire x1="68.4347625" y1="64.49491875" x2="68.232" y2="67.029" width="0" layer="19" extent="1-1"/>
 <wire x1="72.5885375" y1="60.37225" x2="68.4347625" y2="64.49491875" width="0" layer="19" extent="1-1"/>
+<wire x1="15.991840625" y1="-27.837390625" x2="72.5885375" y2="60.37225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF_GP2_P">
 <contactref element="R119" pad="1"/>
 <contactref element="D29" pad="1"/>
 <contactref element="Z10" pad="5"/>
+<contactref element="J11" pad="06"/>
 <wire x1="70.5589125" y1="69.219521875" x2="72.5758375" y2="66.17513125" width="0" layer="19" extent="1-1"/>
 <wire x1="68.622" y1="69.459" x2="70.5589125" y2="69.219521875" width="0" layer="19" extent="1-1"/>
+<wire x1="14.721840625" y1="-27.837390625" x2="72.5758375" y2="66.17513125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF_GP3_N">
 <contactref element="R122" pad="1"/>
@@ -18285,18 +18293,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$21">
 <contactref element="J4" pad="79"/>
-</signal>
-<signal name="N$2">
-<contactref element="J11" pad="02"/>
-</signal>
-<signal name="N$3">
-<contactref element="J11" pad="04"/>
-</signal>
-<signal name="N$43">
-<contactref element="J11" pad="06"/>
-</signal>
-<signal name="N$46">
-<contactref element="J11" pad="08"/>
 </signal>
 <signal name="N$50">
 <contactref element="J11" pad="10"/>
