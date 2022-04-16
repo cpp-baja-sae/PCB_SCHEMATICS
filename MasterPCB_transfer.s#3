@@ -13286,7 +13286,7 @@ Enable direct connection with 40G link</text>
 <label x="2.54" y="22.86" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="FLASH_CD/DAT2_SPI-CS" class="0">
+<net name="FLASH_CD/DAT3_SPI-CS" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="CD/DAT3"/>
 <wire x1="5.08" y1="17.78" x2="7.62" y2="17.78" width="0.1524" layer="91"/>
@@ -25823,7 +25823,7 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <wire x1="236.22" y1="-17.78" x2="241.3" y2="-17.78" width="0.1524" layer="94"/>
 <wire x1="241.3" y1="-17.78" x2="241.3" y2="-43.18" width="0.1524" layer="94"/>
 <wire x1="241.3" y1="-43.18" x2="236.22" y2="-43.18" width="0.1524" layer="94"/>
-<text x="243.84" y="-30.48" size="1.778" layer="97">NAND Flash interface</text>
+<text x="243.84" y="-30.48" size="1.778" layer="97">Flash interface</text>
 <wire x1="241.3" y1="-43.18" x2="241.3" y2="-55.88" width="0.1524" layer="94"/>
 <wire x1="241.3" y1="-55.88" x2="236.22" y2="-55.88" width="0.1524" layer="94"/>
 <text x="243.84" y="-50.8" size="1.778" layer="97">ISO SPI link interface</text>
@@ -26379,70 +26379,28 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <pinref part="J4" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="NAND_SPI_!HOLD/IO03" class="0">
-<segment>
-<wire x1="205.74" y1="-43.18" x2="203.2" y2="-43.18" width="0.1524" layer="91"/>
-<label x="208.28" y="-43.18" size="1.778" layer="95"/>
-<pinref part="J4" gate="G$1" pin="20"/>
-</segment>
-</net>
-<net name="NAND_SPI_!WP/IO2" class="0">
-<segment>
-<wire x1="205.74" y1="-40.64" x2="203.2" y2="-40.64" width="0.1524" layer="91"/>
-<label x="208.28" y="-40.64" size="1.778" layer="95"/>
-<pinref part="J4" gate="G$1" pin="18"/>
-</segment>
-</net>
-<net name="NAND_SPI_SO/IO1" class="0">
-<segment>
-<wire x1="205.74" y1="-38.1" x2="203.2" y2="-38.1" width="0.1524" layer="91"/>
-<label x="208.28" y="-38.1" size="1.778" layer="95"/>
-<pinref part="J4" gate="G$1" pin="16"/>
-</segment>
-</net>
-<net name="NAND_SPI_SI/IO0" class="0">
-<segment>
-<wire x1="205.74" y1="-35.56" x2="203.2" y2="-35.56" width="0.1524" layer="91"/>
-<label x="208.28" y="-35.56" size="1.778" layer="95"/>
-<pinref part="J4" gate="G$1" pin="14"/>
-</segment>
-</net>
-<net name="NAND_SPI_CLK" class="0">
+<net name="FLASH_CLK" class="0">
 <segment>
 <wire x1="205.74" y1="-33.02" x2="203.2" y2="-33.02" width="0.1524" layer="91"/>
 <label x="208.28" y="-33.02" size="1.778" layer="95"/>
 <pinref part="J4" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="!CS_INPUT_NAND" class="0">
-<segment>
-<wire x1="205.74" y1="-30.48" x2="203.2" y2="-30.48" width="0.1524" layer="91"/>
-<label x="208.28" y="-30.48" size="1.778" layer="95"/>
-<pinref part="J4" gate="G$1" pin="10"/>
-</segment>
-</net>
-<net name="MUX_3" class="0">
-<segment>
-<wire x1="205.74" y1="-27.94" x2="203.2" y2="-27.94" width="0.1524" layer="91"/>
-<label x="208.28" y="-27.94" size="1.778" layer="95"/>
-<pinref part="J4" gate="G$1" pin="08"/>
-</segment>
-</net>
-<net name="MUX_2" class="0">
+<net name="FLASH_DAT2" class="0">
 <segment>
 <wire x1="205.74" y1="-25.4" x2="203.2" y2="-25.4" width="0.1524" layer="91"/>
 <label x="208.28" y="-25.4" size="1.778" layer="95"/>
 <pinref part="J4" gate="G$1" pin="06"/>
 </segment>
 </net>
-<net name="MUX_1" class="0">
+<net name="FLASH_DAT1" class="0">
 <segment>
 <wire x1="205.74" y1="-22.86" x2="203.2" y2="-22.86" width="0.1524" layer="91"/>
 <label x="208.28" y="-22.86" size="1.778" layer="95"/>
 <pinref part="J4" gate="G$1" pin="04"/>
 </segment>
 </net>
-<net name="MUX_0" class="0">
+<net name="FLASH_DAT0_SPI-DO" class="0">
 <segment>
 <wire x1="205.74" y1="-20.32" x2="203.2" y2="-20.32" width="0.1524" layer="91"/>
 <label x="208.28" y="-20.32" size="1.778" layer="95"/>
@@ -28142,6 +28100,44 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <segment>
 <wire x1="175.26" y1="-119.38" x2="177.8" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="79"/>
+</segment>
+</net>
+<net name="FLASH_CMD_SPI-DI" class="0">
+<segment>
+<wire x1="205.74" y1="-30.48" x2="203.2" y2="-30.48" width="0.1524" layer="91"/>
+<label x="208.28" y="-30.48" size="1.778" layer="95"/>
+<pinref part="J4" gate="G$1" pin="10"/>
+</segment>
+</net>
+<net name="FLASH_CD/DAT3_SPI-CS" class="0">
+<segment>
+<wire x1="205.74" y1="-27.94" x2="203.2" y2="-27.94" width="0.1524" layer="91"/>
+<label x="208.28" y="-27.94" size="1.778" layer="95"/>
+<pinref part="J4" gate="G$1" pin="08"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="14"/>
+<wire x1="205.74" y1="-35.56" x2="203.2" y2="-35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="16"/>
+<wire x1="205.74" y1="-38.1" x2="203.2" y2="-38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="18"/>
+<wire x1="205.74" y1="-40.64" x2="203.2" y2="-40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="20"/>
+<wire x1="205.74" y1="-43.18" x2="203.2" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -110,7 +110,7 @@
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="NUCLEO_H723ZG" urn="urn:adsk.eagle:footprint:34377631/5" library_version="38">
+<package name="NUCLEO_H723ZG" urn="urn:adsk.eagle:footprint:34377631/6" library_version="143">
 <wire x1="92.2284" y1="0.446" x2="0.2784" y2="0.446" width="0.1" layer="51"/>
 <wire x1="0.2784" y1="0.446" x2="0.2784" y2="5.396" width="0.1" layer="51"/>
 <wire x1="0.2784" y1="5.396" x2="92.2284" y2="5.396" width="0.1" layer="51"/>
@@ -806,7 +806,7 @@
 <wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
 </package>
-<package name="ERJ_2LW_2BW_2B_(0402)" urn="urn:adsk.eagle:footprint:34596973/1" library_version="80">
+<package name="ERJ_2LW_2BW_2B_(0402)" urn="urn:adsk.eagle:footprint:34596973/2" library_version="143">
 <description>&lt;b&gt;ERJ_2LW_2BW_2B_(0402)&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-0.5125" y="0" dx="0.5" dy="0.475" layer="1" rot="R90"/>
@@ -817,10 +817,10 @@
 <wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.2" layer="51"/>
 <wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.2" layer="51"/>
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.2" layer="51"/>
-<wire x1="-2.2125" y1="1.45" x2="1.75" y2="1.45" width="0.05" layer="51"/>
-<wire x1="1.75" y1="1.45" x2="1.75" y2="-1.45" width="0.05" layer="51"/>
-<wire x1="1.75" y1="-1.45" x2="-2.2125" y2="-1.45" width="0.05" layer="51"/>
-<wire x1="-2.2125" y1="-1.45" x2="-2.2125" y2="1.45" width="0.05" layer="51"/>
+<wire x1="-1.1965" y1="0.688" x2="1.242" y2="0.688" width="0.05" layer="51"/>
+<wire x1="1.242" y1="0.688" x2="1.242" y2="-0.688" width="0.05" layer="51"/>
+<wire x1="1.242" y1="-0.688" x2="-1.1965" y2="-0.688" width="0.05" layer="51"/>
+<wire x1="-1.1965" y1="-0.688" x2="-1.1965" y2="0.688" width="0.05" layer="51"/>
 <circle x="-1.1125" y="0" radius="0.05" width="0.2" layer="25"/>
 </package>
 <package name="TRANS_NTLUS3A18PZTAG" urn="urn:adsk.eagle:footprint:32963955/1" library_version="80">
@@ -848,7 +848,7 @@
 <smd name="7" x="0" y="0.285" dx="1.1" dy="1.25" layer="1" cream="no"/>
 <smd name="8" x="0" y="-0.775" dx="0.66" dy="0.35" layer="1"/>
 </package>
-<package name="ERJ2R_(0402)" urn="urn:adsk.eagle:footprint:34597291/1" library_version="86">
+<package name="ERJ2R_(0402)" urn="urn:adsk.eagle:footprint:34597291/2" library_version="144">
 <description>&lt;b&gt;ERJ2R_(0402)&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-0.5125" y="0" dx="0.5" dy="0.475" layer="1" rot="R90"/>
@@ -859,10 +859,10 @@
 <wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.2" layer="51"/>
 <wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.2" layer="51"/>
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.2" layer="51"/>
-<wire x1="-1.9125" y1="1.25" x2="1.55" y2="1.25" width="0.05" layer="51"/>
-<wire x1="1.55" y1="1.25" x2="1.55" y2="-1.25" width="0.05" layer="51"/>
-<wire x1="1.55" y1="-1.25" x2="-1.9125" y2="-1.25" width="0.05" layer="51"/>
-<wire x1="-1.9125" y1="-1.25" x2="-1.9125" y2="1.25" width="0.05" layer="51"/>
+<wire x1="-1.1505" y1="0.488" x2="1.042" y2="0.488" width="0.05" layer="51"/>
+<wire x1="1.042" y1="0.488" x2="1.042" y2="-0.488" width="0.05" layer="51"/>
+<wire x1="1.042" y1="-0.488" x2="-1.1505" y2="-0.488" width="0.05" layer="51"/>
+<wire x1="-1.1505" y1="-0.488" x2="-1.1505" y2="0.488" width="0.05" layer="51"/>
 <circle x="-1.0125" y="0" radius="0.05" width="0.2" layer="25"/>
 </package>
 <package name="LEDM168X80N" urn="urn:adsk.eagle:footprint:34597162/1" library_version="86">
@@ -1823,7 +1823,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="NUCLEO_H723ZG" urn="urn:adsk.eagle:package:34377632/8" type="model" library_version="60">
+<package3d name="NUCLEO_H723ZG" urn="urn:adsk.eagle:package:34377632/9" type="model" library_version="143">
 <packageinstances>
 <packageinstance name="NUCLEO_H723ZG"/>
 </packageinstances>
@@ -1913,7 +1913,7 @@
 <packageinstance name="RESC1005X35N"/>
 </packageinstances>
 </package3d>
-<package3d name="ERJ_2LW_2BW_2B_(0402)" urn="urn:adsk.eagle:package:34596974/2" type="model" library_version="80">
+<package3d name="ERJ_2LW_2BW_2B_(0402)" urn="urn:adsk.eagle:package:34596974/3" type="model" library_version="143">
 <description>&lt;b&gt;ERJ_2LW_2BW_2B_(0402)&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="ERJ_2LW_2BW_2B_(0402)"/>
@@ -1924,7 +1924,7 @@
 <packageinstance name="TRANS_NTLUS3A18PZTAG"/>
 </packageinstances>
 </package3d>
-<package3d name="ERJ2R_(0402)" urn="urn:adsk.eagle:package:34597292/2" type="model" library_version="86">
+<package3d name="ERJ2R_(0402)" urn="urn:adsk.eagle:package:34597292/3" type="model" library_version="144">
 <description>&lt;b&gt;ERJ2R_(0402)&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="ERJ2R_(0402)"/>
@@ -3119,7 +3119,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NUCLEO_H723ZG" urn="urn:adsk.eagle:component:34377634/8" prefix="UC" library_version="60">
+<deviceset name="NUCLEO_H723ZG" urn="urn:adsk.eagle:component:34377634/9" prefix="UC" library_version="143">
 <gates>
 <gate name="G$1" symbol="NUCLEO_H723ZG" x="0" y="0"/>
 </gates>
@@ -3258,7 +3258,7 @@
 <connect gate="G$1" pin="VREFP" pad="VREFP"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34377632/8"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34377632/9"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3801,7 +3801,7 @@ Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet 
 </device>
 </devices>
 </deviceset>
-<deviceset name="ERJ-2BWFR050X" urn="urn:adsk.eagle:component:34596975/2" prefix="R" library_version="80">
+<deviceset name="ERJ-2BWFR050X" urn="urn:adsk.eagle:component:34596975/3" prefix="R" library_version="143">
 <description>&lt;b&gt;Low Resistance Thick Film Chip Resistor, 0402, 0.25W&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3814,7 +3814,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AO
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3961,7 +3961,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ERJ-2RKF2002X" urn="urn:adsk.eagle:component:34597293/2" prefix="R" library_version="86">
+<deviceset name="ERJ-2RKF2002X" urn="urn:adsk.eagle:component:34597293/3" prefix="R" library_version="144">
 <description>&lt;b&gt;Precision Thick Film Chip Resistor, 0402, 0.063W&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3974,7 +3974,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4971,7 +4971,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="GND93" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND94" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND95" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="UC1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NUCLEO_H723ZG" device="" package3d_urn="urn:adsk.eagle:package:34377632/8"/>
+<part name="UC1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NUCLEO_H723ZG" device="" package3d_urn="urn:adsk.eagle:package:34377632/9"/>
 <part name="C47" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CGA5L2C0G1H104J160AD" device="" package3d_urn="urn:adsk.eagle:package:34399787/2"/>
 <part name="R1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K30FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
@@ -5224,7 +5224,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R90" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R91" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND64" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R92" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R92" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R93" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R94" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5233,20 +5233,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R95" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R96" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND98" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R97" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R97" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND99" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND100" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R99" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R99" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R100" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R100" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND101" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R101" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R127" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R128" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND102" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R129" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R129" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R130" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R131" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5255,10 +5255,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R132" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R133" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND104" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R134" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R134" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R135" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R135" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND105" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="D2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
@@ -5285,7 +5285,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R137" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R138" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND119" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R139" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R139" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R140" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R141" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5294,20 +5294,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R142" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R143" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND121" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R144" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R144" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND122" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND123" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R145" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R145" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R146" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R146" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND124" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R164" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R165" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R166" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND125" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R167" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R167" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R168" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R169" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5316,10 +5316,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R170" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R171" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND127" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R172" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R172" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R173" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R173" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND128" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="D8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
@@ -5346,7 +5346,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R175" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R176" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND142" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R177" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R177" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R178" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R179" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5355,20 +5355,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R180" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R181" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND144" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R182" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R182" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND145" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND146" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R183" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R183" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R184" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R184" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND147" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R185" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R186" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R187" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND148" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R188" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R188" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R189" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R190" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5377,10 +5377,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R191" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R192" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND150" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R193" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R193" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R194" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R194" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND151" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="D14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
@@ -5407,7 +5407,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R196" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R197" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND165" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R198" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R198" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R199" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R200" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5416,20 +5416,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R202" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R204" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND167" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R206" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R206" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND168" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND169" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R208" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R208" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R210" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R210" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND170" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R212" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R213" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R214" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND171" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R215" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R215" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R216" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R217" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5438,10 +5438,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R218" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R219" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND173" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R220" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R220" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED19" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED20" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R222" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R222" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND174" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D19" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="D20" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
@@ -5468,7 +5468,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R224" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R225" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND188" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R226" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R226" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R228" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R240" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5477,20 +5477,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R241" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R242" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND190" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R243" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R243" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED21" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND191" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND192" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED22" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R244" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R244" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED23" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R245" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R245" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND193" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R246" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R247" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R248" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND194" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R249" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R249" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R250" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R251" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5499,10 +5499,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R252" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R253" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND196" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R254" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R254" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED24" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED25" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R255" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R255" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND197" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D25" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="D26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
@@ -5529,7 +5529,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R257" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R258" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND211" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R259" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R259" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R260" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R261" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5538,20 +5538,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R262" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R263" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND213" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R264" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R264" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND214" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND215" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED27" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R265" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R265" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED28" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R266" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R266" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND216" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R267" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R268" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R269" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND217" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R270" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R270" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R271" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R272" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5560,10 +5560,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R273" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R274" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND219" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R275" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R275" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED29" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED30" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R276" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R276" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND220" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D31" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="D32" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
@@ -5590,7 +5590,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R278" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R279" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND234" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R280" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R280" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R281" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R282" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5599,20 +5599,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R283" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R284" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND236" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R285" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R285" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED31" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND237" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND238" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED32" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R286" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R286" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED33" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R287" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R287" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND239" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R288" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R289" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R290" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND240" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R291" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R291" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R292" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R293" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5621,10 +5621,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R294" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R295" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND242" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R296" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R296" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED34" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED35" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R297" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R297" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND243" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D37" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="D38" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
@@ -5651,7 +5651,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R299" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R300" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND257" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R301" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R301" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R302" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R303" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5660,20 +5660,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R304" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R305" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND259" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R306" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R306" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED36" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND260" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND261" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED37" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R307" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R307" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED38" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R308" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R308" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND262" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R309" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R310" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R311" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND263" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R312" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R312" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R313" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R314" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M16" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5682,10 +5682,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R315" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R316" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND265" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R317" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R317" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED39" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED40" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R318" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R318" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND266" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="LTC4222CUH#PBF" device="" package3d_urn="urn:adsk.eagle:package:31941201/1"/>
 <part name="GND274" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5700,7 +5700,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R320" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R321" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND280" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R322" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R322" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R323" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R324" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M17" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5709,20 +5709,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R325" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R326" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND282" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R327" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R327" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED41" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND283" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND284" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED42" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R328" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R328" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED43" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R329" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R329" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND285" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R330" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R331" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R332" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND286" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R333" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R333" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R334" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R335" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M18" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5731,10 +5731,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R336" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R337" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND288" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R338" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R338" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED44" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED45" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R339" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R339" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND289" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D49" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="D50" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
@@ -5761,7 +5761,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R341" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R342" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND303" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R343" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R343" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R344" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R345" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M19" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5770,20 +5770,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R346" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R347" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND305" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R348" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R348" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED46" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND306" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND307" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED47" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R349" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R349" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED48" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R350" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R350" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND308" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R351" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R352" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R353" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND309" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R354" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R354" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R355" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R356" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M20" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5792,10 +5792,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R357" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R358" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND311" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R359" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R359" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED49" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED50" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R360" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R360" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND312" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D55" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="D56" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
@@ -5822,7 +5822,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R362" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R363" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND326" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R364" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R364" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R365" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R366" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M21" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5831,20 +5831,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R367" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R368" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND328" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R369" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R369" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED51" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND329" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND330" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED52" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R370" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R370" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED53" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R371" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R371" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND331" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R372" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R373" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R374" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND332" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R375" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R375" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R376" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R377" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M22" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5853,10 +5853,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R378" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R379" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND334" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R380" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R380" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED54" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED55" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R381" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R381" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND335" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D61" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="D62" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
@@ -5883,7 +5883,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R383" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R384" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND349" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R385" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R385" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R386" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R387" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M23" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5892,20 +5892,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R388" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R389" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND351" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R390" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R390" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED56" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND352" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND353" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED57" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R391" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R391" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED58" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R392" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R392" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND354" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R393" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R394" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R395" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND355" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R396" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R396" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R397" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R398" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M24" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5914,10 +5914,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R399" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R400" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND357" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R401" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R401" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED59" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED60" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R402" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R402" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND358" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D67" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="D68" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
@@ -5944,7 +5944,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R404" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R405" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND372" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R406" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R406" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R407" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R408" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M25" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5953,20 +5953,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R409" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R410" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND374" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R411" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R411" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED61" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND375" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND376" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED62" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R412" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R412" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED63" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R413" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R413" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND377" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R414" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R415" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R416" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND378" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R417" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R417" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R418" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R419" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -5975,10 +5975,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R420" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R421" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND380" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R422" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R422" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED64" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED65" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R423" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R423" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND381" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D73" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="D74" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
@@ -6001,7 +6001,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R425" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R426" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND389" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R427" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R427" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R428" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R429" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M27" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -6010,20 +6010,20 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R430" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R431" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND391" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R432" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R432" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED66" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="GND392" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND393" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED67" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
-<part name="R433" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R433" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED68" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R434" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R434" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND394" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R435" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW040212K0FKTD" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R436" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW0402510RFKEDC" device="" package3d_urn="urn:adsk.eagle:package:34596961/3"/>
 <part name="R437" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CRCW04021K05FKED" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND395" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R438" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/2"/>
+<part name="R438" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2BWFR050X" device="" package3d_urn="urn:adsk.eagle:package:34596974/3"/>
 <part name="R439" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ESR01MZPJ100" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R440" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-1015KL" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="M28" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NTLUS4C12NTAG" device="" package3d_urn="urn:adsk.eagle:package:32963956/2"/>
@@ -6032,10 +6032,10 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R441" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="CR0402-FX-1022GLF" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="R442" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
 <part name="GND397" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R443" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R443" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="LED69" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APHD1608LSURCK" device="" package3d_urn="urn:adsk.eagle:package:34597164/2"/>
 <part name="LED70" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:34597165/2"/>
-<part name="R444" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R444" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND398" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D43" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
 <part name="D44" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTVS12VS1UR,115" device="" package3d_urn="urn:adsk.eagle:package:34598068/2"/>
@@ -6046,46 +6046,46 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="GND402" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND403" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED71" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R445" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R445" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND382" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED72" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R446" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R446" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND387" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED73" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R447" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R447" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND399" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED74" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R448" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R448" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND404" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED75" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R449" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R449" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND405" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED76" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R450" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R450" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND406" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED77" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R451" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R451" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND407" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED78" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R452" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R452" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND408" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED79" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R453" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R453" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND409" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED80" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R454" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R454" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND410" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED81" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R455" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R455" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND411" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED82" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R456" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R456" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND412" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED83" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R457" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R457" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND413" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED84" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMLD12BN1WT86" device="" package3d_urn="urn:adsk.eagle:package:34606956/2"/>
-<part name="R458" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R458" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND414" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED85" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="AA3021LSYSK_J3-TR" device="" package3d_urn="urn:adsk.eagle:package:31969208/2"/>
 <part name="R459" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
@@ -6124,7 +6124,7 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="R470" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
 <part name="GND426" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTS120601B1K00P100" device="" package3d_urn="urn:adsk.eagle:package:34609362/1"/>
-<part name="R471" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R471" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND427" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R472" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="GMR100HTCFAR100" device="" package3d_urn="urn:adsk.eagle:package:34687650/2"/>
 <part name="R473" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="RC0402JR-133K3L" device="" package3d_urn="urn:adsk.eagle:package:31696460/9"/>
@@ -6169,31 +6169,31 @@ Source: &lt;a href="https://gct.co/files/drawings/mem2051.pdf"&gt; Datasheet &lt
 <part name="IC26" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:34425675/2"/>
 <part name="GND439" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTS120601B1K00P100" device="" package3d_urn="urn:adsk.eagle:package:34609362/1"/>
-<part name="R499" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R499" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND440" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTS120601B1K00P100" device="" package3d_urn="urn:adsk.eagle:package:34609362/1"/>
-<part name="R500" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R500" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND441" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="PTS120601B1K00P100" device="" package3d_urn="urn:adsk.eagle:package:34609362/1"/>
-<part name="R501" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R501" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="GND442" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC27" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:34425675/2"/>
-<part name="R503" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R503" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="R504" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
 <part name="GND444" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND445" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC28" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:34425675/2"/>
-<part name="R502" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R502" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="R505" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
 <part name="GND443" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND446" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC29" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:34425675/2"/>
-<part name="R506" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R506" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="R507" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
 <part name="GND447" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND448" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC30" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="NCS21911SN2T1G" device="" package3d_urn="urn:adsk.eagle:package:34425675/2"/>
-<part name="R508" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/2"/>
+<part name="R508" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:34597292/3"/>
 <part name="R509" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:34425014/2"/>
 <part name="GND449" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND450" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
