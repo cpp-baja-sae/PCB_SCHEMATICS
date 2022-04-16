@@ -8,8 +8,8 @@
 </settings>
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,17 +22,17 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -57,7 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
@@ -3526,7 +3526,7 @@ design rules under a new name.</description>
 <wire x1="5.515" y1="13.245" x2="6.785" y2="13.245" width="0" layer="19" extent="16-16"/>
 <wire x1="5.7658" y1="16.3068" x2="5.515" y2="13.245" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="GND_">
+<signal name="GND">
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="12"/>
 <contactref element="R_SHUNT_GND_" pad="2"/>
 <contactref element="TP_GND_" pad="1"/>
@@ -3554,8 +3554,8 @@ design rules under a new name.</description>
 <contactref element="NMOS_LDO_" pad="2"/>
 <polygon width="0.1524" layer="16" isolate="0.25">
 <vertex x="20.2092" y="62.373"/>
-<vertex x="20.1584" y="42.8498"/>
-<vertex x="65.9342" y="42.8498"/>
+<vertex x="20.04565" y="-0.4826"/>
+<vertex x="65.82145" y="-0.4826"/>
 <vertex x="65.985" y="62.373"/>
 </polygon>
 <polygon width="0.127" layer="1" isolate="0.25" rank="2">
@@ -3645,127 +3645,7 @@ design rules under a new name.</description>
 <via x="44.0182" y="54.229" extent="1-16" drill="0.35"/>
 <via x="45.5676" y="54.2036" extent="1-16" drill="0.35"/>
 <via x="50.6984" y="54.8894" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="GND_1">
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="10"/>
-<contactref element="R_SHUNT_GND_1" pad="2"/>
-<contactref element="TP_GND_1" pad="1"/>
-<contactref element="LT3579_IC_1" pad="20"/>
-<contactref element="R_UVLO2_1" pad="1"/>
-<contactref element="C_SS_1" pad="2"/>
-<contactref element="C_F_1" pad="2"/>
-<contactref element="C_C_1" pad="2"/>
-<contactref element="R_T_1" pad="2"/>
-<contactref element="L1L2_1" pad="4"/>
-<contactref element="C_IN_2_1" pad="2"/>
-<contactref element="C_IN_1_1" pad="2"/>
-<contactref element="C_OUT_1_1" pad="2"/>
-<contactref element="C_OUT_2_1" pad="2"/>
-<contactref element="C_OUT_3_1" pad="2"/>
-<contactref element="LT3579_IC_1" pad="21"/>
-<contactref element="TP_GND1_1" pad="1"/>
-<contactref element="TP_GND2_1" pad="1"/>
-<contactref element="TP_GND3_1" pad="1"/>
-<contactref element="TP_GND4_1" pad="1"/>
-<contactref element="C_LS_1" pad="2"/>
-<contactref element="C_68N_F_1" pad="2"/>
-<contactref element="R_5K_F_1" pad="2"/>
-<contactref element="LED_1" pad="2"/>
-<contactref element="NMOS_LDO_1" pad="2"/>
-<polygon width="0.127" layer="16">
-<vertex x="65.9384" y="23.241"/>
-<vertex x="19.0754" y="23.241"/>
-<vertex x="19.177" y="41.6814"/>
-<vertex x="66.04" y="41.6814"/>
-</polygon>
-<polygon width="0.127" layer="1" rank="2">
-<vertex x="65.8114" y="23.2156"/>
-<vertex x="15.197321875" y="23.2156" curve="-90"/>
-<vertex x="14.097" y="23.934921875"/>
-<vertex x="14.097" y="40.6092" curve="-90"/>
-<vertex x="14.9914" y="41.6814"/>
-<vertex x="65.3796" y="41.6814"/>
-</polygon>
-<via x="27.0256" y="35.0774" extent="1-16" drill="0.35"/>
-<via x="21.7678" y="29.1084" extent="1-16" drill="0.35"/>
-<via x="29.6164" y="30.3276" extent="1-16" drill="0.35"/>
-<via x="35.1536" y="27.9146" extent="1-16" drill="0.35"/>
-<via x="48.514" y="40.9194" extent="1-16" drill="0.35"/>
-<via x="54.1782" y="41.1988" extent="1-16" drill="0.35"/>
-<via x="50.1904" y="25.5524" extent="1-16" drill="0.35"/>
-<via x="46.0248" y="23.7236" extent="1-16" drill="0.35"/>
-<via x="25.8572" y="40.8178" extent="1-16" drill="0.35"/>
-<via x="29.4894" y="40.9956" extent="1-16" drill="0.35"/>
-<via x="46.1264" y="40.9956" extent="1-16" drill="0.35"/>
-<via x="25.273" y="35.0774" extent="1-16" drill="0.35"/>
-<via x="29.2862" y="35.9918" extent="1-16" drill="0.35"/>
-<via x="19.7612" y="32.5374" extent="1-16" drill="0.35"/>
-<via x="19.7866" y="30.9372" extent="1-16" drill="0.35"/>
-<via x="21.8948" y="26.8986" extent="1-16" drill="0.35"/>
-<via x="27.0256" y="27.1526" extent="1-16" drill="0.35"/>
-<via x="29.718" y="32.1056" extent="1-16" drill="0.35"/>
-<via x="36.5506" y="28.0416" extent="1-16" drill="0.35"/>
-<via x="40.8178" y="34.3916" extent="1-16" drill="0.35"/>
-<via x="41.8338" y="34.417" extent="1-16" drill="0.35"/>
-<via x="42.9514" y="34.3916" extent="1-16" drill="0.35"/>
-<via x="55.626" y="33.5534" extent="1-16" drill="0.35"/>
-<via x="58.0136" y="30.0736" extent="1-16" drill="0.35"/>
-<via x="58.0136" y="27.5082" extent="1-16" drill="0.35"/>
-<via x="58.0136" y="24.765" extent="1-16" drill="0.35"/>
-<via x="50.1142" y="26.5684" extent="1-16" drill="0.35"/>
-<polygon width="0.1016" layer="1" thermals="no">
-<vertex x="15.2146" y="39.0652"/>
-<vertex x="14.5288" y="38.3794"/>
-<vertex x="14.5288" y="37.719"/>
-<vertex x="14.5288" y="34.1376"/>
-<vertex x="14.7828" y="33.8836"/>
-<vertex x="17.1196" y="33.8836"/>
-<vertex x="17.272" y="34.036"/>
-<vertex x="17.4498" y="34.2138"/>
-<vertex x="17.4498" y="38.5064"/>
-<vertex x="16.891" y="39.0652"/>
-</polygon>
-<polygon width="0.1016" layer="16" thermals="no">
-<vertex x="60.3758" y="35.1028"/>
-<vertex x="60.4012" y="35.1282"/>
-<vertex x="62.5602" y="35.1282"/>
-<vertex x="62.6364" y="35.052"/>
-<vertex x="62.6364" y="34.0106"/>
-<vertex x="60.5028" y="34.0106"/>
-<vertex x="60.3758" y="34.1376"/>
-</polygon>
-<polygon width="0.1016" layer="16" thermals="no">
-<vertex x="20.7518" y="39.0144"/>
-<vertex x="20.2438" y="38.5064"/>
-<vertex x="20.2438" y="34.5948"/>
-<vertex x="20.3708" y="34.4678"/>
-<vertex x="23.2156" y="34.4678"/>
-<vertex x="23.4188" y="34.671"/>
-<vertex x="23.4188" y="38.862"/>
-<vertex x="23.2664" y="39.0144"/>
-</polygon>
-<polygon width="0.1016" layer="1" thermals="no">
-<vertex x="47.0662" y="34.62440625" curve="-90"/>
-<vertex x="46.50319375" y="34.0614"/>
-<vertex x="43.95945" y="34.0614" curve="90"/>
-<vertex x="43.549046875" y="33.650996875"/>
-<vertex x="43.549046875" y="32.288115625" curve="-90"/>
-<vertex x="43.36653125" y="32.1056"/>
-<vertex x="43.31750625" y="32.1056" curve="90"/>
-<vertex x="43.2308" y="32.01889375"/>
-<vertex x="43.2308" y="29.780584375" curve="-90"/>
-<vertex x="43.015815625" y="29.5656"/>
-<vertex x="40.76444375" y="29.5656" curve="-90"/>
-<vertex x="40.4622" y="29.86784375"/>
-<vertex x="40.4622" y="34.810915625" curve="-90"/>
-<vertex x="41.414484375" y="35.7632"/>
-<vertex x="46.9138" y="35.7632" curve="-90"/>
-</polygon>
-<via x="41.3766" y="35.2806" extent="1-16" drill="0.35"/>
-<via x="42.4942" y="35.2552" extent="1-16" drill="0.35"/>
-<via x="43.8912" y="35.2806" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="GND_2">
 <contactref element="12P_OUTPUT_CONNECTOR1" pad="8"/>
 <contactref element="R_SHUNT_GND_2" pad="2"/>
 <contactref element="TP_GND_2" pad="1"/>
@@ -3791,12 +3671,6 @@ design rules under a new name.</description>
 <contactref element="R_5K_F_2" pad="2"/>
 <contactref element="LED_2" pad="2"/>
 <contactref element="NMOS_LDO_2" pad="2"/>
-<polygon width="0.127" layer="16">
-<vertex x="65.9892" y="21.8948"/>
-<vertex x="19.1262" y="21.8948"/>
-<vertex x="19.177" y="-0.2794"/>
-<vertex x="66.04" y="-0.2794"/>
-</polygon>
 <polygon width="0.127" layer="1" rank="2">
 <vertex x="14.097" y="-0.254"/>
 <vertex x="14.097" y="20.767396875" curve="-90"/>
@@ -3888,6 +3762,116 @@ design rules under a new name.</description>
 <via x="41.7576" y="16.3068" extent="1-16" drill="0.35"/>
 <via x="43.053" y="16.3576" extent="1-16" drill="0.35"/>
 <via x="44.5262" y="16.3576" extent="1-16" drill="0.35"/>
+<contactref element="R_SHUNT_GND_1" pad="2"/>
+<contactref element="TP_GND_1" pad="1"/>
+<contactref element="LT3579_IC_1" pad="20"/>
+<contactref element="R_UVLO2_1" pad="1"/>
+<contactref element="C_SS_1" pad="2"/>
+<contactref element="C_F_1" pad="2"/>
+<contactref element="C_C_1" pad="2"/>
+<contactref element="R_T_1" pad="2"/>
+<contactref element="L1L2_1" pad="4"/>
+<contactref element="C_IN_2_1" pad="2"/>
+<contactref element="C_IN_1_1" pad="2"/>
+<contactref element="C_OUT_1_1" pad="2"/>
+<contactref element="C_OUT_2_1" pad="2"/>
+<contactref element="C_OUT_3_1" pad="2"/>
+<contactref element="LT3579_IC_1" pad="21"/>
+<contactref element="TP_GND1_1" pad="1"/>
+<contactref element="TP_GND2_1" pad="1"/>
+<contactref element="TP_GND3_1" pad="1"/>
+<contactref element="TP_GND4_1" pad="1"/>
+<contactref element="C_LS_1" pad="2"/>
+<contactref element="C_68N_F_1" pad="2"/>
+<contactref element="R_5K_F_1" pad="2"/>
+<contactref element="LED_1" pad="2"/>
+<contactref element="NMOS_LDO_1" pad="2"/>
+<polygon width="0.127" layer="1" rank="2">
+<vertex x="65.8114" y="23.2156"/>
+<vertex x="15.197321875" y="23.2156" curve="-90"/>
+<vertex x="14.097" y="23.934921875"/>
+<vertex x="14.097" y="40.6092" curve="-90"/>
+<vertex x="14.9914" y="41.6814"/>
+<vertex x="65.3796" y="41.6814"/>
+</polygon>
+<via x="27.0256" y="35.0774" extent="1-16" drill="0.35"/>
+<via x="21.7678" y="29.1084" extent="1-16" drill="0.35"/>
+<via x="29.6164" y="30.3276" extent="1-16" drill="0.35"/>
+<via x="35.1536" y="27.9146" extent="1-16" drill="0.35"/>
+<via x="48.514" y="40.9194" extent="1-16" drill="0.35"/>
+<via x="54.1782" y="41.1988" extent="1-16" drill="0.35"/>
+<via x="50.1904" y="25.5524" extent="1-16" drill="0.35"/>
+<via x="46.0248" y="23.7236" extent="1-16" drill="0.35"/>
+<via x="25.8572" y="40.8178" extent="1-16" drill="0.35"/>
+<via x="29.4894" y="40.9956" extent="1-16" drill="0.35"/>
+<via x="46.1264" y="40.9956" extent="1-16" drill="0.35"/>
+<via x="25.273" y="35.0774" extent="1-16" drill="0.35"/>
+<via x="29.2862" y="35.9918" extent="1-16" drill="0.35"/>
+<via x="19.7612" y="32.5374" extent="1-16" drill="0.35"/>
+<via x="19.7866" y="30.9372" extent="1-16" drill="0.35"/>
+<via x="21.8948" y="26.8986" extent="1-16" drill="0.35"/>
+<via x="27.0256" y="27.1526" extent="1-16" drill="0.35"/>
+<via x="29.718" y="32.1056" extent="1-16" drill="0.35"/>
+<via x="36.5506" y="28.0416" extent="1-16" drill="0.35"/>
+<via x="40.8178" y="34.3916" extent="1-16" drill="0.35"/>
+<via x="41.8338" y="34.417" extent="1-16" drill="0.35"/>
+<via x="42.9514" y="34.3916" extent="1-16" drill="0.35"/>
+<via x="55.626" y="33.5534" extent="1-16" drill="0.35"/>
+<via x="58.0136" y="30.0736" extent="1-16" drill="0.35"/>
+<via x="58.0136" y="27.5082" extent="1-16" drill="0.35"/>
+<via x="58.0136" y="24.765" extent="1-16" drill="0.35"/>
+<via x="50.1142" y="26.5684" extent="1-16" drill="0.35"/>
+<polygon width="0.1016" layer="1" thermals="no">
+<vertex x="15.2146" y="39.0652"/>
+<vertex x="14.5288" y="38.3794"/>
+<vertex x="14.5288" y="37.719"/>
+<vertex x="14.5288" y="34.1376"/>
+<vertex x="14.7828" y="33.8836"/>
+<vertex x="17.1196" y="33.8836"/>
+<vertex x="17.272" y="34.036"/>
+<vertex x="17.4498" y="34.2138"/>
+<vertex x="17.4498" y="38.5064"/>
+<vertex x="16.891" y="39.0652"/>
+</polygon>
+<polygon width="0.1016" layer="16" thermals="no">
+<vertex x="60.3758" y="35.1028"/>
+<vertex x="60.4012" y="35.1282"/>
+<vertex x="62.5602" y="35.1282"/>
+<vertex x="62.6364" y="35.052"/>
+<vertex x="62.6364" y="34.0106"/>
+<vertex x="60.5028" y="34.0106"/>
+<vertex x="60.3758" y="34.1376"/>
+</polygon>
+<polygon width="0.1016" layer="16" thermals="no">
+<vertex x="20.7518" y="39.0144"/>
+<vertex x="20.2438" y="38.5064"/>
+<vertex x="20.2438" y="34.5948"/>
+<vertex x="20.3708" y="34.4678"/>
+<vertex x="23.2156" y="34.4678"/>
+<vertex x="23.4188" y="34.671"/>
+<vertex x="23.4188" y="38.862"/>
+<vertex x="23.2664" y="39.0144"/>
+</polygon>
+<polygon width="0.1016" layer="1" thermals="no">
+<vertex x="47.0662" y="34.62440625" curve="-90"/>
+<vertex x="46.50319375" y="34.0614"/>
+<vertex x="43.95945" y="34.0614" curve="90"/>
+<vertex x="43.549046875" y="33.650996875"/>
+<vertex x="43.549046875" y="32.288115625" curve="-90"/>
+<vertex x="43.36653125" y="32.1056"/>
+<vertex x="43.31750625" y="32.1056" curve="90"/>
+<vertex x="43.2308" y="32.01889375"/>
+<vertex x="43.2308" y="29.780584375" curve="-90"/>
+<vertex x="43.015815625" y="29.5656"/>
+<vertex x="40.76444375" y="29.5656" curve="-90"/>
+<vertex x="40.4622" y="29.86784375"/>
+<vertex x="40.4622" y="34.810915625" curve="-90"/>
+<vertex x="41.414484375" y="35.7632"/>
+<vertex x="46.9138" y="35.7632" curve="-90"/>
+</polygon>
+<via x="41.3766" y="35.2806" extent="1-16" drill="0.35"/>
+<via x="42.4942" y="35.2552" extent="1-16" drill="0.35"/>
+<via x="43.8912" y="35.2806" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
