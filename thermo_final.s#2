@@ -2692,8 +2692,8 @@ For bolt size of 1/16"</text>
 <attribute name="VALUE" x="177.8" y="-22.86" size="1.778" layer="96"/>
 </instance>
 <instance part="D-TYPE" gate="G$1" x="15.24" y="-119.38" smashed="yes">
-<attribute name="NAME" x="26.67" y="-111.76" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="24.13" y="-114.3" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="11.43" y="-106.68" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="11.43" y="-109.22" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="AND2" gate="G$1" x="-114.3" y="-99.06" smashed="yes">
 <attribute name="NAME" x="-102.87" y="-91.44" size="1.778" layer="95" align="center-left"/>
@@ -4235,8 +4235,8 @@ For bolt size of 1/16"</text>
 <net name="Q6" class="0">
 <segment>
 <pinref part="D-TYPE" gate="G$1" pin="D7"/>
-<wire x1="40.64" y1="-121.92" x2="45.72" y2="-121.92" width="0.1524" layer="91"/>
-<label x="45.72" y="-121.92" size="1.778" layer="95"/>
+<wire x1="40.64" y1="-121.92" x2="48.26" y2="-121.92" width="0.1524" layer="91"/>
+<label x="50.8" y="-121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="D-TYPE" gate="G$1" pin="Q6"/>
@@ -4480,8 +4480,8 @@ For bolt size of 1/16"</text>
 </segment>
 <segment>
 <pinref part="D-TYPE" gate="G$1" pin="Q7"/>
-<wire x1="40.64" y1="-119.38" x2="48.26" y2="-119.38" width="0.1524" layer="91"/>
-<label x="50.8" y="-119.38" size="1.778" layer="95"/>
+<wire x1="40.64" y1="-119.38" x2="45.72" y2="-119.38" width="0.1524" layer="91"/>
+<label x="45.72" y="-119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="429.26" y1="-121.92" x2="429.26" y2="-124.46" width="0.1524" layer="91"/>
