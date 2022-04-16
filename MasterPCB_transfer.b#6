@@ -12857,29 +12857,37 @@ design rules under a new name.</description>
 <contactref element="R118" pad="1"/>
 <contactref element="Z9" pad="4"/>
 <contactref element="D25" pad="1"/>
+<contactref element="J11" pad="04"/>
 <wire x1="52.8002" y1="64.033146875" x2="51.976" y2="67.029" width="0" layer="19" extent="1-1"/>
 <wire x1="57.137209375" y1="58.0959" x2="52.8002" y2="64.033146875" width="0" layer="19" extent="1-1"/>
+<wire x1="13.451840625" y1="-27.837390625" x2="57.137209375" y2="58.0959" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF_GP1_P">
 <contactref element="R117" pad="1"/>
 <contactref element="Z9" pad="5"/>
 <contactref element="D26" pad="1"/>
+<contactref element="J11" pad="02"/>
 <wire x1="52.366" y1="69.459" x2="53.948078125" y2="68.74505" width="0" layer="19" extent="1-1"/>
 <wire x1="57.12273125" y1="63.909703125" x2="53.948078125" y2="68.74505" width="0" layer="19" extent="1-1"/>
+<wire x1="12.181840625" y1="-27.837390625" x2="57.12273125" y2="63.909703125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF_GP2_N">
 <contactref element="R120" pad="1"/>
 <contactref element="D28" pad="1"/>
 <contactref element="Z10" pad="4"/>
+<contactref element="J11" pad="08"/>
 <wire x1="68.4347625" y1="64.49491875" x2="68.232" y2="67.029" width="0" layer="19" extent="1-1"/>
 <wire x1="72.5885375" y1="60.37225" x2="68.4347625" y2="64.49491875" width="0" layer="19" extent="1-1"/>
+<wire x1="15.991840625" y1="-27.837390625" x2="72.5885375" y2="60.37225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF_GP2_P">
 <contactref element="R119" pad="1"/>
 <contactref element="D29" pad="1"/>
 <contactref element="Z10" pad="5"/>
+<contactref element="J11" pad="06"/>
 <wire x1="70.5589125" y1="69.219521875" x2="72.5758375" y2="66.17513125" width="0" layer="19" extent="1-1"/>
 <wire x1="68.622" y1="69.459" x2="70.5589125" y2="69.219521875" width="0" layer="19" extent="1-1"/>
+<wire x1="14.721840625" y1="-27.837390625" x2="72.5758375" y2="66.17513125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF_GP3_N">
 <contactref element="R122" pad="1"/>
@@ -18285,6 +18293,234 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$21">
 <contactref element="J4" pad="79"/>
+</signal>
+<signal name="N$50">
+<contactref element="J11" pad="10"/>
+</signal>
+<signal name="N$60">
+<contactref element="J11" pad="12"/>
+</signal>
+<signal name="N$64">
+<contactref element="J11" pad="14"/>
+</signal>
+<signal name="N$65">
+<contactref element="J11" pad="16"/>
+</signal>
+<signal name="N$70">
+<contactref element="J11" pad="18"/>
+</signal>
+<signal name="N$80">
+<contactref element="J11" pad="20"/>
+</signal>
+<signal name="N$81">
+<contactref element="J11" pad="22"/>
+</signal>
+<signal name="N$82">
+<contactref element="J11" pad="24"/>
+</signal>
+<signal name="N$114">
+<contactref element="J11" pad="26"/>
+</signal>
+<signal name="N$119">
+<contactref element="J11" pad="28"/>
+</signal>
+<signal name="N$130">
+<contactref element="J11" pad="30"/>
+</signal>
+<signal name="N$132">
+<contactref element="J11" pad="32"/>
+</signal>
+<signal name="N$133">
+<contactref element="J11" pad="34"/>
+</signal>
+<signal name="N$136">
+<contactref element="J11" pad="36"/>
+</signal>
+<signal name="N$139">
+<contactref element="J11" pad="38"/>
+</signal>
+<signal name="N$142">
+<contactref element="J11" pad="40"/>
+</signal>
+<signal name="N$145">
+<contactref element="J11" pad="42"/>
+</signal>
+<signal name="N$170">
+<contactref element="J11" pad="44"/>
+</signal>
+<signal name="N$171">
+<contactref element="J11" pad="46"/>
+</signal>
+<signal name="N$179">
+<contactref element="J11" pad="48"/>
+</signal>
+<signal name="N$180">
+<contactref element="J11" pad="50"/>
+</signal>
+<signal name="N$190">
+<contactref element="J11" pad="52"/>
+</signal>
+<signal name="N$200">
+<contactref element="J11" pad="54"/>
+</signal>
+<signal name="N$210">
+<contactref element="J11" pad="56"/>
+</signal>
+<signal name="N$214">
+<contactref element="J11" pad="58"/>
+</signal>
+<signal name="N$220">
+<contactref element="J11" pad="60"/>
+</signal>
+<signal name="N$230">
+<contactref element="J11" pad="62"/>
+</signal>
+<signal name="N$233">
+<contactref element="J11" pad="64"/>
+</signal>
+<signal name="N$234">
+<contactref element="J11" pad="66"/>
+</signal>
+<signal name="N$240">
+<contactref element="J11" pad="68"/>
+</signal>
+<signal name="N$249">
+<contactref element="J11" pad="70"/>
+</signal>
+<signal name="N$250">
+<contactref element="J11" pad="72"/>
+</signal>
+<signal name="N$251">
+<contactref element="J11" pad="74"/>
+</signal>
+<signal name="N$252">
+<contactref element="J11" pad="76"/>
+</signal>
+<signal name="N$260">
+<contactref element="J11" pad="78"/>
+</signal>
+<signal name="N$267">
+<contactref element="J11" pad="80"/>
+</signal>
+<signal name="N$269">
+<contactref element="J11" pad="79"/>
+</signal>
+<signal name="N$283">
+<contactref element="J11" pad="77"/>
+</signal>
+<signal name="N$285">
+<contactref element="J11" pad="75"/>
+</signal>
+<signal name="N$299">
+<contactref element="J11" pad="73"/>
+</signal>
+<signal name="N$300">
+<contactref element="J11" pad="71"/>
+</signal>
+<signal name="N$315">
+<contactref element="J11" pad="69"/>
+</signal>
+<signal name="N$316">
+<contactref element="J11" pad="67"/>
+</signal>
+<signal name="N$349">
+<contactref element="J11" pad="65"/>
+</signal>
+<signal name="N$351">
+<contactref element="J11" pad="63"/>
+</signal>
+<signal name="N$352">
+<contactref element="J11" pad="61"/>
+</signal>
+<signal name="N$353">
+<contactref element="J11" pad="59"/>
+</signal>
+<signal name="N$354">
+<contactref element="J11" pad="57"/>
+</signal>
+<signal name="N$355">
+<contactref element="J11" pad="55"/>
+</signal>
+<signal name="N$357">
+<contactref element="J11" pad="53"/>
+</signal>
+<signal name="N$358">
+<contactref element="J11" pad="51"/>
+</signal>
+<signal name="N$359">
+<contactref element="J11" pad="49"/>
+</signal>
+<signal name="N$361">
+<contactref element="J11" pad="47"/>
+</signal>
+<signal name="N$362">
+<contactref element="J11" pad="45"/>
+</signal>
+<signal name="N$363">
+<contactref element="J11" pad="43"/>
+</signal>
+<signal name="N$364">
+<contactref element="J11" pad="41"/>
+</signal>
+<signal name="N$365">
+<contactref element="J11" pad="39"/>
+</signal>
+<signal name="N$366">
+<contactref element="J11" pad="37"/>
+</signal>
+<signal name="N$367">
+<contactref element="J11" pad="35"/>
+</signal>
+<signal name="N$368">
+<contactref element="J11" pad="33"/>
+</signal>
+<signal name="N$369">
+<contactref element="J11" pad="31"/>
+</signal>
+<signal name="N$370">
+<contactref element="J11" pad="29"/>
+</signal>
+<signal name="N$371">
+<contactref element="J11" pad="27"/>
+</signal>
+<signal name="N$372">
+<contactref element="J11" pad="25"/>
+</signal>
+<signal name="N$373">
+<contactref element="J11" pad="23"/>
+</signal>
+<signal name="N$374">
+<contactref element="J11" pad="21"/>
+</signal>
+<signal name="N$375">
+<contactref element="J11" pad="19"/>
+</signal>
+<signal name="N$376">
+<contactref element="J11" pad="17"/>
+</signal>
+<signal name="N$377">
+<contactref element="J11" pad="15"/>
+</signal>
+<signal name="N$378">
+<contactref element="J11" pad="13"/>
+</signal>
+<signal name="N$379">
+<contactref element="J11" pad="11"/>
+</signal>
+<signal name="N$380">
+<contactref element="J11" pad="09"/>
+</signal>
+<signal name="N$381">
+<contactref element="J11" pad="07"/>
+</signal>
+<signal name="N$382">
+<contactref element="J11" pad="05"/>
+</signal>
+<signal name="N$383">
+<contactref element="J11" pad="03"/>
+</signal>
+<signal name="N$384">
+<contactref element="J11" pad="01"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
