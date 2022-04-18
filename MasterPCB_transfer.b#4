@@ -74,11 +74,11 @@
 <board>
 <fusionsync huburn="a.YnVzaW5lc3M6bXljcHAyMDk" projecturn="a.YnVzaW5lc3M6bXljcHAyMDkjRDIwMjAwNDAzMjgyNjY0NzU2" f3durn="urn:adsk.wipprod:dm.lineage:iU0vO3dsQSamaviQt-At0g" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="9fa2fae6-b01c-46b0-bdd1-a6d914986fe8" lastsyncedrevisionid="9fa2fae6-b01c-46b0-bdd1-a6d914986fe8" lastboardhashguid="ea0d2ea9-523a-a52c-7d4b-5673b944dbfb" lastpushedtime="2022-04-12T07:46:29Z" linktopcb3d="true"/>
 <plain>
-<wire x1="17.684978125" y1="0" x2="258.667021875" y2="0" width="0.1524" layer="20"/>
-<wire x1="267.444015625" y1="15.27761875" x2="185.599171875" y2="155.6455625" width="0.1524" layer="20"/>
-<wire x1="8.907984375" y1="15.27761875" x2="90.752828125" y2="155.6455625" width="0.1524" layer="20"/>
-<wire x1="8.907984375" y1="15.27761875" x2="17.684978125" y2="0" width="0.1524" layer="20" curve="120.245339"/>
-<wire x1="258.667021875" y1="0" x2="267.444015625" y2="15.27761875" width="0.1524" layer="20" curve="120.245339"/>
+<wire x1="73.66" y1="0" x2="202.692" y2="0" width="0.1524" layer="20"/>
+<wire x1="217.929459375" y1="20.32" x2="185.599171875" y2="155.6455625" width="0.1524" layer="20"/>
+<wire x1="58.42" y1="20.32" x2="90.752828125" y2="155.6455625" width="0.1524" layer="20"/>
+<wire x1="58.42" y1="20.32" x2="73.66" y2="0" width="0.1524" layer="20" curve="100"/>
+<wire x1="202.692" y1="0" x2="217.929459375" y2="20.32" width="0.1524" layer="20" curve="100"/>
 <wire x1="107.209690625" y1="165.1" x2="169.142309375" y2="165.1" width="0.1524" layer="20"/>
 <wire x1="90.752828125" y1="155.6455625" x2="107.209690625" y2="165.1" width="0.1524" layer="20" curve="-59.754661"/>
 <wire x1="169.142309375" y1="165.1" x2="185.599171875" y2="155.6455625" width="0.1524" layer="20" curve="-59.754661"/>
@@ -2363,8 +2363,8 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA2B2C0G1H102J050BE?qs=P1JMDcb91o7BA6xd7%2FtTJw%3D%3D" x="72.6556875" y="271.4391375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="122.1856875" y="8.5491375" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="J1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SAMTEC-SMM-104-02-X-D" package3d_urn="urn:adsk.eagle:package:34425251/2" value="SAMTEC-SMM-104-02-X-DJ" x="182.118" y="137.795" smashed="yes" rot="R180">
-<attribute name="NAME" x="187.139946875" y="132.5887875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180"/>
+<element name="J1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SAMTEC-SMM-104-02-X-D" package3d_urn="urn:adsk.eagle:package:34425251/2" value="SAMTEC-SMM-104-02-X-DJ" x="187.988953125" y="87.738709375" smashed="yes" rot="R180">
+<attribute name="NAME" x="193.0109" y="82.532496875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R33" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="111.74755625" y="14.244075" smashed="yes">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="184.13755625" y="-248.645925" size="1.778" layer="27" display="off"/>
@@ -2438,23 +2438,23 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1001FE000?qs=7ZE6F4QMOBb1MbBpUQXFCA%3D%3D" x="308.400196875" y="271.934684375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="111.550196875" y="1.424684375" size="0.6096" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R41" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERA2A_(0402)" package3d_urn="urn:adsk.eagle:package:34425198/2" value="ERA-2AKD240X" x="185.17666875" y="144.1777625" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="493.78666875" y="386.7477625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.4mm" x="493.78666875" y="386.7477625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="493.78666875" y="386.7477625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-2AKD240X" x="493.78666875" y="386.7477625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-2AKD240X" x="493.78666875" y="386.7477625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AKD240X?qs=nho8PGNfA6qIwHvMraZ9Jw%3D%3D" x="493.78666875" y="386.7477625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="185.17666875" y="144.1777625" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<element name="R41" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERA2A_(0402)" package3d_urn="urn:adsk.eagle:package:34425198/2" value="ERA-2AKD240X" x="191.047621875" y="94.121471875" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="499.657621875" y="336.691471875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="499.657621875" y="336.691471875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="499.657621875" y="336.691471875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-2AKD240X" x="499.657621875" y="336.691471875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERA-2AKD240X" x="499.657621875" y="336.691471875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AKD240X?qs=nho8PGNfA6qIwHvMraZ9Jw%3D%3D" x="499.657621875" y="336.691471875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="191.047621875" y="94.121471875" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R42" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS04020C1001FE000" x="185.97295625" y="150.718775" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="VISHAY - MCS04020C1001FE000 - RES, THIN FILM, 1K, 1%, 50V, 0402" x="-32.46704375" y="421.228775" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.37mm" x="-32.46704375" y="421.228775" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="-32.46704375" y="421.228775" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCS04020C1001FE000" x="-32.46704375" y="421.228775" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="594-MCS04020C1001FE0" x="-32.46704375" y="421.228775" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1001FE000?qs=7ZE6F4QMOBb1MbBpUQXFCA%3D%3D" x="-32.46704375" y="421.228775" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="185.97295625" y="150.718775" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<element name="R42" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS04020C1001FE000" x="191.843909375" y="100.662484375" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="VISHAY - MCS04020C1001FE000 - RES, THIN FILM, 1K, 1%, 50V, 0402" x="-26.596090625" y="371.172484375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="-26.596090625" y="371.172484375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-26.596090625" y="371.172484375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS04020C1001FE000" x="-26.596090625" y="371.172484375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS04020C1001FE0" x="-26.596090625" y="371.172484375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1001FE000?qs=7ZE6F4QMOBb1MbBpUQXFCA%3D%3D" x="-26.596090625" y="371.172484375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="191.843909375" y="100.662484375" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="R43" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="116.39549375" y="14.2260375" smashed="yes">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="275.14549375" y="-248.6639625" size="1.778" layer="27" display="off"/>
@@ -2528,59 +2528,59 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1001FE000?qs=7ZE6F4QMOBb1MbBpUQXFCA%3D%3D" x="392.459975" y="49.050196875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="119.409975" y="3.330196875" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R51" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERA2A_(0402)" package3d_urn="urn:adsk.eagle:package:34425198/2" value="ERA-2AKD240X" x="183.174640625" y="144.1663375" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="491.784640625" y="401.9763375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.4mm" x="491.784640625" y="401.9763375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="491.784640625" y="401.9763375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-2AKD240X" x="491.784640625" y="401.9763375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-2AKD240X" x="491.784640625" y="401.9763375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AKD240X?qs=nho8PGNfA6qIwHvMraZ9Jw%3D%3D" x="491.784640625" y="401.9763375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="183.174640625" y="144.1663375" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<element name="R51" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERA2A_(0402)" package3d_urn="urn:adsk.eagle:package:34425198/2" value="ERA-2AKD240X" x="189.04559375" y="94.110046875" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="497.65559375" y="351.920046875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="497.65559375" y="351.920046875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="497.65559375" y="351.920046875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-2AKD240X" x="497.65559375" y="351.920046875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERA-2AKD240X" x="497.65559375" y="351.920046875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AKD240X?qs=nho8PGNfA6qIwHvMraZ9Jw%3D%3D" x="497.65559375" y="351.920046875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="189.04559375" y="94.110046875" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R52" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS04020C1001FE000" x="182.40299375" y="150.71395" smashed="yes">
-<attribute name="DESCRIPTION" value="VISHAY - MCS04020C1001FE000 - RES, THIN FILM, 1K, 1%, 50V, 0402" x="249.71299375" y="-122.33605" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.37mm" x="249.71299375" y="-122.33605" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="249.71299375" y="-122.33605" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCS04020C1001FE000" x="249.71299375" y="-122.33605" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="594-MCS04020C1001FE0" x="249.71299375" y="-122.33605" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1001FE000?qs=7ZE6F4QMOBb1MbBpUQXFCA%3D%3D" x="249.71299375" y="-122.33605" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="182.40299375" y="150.71395" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
+<element name="R52" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS04020C1001FE000" x="188.273946875" y="100.657659375" smashed="yes">
+<attribute name="DESCRIPTION" value="VISHAY - MCS04020C1001FE000 - RES, THIN FILM, 1K, 1%, 50V, 0402" x="255.583946875" y="-172.392340625" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="255.583946875" y="-172.392340625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="255.583946875" y="-172.392340625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS04020C1001FE000" x="255.583946875" y="-172.392340625" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS04020C1001FE0" x="255.583946875" y="-172.392340625" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1001FE000?qs=7ZE6F4QMOBb1MbBpUQXFCA%3D%3D" x="255.583946875" y="-172.392340625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="188.273946875" y="100.657659375" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="R53" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERA2A_(0402)" package3d_urn="urn:adsk.eagle:package:34425198/2" value="ERA-2AKD240X" x="181.155846875" y="144.1678625" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="492.305846875" y="164.4878625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.4mm" x="492.305846875" y="164.4878625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="492.305846875" y="164.4878625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-2AKD240X" x="492.305846875" y="164.4878625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-2AKD240X" x="492.305846875" y="164.4878625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AKD240X?qs=nho8PGNfA6qIwHvMraZ9Jw%3D%3D" x="492.305846875" y="164.4878625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="181.155846875" y="144.1678625" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<element name="R53" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERA2A_(0402)" package3d_urn="urn:adsk.eagle:package:34425198/2" value="ERA-2AKD240X" x="187.0268" y="94.111571875" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="498.1768" y="114.431571875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="498.1768" y="114.431571875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="498.1768" y="114.431571875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-2AKD240X" x="498.1768" y="114.431571875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERA-2AKD240X" x="498.1768" y="114.431571875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AKD240X?qs=nho8PGNfA6qIwHvMraZ9Jw%3D%3D" x="498.1768" y="114.431571875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="187.0268" y="94.111571875" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R54" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS04020C1001FE000" x="178.947059375" y="150.69388125" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="VISHAY - MCS04020C1001FE000 - RES, THIN FILM, 1K, 1%, 50V, 0402" x="90.047059375" y="423.74388125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.37mm" x="90.047059375" y="423.74388125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="90.047059375" y="423.74388125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCS04020C1001FE000" x="90.047059375" y="423.74388125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="594-MCS04020C1001FE0" x="90.047059375" y="423.74388125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1001FE000?qs=7ZE6F4QMOBb1MbBpUQXFCA%3D%3D" x="90.047059375" y="423.74388125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="178.947059375" y="150.69388125" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<element name="R54" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS04020C1001FE000" x="184.8180125" y="100.637590625" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="VISHAY - MCS04020C1001FE000 - RES, THIN FILM, 1K, 1%, 50V, 0402" x="95.9180125" y="373.687590625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="95.9180125" y="373.687590625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="95.9180125" y="373.687590625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS04020C1001FE000" x="95.9180125" y="373.687590625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS04020C1001FE0" x="95.9180125" y="373.687590625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1001FE000?qs=7ZE6F4QMOBb1MbBpUQXFCA%3D%3D" x="95.9180125" y="373.687590625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="184.8180125" y="100.637590625" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="R55" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERA2A_(0402)" package3d_urn="urn:adsk.eagle:package:34425198/2" value="ERA-2AKD240X" x="179.125115625" y="144.168621875" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="490.275115625" y="179.728621875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.4mm" x="490.275115625" y="179.728621875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="490.275115625" y="179.728621875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-2AKD240X" x="490.275115625" y="179.728621875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-2AKD240X" x="490.275115625" y="179.728621875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AKD240X?qs=nho8PGNfA6qIwHvMraZ9Jw%3D%3D" x="490.275115625" y="179.728621875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="179.125115625" y="144.168621875" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<element name="R55" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERA2A_(0402)" package3d_urn="urn:adsk.eagle:package:34425198/2" value="ERA-2AKD240X" x="184.99606875" y="94.11233125" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" x="496.14606875" y="129.67233125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="496.14606875" y="129.67233125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="496.14606875" y="129.67233125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-2AKD240X" x="496.14606875" y="129.67233125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERA-2AKD240X" x="496.14606875" y="129.67233125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AKD240X?qs=nho8PGNfA6qIwHvMraZ9Jw%3D%3D" x="496.14606875" y="129.67233125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="184.99606875" y="94.11233125" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R56" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS04020C1001FE000" x="175.434496875" y="150.69363125" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="VISHAY - MCS04020C1001FE000 - RES, THIN FILM, 1K, 1%, 50V, 0402" x="64.944496875" y="423.74363125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.37mm" x="64.944496875" y="423.74363125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="64.944496875" y="423.74363125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCS04020C1001FE000" x="64.944496875" y="423.74363125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="594-MCS04020C1001FE0" x="64.944496875" y="423.74363125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1001FE000?qs=7ZE6F4QMOBb1MbBpUQXFCA%3D%3D" x="64.944496875" y="423.74363125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="175.434496875" y="150.69363125" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<element name="R56" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS04020C1001FE000" x="181.30545" y="100.637340625" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="VISHAY - MCS04020C1001FE000 - RES, THIN FILM, 1K, 1%, 50V, 0402" x="70.81545" y="373.687340625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="70.81545" y="373.687340625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="70.81545" y="373.687340625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS04020C1001FE000" x="70.81545" y="373.687340625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS04020C1001FE0" x="70.81545" y="373.687340625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCS04020C1001FE000?qs=7ZE6F4QMOBb1MbBpUQXFCA%3D%3D" x="70.81545" y="373.687340625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="181.30545" y="100.637340625" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="UC1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="NUCLEO_H723ZG" package3d_urn="urn:adsk.eagle:package:34377632/9" value="NUCLEO_H723ZG" x="104.775" y="161.036" smashed="yes" rot="R270">
 <attribute name="NAME" x="101.261" y="161.7576" size="0.6096" layer="25" font="vector" ratio="15" rot="R270"/>
@@ -7727,77 +7727,77 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="-17.196303125" y="14.985503125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="119.802659375" y="3.43765" size="0.6096" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="LED93" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="186.511440625" y="145.353278125" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="52.96941875" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="1.3mm" x="52.96941875" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kingbright" x="52.96941875" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="52.96941875" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="52.96941875" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="52.96941875" y="151.703278125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="186.511440625" y="145.603278125" size="0.6096" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
+<element name="LED93" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="192.38239375" y="95.2969875" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="58.840371875" y="101.6469875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="58.840371875" y="101.6469875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="58.840371875" y="101.6469875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="58.840371875" y="101.6469875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="58.840371875" y="101.6469875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="58.840371875" y="101.6469875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="192.38239375" y="95.5469875" size="0.6096" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="R467" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="185.5818" y="149.5145625" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="197.0118" y="279.246584375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="0.37mm" x="197.0118" y="279.246584375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="197.0118" y="279.246584375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="197.0118" y="279.246584375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="197.0118" y="279.246584375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="197.0118" y="279.246584375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="185.5818" y="149.5145625" size="0.6096" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
+<element name="R467" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="191.452753125" y="99.458271875" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="202.882753125" y="229.19029375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="202.882753125" y="229.19029375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="202.882753125" y="229.19029375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="202.882753125" y="229.19029375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="202.882753125" y="229.19029375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="202.882753125" y="229.19029375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="191.452753125" y="99.458271875" size="0.6096" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="LED94" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="182.5139875" y="145.35048125" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="56.591965625" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="1.3mm" x="56.591965625" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kingbright" x="56.591965625" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="56.591965625" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="56.591965625" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="56.591965625" y="151.70048125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="182.5139875" y="145.60048125" size="0.6096" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
+<element name="LED94" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="188.384940625" y="95.294190625" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="62.46291875" y="101.644190625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="62.46291875" y="101.644190625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="62.46291875" y="101.644190625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="62.46291875" y="101.644190625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="62.46291875" y="101.644190625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="62.46291875" y="101.644190625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="188.384940625" y="95.544190625" size="0.6096" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="R468" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="181.570375" y="149.51685" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="193.000375" y="271.628871875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="0.37mm" x="193.000375" y="271.628871875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="193.000375" y="271.628871875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="193.000375" y="271.628871875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="193.000375" y="271.628871875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="193.000375" y="271.628871875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="181.570375" y="149.51685" size="0.6096" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
+<element name="R468" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="187.441328125" y="99.460559375" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="198.871328125" y="221.57258125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="198.871328125" y="221.57258125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="198.871328125" y="221.57258125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="198.871328125" y="221.57258125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="198.871328125" y="221.57258125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="198.871328125" y="221.57258125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="187.441328125" y="99.460559375" size="0.6096" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="LED95" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="178.508659375" y="145.3388" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="60.2066375" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="1.3mm" x="60.2066375" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kingbright" x="60.2066375" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="60.2066375" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="60.2066375" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="60.2066375" y="151.6888" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="178.508659375" y="145.5888" size="0.6096" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
+<element name="LED95" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="184.3796125" y="95.282509375" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="66.077590625" y="101.632509375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="66.077590625" y="101.632509375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="66.077590625" y="101.632509375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="66.077590625" y="101.632509375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="66.077590625" y="101.632509375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="66.077590625" y="101.632509375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="184.3796125" y="95.532509375" size="0.6096" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="R469" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="177.573178125" y="149.50135" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="189.003178125" y="263.993371875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="0.37mm" x="189.003178125" y="263.993371875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="189.003178125" y="263.993371875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="189.003178125" y="263.993371875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="189.003178125" y="263.993371875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="189.003178125" y="263.993371875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="177.573178125" y="149.50135" size="0.6096" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
+<element name="R469" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="183.44413125" y="99.445059375" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="194.87413125" y="213.93708125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="194.87413125" y="213.93708125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="194.87413125" y="213.93708125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="194.87413125" y="213.93708125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="194.87413125" y="213.93708125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="194.87413125" y="213.93708125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="183.44413125" y="99.445059375" size="0.6096" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="LED96" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="174.500284375" y="145.33194375" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="66.656459375" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="1.3mm" x="66.656459375" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kingbright" x="66.656459375" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="66.656459375" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="66.656459375" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="66.656459375" y="151.68194375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="174.500284375" y="145.58194375" size="0.6096" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
+<element name="LED96" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="AA3021LSYSKJ3TR" package3d_urn="urn:adsk.eagle:package:31969208/2" value="AA3021LSYSK_J3-TR" x="180.3712375" y="95.275653125" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 3mmX2mm SMD LED LAMP SB YELLOW" x="72.5274125" y="101.625653125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="1.3mm" x="72.5274125" y="101.625653125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="72.5274125" y="101.625653125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AA3021LSYSK/J3-TR" x="72.5274125" y="101.625653125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-AA3021LSYSK/J3TR" x="72.5274125" y="101.625653125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/AA3021LSYSK-J3-TR?qs=Oo40KB9lBTmS1V8p5PSO3Q%3D%3D" x="72.5274125" y="101.625653125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="180.3712375" y="95.525653125" size="0.6096" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="R470" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="173.585884375" y="149.470109375" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="185.015884375" y="256.34213125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="0.37mm" x="185.015884375" y="256.34213125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="185.015884375" y="256.34213125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="185.015884375" y="256.34213125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="185.015884375" y="256.34213125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="185.015884375" y="256.34213125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="173.585884375" y="149.470109375" size="0.6096" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
+<element name="R470" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="179.4568375" y="99.41381875" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="190.8868375" y="206.285840625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="190.8868375" y="206.285840625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="190.8868375" y="206.285840625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="190.8868375" y="206.285840625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="190.8868375" y="206.285840625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="190.8868375" y="206.285840625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="179.4568375" y="99.41381875" size="0.6096" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
 </element>
 <element name="U$1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC3016X70N" package3d_urn="urn:adsk.eagle:package:34609362/1" value="PTS120601B1K00P100" x="186.669171875" y="60.942725" smashed="yes" rot="R90">
 <attribute name="NAME" x="186.206671875" y="61.044325" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="bottom-center"/>
@@ -8093,17 +8093,17 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF2002X?qs=H7k1u0Mp9JTOxRcN%252B6dzQw%3D%3D" x="93.9096375" y="-279.66670625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="85.0196375" y="63.69049375" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="U$3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC3016X70N" package3d_urn="urn:adsk.eagle:package:34609362/1" value="PTS120601B1K00P100" x="181.51678125" y="154.036521875" smashed="yes" rot="R270">
-<attribute name="NAME" x="183.35088125" y="154.036521875" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
+<element name="U$3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC3016X70N" package3d_urn="urn:adsk.eagle:package:34609362/1" value="PTS120601B1K00P100" x="187.387734375" y="103.98023125" smashed="yes" rot="R270">
+<attribute name="NAME" x="189.221834375" y="103.98023125" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 </element>
-<element name="R500" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERJ2R_(0402)" package3d_urn="urn:adsk.eagle:package:34597292/3" value="ERJ-2RKF2002X" x="179.477671875" y="156.804609375" smashed="yes">
-<attribute name="DESCRIPTION" value="Precision Thick Film Chip Resistor, 0402, 0.063W" x="170.587671875" y="490.001809375" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.4mm" x="170.587671875" y="490.001809375" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="170.587671875" y="490.001809375" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF2002X" x="170.587671875" y="490.001809375" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-2RKF2002X" x="170.587671875" y="490.001809375" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF2002X?qs=H7k1u0Mp9JTOxRcN%252B6dzQw%3D%3D" x="170.587671875" y="490.001809375" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="179.477671875" y="156.804609375" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
+<element name="R500" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERJ2R_(0402)" package3d_urn="urn:adsk.eagle:package:34597292/3" value="ERJ-2RKF2002X" x="185.348625" y="106.74831875" smashed="yes">
+<attribute name="DESCRIPTION" value="Precision Thick Film Chip Resistor, 0402, 0.063W" x="176.458625" y="439.94551875" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="176.458625" y="439.94551875" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="176.458625" y="439.94551875" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF2002X" x="176.458625" y="439.94551875" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-2RKF2002X" x="176.458625" y="439.94551875" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF2002X?qs=H7k1u0Mp9JTOxRcN%252B6dzQw%3D%3D" x="176.458625" y="439.94551875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="185.348625" y="106.74831875" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 </element>
 <element name="U$4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC3016X70N" package3d_urn="urn:adsk.eagle:package:34609362/1" value="PTS120601B1K00P100" x="148.834603125" y="12.729215625" smashed="yes" rot="R180">
 <attribute name="NAME" x="148.834603125" y="11.601234375" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
@@ -8171,32 +8171,32 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="95.01936875" y="-249.894353125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="82.31936875" y="62.982846875" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="IC29" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P275X110-5N" package3d_urn="urn:adsk.eagle:package:34425675/2" value="NCS21911SN2T1G" x="178.11953125" y="154.489403125" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 2 MHz" x="183.19953125" y="-154.577796875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="183.19953125" y="-154.577796875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="183.19953125" y="-154.577796875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NCS21911SN2T1G" x="183.19953125" y="-154.577796875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-NCS21911SN2T1G" x="183.19953125" y="-154.577796875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/NCS21911SN2T1G?qs=%252B6g0mu59x7Ix%2FTFBhvJ5Cw%3D%3D" x="183.19953125" y="-154.577796875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="178.11953125" y="154.489403125" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<element name="IC29" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P275X110-5N" package3d_urn="urn:adsk.eagle:package:34425675/2" value="NCS21911SN2T1G" x="183.990484375" y="104.4331125" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 2 MHz" x="189.070484375" y="-204.6340875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="189.070484375" y="-204.6340875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="189.070484375" y="-204.6340875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NCS21911SN2T1G" x="189.070484375" y="-204.6340875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-NCS21911SN2T1G" x="189.070484375" y="-204.6340875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/NCS21911SN2T1G?qs=%252B6g0mu59x7Ix%2FTFBhvJ5Cw%3D%3D" x="189.070484375" y="-204.6340875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="183.990484375" y="104.4331125" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="R506" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERJ2R_(0402)" package3d_urn="urn:adsk.eagle:package:34597292/3" value="ERJ-2RKF2002X" x="179.2071625" y="152.195021875" smashed="yes">
-<attribute name="DESCRIPTION" value="Precision Thick Film Chip Resistor, 0402, 0.063W" x="171.5871625" y="457.452221875" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.4mm" x="171.5871625" y="457.452221875" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="171.5871625" y="457.452221875" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF2002X" x="171.5871625" y="457.452221875" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-2RKF2002X" x="171.5871625" y="457.452221875" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF2002X?qs=H7k1u0Mp9JTOxRcN%252B6dzQw%3D%3D" x="171.5871625" y="457.452221875" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="179.2071625" y="152.195021875" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
+<element name="R506" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="ERJ2R_(0402)" package3d_urn="urn:adsk.eagle:package:34597292/3" value="ERJ-2RKF2002X" x="185.078115625" y="102.13873125" smashed="yes">
+<attribute name="DESCRIPTION" value="Precision Thick Film Chip Resistor, 0402, 0.063W" x="177.458115625" y="407.39593125" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="177.458115625" y="407.39593125" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="177.458115625" y="407.39593125" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF2002X" x="177.458115625" y="407.39593125" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-2RKF2002X" x="177.458115625" y="407.39593125" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-2RKF2002X?qs=H7k1u0Mp9JTOxRcN%252B6dzQw%3D%3D" x="177.458115625" y="407.39593125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="185.078115625" y="102.13873125" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="R507" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="177.141375" y="156.891228125" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="189.841375" y="-145.825971875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.37mm" x="189.841375" y="-145.825971875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="189.841375" y="-145.825971875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="189.841375" y="-145.825971875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="189.841375" y="-145.825971875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="189.841375" y="-145.825971875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="177.141375" y="156.891228125" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<element name="R507" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="RESC1005X37N" package3d_urn="urn:adsk.eagle:package:34425014/2" value="MCS0402MD1002DE000" x="183.012328125" y="106.8349375" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" x="195.712328125" y="-195.8822625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.37mm" x="195.712328125" y="-195.8822625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="195.712328125" y="-195.8822625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD1002DE000" x="195.712328125" y="-195.8822625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="594-MCS0402MD1002DE0" x="195.712328125" y="-195.8822625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="http://www.mouser.com/Search/ProductDetail.aspx?qs=EzBFWPtgsb0jQNGsPHo%2fIQ%3d%3d" x="195.712328125" y="-195.8822625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="183.012328125" y="106.8349375" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="IC30" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P275X110-5N" package3d_urn="urn:adsk.eagle:package:34425675/2" value="NCS21911SN2T1G" x="148.7304625" y="16.107159375" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 2 MHz" x="-150.1767375" y="11.027159375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8628,14 +8628,14 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31C5C1E474JE01L?qs=hd1VzrDQEGj8GOC097EZLg%3D%3D" x="141.786103125" y="19.31289375" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="148.4525875" y="18.805403125" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="C193" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC3216X180N" package3d_urn="urn:adsk.eagle:package:31696082/3" value="GRM31C5C1E474JE01L" x="174.924715625" y="154.71343125" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT" x="174.924715625" y="148.00783125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="1.8mm" x="174.924715625" y="148.00783125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="174.924715625" y="148.00783125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GRM31C5C1E474JE01L" x="174.924715625" y="148.00783125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="81-GRM31C5C1E474JE1L" x="174.924715625" y="148.00783125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31C5C1E474JE01L?qs=hd1VzrDQEGj8GOC097EZLg%3D%3D" x="174.924715625" y="148.00783125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="175.295303125" y="154.63723125" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<element name="C193" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC3216X180N" package3d_urn="urn:adsk.eagle:package:31696082/3" value="GRM31C5C1E474JE01L" x="180.79566875" y="104.657140625" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT" x="180.79566875" y="97.951540625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1.8mm" x="180.79566875" y="97.951540625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="180.79566875" y="97.951540625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM31C5C1E474JE01L" x="180.79566875" y="97.951540625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="81-GRM31C5C1E474JE1L" x="180.79566875" y="97.951540625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31C5C1E474JE01L?qs=hd1VzrDQEGj8GOC097EZLg%3D%3D" x="180.79566875" y="97.951540625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="181.16625625" y="104.580940625" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
 <element name="C194" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="CAPC3216X180N" package3d_urn="urn:adsk.eagle:package:31696082/3" value="GRM31C5C1E474JE01L" x="81.58276875" y="60.388746875" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT" x="81.58276875" y="67.094346875" size="1.778" layer="27" rot="R270" display="off"/>
@@ -8934,57 +8934,57 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" x="121.053853125" y="6.228334375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="121.00864375" y="5.747003125" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="D84" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P280X100-3N" package3d_urn="urn:adsk.eagle:package:34959477/2" value="RSR025N03HZGTL" x="185.3445625" y="148.05685625" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="MOSFET 30V N-CHANNEL 2.5A" x="185.3445625" y="148.05685625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="185.3445625" y="148.05685625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="185.3445625" y="148.05685625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RSR025N03HZGTL" x="185.3445625" y="148.05685625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="755-RSR025N03HZGTL" x="185.3445625" y="148.05685625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" x="185.3445625" y="148.05685625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="185.3445625" y="148.05685625" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<element name="D84" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P280X100-3N" package3d_urn="urn:adsk.eagle:package:34959477/2" value="RSR025N03HZGTL" x="191.215515625" y="98.000565625" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="MOSFET 30V N-CHANNEL 2.5A" x="191.215515625" y="98.000565625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1mm" x="191.215515625" y="98.000565625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="191.215515625" y="98.000565625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RSR025N03HZGTL" x="191.215515625" y="98.000565625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="755-RSR025N03HZGTL" x="191.215515625" y="98.000565625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" x="191.215515625" y="98.000565625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="191.215515625" y="98.000565625" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="D85" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P280X100-3N" package3d_urn="urn:adsk.eagle:package:34959477/2" value="RSR025N03HZGTL" x="181.826153125" y="148.04745625" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="MOSFET 30V N-CHANNEL 2.5A" x="181.826153125" y="148.04745625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="181.826153125" y="148.04745625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="181.826153125" y="148.04745625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RSR025N03HZGTL" x="181.826153125" y="148.04745625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="755-RSR025N03HZGTL" x="181.826153125" y="148.04745625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" x="181.826153125" y="148.04745625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="181.826153125" y="148.04745625" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<element name="D85" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P280X100-3N" package3d_urn="urn:adsk.eagle:package:34959477/2" value="RSR025N03HZGTL" x="187.69710625" y="97.991165625" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="MOSFET 30V N-CHANNEL 2.5A" x="187.69710625" y="97.991165625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1mm" x="187.69710625" y="97.991165625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="187.69710625" y="97.991165625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RSR025N03HZGTL" x="187.69710625" y="97.991165625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="755-RSR025N03HZGTL" x="187.69710625" y="97.991165625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" x="187.69710625" y="97.991165625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="187.69710625" y="97.991165625" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="D86" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P280X100-3N" package3d_urn="urn:adsk.eagle:package:34959477/2" value="RSR025N03HZGTL" x="178.33873125" y="148.04110625" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="MOSFET 30V N-CHANNEL 2.5A" x="178.33873125" y="148.04110625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="178.33873125" y="148.04110625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="178.33873125" y="148.04110625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RSR025N03HZGTL" x="178.33873125" y="148.04110625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="755-RSR025N03HZGTL" x="178.33873125" y="148.04110625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" x="178.33873125" y="148.04110625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="178.33873125" y="148.04110625" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<element name="D86" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P280X100-3N" package3d_urn="urn:adsk.eagle:package:34959477/2" value="RSR025N03HZGTL" x="184.209684375" y="97.984815625" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="MOSFET 30V N-CHANNEL 2.5A" x="184.209684375" y="97.984815625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1mm" x="184.209684375" y="97.984815625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="184.209684375" y="97.984815625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RSR025N03HZGTL" x="184.209684375" y="97.984815625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="755-RSR025N03HZGTL" x="184.209684375" y="97.984815625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" x="184.209684375" y="97.984815625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="184.209684375" y="97.984815625" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="D87" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P280X100-3N" package3d_urn="urn:adsk.eagle:package:34959477/2" value="RSR025N03HZGTL" x="174.842165625" y="148.036534375" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="MOSFET 30V N-CHANNEL 2.5A" x="174.842165625" y="148.036534375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="174.842165625" y="148.036534375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="174.842165625" y="148.036534375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RSR025N03HZGTL" x="174.842165625" y="148.036534375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="755-RSR025N03HZGTL" x="174.842165625" y="148.036534375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" x="174.842165625" y="148.036534375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="174.842165625" y="148.036534375" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<element name="D87" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SOT95P280X100-3N" package3d_urn="urn:adsk.eagle:package:34959477/2" value="RSR025N03HZGTL" x="180.71311875" y="97.98024375" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="MOSFET 30V N-CHANNEL 2.5A" x="180.71311875" y="97.98024375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1mm" x="180.71311875" y="97.98024375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="180.71311875" y="97.98024375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RSR025N03HZGTL" x="180.71311875" y="97.98024375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="755-RSR025N03HZGTL" x="180.71311875" y="97.98024375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSR025N03HZGTL?qs=qSfuJ%252Bfl%2Fd6oUAHuBzgCAw%3D%3D" x="180.71311875" y="97.98024375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="180.71311875" y="97.98024375" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="J9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SAMTEC_SSM-109-L-SV" package3d_urn="urn:adsk.eagle:package:34729422/5" value="SSM-109-L-SV" x="150.0322125" y="128.06883125" smashed="yes" rot="SMR0">
 <attribute name="MANUFACTURER" value="SAMTEC " x="150.0322125" y="128.06883125" size="0.6096" layer="28" rot="SMR0" display="off"/>
 <attribute name="NAME" x="162.4622125" y="131.63883125" size="0.6096" layer="26" font="vector" ratio="15" rot="SMR0"/>
 <attribute name="VALUE" x="162.4622125" y="123.24883125" size="0.6096" layer="28" font="vector" ratio="15" rot="SMR0"/>
 </element>
-<element name="U$5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="94.304609375" y="93.26346875" smashed="yes" rot="R90"/>
-<element name="U$6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="97.500690625" y="107.75771875" smashed="yes" rot="R90"/>
-<element name="U$7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="178.6501375" y="106.242359375" smashed="yes" rot="R270"/>
-<element name="U$8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="185.271665625" y="87.372696875" smashed="yes" rot="R270"/>
-<element name="U$9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="179.138834375" y="99.40950625" smashed="yes" rot="R270"/>
-<element name="U$10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="181.500015625" y="92.822525" smashed="yes" rot="R270"/>
-<element name="U$12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="178.90185" y="113.14150625" smashed="yes" rot="R270"/>
-<element name="U$13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="96.900490625" y="121.208796875" smashed="yes" rot="R90"/>
-<element name="U$14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="97.59035625" y="114.4724625" smashed="yes" rot="R90"/>
-<element name="U$15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="96.861884375" y="101.11714375" smashed="yes" rot="R90"/>
+<element name="U$5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="66.04" y="12.7" smashed="yes" rot="R90"/>
+<element name="U$6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="197.612" y="68.58" smashed="yes" rot="R90"/>
+<element name="U$7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="186.182" y="119.38" smashed="yes" rot="R270"/>
+<element name="U$8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="78.74" y="68.58" smashed="yes" rot="R270"/>
+<element name="U$9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="95.377" y="68.58" smashed="yes" rot="R270"/>
+<element name="U$10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="180.975" y="68.58" smashed="yes" rot="R270"/>
+<element name="U$12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="178.562" y="154.94" smashed="yes" rot="R270"/>
+<element name="U$13" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="97.79" y="154.94" smashed="yes" rot="R90"/>
+<element name="U$14" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="90.17" y="119.38" smashed="yes" rot="R90"/>
+<element name="U$15" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="1/16TH_BOLT" package3d_urn="urn:adsk.eagle:package:35094096/3" value="THROUGH_HOLE" x="210.312" y="12.7" smashed="yes" rot="R90"/>
 <element name="J12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" package="SAMTEC_TFM-140-02-L-D-WT-K" package3d_urn="urn:adsk.eagle:package:35304374/2" value="TFM-140-02-L-D-WT-K" x="138.176" y="116.84" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER" value="SAMTEC" x="138.176" y="116.84" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="109.186" y="113.09" size="0.6096" layer="26" font="vector" ratio="15" rot="MR180"/>
@@ -12944,19 +12944,19 @@ design rules under a new name.</description>
 <wire x1="144.9522125" y1="129.67133125" x2="137.541" y2="118.555" width="0" layer="19" extent="16-16"/>
 <wire x1="169.926" y1="131.2926" x2="162.941" y2="118.555" width="0" layer="19" extent="16-16"/>
 <wire x1="167.386" y1="143.9926" x2="169.926" y2="131.2926" width="0" layer="19" extent="1-1"/>
-<wire x1="173.892165625" y1="149.236534375" x2="167.386" y2="143.9926" width="0" layer="19" extent="1-1"/>
-<wire x1="174.135884375" y1="149.470109375" x2="173.892165625" y2="149.236534375" width="0" layer="19" extent="1-16"/>
-<wire x1="177.38873125" y1="149.24110625" x2="174.135884375" y2="149.470109375" width="0" layer="19" extent="1-16"/>
-<wire x1="178.123178125" y1="149.50135" x2="177.38873125" y2="149.24110625" width="0" layer="19" extent="1-16"/>
-<wire x1="180.876153125" y1="149.24745625" x2="178.123178125" y2="149.50135" width="0" layer="19" extent="1-16"/>
-<wire x1="182.120375" y1="149.51685" x2="180.876153125" y2="149.24745625" width="0" layer="19" extent="1-16"/>
-<wire x1="184.3945625" y1="149.25685625" x2="182.120375" y2="149.51685" width="0" layer="19" extent="1-16"/>
-<wire x1="186.1318" y1="149.5145625" x2="184.3945625" y2="149.25685625" width="0" layer="19" extent="1-16"/>
-<wire x1="181.51678125" y1="152.642021875" x2="182.120375" y2="149.51685" width="0" layer="19" extent="1-16"/>
-<wire x1="179.36953125" y1="154.489403125" x2="181.51678125" y2="152.642021875" width="0" layer="19" extent="1-1"/>
-<wire x1="176.591375" y1="156.891228125" x2="179.36953125" y2="154.489403125" width="0" layer="19" extent="1-1"/>
-<wire x1="174.924715625" y1="156.16343125" x2="176.591375" y2="156.891228125" width="0" layer="19" extent="1-1"/>
-<wire x1="169.926" y1="159.2326" x2="174.924715625" y2="156.16343125" width="0" layer="19" extent="1-1"/>
+<wire x1="179.76311875" y1="99.18024375" x2="167.386" y2="143.9926" width="0" layer="19" extent="1-1"/>
+<wire x1="180.0068375" y1="99.41381875" x2="179.76311875" y2="99.18024375" width="0" layer="19" extent="1-16"/>
+<wire x1="183.259684375" y1="99.184815625" x2="180.0068375" y2="99.41381875" width="0" layer="19" extent="1-16"/>
+<wire x1="183.99413125" y1="99.445059375" x2="183.259684375" y2="99.184815625" width="0" layer="19" extent="1-16"/>
+<wire x1="186.74710625" y1="99.191165625" x2="183.99413125" y2="99.445059375" width="0" layer="19" extent="1-16"/>
+<wire x1="187.991328125" y1="99.460559375" x2="186.74710625" y2="99.191165625" width="0" layer="19" extent="1-16"/>
+<wire x1="190.265515625" y1="99.200565625" x2="187.991328125" y2="99.460559375" width="0" layer="19" extent="1-16"/>
+<wire x1="192.002753125" y1="99.458271875" x2="190.265515625" y2="99.200565625" width="0" layer="19" extent="1-16"/>
+<wire x1="187.387734375" y1="102.58573125" x2="187.991328125" y2="99.460559375" width="0" layer="19" extent="1-16"/>
+<wire x1="185.240484375" y1="104.4331125" x2="187.387734375" y2="102.58573125" width="0" layer="19" extent="1-1"/>
+<wire x1="182.462328125" y1="106.8349375" x2="185.240484375" y2="104.4331125" width="0" layer="19" extent="1-1"/>
+<wire x1="180.79566875" y1="106.107140625" x2="182.462328125" y2="106.8349375" width="0" layer="19" extent="1-1"/>
+<wire x1="169.926" y1="159.2326" x2="180.79566875" y2="106.107140625" width="0" layer="19" extent="1-1"/>
 <wire x1="167.386" y1="159.2326" x2="169.926" y2="159.2326" width="0" layer="19" extent="1-1"/>
 <wire x1="106.426" y1="136.3726" x2="108.966" y2="118.5926" width="0" layer="19" extent="1-1"/>
 <wire x1="108.966" y1="149.0726" x2="106.426" y2="136.3726" width="0" layer="19" extent="1-1"/>
@@ -13343,69 +13343,69 @@ design rules under a new name.</description>
 <contactref element="R41" pad="2"/>
 <contactref element="LED93" pad="2"/>
 <contactref element="D84" pad="3"/>
-<wire x1="185.17666875" y1="144.6902625" x2="186.511440625" y2="143.953278125" width="0" layer="19" extent="1-16"/>
-<wire x1="185.3445625" y1="146.85685625" x2="185.17666875" y2="144.6902625" width="0" layer="19" extent="1-1"/>
+<wire x1="191.047621875" y1="94.633971875" x2="192.38239375" y2="93.8969875" width="0" layer="19" extent="1-16"/>
+<wire x1="191.215515625" y1="96.800565625" x2="191.047621875" y2="94.633971875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$113">
 <contactref element="R42" pad="1"/>
 <contactref element="D84" pad="1"/>
-<wire x1="186.2945625" y1="149.25685625" x2="186.52295625" y2="150.718775" width="0" layer="19" extent="1-1"/>
+<wire x1="192.165515625" y1="99.200565625" x2="192.393909375" y2="100.662484375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$118">
 <contactref element="R51" pad="2"/>
 <contactref element="LED94" pad="2"/>
 <contactref element="D85" pad="3"/>
-<wire x1="182.5139875" y1="143.95048125" x2="183.174640625" y2="144.6788375" width="0" layer="19" extent="1-16"/>
-<wire x1="181.826153125" y1="146.84745625" x2="183.174640625" y2="144.6788375" width="0" layer="19" extent="1-1"/>
+<wire x1="188.384940625" y1="93.894190625" x2="189.04559375" y2="94.622546875" width="0" layer="19" extent="1-16"/>
+<wire x1="187.69710625" y1="96.791165625" x2="189.04559375" y2="94.622546875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$122">
 <contactref element="R52" pad="1"/>
 <contactref element="D85" pad="1"/>
-<wire x1="182.776153125" y1="149.24745625" x2="181.85299375" y2="150.71395" width="0" layer="19" extent="1-1"/>
+<wire x1="188.64710625" y1="99.191165625" x2="187.723946875" y2="100.657659375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$128">
 <contactref element="R53" pad="2"/>
 <contactref element="LED95" pad="2"/>
 <contactref element="D86" pad="3"/>
-<wire x1="178.508659375" y1="143.9388" x2="181.155846875" y2="144.6803625" width="0" layer="19" extent="1-16"/>
-<wire x1="178.33873125" y1="146.84110625" x2="178.508659375" y2="143.9388" width="0" layer="19" extent="1-16"/>
+<wire x1="184.3796125" y1="93.882509375" x2="187.0268" y2="94.624071875" width="0" layer="19" extent="1-16"/>
+<wire x1="184.209684375" y1="96.784815625" x2="184.3796125" y2="93.882509375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$131">
 <contactref element="R54" pad="1"/>
 <contactref element="D86" pad="1"/>
-<wire x1="179.28873125" y1="149.24110625" x2="179.497059375" y2="150.69388125" width="0" layer="19" extent="1-1"/>
+<wire x1="185.159684375" y1="99.184815625" x2="185.3680125" y2="100.637590625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$135">
 <contactref element="R55" pad="2"/>
 <contactref element="LED96" pad="2"/>
 <contactref element="D87" pad="3"/>
-<wire x1="174.500284375" y1="143.93194375" x2="179.125115625" y2="144.681121875" width="0" layer="19" extent="1-16"/>
-<wire x1="174.842165625" y1="146.836534375" x2="174.500284375" y2="143.93194375" width="0" layer="19" extent="1-16"/>
+<wire x1="180.3712375" y1="93.875653125" x2="184.99606875" y2="94.62483125" width="0" layer="19" extent="1-16"/>
+<wire x1="180.71311875" y1="96.78024375" x2="180.3712375" y2="93.875653125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$138">
 <contactref element="R56" pad="1"/>
 <contactref element="D87" pad="1"/>
-<wire x1="175.792165625" y1="149.236534375" x2="175.984496875" y2="150.69363125" width="0" layer="19" extent="1-1"/>
+<wire x1="181.66311875" y1="99.18024375" x2="181.85545" y2="100.637340625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="POWER_INDICATOR">
 <contactref element="R41" pad="1"/>
 <contactref element="J1" pad="2"/>
-<wire x1="185.117990625" y1="140.067990625" x2="185.17666875" y2="143.6652625" width="0" layer="19" extent="1-1"/>
+<wire x1="190.98894375" y1="90.0117" x2="191.047621875" y2="93.608971875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CODE1">
 <contactref element="R51" pad="1"/>
 <contactref element="J1" pad="4"/>
-<wire x1="183.117996875" y1="140.067990625" x2="183.174640625" y2="143.6538375" width="0" layer="19" extent="1-1"/>
+<wire x1="188.98895" y1="90.0117" x2="189.04559375" y2="93.597546875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CODE2">
 <contactref element="R53" pad="1"/>
 <contactref element="J1" pad="6"/>
-<wire x1="181.118003125" y1="140.067990625" x2="181.155846875" y2="143.6553625" width="0" layer="19" extent="1-1"/>
+<wire x1="186.98895625" y1="90.0117" x2="187.0268" y2="93.599071875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CODE3">
 <contactref element="R55" pad="1"/>
 <contactref element="J1" pad="8"/>
-<wire x1="179.118009375" y1="140.067990625" x2="179.125115625" y2="143.656121875" width="0" layer="19" extent="1-1"/>
+<wire x1="184.9889625" y1="90.0117" x2="184.99606875" y2="93.59983125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="REFCAPAB00">
 <contactref element="IC52" pad="45"/>
@@ -14167,7 +14167,7 @@ design rules under a new name.</description>
 <wire x1="127.91895" y1="7.437878125" x2="129.867115625" y2="4.8132125" width="0" layer="19" extent="16-16"/>
 <wire x1="85.5321375" y1="63.69049375" x2="109.0757875" y2="59.0245625" width="0" layer="19" extent="1-1"/>
 <wire x1="189.972884375" y1="57.91631875" x2="125.96063125" y2="74.77015625" width="0" layer="19" extent="1-16"/>
-<wire x1="178.965171875" y1="156.804609375" x2="189.972884375" y2="57.91631875" width="0" layer="19" extent="1-16"/>
+<wire x1="184.836125" y1="106.74831875" x2="189.972884375" y2="57.91631875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="3.3V_SWITCHING">
 <contactref element="IC7" pad="2"/>
@@ -14196,10 +14196,10 @@ design rules under a new name.</description>
 <wire x1="150.241" y1="118.555" x2="150.241" y2="115.125" width="0" layer="19" extent="16-16"/>
 <wire x1="154.051" y1="118.555" x2="150.241" y2="118.555" width="0" layer="19" extent="16-16"/>
 <wire x1="154.051" y1="115.125" x2="154.051" y2="118.555" width="0" layer="19" extent="16-16"/>
-<wire x1="179.118009375" y1="135.522009375" x2="154.051" y2="118.555" width="0" layer="19" extent="1-16"/>
-<wire x1="181.118003125" y1="135.522009375" x2="179.118009375" y2="135.522009375" width="0" layer="19" extent="1-1"/>
-<wire x1="183.117996875" y1="135.522009375" x2="181.118003125" y2="135.522009375" width="0" layer="19" extent="1-1"/>
-<wire x1="185.117990625" y1="135.522009375" x2="183.117996875" y2="135.522009375" width="0" layer="19" extent="1-1"/>
+<wire x1="184.9889625" y1="85.46571875" x2="154.051" y2="118.555" width="0" layer="19" extent="1-16"/>
+<wire x1="186.98895625" y1="85.46571875" x2="184.9889625" y2="85.46571875" width="0" layer="19" extent="1-1"/>
+<wire x1="188.98895" y1="85.46571875" x2="186.98895625" y2="85.46571875" width="0" layer="19" extent="1-1"/>
+<wire x1="190.98894375" y1="85.46571875" x2="188.98895" y2="85.46571875" width="0" layer="19" extent="1-1"/>
 <wire x1="144.086634375" y1="14.369796875" x2="150.241" y2="115.125" width="0" layer="19" extent="16-16"/>
 <wire x1="138.886634375" y1="14.369796875" x2="144.086634375" y2="14.369796875" width="0" layer="19" extent="16-16"/>
 <wire x1="130.819634375" y1="12.337796875" x2="138.886634375" y2="14.369796875" width="0" layer="19" extent="16-16"/>
@@ -14631,9 +14631,9 @@ design rules under a new name.</description>
 <wire x1="143.891" y1="118.555" x2="145.161" y2="118.555" width="0" layer="19" extent="16-16"/>
 <wire x1="157.861" y1="118.555" x2="146.431" y2="118.555" width="0" layer="19" extent="16-16"/>
 <wire x1="157.861" y1="115.125" x2="157.861" y2="118.555" width="0" layer="19" extent="16-16"/>
-<wire x1="174.924715625" y1="153.26343125" x2="157.861" y2="118.555" width="0" layer="19" extent="1-16"/>
-<wire x1="176.86953125" y1="153.539403125" x2="174.924715625" y2="153.26343125" width="0" layer="19" extent="1-1"/>
-<wire x1="193.2259375" y1="62.668828125" x2="174.924715625" y2="153.26343125" width="0" layer="19" extent="1-16"/>
+<wire x1="180.79566875" y1="103.207140625" x2="157.861" y2="118.555" width="0" layer="19" extent="1-16"/>
+<wire x1="182.740484375" y1="103.4831125" x2="180.79566875" y2="103.207140625" width="0" layer="19" extent="1-1"/>
+<wire x1="193.2259375" y1="62.668828125" x2="180.79566875" y2="103.207140625" width="0" layer="19" extent="1-16"/>
 <wire x1="191.2694375" y1="61.941246875" x2="193.2259375" y2="62.668828125" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$33">
@@ -17515,8 +17515,8 @@ design rules under a new name.</description>
 <contactref element="IC23" pad="18"/>
 <contactref element="R506" pad="2"/>
 <contactref element="IC29" pad="1"/>
-<wire x1="179.7196625" y1="152.195021875" x2="85.39189375" y2="7.16654375" width="0" layer="19" extent="1-1"/>
-<wire x1="179.36953125" y1="153.539403125" x2="179.7196625" y2="152.195021875" width="0" layer="19" extent="1-1"/>
+<wire x1="185.590615625" y1="102.13873125" x2="85.39189375" y2="7.16654375" width="0" layer="19" extent="1-1"/>
+<wire x1="185.240484375" y1="103.4831125" x2="185.590615625" y2="102.13873125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO2_12">
 <contactref element="IC23" pad="16"/>
@@ -17692,22 +17692,22 @@ design rules under a new name.</description>
 <signal name="N$338">
 <contactref element="LED93" pad="1"/>
 <contactref element="R467" pad="2"/>
-<wire x1="185.0318" y1="149.5145625" x2="186.511440625" y2="146.753278125" width="0" layer="19" extent="16-16"/>
+<wire x1="190.902753125" y1="99.458271875" x2="192.38239375" y2="96.6969875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$339">
 <contactref element="LED94" pad="1"/>
 <contactref element="R468" pad="2"/>
-<wire x1="182.5139875" y1="146.75048125" x2="181.020375" y2="149.51685" width="0" layer="19" extent="16-16"/>
+<wire x1="188.384940625" y1="96.694190625" x2="186.891328125" y2="99.460559375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$341">
 <contactref element="LED95" pad="1"/>
 <contactref element="R469" pad="2"/>
-<wire x1="177.023178125" y1="149.50135" x2="178.508659375" y2="146.7388" width="0" layer="19" extent="16-16"/>
+<wire x1="182.89413125" y1="99.445059375" x2="184.3796125" y2="96.682509375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$343">
 <contactref element="LED96" pad="1"/>
 <contactref element="R470" pad="2"/>
-<wire x1="174.500284375" y1="146.73194375" x2="173.035884375" y2="149.470109375" width="0" layer="19" extent="16-16"/>
+<wire x1="180.3712375" y1="96.675653125" x2="178.9068375" y2="99.41381875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="TEMP1">
 <contactref element="U$1" pad="1"/>
@@ -17832,8 +17832,8 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="1"/>
 <contactref element="R500" pad="2"/>
 <contactref element="IC29" pad="3"/>
-<wire x1="179.990171875" y1="156.804609375" x2="181.51678125" y2="155.431021875" width="0" layer="19" extent="1-1"/>
-<wire x1="179.36953125" y1="155.439403125" x2="179.990171875" y2="156.804609375" width="0" layer="19" extent="1-1"/>
+<wire x1="185.861125" y1="106.74831875" x2="187.387734375" y2="105.37473125" width="0" layer="19" extent="1-1"/>
+<wire x1="185.240484375" y1="105.3831125" x2="185.861125" y2="106.74831875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TEMP4">
 <contactref element="U$4" pad="1"/>
@@ -17860,8 +17860,8 @@ design rules under a new name.</description>
 <contactref element="IC29" pad="4"/>
 <contactref element="R507" pad="1"/>
 <contactref element="R506" pad="1"/>
-<wire x1="177.691375" y1="156.891228125" x2="176.86953125" y2="155.439403125" width="0" layer="19" extent="1-1"/>
-<wire x1="178.6946625" y1="152.195021875" x2="176.86953125" y2="155.439403125" width="0" layer="19" extent="1-1"/>
+<wire x1="183.562328125" y1="106.8349375" x2="182.740484375" y2="105.3831125" width="0" layer="19" extent="1-1"/>
+<wire x1="184.565615625" y1="102.13873125" x2="182.740484375" y2="105.3831125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TEMP_FB_4">
 <contactref element="IC30" pad="4"/>
@@ -18974,22 +18974,22 @@ design rules under a new name.</description>
 <signal name="P_LED">
 <contactref element="R42" pad="2"/>
 <contactref element="J4" pad="64"/>
-<wire x1="185.42295625" y1="150.718775" x2="152.781" y2="84.645" width="0" layer="19" extent="1-16"/>
+<wire x1="191.293909375" y1="100.662484375" x2="152.781" y2="84.645" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="LED_OUT1">
 <contactref element="R52" pad="2"/>
 <contactref element="J4" pad="62"/>
-<wire x1="182.95299375" y1="150.71395" x2="151.511" y2="84.645" width="0" layer="19" extent="1-16"/>
+<wire x1="188.823946875" y1="100.657659375" x2="151.511" y2="84.645" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="LED_OUT2">
 <contactref element="R54" pad="2"/>
 <contactref element="J4" pad="60"/>
-<wire x1="178.397059375" y1="150.69388125" x2="150.241" y2="84.645" width="0" layer="19" extent="1-16"/>
+<wire x1="184.2680125" y1="100.637590625" x2="150.241" y2="84.645" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="LED_OUT3">
 <contactref element="R56" pad="2"/>
 <contactref element="J4" pad="58"/>
-<wire x1="174.884496875" y1="150.69363125" x2="148.971" y2="84.645" width="0" layer="19" extent="1-16"/>
+<wire x1="180.75545" y1="100.637340625" x2="148.971" y2="84.645" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC20" pad="5"/>
