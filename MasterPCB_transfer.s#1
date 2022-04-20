@@ -22481,11 +22481,6 @@ to the node at this segment of the board</text>
 <wire x1="96.52" y1="20.32" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
 <label x="101.6" y="22.86" size="1.778" layer="95" rot="MR180"/>
 </segment>
-<segment>
-<pinref part="M20" gate="NTLUS4C12NTAG" pin="D"/>
-<wire x1="881.38" y1="269.24" x2="883.92" y2="269.24" width="0.1524" layer="91"/>
-<label x="886.46" y="271.78" size="1.778" layer="95" rot="MR180"/>
-</segment>
 </net>
 <net name="GATE2_" class="0">
 <segment>
@@ -26243,6 +26238,11 @@ to the node at this segment of the board</text>
 <pinref part="R354" gate="G$1" pin="2"/>
 <wire x1="850.9" y1="266.7" x2="853.44" y2="266.7" width="0.1524" layer="91"/>
 <label x="855.98" y="266.7" size="1.778" layer="95" rot="MR180"/>
+</segment>
+<segment>
+<pinref part="M20" gate="NTLUS4C12NTAG" pin="D"/>
+<wire x1="881.38" y1="269.24" x2="883.92" y2="269.24" width="0.1524" layer="91"/>
+<label x="886.46" y="271.78" size="1.778" layer="95" rot="MR180"/>
 </segment>
 </net>
 <net name="UV2_6" class="0">
