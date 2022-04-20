@@ -2481,7 +2481,6 @@ design rules under a new name.</description>
 <contactref element="D18" pad="2"/>
 <contactref element="D19" pad="2"/>
 <contactref element="SPI" pad="13"/>
-<contactref element="SPI" pad="11"/>
 <contactref element="R15" pad="2"/>
 <contactref element="C9" pad="1"/>
 <contactref element="C10" pad="2"/>
@@ -2658,7 +2657,6 @@ design rules under a new name.</description>
 <via x="7.0104" y="27.2034" extent="1-16" drill="0.35"/>
 <via x="6.2738" y="7.5946" extent="1-16" drill="0.35"/>
 <via x="21.336" y="41.4782" extent="1-16" drill="0.35"/>
-<wire x1="24.154" y1="51.6676" x2="25.404" y2="51.6676" width="0.3048" layer="1"/>
 <wire x1="25.404" y1="51.6676" x2="25.654" y2="51.9176" width="0.3048" layer="1" curve="90"/>
 <polygon width="0.0254" layer="1" pour="cutout" isolate="0.635">
 <vertex x="18.8722" y="63.5" curve="-90"/>
@@ -2704,6 +2702,9 @@ design rules under a new name.</description>
 <vertex x="33.7312" y="56.7182" curve="-90"/>
 <vertex x="33.8074" y="56.642"/>
 </polygon>
+<contactref element="SPI" pad="11"/>
+<wire x1="24.154" y1="51.6676" x2="25.404" y2="51.6676" width="0.1524" layer="1"/>
+<wire x1="25.404" y1="51.6676" x2="25.654" y2="51.9176" width="0.1524" layer="1"/>
 </signal>
 <signal name="T2-">
 <contactref element="MUX-" pad="15"/>
