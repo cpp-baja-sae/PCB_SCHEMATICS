@@ -1362,13 +1362,13 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <attribute name="NAME" x="176.53" y="80.01" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="173.99" y="80.01" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="R14" gate="G$1" x="190.5" y="132.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="184.15" y="146.05" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="186.69" y="146.05" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="R14" gate="G$1" x="190.5" y="129.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="184.15" y="143.51" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="186.69" y="143.51" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="R15" gate="G$1" x="200.66" y="132.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="194.31" y="146.05" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="196.85" y="146.05" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="R15" gate="G$1" x="200.66" y="129.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="194.31" y="143.51" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="196.85" y="143.51" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="C4" gate="G$1" x="195.58" y="76.2" smashed="yes">
 <attribute name="NAME" x="194.31" y="82.55" size="1.778" layer="95" align="center-left"/>
@@ -1590,7 +1590,7 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="128.27" x2="205.74" y2="128.27" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="132.08" x2="200.66" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="129.54" x2="200.66" y2="128.27" width="0.1524" layer="91"/>
 <junction x="200.66" y="128.27"/>
 </segment>
 <segment>
@@ -1923,21 +1923,23 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 </net>
 <net name="ICMP" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="149.86" x2="193.04" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="ICMP"/>
-<wire x1="193.04" y1="149.86" x2="200.66" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="121.92" x2="193.04" y2="149.86" width="0.1524" layer="91"/>
-<junction x="193.04" y="149.86"/>
 <label x="193.04" y="127" size="1.778" layer="95" rot="R90"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="147.32" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="149.86" x2="193.04" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="149.86" x2="200.66" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="149.86" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
+<junction x="193.04" y="149.86"/>
 </segment>
 </net>
 <net name="IBIAS" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="IBIAS"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="121.92" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="121.92" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
 <label x="190.5" y="127" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
