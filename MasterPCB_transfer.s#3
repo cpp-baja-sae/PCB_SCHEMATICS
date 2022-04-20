@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -28350,9 +28350,9 @@ to the node at this segment of the board</text>
 <label x="962.66" y="695.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-205.74" y1="33.02" x2="-208.28" y2="33.02" width="0.1524" layer="91"/>
-<label x="-203.2" y="33.02" size="1.778" layer="95"/>
-<pinref part="J5" gate="G$1" pin="60"/>
+<wire x1="-205.74" y1="35.56" x2="-208.28" y2="35.56" width="0.1524" layer="91"/>
+<label x="-203.2" y="35.56" size="1.778" layer="95"/>
+<pinref part="J5" gate="G$1" pin="58"/>
 </segment>
 </net>
 <net name="C2" class="0">
@@ -28367,9 +28367,9 @@ to the node at this segment of the board</text>
 <label x="962.66" y="688.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-205.74" y1="30.48" x2="-208.28" y2="30.48" width="0.1524" layer="91"/>
-<label x="-203.2" y="30.48" size="1.778" layer="95"/>
-<pinref part="J5" gate="G$1" pin="62"/>
+<wire x1="-205.74" y1="38.1" x2="-208.28" y2="38.1" width="0.1524" layer="91"/>
+<label x="-203.2" y="38.1" size="1.778" layer="95"/>
+<pinref part="J5" gate="G$1" pin="56"/>
 </segment>
 </net>
 <net name="C3" class="0">
@@ -28379,9 +28379,9 @@ to the node at this segment of the board</text>
 <label x="962.66" y="680.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-205.74" y1="27.94" x2="-208.28" y2="27.94" width="0.1524" layer="91"/>
-<label x="-203.2" y="27.94" size="1.778" layer="95"/>
-<pinref part="J5" gate="G$1" pin="64"/>
+<wire x1="-205.74" y1="33.02" x2="-208.28" y2="33.02" width="0.1524" layer="91"/>
+<label x="-203.2" y="33.02" size="1.778" layer="95"/>
+<pinref part="J5" gate="G$1" pin="60"/>
 </segment>
 </net>
 <net name="IM_OUT2" class="0">
@@ -28598,27 +28598,6 @@ to the node at this segment of the board</text>
 <pinref part="J5" gate="G$1" pin="39"/>
 </segment>
 </net>
-<net name="IP_OUT1" class="0">
-<segment>
-<wire x1="-205.74" y1="38.1" x2="-208.28" y2="38.1" width="0.1524" layer="91"/>
-<label x="-203.2" y="38.1" size="1.778" layer="95"/>
-<pinref part="J5" gate="G$1" pin="56"/>
-</segment>
-</net>
-<net name="40G_GPIO" class="0">
-<segment>
-<wire x1="-205.74" y1="35.56" x2="-208.28" y2="35.56" width="0.1524" layer="91"/>
-<label x="-203.2" y="35.56" size="1.778" layer="95"/>
-<pinref part="J5" gate="G$1" pin="58"/>
-</segment>
-</net>
-<net name="IM_OUT1" class="0">
-<segment>
-<wire x1="-205.74" y1="40.64" x2="-208.28" y2="40.64" width="0.1524" layer="91"/>
-<label x="-203.2" y="40.64" size="1.778" layer="95"/>
-<pinref part="J5" gate="G$1" pin="54"/>
-</segment>
-</net>
 <net name="N$365" class="0">
 <segment>
 <wire x1="-236.22" y1="17.78" x2="-233.68" y2="17.78" width="0.1524" layer="91"/>
@@ -28683,6 +28662,27 @@ to the node at this segment of the board</text>
 <segment>
 <wire x1="-152.4" y1="73.66" x2="-149.86" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="27"/>
+</segment>
+</net>
+<net name="IP_OUT1" class="0">
+<segment>
+<wire x1="-205.74" y1="27.94" x2="-208.28" y2="27.94" width="0.1524" layer="91"/>
+<label x="-203.2" y="27.94" size="1.778" layer="95"/>
+<pinref part="J5" gate="G$1" pin="64"/>
+</segment>
+</net>
+<net name="IM_OUT1" class="0">
+<segment>
+<wire x1="-205.74" y1="30.48" x2="-208.28" y2="30.48" width="0.1524" layer="91"/>
+<label x="-203.2" y="30.48" size="1.778" layer="95"/>
+<pinref part="J5" gate="G$1" pin="62"/>
+</segment>
+</net>
+<net name="40G_GPIO" class="0">
+<segment>
+<wire x1="-205.74" y1="40.64" x2="-208.28" y2="40.64" width="0.1524" layer="91"/>
+<label x="-203.2" y="40.64" size="1.778" layer="95"/>
+<pinref part="J5" gate="G$1" pin="54"/>
 </segment>
 </net>
 </nets>
