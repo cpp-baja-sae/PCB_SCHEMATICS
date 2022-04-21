@@ -2,26 +2,26 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/forre/Documents/EAGLE/projects/GIT_REPO/PCB_SCHEMATICS/MasterPCB_transfer.brd
 
-Start at      : 21:22:01 (4/19/2022)
-End at        : 21:25:29 (4/19/2022)
-Elapsed time  : 00:03:23
+Start at      : 19:47:01 (4/20/2022)
+End at        : 19:47:31 (4/20/2022)
+Elapsed time  : 00:00:21
 
-Signals       :   930   RoutingGrid: 12.5 mil  Layers: 6
-Connections   :  2789   predefined:  992 ( 515 Vias )
+Signals       :   928   RoutingGrid: 12.5 mil  Layers: 6
+Connections   :  2789   predefined:  1109 ( 707 Vias )
 
-Router memory :   3855840
+Router memory :   3749472
 
 Job has been interrupted!
 
-Passname          :    Busses     Route
+Passname          :    Busses
 
-Time per pass     :  00:00:57  00:02:26
-Number of Ripups  :         0         1
-max. Level        :         0         1
-max. Total        :         0        16
+Time per pass     :  00:00:21
+Number of Ripups  :         0
+max. Level        :         0
+max. Total        :         0
 
-Routed            :       162       614
-Vias              :         0       142
-Resolution        :    41.4 %    57.6 %
+Routed            :        44
+Vias              :         0
+Resolution        :    41.3 %
 
 Final             : 
