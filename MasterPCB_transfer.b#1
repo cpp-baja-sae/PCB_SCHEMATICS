@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="0.01" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -72,7 +72,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXljcHAyMDk" projecturn="a.YnVzaW5lc3M6bXljcHAyMDkjRDIwMjAwNDAzMjgyNjY0NzU2" f3durn="urn:adsk.wipprod:dm.lineage:iU0vO3dsQSamaviQt-At0g" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="00dd86a8-6fbb-4732-8576-21b6e5f99265" lastsyncedrevisionid="00dd86a8-6fbb-4732-8576-21b6e5f99265" lastboardhashguid="58b87856-1d96-b9fc-00af-da2202a70821" lastpushedtime="2022-04-18T08:07:34Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXljcHAyMDk" projecturn="a.YnVzaW5lc3M6bXljcHAyMDkjRDIwMjAwNDAzMjgyNjY0NzU2" f3durn="urn:adsk.wipprod:dm.lineage:iU0vO3dsQSamaviQt-At0g" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="ecd3feea-d00d-49bd-826a-4fe10c4807a2" lastsyncedrevisionid="ecd3feea-d00d-49bd-826a-4fe10c4807a2" lastboardhashguid="29e935ba-1256-a8dd-94d1-5fdfc9e9069d" lastpushedtime="2022-04-21T01:53:03Z" linktopcb3d="true"/>
 <plain>
 <wire x1="15.24" y1="0" x2="144.272" y2="0" width="0.1524" layer="20"/>
 <wire x1="159.509459375" y1="20.32" x2="127.179171875" y2="142.24" width="0.1524" layer="20"/>
@@ -21961,8 +21961,20 @@ design rules under a new name.</description>
 </signal>
 <signal name="PC2">
 <contactref element="J14" pad="59"/>
-<wire x1="67.691" y1="94.805" x2="111.506" y2="108.4326" width="0" layer="19" extent="16-16"/>
 <contactref element="UC1" pad="PC2"/>
+<via x="67.691" y="94.805" extent="1-16" drill="0.35"/>
+<via x="67.0842" y="104.30636875" extent="1-16" drill="0.35"/>
+<wire x1="67.691" y1="94.805" x2="67.691" y2="97.48291875" width="0.1524" layer="14"/>
+<wire x1="67.691" y1="97.48291875" x2="67.1592" y2="98.01471875" width="0.1524" layer="14"/>
+<wire x1="67.1592" y1="104.23136875" x2="67.0842" y2="104.30636875" width="0.1524" layer="14"/>
+<wire x1="67.1592" y1="98.01471875" x2="67.1592" y2="104.23136875" width="0.1524" layer="14"/>
+<wire x1="67.0842" y1="104.30636875" x2="67.654684375" y2="104.876853125" width="0.1524" layer="16"/>
+<wire x1="94.597840625" y1="104.876853125" x2="94.71645" y2="104.75824375" width="0.1524" layer="16"/>
+<wire x1="94.71645" y1="104.75824375" x2="104.92029375" y2="104.75824375" width="0.1524" layer="16"/>
+<wire x1="110.153196875" y1="107.079796875" x2="111.506" y2="108.4326" width="0.1524" layer="16"/>
+<wire x1="67.654684375" y1="104.876853125" x2="94.597840625" y2="104.876853125" width="0.1524" layer="16"/>
+<wire x1="104.92029375" y1="104.75824375" x2="107.241846875" y2="107.079796875" width="0.1524" layer="16"/>
+<wire x1="107.241846875" y1="107.079796875" x2="110.153196875" y2="107.079796875" width="0.1524" layer="16"/>
 </signal>
 <signal name="PC3">
 <contactref element="J14" pad="57"/>
@@ -22288,8 +22300,24 @@ design rules under a new name.</description>
 </signal>
 <signal name="PC0">
 <contactref element="J14" pad="61"/>
-<wire x1="66.421" y1="94.805" x2="108.966" y2="110.9726" width="0" layer="19" extent="16-16"/>
 <contactref element="UC1" pad="PC0"/>
+<via x="66.421" y="94.805" extent="1-16" drill="0.35"/>
+<via x="65.8142" y="105.8189375" extent="1-16" drill="0.35"/>
+<wire x1="66.421" y1="94.805" x2="66.421" y2="97.48291875" width="0.1524" layer="14"/>
+<wire x1="66.421" y1="97.48291875" x2="65.8892" y2="98.01471875" width="0.1524" layer="14"/>
+<wire x1="65.8892" y1="105.7439375" x2="65.8142" y2="105.8189375" width="0.1524" layer="14"/>
+<wire x1="65.8892" y1="98.01471875" x2="65.8892" y2="105.7439375" width="0.1524" layer="14"/>
+<wire x1="65.8142" y1="105.8189375" x2="94.56354375" y2="105.8189375" width="0.1524" layer="16"/>
+<wire x1="94.56354375" y1="105.8189375" x2="94.71645" y2="105.97184375" width="0.1524" layer="16"/>
+<wire x1="94.71645" y1="105.97184375" x2="95.21915" y2="105.97184375" width="0.1524" layer="16"/>
+<wire x1="95.21915" y1="105.97184375" x2="95.28543125" y2="105.9055625" width="0.1524" layer="16"/>
+<wire x1="95.28543125" y1="105.9055625" x2="104.35413125" y2="105.9055625" width="0.1524" layer="16"/>
+<wire x1="106.262678125" y1="107.814109375" x2="106.262678125" y2="109.89436875" width="0.1524" layer="16"/>
+<wire x1="106.262678125" y1="109.89436875" x2="107.225709375" y2="110.8574" width="0.1524" layer="16"/>
+<wire x1="107.225709375" y1="110.8574" x2="107.484875" y2="110.8574" width="0.1524" layer="16"/>
+<wire x1="107.484875" y1="110.8574" x2="107.600075" y2="110.9726" width="0.1524" layer="16"/>
+<wire x1="107.600075" y1="110.9726" x2="108.966" y2="110.9726" width="0.1524" layer="16"/>
+<wire x1="104.35413125" y1="105.9055625" x2="106.262678125" y2="107.814109375" width="0.1524" layer="16"/>
 </signal>
 <signal name="ETH_MDC">
 <contactref element="UC1" pad="PC1"/>
@@ -22303,12 +22331,10 @@ design rules under a new name.</description>
 <wire x1="88.011" y1="97.37685" x2="87.4042" y2="97.98365" width="0.1524" layer="14"/>
 <wire x1="87.4042" y1="104.161325" x2="87.3478" y2="104.217725" width="0.1524" layer="14"/>
 <wire x1="87.4042" y1="97.98365" x2="87.4042" y2="104.161325" width="0.1524" layer="14"/>
-<wire x1="87.3478" y1="104.217725" x2="87.934284375" y2="104.804209375" width="0.1524" layer="16"/>
-<wire x1="94.670484375" y1="104.804209375" x2="94.71645" y2="104.75824375" width="0.1524" layer="16"/>
-<wire x1="94.71645" y1="104.75824375" x2="104.81869375" y2="104.75824375" width="0.1524" layer="16"/>
-<wire x1="105.95305" y1="105.8926" x2="108.966" y2="105.8926" width="0.1524" layer="16"/>
-<wire x1="87.934284375" y1="104.804209375" x2="94.670484375" y2="104.804209375" width="0.1524" layer="16"/>
-<wire x1="104.81869375" y1="104.75824375" x2="105.95305" y2="105.8926" width="0.1524" layer="16"/>
+<wire x1="87.3478" y1="104.217725" x2="87.4593125" y2="104.3292375" width="0.1524" layer="16"/>
+<wire x1="107.44021875" y1="105.8926" x2="108.966" y2="105.8926" width="0.1524" layer="16"/>
+<wire x1="87.4593125" y1="104.3292375" x2="105.87685625" y2="104.3292375" width="0.1524" layer="16"/>
+<wire x1="105.87685625" y1="104.3292375" x2="107.44021875" y2="105.8926" width="0.1524" layer="16"/>
 </signal>
 <signal name="PA4">
 <contactref element="J14" pad="05"/>
@@ -22518,8 +22544,9 @@ design rules under a new name.</description>
 <wire x1="95.631" y1="97.37685" x2="95.0242" y2="97.98365" width="0.1524" layer="14"/>
 <wire x1="95.0242" y1="105.308640625" x2="94.9678" y2="105.365040625" width="0.1524" layer="14"/>
 <wire x1="95.0242" y1="97.98365" x2="95.0242" y2="105.308640625" width="0.1524" layer="14"/>
-<wire x1="94.9678" y1="105.365040625" x2="51.073559375" y2="105.365040625" width="0.1524" layer="16"/>
-<wire x1="51.073559375" y1="105.365040625" x2="50.546" y2="105.8926" width="0.1524" layer="16"/>
+<wire x1="94.9678" y1="105.365040625" x2="94.81489375" y2="105.212134375" width="0.1524" layer="16"/>
+<wire x1="94.81489375" y1="105.212134375" x2="51.226465625" y2="105.212134375" width="0.1524" layer="16"/>
+<wire x1="51.226465625" y1="105.212134375" x2="50.546" y2="105.8926" width="0.1524" layer="16"/>
 </signal>
 <signal name="ETH_MDIO">
 <contactref element="UC1" pad="PA2"/>
@@ -23094,11 +23121,9 @@ design rules under a new name.</description>
 <contactref element="J4" pad="45"/>
 <contactref element="IC52" pad="5"/>
 <contactref element="IC38" pad="5"/>
-<contactref element="IC51" pad="4"/>
 <contactref element="IC51" pad="5"/>
 <wire x1="93.273109375" y1="66.4815125" x2="82.931" y2="78.55" width="0" layer="19" extent="1-16"/>
 <wire x1="69.909940625" y1="65.659828125" x2="82.931" y2="78.55" width="0" layer="19" extent="1-16"/>
-<wire x1="69.909940625" y1="65.159828125" x2="69.909940625" y2="65.659828125" width="0" layer="19" extent="1-1"/>
 <wire x1="92.002603125" y1="31.3931875" x2="93.273109375" y2="66.4815125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CONVSTAB_ADC">
@@ -23157,7 +23182,9 @@ design rules under a new name.</description>
 <contactref element="J4" pad="43"/>
 <contactref element="IC52" pad="4"/>
 <contactref element="IC38" pad="4"/>
+<contactref element="IC51" pad="4"/>
 <wire x1="93.273109375" y1="65.9815125" x2="81.661" y2="78.55" width="0" layer="19" extent="1-16"/>
+<wire x1="69.909940625" y1="65.159828125" x2="81.661" y2="78.55" width="0" layer="19" extent="1-16"/>
 <wire x1="92.002603125" y1="30.8931875" x2="93.273109375" y2="65.9815125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUSY_ADC_2">
