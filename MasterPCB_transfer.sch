@@ -9206,11 +9206,6 @@ referenced to DIFF_N</text>
 </net>
 <net name="OS2_ADC" class="0">
 <segment>
-<pinref part="IC51" gate="G$1" pin="OS1"/>
-<wire x1="586.74" y1="345.44" x2="586.74" y2="347.98" width="0.1524" layer="91"/>
-<label x="584.2" y="342.9" size="1.778" layer="95" rot="R270"/>
-</segment>
-<segment>
 <pinref part="IC51" gate="G$1" pin="OS2"/>
 <wire x1="589.28" y1="345.44" x2="589.28" y2="347.98" width="0.1524" layer="91"/>
 <label x="586.74" y="342.9" size="1.778" layer="95" rot="R270"/>
@@ -9704,6 +9699,11 @@ referenced to DIFF_N</text>
 <pinref part="IC38" gate="G$1" pin="OS1"/>
 <wire x1="591.82" y1="109.22" x2="591.82" y2="106.68" width="0.1524" layer="91"/>
 <label x="589.28" y="104.14" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<pinref part="IC51" gate="G$1" pin="OS1"/>
+<wire x1="586.74" y1="345.44" x2="586.74" y2="347.98" width="0.1524" layer="91"/>
+<label x="584.2" y="342.9" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="BUSY_ADC_2" class="0">
