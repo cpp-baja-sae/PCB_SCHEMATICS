@@ -9206,11 +9206,6 @@ referenced to DIFF_N</text>
 </net>
 <net name="OS2_ADC" class="0">
 <segment>
-<pinref part="IC51" gate="G$1" pin="OS1"/>
-<wire x1="586.74" y1="345.44" x2="586.74" y2="347.98" width="0.1524" layer="91"/>
-<label x="584.2" y="342.9" size="1.778" layer="95" rot="R270"/>
-</segment>
-<segment>
 <pinref part="IC51" gate="G$1" pin="OS2"/>
 <wire x1="589.28" y1="345.44" x2="589.28" y2="347.98" width="0.1524" layer="91"/>
 <label x="586.74" y="342.9" size="1.778" layer="95" rot="R270"/>
@@ -9704,6 +9699,11 @@ referenced to DIFF_N</text>
 <pinref part="IC38" gate="G$1" pin="OS1"/>
 <wire x1="591.82" y1="109.22" x2="591.82" y2="106.68" width="0.1524" layer="91"/>
 <label x="589.28" y="104.14" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<pinref part="IC51" gate="G$1" pin="OS1"/>
+<wire x1="586.74" y1="345.44" x2="586.74" y2="347.98" width="0.1524" layer="91"/>
+<label x="584.2" y="342.9" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="BUSY_ADC_2" class="0">
@@ -28834,13 +28834,6 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <busses>
 </busses>
 <nets>
-<net name="PB13" class="0">
-<segment>
-<wire x1="-5.08" y1="-104.14" x2="-2.54" y2="-104.14" width="0.1524" layer="91"/>
-<label x="-7.62" y="-104.14" size="1.778" layer="95" rot="MR0"/>
-<pinref part="J14" gate="G$1" pin="67"/>
-</segment>
-</net>
 <net name="5V_CONNECTOR" class="0">
 <segment>
 <wire x1="93.98" y1="-38.1" x2="91.44" y2="-38.1" width="0.1524" layer="91"/>
