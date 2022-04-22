@@ -1085,6 +1085,9 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <wire x1="-0.875" y1="-3.25" x2="-0.875" y2="3.25" width="0.2" layer="21"/>
 <wire x1="-3.975" y1="3.125" x2="-1.225" y2="3.125" width="0.2" layer="21"/>
 </package>
+<package name="1/16TH_BOLT" urn="urn:adsk.eagle:footprint:35094095/2" library_version="140">
+<pad name="1/16IN" x="0" y="0" locked="yes" drill="3.048" diameter="6.35"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="AS_FEMALE_5_PIN" urn="urn:adsk.eagle:package:34263750/8" type="model" library_version="138">
@@ -1096,6 +1099,11 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <description>&lt;b&gt;SOT223-3&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SOT230P700X180-4N"/>
+</packageinstances>
+</package3d>
+<package3d name="1/16TH_BOLT" urn="urn:adsk.eagle:package:35094096/3" type="empty" library_version="140">
+<packageinstances>
+<packageinstance name="1/16TH_BOLT"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1126,6 +1134,9 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <pin name="VOUT_1" x="0" y="-2.54" length="middle" direction="out"/>
 <pin name="VIN" x="0" y="-5.08" length="middle" direction="in"/>
 <pin name="VOUT_2" x="33.02" y="0" length="middle" direction="out" rot="R180"/>
+</symbol>
+<symbol name="THROUGH_HOLE" urn="urn:adsk.eagle:symbol:35094094/3" library_version="140">
+<pin name="THROUGH_HOLE" x="0" y="0" visible="pad" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1181,6 +1192,24 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 </device>
 </devices>
 </deviceset>
+<deviceset name="THROUGH_HOLE" urn="urn:adsk.eagle:component:35094097/4" library_version="140">
+<gates>
+<gate name="G$1" symbol="THROUGH_HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1/16TH_BOLT">
+<connects>
+<connect gate="G$1" pin="THROUGH_HOLE" pad="1/16IN"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1232,6 +1261,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 <part name="C6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="06035C270JAT2A" device="" package3d_urn="urn:adsk.eagle:package:34029965/6"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -1370,6 +1403,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 <instance part="GND21" gate="1" x="370.84" y="48.26" smashed="yes" rot="R90">
 <attribute name="VALUE" x="373.38" y="45.72" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$1" gate="G$1" x="162.56" y="-10.16" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="165.1" y="-10.16" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="167.64" y="-10.16" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="170.18" y="-10.16" smashed="yes"/>
 </instances>
 <busses>
 </busses>
