@@ -28834,13 +28834,6 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <busses>
 </busses>
 <nets>
-<net name="PB13" class="0">
-<segment>
-<wire x1="-5.08" y1="-104.14" x2="-2.54" y2="-104.14" width="0.1524" layer="91"/>
-<label x="-7.62" y="-104.14" size="1.778" layer="95" rot="MR0"/>
-<pinref part="J14" gate="G$1" pin="67"/>
-</segment>
-</net>
 <net name="5V_CONNECTOR" class="0">
 <segment>
 <wire x1="93.98" y1="-38.1" x2="91.44" y2="-38.1" width="0.1524" layer="91"/>
