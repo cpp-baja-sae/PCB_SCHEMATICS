@@ -11974,29 +11974,6 @@ referenced to DIFF_N</text>
 <label x="137.16" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="12V" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="VDD"/>
-<wire x1="289.56" y1="218.44" x2="294.64" y2="218.44" width="0.1524" layer="91"/>
-<label x="294.64" y="218.44" size="1.778" layer="95"/>
-<pinref part="C33" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="218.44" x2="294.64" y2="215.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="VDD"/>
-<wire x1="289.56" y1="177.8" x2="294.64" y2="177.8" width="0.1524" layer="91"/>
-<label x="294.64" y="177.8" size="1.778" layer="95"/>
-<pinref part="C34" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="177.8" x2="294.64" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="VDD"/>
-<wire x1="289.56" y1="137.16" x2="294.64" y2="137.16" width="0.1524" layer="91"/>
-<label x="294.64" y="137.16" size="1.778" layer="95"/>
-<pinref part="C35" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="137.16" x2="294.64" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$52" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="IN-"/>
@@ -12736,6 +12713,29 @@ referenced to DIFF_N</text>
 <wire x1="106.68" y1="53.34" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
 <junction x="106.68" y="53.34"/>
+</segment>
+</net>
+<net name="13.5V_BUS" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VDD"/>
+<wire x1="289.56" y1="218.44" x2="294.64" y2="218.44" width="0.1524" layer="91"/>
+<label x="294.64" y="218.44" size="1.778" layer="95"/>
+<pinref part="C33" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="218.44" x2="294.64" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VDD"/>
+<wire x1="289.56" y1="177.8" x2="294.64" y2="177.8" width="0.1524" layer="91"/>
+<label x="294.64" y="177.8" size="1.778" layer="95"/>
+<pinref part="C34" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="177.8" x2="294.64" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="VDD"/>
+<wire x1="289.56" y1="137.16" x2="294.64" y2="137.16" width="0.1524" layer="91"/>
+<label x="294.64" y="137.16" size="1.778" layer="95"/>
+<pinref part="C35" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="137.16" x2="294.64" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

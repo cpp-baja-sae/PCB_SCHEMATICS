@@ -28805,9 +28805,9 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <wire x1="233.68" y1="-137.16" x2="157.48" y2="-137.16" width="0.1524" layer="94"/>
 <wire x1="236.22" y1="-17.78" x2="241.3" y2="-17.78" width="0.1524" layer="94"/>
 <wire x1="241.3" y1="-17.78" x2="241.3" y2="-33.02" width="0.1524" layer="94"/>
-<wire x1="241.3" y1="-43.18" x2="236.22" y2="-43.18" width="0.1524" layer="94"/>
+<wire x1="241.3" y1="-38.1" x2="236.22" y2="-38.1" width="0.1524" layer="94"/>
 <text x="243.84" y="-30.48" size="1.778" layer="97">Flash interface</text>
-<wire x1="241.3" y1="-43.18" x2="241.3" y2="-55.88" width="0.1524" layer="94"/>
+<wire x1="241.3" y1="-38.1" x2="241.3" y2="-55.88" width="0.1524" layer="94"/>
 <wire x1="241.3" y1="-55.88" x2="236.22" y2="-55.88" width="0.1524" layer="94"/>
 <text x="243.84" y="-50.8" size="1.778" layer="97">ISO SPI link interface</text>
 <wire x1="241.3" y1="-55.88" x2="241.3" y2="-63.5" width="0.1524" layer="94"/>
@@ -31060,16 +31060,18 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <wire x1="205.74" y1="-38.1" x2="203.2" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="ISO_SPI_CH_SEL" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="18"/>
 <wire x1="205.74" y1="-40.64" x2="203.2" y2="-40.64" width="0.1524" layer="91"/>
+<label x="208.28" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$46" class="0">
+<net name="ISO_SPI_HIGH_Z_SWITCH" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="20"/>
 <wire x1="205.74" y1="-43.18" x2="203.2" y2="-43.18" width="0.1524" layer="91"/>
+<label x="208.28" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
