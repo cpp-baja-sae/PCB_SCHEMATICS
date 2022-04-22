@@ -1261,6 +1261,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 <part name="C6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:34029941" deviceset="06035C270JAT2A" device="" package3d_urn="urn:adsk.eagle:package:34029965/6"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
+<part name="U$2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 <part name="U$4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="THROUGH_HOLE" device="" package3d_urn="urn:adsk.eagle:package:35094096/3"/>
 </parts>
@@ -1401,6 +1403,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 <instance part="GND21" gate="1" x="370.84" y="48.26" smashed="yes" rot="R90">
 <attribute name="VALUE" x="373.38" y="45.72" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$1" gate="G$1" x="162.56" y="-10.16" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="165.1" y="-10.16" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="167.64" y="-10.16" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="170.18" y="-10.16" smashed="yes"/>
 </instances>

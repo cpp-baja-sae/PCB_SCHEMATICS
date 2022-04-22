@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.3" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -74,10 +74,10 @@
 <board>
 <fusionsync huburn="a.YnVzaW5lc3M6bXljcHA1NTk" projecturn="a.YnVzaW5lc3M6bXljcHA1NTkjRDIwMjEwOTE1NDQ0OTgwODU2" f3durn="urn:adsk.wipprod:dm.lineage:BeAIdd1JT46-xdl6n52ekA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="05985c92-ce82-46b7-9d4a-7c50af940576" lastsyncedrevisionid="05985c92-ce82-46b7-9d4a-7c50af940576" lastboardhashguid="b349df81-fa15-c74b-054d-e3d2b541b3e7" lastpushedtime="2022-04-16T00:49:16Z" linktopcb3d="true"/>
 <plain>
-<wire x1="0" y1="0" x2="36.83" y2="0" width="0" layer="20"/>
-<wire x1="36.83" y1="0" x2="36.83" y2="40.132" width="0" layer="20"/>
-<wire x1="36.83" y1="40.132" x2="0" y2="40.132" width="0" layer="20"/>
-<wire x1="0" y1="40.132" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="36.81" y2="0" width="0" layer="20"/>
+<wire x1="36.81" y1="0" x2="36.81" y2="40.056" width="0" layer="20"/>
+<wire x1="36.81" y1="40.056" x2="0" y2="40.056" width="0" layer="20"/>
+<wire x1="0" y1="40.056" x2="0" y2="0" width="0" layer="20"/>
 <text x="28.3616375" y="17.42694375" size="0.8128" layer="26" rot="MR90">BAJA SAE 2021-2022
 40G Accelerometer
 Designed By Anthony Bandak</text>
