@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.3" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -74,10 +74,10 @@
 <board>
 <fusionsync huburn="a.YnVzaW5lc3M6bXljcHA1NTk" projecturn="a.YnVzaW5lc3M6bXljcHA1NTkjRDIwMjEwOTE1NDQ0OTgwODU2" f3durn="urn:adsk.wipprod:dm.lineage:BeAIdd1JT46-xdl6n52ekA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="29930079-6a14-4f8c-bf78-252d89bc138f" lastsyncedrevisionid="29930079-6a14-4f8c-bf78-252d89bc138f" lastboardhashguid="c1bf8408-81c7-2904-4850-4a45b25c34c7" lastpushedtime="2022-04-16T00:52:02Z" linktopcb3d="true"/>
 <plain>
-<wire x1="0" y1="0" x2="36.81" y2="0" width="0" layer="20"/>
-<wire x1="36.81" y1="0" x2="36.81" y2="40.056" width="0" layer="20"/>
-<wire x1="36.81" y1="40.056" x2="0" y2="40.056" width="0" layer="20"/>
-<wire x1="0" y1="40.056" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="36.83" y2="0" width="0" layer="20"/>
+<wire x1="36.83" y1="0" x2="36.83" y2="40.132" width="0" layer="20"/>
+<wire x1="36.83" y1="40.132" x2="0" y2="40.132" width="0" layer="20"/>
+<wire x1="0" y1="40.132" x2="0" y2="0" width="0" layer="20"/>
 <text x="28.3616375" y="17.42694375" size="0.8128" layer="26" rot="MR90">BAJA SAE 2021-2022
 40G Accelerometer
 Designed By Anthony Bandak</text>
