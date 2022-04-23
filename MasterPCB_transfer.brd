@@ -3,13 +3,13 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.01" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -2175,7 +2175,7 @@ design rules under a new name.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="40mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -14396,6 +14396,8 @@ design rules under a new name.</description>
 <wire x1="30.311796875" y1="29.4232125" x2="29.9922625" y2="29.4232125" width="0.1524" layer="16"/>
 <wire x1="29.427259375" y1="28.858209375" x2="29.40405625" y2="28.858209375" width="0.1524" layer="16"/>
 <wire x1="29.9922625" y1="29.4232125" x2="29.427259375" y2="28.858209375" width="0.1524" layer="16"/>
+<contactref element="IC14" pad="5"/>
+<wire x1="137.29094375" y1="7.70603125" x2="137.29094375" y2="8.20603125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="REGCAP2">
 <contactref element="C8" pad="1"/>
@@ -19734,9 +19736,6 @@ design rules under a new name.</description>
 <wire x1="143.86229375" y1="7.044428125" x2="143.411696875" y2="6.59383125" width="0.1524" layer="16"/>
 <wire x1="143.411696875" y1="6.59383125" x2="142.345340625" y2="6.59383125" width="0.1524" layer="16"/>
 <contactref element="LED23" pad="1"/>
-</signal>
-<signal name="N$159">
-<contactref element="IC14" pad="5"/>
 </signal>
 <signal name="N$160">
 <contactref element="IC14" pad="6"/>
@@ -27014,6 +27013,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="PF0">
 <contactref element="UC1" pad="PF0"/>
+<contactref element="J12" pad="23"/>
+<wire x1="68.961" y1="107.125" x2="111.506" y2="124.9426" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PF1">
 <contactref element="J14" pad="62"/>
@@ -28711,9 +28712,6 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="J4" pad="38"/>
 </signal>
-<signal name="N$5">
-<contactref element="J4" pad="40"/>
-</signal>
 <signal name="N$8">
 <contactref element="J4" pad="56"/>
 </signal>
@@ -30250,6 +30248,30 @@ design rules under a new name.</description>
 </signal>
 <signal name="40G_GPIO">
 <contactref element="J5" pad="54"/>
+<contactref element="J4" pad="40"/>
+<via x="40.2333375" y="22.040340625" extent="1-16" drill="0.2"/>
+<via x="37.402515625" y="59.626753125" extent="1-16" drill="0.2"/>
+<wire x1="39.420940625" y1="58.024215625" x2="38.892215625" y2="58.552940625" width="0.1524" layer="14"/>
+<wire x1="38.892215625" y1="58.552940625" x2="38.476328125" y2="58.552940625" width="0.1524" layer="14"/>
+<wire x1="38.476328125" y1="58.552940625" x2="37.402515625" y2="59.626753125" width="0.1524" layer="14"/>
+<wire x1="40.2333375" y1="22.040340625" x2="40.2333375" y2="39.2087375" width="0.1524" layer="14"/>
+<wire x1="40.2333375" y1="39.2087375" x2="39.7912125" y2="39.6508625" width="0.1524" layer="14"/>
+<wire x1="39.7912125" y1="39.6508625" x2="39.7912125" y2="44.98755625" width="0.1524" layer="14"/>
+<wire x1="39.7912125" y1="44.98755625" x2="40.76235625" y2="45.9587" width="0.1524" layer="14"/>
+<wire x1="40.76235625" y1="45.9587" x2="40.76235625" y2="52.6672125" width="0.1524" layer="14"/>
+<wire x1="40.76235625" y1="52.6672125" x2="39.420940625" y2="54.008628125" width="0.1524" layer="14"/>
+<wire x1="39.420940625" y1="54.008628125" x2="39.420940625" y2="58.024215625" width="0.1524" layer="14"/>
+<via x="79.274415625" y="65.151" extent="1-16" drill="0.2"/>
+<wire x1="78.26253125" y1="65.151" x2="79.274415625" y2="65.151" width="0.1524" layer="3"/>
+<wire x1="37.402515625" y1="59.626753125" x2="40.7647625" y2="62.989" width="0.1524" layer="3"/>
+<wire x1="60.62568125" y1="63.398475" x2="76.51000625" y2="63.398475" width="0.1524" layer="3"/>
+<wire x1="76.51000625" y1="63.398475" x2="78.26253125" y2="65.151" width="0.1524" layer="3"/>
+<wire x1="40.7647625" y1="62.989" x2="50.95756875" y2="62.989" width="0.1524" layer="3"/>
+<wire x1="50.95756875" y1="62.989" x2="52.3621375" y2="64.39356875" width="0.1524" layer="3"/>
+<wire x1="52.3621375" y1="64.39356875" x2="59.6305875" y2="64.39356875" width="0.1524" layer="3"/>
+<wire x1="59.6305875" y1="64.39356875" x2="60.62568125" y2="63.398475" width="0.1524" layer="3"/>
+<wire x1="79.274415625" y1="65.151" x2="79.121" y2="65.304415625" width="0.1524" layer="16"/>
+<wire x1="79.121" y1="65.304415625" x2="79.121" y2="68.77" width="0.1524" layer="16"/>
 </signal>
 <signal name="13.5V_BUS1">
 <polygon width="0.0762" layer="15" pour="cutout">

@@ -11867,6 +11867,12 @@ referenced to DIFF_N</text>
 <label x="363.22" y="180.34" size="1.778" layer="95"/>
 <pinref part="IC52" gate="G$1" pin="AIN_3GND"/>
 </segment>
+<segment>
+<pinref part="C259" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="147.32" x2="60.96" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="144.78" x2="5.08" y2="144.78" width="0.1524" layer="91"/>
+<label x="-5.08" y="147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GP_4_P" class="0">
 <segment>
@@ -12726,14 +12732,6 @@ referenced to DIFF_N</text>
 <wire x1="106.68" y1="53.34" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
 <junction x="106.68" y="53.34"/>
-</segment>
-</net>
-<net name="DIFF3_N" class="0">
-<segment>
-<pinref part="C259" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="147.32" x2="60.96" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="144.78" x2="5.08" y2="144.78" width="0.1524" layer="91"/>
-<label x="-5.08" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -26457,9 +26455,9 @@ to the node at this segment of the board</text>
 <label x="551.18" y="698.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="-121.92" y1="78.74" x2="-124.46" y2="78.74" width="0.1524" layer="91"/>
-<label x="-119.38" y="78.74" size="1.778" layer="95"/>
-<pinref part="J6" gate="G$1" pin="24"/>
+<wire x1="-121.92" y1="81.28" x2="-124.46" y2="81.28" width="0.1524" layer="91"/>
+<label x="-119.38" y="81.28" size="1.778" layer="95"/>
+<pinref part="J6" gate="G$1" pin="22"/>
 </segment>
 </net>
 <net name="DIFF_GP5_N" class="0">
@@ -26469,9 +26467,9 @@ to the node at this segment of the board</text>
 <label x="561.34" y="698.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="-121.92" y1="81.28" x2="-124.46" y2="81.28" width="0.1524" layer="91"/>
-<label x="-119.38" y="81.28" size="1.778" layer="95"/>
-<pinref part="J6" gate="G$1" pin="22"/>
+<wire x1="-121.92" y1="78.74" x2="-124.46" y2="78.74" width="0.1524" layer="91"/>
+<label x="-119.38" y="78.74" size="1.778" layer="95"/>
+<pinref part="J6" gate="G$1" pin="24"/>
 </segment>
 </net>
 <net name="OV1_7" class="0">

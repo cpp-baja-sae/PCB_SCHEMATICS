@@ -6371,7 +6371,6 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"&
 <part name="GND537" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND538" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND539" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND540" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND541" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND542" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND543" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -6815,6 +6814,7 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"&
 <part name="GND580" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND581" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND582" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND540" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19806,9 +19806,6 @@ to the node at this segment of the board</text>
 <instance part="GND539" gate="1" x="855.98" y="317.5" smashed="yes" rot="R270">
 <attribute name="VALUE" x="853.44" y="320.04" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND540" gate="1" x="71.12" y="574.04" smashed="yes" rot="R270">
-<attribute name="VALUE" x="68.58" y="576.58" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="GND541" gate="1" x="71.12" y="817.88" smashed="yes" rot="R270">
 <attribute name="VALUE" x="68.58" y="820.42" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -19847,6 +19844,9 @@ to the node at this segment of the board</text>
 </instance>
 <instance part="GND580" gate="1" x="-116.84" y="63.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-114.3" y="60.96" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND540" gate="1" x="71.12" y="574.04" smashed="yes" rot="R270">
+<attribute name="VALUE" x="68.58" y="576.58" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -21635,6 +21635,11 @@ to the node at this segment of the board</text>
 <junction x="-119.38" y="66.04"/>
 <pinref part="GND580" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="IC14" gate="G$1" pin="ADR0"/>
+<pinref part="GND540" gate="1" pin="GND"/>
+<wire x1="76.2" y1="574.04" x2="73.66" y2="574.04" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DIFF1_P" class="0">
 <segment>
@@ -23396,13 +23401,6 @@ to the node at this segment of the board</text>
 <wire x1="203.2" y1="650.24" x2="215.9" y2="650.24" width="0.1524" layer="91"/>
 <pinref part="R245" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="650.24" x2="215.9" y2="647.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$159" class="0">
-<segment>
-<pinref part="IC14" gate="G$1" pin="ADR0"/>
-<wire x1="76.2" y1="574.04" x2="73.66" y2="574.04" width="0.1524" layer="91"/>
-<pinref part="GND540" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$160" class="0">
@@ -29599,6 +29597,11 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <wire x1="0" y1="30.48" x2="2.54" y2="30.48" width="0.1524" layer="91"/>
 <label x="-5.08" y="33.02" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="J12" gate="G$1" pin="23"/>
+<wire x1="66.04" y1="-48.26" x2="63.5" y2="-48.26" width="0.1524" layer="91"/>
+<label x="60.96" y="-45.72" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="PF1" class="0">
 <segment>
@@ -30962,10 +30965,11 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <pinref part="J4" gate="G$1" pin="38"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="40G_GPIO" class="0">
 <segment>
 <wire x1="203.2" y1="-68.58" x2="205.74" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="40"/>
+<label x="208.28" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -31077,6 +31081,120 @@ Enables easy flexibility to rewire any digital system on demand</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,12,-30.48,132.08,U$5,THROUGH_HOLE,,,,"/>
+<approved hash="101,12,-33.02,132.08,U$6,THROUGH_HOLE,,,,"/>
+<approved hash="101,12,-35.56,132.08,U$7,THROUGH_HOLE,,,,"/>
+<approved hash="101,12,-38.1,132.08,U$8,THROUGH_HOLE,,,,"/>
+<approved hash="101,12,-40.64,132.08,U$9,THROUGH_HOLE,,,,"/>
+<approved hash="101,12,-43.18,132.08,U$10,THROUGH_HOLE,,,,"/>
+<approved hash="101,12,-53.34,132.08,U$14,THROUGH_HOLE,,,,"/>
+<approved hash="101,12,-25.4,132.08,U$15,THROUGH_HOLE,,,,"/>
+<approved hash="104,1,579.12,347.98,IC51,AVDD_1,5V_ON_BOARD,,,"/>
+<approved hash="104,1,581.66,347.98,IC51,AGND_1,GND,,,"/>
+<approved hash="104,1,640.08,370.84,IC51,DVDD,3.3V_DIGITAL,,,"/>
+<approved hash="104,1,640.08,378.46,IC51,AGND_2,GND,,,"/>
+<approved hash="104,1,579.12,403.86,IC51,AVDD_4,5V_ON_BOARD,,,"/>
+<approved hash="104,1,581.66,403.86,IC51,AGND_6,GND,,,"/>
+<approved hash="104,1,584.2,403.86,IC51,REFGND_2,GND,,,"/>
+<approved hash="104,1,591.82,403.86,IC51,REFGND_1,GND,,,"/>
+<approved hash="104,1,596.9,403.86,IC51,AGND_5,GND,,,"/>
+<approved hash="104,1,599.44,403.86,IC51,AGND_4,GND,,,"/>
+<approved hash="104,1,604.52,403.86,IC51,AVDD_3,5V_ON_BOARD,,,"/>
+<approved hash="104,1,607.06,403.86,IC51,AVDD_2,5V_ON_BOARD,,,"/>
+<approved hash="104,1,612.14,403.86,IC51,AGND_3,GND,,,"/>
+<approved hash="104,1,584.2,109.22,IC38,AVDD_1,5V_ON_BOARD,,,"/>
+<approved hash="104,1,586.74,109.22,IC38,AGND_1,GND,,,"/>
+<approved hash="104,1,645.16,132.08,IC38,DVDD,3.3V_DIGITAL,,,"/>
+<approved hash="104,1,645.16,139.7,IC38,AGND_2,GND,,,"/>
+<approved hash="104,1,584.2,165.1,IC38,AVDD_4,5V_ON_BOARD,,,"/>
+<approved hash="104,1,586.74,165.1,IC38,AGND_6,GND,,,"/>
+<approved hash="104,1,589.28,165.1,IC38,REFGND_2,GND,,,"/>
+<approved hash="104,1,596.9,165.1,IC38,REFGND_1,GND,,,"/>
+<approved hash="104,1,601.98,165.1,IC38,AGND_5,GND,,,"/>
+<approved hash="104,1,604.52,165.1,IC38,AGND_4,GND,,,"/>
+<approved hash="104,1,609.6,165.1,IC38,AVDD_3,5V_ON_BOARD,,,"/>
+<approved hash="104,1,612.14,165.1,IC38,AVDD_2,5V_ON_BOARD,,,"/>
+<approved hash="104,1,617.22,165.1,IC38,AGND_3,GND,,,"/>
+<approved hash="104,2,401.32,147.32,IC52,AVDD_1,5V_ON_BOARD,,,"/>
+<approved hash="104,2,403.86,147.32,IC52,AGND_1,GND,,,"/>
+<approved hash="104,2,462.28,170.18,IC52,DVDD,3.3V_DIGITAL,,,"/>
+<approved hash="104,2,462.28,177.8,IC52,AGND_2,GND,,,"/>
+<approved hash="104,2,401.32,203.2,IC52,AVDD_4,5V_ON_BOARD,,,"/>
+<approved hash="104,2,403.86,203.2,IC52,AGND_6,GND,,,"/>
+<approved hash="104,2,406.4,203.2,IC52,REFGND_2,GND,,,"/>
+<approved hash="104,2,414.02,203.2,IC52,REFGND_1,GND,,,"/>
+<approved hash="104,2,419.1,203.2,IC52,AGND_5,GND,,,"/>
+<approved hash="104,2,421.64,203.2,IC52,AGND_4,GND,,,"/>
+<approved hash="104,2,426.72,203.2,IC52,AVDD_3,5V_ON_BOARD,,,"/>
+<approved hash="104,2,429.26,203.2,IC52,AVDD_2,5V_ON_BOARD,,,"/>
+<approved hash="104,2,434.34,203.2,IC52,AGND_3,GND,,,"/>
+<approved hash="106,12,2.54,91.44,3.3V_MCU,,,,,"/>
+<approved hash="106,7,2.54,-27.94,3.3V_NC,,,,,"/>
+<approved hash="106,12,106.68,78.74,ETH_CRS_DV,,,,,"/>
+<approved hash="106,12,38.1,53.34,ETH_MDC,,,,,"/>
+<approved hash="106,12,106.68,53.34,ETH_MDIO,,,,,"/>
+<approved hash="106,12,38.1,60.96,ETH_REF_CLK,,,,,"/>
+<approved hash="106,12,144.78,55.88,ETH_RXD0,,,,,"/>
+<approved hash="106,12,144.78,91.44,ETH_RXD1,,,,,"/>
+<approved hash="106,12,38.1,12.7,ETH_TXD0,,,,,"/>
+<approved hash="106,12,144.78,60.96,ETH_TXD1,,,,,"/>
+<approved hash="106,12,38.1,10.16,ETH_TX_EN,,,,,"/>
+<approved hash="106,7,2.54,-20.32,FIX_NC,,,,,"/>
+<approved hash="106,11,596.9,78.74,N$1,,,,,"/>
+<approved hash="106,12,203.2,-35.56,N$2,,,,,"/>
+<approved hash="106,12,203.2,-38.1,N$3,,,,,"/>
+<approved hash="106,12,203.2,-66.04,N$4,,,,,"/>
+<approved hash="106,12,203.2,-88.9,N$8,,,,,"/>
+<approved hash="106,12,203.2,-86.36,N$9,,,,,"/>
+<approved hash="106,12,203.2,-83.82,N$10,,,,,"/>
+<approved hash="106,12,203.2,-81.28,N$11,,,,,"/>
+<approved hash="106,12,203.2,-78.74,N$12,,,,,"/>
+<approved hash="106,12,203.2,-76.2,N$13,,,,,"/>
+<approved hash="106,12,203.2,-73.66,N$14,,,,,"/>
+<approved hash="106,12,203.2,-71.12,N$15,,,,,"/>
+<approved hash="106,12,177.8,-58.42,N$16,,,,,"/>
+<approved hash="106,12,177.8,-60.96,N$20,,,,,"/>
+<approved hash="106,12,177.8,-119.38,N$21,,,,,"/>
+<approved hash="106,11,76.2,73.66,N$45,,,,,"/>
+<approved hash="106,11,340.36,78.74,N$63,,,,,"/>
+<approved hash="106,11,76.2,568.96,N$160,,,,,"/>
+<approved hash="106,11,76.2,563.88,N$161,,,,,"/>
+<approved hash="106,11,340.36,574.04,N$178,,,,,"/>
+<approved hash="106,11,340.36,563.88,N$181,,,,,"/>
+<approved hash="106,11,599.44,574.04,N$196,,,,,"/>
+<approved hash="106,11,599.44,568.96,N$197,,,,,"/>
+<approved hash="106,11,599.44,563.88,N$198,,,,,"/>
+<approved hash="106,11,863.6,568.96,N$215,,,,,"/>
+<approved hash="106,11,863.6,563.88,N$216,,,,,"/>
+<approved hash="106,11,596.9,327.66,N$232,,,,,"/>
+<approved hash="106,11,596.9,73.66,N$268,,,,,"/>
+<approved hash="106,11,861.06,73.66,N$284,,,,,"/>
+<approved hash="106,11,76.2,807.72,N$301,,,,,"/>
+<approved hash="106,11,340.36,810.26,N$317,,,,,"/>
+<approved hash="106,12,2.54,88.9,N$554,,,,,"/>
+<approved hash="106,12,2.54,55.88,N$566,,,,,"/>
+<approved hash="106,12,2.54,12.7,N$582,,,,,"/>
+<approved hash="106,12,38.1,66.04,N$605,,,,,"/>
+<approved hash="106,12,38.1,68.58,N$606,,,,,"/>
+<approved hash="106,12,38.1,76.2,N$607,,,,,"/>
+<approved hash="106,12,38.1,78.74,N$608,,,,,"/>
+<approved hash="106,12,38.1,81.28,N$609,,,,,"/>
+<approved hash="106,12,38.1,83.82,N$610,,,,,"/>
+<approved hash="106,12,38.1,86.36,N$611,,,,,"/>
+<approved hash="106,12,106.68,88.9,N$618,,,,,"/>
+<approved hash="106,12,144.78,58.42,N$666,,,,,"/>
+<approved hash="106,12,144.78,88.9,N$677,,,,,"/>
+<approved hash="106,12,2.54,66.04,PC14-0SC32_IN,,,,,"/>
+<approved hash="106,12,2.54,63.5,PC15-OSC32_OUT,,,,,"/>
+<approved hash="106,12,2.54,60.96,PH0-OSC_IN,,,,,"/>
+<approved hash="106,7,2.54,-7.62,PPS_NC,,,,,"/>
+<approved hash="106,12,144.78,86.36,USART3_TX,,,,,"/>
+<approved hash="106,12,2.54,10.16,USART4_RX,,,,,"/>
+<approved hash="106,12,106.68,12.7,USB_FS_OVCR,,,,,"/>
+<approved hash="106,12,106.68,15.24,USB_FS_PWR_EN,,,,,"/>
+<approved hash="106,7,2.54,-22.86,VBAT_NC,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
