@@ -74,11 +74,11 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="LT3579_SEPIC_Test_Bench">
+<library name="LT3579_SEPIC_Test_Bench" urn="urn:adsk.eagle:library:35184241">
 <description>Generated from &lt;b&gt;LT3579_SEPIC_Test_Bench.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs-replace2.ulp</description>
 <packages>
-<package name="SAMTEC-CLP-102-02-X-D">
+<package name="SAMTEC-CLP-102-02-X-D" urn="urn:adsk.eagle:footprint:35184284/1" library_version="8">
 <description>translated Allegro footprint</description>
 <wire x1="-1.936" y1="2.799" x2="-1.936" y2="-2.799" width="0.2" layer="21"/>
 <wire x1="-1.936" y1="-2.799" x2="1.936" y2="-2.799" width="0.2" layer="21"/>
@@ -153,7 +153,7 @@ by exp-lbrs-replace2.ulp</description>
 <vertex x="2.171" y="-3.034"/>
 </polygon>
 </package>
-<package name="CLP-106-02-XXX">
+<package name="CLP-106-02-XXX" urn="urn:adsk.eagle:footprint:35184293/1" library_version="8">
 <description>&lt;b&gt;CLP-106-02-XXX-D&lt;/b&gt;&lt;br&gt;</description>
 <circle x="3.175" y="-2.715" radius="0.05" width="0.2" layer="25"/>
 <wire x1="-4.025" y1="1.525" x2="4.025" y2="1.525" width="0.2" layer="51"/>
@@ -181,7 +181,7 @@ by exp-lbrs-replace2.ulp</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="CAPC2012X100N">
+<package name="CAPC2012X100N" urn="urn:adsk.eagle:footprint:35184289/1" library_version="8">
 <description>&lt;b&gt;CGA4 (F THICKNESS)&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-1.46" y1="0.89" x2="1.46" y2="0.89" width="0.05" layer="51"/>
 <wire x1="1.46" y1="0.89" x2="1.46" y2="-0.89" width="0.05" layer="51"/>
@@ -197,7 +197,7 @@ by exp-lbrs-replace2.ulp</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="CAPC7563X250N">
+<package name="CAPC7563X250N" urn="urn:adsk.eagle:footprint:35184292/1" library_version="8">
 <description>&lt;b&gt;C7563&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-4.355" y1="3.56" x2="4.355" y2="3.56" width="0.05" layer="51"/>
 <wire x1="4.355" y1="3.56" x2="4.355" y2="-3.56" width="0.05" layer="51"/>
@@ -213,7 +213,7 @@ by exp-lbrs-replace2.ulp</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="SOIC127P600X170-8N">
+<package name="SOIC127P600X170-8N" urn="urn:adsk.eagle:footprint:35184280/1" library_version="8">
 <circle x="-4" y="2" radius="0.1" width="0.2" layer="21"/>
 <circle x="-4" y="2" radius="0.1" width="0.2" layer="51"/>
 <wire x1="1.925" y1="2.45" x2="-1.925" y2="2.45" width="0.127" layer="51"/>
@@ -237,7 +237,7 @@ by exp-lbrs-replace2.ulp</description>
 <text x="-3.5" y="-3" size="1.27" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
 <text x="-3.5" y="3" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 </package>
-<package name="THROUGH_HOLE">
+<package name="THROUGH_HOLE" urn="urn:adsk.eagle:footprint:35184301/1" library_version="8">
 <description>ThroughHole for mounting PCB to an enclosure.
 
 Drill Diameter: 120 mil
@@ -245,7 +245,7 @@ For Bolt of size: .12"
 Safety Diameter of 0.25" so that washer does not damage board.</description>
 <pad name="THROUGH_HOLE" x="0" y="0" drill="3.048" diameter="6.35"/>
 </package>
-<package name="CAPC2012X145N">
+<package name="CAPC2012X145N" urn="urn:adsk.eagle:footprint:35184290/1" library_version="8">
 <description>&lt;b&gt;CGA4 (J THICKNESS)&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-1.46" y1="0.89" x2="1.46" y2="0.89" width="0.05" layer="51"/>
 <wire x1="1.46" y1="0.89" x2="1.46" y2="-0.89" width="0.05" layer="51"/>
@@ -261,7 +261,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="CAPC2013X150N">
+<package name="CAPC2013X150N" urn="urn:adsk.eagle:footprint:35184291/1" library_version="8">
 <description>&lt;b&gt;CEU4J2X7R1H104K125AE&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-1.515" y1="0.91" x2="1.515" y2="0.91" width="0.05" layer="51"/>
 <wire x1="1.515" y1="0.91" x2="1.515" y2="-0.91" width="0.05" layer="51"/>
@@ -277,7 +277,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="CAPC1005X55N">
+<package name="CAPC1005X55N" urn="urn:adsk.eagle:footprint:35184287/1" library_version="8">
 <description>&lt;b&gt;CGA2[EIA CC0402]&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-0.91" y1="0.46" x2="0.91" y2="0.46" width="0.05" layer="51"/>
 <wire x1="0.91" y1="0.46" x2="0.91" y2="-0.46" width="0.05" layer="51"/>
@@ -292,7 +292,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="CAPC1608X90N">
+<package name="CAPC1608X90N" urn="urn:adsk.eagle:footprint:35184288/1" library_version="8">
 <description>&lt;b&gt;CGA3 [EIA CC0603] Thickness 0.8&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-1.22" y1="0.62" x2="1.22" y2="0.62" width="0.05" layer="51"/>
 <wire x1="1.22" y1="0.62" x2="1.22" y2="-0.62" width="0.05" layer="51"/>
@@ -308,7 +308,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="DIOM7958X256N">
+<package name="DIOM7958X256N" urn="urn:adsk.eagle:footprint:35184294/1" library_version="8">
 <description>&lt;b&gt;SMC CASE403-03&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-4.85" y1="3.3" x2="4.85" y2="3.3" width="0.05" layer="51"/>
 <wire x1="4.85" y1="3.3" x2="4.85" y2="-3.3" width="0.05" layer="51"/>
@@ -328,7 +328,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="MSD1278T-822MLXX">
+<package name="MSD1278T-822MLXX" urn="urn:adsk.eagle:footprint:35184282/1" library_version="8">
 <circle x="5.5" y="7.5" radius="0.390509375" width="0.508" layer="21"/>
 <wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.127" layer="21"/>
 <wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.127" layer="21"/>
@@ -349,7 +349,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="-6.5" y="8.6" size="1.778" layer="25">&gt;NAME</text>
 <text x="-6.5" y="-9.1" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="SOT230P700X180-4N">
+<package name="SOT230P700X180-4N" urn="urn:adsk.eagle:footprint:35184300/1" library_version="8">
 <description>&lt;b&gt;SOT223-3&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-4.225" y1="3.6" x2="4.225" y2="3.6" width="0.05" layer="51"/>
 <wire x1="4.225" y1="3.6" x2="4.225" y2="-3.6" width="0.05" layer="51"/>
@@ -374,7 +374,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="APT1608CGCK">
+<package name="APT1608CGCK" urn="urn:adsk.eagle:footprint:35184286/1" library_version="8">
 <description>&lt;b&gt;1.6 x 0.8 mm SMD Chip LED Lamp&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-1.7" y1="0.925" x2="1.7" y2="0.925" width="0.05" layer="51"/>
 <wire x1="1.7" y1="0.925" x2="1.7" y2="-0.925" width="0.05" layer="51"/>
@@ -395,7 +395,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="SOT95P280X100-3N">
+<package name="SOT95P280X100-3N" urn="urn:adsk.eagle:footprint:35184299/1" library_version="8">
 <description>&lt;b&gt;SC-96&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-2.1" y1="1.75" x2="2.1" y2="1.75" width="0.05" layer="51"/>
 <wire x1="2.1" y1="1.75" x2="2.1" y2="-1.75" width="0.05" layer="51"/>
@@ -419,7 +419,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="ERA2AED122X">
+<package name="ERA2AED122X" urn="urn:adsk.eagle:footprint:35184295/1" library_version="8">
 <description>&lt;b&gt;ERA2A_(0402)&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.2" layer="51"/>
 <wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.2" layer="51"/>
@@ -434,7 +434,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="RESC3116X65N">
+<package name="RESC3116X65N" urn="urn:adsk.eagle:footprint:35184297/1" library_version="8">
 <description>&lt;b&gt;RC1206&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-2.25" y1="1.15" x2="2.25" y2="1.15" width="0.05" layer="51"/>
 <wire x1="2.25" y1="1.15" x2="2.25" y2="-1.15" width="0.05" layer="51"/>
@@ -450,7 +450,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="RESC2012X60N">
+<package name="RESC2012X60N" urn="urn:adsk.eagle:footprint:35184279/1" library_version="8">
 <wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.127" layer="51"/>
 <wire x1="1.05" y1="0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
 <wire x1="1.05" y1="-0.68" x2="1.05" y2="0.68" width="0.127" layer="51"/>
@@ -466,7 +466,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="-1.66" y="-1.02" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-1.66" y="1.02" size="0.5" layer="25">&gt;NAME</text>
 </package>
-<package name="ERJ2R_(0402)">
+<package name="ERJ2R_(0402)" urn="urn:adsk.eagle:footprint:35184285/1" library_version="8">
 <description>&lt;b&gt;ERJ2R_(0402)&lt;/b&gt;&lt;br&gt;</description>
 <circle x="-1.0125" y="0" radius="0.05" width="0.2" layer="25"/>
 <wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.2" layer="51"/>
@@ -482,7 +482,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="RESC1005X37N">
+<package name="RESC1005X37N" urn="urn:adsk.eagle:footprint:35184296/1" library_version="8">
 <description>&lt;b&gt;MCS0402&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-1.15" y1="0.55" x2="1.15" y2="0.55" width="0.05" layer="51"/>
 <wire x1="1.15" y1="0.55" x2="1.15" y2="-0.55" width="0.05" layer="51"/>
@@ -497,7 +497,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
-<package name="RESC6432X55N">
+<package name="RESC6432X55N" urn="urn:adsk.eagle:footprint:35184281/1" library_version="8">
 <wire x1="3.33" y1="-1.73" x2="-3.33" y2="-1.73" width="0.127" layer="51"/>
 <wire x1="3.33" y1="1.73" x2="-3.33" y2="1.73" width="0.127" layer="51"/>
 <wire x1="3.33" y1="-1.73" x2="3.33" y2="1.73" width="0.127" layer="51"/>
@@ -511,12 +511,12 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="-3.93" y="-2.08" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-3.93" y="2.08" size="0.5" layer="25">&gt;NAME</text>
 </package>
-<package name="S1751-46R_">
+<package name="S1751-46R_" urn="urn:adsk.eagle:footprint:35184283/1" library_version="8">
 <smd name="1" x="0" y="0" dx="3.45" dy="1.85" layer="1"/>
 <text x="-1.75" y="1.3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.85" y="-2.35" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="RESC1608X55N">
+<package name="RESC1608X55N" urn="urn:adsk.eagle:footprint:35184278/1" library_version="8">
 <wire x1="0.85" y1="-0.45" x2="-0.85" y2="-0.45" width="0.127" layer="51"/>
 <wire x1="0.85" y1="0.45" x2="-0.85" y2="0.45" width="0.127" layer="51"/>
 <wire x1="0.85" y1="-0.45" x2="0.85" y2="0.45" width="0.127" layer="51"/>
@@ -532,7 +532,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="-1.46" y="-0.8" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-1.46" y="0.8" size="0.5" layer="25">&gt;NAME</text>
 </package>
-<package name="SOP65P640X120-21N">
+<package name="SOP65P640X120-21N" urn="urn:adsk.eagle:footprint:35184298/1" library_version="8">
 <description>&lt;b&gt;TSSOP20_6.6X4.5X0.65&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-3.9" y1="3.55" x2="3.9" y2="3.55" width="0.05" layer="51"/>
 <wire x1="3.9" y1="3.55" x2="3.9" y2="-3.55" width="0.05" layer="51"/>
@@ -571,8 +571,152 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="SAMTEC-CLP-102-02-X-D" urn="urn:adsk.eagle:package:35184319/2" type="model" library_version="8">
+<description>translated Allegro footprint</description>
+<packageinstances>
+<packageinstance name="SAMTEC-CLP-102-02-X-D"/>
+</packageinstances>
+</package3d>
+<package3d name="CLP-106-02-XXX" urn="urn:adsk.eagle:package:35184310/2" type="model" library_version="8">
+<description>&lt;b&gt;CLP-106-02-XXX-D&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="CLP-106-02-XXX"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC2012X100N" urn="urn:adsk.eagle:package:35184314/2" type="model" library_version="8">
+<description>&lt;b&gt;CGA4 (F THICKNESS)&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC2012X100N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC7563X250N" urn="urn:adsk.eagle:package:35184311/2" type="model" library_version="8">
+<description>&lt;b&gt;C7563&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC7563X250N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P600X170-8N" urn="urn:adsk.eagle:package:35184323/3" type="model" library_version="8">
+<packageinstances>
+<packageinstance name="SOIC127P600X170-8N"/>
+</packageinstances>
+</package3d>
+<package3d name="THROUGH_HOLE" urn="urn:adsk.eagle:package:35184302/1" type="box" library_version="8">
+<description>ThroughHole for mounting PCB to an enclosure.
+
+Drill Diameter: 120 mil
+For Bolt of size: .12"
+Safety Diameter of 0.25" so that washer does not damage board.</description>
+<packageinstances>
+<packageinstance name="THROUGH_HOLE"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC2012X145N" urn="urn:adsk.eagle:package:35184313/2" type="model" library_version="8">
+<description>&lt;b&gt;CGA4 (J THICKNESS)&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC2012X145N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC2013X150N" urn="urn:adsk.eagle:package:35184312/2" type="model" library_version="8">
+<description>&lt;b&gt;CEU4J2X7R1H104K125AE&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC2013X150N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC1005X55N" urn="urn:adsk.eagle:package:35184316/2" type="model" library_version="8">
+<description>&lt;b&gt;CGA2[EIA CC0402]&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC1005X55N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC1608X90N" urn="urn:adsk.eagle:package:35184315/2" type="model" library_version="8">
+<description>&lt;b&gt;CGA3 [EIA CC0603] Thickness 0.8&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC1608X90N"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOM7958X256N" urn="urn:adsk.eagle:package:35184309/2" type="model" library_version="8">
+<description>&lt;b&gt;SMC CASE403-03&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="DIOM7958X256N"/>
+</packageinstances>
+</package3d>
+<package3d name="MSD1278T-822MLXX" urn="urn:adsk.eagle:package:35184321/3" type="model" library_version="8">
+<packageinstances>
+<packageinstance name="MSD1278T-822MLXX"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT230P700X180-4N" urn="urn:adsk.eagle:package:35184303/2" type="model" library_version="8">
+<description>&lt;b&gt;SOT223-3&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SOT230P700X180-4N"/>
+</packageinstances>
+</package3d>
+<package3d name="APT1608CGCK" urn="urn:adsk.eagle:package:35184317/1" type="box" library_version="8">
+<description>&lt;b&gt;1.6 x 0.8 mm SMD Chip LED Lamp&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="APT1608CGCK"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P280X100-3N" urn="urn:adsk.eagle:package:35184304/2" type="model" library_version="8">
+<description>&lt;b&gt;SC-96&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P280X100-3N"/>
+</packageinstances>
+</package3d>
+<package3d name="ERA2AED122X" urn="urn:adsk.eagle:package:35184308/2" type="model" library_version="8">
+<description>&lt;b&gt;ERA2A_(0402)&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="ERA2AED122X"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC3116X65N" urn="urn:adsk.eagle:package:35184306/2" type="model" library_version="8">
+<description>&lt;b&gt;RC1206&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="RESC3116X65N"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC2012X60N" urn="urn:adsk.eagle:package:35184324/2" type="model" library_version="8">
+<packageinstances>
+<packageinstance name="RESC2012X60N"/>
+</packageinstances>
+</package3d>
+<package3d name="ERJ2R_(0402)" urn="urn:adsk.eagle:package:35184318/2" type="model" library_version="8">
+<description>&lt;b&gt;ERJ2R_(0402)&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="ERJ2R_(0402)"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1005X37N" urn="urn:adsk.eagle:package:35184307/2" type="model" library_version="8">
+<description>&lt;b&gt;MCS0402&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1005X37N"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC6432X55N" urn="urn:adsk.eagle:package:35184322/2" type="model" library_version="8">
+<packageinstances>
+<packageinstance name="RESC6432X55N"/>
+</packageinstances>
+</package3d>
+<package3d name="S1751-46R_" urn="urn:adsk.eagle:package:35184320/2" type="model" library_version="8">
+<packageinstances>
+<packageinstance name="S1751-46R_"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC1608X55N" urn="urn:adsk.eagle:package:35184325/2" type="model" library_version="8">
+<packageinstances>
+<packageinstance name="RESC1608X55N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP65P640X120-21N" urn="urn:adsk.eagle:package:35184305/2" type="model" library_version="8">
+<description>&lt;b&gt;TSSOP20_6.6X4.5X0.65&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SOP65P640X120-21N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="SAMTEC-CLP-102-02-X-D">
+<symbol name="SAMTEC-CLP-102-02-X-D" urn="urn:adsk.eagle:symbol:35184260/1" library_version="8">
 <wire x1="0" y1="5.08" x2="20.3" y2="5.08" width="0.254" layer="94"/>
 <wire x1="20.3" y1="5.08" x2="20.3" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="20.3" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
@@ -586,7 +730,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="0" y="-12.7" size="2.286" layer="96">&gt;VALUE</text>
 <text x="0" y="-15.24" size="2.286" layer="94">SAMTEC-CLP-102-02-X-D</text>
 </symbol>
-<symbol name="CLP-106-02-F-D">
+<symbol name="CLP-106-02-F-D" urn="urn:adsk.eagle:symbol:35184246/1" library_version="8">
 <wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-15.24" x2="17.78" y2="2.54" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
@@ -606,7 +750,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="CGA4F4C0G2W222J085AE">
+<symbol name="CGA4F4C0G2W222J085AE" urn="urn:adsk.eagle:symbol:35184250/1" library_version="8">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="0" width="0.254" layer="94"/>
 <wire x1="5.588" y1="0" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.112" y1="2.54" x2="7.112" y2="0" width="0.254" layer="94"/>
@@ -618,7 +762,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="CGADN3X7R1E476M230LE">
+<symbol name="CGADN3X7R1E476M230LE" urn="urn:adsk.eagle:symbol:35184247/1" library_version="8">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="0" width="0.254" layer="94"/>
 <wire x1="5.588" y1="0" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.112" y1="2.54" x2="7.112" y2="0" width="0.254" layer="94"/>
@@ -630,7 +774,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="DMP3015LSSQ-13_SECTION1">
+<symbol name="DMP3015LSSQ-13_SECTION1" urn="urn:adsk.eagle:symbol:35184264/1" library_version="8">
 <circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
 <circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
 <wire x1="0.762" y1="-0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
@@ -670,11 +814,11 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <vertex x="1.524" y="-0.762"/>
 </polygon>
 </symbol>
-<symbol name="THROUGH_HOLE_SYM">
+<symbol name="THROUGH_HOLE_SYM" urn="urn:adsk.eagle:symbol:35184277/1" library_version="8">
 <pin name="P$1" x="0" y="0" visible="off" length="short" direction="nc"/>
 <text x="0" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="CGA4J1X7R1E475K125AE">
+<symbol name="CGA4J1X7R1E475K125AE" urn="urn:adsk.eagle:symbol:35184249/1" library_version="8">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="0" width="0.254" layer="94"/>
 <wire x1="5.588" y1="0" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.112" y1="2.54" x2="7.112" y2="0" width="0.254" layer="94"/>
@@ -686,7 +830,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="CEU4J2X7R1H683K125AE">
+<symbol name="CEU4J2X7R1H683K125AE" urn="urn:adsk.eagle:symbol:35184254/1" library_version="8">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="0" width="0.254" layer="94"/>
 <wire x1="5.588" y1="0" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.112" y1="2.54" x2="7.112" y2="0" width="0.254" layer="94"/>
@@ -698,7 +842,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="CGA2B2C0G1H470J050BA">
+<symbol name="CGA2B2C0G1H470J050BA" urn="urn:adsk.eagle:symbol:35184252/1" library_version="8">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="0" width="0.254" layer="94"/>
 <wire x1="5.588" y1="0" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.112" y1="2.54" x2="7.112" y2="0" width="0.254" layer="94"/>
@@ -710,7 +854,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="CGA3E1X7R1V105K080AC">
+<symbol name="CGA3E1X7R1V105K080AC" urn="urn:adsk.eagle:symbol:35184251/1" library_version="8">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="0" width="0.254" layer="94"/>
 <wire x1="5.588" y1="0" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.112" y1="2.54" x2="7.112" y2="0" width="0.254" layer="94"/>
@@ -722,7 +866,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="JMK107BB7475KA-T">
+<symbol name="JMK107BB7475KA-T" urn="urn:adsk.eagle:symbol:35184244/1" library_version="8">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="0" width="0.254" layer="94"/>
 <wire x1="5.588" y1="0" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.112" y1="2.54" x2="7.112" y2="0" width="0.254" layer="94"/>
@@ -734,7 +878,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="CGA2B2C0G1H102J050BE">
+<symbol name="CGA2B2C0G1H102J050BE" urn="urn:adsk.eagle:symbol:35184253/1" library_version="8">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="0" width="0.254" layer="94"/>
 <wire x1="5.588" y1="0" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.112" y1="2.54" x2="7.112" y2="0" width="0.254" layer="94"/>
@@ -746,7 +890,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="CGA4J2X8R1E224K125AE">
+<symbol name="CGA4J2X8R1E224K125AE" urn="urn:adsk.eagle:symbol:35184248/1" library_version="8">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="0" width="0.254" layer="94"/>
 <wire x1="5.588" y1="0" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.112" y1="2.54" x2="7.112" y2="0" width="0.254" layer="94"/>
@@ -758,7 +902,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="MBRS330T3G">
+<symbol name="MBRS330T3G" urn="urn:adsk.eagle:symbol:35184272/1" library_version="8">
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 <pin name="A" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
 <pin name="K" x="0" y="0" visible="pad" length="middle"/>
@@ -770,7 +914,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <vertex x="10.16" y="-2.54"/>
 </polygon>
 </symbol>
-<symbol name="MSD1278T">
+<symbol name="MSD1278T" urn="urn:adsk.eagle:symbol:35184262/1" library_version="8">
 <wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
@@ -782,7 +926,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="LDL1117S33R">
+<symbol name="LDL1117S33R" urn="urn:adsk.eagle:symbol:35184243/1" library_version="8">
 <wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
 <wire x1="27.94" y1="-7.62" x2="27.94" y2="2.54" width="0.254" layer="94"/>
 <wire x1="27.94" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
@@ -794,7 +938,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="APTD1608LCGCK">
+<symbol name="APTD1608LCGCK" urn="urn:adsk.eagle:symbol:35184255/1" library_version="8">
 <wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
 <wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="6.35" y1="2.54" x2="3.81" y2="5.08" width="0.254" layer="94"/>
@@ -821,7 +965,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <vertex x="6.35" y="5.08"/>
 </polygon>
 </symbol>
-<symbol name="RSR025N03HZGTL">
+<symbol name="RSR025N03HZGTL" urn="urn:adsk.eagle:symbol:35184275/1" library_version="8">
 <wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -832,7 +976,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="RQ5E050ATTCL">
+<symbol name="RQ5E050ATTCL" urn="urn:adsk.eagle:symbol:35184274/1" library_version="8">
 <circle x="6.35" y="2.54" radius="3.81" width="0.254" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
 <wire x1="7.62" y1="0" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
@@ -856,7 +1000,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <vertex x="6.604" y="2.032"/>
 </polygon>
 </symbol>
-<symbol name="ERA-2ARB562X">
+<symbol name="ERA-2ARB562X" urn="urn:adsk.eagle:symbol:35184245/1" library_version="8">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
@@ -866,7 +1010,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="RT1206BRD075KL">
+<symbol name="RT1206BRD075KL" urn="urn:adsk.eagle:symbol:35184276/1" library_version="8">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
@@ -876,7 +1020,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="AC0805DR-0710KL">
+<symbol name="AC0805DR-0710KL" urn="urn:adsk.eagle:symbol:35184269/1" library_version="8">
 <wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
@@ -891,7 +1035,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
 <text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="ERJ-2RKF2002X">
+<symbol name="ERJ-2RKF2002X" urn="urn:adsk.eagle:symbol:35184259/1" library_version="8">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
@@ -901,7 +1045,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="AC0805JR-0712KL">
+<symbol name="AC0805JR-0712KL" urn="urn:adsk.eagle:symbol:35184256/1" library_version="8">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
@@ -911,7 +1055,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="AT0805FRE07100KL">
+<symbol name="AT0805FRE07100KL" urn="urn:adsk.eagle:symbol:35184265/1" library_version="8">
 <wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
@@ -926,7 +1070,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
 <text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="AC0805FR-07150KL">
+<symbol name="AC0805FR-07150KL" urn="urn:adsk.eagle:symbol:35184266/1" library_version="8">
 <wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
@@ -941,7 +1085,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
 <text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="AC0805FR-0710KL">
+<symbol name="AC0805FR-0710KL" urn="urn:adsk.eagle:symbol:35184258/1" library_version="8">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
@@ -951,7 +1095,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="MCS0402MD1002DE000">
+<symbol name="MCS0402MD1002DE000" urn="urn:adsk.eagle:symbol:35184273/1" library_version="8">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
@@ -961,7 +1105,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="GMR100HTCFAR100">
+<symbol name="GMR100HTCFAR100" urn="urn:adsk.eagle:symbol:35184263/1" library_version="8">
 <wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
@@ -976,7 +1120,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
 <text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="AC0805FR-07124KL">
+<symbol name="AC0805FR-07124KL" urn="urn:adsk.eagle:symbol:35184257/1" library_version="8">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
@@ -986,7 +1130,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
-<symbol name="AC0805FR-0730KL">
+<symbol name="AC0805FR-0730KL" urn="urn:adsk.eagle:symbol:35184268/1" library_version="8">
 <wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
@@ -1001,7 +1145,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
 <text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="S1751-46R">
+<symbol name="S1751-46R" urn="urn:adsk.eagle:symbol:35184261/1" library_version="8">
 <wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
@@ -1010,14 +1154,14 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="-2.54" y="5.08" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="0">
+<symbol name="0" urn="urn:adsk.eagle:symbol:35184271/1" library_version="8">
 <description>Simulation ground symbol (spice node 0)</description>
 <wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
 <pin name="0" x="0" y="0" visible="off" length="point" direction="sup"/>
 </symbol>
-<symbol name="AC0603FR-0764K9L">
+<symbol name="AC0603FR-0764K9L" urn="urn:adsk.eagle:symbol:35184270/1" library_version="8">
 <wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
@@ -1032,7 +1176,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
 <text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="AC0805FR-0745K3L">
+<symbol name="AC0805FR-0745K3L" urn="urn:adsk.eagle:symbol:35184267/1" library_version="8">
 <wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
@@ -1047,7 +1191,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
 <text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="LT3579EFE#PBF">
+<symbol name="LT3579EFE#PBF" urn="urn:adsk.eagle:symbol:35184242/1" library_version="8">
 <wire x1="5.08" y1="2.54" x2="30.48" y2="2.54" width="0.254" layer="94"/>
 <wire x1="30.48" y1="-33.02" x2="30.48" y2="2.54" width="0.254" layer="94"/>
 <wire x1="30.48" y1="-33.02" x2="5.08" y2="-33.02" width="0.254" layer="94"/>
@@ -1078,7 +1222,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SAMTEC-CLP-102-02-X-D" prefix="J">
+<deviceset name="SAMTEC-CLP-102-02-X-D" urn="urn:adsk.eagle:component:35184346/2" prefix="J" library_version="8">
 <gates>
 <gate name="A" symbol="SAMTEC-CLP-102-02-X-D" x="0" y="0"/>
 </gates>
@@ -1090,6 +1234,9 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <connect gate="A" pin="3" pad="3"/>
 <connect gate="A" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184319/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="Unavailable"/>
@@ -1103,7 +1250,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CLP-106-02-F-D" prefix="J">
+<deviceset name="CLP-106-02-F-D" urn="urn:adsk.eagle:component:35184331/2" prefix="J" library_version="8">
 <description>&lt;b&gt;12 Position Connector Header, Center Strip Contacts Surface Mount&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://suddendocs.samtec.com/prints/erm8-xxx-xx.x-xxx-dv-xxxx-xx-mkt.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1125,6 +1272,9 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/erm8-xxx-xx.x-xxx-dv-xxx
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184310/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="12 Position Connector Header, Center Strip Contacts Surface Mount" constant="no"/>
@@ -1138,7 +1288,7 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/erm8-xxx-xx.x-xxx-dv-xxx
 </device>
 </devices>
 </deviceset>
-<deviceset name="CGA4F4C0G2W222J085AE" prefix="C">
+<deviceset name="CGA4F4C0G2W222J085AE" urn="urn:adsk.eagle:component:35184335/2" prefix="C" library_version="8">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 450V 2.2nF 5% SOFT C0G AEC-Q200&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1150,6 +1300,9 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184314/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 450V 2.2nF 5% SOFT C0G AEC-Q200" constant="no"/>
@@ -1163,7 +1316,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 </device>
 </devices>
 </deviceset>
-<deviceset name="CGADN3X7R1E476M230LE" prefix="C">
+<deviceset name="CGADN3X7R1E476M230LE" urn="urn:adsk.eagle:component:35184332/2" prefix="C" library_version="8">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT SOFT 3025 25V 47uF X7R 20% AEC-Q200&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGADN3X7R1E476M230LE.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1175,6 +1328,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGADN3X7R1E47
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184311/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT SOFT 3025 25V 47uF X7R 20% AEC-Q200" constant="no"/>
@@ -1188,7 +1344,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGADN3X7R1E47
 </device>
 </devices>
 </deviceset>
-<deviceset name="DMP3015LSSQ-13" prefix="Q">
+<deviceset name="DMP3015LSSQ-13" urn="urn:adsk.eagle:component:35184350/3" prefix="Q" library_version="8">
 <description>MOSFET Single -30V P-Ch Enh FET -20Vgss</description>
 <gates>
 <gate name="G$1" symbol="DMP3015LSSQ-13_SECTION1" x="-7.62" y="0" swaplevel="1"/>
@@ -1200,6 +1356,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGADN3X7R1E47
 <connect gate="G$1" pin="G1" pad="4"/>
 <connect gate="G$1" pin="S1" pad="1 2 3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184323/3"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="In Stock"/>
@@ -1214,7 +1373,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGADN3X7R1E47
 </device>
 </devices>
 </deviceset>
-<deviceset name="THROUGH_HOLE_">
+<deviceset name="THROUGH_HOLE_" urn="urn:adsk.eagle:component:35184361/1" library_version="8">
 <gates>
 <gate name="G$1" symbol="THROUGH_HOLE_SYM" x="0" y="0"/>
 </gates>
@@ -1223,13 +1382,16 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGADN3X7R1E47
 <connects>
 <connect gate="G$1" pin="P$1" pad="THROUGH_HOLE"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184302/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CGA4J1X7R1E475K125AE" prefix="C">
+<deviceset name="CGA4J1X7R1E475K125AE" urn="urn:adsk.eagle:component:35184334/2" prefix="C" library_version="8">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 4.7uF 25volts X7R 10% Soft Term&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1241,6 +1403,9 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 4.7uF 25volts X7R 10% Soft Term" constant="no"/>
@@ -1254,7 +1419,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 </device>
 </devices>
 </deviceset>
-<deviceset name="CEU4J2X7R1H683K125AE" prefix="C">
+<deviceset name="CEU4J2X7R1H683K125AE" urn="urn:adsk.eagle:component:35184339/2" prefix="C" library_version="8">
 <description>&lt;b&gt;Multilayer Ceramic Chip Capacitors, Capacitance=68nF, LxWxT:2x1.25x1.25mm&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_serial_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1266,6 +1431,9 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184312/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitors, Capacitance=68nF, LxWxT:2x1.25x1.25mm" constant="no"/>
@@ -1279,7 +1447,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 </device>
 </devices>
 </deviceset>
-<deviceset name="CGA2B2C0G1H470J050BA" prefix="C">
+<deviceset name="CGA2B2C0G1H470J050BA" urn="urn:adsk.eagle:component:35184337/2" prefix="C" library_version="8">
 <description>&lt;b&gt;MLCC CGA 0402 C0G 47pF 50V Automotive TDK 0402 CGA2 47pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-5%&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1291,6 +1459,9 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184316/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="MLCC CGA 0402 C0G 47pF 50V Automotive TDK 0402 CGA2 47pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-5%" constant="no"/>
@@ -1304,7 +1475,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 </device>
 </devices>
 </deviceset>
-<deviceset name="CGA3E1X7R1V105K080AC" prefix="C">
+<deviceset name="CGA3E1X7R1V105K080AC" urn="urn:adsk.eagle:component:35184336/2" prefix="C" library_version="8">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 1uF 35volts X7R 10% T=0.8mm&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1316,6 +1487,9 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184315/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 1uF 35volts X7R 10% T=0.8mm" constant="no"/>
@@ -1329,7 +1503,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 </device>
 </devices>
 </deviceset>
-<deviceset name="JMK107BB7475KA-T" prefix="C">
+<deviceset name="JMK107BB7475KA-T" urn="urn:adsk.eagle:component:35184329/2" prefix="C" library_version="8">
 <description>&lt;b&gt;Taiyo Yuden JMK107BB7475KA-T 4.7F MLCC 6.3V dc +/-10% Tolerance SMD&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/JMK107BB7475KA-T.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1341,6 +1515,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/JMK107BB7475K
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184315/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Taiyo Yuden JMK107BB7475KA-T 4.7F MLCC 6.3V dc +/-10% Tolerance SMD" constant="no"/>
@@ -1354,7 +1531,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/JMK107BB7475K
 </device>
 </devices>
 </deviceset>
-<deviceset name="CGA2B2C0G1H102J050BE" prefix="C">
+<deviceset name="CGA2B2C0G1H102J050BE" urn="urn:adsk.eagle:component:35184338/2" prefix="C" library_version="8">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 1nF 5% C0G AEC-Q200&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1366,6 +1543,9 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184316/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 1nF 5% C0G AEC-Q200" constant="no"/>
@@ -1379,7 +1559,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacit
 </device>
 </devices>
 </deviceset>
-<deviceset name="CGA4J2X8R1E224K125AE" prefix="C">
+<deviceset name="CGA4J2X8R1E224K125AE" urn="urn:adsk.eagle:component:35184333/2" prefix="C" library_version="8">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT SOFT 0805 25V 0.22uF X8R 10% T: 1.25mm&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA4J2X8R1E224K125AE.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1391,6 +1571,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA4J2X8R1E22
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT SOFT 0805 25V 0.22uF X8R 10% T: 1.25mm" constant="no"/>
@@ -1404,7 +1587,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CGA4J2X8R1E22
 </device>
 </devices>
 </deviceset>
-<deviceset name="MBRS330T3G" prefix="D">
+<deviceset name="MBRS330T3G" urn="urn:adsk.eagle:component:35184326/2" prefix="D" library_version="8">
 <description>&lt;b&gt;&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBRS340T3-D.PDF"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1416,6 +1599,9 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBRS340T3-D.PDF"&gt; Da
 <connect gate="G$1" pin="A" pad="2"/>
 <connect gate="G$1" pin="K" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184309/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="" constant="no"/>
@@ -1429,7 +1615,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBRS340T3-D.PDF"&gt; Da
 </device>
 </devices>
 </deviceset>
-<deviceset name="MSD1278T-XXXXX__">
+<deviceset name="MSD1278T-XXXXX__" urn="urn:adsk.eagle:component:35184348/3" library_version="8">
 <description>The MSD1278T series of shielded coupled inductors was
 designed specifically for high temperature applications –
 up to 125°C ambient.</description>
@@ -1444,13 +1630,16 @@ up to 125°C ambient.</description>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184321/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LDL1117S33R" prefix="IC">
+<deviceset name="LDL1117S33R" urn="urn:adsk.eagle:component:35184328/2" prefix="IC" library_version="8">
 <description>&lt;b&gt;STMICROELECTRONICS - LDL1117S33R - LDO, FIXED, 3.3V, 1.2A, SOT-223-3&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1464,6 +1653,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 <connect gate="G$1" pin="VOUT_1" pad="2"/>
 <connect gate="G$1" pin="VOUT_2" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184303/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="STMICROELECTRONICS - LDL1117S33R - LDO, FIXED, 3.3V, 1.2A, SOT-223-3" constant="no"/>
@@ -1477,7 +1669,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="APTD1608LCGCK" prefix="LED">
+<deviceset name="APTD1608LCGCK" urn="urn:adsk.eagle:component:35184340/1" prefix="LED" library_version="8">
 <description>&lt;b&gt;Standard LEDs - SMD 0603 Dome Lens LED Green- 570nm&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1489,6 +1681,9 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="K" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184317/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Standard LEDs - SMD 0603 Dome Lens LED Green- 570nm" constant="no"/>
@@ -1502,7 +1697,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RSR025N03HZGTL" prefix="D">
+<deviceset name="RSR025N03HZGTL" urn="urn:adsk.eagle:component:35184359/2" prefix="D" library_version="8">
 <description>&lt;b&gt;MOSFET 30V N-CHANNEL 2.5A&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGTL.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1515,6 +1710,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184304/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="MOSFET 30V N-CHANNEL 2.5A" constant="no"/>
@@ -1528,7 +1726,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/RSR025N03HZGT
 </device>
 </devices>
 </deviceset>
-<deviceset name="RQ5E050ATTCL" prefix="Q">
+<deviceset name="RQ5E050ATTCL" urn="urn:adsk.eagle:component:35184358/2" prefix="Q" library_version="8">
 <description>&lt;b&gt;RQ5E050ATTCL P-Channel MOSFET, 5 A, 30 V RQ5E050AT, 3-Pin SOT-346T ROHM&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/17a523b90e759099a35e7e9bd64b44fe.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1541,6 +1739,9 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184304/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="RQ5E050ATTCL P-Channel MOSFET, 5 A, 30 V RQ5E050AT, 3-Pin SOT-346T ROHM" constant="no"/>
@@ -1554,7 +1755,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="ERA-2ARB562X" prefix="R">
+<deviceset name="ERA-2ARB562X" urn="urn:adsk.eagle:component:35184330/2" prefix="R" library_version="8">
 <description>&lt;b&gt;Metal Thin Film Chip Resistor, 0402, 0.063W&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB562X.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1566,6 +1767,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB562X.
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184308/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Metal Thin Film Chip Resistor, 0402, 0.063W" constant="no"/>
@@ -1579,7 +1783,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ERA-2ARB562X.
 </device>
 </devices>
 </deviceset>
-<deviceset name="RT1206BRD075KL" prefix="R">
+<deviceset name="RT1206BRD075KL" urn="urn:adsk.eagle:component:35184360/2" prefix="R" library_version="8">
 <description>&lt;b&gt;THIN FILM CHIP RESISTORS High precision- high stability RT series&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/a1f8f48f216d234b3e6a96d43a77a0c1.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1591,6 +1795,9 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184306/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="THIN FILM CHIP RESISTORS High precision- high stability RT series" constant="no"/>
@@ -1604,7 +1811,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="AC0805DR-0710KL" prefix="R">
+<deviceset name="AC0805DR-0710KL" urn="urn:adsk.eagle:component:35184355/2" prefix="R" library_version="8">
 <description>RES SMD 18 OHM 5% 1/8W 0805                                                 &lt;a href="https://pricing.snapeda.com/parts/AC0805DR-0710KL/YAGEO/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="AC0805DR-0710KL" x="0" y="0"/>
@@ -1615,6 +1822,9 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="In Stock"/>
@@ -1628,7 +1838,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="ERJ-2RKF2002X" prefix="R">
+<deviceset name="ERJ-2RKF2002X" urn="urn:adsk.eagle:component:35184345/2" prefix="R" library_version="8">
 <description>&lt;b&gt;Precision Thick Film Chip Resistor, 0402, 0.063W&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1640,6 +1850,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184318/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Precision Thick Film Chip Resistor, 0402, 0.063W" constant="no"/>
@@ -1653,7 +1866,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AO
 </device>
 </devices>
 </deviceset>
-<deviceset name="AC0805JR-0712KL" prefix="R">
+<deviceset name="AC0805JR-0712KL" urn="urn:adsk.eagle:component:35184342/2" prefix="R" library_version="8">
 <description>&lt;b&gt;Thick Film Resistors - SMD 1/8W 12K ohm 5% AEC-Q200&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_8.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1665,6 +1878,9 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/8W 12K ohm 5% AEC-Q200" constant="no"/>
@@ -1678,7 +1894,7 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 </device>
 </devices>
 </deviceset>
-<deviceset name="AT0805FRE07100KL" prefix="R">
+<deviceset name="AT0805FRE07100KL" urn="urn:adsk.eagle:component:35184351/2" prefix="R" library_version="8">
 <description>Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200
  &lt;a href="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D"&gt;Check availability&lt;/a&gt;</description>
 <gates>
@@ -1690,6 +1906,9 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="In Stock"/>
@@ -1704,7 +1923,7 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 </device>
 </devices>
 </deviceset>
-<deviceset name="AC0805FR-07150KL" prefix="R">
+<deviceset name="AC0805FR-07150KL" urn="urn:adsk.eagle:component:35184352/2" prefix="R" library_version="8">
 <description>RES SMD 150K OHM 1% 1/8W 0805 &lt;a href="https://pricing.snapeda.com/parts/AC0805FR-07150KL/Yageo/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="AC0805FR-07150KL" x="0" y="0"/>
@@ -1715,6 +1934,9 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="In Stock"/>
@@ -1729,7 +1951,7 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 </device>
 </devices>
 </deviceset>
-<deviceset name="AC0805FR-0710KL" prefix="R">
+<deviceset name="AC0805FR-0710KL" urn="urn:adsk.eagle:component:35184344/2" prefix="R" library_version="8">
 <description>&lt;b&gt;Thick Film Resistors - SMD 10K ohm 1% 1/8W AEC-Q200&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/9c9982b5f9d8b10ce9b597e40b391084.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1741,6 +1963,9 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 10K ohm 1% 1/8W AEC-Q200" constant="no"/>
@@ -1754,7 +1979,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCS0402MD1002DE000" prefix="R">
+<deviceset name="MCS0402MD1002DE000" urn="urn:adsk.eagle:component:35184357/2" prefix="R" library_version="8">
 <description>&lt;b&gt;Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCS0402MD1002DE000.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1766,6 +1991,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCS0402MD1002
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184307/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD .1W 10Kohms .5% 0402 25ppm Auto" constant="no"/>
@@ -1779,7 +2007,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCS0402MD1002
 </device>
 </devices>
 </deviceset>
-<deviceset name="GMR100HTCFAR100" prefix="R">
+<deviceset name="GMR100HTCFAR100" urn="urn:adsk.eagle:component:35184349/2" prefix="R" library_version="8">
 <description>Res 2512 0.1 Ohm 1% 3W ±20ppm/C Pad SMD Automotive T/R &lt;a href="https://pricing.snapeda.com/parts/GMR100HTCFAR100/Rohm/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="GMR100HTCFAR100" x="0" y="0"/>
@@ -1790,6 +2018,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCS0402MD1002
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184322/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="In Stock"/>
@@ -1804,7 +2035,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCS0402MD1002
 </device>
 </devices>
 </deviceset>
-<deviceset name="AC0805FR-07124KL" prefix="R">
+<deviceset name="AC0805FR-07124KL" urn="urn:adsk.eagle:component:35184343/2" prefix="R" library_version="8">
 <description>&lt;b&gt;Thick Film Resistors - SMD AEC-Q200&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AC0805FR-07124KL.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1816,6 +2047,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AC0805FR-0712
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD AEC-Q200" constant="no"/>
@@ -1829,7 +2063,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AC0805FR-0712
 </device>
 </devices>
 </deviceset>
-<deviceset name="AC0805FR-0730KL" prefix="R">
+<deviceset name="AC0805FR-0730KL" urn="urn:adsk.eagle:component:35184354/2" prefix="R" library_version="8">
 <description>RES SMD 30K OHM 1% 1/8W 0805 &lt;a href="https://pricing.snapeda.com/parts/AC0805FR-0730KL/Yageo/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="AC0805FR-0730KL" x="0" y="0"/>
@@ -1840,6 +2074,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AC0805FR-0712
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="In Stock"/>
@@ -1854,7 +2091,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AC0805FR-0712
 </device>
 </devices>
 </deviceset>
-<deviceset name="S1751-46R">
+<deviceset name="S1751-46R" urn="urn:adsk.eagle:component:35184347/2" library_version="8">
 <description>Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL</description>
 <gates>
 <gate name="G$1" symbol="S1751-46R" x="0" y="0"/>
@@ -1864,6 +2101,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AC0805FR-0712
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESC" value=" Circuit Board Hardware - PCB SMT TEST TERMINAL TIN, 2500 PC REEL "/>
@@ -1875,7 +2115,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AC0805FR-0712
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND" prefix="X_">
+<deviceset name="GND" urn="urn:adsk.eagle:component:35184362/1" prefix="X_" library_version="8">
 <description>Simulation ground symbol (spice node 0)</description>
 <gates>
 <gate name="G$1" symbol="0" x="0" y="0"/>
@@ -1891,7 +2131,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AC0805FR-0712
 </device>
 </devices>
 </deviceset>
-<deviceset name="AC0603FR-0764K9L" prefix="R">
+<deviceset name="AC0603FR-0764K9L" urn="urn:adsk.eagle:component:35184356/2" prefix="R" library_version="8">
 <description>RES SMD 64.9K OHM 1% 1/10W 0603 &lt;a href="https://pricing.snapeda.com/parts/AC0603FR-0764K9L/Yageo/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="AC0603FR-0764K9L" x="0" y="0"/>
@@ -1902,6 +2142,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AC0805FR-0712
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184325/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="In Stock"/>
@@ -1916,7 +2159,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AC0805FR-0712
 </device>
 </devices>
 </deviceset>
-<deviceset name="AC0805FR-0745K3L" prefix="R">
+<deviceset name="AC0805FR-0745K3L" urn="urn:adsk.eagle:component:35184353/2" prefix="R" library_version="8">
 <description>RES SMD 45.3K OHM 1% 1/8W 0805 &lt;a href="https://www.mouser.com/ProductDetail/YAGEO/AC0805FR-0745K3L?qs=UBLIud9aIG27CXHbsp3wlg%3D%3D"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="AC0805FR-0745K3L" x="0" y="0"/>
@@ -1927,6 +2170,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AC0805FR-0712
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="In Stock"/>
@@ -1941,7 +2187,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AC0805FR-0712
 </device>
 </devices>
 </deviceset>
-<deviceset name="LT3579EFE#PBF" prefix="IC">
+<deviceset name="LT3579EFE#PBF" urn="urn:adsk.eagle:component:35184327/2" prefix="IC" library_version="8">
 <description>&lt;b&gt;Linear Technology LT3579EFE#PBF, Boost, Inverting DC-DC Converter, 6A, Adjustable, 20-Pin TSSOP&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.analog.com/media/en/technical-documentation/data-sheets/35791fa.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1972,6 +2218,9 @@ Source: &lt;a href="http://www.analog.com/media/en/technical-documentation/data-
 <connect gate="G$1" pin="VC" pad="2"/>
 <connect gate="G$1" pin="VIN" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184305/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="ARROW_PART_NUMBER" value="LT3579EFE#PBF" constant="no"/>
@@ -2007,232 +2256,232 @@ Source: &lt;a href="http://www.analog.com/media/en/technical-documentation/data-
 </class>
 </classes>
 <parts>
-<part name="LT3579_IC_" library="LT3579_SEPIC_Test_Bench" deviceset="LT3579EFE#PBF" device=""/>
-<part name="D1_" library="LT3579_SEPIC_Test_Bench" deviceset="MBRS330T3G" device=""/>
-<part name="C_IN_1_" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_IN_2_" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_1_" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_OUT_1_" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_SS_" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J2X8R1E224K125AE" device=""/>
-<part name="C_OUT_2_" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_OUT_3_" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_F_" library="LT3579_SEPIC_Test_Bench" deviceset="CGA2B2C0G1H470J050BA" device=""/>
-<part name="C_C_" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4F4C0G2W222J085AE" device=""/>
-<part name="R_UVLO2_" library="LT3579_SEPIC_Test_Bench" deviceset="RT1206BRD075KL" device=""/>
-<part name="R_T_" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805FR-07124KL" device=""/>
-<part name="R_C_" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805JR-0712KL" device=""/>
-<part name="PMOS_" library="LT3579_SEPIC_Test_Bench" deviceset="RQ5E050ATTCL" device=""/>
-<part name="R_UVLO1_" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805FR-0730KL" device=""/>
-<part name="R_FAULT_" library="LT3579_SEPIC_Test_Bench" deviceset="AT0805FRE07100KL" device=""/>
-<part name="R_FB_" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805FR-07150KL" device=""/>
-<part name="R_GATE_" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805FR-0710KL" device=""/>
-<part name="X_3" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_7" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_8" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_9" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_10" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="L1L2_" library="LT3579_SEPIC_Test_Bench" deviceset="MSD1278T-XXXXX__" device=""/>
-<part name="X_11" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_1" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_2" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_4" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_5" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_6" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_12" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="R_SHUNT_GND_" library="LT3579_SEPIC_Test_Bench" deviceset="GMR100HTCFAR100" device=""/>
-<part name="TP_IN_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_OUT_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_FAULT_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_RT_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_SHDN_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_SS_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GATE_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_CH_GND_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_CLK_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_SW_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_CF_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_FB_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND1_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND2_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND3_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND4_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="X_13" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_14" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_15" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_16" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="TP_D1_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="LT3579_IC_1" library="LT3579_SEPIC_Test_Bench" deviceset="LT3579EFE#PBF" device=""/>
-<part name="D1_1" library="LT3579_SEPIC_Test_Bench" deviceset="MBRS330T3G" device=""/>
-<part name="C_IN_1_1" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_IN_2_1" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_1_1" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_OUT_1_1" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_SS_1" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J2X8R1E224K125AE" device=""/>
-<part name="C_OUT_2_1" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_OUT_3_1" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_F_1" library="LT3579_SEPIC_Test_Bench" deviceset="CGA2B2C0G1H470J050BA" device=""/>
-<part name="C_C_1" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4F4C0G2W222J085AE" device=""/>
-<part name="R_UVLO2_1" library="LT3579_SEPIC_Test_Bench" deviceset="RT1206BRD075KL" device=""/>
-<part name="R_T_1" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805FR-07124KL" device=""/>
-<part name="R_C_1" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805JR-0712KL" device=""/>
-<part name="PMOS_1" library="LT3579_SEPIC_Test_Bench" deviceset="RQ5E050ATTCL" device=""/>
-<part name="R_UVLO1_1" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805FR-0730KL" device=""/>
-<part name="R_FAULT_1" library="LT3579_SEPIC_Test_Bench" deviceset="AT0805FRE07100KL" device=""/>
-<part name="R_GATE_1" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805FR-0710KL" device=""/>
-<part name="X_17" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_18" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_19" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_20" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_21" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="L1L2_1" library="LT3579_SEPIC_Test_Bench" deviceset="MSD1278T-XXXXX__" device=""/>
-<part name="X_22" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_23" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_24" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_25" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_26" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_27" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_28" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="R_SHUNT_GND_1" library="LT3579_SEPIC_Test_Bench" deviceset="GMR100HTCFAR100" device=""/>
-<part name="TP_IN_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_OUT_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_FAULT_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_RT_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_SHDN_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_SS_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GATE_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_CH_GND_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_CLK_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_SW_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_CF_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_FB_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND1_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND2_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND3_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND4_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="X_29" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_30" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_31" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_32" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="TP_D1_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="R_FB_1" library="LT3579_SEPIC_Test_Bench" deviceset="AC0603FR-0764K9L" device=""/>
-<part name="LT3579_IC_2" library="LT3579_SEPIC_Test_Bench" deviceset="LT3579EFE#PBF" device=""/>
-<part name="D1_2" library="LT3579_SEPIC_Test_Bench" deviceset="MBRS330T3G" device=""/>
-<part name="C_IN_1_2" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_IN_2_2" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_1_2" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_OUT_1_2" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_SS_2" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J2X8R1E224K125AE" device=""/>
-<part name="C_OUT_2_2" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_OUT_3_2" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="C_F_2" library="LT3579_SEPIC_Test_Bench" deviceset="CGA2B2C0G1H470J050BA" device=""/>
-<part name="C_C_2" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4F4C0G2W222J085AE" device=""/>
-<part name="R_UVLO2_2" library="LT3579_SEPIC_Test_Bench" deviceset="RT1206BRD075KL" device=""/>
-<part name="R_T_2" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805FR-07124KL" device=""/>
-<part name="R_C_2" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805JR-0712KL" device=""/>
-<part name="PMOS_2" library="LT3579_SEPIC_Test_Bench" deviceset="RQ5E050ATTCL" device=""/>
-<part name="R_UVLO1_2" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805FR-0730KL" device=""/>
-<part name="R_FAULT_2" library="LT3579_SEPIC_Test_Bench" deviceset="AT0805FRE07100KL" device=""/>
-<part name="R_GATE_2" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805FR-0710KL" device=""/>
-<part name="X_33" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_34" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_35" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_36" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_37" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="L1L2_2" library="LT3579_SEPIC_Test_Bench" deviceset="MSD1278T-XXXXX__" device=""/>
-<part name="X_38" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_39" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_40" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_41" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_42" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_43" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_44" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="R_SHUNT_GND_2" library="LT3579_SEPIC_Test_Bench" deviceset="GMR100HTCFAR100" device=""/>
-<part name="TP_IN_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_OUT_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_FAULT_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_RT_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_SHDN_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_SS_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GATE_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_CH_GND_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_CLK_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_SW_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_CF_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_FB_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND1_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND2_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND3_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_GND4_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="X_45" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_46" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_47" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_48" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="TP_D1_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="R_FB_2" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805FR-0745K3L" device=""/>
-<part name="4P_INPUT_CONNECTOR1" library="LT3579_SEPIC_Test_Bench" deviceset="SAMTEC-CLP-102-02-X-D" device="J"/>
-<part name="C_DEC_CH_GND_1" library="LT3579_SEPIC_Test_Bench" deviceset="CGA4F4C0G2W222J085AE" device=""/>
-<part name="C_DEC_CH_GND_2" library="LT3579_SEPIC_Test_Bench" deviceset="CGADN3X7R1E476M230LE" device=""/>
-<part name="12P_OUTPUT_CONNECTOR1" library="LT3579_SEPIC_Test_Bench" deviceset="CLP-106-02-F-D" device=""/>
-<part name="R_10K_F_" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805DR-0710KL" device=""/>
-<part name="R_5K_F_" library="LT3579_SEPIC_Test_Bench" deviceset="RT1206BRD075KL" device=""/>
-<part name="C_68N_F_" library="LT3579_SEPIC_Test_Bench" deviceset="CEU4J2X7R1H683K125AE" device=""/>
-<part name="X_65" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="TP_CLK_F_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="R_LS_GATE_" library="LT3579_SEPIC_Test_Bench" deviceset="AT0805FRE07100KL" device=""/>
-<part name="C_LS_" library="LT3579_SEPIC_Test_Bench" deviceset="CGA2B2C0G1H102J050BE" device=""/>
-<part name="R_LS_DRAIN_" library="LT3579_SEPIC_Test_Bench" deviceset="MCS0402MD1002DE000" device=""/>
-<part name="LDO_" library="LT3579_SEPIC_Test_Bench" deviceset="LDL1117S33R" device=""/>
-<part name="C_LDO_OUT_" library="LT3579_SEPIC_Test_Bench" deviceset="JMK107BB7475KA-T" device=""/>
-<part name="C_LDO_IN_" library="LT3579_SEPIC_Test_Bench" deviceset="CGA3E1X7R1V105K080AC" device=""/>
-<part name="X_49" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_50" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_52" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_53" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="TP_LDO_OUT_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="TP_FAULT_LS_" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="R_LS_GATE_1" library="LT3579_SEPIC_Test_Bench" deviceset="AT0805FRE07100KL" device=""/>
-<part name="C_LS_1" library="LT3579_SEPIC_Test_Bench" deviceset="CGA2B2C0G1H102J050BE" device=""/>
-<part name="R_LS_DRAIN_1" library="LT3579_SEPIC_Test_Bench" deviceset="MCS0402MD1002DE000" device=""/>
-<part name="X_57" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_58" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="TP_FAULT_LS_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="R_10K_F_1" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805DR-0710KL" device=""/>
-<part name="R_5K_F_1" library="LT3579_SEPIC_Test_Bench" deviceset="RT1206BRD075KL" device=""/>
-<part name="C_68N_F_1" library="LT3579_SEPIC_Test_Bench" deviceset="CEU4J2X7R1H683K125AE" device=""/>
-<part name="X_64" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="TP_CLK_F_1" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="R_LS_GATE_2" library="LT3579_SEPIC_Test_Bench" deviceset="AT0805FRE07100KL" device=""/>
-<part name="C_LS_2" library="LT3579_SEPIC_Test_Bench" deviceset="CGA2B2C0G1H102J050BE" device=""/>
-<part name="R_LS_DRAIN_2" library="LT3579_SEPIC_Test_Bench" deviceset="MCS0402MD1002DE000" device=""/>
-<part name="X_62" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="X_63" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="TP_FAULT_LS_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="R_10K_F_2" library="LT3579_SEPIC_Test_Bench" deviceset="AC0805DR-0710KL" device=""/>
-<part name="R_5K_F_2" library="LT3579_SEPIC_Test_Bench" deviceset="RT1206BRD075KL" device=""/>
-<part name="C_68N_F_2" library="LT3579_SEPIC_Test_Bench" deviceset="CEU4J2X7R1H683K125AE" device=""/>
-<part name="X_66" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="TP_CLK_F_2" library="LT3579_SEPIC_Test_Bench" deviceset="S1751-46R" device=""/>
-<part name="LED_" library="LT3579_SEPIC_Test_Bench" deviceset="APTD1608LCGCK" device=""/>
-<part name="R_20K_LED1_" library="LT3579_SEPIC_Test_Bench" deviceset="ERJ-2RKF2002X" device=""/>
-<part name="R_5.6K_LED2_" library="LT3579_SEPIC_Test_Bench" deviceset="ERA-2ARB562X" device=""/>
-<part name="X_59" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="R_LED_10K_1" library="LT3579_SEPIC_Test_Bench" deviceset="MCS0402MD1002DE000" device=""/>
-<part name="LED_1" library="LT3579_SEPIC_Test_Bench" deviceset="APTD1608LCGCK" device=""/>
-<part name="X_61" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="R_LED_10K_2" library="LT3579_SEPIC_Test_Bench" deviceset="MCS0402MD1002DE000" device=""/>
-<part name="LED_2" library="LT3579_SEPIC_Test_Bench" deviceset="APTD1608LCGCK" device=""/>
-<part name="X_60" library="LT3579_SEPIC_Test_Bench" deviceset="GND" device=""/>
-<part name="NMOS_LDO_" library="LT3579_SEPIC_Test_Bench" deviceset="RSR025N03HZGTL" device=""/>
-<part name="NMOS_LDO_1" library="LT3579_SEPIC_Test_Bench" deviceset="RSR025N03HZGTL" device=""/>
-<part name="NMOS_LDO_2" library="LT3579_SEPIC_Test_Bench" deviceset="RSR025N03HZGTL" device=""/>
-<part name="PMOS_REVERSE_V_PROTECTION" library="LT3579_SEPIC_Test_Bench" deviceset="DMP3015LSSQ-13" device=""/>
-<part name="U$1" library="LT3579_SEPIC_Test_Bench" deviceset="THROUGH_HOLE_" device=""/>
-<part name="U$2" library="LT3579_SEPIC_Test_Bench" deviceset="THROUGH_HOLE_" device=""/>
-<part name="U$3" library="LT3579_SEPIC_Test_Bench" deviceset="THROUGH_HOLE_" device=""/>
-<part name="U$4" library="LT3579_SEPIC_Test_Bench" deviceset="THROUGH_HOLE_" device=""/>
+<part name="LT3579_IC_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="LT3579EFE#PBF" device="" package3d_urn="urn:adsk.eagle:package:35184305/2"/>
+<part name="D1_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="MBRS330T3G" device="" package3d_urn="urn:adsk.eagle:package:35184309/2"/>
+<part name="C_IN_1_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_IN_2_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_1_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_OUT_1_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_SS_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J2X8R1E224K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_OUT_2_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_OUT_3_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_F_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA2B2C0G1H470J050BA" device="" package3d_urn="urn:adsk.eagle:package:35184316/2"/>
+<part name="C_C_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4F4C0G2W222J085AE" device="" package3d_urn="urn:adsk.eagle:package:35184314/2"/>
+<part name="R_UVLO2_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RT1206BRD075KL" device="" package3d_urn="urn:adsk.eagle:package:35184306/2"/>
+<part name="R_T_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805FR-07124KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="R_C_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805JR-0712KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="PMOS_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RQ5E050ATTCL" device="" package3d_urn="urn:adsk.eagle:package:35184304/2"/>
+<part name="R_UVLO1_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805FR-0730KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="R_FAULT_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AT0805FRE07100KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="R_FB_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805FR-07150KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="R_GATE_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805FR-0710KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="X_3" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_7" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_8" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_9" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_10" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="L1L2_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="MSD1278T-XXXXX__" device="" package3d_urn="urn:adsk.eagle:package:35184321/3"/>
+<part name="X_11" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_4" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_5" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_6" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_12" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="R_SHUNT_GND_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GMR100HTCFAR100" device="" package3d_urn="urn:adsk.eagle:package:35184322/2"/>
+<part name="TP_IN_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_OUT_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_FAULT_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_RT_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_SHDN_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_SS_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GATE_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_CH_GND_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_CLK_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_SW_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_CF_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_FB_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND1_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND2_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND3_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND4_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="X_13" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_14" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_15" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_16" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="TP_D1_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="LT3579_IC_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="LT3579EFE#PBF" device="" package3d_urn="urn:adsk.eagle:package:35184305/2"/>
+<part name="D1_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="MBRS330T3G" device="" package3d_urn="urn:adsk.eagle:package:35184309/2"/>
+<part name="C_IN_1_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_IN_2_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_1_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_OUT_1_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_SS_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J2X8R1E224K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_OUT_2_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_OUT_3_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_F_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA2B2C0G1H470J050BA" device="" package3d_urn="urn:adsk.eagle:package:35184316/2"/>
+<part name="C_C_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4F4C0G2W222J085AE" device="" package3d_urn="urn:adsk.eagle:package:35184314/2"/>
+<part name="R_UVLO2_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RT1206BRD075KL" device="" package3d_urn="urn:adsk.eagle:package:35184306/2"/>
+<part name="R_T_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805FR-07124KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="R_C_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805JR-0712KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="PMOS_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RQ5E050ATTCL" device="" package3d_urn="urn:adsk.eagle:package:35184304/2"/>
+<part name="R_UVLO1_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805FR-0730KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="R_FAULT_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AT0805FRE07100KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="R_GATE_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805FR-0710KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="X_17" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_18" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_19" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_20" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_21" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="L1L2_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="MSD1278T-XXXXX__" device="" package3d_urn="urn:adsk.eagle:package:35184321/3"/>
+<part name="X_22" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_23" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_24" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_25" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_26" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_27" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_28" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="R_SHUNT_GND_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GMR100HTCFAR100" device="" package3d_urn="urn:adsk.eagle:package:35184322/2"/>
+<part name="TP_IN_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_OUT_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_FAULT_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_RT_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_SHDN_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_SS_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GATE_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_CH_GND_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_CLK_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_SW_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_CF_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_FB_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND1_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND2_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND3_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND4_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="X_29" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_30" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_31" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_32" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="TP_D1_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="R_FB_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0603FR-0764K9L" device="" package3d_urn="urn:adsk.eagle:package:35184325/2"/>
+<part name="LT3579_IC_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="LT3579EFE#PBF" device="" package3d_urn="urn:adsk.eagle:package:35184305/2"/>
+<part name="D1_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="MBRS330T3G" device="" package3d_urn="urn:adsk.eagle:package:35184309/2"/>
+<part name="C_IN_1_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_IN_2_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_1_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_OUT_1_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_SS_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J2X8R1E224K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_OUT_2_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_OUT_3_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4J1X7R1E475K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184313/2"/>
+<part name="C_F_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA2B2C0G1H470J050BA" device="" package3d_urn="urn:adsk.eagle:package:35184316/2"/>
+<part name="C_C_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4F4C0G2W222J085AE" device="" package3d_urn="urn:adsk.eagle:package:35184314/2"/>
+<part name="R_UVLO2_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RT1206BRD075KL" device="" package3d_urn="urn:adsk.eagle:package:35184306/2"/>
+<part name="R_T_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805FR-07124KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="R_C_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805JR-0712KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="PMOS_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RQ5E050ATTCL" device="" package3d_urn="urn:adsk.eagle:package:35184304/2"/>
+<part name="R_UVLO1_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805FR-0730KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="R_FAULT_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AT0805FRE07100KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="R_GATE_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805FR-0710KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="X_33" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_34" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_35" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_36" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_37" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="L1L2_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="MSD1278T-XXXXX__" device="" package3d_urn="urn:adsk.eagle:package:35184321/3"/>
+<part name="X_38" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_39" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_40" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_41" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_42" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_43" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_44" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="R_SHUNT_GND_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GMR100HTCFAR100" device="" package3d_urn="urn:adsk.eagle:package:35184322/2"/>
+<part name="TP_IN_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_OUT_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_FAULT_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_RT_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_SHDN_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_SS_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GATE_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_CH_GND_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_CLK_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_SW_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_CF_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_FB_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND1_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND2_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND3_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_GND4_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="X_45" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_46" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_47" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_48" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="TP_D1_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="R_FB_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805FR-0745K3L" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="4P_INPUT_CONNECTOR1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="SAMTEC-CLP-102-02-X-D" device="J" package3d_urn="urn:adsk.eagle:package:35184319/2"/>
+<part name="C_DEC_CH_GND_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4F4C0G2W222J085AE" device="" package3d_urn="urn:adsk.eagle:package:35184314/2"/>
+<part name="C_DEC_CH_GND_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGADN3X7R1E476M230LE" device="" package3d_urn="urn:adsk.eagle:package:35184311/2"/>
+<part name="12P_OUTPUT_CONNECTOR1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CLP-106-02-F-D" device="" package3d_urn="urn:adsk.eagle:package:35184310/2"/>
+<part name="R_10K_F_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805DR-0710KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="R_5K_F_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RT1206BRD075KL" device="" package3d_urn="urn:adsk.eagle:package:35184306/2"/>
+<part name="C_68N_F_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CEU4J2X7R1H683K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184312/2"/>
+<part name="X_65" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="TP_CLK_F_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="R_LS_GATE_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AT0805FRE07100KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="C_LS_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA2B2C0G1H102J050BE" device="" package3d_urn="urn:adsk.eagle:package:35184316/2"/>
+<part name="R_LS_DRAIN_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:35184307/2"/>
+<part name="LDO_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="LDL1117S33R" device="" package3d_urn="urn:adsk.eagle:package:35184303/2"/>
+<part name="C_LDO_OUT_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="JMK107BB7475KA-T" device="" package3d_urn="urn:adsk.eagle:package:35184315/2"/>
+<part name="C_LDO_IN_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA3E1X7R1V105K080AC" device="" package3d_urn="urn:adsk.eagle:package:35184315/2"/>
+<part name="X_49" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_50" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_52" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_53" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="TP_LDO_OUT_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="TP_FAULT_LS_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="R_LS_GATE_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AT0805FRE07100KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="C_LS_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA2B2C0G1H102J050BE" device="" package3d_urn="urn:adsk.eagle:package:35184316/2"/>
+<part name="R_LS_DRAIN_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:35184307/2"/>
+<part name="X_57" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_58" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="TP_FAULT_LS_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="R_10K_F_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805DR-0710KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="R_5K_F_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RT1206BRD075KL" device="" package3d_urn="urn:adsk.eagle:package:35184306/2"/>
+<part name="C_68N_F_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CEU4J2X7R1H683K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184312/2"/>
+<part name="X_64" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="TP_CLK_F_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="R_LS_GATE_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AT0805FRE07100KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="C_LS_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA2B2C0G1H102J050BE" device="" package3d_urn="urn:adsk.eagle:package:35184316/2"/>
+<part name="R_LS_DRAIN_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:35184307/2"/>
+<part name="X_62" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="X_63" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="TP_FAULT_LS_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="R_10K_F_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805DR-0710KL" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
+<part name="R_5K_F_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RT1206BRD075KL" device="" package3d_urn="urn:adsk.eagle:package:35184306/2"/>
+<part name="C_68N_F_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CEU4J2X7R1H683K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184312/2"/>
+<part name="X_66" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="TP_CLK_F_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
+<part name="LED_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:35184317/1"/>
+<part name="R_20K_LED1_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:35184318/2"/>
+<part name="R_5.6K_LED2_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="ERA-2ARB562X" device="" package3d_urn="urn:adsk.eagle:package:35184308/2"/>
+<part name="X_59" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="R_LED_10K_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:35184307/2"/>
+<part name="LED_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:35184317/1"/>
+<part name="X_61" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="R_LED_10K_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:35184307/2"/>
+<part name="LED_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:35184317/1"/>
+<part name="X_60" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
+<part name="NMOS_LDO_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:35184304/2"/>
+<part name="NMOS_LDO_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:35184304/2"/>
+<part name="NMOS_LDO_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:35184304/2"/>
+<part name="PMOS_REVERSE_V_PROTECTION" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="DMP3015LSSQ-13" device="" package3d_urn="urn:adsk.eagle:package:35184323/3"/>
+<part name="U$1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="THROUGH_HOLE_" device="" package3d_urn="urn:adsk.eagle:package:35184302/1"/>
+<part name="U$2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="THROUGH_HOLE_" device="" package3d_urn="urn:adsk.eagle:package:35184302/1"/>
+<part name="U$3" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="THROUGH_HOLE_" device="" package3d_urn="urn:adsk.eagle:package:35184302/1"/>
+<part name="U$4" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="THROUGH_HOLE_" device="" package3d_urn="urn:adsk.eagle:package:35184302/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -5190,6 +5439,21 @@ GATE pin turns off or on the PMOS. </text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

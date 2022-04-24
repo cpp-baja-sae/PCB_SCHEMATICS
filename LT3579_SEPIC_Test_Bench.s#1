@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -2686,21 +2686,17 @@ For bolt size of 1/16"</text>
 <label x="58.42" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND_" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="12"/>
 <wire x1="50.8" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
 <label x="55.88" y="33.02" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="GND_1" class="0">
 <segment>
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="10"/>
 <wire x1="50.8" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
 <label x="55.88" y="30.48" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="GND_2" class="0">
 <segment>
 <pinref part="12P_OUTPUT_CONNECTOR1" gate="G$1" pin="8"/>
 <wire x1="50.8" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
@@ -3325,7 +3321,7 @@ output voltage of the circuit. </text>
 <pinref part="L1L2_" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="GND_" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="R_SHUNT_GND_" gate="G$1" pin="2"/>
 <label x="-76.2" y="-78.74" size="1.778" layer="95"/>
@@ -4239,7 +4235,7 @@ GATE pin turns off or on the PMOS. </text>
 <pinref part="L1L2_1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="GND_1" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="R_SHUNT_GND_1" gate="G$1" pin="2"/>
 <label x="-104.14" y="-60.96" size="1.778" layer="95"/>
@@ -5085,7 +5081,7 @@ GATE pin turns off or on the PMOS. </text>
 <pinref part="L1L2_2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="GND_2" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="R_SHUNT_GND_2" gate="G$1" pin="2"/>
 <label x="-83.82" y="-58.42" size="1.778" layer="95"/>

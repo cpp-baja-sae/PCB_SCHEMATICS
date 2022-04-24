@@ -572,7 +572,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="SAMTEC-CLP-102-02-X-D" urn="urn:adsk.eagle:package:35184319/2" type="model" library_version="8">
+<package3d name="SAMTEC-CLP-102-02-X-D" urn="urn:adsk.eagle:package:35184319/3" type="model" library_version="9">
 <description>translated Allegro footprint</description>
 <packageinstances>
 <packageinstance name="SAMTEC-CLP-102-02-X-D"/>
@@ -652,7 +652,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <packageinstance name="SOT230P700X180-4N"/>
 </packageinstances>
 </package3d>
-<package3d name="APT1608CGCK" urn="urn:adsk.eagle:package:35184317/1" type="box" library_version="8">
+<package3d name="APT1608CGCK" urn="urn:adsk.eagle:package:35184317/2" type="model" library_version="10">
 <description>&lt;b&gt;1.6 x 0.8 mm SMD Chip LED Lamp&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="APT1608CGCK"/>
@@ -1222,7 +1222,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SAMTEC-CLP-102-02-X-D" urn="urn:adsk.eagle:component:35184346/2" prefix="J" library_version="8">
+<deviceset name="SAMTEC-CLP-102-02-X-D" urn="urn:adsk.eagle:component:35184346/3" prefix="J" library_version="9">
 <gates>
 <gate name="A" symbol="SAMTEC-CLP-102-02-X-D" x="0" y="0"/>
 </gates>
@@ -1235,7 +1235,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <connect gate="A" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35184319/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184319/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1669,7 +1669,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/LDL1117S33R.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="APTD1608LCGCK" urn="urn:adsk.eagle:component:35184340/1" prefix="LED" library_version="8">
+<deviceset name="APTD1608LCGCK" urn="urn:adsk.eagle:component:35184340/2" prefix="LED" library_version="10">
 <description>&lt;b&gt;Standard LEDs - SMD 0603 Dome Lens LED Green- 570nm&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1682,7 +1682,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <connect gate="G$1" pin="K" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35184317/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35184317/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2421,7 +2421,7 @@ Source: &lt;a href="http://www.analog.com/media/en/technical-documentation/data-
 <part name="X_48" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
 <part name="TP_D1_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
 <part name="R_FB_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="AC0805FR-0745K3L" device="" package3d_urn="urn:adsk.eagle:package:35184324/2"/>
-<part name="4P_INPUT_CONNECTOR1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="SAMTEC-CLP-102-02-X-D" device="J" package3d_urn="urn:adsk.eagle:package:35184319/2"/>
+<part name="4P_INPUT_CONNECTOR1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="SAMTEC-CLP-102-02-X-D" device="J" package3d_urn="urn:adsk.eagle:package:35184319/3"/>
 <part name="C_DEC_CH_GND_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGA4F4C0G2W222J085AE" device="" package3d_urn="urn:adsk.eagle:package:35184314/2"/>
 <part name="C_DEC_CH_GND_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CGADN3X7R1E476M230LE" device="" package3d_urn="urn:adsk.eagle:package:35184311/2"/>
 <part name="12P_OUTPUT_CONNECTOR1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CLP-106-02-F-D" device="" package3d_urn="urn:adsk.eagle:package:35184310/2"/>
@@ -2464,15 +2464,15 @@ Source: &lt;a href="http://www.analog.com/media/en/technical-documentation/data-
 <part name="C_68N_F_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="CEU4J2X7R1H683K125AE" device="" package3d_urn="urn:adsk.eagle:package:35184312/2"/>
 <part name="X_66" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
 <part name="TP_CLK_F_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="S1751-46R" device="" package3d_urn="urn:adsk.eagle:package:35184320/2"/>
-<part name="LED_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:35184317/1"/>
+<part name="LED_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:35184317/2"/>
 <part name="R_20K_LED1_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="ERJ-2RKF2002X" device="" package3d_urn="urn:adsk.eagle:package:35184318/2"/>
 <part name="R_5.6K_LED2_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="ERA-2ARB562X" device="" package3d_urn="urn:adsk.eagle:package:35184308/2"/>
 <part name="X_59" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
 <part name="R_LED_10K_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:35184307/2"/>
-<part name="LED_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:35184317/1"/>
+<part name="LED_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:35184317/2"/>
 <part name="X_61" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
 <part name="R_LED_10K_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="MCS0402MD1002DE000" device="" package3d_urn="urn:adsk.eagle:package:35184307/2"/>
-<part name="LED_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:35184317/1"/>
+<part name="LED_2" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="APTD1608LCGCK" device="" package3d_urn="urn:adsk.eagle:package:35184317/2"/>
 <part name="X_60" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="GND" device=""/>
 <part name="NMOS_LDO_" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:35184304/2"/>
 <part name="NMOS_LDO_1" library="LT3579_SEPIC_Test_Bench" library_urn="urn:adsk.eagle:library:35184241" deviceset="RSR025N03HZGTL" device="" package3d_urn="urn:adsk.eagle:package:35184304/2"/>
