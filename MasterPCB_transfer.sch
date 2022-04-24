@@ -7204,6 +7204,7 @@ Source: &lt;a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/A
 <part name="LED114" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ASMT-URB4-YU802" device="" package3d_urn="urn:adsk.eagle:package:35457103/2"/>
 <part name="R124" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="ERJ-PA3D1400V" device="" package3d_urn="urn:adsk.eagle:package:35457111/2"/>
 <part name="GND600" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="PA0" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:31941355" deviceset="SMALL_TP" device="" package3d_urn="urn:adsk.eagle:package:35450068/4"/>
 </parts>
 <sheets>
 <sheet>
@@ -30272,6 +30273,9 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <instance part="40G_GPIO" gate="G$1" x="274.32" y="-68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="279.4" y="-68.58" size="1.27" layer="95"/>
 </instance>
+<instance part="PA0" gate="G$1" x="-15.24" y="-20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="-20.32" y="-20.32" size="1.27" layer="95" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31430,6 +31434,12 @@ Enables easy flexibility to rewire any digital system on demand</text>
 <pinref part="UC1" gate="G$1" pin="PA0"/>
 <wire x1="40.64" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
 <label x="45.72" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="01"/>
+<wire x1="-2.54" y1="-20.32" x2="-15.24" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="PA0" gate="G$1" pin="TP"/>
+<label x="-7.62" y="-20.32" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$605" class="0">
