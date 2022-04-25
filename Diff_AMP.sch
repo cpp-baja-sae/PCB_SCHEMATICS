@@ -439,8 +439,8 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pd
 <attribute name="VALUE" x="13.97" y="-19.05" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="C2" gate="G$1" x="27.94" y="-5.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.29" y="-13.97" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="31.75" y="-13.97" size="1.778" layer="96" rot="R270" align="center-left"/>
+<attribute name="NAME" x="31.75" y="-6.35" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="31.75" y="-8.89" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="IC4" gate="G$1" x="55.88" y="-22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.15" y="-20.32" size="1.778" layer="95" align="center-left"/>
