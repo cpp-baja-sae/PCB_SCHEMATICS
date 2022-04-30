@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -45,6 +45,8 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -57,6 +59,10 @@
 </layers>
 <board>
 <plain>
+<wire x1="0" y1="0" x2="16.51" y2="0" width="0.1524" layer="20"/>
+<wire x1="16.51" y1="0" x2="16.51" y2="11.43" width="0.1524" layer="20"/>
+<wire x1="16.51" y1="11.43" x2="0" y2="11.43" width="0.1524" layer="20"/>
+<wire x1="0" y1="11.43" x2="0" y2="0" width="0.1524" layer="20"/>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
@@ -122,23 +128,6 @@
 <wire x1="-0.275" y1="-1.5" x2="-0.275" y2="1.5" width="0.2" layer="21"/>
 <wire x1="-1.875" y1="1.5" x2="-0.625" y2="1.5" width="0.2" layer="21"/>
 </package>
-<package name="ERA3A_(0603)">
-<description>&lt;b&gt;ERA3A_(0603)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.725" y="0" dx="0.9" dy="0.65" layer="1" rot="R90"/>
-<smd name="2" x="0.725" y="0" dx="0.9" dy="0.65" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.2" layer="51"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.2" layer="51"/>
-<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.2" layer="51"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.2" layer="51"/>
-<circle x="-1.575" y="0" radius="0.05" width="0.2" layer="25"/>
-<wire x1="-2.175" y1="1.1" x2="1.55" y2="1.1" width="0.05" layer="51"/>
-<wire x1="1.55" y1="1.1" x2="1.55" y2="-1.1" width="0.05" layer="51"/>
-<wire x1="1.55" y1="-1.1" x2="-2.175" y2="-1.1" width="0.05" layer="51"/>
-<wire x1="-2.175" y1="-1.1" x2="-2.175" y2="1.1" width="0.05" layer="51"/>
-</package>
 <package name="SON50P200X200X80-9N">
 <description>&lt;b&gt;EMC1833T-AE/RW&lt;/b&gt;&lt;br&gt;
 </description>
@@ -163,6 +152,40 @@
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.1" layer="51"/>
 <wire x1="-1" y1="0.5" x2="-0.5" y2="1" width="0.1" layer="51"/>
 <circle x="-1.375" y="1.4" radius="0.125" width="0.25" layer="25"/>
+</package>
+<package name="CAPC1608X90N">
+<description>&lt;b&gt;CGA3 [EIA CC0603] Thickness 0.8&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.8" y="0" dx="0.94" dy="0.54" layer="1" rot="R90"/>
+<smd name="2" x="0.8" y="0" dx="0.94" dy="0.54" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.22" y1="0.62" x2="1.22" y2="0.62" width="0.05" layer="51"/>
+<wire x1="1.22" y1="0.62" x2="1.22" y2="-0.62" width="0.05" layer="51"/>
+<wire x1="1.22" y1="-0.62" x2="-1.22" y2="-0.62" width="0.05" layer="51"/>
+<wire x1="-1.22" y1="-0.62" x2="-1.22" y2="0.62" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0" y1="0.3" x2="0" y2="-0.3" width="0.2" layer="21"/>
+</package>
+<package name="RESC1608X55N">
+<description>&lt;b&gt;0603&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.8" y="0" dx="0.95" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="0.8" y="0" dx="0.95" dy="0.8" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.45" y1="0.75" x2="1.45" y2="0.75" width="0.05" layer="51"/>
+<wire x1="1.45" y1="0.75" x2="1.45" y2="-0.75" width="0.05" layer="51"/>
+<wire x1="1.45" y1="-0.75" x2="-1.45" y2="-0.75" width="0.05" layer="51"/>
+<wire x1="-1.45" y1="-0.75" x2="-1.45" y2="0.75" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0" y1="0.3" x2="0" y2="-0.3" width="0.2" layer="21"/>
 </package>
 </packages>
 </library>
@@ -419,45 +442,45 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-60.96" y="-69.85" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-60.96" y="-69.85" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R9" library="SamacSys_Parts" package="ERA3A_(0603)" value="ERA-3AED3161V" x="-64.77" y="-73.66" smashed="yes">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 3160ohms 25ppm 0.5% AEC-Q200" x="-64.77" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.5mm" x="-64.77" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="-64.77" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AED3161V" x="-64.77" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AED3161V" x="-64.77" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AED3161V?qs=MNPzkKEzRtSjWA5%252BVdGhQg%3D%3D" x="-64.77" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-64.77" y="-73.66" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-64.77" y="-73.66" size="1.27" layer="27" align="center"/>
+<element name="C1" library="SamacSys_Parts" package="CAPC1608X90N" value="CGA3E2X7R1H104K080AE" x="-74.93" y="-83.82" smashed="yes">
+<attribute name="DESCRIPTION" value="" x="-74.93" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-74.93" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-74.93" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E2X7R1H104K080AE" x="-74.93" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E2X7R1H104KE" x="-74.93" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA3E2X7R1H104K080AE?qs=n%2FVzw7c4a0kvajqFvEbDzQ%3D%3D" x="-74.93" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-74.93" y="-83.82" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-74.93" y="-83.82" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R10" library="SamacSys_Parts" package="ERA3A_(0603)" value="ERA-3AED3161V" x="-67.31" y="-76.2" smashed="yes">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 3160ohms 25ppm 0.5% AEC-Q200" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.5mm" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AED3161V" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AED3161V" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AED3161V?qs=MNPzkKEzRtSjWA5%252BVdGhQg%3D%3D" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-67.31" y="-76.2" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-67.31" y="-76.2" size="1.27" layer="27" align="center"/>
+<element name="C3" library="SamacSys_Parts" package="CAPC1608X90N" value="CGA3E2X7R1H104K080AE" x="-74.93" y="-86.36" smashed="yes">
+<attribute name="DESCRIPTION" value="" x="-82.55" y="-86.36" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-82.55" y="-86.36" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-82.55" y="-86.36" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E2X7R1H104K080AE" x="-82.55" y="-86.36" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E2X7R1H104KE" x="-82.55" y="-86.36" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA3E2X7R1H104K080AE?qs=n%2FVzw7c4a0kvajqFvEbDzQ%3D%3D" x="-82.55" y="-86.36" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-74.93" y="-86.36" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-74.93" y="-86.36" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R11" library="SamacSys_Parts" package="ERA3A_(0603)" value="ERA-3AED1650V" x="-69.85" y="-78.74" smashed="yes">
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERA-3AED1650V - RES, THIN FILM, 165R, 0.5%, 0.1W, 0603" x="-69.85" y="-78.74" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.5mm" x="-69.85" y="-78.74" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="-69.85" y="-78.74" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AED1650V" x="-69.85" y="-78.74" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AED1650V" x="-69.85" y="-78.74" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AED1650V?qs=MNPzkKEzRtTjR17Qn3rRig%3D%3D" x="-69.85" y="-78.74" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-69.85" y="-78.74" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-69.85" y="-78.74" size="1.27" layer="27" align="center"/>
+<element name="R1" library="SamacSys_Parts" package="RESC1608X55N" value="RT0603BRD0750KL" x="-82.55" y="-88.9" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" x="-82.55" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="-82.55" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="KEMET" x="-82.55" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD0750KL" x="-82.55" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-RT0603BRD0750KL" x="-82.55" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" x="-82.55" y="-88.9" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-82.55" y="-88.9" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-82.55" y="-88.9" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R12" library="SamacSys_Parts" package="ERA3A_(0603)" value="ERA-3AED1650V" x="-72.39" y="-81.28" smashed="yes">
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERA-3AED1650V - RES, THIN FILM, 165R, 0.5%, 0.1W, 0603" x="-72.39" y="-81.28" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.5mm" x="-72.39" y="-81.28" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="-72.39" y="-81.28" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AED1650V" x="-72.39" y="-81.28" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AED1650V" x="-72.39" y="-81.28" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3AED1650V?qs=MNPzkKEzRtTjR17Qn3rRig%3D%3D" x="-72.39" y="-81.28" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-72.39" y="-81.28" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-72.39" y="-81.28" size="1.27" layer="27" align="center"/>
+<element name="R2" library="SamacSys_Parts" package="RESC1608X55N" value="RT0603BRD0750KL" x="-86.36" y="-91.44" smashed="yes">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" x="-86.36" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="-86.36" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="KEMET" x="-86.36" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD0750KL" x="-86.36" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-RT0603BRD0750KL" x="-86.36" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" x="-86.36" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-86.36" y="-91.44" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-86.36" y="-91.44" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
@@ -468,48 +491,65 @@ design rules under a new name.</description>
 <wire x1="-52.3" y1="-60.96" x2="-62.21" y2="-70.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.455" y1="-52.07" x2="-52.3" y2="-60.96" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$10">
-<contactref element="R8" pad="2"/>
-<contactref element="C2" pad="2"/>
-<contactref element="IC4" pad="3"/>
-<contactref element="R9" pad="1"/>
-<wire x1="-58.4" y1="-66.99" x2="-65.495" y2="-73.66" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.3" y1="-60.96" x2="-58.4" y2="-66.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-46.265" y1="-55.88" x2="-49.3" y2="-60.96" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$11">
 <contactref element="IC4" pad="4"/>
-<contactref element="R9" pad="2"/>
-<contactref element="R11" pad="1"/>
-<wire x1="-64.045" y1="-73.66" x2="-70.575" y2="-78.74" width="0" layer="19" extent="1-1"/>
-<wire x1="-55.9" y1="-66.99" x2="-64.045" y2="-73.66" width="0" layer="19" extent="1-1"/>
+<contactref element="R1" pad="2"/>
+<wire x1="-55.9" y1="-66.99" x2="-81.75" y2="-88.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="IC4" pad="1"/>
-<contactref element="R11" pad="2"/>
-<contactref element="R12" pad="1"/>
-<wire x1="-69.125" y1="-78.74" x2="-73.115" y2="-81.28" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.4" y1="-65.09" x2="-69.125" y2="-78.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="IC5" pad="4"/>
-<contactref element="R12" pad="2"/>
-<contactref element="R10" pad="1"/>
-<wire x1="-68.035" y1="-76.2" x2="-71.665" y2="-81.28" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.71" y1="-70.8" x2="-68.035" y2="-76.2" width="0" layer="19" extent="1-1"/>
+<contactref element="R2" pad="1"/>
+<wire x1="-59.71" y1="-70.8" x2="-87.16" y2="-91.44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="IC5" pad="1"/>
-<contactref element="R10" pad="2"/>
-<contactref element="IC3" pad="8"/>
-<wire x1="-62.21" y1="-68.9" x2="-66.585" y2="-76.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.37" y1="-47.51" x2="-62.21" y2="-68.9" width="0" layer="19" extent="1-1"/>
+<contactref element="R2" pad="2"/>
+<wire x1="-62.21" y1="-68.9" x2="-85.56" y2="-91.44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="R7" pad="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R8" pad="1"/>
+</signal>
+<signal name="GND">
+<contactref element="IC3" pad="6"/>
+<contactref element="IC3" pad="5"/>
+<contactref element="C1" pad="2"/>
+<contactref element="IC3" pad="2"/>
+<contactref element="IC3" pad="4"/>
+<contactref element="C3" pad="2"/>
+<wire x1="-74.13" y1="-83.82" x2="-74.13" y2="-86.36" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.37" y1="-49.01" x2="-74.13" y2="-83.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.37" y1="-48.01" x2="-40.37" y2="-49.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.37" y1="-49.01" x2="-40.37" y2="-49.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.37" y1="-48.51" x2="-38.37" y2="-49.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="IC3" pad="1"/>
+<contactref element="C3" pad="1"/>
+<contactref element="IC3" pad="3"/>
+<wire x1="-40.37" y1="-48.51" x2="-75.73" y2="-86.36" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.37" y1="-47.51" x2="-40.37" y2="-48.51" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="IC3" pad="8"/>
+<contactref element="IC3" pad="7"/>
+<contactref element="C1" pad="1"/>
+<wire x1="-38.37" y1="-48.01" x2="-75.73" y2="-83.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.37" y1="-47.51" x2="-38.37" y2="-48.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R8" pad="2"/>
+<contactref element="C2" pad="2"/>
+<contactref element="IC4" pad="3"/>
+<contactref element="R1" pad="1"/>
+<wire x1="-58.4" y1="-66.99" x2="-83.35" y2="-88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.3" y1="-60.96" x2="-58.4" y2="-66.99" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.265" y1="-55.88" x2="-49.3" y2="-60.96" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
