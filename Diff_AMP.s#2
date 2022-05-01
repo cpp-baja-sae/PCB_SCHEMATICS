@@ -1091,15 +1091,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUT"/>
-<wire x1="101.6" y1="0" x2="124.46" y2="0" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="0" x2="124.46" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-66.04" x2="121.92" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="GND_4"/>
@@ -1167,11 +1158,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 <wire x1="-165.1" y1="-15.24" x2="-165.1" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="-116.84" y1="-17.78" x2="-116.84" y2="-20.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="VSS"/>
 <wire x1="99.06" y1="0" x2="99.06" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="10.16" x2="106.68" y2="10.16" width="0.1524" layer="91"/>
@@ -1183,6 +1169,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 <wire x1="53.34" y1="-15.24" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-15.24" x2="63.5" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="-116.84" y1="-20.32" x2="-116.84" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1264,6 +1255,16 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="-203.2" y1="0" x2="-195.58" y2="0" width="0.1524" layer="91"/>
 <label x="-195.58" y="0" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUT"/>
+<wire x1="101.6" y1="0" x2="124.46" y2="0" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="0" x2="124.46" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-66.04" x2="121.92" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="0" x2="132.08" y2="0" width="0.1524" layer="91"/>
+<junction x="124.46" y="0"/>
+<label x="134.62" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">

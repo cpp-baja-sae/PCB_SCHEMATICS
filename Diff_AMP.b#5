@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="inch"/>
@@ -59,13 +59,21 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="30.226" y2="0" width="0.1524" layer="20"/>
-<wire x1="30.226" y1="0" x2="30.226" y2="16.764" width="0.1524" layer="20"/>
-<wire x1="30.226" y1="16.764" x2="0" y2="16.764" width="0.1524" layer="20"/>
-<wire x1="0" y1="16.764" x2="0" y2="0" width="0.1524" layer="20"/>
-<text x="1.524" y="8.128" size="0.6096" layer="25" rot="R90">13.5V</text>
-<text x="2.54" y="6.35" size="1.778" layer="25">GND</text>
-<text x="1.524" y="5.588" size="0.6096" layer="25" rot="R90">GND</text>
+<wire x1="0" y1="0" x2="25.654" y2="0" width="0.1524" layer="20"/>
+<wire x1="25.654" y1="0" x2="25.654" y2="20.574" width="0.1524" layer="20"/>
+<wire x1="25.654" y1="20.574" x2="0" y2="20.574" width="0.1524" layer="20"/>
+<wire x1="0" y1="20.574" x2="0" y2="0" width="0.1524" layer="20"/>
+<text x="1.524" y="10.16" size="0.6096" layer="25" rot="R90">Vin</text>
+<text x="1.524" y="7.366" size="0.6096" layer="25" rot="R90">GND</text>
+<text x="1.524" y="2.286" size="0.6096" layer="25" rot="R90">GND</text>
+<text x="24.892" y="1.27" size="0.8128" layer="25" rot="R90">GND</text>
+<text x="1.524" y="4.826" size="0.6096" layer="25" rot="R90">Vout</text>
+<text x="24.892" y="7.112" size="0.8128" layer="25" rot="R90">Va</text>
+<text x="24.892" y="4.318" size="0.8128" layer="25" rot="R90">Vb</text>
+<text x="24.892" y="9.398" size="0.8128" layer="25" rot="R90">5V</text>
+<text x="25.146" y="18.796" size="0.3048" layer="26" rot="MR0">RYAN THAI
+BAJA SAE 2021-2022
+ELECTRICAL TEAM</text>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
@@ -262,22 +270,21 @@
 <wire x1="-2.675" y1="-1.6" x2="-2.675" y2="1.6" width="0.05" layer="51"/>
 <circle x="-1.575" y="0" radius="0.05" width="0.2" layer="25"/>
 </package>
-<package name="C3640" urn="urn:adsk.eagle:footprint:35615726/1" library_version="13" library_locally_modified="yes">
-<description>&lt;b&gt;C3640&lt;/b&gt;&lt;br&gt;
+<package name="CAPC1608X100N" urn="urn:adsk.eagle:footprint:35615820/1" library_version="15" library_locally_modified="yes">
+<description>&lt;b&gt;GCJ18 L=1.6mm W=0.8mm T=0.8mm&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-4.35" y="0" dx="10.6" dy="1.5" layer="1" rot="R90"/>
-<smd name="2" x="4.35" y="0" dx="10.6" dy="1.5" layer="1" rot="R90"/>
+<smd name="1" x="-0.71" y="0" dx="1.02" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="0.71" y="0" dx="1.02" dy="0.9" layer="1" rot="R90"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.55" y1="5.1" x2="4.55" y2="5.1" width="0.2" layer="51"/>
-<wire x1="4.55" y1="5.1" x2="4.55" y2="-5.1" width="0.2" layer="51"/>
-<wire x1="4.55" y1="-5.1" x2="-4.55" y2="-5.1" width="0.2" layer="51"/>
-<wire x1="-4.55" y1="-5.1" x2="-4.55" y2="5.1" width="0.2" layer="51"/>
-<wire x1="-5.9" y1="6.1" x2="5.9" y2="6.1" width="0.05" layer="51"/>
-<wire x1="5.9" y1="6.1" x2="5.9" y2="-6.1" width="0.05" layer="51"/>
-<wire x1="5.9" y1="-6.1" x2="-5.9" y2="-6.1" width="0.05" layer="51"/>
-<wire x1="-5.9" y1="-6.1" x2="-5.9" y2="6.1" width="0.05" layer="51"/>
-<circle x="-5.6" y="0" radius="0.05" width="0.2" layer="25"/>
+<wire x1="-1.31" y1="0.66" x2="1.31" y2="0.66" width="0.05" layer="51"/>
+<wire x1="1.31" y1="0.66" x2="1.31" y2="-0.66" width="0.05" layer="51"/>
+<wire x1="1.31" y1="-0.66" x2="-1.31" y2="-0.66" width="0.05" layer="51"/>
+<wire x1="-1.31" y1="-0.66" x2="-1.31" y2="0.66" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
 </package>
 </packages>
 <packages3d>
@@ -307,15 +314,16 @@
 </packageinstances>
 </package3d>
 <package3d name="ERA3KV_(0603)" urn="urn:adsk.eagle:package:35608997/2" type="model" library_version="12">
-<description>&lt;b&gt;ERA3KV_(0603)&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;ERA3KV_(0603)&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="ERA3KV_(0603)"/>
 </packageinstances>
 </package3d>
-<package3d name="C3640" urn="urn:adsk.eagle:package:35615727/2" type="model" library_version="13" library_locally_modified="yes">
-<description>&lt;b&gt;C3640&lt;/b&gt;&lt;br&gt;</description>
+<package3d name="CAPC1608X100N" urn="urn:adsk.eagle:package:35615821/2" type="model" library_version="15" library_locally_modified="yes">
+<description>&lt;b&gt;GCJ18 L=1.6mm W=0.8mm T=0.8mm&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
-<packageinstance name="C3640"/>
+<packageinstance name="CAPC1608X100N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -569,233 +577,240 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IC3" library="SamacSys_Parts" package="SON50P200X200X80-9N" override_package3d_urn="urn:adsk.eagle:package:35609377/2" override_package_urn="urn:adsk.eagle:footprint:35609378/1" value="MCP1501T-25E_RW" x="6.858" y="8.128" smashed="yes" rot="MR90">
-<attribute name="DESCRIPTION" value="Voltage References High Prec Buffered Voltage Reference" x="6.858" y="8.128" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="HEIGHT" value="0.8mm" x="6.858" y="8.128" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Microchip" x="6.858" y="8.128" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCP1501T-25E/RW" x="6.858" y="8.128" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="579-MCP1501T-25E/RW" x="6.858" y="8.128" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1501T-25E-RW?qs=BA62vJVifGo7hml43fG32Q%3D%3D" x="6.858" y="8.128" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="6.858" y="8.128" size="1.27" layer="26" rot="MR90" align="center"/>
+<element name="IC3" library="SamacSys_Parts" package="SON50P200X200X80-9N" override_package3d_urn="urn:adsk.eagle:package:35609377/2" override_package_urn="urn:adsk.eagle:footprint:35609378/1" value="MCP1501T-25E_RW" x="22.352" y="13.716" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="Voltage References High Prec Buffered Voltage Reference" x="22.352" y="13.716" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="0.8mm" x="22.352" y="13.716" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Microchip" x="22.352" y="13.716" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCP1501T-25E/RW" x="22.352" y="13.716" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="579-MCP1501T-25E/RW" x="22.352" y="13.716" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1501T-25E-RW?qs=BA62vJVifGo7hml43fG32Q%3D%3D" x="22.352" y="13.716" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="24.13" y="13.716" size="0.6096" layer="26" rot="MR90" align="center"/>
 </element>
-<element name="IC4" library="SamacSys_Parts" package="SOT95P275X110-5N" override_package3d_urn="urn:adsk.eagle:package:35609497/2" override_package_urn="urn:adsk.eagle:footprint:35609498/1" value="NCS21911SN2T1G" x="19.558" y="12.7" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 2 MHz" x="19.558" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="19.558" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="19.558" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NCS21911SN2T1G" x="19.558" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-NCS21911SN2T1G" x="19.558" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCS21911SN2T1G/?qs=%252B6g0mu59x7Ix%2FTFBhvJ5Cw%3D%3D" x="19.558" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="19.558" y="12.7" size="1.27" layer="26" rot="MR270" align="center"/>
+<element name="IC4" library="SamacSys_Parts" package="SOT95P275X110-5N" override_package3d_urn="urn:adsk.eagle:package:35609497/2" override_package_urn="urn:adsk.eagle:footprint:35609498/1" value="NCS21911SN2T1G" x="14.732" y="10.922" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 2 MHz" x="14.732" y="10.922" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="14.732" y="10.922" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="14.732" y="10.922" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NCS21911SN2T1G" x="14.732" y="10.922" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-NCS21911SN2T1G" x="14.732" y="10.922" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCS21911SN2T1G/?qs=%252B6g0mu59x7Ix%2FTFBhvJ5Cw%3D%3D" x="14.732" y="10.922" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="16.764" y="10.922" size="0.6096" layer="26" rot="MR90" align="center"/>
 </element>
-<element name="IC5" library="SamacSys_Parts" package="SOT95P275X110-5N" override_package3d_urn="urn:adsk.eagle:package:35609479/2" override_package_urn="urn:adsk.eagle:footprint:35609481/1" value="NCS21911SN2T1G" x="19.304" y="8.382" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 2 MHz" x="19.304" y="8.382" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="19.304" y="8.382" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="19.304" y="8.382" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NCS21911SN2T1G" x="19.304" y="8.382" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-NCS21911SN2T1G" x="19.304" y="8.382" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCS21911SN2T1G/?qs=%252B6g0mu59x7Ix%2FTFBhvJ5Cw%3D%3D" x="19.304" y="8.382" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="19.304" y="8.382" size="1.27" layer="26" rot="MR0" align="center"/>
+<element name="IC5" library="SamacSys_Parts" package="SOT95P275X110-5N" override_package3d_urn="urn:adsk.eagle:package:35609479/2" override_package_urn="urn:adsk.eagle:footprint:35609481/1" value="NCS21911SN2T1G" x="10.668" y="13.208" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 2 MHz" x="10.668" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="10.668" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="10.668" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NCS21911SN2T1G" x="10.668" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-NCS21911SN2T1G" x="10.668" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCS21911SN2T1G/?qs=%252B6g0mu59x7Ix%2FTFBhvJ5Cw%3D%3D" x="10.668" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="12.7" y="13.97" size="0.6096" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="R2" library="SamacSys_Parts" package="RESC1608X55N" value="RT0603BRD0750KL" x="15.24" y="5.842" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" x="15.24" y="5.842" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="15.24" y="5.842" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="KEMET" x="15.24" y="5.842" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD0750KL" x="15.24" y="5.842" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-RT0603BRD0750KL" x="15.24" y="5.842" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" x="15.24" y="5.842" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="15.24" y="5.842" size="1.27" layer="26" rot="MR180" align="center"/>
+<element name="R2" library="SamacSys_Parts" package="RESC1608X55N" value="RT0603BRD0750KL" x="7.874" y="16.256" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" x="7.874" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="7.874" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="KEMET" x="7.874" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD0750KL" x="7.874" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-RT0603BRD0750KL" x="7.874" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" x="7.874" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="7.874" y="15.24" size="0.6096" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="R3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="RESC1608X55N" package3d_urn="urn:adsk.eagle:package:35609005/2" value="RT0603BRD07505RL" x="15.748" y="9.144" smashed="yes" rot="MR90">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 1/10W 505 Ohms 0.1%" x="15.748" y="9.144" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="HEIGHT" value="0.45 mm" x="15.748" y="9.144" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO" x="15.748" y="9.144" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD07505RL" x="15.748" y="9.144" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-RT0603BRD07505RL" x="15.748" y="9.144" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/RT0603BRD07505RL?qs=%2Ff7pOCXLR5cBSiUnANXXqg%3D%3D" x="15.748" y="9.144" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="15.748" y="9.144" size="1.27" layer="26" rot="MR90" align="center"/>
+<element name="R3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="RESC1608X55N" package3d_urn="urn:adsk.eagle:package:35609005/2" value="RT0603BRD07505RL" x="13.97" y="16.256" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 1/10W 505 Ohms 0.1%" x="13.97" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="13.97" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO" x="13.97" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD07505RL" x="13.97" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-RT0603BRD07505RL" x="13.97" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/RT0603BRD07505RL?qs=%2Ff7pOCXLR5cBSiUnANXXqg%3D%3D" x="13.97" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="13.716" y="15.24" size="0.6096" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="R4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="RESC1608X55N" package3d_urn="urn:adsk.eagle:package:35609005/2" value="RT0603BRD07505RL" x="15.748" y="3.302" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 1/10W 505 Ohms 0.1%" x="15.748" y="3.302" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="0.45 mm" x="15.748" y="3.302" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO" x="15.748" y="3.302" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD07505RL" x="15.748" y="3.302" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-RT0603BRD07505RL" x="15.748" y="3.302" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/RT0603BRD07505RL?qs=%2Ff7pOCXLR5cBSiUnANXXqg%3D%3D" x="15.748" y="3.302" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="15.748" y="3.302" size="1.27" layer="26" rot="MR270" align="center"/>
+<element name="R4" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="RESC1608X55N" package3d_urn="urn:adsk.eagle:package:35609005/2" value="RT0603BRD07505RL" x="10.922" y="16.256" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 1/10W 505 Ohms 0.1%" x="10.922" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="0.45 mm" x="10.922" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO" x="10.922" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD07505RL" x="10.922" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-RT0603BRD07505RL" x="10.922" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/ProductDetail/YAGEO/RT0603BRD07505RL?qs=%2Ff7pOCXLR5cBSiUnANXXqg%3D%3D" x="10.922" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="10.668" y="15.24" size="0.6096" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="C4" library="SamacSys_Parts" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:35611817/2" override_package_urn="urn:adsk.eagle:footprint:35611818/1" value="CGA3E2X7R1H104K080AE" x="22.606" y="12.446" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="" x="22.606" y="21.336" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="22.606" y="21.336" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="22.606" y="21.336" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E2X7R1H104K080AE" x="22.606" y="21.336" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E2X7R1H104KE" x="22.606" y="21.336" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA3E2X7R1H104K080AE?qs=n%2FVzw7c4a0kvajqFvEbDzQ%3D%3D" x="22.606" y="21.336" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="22.606" y="12.446" size="1.27" layer="26" rot="MR270" align="center"/>
+<element name="C4" library="SamacSys_Parts" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:35611817/2" override_package_urn="urn:adsk.eagle:footprint:35611818/1" value="CGA3E2X7R1H104K080AE" x="10.16" y="10.16" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="" x="1.27" y="10.16" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="1.27" y="10.16" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="1.27" y="10.16" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E2X7R1H104K080AE" x="1.27" y="10.16" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E2X7R1H104KE" x="1.27" y="10.16" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA3E2X7R1H104K080AE?qs=n%2FVzw7c4a0kvajqFvEbDzQ%3D%3D" x="1.27" y="10.16" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="10.16" y="10.922" size="0.6096" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="C5" library="SamacSys_Parts" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:35611821/2" override_package_urn="urn:adsk.eagle:footprint:35611822/1" value="CGA3E2X7R1H104K080AE" x="22.606" y="9.398" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="" x="22.606" y="18.288" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="22.606" y="18.288" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="22.606" y="18.288" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E2X7R1H104K080AE" x="22.606" y="18.288" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E2X7R1H104KE" x="22.606" y="18.288" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA3E2X7R1H104K080AE?qs=n%2FVzw7c4a0kvajqFvEbDzQ%3D%3D" x="22.606" y="18.288" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="22.606" y="9.398" size="1.27" layer="26" rot="MR270" align="center"/>
+<element name="C5" library="SamacSys_Parts" package="CAPC1608X90N" override_package3d_urn="urn:adsk.eagle:package:35611821/2" override_package_urn="urn:adsk.eagle:footprint:35611822/1" value="CGA3E2X7R1H104K080AE" x="7.112" y="14.224" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="" x="-1.778" y="14.224" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-1.778" y="14.224" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="-1.778" y="14.224" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA3E2X7R1H104K080AE" x="-1.778" y="14.224" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-CGA3E2X7R1H104KE" x="-1.778" y="14.224" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/CGA3E2X7R1H104K080AE?qs=n%2FVzw7c4a0kvajqFvEbDzQ%3D%3D" x="-1.778" y="14.224" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="7.112" y="13.208" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="R5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="RESAD1559W64L635D231" package3d_urn="urn:adsk.eagle:package:35609345/1" value="PTF56350R00BZEK" x="27.94" y="2.286" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Vishay PTF56 Series Axial Metal Film Resistor 350 +/-0.1% 0.125W +/-5ppm/C" x="27.94" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="27.94" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="27.94" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PTF56350R00BZEK" x="27.94" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-PTF56350R00BZEK" x="27.94" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-PTF56350R00BZEK" x="27.94" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="27.94" y="2.286" size="1.27" layer="25" rot="R180" align="center"/>
+<element name="R5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="RESAD1559W64L635D231" package3d_urn="urn:adsk.eagle:package:35609345/1" value="PTF56350R00BZEK" x="8.636" y="2.54" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Vishay PTF56 Series Axial Metal Film Resistor 350 +/-0.1% 0.125W +/-5ppm/C" x="8.636" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="8.636" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="8.636" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTF56350R00BZEK" x="8.636" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-PTF56350R00BZEK" x="8.636" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-PTF56350R00BZEK" x="8.636" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="8.636" y="1.27" size="0.6096" layer="25" align="center"/>
 </element>
-<element name="R6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="RESAD1559W64L635D231" package3d_urn="urn:adsk.eagle:package:35609345/1" value="PTF56350R00BZEK" x="12.192" y="6.096" smashed="yes">
-<attribute name="DESCRIPTION" value="Vishay PTF56 Series Axial Metal Film Resistor 350 +/-0.1% 0.125W +/-5ppm/C" x="12.192" y="6.096" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="12.192" y="6.096" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="12.192" y="6.096" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PTF56350R00BZEK" x="12.192" y="6.096" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-PTF56350R00BZEK" x="12.192" y="6.096" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-PTF56350R00BZEK" x="12.192" y="6.096" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.192" y="6.096" size="1.27" layer="25" align="center"/>
+<element name="R6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="RESAD1559W64L635D231" package3d_urn="urn:adsk.eagle:package:35609345/1" value="PTF56350R00BZEK" x="15.24" y="18.034" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Vishay PTF56 Series Axial Metal Film Resistor 350 +/-0.1% 0.125W +/-5ppm/C" x="15.24" y="18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="15.24" y="18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="15.24" y="18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTF56350R00BZEK" x="15.24" y="18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-PTF56350R00BZEK" x="15.24" y="18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-PTF56350R00BZEK" x="15.24" y="18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="16.256" y="18.034" size="0.6096" layer="25" rot="R270" align="center"/>
 </element>
-<element name="R9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="RESAD1559W64L635D231" package3d_urn="urn:adsk.eagle:package:35609345/1" value="PTF56350R00BZEK" x="12.192" y="9.906" smashed="yes">
-<attribute name="DESCRIPTION" value="Vishay PTF56 Series Axial Metal Film Resistor 350 +/-0.1% 0.125W +/-5ppm/C" x="12.192" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="12.192" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="12.192" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PTF56350R00BZEK" x="12.192" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-PTF56350R00BZEK" x="12.192" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-PTF56350R00BZEK" x="12.192" y="9.906" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.192" y="9.906" size="1.27" layer="25" align="center"/>
+<element name="R9" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="RESAD1559W64L635D231" package3d_urn="urn:adsk.eagle:package:35609345/1" value="PTF56350R00BZEK" x="18.542" y="18.034" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Vishay PTF56 Series Axial Metal Film Resistor 350 +/-0.1% 0.125W +/-5ppm/C" x="18.542" y="18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="18.542" y="18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="18.542" y="18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTF56350R00BZEK" x="18.542" y="18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-PTF56350R00BZEK" x="18.542" y="18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-PTF56350R00BZEK" x="18.542" y="18.034" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="19.558" y="18.034" size="0.6096" layer="25" rot="R270" align="center"/>
 </element>
-<element name="R10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="RESAD1559W64L635D231" package3d_urn="urn:adsk.eagle:package:35609345/1" value="PTF56350R00BZEK" x="12.192" y="13.716" smashed="yes">
-<attribute name="DESCRIPTION" value="Vishay PTF56 Series Axial Metal Film Resistor 350 +/-0.1% 0.125W +/-5ppm/C" x="12.192" y="13.716" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="12.192" y="13.716" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="12.192" y="13.716" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PTF56350R00BZEK" x="12.192" y="13.716" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-PTF56350R00BZEK" x="12.192" y="13.716" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-PTF56350R00BZEK" x="12.192" y="13.716" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.192" y="13.716" size="1.27" layer="25" align="center"/>
+<element name="R10" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="RESAD1559W64L635D231" package3d_urn="urn:adsk.eagle:package:35609345/1" value="PTF56350R00BZEK" x="11.938" y="2.54" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Vishay PTF56 Series Axial Metal Film Resistor 350 +/-0.1% 0.125W +/-5ppm/C" x="11.938" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="11.938" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="11.938" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTF56350R00BZEK" x="11.938" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-PTF56350R00BZEK" x="11.938" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-PTF56350R00BZEK" x="11.938" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="11.938" y="1.27" size="0.6096" layer="25" rot="R180" align="center"/>
 </element>
-<element name="C1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="C1206" package3d_urn="urn:adsk.eagle:package:35611850/2" value="C1206F105M5RACAUTO7210" x="7.112" y="12.446" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" value="SMD Auto X7R FO, Ceramic, 1 uF, 20%, 50 VDC, 125 VDC, 125?C, -55?C, X7R, SMD, MLCC, Open Mode, Automotive Grade, 2.5 % , 500 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 8000, 78  Weeks, 80" x="7.112" y="12.446" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="7.112" y="12.446" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="KEMET" x="7.112" y="12.446" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C1206F105M5RACAUTO7210" x="7.112" y="12.446" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-C1206F105M5RAUTLR" x="7.112" y="12.446" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=ds50AKTGxA8F1MxATCT6sg%3D%3D" x="7.112" y="12.446" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="7.112" y="12.446" size="1.27" layer="26" rot="MR180" align="center"/>
+<element name="C1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="C1206" package3d_urn="urn:adsk.eagle:package:35611850/2" value="C1206F105M5RACAUTO7210" x="18.542" y="12.192" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="SMD Auto X7R FO, Ceramic, 1 uF, 20%, 50 VDC, 125 VDC, 125?C, -55?C, X7R, SMD, MLCC, Open Mode, Automotive Grade, 2.5 % , 500 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 8000, 78  Weeks, 80" x="18.542" y="12.192" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="18.542" y="12.192" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="KEMET" x="18.542" y="12.192" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1206F105M5RACAUTO7210" x="18.542" y="12.192" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C1206F105M5RAUTLR" x="18.542" y="12.192" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=ds50AKTGxA8F1MxATCT6sg%3D%3D" x="18.542" y="12.192" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="18.542" y="9.398" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="C3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="C1206" package3d_urn="urn:adsk.eagle:package:35611850/2" value="C1206F105M5RACAUTO7210" x="7.112" y="3.302" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" value="SMD Auto X7R FO, Ceramic, 1 uF, 20%, 50 VDC, 125 VDC, 125?C, -55?C, X7R, SMD, MLCC, Open Mode, Automotive Grade, 2.5 % , 500 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 8000, 78  Weeks, 80" x="7.112" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="7.112" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="KEMET" x="7.112" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C1206F105M5RACAUTO7210" x="7.112" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-C1206F105M5RAUTLR" x="7.112" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=ds50AKTGxA8F1MxATCT6sg%3D%3D" x="7.112" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="7.112" y="3.302" size="1.27" layer="26" rot="MR180" align="center"/>
+<element name="C3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="C1206" package3d_urn="urn:adsk.eagle:package:35611850/2" value="C1206F105M5RACAUTO7210" x="6.858" y="10.668" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="SMD Auto X7R FO, Ceramic, 1 uF, 20%, 50 VDC, 125 VDC, 125?C, -55?C, X7R, SMD, MLCC, Open Mode, Automotive Grade, 2.5 % , 500 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 8000, 78  Weeks, 80" x="6.858" y="10.668" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="6.858" y="10.668" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="KEMET" x="6.858" y="10.668" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1206F105M5RACAUTO7210" x="6.858" y="10.668" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C1206F105M5RAUTLR" x="6.858" y="10.668" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=ds50AKTGxA8F1MxATCT6sg%3D%3D" x="6.858" y="10.668" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="5.588" y="10.668" size="0.6096" layer="26" rot="MR90" align="center"/>
 </element>
-<element name="R1" library="SamacSys_Parts" package="RESC1608X55N" value="RT0603BRD0750KL" x="14.732" y="11.938" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" x="9.652" y="11.938" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="9.652" y="11.938" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="KEMET" x="9.652" y="11.938" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD0750KL" x="9.652" y="11.938" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-RT0603BRD0750KL" x="9.652" y="11.938" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" x="9.652" y="11.938" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="14.732" y="11.938" size="1.27" layer="26" rot="MR180" align="center"/>
+<element name="R1" library="SamacSys_Parts" package="RESC1608X55N" value="RT0603BRD0750KL" x="17.018" y="16.256" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" x="22.098" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="22.098" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="KEMET" x="22.098" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD0750KL" x="22.098" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-RT0603BRD0750KL" x="22.098" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" x="22.098" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="16.764" y="15.24" size="0.6096" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="IC1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="SOT95P275X110-5N" package3d_urn="urn:adsk.eagle:package:35608985/3" value="NCV8711ASN500T1G" x="7.62" y="7.874" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="LDO Voltage Regulators NCV8711 TSOP-5 5V0" x="7.62" y="7.874" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="7.62" y="7.874" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="onsemi" x="7.62" y="7.874" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NCV8711ASN500T1G" x="7.62" y="7.874" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-NCV8711ASN500T1G" x="7.62" y="7.874" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/NCV8711ASN500T1G?qs=W%2FMpXkg%252BdQ7j9dl81WfXeA%3D%3D" x="7.62" y="7.874" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="7.62" y="7.874" size="1.27" layer="25" rot="R270" align="center"/>
+<element name="IC1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="SOT95P275X110-5N" package3d_urn="urn:adsk.eagle:package:35608985/3" value="NCV8711ASN500T1G" x="6.858" y="5.588" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="LDO Voltage Regulators NCV8711 TSOP-5 5V0" x="6.858" y="5.588" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="6.858" y="5.588" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="6.858" y="5.588" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NCV8711ASN500T1G" x="6.858" y="5.588" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-NCV8711ASN500T1G" x="6.858" y="5.588" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/NCV8711ASN500T1G?qs=W%2FMpXkg%252BdQ7j9dl81WfXeA%3D%3D" x="6.858" y="5.588" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="6.858" y="3.048" size="0.6096" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="C6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="C1206" package3d_urn="urn:adsk.eagle:package:35611850/2" value="C1206F105M5RACAUTO7210" x="7.112" y="13.208" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="SMD Auto X7R FO, Ceramic, 1 uF, 20%, 50 VDC, 125 VDC, 125?C, -55?C, X7R, SMD, MLCC, Open Mode, Automotive Grade, 2.5 % , 500 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 8000, 78  Weeks, 80" x="16.002" y="13.208" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="16.002" y="13.208" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="KEMET" x="16.002" y="13.208" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C1206F105M5RACAUTO7210" x="16.002" y="13.208" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-C1206F105M5RAUTLR" x="16.002" y="13.208" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=ds50AKTGxA8F1MxATCT6sg%3D%3D" x="16.002" y="13.208" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="7.112" y="13.208" size="1.27" layer="25" rot="R180" align="center"/>
+<element name="C6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="C1206" package3d_urn="urn:adsk.eagle:package:35611850/2" value="C1206F105M5RACAUTO7210" x="5.08" y="16.002" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="SMD Auto X7R FO, Ceramic, 1 uF, 20%, 50 VDC, 125 VDC, 125?C, -55?C, X7R, SMD, MLCC, Open Mode, Automotive Grade, 2.5 % , 500 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 8000, 78  Weeks, 80" x="5.08" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="5.08" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="KEMET" x="5.08" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1206F105M5RACAUTO7210" x="5.08" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C1206F105M5RAUTLR" x="5.08" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=ds50AKTGxA8F1MxATCT6sg%3D%3D" x="5.08" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="5.08" y="18.542" size="0.6096" layer="25" align="center"/>
 </element>
-<element name="C7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="C1206" package3d_urn="urn:adsk.eagle:package:35611850/2" value="C1206F105M5RACAUTO7210" x="7.112" y="2.794" smashed="yes">
-<attribute name="DESCRIPTION" value="SMD Auto X7R FO, Ceramic, 1 uF, 20%, 50 VDC, 125 VDC, 125?C, -55?C, X7R, SMD, MLCC, Open Mode, Automotive Grade, 2.5 % , 500 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 8000, 78  Weeks, 80" x="-1.778" y="2.794" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-1.778" y="2.794" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="KEMET" x="-1.778" y="2.794" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C1206F105M5RACAUTO7210" x="-1.778" y="2.794" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-C1206F105M5RAUTLR" x="-1.778" y="2.794" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=ds50AKTGxA8F1MxATCT6sg%3D%3D" x="-1.778" y="2.794" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="7.112" y="2.794" size="1.27" layer="25" align="center"/>
+<element name="C7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="C1206" package3d_urn="urn:adsk.eagle:package:35611850/2" value="C1206F105M5RACAUTO7210" x="10.668" y="6.35" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="SMD Auto X7R FO, Ceramic, 1 uF, 20%, 50 VDC, 125 VDC, 125?C, -55?C, X7R, SMD, MLCC, Open Mode, Automotive Grade, 2.5 % , 500 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 8000, 78  Weeks, 80" x="10.668" y="15.24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="10.668" y="15.24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="KEMET" x="10.668" y="15.24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1206F105M5RACAUTO7210" x="10.668" y="15.24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C1206F105M5RAUTLR" x="10.668" y="15.24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=ds50AKTGxA8F1MxATCT6sg%3D%3D" x="10.668" y="15.24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="12.446" y="6.35" size="0.6096" layer="26" rot="MR270" align="center"/>
 </element>
-<element name="R11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="ERA3KV_(0603)" package3d_urn="urn:adsk.eagle:package:35608997/2" value="ERA-3VEB1911V" x="3.81" y="-1.778" smashed="yes">
-<attribute name="DESCRIPTION" value="Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film" x="3.81" y="-1.778" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.4mm" x="3.81" y="-1.778" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="3.81" y="-1.778" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3VEB1911V" x="3.81" y="-1.778" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3VEB1911V" x="3.81" y="-1.778" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3VEB1911V?qs=OlC7AqGiEDmVeEFNDv62ZQ%3D%3D" x="3.81" y="-1.778" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="3.81" y="-1.778" size="1.27" layer="25" align="center"/>
+<element name="R11" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="ERA3KV_(0603)" package3d_urn="urn:adsk.eagle:package:35608997/2" value="ERA-3VEB1911V" x="14.224" y="4.826" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film" x="14.224" y="4.826" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="14.224" y="4.826" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="14.224" y="4.826" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3VEB1911V" x="14.224" y="4.826" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3VEB1911V" x="14.224" y="4.826" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3VEB1911V?qs=OlC7AqGiEDmVeEFNDv62ZQ%3D%3D" x="14.224" y="4.826" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="15.494" y="5.08" size="0.6096" layer="26" rot="MR90" align="center"/>
 </element>
-<element name="R12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="ERA3KV_(0603)" package3d_urn="urn:adsk.eagle:package:35608997/2" value="ERA-3VEB1911V" x="0.254" y="-5.08" smashed="yes">
-<attribute name="DESCRIPTION" value="Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film" x="0.254" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.4mm" x="0.254" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="0.254" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3VEB1911V" x="0.254" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3VEB1911V" x="0.254" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3VEB1911V?qs=OlC7AqGiEDmVeEFNDv62ZQ%3D%3D" x="0.254" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="0.254" y="-5.08" size="1.27" layer="25" align="center"/>
+<element name="R12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="ERA3KV_(0603)" package3d_urn="urn:adsk.eagle:package:35608997/2" value="ERA-3VEB1911V" x="17.78" y="4.826" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film" x="17.78" y="4.826" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="17.78" y="4.826" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="17.78" y="4.826" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3VEB1911V" x="17.78" y="4.826" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3VEB1911V" x="17.78" y="4.826" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3VEB1911V?qs=OlC7AqGiEDmVeEFNDv62ZQ%3D%3D" x="17.78" y="4.826" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="19.05" y="4.826" size="0.6096" layer="26" rot="MR90" align="center"/>
 </element>
-<element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="3.302" y="-10.414" smashed="yes">
-<attribute name="NAME" x="-1.8542" y="-8.5852" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="91" x="3.302" y="-10.414" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-1.778" y="-13.589" size="1.27" layer="27"/>
+<element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="3.302" y="6.858" smashed="yes" rot="R270">
+<attribute name="NAME" x="2.7178" y="12.2428" size="0.6096" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="91" x="3.302" y="6.858" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="0.127" y="11.938" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="3.302" y="-16.002" smashed="yes">
-<attribute name="NAME" x="-1.8542" y="-14.1732" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="91" x="3.302" y="-16.002" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-1.778" y="-19.177" size="1.27" layer="27"/>
+<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="22.352" y="6.35" smashed="yes" rot="R270">
+<attribute name="NAME" x="21.7678" y="11.7348" size="0.6096" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="91" x="22.352" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="19.177" y="11.43" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="C3640" package3d_urn="urn:adsk.eagle:package:35615727/2" value="C3640C183JFGACAUTO" x="-8.382" y="-11.43" smashed="yes">
-<attribute name="DESCRIPTION" value="SMD Auto C0G HV, Ceramic, 0.018 uF, 5%, 1500 VDC, 1800 VDC, 125?C, -55?C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, High Voltage, Automotive Grade, 0.1 % , 55.5556 GOhms, 1.06 g, 3640, 9.1mm, 10.2mm, 2.5mm, 1.27mm, 250, 78  Weeks, 120" x="-8.382" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-8.382" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="KEMET" x="-8.382" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C3640C183JFGACAUTO" x="-8.382" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-C3640C183JFGAUTO" x="-8.382" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C3640C183JFGACAUTO?qs=u16ybLDytRazQjDhYzPQdQ%3D%3D" x="-8.382" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-8.382" y="-11.43" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-8.382" y="-11.43" size="1.27" layer="27" align="center"/>
+<element name="C2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="CAPC1608X100N" package3d_urn="urn:adsk.eagle:package:35615821/2" value="GCJ188R71E183KA01J" x="16.002" y="7.874" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="Capacitor GCJ18 L=1.6mm W=0.8mm T=0.8mm" x="16.002" y="7.874" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="1mm" x="16.002" y="7.874" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="16.002" y="7.874" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GCJ188R71E183KA01J" x="16.002" y="7.874" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="81-GCJ188R71E183KA1J" x="16.002" y="7.874" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GCJ188R71E183KA1J" x="16.002" y="7.874" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="17.78" y="7.874" size="0.6096" layer="26" rot="MR90" align="center"/>
 </element>
 </elements>
 <signals>
 <signal name="N$9">
 <contactref element="IC5" pad="3"/>
 <contactref element="R12" pad="2"/>
-<contactref element="C8" pad="1"/>
-<wire x1="0.979" y1="-5.08" x2="20.554" y2="7.432" width="0" layer="19" extent="1-16"/>
-<wire x1="-12.732" y1="-11.43" x2="0.979" y2="-5.08" width="0" layer="19" extent="1-1"/>
+<contactref element="C2" pad="2"/>
+<wire x1="16.712" y1="7.874" x2="17.78" y2="5.551" width="0.3048" layer="16"/>
+<wire x1="9.718" y1="11.958" x2="10.16" y2="10.668" width="0.3048" layer="16"/>
+<wire x1="10.16" y1="10.668" x2="10.16" y2="9.398" width="0.3048" layer="16" curve="-37.826563"/>
+<wire x1="10.16" y1="9.398" x2="10.668" y2="8.89" width="0.3048" layer="16" curve="127.826905"/>
+<wire x1="10.668" y1="8.89" x2="12.192" y2="8.636" width="0.3048" layer="16" curve="-56.751629"/>
+<wire x1="12.192" y1="8.636" x2="13.97" y2="7.62" width="0.3048" layer="16" curve="16.186518"/>
+<via x="13.97" y="7.62" extent="1-16" drill="0.35"/>
+<wire x1="13.97" y1="7.62" x2="15.748" y2="6.604" width="0.3048" layer="1"/>
+<via x="15.748" y="6.604" extent="1-16" drill="0.35"/>
+<wire x1="15.748" y1="6.604" x2="16.712" y2="7.568" width="0.3048" layer="16" curve="90"/>
+<wire x1="16.712" y1="7.568" x2="16.712" y2="7.874" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$12">
 <contactref element="IC4" pad="1"/>
 <contactref element="R3" pad="2"/>
 <contactref element="R4" pad="1"/>
-<wire x1="15.748" y1="9.944" x2="18.608" y2="13.95" width="0" layer="19" extent="16-16"/>
-<wire x1="15.748" y1="4.102" x2="15.748" y2="9.944" width="0" layer="19" extent="16-16"/>
+<wire x1="11.722" y1="16.256" x2="13.17" y2="16.256" width="0.3048" layer="16"/>
+<wire x1="13.17" y1="16.256" x2="13.782" y2="15.644" width="0.3048" layer="16" curve="-90"/>
+<wire x1="13.782" y1="15.644" x2="13.782" y2="12.172" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$13">
 <contactref element="IC5" pad="4"/>
 <contactref element="R2" pad="1"/>
 <contactref element="R4" pad="2"/>
-<wire x1="14.44" y1="5.842" x2="18.054" y2="7.432" width="0" layer="19" extent="16-16"/>
-<wire x1="15.748" y1="2.502" x2="14.44" y2="5.842" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$14">
-<contactref element="IC5" pad="1"/>
-<contactref element="R2" pad="2"/>
-<wire x1="16.04" y1="5.842" x2="20.554" y2="9.332" width="0" layer="19" extent="16-16"/>
+<wire x1="9.718" y1="14.458" x2="9.144" y2="15.032" width="0.3048" layer="16" curve="-90"/>
+<wire x1="9.144" y1="15.786" x2="8.674" y2="16.256" width="0.3048" layer="16" curve="90"/>
+<wire x1="9.144" y1="15.032" x2="9.144" y2="15.278" width="0.3048" layer="16"/>
+<wire x1="9.144" y1="15.278" x2="9.144" y2="15.786" width="0.3048" layer="16"/>
+<wire x1="10.122" y1="16.256" x2="9.144" y2="15.278" width="0.3048" layer="16" curve="90"/>
 </signal>
 <signal name="GND">
 <contactref element="IC3" pad="6"/>
@@ -806,21 +821,16 @@ design rules under a new name.</description>
 <contactref element="C3" pad="1"/>
 <contactref element="IC1" pad="2"/>
 <polygon width="0.1524" layer="16">
-<vertex x="30.226" y="16.764"/>
-<vertex x="30.226" y="0"/>
-<vertex x="29.972" y="0"/>
+<vertex x="25.654" y="20.574"/>
+<vertex x="25.654" y="0"/>
 <vertex x="0" y="0"/>
-<vertex x="0" y="1.27"/>
-<vertex x="0" y="16.764"/>
-<vertex x="2.286" y="16.764"/>
+<vertex x="0" y="20.574"/>
 </polygon>
 <polygon width="0.1524" layer="1" isolate="0.4064">
-<vertex x="30.226" y="16.764"/>
-<vertex x="30.226" y="0"/>
+<vertex x="25.654" y="20.574"/>
+<vertex x="25.654" y="0"/>
 <vertex x="0" y="0"/>
-<vertex x="0" y="1.016"/>
-<vertex x="0" y="16.764"/>
-<vertex x="2.54" y="16.764"/>
+<vertex x="0" y="20.574"/>
 </polygon>
 <contactref element="IC3" pad="9"/>
 <contactref element="R6" pad="1"/>
@@ -829,70 +839,138 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="4"/>
 <contactref element="JP2" pad="4"/>
 <contactref element="C7" pad="2"/>
-<contactref element="C6" pad="2"/>
 <contactref element="IC5" pad="2"/>
 <contactref element="IC4" pad="2"/>
-<wire x1="20.554" y1="8.382" x2="19.558" y2="13.95" width="0" layer="19" extent="16-16"/>
-<wire x1="12.192" y1="9.906" x2="19.558" y2="13.95" width="0" layer="19" extent="16-16"/>
-<wire x1="12.192" y1="6.096" x2="12.192" y2="9.906" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="9.124" x2="12.192" y2="9.906" width="0" layer="19" extent="1-1"/>
-<wire x1="6.608" y1="9.128" x2="7.62" y2="9.124" width="0" layer="19" extent="1-16"/>
-<wire x1="6.108" y1="9.128" x2="6.608" y2="9.128" width="0" layer="19" extent="16-16"/>
-<wire x1="6.858" y1="8.128" x2="6.608" y2="9.128" width="0" layer="19" extent="16-16"/>
-<wire x1="7.108" y1="7.128" x2="6.858" y2="8.128" width="0" layer="19" extent="16-16"/>
-<wire x1="6.108" y1="7.128" x2="7.108" y2="7.128" width="0" layer="19" extent="16-16"/>
-<wire x1="5.612" y1="12.446" x2="6.108" y2="9.128" width="0" layer="19" extent="16-16"/>
-<wire x1="5.612" y1="13.208" x2="5.612" y2="12.446" width="0" layer="19" extent="1-16"/>
-<wire x1="5.612" y1="3.302" x2="6.108" y2="7.128" width="0" layer="19" extent="16-16"/>
-<wire x1="8.612" y1="2.794" x2="5.612" y2="3.302" width="0" layer="19" extent="1-16"/>
-<wire x1="7.112" y1="-10.414" x2="8.612" y2="2.794" width="0" layer="19" extent="1-1"/>
-<wire x1="2.032" y1="-10.414" x2="7.112" y2="-10.414" width="0" layer="19" extent="1-1"/>
-<wire x1="7.112" y1="-16.002" x2="7.112" y2="-10.414" width="0" layer="19" extent="1-1"/>
+<contactref element="C6" pad="2"/>
+<via x="2.54" y="18.542" extent="1-16" drill="0.35"/>
+<via x="2.54" y="17.272" extent="1-16" drill="0.35"/>
+<via x="2.54" y="15.494" extent="1-16" drill="0.35"/>
+<via x="2.54" y="14.478" extent="1-16" drill="0.35"/>
+<via x="2.794" y="13.462" extent="1-16" drill="0.35"/>
+<via x="6.858" y="18.034" extent="1-16" drill="0.35"/>
+<via x="9.652" y="17.272" extent="1-16" drill="0.35"/>
+<via x="13.208" y="17.272" extent="1-16" drill="0.35"/>
+<via x="10.668" y="14.224" extent="1-16" drill="0.35"/>
+<via x="12.7" y="14.732" extent="1-16" drill="0.35"/>
+<via x="14.478" y="14.732" extent="1-16" drill="0.35"/>
+<via x="16.002" y="14.732" extent="1-16" drill="0.35"/>
+<via x="17.78" y="14.986" extent="1-16" drill="0.35"/>
+<via x="12.7" y="6.35" extent="1-16" drill="0.35"/>
+<via x="19.304" y="6.35" extent="1-16" drill="0.35"/>
+<via x="20.32" y="7.112" extent="1-16" drill="0.35"/>
+<via x="20.574" y="8.636" extent="1-16" drill="0.35"/>
+<via x="23.622" y="16.002" extent="1-16" drill="0.35"/>
+<via x="22.606" y="17.018" extent="1-16" drill="0.35"/>
+<via x="21.336" y="16.764" extent="1-16" drill="0.35"/>
+<via x="20.574" y="17.78" extent="1-16" drill="0.35"/>
+<via x="8.382" y="12.192" extent="1-16" drill="0.35"/>
+<via x="8.128" y="10.16" extent="1-16" drill="0.35"/>
+<via x="10.16" y="6.35" extent="1-16" drill="0.35"/>
+<via x="6.604" y="2.032" extent="1-16" drill="0.35"/>
+<via x="5.588" y="2.794" extent="1-16" drill="0.35"/>
+<via x="16.51" y="5.842" extent="1-16" drill="0.35"/>
+<via x="18.034" y="6.858" extent="1-16" drill="0.35"/>
+<via x="17.78" y="12.192" extent="1-16" drill="0.35"/>
+<via x="17.526" y="9.398" extent="1-16" drill="0.35"/>
+<wire x1="22.602" y1="12.716" x2="21.602" y2="12.716" width="0" layer="19" extent="16-16"/>
+<wire x1="10.668" y1="11.958" x2="8.382" y2="12.192" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="IC4" pad="3"/>
 <contactref element="R11" pad="2"/>
-<contactref element="C8" pad="2"/>
-<wire x1="4.535" y1="-1.778" x2="20.508" y2="13.95" width="0" layer="19" extent="1-16"/>
-<wire x1="-4.032" y1="-11.43" x2="4.535" y2="-1.778" width="0" layer="19" extent="1-1"/>
+<contactref element="C2" pad="1"/>
+<wire x1="14.224" y1="5.551" x2="15.292" y2="7.874" width="0.3048" layer="16"/>
+<wire x1="15.292" y1="7.874" x2="14.986" y2="9.398" width="0.3048" layer="16"/>
+<wire x1="14.986" y1="9.398" x2="15.494" y2="11.176" width="0.3048" layer="16" curve="-54.597365"/>
+<wire x1="15.494" y1="11.176" x2="15.682" y2="12.172" width="0.3048" layer="16" curve="65.11001"/>
 </signal>
 <signal name="N$1">
 <contactref element="C1" pad="2"/>
 <contactref element="R1" pad="1"/>
 <contactref element="IC3" pad="8"/>
 <contactref element="IC3" pad="7"/>
-<wire x1="8.612" y1="12.446" x2="13.932" y2="11.938" width="0" layer="19" extent="16-16"/>
-<wire x1="7.608" y1="9.128" x2="8.612" y2="12.446" width="0" layer="19" extent="16-16"/>
-<wire x1="7.108" y1="9.128" x2="7.608" y2="9.128" width="0" layer="19" extent="16-16"/>
+<wire x1="17.818" y1="16.256" x2="18.542" y2="15.532" width="0.3048" layer="16" curve="-90"/>
+<wire x1="18.542" y1="15.532" x2="18.542" y2="13.692" width="0.3048" layer="16"/>
+<wire x1="18.542" y1="13.692" x2="18.542" y2="13.97" width="0.3048" layer="16"/>
+<wire x1="18.542" y1="13.97" x2="20.574" y2="16.002" width="0.3048" layer="16" curve="-90"/>
+<wire x1="20.574" y1="16.002" x2="22.098" y2="16.002" width="0.3048" layer="16"/>
+<wire x1="22.098" y1="16.002" x2="22.606" y2="15.494" width="0.3048" layer="16" curve="-90"/>
+<wire x1="22.606" y1="15.494" x2="22.606" y2="14.72" width="0.3048" layer="16"/>
+<wire x1="22.606" y1="14.72" x2="22.602" y2="14.716" width="0.3048" layer="16" curve="-90"/>
+<wire x1="23.102" y1="14.716" x2="23.098" y2="14.72" width="0.3048" layer="16" curve="90"/>
+<wire x1="23.098" y1="14.72" x2="22.606" y2="14.72" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="2"/>
 <contactref element="R3" pad="1"/>
 <contactref element="IC4" pad="4"/>
-<wire x1="15.532" y1="11.938" x2="20.508" y2="11.45" width="0" layer="19" extent="16-16"/>
-<wire x1="15.748" y1="8.344" x2="15.532" y2="11.938" width="0" layer="19" extent="16-16"/>
+<wire x1="15.682" y1="9.672" x2="16.236" y2="9.672" width="0.3048" layer="16"/>
+<wire x1="16.236" y1="9.672" x2="16.256" y2="9.652" width="0.3048" layer="16" curve="-90"/>
+<wire x1="16.256" y1="9.652" x2="16.764" y2="10.16" width="0.3048" layer="16" curve="90"/>
+<wire x1="16.764" y1="10.16" x2="16.764" y2="15.71" width="0.3048" layer="16"/>
+<wire x1="16.764" y1="15.71" x2="16.218" y2="16.256" width="0.3048" layer="16" curve="90"/>
+<wire x1="14.77" y1="16.256" x2="16.218" y2="16.256" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="IC4" pad="5"/>
 <contactref element="C4" pad="2"/>
-<wire x1="18.608" y1="11.45" x2="22.606" y2="11.646" width="0" layer="19" extent="16-16"/>
+<wire x1="10.96" y1="10.16" x2="13.782" y2="9.672" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC5" pad="5"/>
 <contactref element="C5" pad="2"/>
-<wire x1="18.054" y1="9.332" x2="22.606" y2="8.598" width="0" layer="19" extent="16-16"/>
+<wire x1="7.912" y1="14.224" x2="8.128" y2="14.224" width="0.3048" layer="16"/>
+<wire x1="8.128" y1="14.224" x2="8.636" y2="13.716" width="0.3048" layer="16" curve="-90"/>
+<wire x1="8.636" y1="13.716" x2="8.89" y2="13.462" width="0.3048" layer="16" curve="90"/>
+<wire x1="10.622" y1="13.462" x2="11.618" y2="14.458" width="0.3048" layer="16" curve="90"/>
+<wire x1="8.89" y1="13.462" x2="10.622" y2="13.462" width="0.3048" layer="16"/>
 </signal>
 <signal name="VIN">
 <contactref element="JP1" pad="1"/>
 <contactref element="IC1" pad="1"/>
 <contactref element="C7" pad="1"/>
 <contactref element="IC1" pad="3"/>
-<wire x1="6.67" y1="9.124" x2="8.57" y2="9.124" width="0" layer="19" extent="1-1"/>
-<wire x1="5.612" y1="2.794" x2="6.67" y2="9.124" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.508" y1="-10.414" x2="5.612" y2="2.794" width="0" layer="19" extent="1-1"/>
+<wire x1="5.908" y1="5.146" x2="5.908" y2="4.338" width="0.3048" layer="16"/>
+<wire x1="3.302" y1="10.668" x2="3.556" y2="10.668" width="0.3048" layer="16"/>
+<wire x1="3.556" y1="10.668" x2="5.334" y2="8.89" width="0.3048" layer="16" curve="-90"/>
+<wire x1="5.334" y1="8.89" x2="6.096" y2="8.128" width="0.3048" layer="16" curve="90"/>
+<wire x1="6.096" y1="8.128" x2="6.35" y2="8.128" width="0.3048" layer="16"/>
+<wire x1="6.35" y1="8.128" x2="6.604" y2="7.874" width="0.3048" layer="16" curve="-90"/>
+<wire x1="6.604" y1="5.842" x2="6.35" y2="5.588" width="0.3048" layer="16" curve="-90"/>
+<wire x1="6.35" y1="5.588" x2="5.908" y2="5.146" width="0.3048" layer="16" curve="90"/>
+<wire x1="6.604" y1="7.874" x2="6.604" y2="5.842" width="0.3048" layer="16"/>
+<wire x1="7.808" y1="4.338" x2="8.616" y2="4.338" width="0.3048" layer="16"/>
+<wire x1="8.616" y1="4.338" x2="8.636" y2="4.318" width="0.3048" layer="16" curve="-90"/>
+<wire x1="8.636" y1="4.318" x2="9.144" y2="4.826" width="0.3048" layer="16" curve="90"/>
+<wire x1="9.144" y1="4.826" x2="9.144" y2="6.326" width="0.3048" layer="16"/>
+<wire x1="9.144" y1="6.326" x2="10.668" y2="7.85" width="0.3048" layer="16" curve="-90"/>
+<wire x1="7.808" y1="4.338" x2="7.808" y2="3.998" width="0.3048" layer="16"/>
+<wire x1="7.808" y1="3.998" x2="6.858" y2="3.048" width="0.3048" layer="16" curve="-90"/>
+<wire x1="6.858" y1="3.048" x2="5.908" y2="3.998" width="0.3048" layer="16" curve="-90"/>
+<wire x1="5.908" y1="3.998" x2="5.908" y2="4.338" width="0.3048" layer="16"/>
 </signal>
 <signal name="VOUT">
 <contactref element="JP1" pad="3"/>
+<contactref element="IC5" pad="1"/>
+<contactref element="R2" pad="2"/>
+<wire x1="10.622" y1="12.954" x2="10.414" y2="12.954" width="0.3048" layer="16"/>
+<wire x1="10.414" y1="12.954" x2="8.382" y2="12.954" width="0.3048" layer="16"/>
+<wire x1="8.382" y1="12.954" x2="7.874" y2="13.208" width="0.3048" layer="16" curve="-53.130102"/>
+<wire x1="7.874" y1="13.208" x2="7.366" y2="13.462" width="0.3048" layer="16" curve="53.130102"/>
+<wire x1="7.366" y1="13.462" x2="7.112" y2="13.97" width="0.3048" layer="16" curve="-126.869898"/>
+<wire x1="7.112" y1="14.478" x2="7.112" y2="13.97" width="0.3048" layer="16" curve="-73.739964"/>
+<wire x1="3.302" y1="5.588" x2="9.6899625" y2="5.588" width="0.3048" layer="1"/>
+<wire x1="9.6899625" y1="5.588" x2="12.2299625" y2="8.128" width="0.3048" layer="1" curve="90"/>
+<wire x1="12.2299625" y1="8.128" x2="12.2299625" y2="10.633528125" width="0.3048" layer="1"/>
+<via x="12.2299625" y="10.633528125" extent="1-16" drill="0.35"/>
+<wire x1="12.2299625" y1="10.633528125" x2="12.2299625" y2="11.3460375" width="0.3048" layer="16"/>
+<wire x1="12.2299625" y1="11.3460375" x2="11.618" y2="11.958" width="0.3048" layer="16" curve="90"/>
+<wire x1="7.074" y1="16.256" x2="7.112" y2="16.218" width="0.3048" layer="16" curve="-90"/>
+<wire x1="7.112" y1="16.218" x2="7.112" y2="14.478" width="0.3048" layer="16"/>
+<wire x1="10.622" y1="12.954" x2="11.43" y2="12.954" width="0.3048" layer="16"/>
+<wire x1="11.43" y1="12.954" x2="11.938" y2="12.446" width="0.3048" layer="16" curve="-90"/>
+<wire x1="11.938" y1="12.446" x2="11.938" y2="12.278" width="0.3048" layer="16"/>
+<wire x1="11.938" y1="12.278" x2="11.618" y2="11.958" width="0.3048" layer="16" curve="-90"/>
 </signal>
 <signal name="5V">
 <contactref element="JP2" pad="1"/>
@@ -905,33 +983,70 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="1"/>
 <contactref element="IC3" pad="3"/>
 <contactref element="C3" pad="2"/>
-<wire x1="22.606" y1="13.246" x2="27.792" y2="13.716" width="0" layer="19" extent="16-16"/>
-<wire x1="22.606" y1="10.198" x2="22.606" y2="13.246" width="0" layer="19" extent="16-16"/>
-<wire x1="12.34" y1="2.286" x2="22.606" y2="10.198" width="0" layer="19" extent="16-16"/>
-<wire x1="8.612" y1="3.302" x2="12.34" y2="2.286" width="0" layer="19" extent="16-16"/>
-<wire x1="8.57" y1="6.624" x2="8.612" y2="3.302" width="0" layer="19" extent="1-16"/>
-<wire x1="7.608" y1="7.128" x2="8.57" y2="6.624" width="0" layer="19" extent="1-16"/>
-<wire x1="6.608" y1="7.128" x2="7.608" y2="7.128" width="0" layer="19" extent="16-16"/>
-<wire x1="8.612" y1="13.208" x2="7.608" y2="7.128" width="0" layer="19" extent="1-16"/>
-<wire x1="-0.508" y1="-16.002" x2="8.612" y2="3.302" width="0" layer="19" extent="16-16"/>
+<wire x1="22.352" y1="10.16" x2="22.102" y2="12.716" width="0.3048" layer="16"/>
+<wire x1="23.102" y1="12.716" x2="23.102" y2="10.91" width="0.3048" layer="16"/>
+<wire x1="23.102" y1="10.91" x2="22.352" y2="10.16" width="0.3048" layer="16" curve="-90"/>
+<wire x1="8.636" y1="18.14" x2="11.938" y2="18.14" width="0.3048" layer="1"/>
+<wire x1="7.808" y1="6.838" x2="8.636" y2="7.666" width="0.3048" layer="16" curve="90"/>
+<wire x1="8.636" y1="9.436" x2="9.36" y2="10.16" width="0.3048" layer="16" curve="-90"/>
+<wire x1="8.636" y1="7.666" x2="8.636" y2="9.436" width="0.3048" layer="16"/>
+<wire x1="9.36" y1="10.16" x2="8.598" y2="10.922" width="0.3048" layer="16" curve="90"/>
+<wire x1="8.104" y1="10.922" x2="6.858" y2="12.168" width="0.3048" layer="16" curve="-90"/>
+<wire x1="8.598" y1="10.922" x2="8.104" y2="10.922" width="0.3048" layer="16"/>
+<wire x1="5.588" y1="13.208" x2="5.588" y2="13.5" width="0.3048" layer="16"/>
+<wire x1="5.588" y1="13.208" x2="4.826" y2="12.446" width="0.3048" layer="16" curve="-90"/>
+<wire x1="4.826" y1="12.446" x2="4.572" y2="12.446" width="0.3048" layer="16"/>
+<via x="4.572" y="12.446" extent="1-16" drill="0.35"/>
+<wire x1="4.572" y1="12.446" x2="4.064" y2="12.954" width="0.3048" layer="1" curve="-90"/>
+<wire x1="4.064" y1="13.486" x2="5.08" y2="14.502" width="0.3048" layer="1" curve="-90"/>
+<wire x1="4.064" y1="12.954" x2="4.064" y2="13.486" width="0.3048" layer="1"/>
+<wire x1="5.08" y1="14.502" x2="6.326" y2="15.748" width="0.3048" layer="1" curve="-90"/>
+<wire x1="6.326" y1="15.748" x2="6.35" y2="15.748" width="0.3048" layer="1"/>
+<wire x1="6.35" y1="15.748" x2="7.366" y2="16.764" width="0.3048" layer="1" curve="90"/>
+<wire x1="7.366" y1="16.764" x2="7.366" y2="17.018" width="0.3048" layer="1"/>
+<wire x1="7.366" y1="17.018" x2="8.488" y2="18.14" width="0.3048" layer="1" curve="-90"/>
+<wire x1="8.488" y1="18.14" x2="8.636" y2="18.14" width="0.3048" layer="1"/>
+<wire x1="6.35" y1="15.748" x2="18.288" y2="15.748" width="0.3048" layer="1"/>
+<wire x1="18.288" y1="15.748" x2="20.066" y2="13.97" width="0.3048" layer="1" curve="-90"/>
+<wire x1="20.066" y1="13.97" x2="20.066" y2="12.446" width="0.3048" layer="1"/>
+<wire x1="20.066" y1="12.446" x2="22.352" y2="10.16" width="0.3048" layer="1" curve="90"/>
+<wire x1="5.588" y1="13.5" x2="6.312" y2="14.224" width="0.3048" layer="16" curve="-90"/>
+<wire x1="6.858" y1="12.168" x2="6.312" y2="12.714" width="0.3048" layer="16" curve="-90"/>
+<wire x1="6.312" y1="12.714" x2="6.312" y2="14.224" width="0.3048" layer="16"/>
 </signal>
 <signal name="VA">
 <contactref element="JP2" pad="2"/>
 <contactref element="R5" pad="1"/>
 <contactref element="R6" pad="2"/>
 <contactref element="R12" pad="1"/>
-<wire x1="27.94" y1="2.286" x2="27.792" y2="6.096" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.471" y1="-5.08" x2="27.94" y2="2.286" width="0" layer="19" extent="1-1"/>
-<wire x1="2.032" y1="-16.002" x2="-0.471" y2="-5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="2.434" x2="17.78" y2="4.101" width="0.3048" layer="16"/>
+<wire x1="17.78" y1="4.101" x2="22.352" y2="7.62" width="0.3048" layer="16"/>
+<wire x1="8.636" y1="2.54" x2="10.414" y2="2.54" width="0.3048" layer="16"/>
+<via x="10.414" y="2.54" extent="1-16" drill="0.35"/>
+<wire x1="10.414" y1="2.54" x2="10.922" y2="3.048" width="0.3048" layer="1" curve="90"/>
+<wire x1="10.922" y1="3.048" x2="10.922" y2="3.302" width="0.3048" layer="1"/>
+<wire x1="10.922" y1="3.302" x2="11.43" y2="3.81" width="0.3048" layer="1" curve="-90"/>
+<wire x1="13.462" y1="3.81" x2="14.224" y2="3.048" width="0.3048" layer="1" curve="-90"/>
+<wire x1="14.224" y1="3.048" x2="14.838" y2="2.434" width="0.3048" layer="1" curve="90"/>
+<wire x1="14.838" y1="2.434" x2="15.24" y2="2.434" width="0.3048" layer="1"/>
+<wire x1="11.43" y1="3.81" x2="13.462" y2="3.81" width="0.3048" layer="1"/>
 </signal>
 <signal name="VB">
 <contactref element="JP2" pad="3"/>
 <contactref element="R10" pad="1"/>
 <contactref element="R9" pad="2"/>
 <contactref element="R11" pad="1"/>
-<wire x1="12.192" y1="13.716" x2="27.792" y2="9.906" width="0" layer="19" extent="1-1"/>
-<wire x1="3.085" y1="-1.778" x2="12.192" y2="13.716" width="0" layer="19" extent="1-1"/>
-<wire x1="4.572" y1="-16.002" x2="3.085" y2="-1.778" width="0" layer="19" extent="1-1"/>
+<wire x1="22.352" y1="5.08" x2="18.542" y2="2.434" width="0.3048" layer="16"/>
+<wire x1="14.224" y1="4.101" x2="12.663" y2="2.54" width="0.3048" layer="16" curve="-90"/>
+<wire x1="12.663" y1="2.54" x2="11.938" y2="2.54" width="0.3048" layer="16"/>
+<wire x1="14.224" y1="4.101" x2="14.6814" y2="3.6436" width="0.3048" layer="16" curve="90"/>
+<wire x1="14.6814" y1="3.6436" x2="15.494" y2="3.6436" width="0.3048" layer="16"/>
+<via x="15.494" y="3.6436" extent="1-16" drill="0.35"/>
+<wire x1="15.494" y1="3.6436" x2="16.9304" y2="3.6436" width="0.3048" layer="1"/>
+<wire x1="16.9304" y1="3.6436" x2="17.526" y2="3.048" width="0.3048" layer="1" curve="-90"/>
+<via x="17.526" y="3.048" extent="1-16" drill="0.35"/>
+<wire x1="18.542" y1="2.434" x2="18.14" y2="2.434" width="0.3048" layer="16"/>
+<wire x1="18.14" y1="2.434" x2="17.526" y2="3.048" width="0.3048" layer="16" curve="-90"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -944,6 +1059,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
