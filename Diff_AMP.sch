@@ -937,6 +937,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" deviceset="GCJ188R71E183KA01J" device="" package3d_urn="urn:adsk.eagle:package:35615821/2"/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -947,9 +949,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 <attribute name="NAME" x="-21.59" y="-60.96" size="1.778" layer="95" rot="MR180" align="center-left"/>
 <attribute name="VALUE" x="-21.59" y="-58.42" size="1.778" layer="96" rot="MR180" align="center-left"/>
 </instance>
-<instance part="IC4" gate="G$1" x="55.88" y="-22.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.5" y="-46.99" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="60.96" y="-46.99" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="IC4" gate="G$1" x="55.88" y="-25.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="63.5" y="-49.53" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="60.96" y="-49.53" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="IC5" gate="G$1" x="101.6" y="-2.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="105.41" y="-10.16" size="1.778" layer="95" align="center-left"/>
@@ -967,9 +969,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 <attribute name="NAME" x="82.55" y="-69.85" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="82.55" y="-72.39" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C4" gate="G$1" x="38.1" y="-50.8" smashed="yes">
-<attribute name="NAME" x="36.83" y="-57.15" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="36.83" y="-59.69" size="1.778" layer="96" align="center-left"/>
+<instance part="C4" gate="G$1" x="38.1" y="-53.34" smashed="yes">
+<attribute name="NAME" x="29.21" y="-54.61" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="31.75" y="-54.61" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="C5" gate="G$1" x="83.82" y="-30.48" smashed="yes">
 <attribute name="NAME" x="82.55" y="-26.67" size="1.778" layer="95" rot="R90" align="center-left"/>
@@ -1047,11 +1049,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 <attribute name="VALUE" x="-5.08" y="-99.06" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="63.5" y="-20.32" smashed="yes">
-<attribute name="VALUE" x="60.96" y="-22.86" size="1.778" layer="96"/>
+<attribute name="VALUE" x="60.96" y="-25.4" size="1.778" layer="96"/>
 </instance>
 <instance part="C2" gate="G$1" x="35.56" y="-17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.37" y="-6.35" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="39.37" y="-8.89" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="GND7" gate="1" x="35.56" y="-58.42" smashed="yes">
+<attribute name="VALUE" x="33.02" y="-60.96" size="1.778" layer="96"/>
+</instance>
+<instance part="GND8" gate="1" x="81.28" y="-38.1" smashed="yes">
+<attribute name="VALUE" x="78.74" y="-40.64" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1071,14 +1079,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="OUT"/>
-<wire x1="55.88" y1="-22.86" x2="78.74" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-22.86" x2="78.74" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-66.04" x2="76.2" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="-66.04" x2="78.74" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="78.74" y="-66.04"/>
+<pinref part="IC4" gate="G$1" pin="OUT"/>
+<wire x1="55.88" y1="-25.4" x2="55.88" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-22.86" x2="78.74" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -1167,7 +1176,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="VSS"/>
-<wire x1="53.34" y1="-22.86" x2="53.34" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-25.4" x2="53.34" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-15.24" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-15.24" x2="63.5" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -1177,16 +1186,29 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="-116.84" y1="-20.32" x2="-116.84" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="-30.48" x2="81.28" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="81.28" y1="-35.56" x2="81.28" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="35.56" y1="-55.88" x2="35.56" y2="-53.34" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="-53.34" x2="38.1" y2="-53.34" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="IN+"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="-22.86" x2="35.56" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="-22.86" x2="50.8" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-17.78" x2="35.56" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-22.86" x2="50.8" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="35.56" y="-22.86"/>
+<pinref part="IC4" gate="G$1" pin="IN+"/>
+<wire x1="50.8" y1="-22.86" x2="50.8" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1211,24 +1233,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 <wire x1="53.34" y1="-66.04" x2="55.88" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="G$1" pin="IN-"/>
 <wire x1="55.88" y1="-66.04" x2="58.42" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="-48.26" x2="55.88" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-50.8" x2="55.88" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="55.88" y="-66.04"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="VDD"/>
-<wire x1="53.34" y1="-48.26" x2="53.34" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="-50.8" x2="50.8" y2="-50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="VDD"/>
-<wire x1="99.06" y1="-27.94" x2="99.06" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="-30.48" x2="96.52" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -1277,11 +1283,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 <label x="-193.04" y="-30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="-50.8" x2="35.56" y2="-50.8" width="0.1524" layer="91"/>
-<label x="35.56" y="-48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="-66.04" y1="0" x2="-78.74" y2="0" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="0" x2="-78.74" y2="-22.86" width="0.1524" layer="91"/>
@@ -1312,9 +1313,22 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 <label x="-43.18" y="-68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="-30.48" x2="81.28" y2="-30.48" width="0.1524" layer="91"/>
-<label x="81.28" y="-30.48" size="1.778" layer="95"/>
+<pinref part="IC4" gate="G$1" pin="VDD"/>
+<wire x1="53.34" y1="-50.8" x2="53.34" y2="-53.34" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="-53.34" x2="50.8" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-53.34" x2="53.34" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="53.34" y="-53.34"/>
+<label x="50.8" y="-58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="VDD"/>
+<wire x1="99.06" y1="-27.94" x2="99.06" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="-30.48" x2="96.52" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-30.48" x2="99.06" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="99.06" y="-30.48"/>
+<label x="96.52" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VA" class="0">

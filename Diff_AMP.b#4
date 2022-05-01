@@ -66,11 +66,11 @@
 <text x="1.524" y="10.16" size="0.6096" layer="25" rot="R90">Vin</text>
 <text x="1.524" y="7.366" size="0.6096" layer="25" rot="R90">GND</text>
 <text x="1.524" y="2.286" size="0.6096" layer="25" rot="R90">GND</text>
-<text x="24.892" y="1.27" size="0.8128" layer="25" rot="R90">GND</text>
+<text x="24.892" y="1.524" size="0.8128" layer="25" rot="R90">GND</text>
 <text x="1.524" y="4.826" size="0.6096" layer="25" rot="R90">Vout</text>
-<text x="24.892" y="7.112" size="0.8128" layer="25" rot="R90">Va</text>
-<text x="24.892" y="4.318" size="0.8128" layer="25" rot="R90">Vb</text>
-<text x="24.892" y="9.398" size="0.8128" layer="25" rot="R90">5V</text>
+<text x="24.892" y="7.366" size="0.8128" layer="25" rot="R90">Va</text>
+<text x="24.892" y="4.572" size="0.8128" layer="25" rot="R90">Vb</text>
+<text x="24.892" y="9.652" size="0.8128" layer="25" rot="R90">5V</text>
 <text x="25.146" y="18.796" size="0.3048" layer="26" rot="MR0">RYAN THAI
 BAJA SAE 2021-2022
 </text>
@@ -611,7 +611,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD0750KL" x="7.874" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-RT0603BRD0750KL" x="7.874" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" x="7.874" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="7.62" y="17.272" size="0.6096" layer="26" rot="MR0" align="center"/>
+<attribute name="NAME" x="7.874" y="17.018" size="0.6096" layer="26" rot="MR0" align="center"/>
 </element>
 <element name="R3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="RESC1608X55N" package3d_urn="urn:adsk.eagle:package:35609005/2" value="RT0603BRD07505RL" x="13.97" y="16.256" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 1/10W 505 Ohms 0.1%" x="13.97" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -694,14 +694,14 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=ds50AKTGxA8F1MxATCT6sg%3D%3D" x="18.542" y="12.192" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="18.542" y="9.398" size="0.6096" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="C3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="C1206" package3d_urn="urn:adsk.eagle:package:35611850/2" value="C1206F105M5RACAUTO7210" x="18.542" y="5.08" smashed="yes" rot="MR90">
-<attribute name="DESCRIPTION" value="SMD Auto X7R FO, Ceramic, 1 uF, 20%, 50 VDC, 125 VDC, 125?C, -55?C, X7R, SMD, MLCC, Open Mode, Automotive Grade, 2.5 % , 500 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 8000, 78  Weeks, 80" x="18.542" y="5.08" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="HEIGHT" value="mm" x="18.542" y="5.08" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="KEMET" x="18.542" y="5.08" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C1206F105M5RACAUTO7210" x="18.542" y="5.08" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-C1206F105M5RAUTLR" x="18.542" y="5.08" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=ds50AKTGxA8F1MxATCT6sg%3D%3D" x="18.542" y="5.08" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="17.272" y="5.08" size="0.6096" layer="26" rot="MR90" align="center"/>
+<element name="C3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" package="C1206" package3d_urn="urn:adsk.eagle:package:35611850/2" value="C1206F105M5RACAUTO7210" x="18.542" y="5.588" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="SMD Auto X7R FO, Ceramic, 1 uF, 20%, 50 VDC, 125 VDC, 125?C, -55?C, X7R, SMD, MLCC, Open Mode, Automotive Grade, 2.5 % , 500 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 8000, 78  Weeks, 80" x="18.542" y="5.588" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="18.542" y="5.588" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="KEMET" x="18.542" y="5.588" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1206F105M5RACAUTO7210" x="18.542" y="5.588" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C1206F105M5RAUTLR" x="18.542" y="5.588" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=ds50AKTGxA8F1MxATCT6sg%3D%3D" x="18.542" y="5.588" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="17.272" y="5.588" size="0.6096" layer="26" rot="MR90" align="center"/>
 </element>
 <element name="R1" library="SamacSys_Parts" package="RESC1608X55N" value="RT0603BRD0750KL" x="17.018" y="16.256" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" x="22.098" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -847,8 +847,8 @@ design rules under a new name.</description>
 <wire x1="3.302" y1="8.128" x2="6.858" y2="9.418" width="0" layer="19" extent="16-16"/>
 <wire x1="3.302" y1="3.048" x2="3.302" y2="8.128" width="0" layer="19" extent="1-1"/>
 <wire x1="6.858" y1="3.834" x2="3.302" y2="3.048" width="0" layer="19" extent="16-16"/>
-<wire x1="18.542" y1="3.58" x2="6.858" y2="3.834" width="0" layer="19" extent="16-16"/>
-<wire x1="3.302" y1="17.502" x2="10.668" y2="11.958" width="0" layer="19" extent="1-16"/>
+<wire x1="18.542" y1="4.088" x2="6.858" y2="3.834" width="0" layer="19" extent="16-16"/>
+<wire x1="10.668" y1="11.958" x2="3.302" y2="17.502" width="0" layer="19" extent="1-16"/>
 <wire x1="22.352" y1="2.54" x2="18.542" y2="10.692" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$3">
@@ -912,8 +912,6 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="3"/>
 <wire x1="3.302" y1="10.668" x2="4.658" y2="10.668" width="0.381" layer="16"/>
 <wire x1="4.658" y1="10.668" x2="5.908" y2="9.418" width="0.381" layer="16" curve="-90"/>
-<wire x1="5.908" y1="9.418" x2="5.908" y2="9.078" width="0.381" layer="16"/>
-<wire x1="7.808" y1="9.078" x2="7.808" y2="9.418" width="0.381" layer="16"/>
 <wire x1="6.858" y1="6.834" x2="6.858" y2="7.874" width="0.3048" layer="16"/>
 <wire x1="6.35" y1="8.382" x2="6.858" y2="7.874" width="0.3048" layer="16" curve="-90"/>
 <wire x1="6.35" y1="8.382" x2="5.908" y2="8.824" width="0.3048" layer="16" curve="-90"/>
@@ -931,15 +929,16 @@ design rules under a new name.</description>
 <wire x1="12.2299625" y1="8.128" x2="12.2299625" y2="10.633528125" width="0.3048" layer="1"/>
 <via x="12.2299625" y="10.633528125" extent="1-16" drill="0.35"/>
 <wire x1="7.074" y1="16.256" x2="7.112" y2="16.218" width="0.3048" layer="16" curve="-90"/>
-<wire x1="7.112" y1="16.218" x2="7.112" y2="14.478" width="0.3048" layer="16"/>
 <wire x1="12.2299625" y1="10.633528125" x2="12.192" y2="10.671490625" width="0.3048" layer="16" curve="-90"/>
 <wire x1="12.192" y1="10.671490625" x2="12.192" y2="11.43" width="0.3048" layer="16"/>
 <wire x1="12.192" y1="11.43" x2="11.664" y2="11.958" width="0.3048" layer="16" curve="90"/>
 <wire x1="11.664" y1="11.958" x2="11.618" y2="11.958" width="0.3048" layer="16"/>
 <wire x1="11.618" y1="11.958" x2="11.618" y2="12.512" width="0.3048" layer="16"/>
 <wire x1="11.618" y1="12.512" x2="11.176" y2="12.954" width="0.3048" layer="16" curve="90"/>
-<wire x1="8.636" y1="12.954" x2="7.112" y2="14.478" width="0.3048" layer="16" curve="-90"/>
 <wire x1="11.176" y1="12.954" x2="8.636" y2="12.954" width="0.3048" layer="16"/>
+<wire x1="7.074" y1="16.256" x2="7.366" y2="15.964" width="0.3048" layer="16" curve="-90"/>
+<wire x1="7.366" y1="14.224" x2="8.636" y2="12.954" width="0.3048" layer="16" curve="90"/>
+<wire x1="7.366" y1="15.964" x2="7.366" y2="14.224" width="0.3048" layer="16"/>
 </signal>
 <signal name="5V">
 <contactref element="JP2" pad="1"/>
@@ -957,12 +956,8 @@ design rules under a new name.</description>
 <wire x1="23.102" y1="10.91" x2="22.352" y2="10.16" width="0.3048" layer="16" curve="-90"/>
 <wire x1="22.352" y1="10.16" x2="21.082" y2="10.16" width="0.3048" layer="16"/>
 <wire x1="21.082" y1="10.16" x2="20.32" y2="9.398" width="0.3048" layer="16" curve="90"/>
-<wire x1="20.32" y1="9.398" x2="18.796" y2="7.874" width="0.3048" layer="16" curve="-90"/>
-<wire x1="18.796" y1="7.874" x2="15.786" y2="7.874" width="0.3048" layer="16"/>
-<wire x1="15.786" y1="7.874" x2="15.748" y2="7.874" width="0.3048" layer="16"/>
 <wire x1="6.542" y1="14.502" x2="6.566" y2="14.478" width="0.3048" layer="16" curve="-90"/>
 <wire x1="6.542" y1="14.502" x2="6.566" y2="14.478" width="0.3048" layer="16" curve="-90"/>
-<wire x1="8.128" y1="18.14" x2="8.382" y2="18.14" width="0.3048" layer="1"/>
 <wire x1="8.382" y1="18.14" x2="8.636" y2="18.14" width="0.3048" layer="1"/>
 <wire x1="8.636" y1="18.14" x2="11.938" y2="18.14" width="0.3048" layer="1"/>
 <wire x1="7.808" y1="11.918" x2="7.386" y2="11.918" width="0.381" layer="16"/>
@@ -982,8 +977,12 @@ design rules under a new name.</description>
 <wire x1="6.096" y1="16.002" x2="20.32" y2="16.002" width="0.381" layer="1"/>
 <wire x1="20.32" y1="16.002" x2="22.352" y2="13.97" width="0.381" layer="1" curve="-90"/>
 <wire x1="22.352" y1="13.97" x2="22.352" y2="10.16" width="0.381" layer="1"/>
-<wire x1="18.542" y1="6.58" x2="18.542" y2="7.62" width="0.3048" layer="16"/>
-<wire x1="18.542" y1="7.62" x2="18.796" y2="7.874" width="0.3048" layer="16" curve="-90"/>
+<wire x1="20.32" y1="9.398" x2="19.558" y2="8.636" width="0.3048" layer="16" curve="-90"/>
+<wire x1="16.548" y1="8.636" x2="15.786" y2="7.874" width="0.3048" layer="16" curve="90"/>
+<wire x1="19.558" y1="8.636" x2="19.304" y2="8.636" width="0.3048" layer="16"/>
+<wire x1="19.304" y1="8.636" x2="16.548" y2="8.636" width="0.3048" layer="16"/>
+<wire x1="18.542" y1="7.088" x2="18.542" y2="7.874" width="0.3048" layer="16"/>
+<wire x1="18.542" y1="7.874" x2="19.304" y2="8.636" width="0.3048" layer="16" curve="-90"/>
 </signal>
 <signal name="VA">
 <contactref element="JP2" pad="2"/>

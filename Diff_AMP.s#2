@@ -1128,14 +1128,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183
 <label x="-162.56" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="0" x2="-25.4" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="-10.16" x2="-17.78" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="-25.4" y="-10.16"/>
-<wire x1="-17.78" y1="-10.16" x2="-17.78" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="-25.4" y1="-22.86" x2="-22.86" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-22.86" x2="-22.86" y2="0" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="-22.86" y1="0" x2="-25.4" y2="0" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="0" x2="-17.78" y2="0" width="0.1524" layer="91"/>
+<junction x="-22.86" y="0"/>
+<wire x1="-17.78" y1="0" x2="-17.78" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
