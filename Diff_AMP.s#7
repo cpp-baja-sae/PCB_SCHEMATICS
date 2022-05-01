@@ -417,22 +417,21 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <wire x1="-2.675" y1="-1.6" x2="-2.675" y2="1.6" width="0.05" layer="51"/>
 <circle x="-1.575" y="0" radius="0.05" width="0.2" layer="25"/>
 </package>
-<package name="C3640" urn="urn:adsk.eagle:footprint:35615726/1" library_version="13" library_locally_modified="yes">
-<description>&lt;b&gt;C3640&lt;/b&gt;&lt;br&gt;
+<package name="CAPC1608X100N" urn="urn:adsk.eagle:footprint:35615820/1" library_version="15" library_locally_modified="yes">
+<description>&lt;b&gt;GCJ18 L=1.6mm W=0.8mm T=0.8mm&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-4.35" y="0" dx="10.6" dy="1.5" layer="1" rot="R90"/>
-<smd name="2" x="4.35" y="0" dx="10.6" dy="1.5" layer="1" rot="R90"/>
+<smd name="1" x="-0.71" y="0" dx="1.02" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="0.71" y="0" dx="1.02" dy="0.9" layer="1" rot="R90"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.55" y1="5.1" x2="4.55" y2="5.1" width="0.2" layer="51"/>
-<wire x1="4.55" y1="5.1" x2="4.55" y2="-5.1" width="0.2" layer="51"/>
-<wire x1="4.55" y1="-5.1" x2="-4.55" y2="-5.1" width="0.2" layer="51"/>
-<wire x1="-4.55" y1="-5.1" x2="-4.55" y2="5.1" width="0.2" layer="51"/>
-<wire x1="-5.9" y1="6.1" x2="5.9" y2="6.1" width="0.05" layer="51"/>
-<wire x1="5.9" y1="6.1" x2="5.9" y2="-6.1" width="0.05" layer="51"/>
-<wire x1="5.9" y1="-6.1" x2="-5.9" y2="-6.1" width="0.05" layer="51"/>
-<wire x1="-5.9" y1="-6.1" x2="-5.9" y2="6.1" width="0.05" layer="51"/>
-<circle x="-5.6" y="0" radius="0.05" width="0.2" layer="25"/>
+<wire x1="-1.31" y1="0.66" x2="1.31" y2="0.66" width="0.05" layer="51"/>
+<wire x1="1.31" y1="0.66" x2="1.31" y2="-0.66" width="0.05" layer="51"/>
+<wire x1="1.31" y1="-0.66" x2="-1.31" y2="-0.66" width="0.05" layer="51"/>
+<wire x1="-1.31" y1="-0.66" x2="-1.31" y2="0.66" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
 </package>
 </packages>
 <packages3d>
@@ -462,15 +461,16 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </packageinstances>
 </package3d>
 <package3d name="ERA3KV_(0603)" urn="urn:adsk.eagle:package:35608997/2" type="model" library_version="12">
-<description>&lt;b&gt;ERA3KV_(0603)&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;ERA3KV_(0603)&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="ERA3KV_(0603)"/>
 </packageinstances>
 </package3d>
-<package3d name="C3640" urn="urn:adsk.eagle:package:35615727/2" type="model" library_version="13" library_locally_modified="yes">
-<description>&lt;b&gt;C3640&lt;/b&gt;&lt;br&gt;</description>
+<package3d name="CAPC1608X100N" urn="urn:adsk.eagle:package:35615821/2" type="model" library_version="15" library_locally_modified="yes">
+<description>&lt;b&gt;GCJ18 L=1.6mm W=0.8mm T=0.8mm&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
-<packageinstance name="C3640"/>
+<packageinstance name="CAPC1608X100N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -528,7 +528,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
-<symbol name="C3640C183JFGACAUTO" urn="urn:adsk.eagle:symbol:35615725/1" library_version="13" library_locally_modified="yes">
+<symbol name="GCJ188R71E183KA01J" urn="urn:adsk.eagle:symbol:35615819/1" library_version="15" library_locally_modified="yes">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
@@ -683,29 +683,29 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 </device>
 </devices>
 </deviceset>
-<deviceset name="C3640C183JFGACAUTO" urn="urn:adsk.eagle:component:35615728/1" locally_modified="yes" prefix="C" library_version="13" library_locally_modified="yes">
-<description>&lt;b&gt;SMD Auto C0G HV, Ceramic, 0.018 uF, 5%, 1500 VDC, 1800 VDC, 125?C, -55?C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, High Voltage, Automotive Grade, 0.1 % , 55.5556 GOhms, 1.06 g, 3640, 9.1mm, 10.2mm, 2.5mm, 1.27mm, 250, 78  Weeks, 120&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1080_C0G_HV_AUTO_SMD.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="GCJ188R71E183KA01J" urn="urn:adsk.eagle:component:35615824/1" locally_modified="yes" prefix="C" library_version="15" library_locally_modified="yes">
+<description>&lt;b&gt;Capacitor GCJ18 L=1.6mm W=0.8mm T=0.8mm&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/GCJ188R71E183KA01J.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="C3640C183JFGACAUTO" x="0" y="0"/>
+<gate name="G$1" symbol="GCJ188R71E183KA01J" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="C3640">
+<device name="" package="CAPC1608X100N">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35615727/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35615821/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="SMD Auto C0G HV, Ceramic, 0.018 uF, 5%, 1500 VDC, 1800 VDC, 125?C, -55?C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, High Voltage, Automotive Grade, 0.1 % , 55.5556 GOhms, 1.06 g, 3640, 9.1mm, 10.2mm, 2.5mm, 1.27mm, 250, 78  Weeks, 120" constant="no"/>
-<attribute name="HEIGHT" value="mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="KEMET" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C3640C183JFGACAUTO" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-C3640C183JFGAUTO" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C3640C183JFGACAUTO?qs=u16ybLDytRazQjDhYzPQdQ%3D%3D" constant="no"/>
+<attribute name="DESCRIPTION" value="Capacitor GCJ18 L=1.6mm W=0.8mm T=0.8mm" constant="no"/>
+<attribute name="HEIGHT" value="1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GCJ188R71E183KA01J" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="81-GCJ188R71E183KA1J" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GCJ188R71E183KA1J" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -930,13 +930,13 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1080_C0G_HV_AUTO_S
 <part name="R12" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" deviceset="ERA-3VEB1911V" device="" package3d_urn="urn:adsk.eagle:package:35608997/2"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="C8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" deviceset="C3640C183JFGACAUTO" device="" package3d_urn="urn:adsk.eagle:package:35615727/2"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C2" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" deviceset="GCJ188R71E183KA01J" device="" package3d_urn="urn:adsk.eagle:package:35615821/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -968,8 +968,8 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1080_C0G_HV_AUTO_S
 <attribute name="VALUE" x="82.55" y="-72.39" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="C4" gate="G$1" x="38.1" y="-50.8" smashed="yes">
-<attribute name="NAME" x="36.83" y="-46.99" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="39.37" y="-46.99" size="1.778" layer="96" rot="R90" align="center-left"/>
+<attribute name="NAME" x="36.83" y="-57.15" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="36.83" y="-59.69" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="C5" gate="G$1" x="83.82" y="-27.94" smashed="yes">
 <attribute name="NAME" x="82.55" y="-24.13" size="1.778" layer="95" rot="R90" align="center-left"/>
@@ -1031,10 +1031,6 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1080_C0G_HV_AUTO_S
 <attribute name="NAME" x="-207.01" y="-27.305" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-207.01" y="-43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="30.48" y="-5.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.29" y="-6.35" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="34.29" y="-8.89" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="GND1" gate="1" x="-165.1" y="-20.32" smashed="yes">
 <attribute name="VALUE" x="-167.64" y="-22.86" size="1.778" layer="96"/>
 </instance>
@@ -1053,6 +1049,10 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1080_C0G_HV_AUTO_S
 <instance part="GND6" gate="1" x="63.5" y="-20.32" smashed="yes">
 <attribute name="VALUE" x="60.96" y="-22.86" size="1.778" layer="96"/>
 </instance>
+<instance part="C2" gate="G$1" x="35.56" y="-17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.37" y="-6.35" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="39.37" y="-8.89" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1060,12 +1060,12 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1080_C0G_HV_AUTO_S
 <net name="N$9" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="IN+"/>
-<wire x1="12.7" y1="0" x2="30.48" y2="0" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="0" x2="96.52" y2="0" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-5.08" x2="30.48" y2="0" width="0.1524" layer="91"/>
-<junction x="30.48" y="0"/>
+<wire x1="12.7" y1="0" x2="35.56" y2="0" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="0" x2="96.52" y2="0" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-5.08" x2="35.56" y2="0" width="0.1524" layer="91"/>
+<junction x="35.56" y="0"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -1089,15 +1089,6 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1080_C0G_HV_AUTO_S
 <wire x1="104.14" y1="-66.04" x2="101.6" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="101.6" y="-66.04"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="OUT"/>
-<wire x1="101.6" y1="0" x2="124.46" y2="0" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="0" x2="124.46" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-66.04" x2="121.92" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1137,14 +1128,15 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1080_C0G_HV_AUTO_S
 <label x="-162.56" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="0" x2="-25.4" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="-10.16" x2="-17.78" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="-25.4" y="-10.16"/>
-<wire x1="-17.78" y1="-10.16" x2="-17.78" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="-25.4" y1="-22.86" x2="-22.86" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-22.86" x2="-22.86" y2="0" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="-22.86" y1="0" x2="-25.4" y2="0" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="0" x2="-17.78" y2="0" width="0.1524" layer="91"/>
+<junction x="-22.86" y="0"/>
+<wire x1="-17.78" y1="0" x2="-17.78" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
@@ -1167,11 +1159,6 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1080_C0G_HV_AUTO_S
 <wire x1="-165.1" y1="-15.24" x2="-165.1" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="-116.84" y1="-17.78" x2="-116.84" y2="-20.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="VSS"/>
 <wire x1="99.06" y1="0" x2="99.06" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="10.16" x2="106.68" y2="10.16" width="0.1524" layer="91"/>
@@ -1184,16 +1171,21 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1080_C0G_HV_AUTO_S
 <wire x1="63.5" y1="-15.24" x2="63.5" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="-116.84" y1="-20.32" x2="-116.84" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="IC4" gate="G$1" pin="IN+"/>
-<wire x1="12.7" y1="-22.86" x2="30.48" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="-22.86" x2="50.8" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-17.78" x2="30.48" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="30.48" y="-22.86"/>
+<wire x1="12.7" y1="-22.86" x2="35.56" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="-22.86" x2="50.8" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-17.78" x2="35.56" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="35.56" y="-22.86"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1264,6 +1256,16 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1080_C0G_HV_AUTO_S
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="-203.2" y1="0" x2="-195.58" y2="0" width="0.1524" layer="91"/>
 <label x="-195.58" y="0" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUT"/>
+<wire x1="101.6" y1="0" x2="124.46" y2="0" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="0" x2="124.46" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-66.04" x2="121.92" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="0" x2="132.08" y2="0" width="0.1524" layer="91"/>
+<junction x="124.46" y="0"/>
+<label x="134.62" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
