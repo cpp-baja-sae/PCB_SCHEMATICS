@@ -436,19 +436,19 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <package name="ERA3KV_(0603)" urn="urn:adsk.eagle:footprint:35608944/1" locally_modified="yes" library_version="15" library_locally_modified="yes">
 <description>&lt;b&gt;ERA3KV_(0603)&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="1.942" y="1.6002" dx="0.9" dy="0.65" layer="1" rot="R90"/>
-<smd name="2" x="3.392" y="1.6002" dx="0.9" dy="0.65" layer="1" rot="R90"/>
-<text x="2.6162" y="0.1016" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="2.5654" y="3.2258" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="1.867" y1="2.0002" x2="3.467" y2="2.0002" width="0.2" layer="51"/>
-<wire x1="3.467" y1="2.0002" x2="3.467" y2="1.2002" width="0.2" layer="51"/>
-<wire x1="3.467" y1="1.2002" x2="1.867" y2="1.2002" width="0.2" layer="51"/>
-<wire x1="1.867" y1="1.2002" x2="1.867" y2="2.0002" width="0.2" layer="51"/>
-<wire x1="1.3288" y1="2.362" x2="3.8788" y2="2.362" width="0.05" layer="51"/>
-<wire x1="3.8788" y1="2.362" x2="3.8788" y2="0.813" width="0.05" layer="51"/>
-<wire x1="3.8788" y1="0.813" x2="1.3288" y2="0.813" width="0.05" layer="51"/>
-<wire x1="1.3288" y1="0.813" x2="1.3288" y2="2.362" width="0.05" layer="51"/>
-<circle x="1.092" y="1.6002" radius="0.05" width="0.2" layer="25"/>
+<smd name="1" x="-0.725" y="-0.0254" dx="0.9" dy="0.65" layer="1" rot="R90"/>
+<smd name="2" x="0.725" y="-0.0254" dx="0.9" dy="0.65" layer="1" rot="R90"/>
+<text x="-0.0508" y="-1.524" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.1016" y="1.6002" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.8" y1="0.3746" x2="0.8" y2="0.3746" width="0.2" layer="51"/>
+<wire x1="0.8" y1="0.3746" x2="0.8" y2="-0.4254" width="0.2" layer="51"/>
+<wire x1="0.8" y1="-0.4254" x2="-0.8" y2="-0.4254" width="0.2" layer="51"/>
+<wire x1="-0.8" y1="-0.4254" x2="-0.8" y2="0.3746" width="0.2" layer="51"/>
+<wire x1="-1.3382" y1="0.7364" x2="1.2118" y2="0.7364" width="0.05" layer="51"/>
+<wire x1="1.2118" y1="0.7364" x2="1.2118" y2="-0.8126" width="0.05" layer="51"/>
+<wire x1="1.2118" y1="-0.8126" x2="-1.3382" y2="-0.8126" width="0.05" layer="51"/>
+<wire x1="-1.3382" y1="-0.8126" x2="-1.3382" y2="0.7364" width="0.05" layer="51"/>
+<circle x="-1.575" y="-0.0254" radius="0.05" width="0.2" layer="25"/>
 </package>
 </packages>
 <packages3d>
@@ -1132,9 +1132,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="5.08" x2="48.26" y2="0" width="0.1524" layer="91"/>
 <junction x="48.26" y="0"/>
-<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="0" x2="38.1" y2="0" width="0.1524" layer="91"/>
 <junction x="38.1" y="0"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -1169,7 +1169,6 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <pinref part="IC3" gate="G$1" pin="GND_3"/>
 <wire x1="20.32" y1="-73.66" x2="15.24" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-73.66" x2="20.32" y2="-88.9" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="-88.9" x2="27.94" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="GND_1"/>
 <wire x1="-20.32" y1="-68.58" x2="-22.86" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-68.58" x2="-22.86" y2="-73.66" width="0.1524" layer="91"/>
@@ -1182,23 +1181,12 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <wire x1="-22.86" y1="-88.9" x2="-2.54" y2="-88.9" width="0.1524" layer="91"/>
 <junction x="-22.86" y="-88.9"/>
 <wire x1="20.32" y1="-88.9" x2="-2.54" y2="-88.9" width="0.1524" layer="91"/>
-<junction x="20.32" y="-88.9"/>
 <junction x="-2.54" y="-88.9"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="G$1" pin="EP"/>
 <wire x1="-2.54" y1="-88.9" x2="-2.54" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="-2.54" y1="-93.98" x2="-2.54" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="-68.58" x2="27.94" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="-66.04" x2="27.94" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="FEEDBACK"/>
-<wire x1="15.24" y1="-66.04" x2="27.94" y2="-66.04" width="0.1524" layer="91"/>
-<junction x="27.94" y="-66.04"/>
-<pinref part="IC3" gate="G$1" pin="OUT"/>
-<wire x1="15.24" y1="-68.58" x2="27.94" y2="-68.58" width="0.1524" layer="91"/>
-<junction x="27.94" y="-68.58"/>
-<wire x1="27.94" y1="-88.9" x2="27.94" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
@@ -1407,9 +1395,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <label x="-45.72" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="0" x2="-7.62" y2="0" width="0.1524" layer="91"/>
 <label x="-7.62" y="2.54" size="1.778" layer="95"/>
-<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VB" class="0">
@@ -1428,9 +1416,21 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <label x="-45.72" y="-27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="-22.86" x2="-7.62" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-7.62" y="-20.32" size="1.778" layer="95"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUT"/>
+<wire x1="15.24" y1="-68.58" x2="27.94" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-68.58" x2="27.94" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="FEEDBACK"/>
+<wire x1="15.24" y1="-66.04" x2="27.94" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="27.94" y="-66.04"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="-66.04" x2="27.94" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

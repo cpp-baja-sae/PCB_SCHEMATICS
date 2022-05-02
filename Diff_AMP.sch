@@ -358,7 +358,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <wire x1="0.988" y1="0" x2="4.625" y2="0" width="0.2" layer="21"/>
 <wire x1="10.975" y1="0" x2="14.612" y2="0" width="0.2" layer="21"/>
 </package>
-<package name="C1206" urn="urn:adsk.eagle:footprint:35611849/1" library_version="11" library_locally_modified="yes">
+<package name="C1206" urn="urn:adsk.eagle:footprint:35611849/1" locally_modified="yes" library_version="15" library_locally_modified="yes">
 <description>&lt;b&gt;C1206&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-1.5" y="0" dx="1.8" dy="1.15" layer="1" rot="R90"/>
@@ -369,10 +369,10 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.2" layer="51"/>
 <wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.2" layer="51"/>
 <wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.2" layer="51"/>
-<wire x1="-2.875" y1="1.8" x2="2.875" y2="1.8" width="0.05" layer="51"/>
-<wire x1="2.875" y1="1.8" x2="2.875" y2="-1.8" width="0.05" layer="51"/>
-<wire x1="2.875" y1="-1.8" x2="-2.875" y2="-1.8" width="0.05" layer="51"/>
-<wire x1="-2.875" y1="-1.8" x2="-2.875" y2="1.8" width="0.05" layer="51"/>
+<wire x1="-2.367" y1="1.038" x2="2.367" y2="1.038" width="0.05" layer="51"/>
+<wire x1="2.367" y1="1.038" x2="2.367" y2="-1.038" width="0.05" layer="51"/>
+<wire x1="2.367" y1="-1.038" x2="-2.367" y2="-1.038" width="0.05" layer="51"/>
+<wire x1="-2.367" y1="-1.038" x2="-2.367" y2="1.038" width="0.05" layer="51"/>
 <circle x="-2.35" y="0" radius="0.05" width="0.2" layer="25"/>
 </package>
 <package name="SOT95P275X110-5N" urn="urn:adsk.eagle:footprint:35609324/1" library_version="11" library_locally_modified="yes">
@@ -465,7 +465,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <packageinstance name="RESAD1559W64L635D231"/>
 </packageinstances>
 </package3d>
-<package3d name="C1206" urn="urn:adsk.eagle:package:35611850/2" type="model" library_version="11" library_locally_modified="yes">
+<package3d name="C1206" urn="urn:adsk.eagle:package:35611850/2" type="model" library_version="15" library_locally_modified="yes">
 <description>&lt;b&gt;C1206&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="C1206"/>
@@ -623,7 +623,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PTF56350R00BZ
 </device>
 </devices>
 </deviceset>
-<deviceset name="C1206F105M5RACAUTO7210" urn="urn:adsk.eagle:component:35611851/1" locally_modified="yes" prefix="C" library_version="11" library_locally_modified="yes">
+<deviceset name="C1206F105M5RACAUTO7210" urn="urn:adsk.eagle:component:35611851/2" prefix="C" library_version="15" library_locally_modified="yes">
 <description>&lt;b&gt;SMD Auto X7R FO, Ceramic, 1 uF, 20%, 50 VDC, 125 VDC, 125?C, -55?C, X7R, SMD, MLCC, Open Mode, Automotive Grade, 2.5 % , 500 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 8000, 78  Weeks, 80&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1012_X7R_OPENMODE_SMD.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -975,8 +975,6 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <part name="C3" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" deviceset="C1206F105M5RACAUTO7210" device="" package3d_urn="urn:adsk.eagle:package:35611850/2"/>
 <part name="R1" library="SamacSys_Parts" deviceset="RT0603BRD0750KL" device=""/>
 <part name="IC1" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" deviceset="NCV8711ASN500T1G" device="" package3d_urn="urn:adsk.eagle:package:35608985/3"/>
-<part name="C6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" deviceset="C1206F105M5RACAUTO7210" device="" package3d_urn="urn:adsk.eagle:package:35611850/2"/>
-<part name="C7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" deviceset="C1206F105M5RACAUTO7210" device="" package3d_urn="urn:adsk.eagle:package:35611850/2"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -992,6 +990,10 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" deviceset="ERA-3VEB1911V" device="" package3d_urn="urn:adsk.eagle:package:35608997/2"/>
 <part name="R8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" deviceset="ERA-3VEB1911V" device="" package3d_urn="urn:adsk.eagle:package:35608997/2"/>
+<part name="C8" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" deviceset="GCJ188R71E183KA01J" device="" package3d_urn="urn:adsk.eagle:package:35615821/2"/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" deviceset="C1206F105M5RACAUTO7210" device="" package3d_urn="urn:adsk.eagle:package:35611850/2"/>
+<part name="C7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:35608874" deviceset="C1206F105M5RACAUTO7210" device="" package3d_urn="urn:adsk.eagle:package:35611850/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -1022,9 +1024,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <attribute name="NAME" x="82.55" y="-69.85" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="82.55" y="-72.39" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C4" gate="G$1" x="38.1" y="-53.34" smashed="yes">
-<attribute name="NAME" x="29.21" y="-54.61" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="31.75" y="-54.61" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="C4" gate="G$1" x="35.56" y="-53.34" smashed="yes">
+<attribute name="NAME" x="21.59" y="-46.99" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="21.59" y="-49.53" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="C5" gate="G$1" x="83.82" y="-30.48" smashed="yes">
 <attribute name="NAME" x="82.55" y="-26.67" size="1.778" layer="95" rot="R90" align="center-left"/>
@@ -1058,14 +1060,6 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <attribute name="NAME" x="-151.13" y="10.16" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-151.13" y="7.62" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C6" gate="G$1" x="-116.84" y="-5.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="-113.03" y="-3.81" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-113.03" y="-6.35" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="C7" gate="G$1" x="-165.1" y="-2.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="-161.29" y="-6.35" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-161.29" y="-8.89" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="JP1" gate="A" x="-200.66" y="0" smashed="yes">
 <attribute name="NAME" x="-207.01" y="8.255" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-207.01" y="-7.62" size="1.778" layer="96"/>
@@ -1096,8 +1090,8 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <attribute name="NAME" x="52.07" y="16.51" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="52.07" y="13.97" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="GND7" gate="1" x="35.56" y="-58.42" smashed="yes">
-<attribute name="VALUE" x="33.02" y="-60.96" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="33.02" y="-58.42" smashed="yes">
+<attribute name="VALUE" x="30.48" y="-60.96" size="1.778" layer="96"/>
 </instance>
 <instance part="GND8" gate="1" x="81.28" y="-38.1" smashed="yes">
 <attribute name="VALUE" x="78.74" y="-40.64" size="1.778" layer="96"/>
@@ -1116,6 +1110,21 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <instance part="R8" gate="G$1" x="-5.08" y="-22.86" smashed="yes">
 <attribute name="NAME" x="8.89" y="-16.51" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="8.89" y="-19.05" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C8" gate="G$1" x="30.48" y="-35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.97" y="-26.67" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="13.97" y="-29.21" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="GND10" gate="1" x="12.7" y="-45.72" smashed="yes">
+<attribute name="VALUE" x="10.16" y="-50.8" size="1.778" layer="96"/>
+</instance>
+<instance part="C6" gate="G$1" x="-165.1" y="-2.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="-158.75" y="-11.43" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="-161.29" y="-11.43" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="C7" gate="G$1" x="-116.84" y="-5.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="-110.49" y="-13.97" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="-113.03" y="-13.97" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -1221,11 +1230,6 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <label x="-193.04" y="-38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="2"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="-165.1" y1="-15.24" x2="-165.1" y2="-17.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="VSS"/>
 <wire x1="99.06" y1="-2.54" x2="99.06" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="10.16" x2="106.68" y2="10.16" width="0.1524" layer="91"/>
@@ -1239,11 +1243,6 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="-116.84" y1="-20.32" x2="-116.84" y2="-17.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="-30.48" x2="81.28" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -1251,9 +1250,9 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="35.56" y1="-55.88" x2="35.56" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-55.88" x2="33.02" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="-53.34" x2="38.1" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-53.34" x2="35.56" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -1262,17 +1261,38 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="63.5" y1="17.78" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="-35.56" x2="12.7" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="12.7" y1="-35.56" x2="12.7" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="-165.1" y1="-15.24" x2="-165.1" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="-116.84" y1="-17.78" x2="-116.84" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <wire x1="12.7" y1="-22.86" x2="38.1" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="G$1" pin="IN+"/>
-<wire x1="38.1" y1="-22.86" x2="50.8" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-22.86" x2="43.18" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-22.86" x2="50.8" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-22.86" x2="50.8" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="-17.78" x2="38.1" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="38.1" y="-22.86"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="-35.56" x2="43.18" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-35.56" x2="43.18" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="43.18" y="-22.86"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -1295,11 +1315,11 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <segment>
 <pinref part="IC1" gate="G$1" pin="IN"/>
 <wire x1="-152.4" y1="2.54" x2="-165.1" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="-165.1" y1="-2.54" x2="-165.1" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-165.1" y1="2.54" x2="-170.18" y2="2.54" width="0.1524" layer="91"/>
-<junction x="-165.1" y="2.54"/>
 <label x="-170.18" y="5.08" size="1.778" layer="95"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="-165.1" y1="2.54" x2="-170.18" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-165.1" y1="-2.54" x2="-165.1" y2="2.54" width="0.1524" layer="91"/>
+<junction x="-165.1" y="2.54"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="EN"/>
@@ -1338,14 +1358,14 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="-78.74" y1="-22.86" x2="-66.04" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
-<wire x1="-116.84" y1="0" x2="-119.38" y2="0" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="-116.84" y1="-5.08" x2="-116.84" y2="0" width="0.1524" layer="91"/>
-<wire x1="-116.84" y1="0" x2="-78.74" y2="0" width="0.1524" layer="91"/>
-<junction x="-116.84" y="0"/>
+<wire x1="-119.38" y1="0" x2="-116.84" y2="0" width="0.1524" layer="91"/>
 <junction x="-78.74" y="0"/>
+<wire x1="-116.84" y1="0" x2="-78.74" y2="0" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="0" x2="-78.74" y2="2.54" width="0.1524" layer="91"/>
 <label x="-78.74" y="5.08" size="1.778" layer="95"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="-116.84" y1="-5.08" x2="-116.84" y2="0" width="0.1524" layer="91"/>
+<junction x="-116.84" y="0"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="VDD"/>
@@ -1365,7 +1385,7 @@ Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RD
 <pinref part="IC4" gate="G$1" pin="VDD"/>
 <wire x1="53.34" y1="-50.8" x2="53.34" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="-53.34" x2="50.8" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-53.34" x2="48.26" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-53.34" x2="53.34" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="53.34" y="-53.34"/>
 <label x="50.8" y="-58.42" size="1.778" layer="95"/>
